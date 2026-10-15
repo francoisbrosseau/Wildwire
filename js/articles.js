@@ -83,7 +83,7 @@ window.WILDWIRE_ARTICLES = [
   {
     "id": "travel-with-curiosity",
     "category": "Explore",
-    "title": "Travel Better by Going Slower",
+    "title": "The Art of Going Somewhere New",
     "subtitle": "Why one neighborhood can tell you more than ten rushed landmarks.",
     "date": "October 15, 2026",
     "read": 5,
