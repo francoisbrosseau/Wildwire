@@ -145,7 +145,7 @@ async function generateImage(article, pairing, id, existing) {
     input: prompt,
     tools: [{
       type: 'image_generation', model: IMAGE_MODEL, size: '1536x1024',
-      quality: 'medium', output_format: 'webp', compression: 82,
+      quality: 'medium', output_format: 'webp', output_compression: 82,
     }],
     max_output_tokens: 1600,
   }, `Image generation for ${article.category}`);
