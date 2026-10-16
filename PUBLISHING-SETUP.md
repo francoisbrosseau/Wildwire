@@ -5,8 +5,11 @@
 - The API key is present as a GitHub Actions secret. Real tests have successfully
   generated and fact-checked a Strength story and generated/reviewed its image.
 - A complete eight-story/thirteen-image unattended run has **not yet passed**.
-  The latest original run (#19) stopped after a source registry mismatch in its
-  second article. Existing public content was not changed.
+  The original run (#19) stopped after a source registry mismatch. The repaired
+  preview (#20) fixed URL binding and validated Strength and its image, but
+  rejected Style after two fact-check repair rounds: inaccurate author metadata
+  and an unsupported interpretation of a repair study. Existing public content
+  was not changed. No further paid reruns were launched after this result.
 - Recurring production is **off**. Both launch variables were absent when checked.
   The owner's reported $16 payment and $40 billing cap have not been independently
   verified. Do not claim to know the remaining API credit balance.
@@ -44,6 +47,8 @@ saveable. GitHub bot commits do not trigger a branch-based Pages build, so the
 pipeline explicitly calls the reusable pages.yml deployment workflow, then
 verifies all eight stories and thirteen images on WildWireMag.com.
 
+The explicit Pages job is gated by WILDWIRE_LIVE_APPROVED=yes, so merging these
+repairs does not change deployment or create new deployment-failure emails.
 The repository's **Settings → Pages → Source must be GitHub Actions** before
 using pages.yml. The repository currently uses main/root branch publishing.
 Prepare and validate the workflow before changing that setting. Once migrated,

@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   deploy:
-    if: github.ref_name == github.event.repository.default_branch
+    if: github.ref_name == github.event.repository.default_branch && vars.WILDWIRE_LIVE_APPROVED == 'yes'
     runs-on: ubuntu-24.04
     timeout-minutes: 15
     environment:
