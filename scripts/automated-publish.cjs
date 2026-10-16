@@ -41,6 +41,17 @@ const PAIRINGS = [
 
 const fail = message => { throw new Error(message); };
 const tokens = value => String(value || '').toLowerCase().match(/[a-z0-9]{3,}/g) || [];
+const countWords = value => String(value || '').split(/\s+/).filter(word => /[\p{L}\p{N}]/u.test(word) && !/^\[\d+\]$/.test(word)).length;
+
+function assertFreshImages(images, previousFiles) {
+  const hashes = new Map();
+  for (const file of new Set(previousFiles)) if (fs.existsSync(file)) hashes.set(crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex'), file);
+  for (const image of images) {
+    const hash = crypto.createHash('sha256').update(image.bytes).digest('hex');
+    if (hashes.has(hash)) fail(`Image content is repeated: ${image.path} matches ${hashes.get(hash)}`);
+    hashes.set(hash, image.path);
+  }
+}
 const titleOverlap = (left, right) => {
   const a = new Set(tokens(left)), b = new Set(tokens(right));
   return a.size && b.size ? [...a].filter(word => b.has(word)).length / Math.min(a.size, b.size) : 0;
@@ -174,14 +185,16 @@ function applyVerifiedCorrections(article, review) {
     if (section[1].split(correction.original).length !== 2) fail('Fact-check text correction did not match exactly one passage.');
     if (correction.replacement.trim() && (!correction.evidenceUrl || !allowed.has(canonicalEvidenceUrl(correction.evidenceUrl)))) fail('Replacement factual text needs evidence from a cited source.');
     if (correction.original !== correction.replacement) changes++;
-    section[1] = section[1].replace(correction.original, correction.replacement).replace(/ {2,}/g, ' ').trim();
+    const evidenceIndex = correction.replacement.trim() ? revised.sources.findIndex(source => canonicalEvidenceUrl(source.url) === canonicalEvidenceUrl(correction.evidenceUrl)) + 1 : 0;
+    const replacement = correction.replacement.replace(/\[\d+\]/g, `[${evidenceIndex}]`);
+    section[1] = section[1].replace(correction.original, replacement).replace(/ {2,}/g, ' ').trim();
   }
   return { article: revised, changes };
 }
 
 async function reviewArticle(article, category, round) {
   const checked = await textCall(
-    `Act as a careful WILDWIRE fact-checker. Open the exact cited pages and check material factual claims, nearby inline citations, and source metadata against those exact pages. The sourceId and URL mapping is fixed. Do not mix the byline of a university repost with its original publication, or mix author names from different repository records. Use the cited page's own byline/preferred citation. Preserve a credited author name variant when it clearly identifies the same person; report a correction if it is genuinely inaccurate. Commentary, interpretation and explicitly framed practical suggestions need not be direct quotations from research, but must not be attributed to a study as findings the study did not establish. Check whether a claimed finding is actually supported.\n\nReturn one JSON object ONLY, with no markdown or text outside it:\n{"passed":boolean,"issues":["material problems still present"],"checkedClaims":["at least three precise claims verified against their cited pages"],"sourceCorrections":[{"sourceId":"S1","title":"complete title on that cited page","authors":"exact byline or publishing organization when no individual author is credited","publication":"publisher of that page","evidenceUrl":"the exact cited page URL"}],"textCorrections":[{"sectionIndex":0,"original":"EXACT existing sentence or short passage from that section's prose","replacement":"precise supported replacement, or empty string to delete an unsupported claim","evidenceUrl":"cited source supporting the replacement; empty only for deletion"}]}\n\nFor every fixable issue provide the direct correction, not just instructions to a writer. sectionIndex is zero-based. original must match exactly once in that section; copy it character for character. Prefer deleting an unverifiable sentence to introducing new facts. Do not rewrite unaffected paragraphs. For a source metadata problem return the full correct metadata grounded only in that SAME cited page. Never invent missing names. If a material issue cannot be resolved from the cited evidence, list it and leave passed false. Return passed true only with no remaining issues and no requested corrections. Do not include a new unsupported concern solely because a previous reviewer requested edits; judge this actual version.\n\nARTICLE:\n${JSON.stringify(article)}`,
+    `Act as a careful WILDWIRE fact-checker. Open the exact cited pages and check material factual claims, nearby inline citations, and source metadata against those exact pages. The sourceId and URL mapping is fixed. Inline citation numbers are positions in ARTICLE.sources, NOT numbers from sourceId or research notes. Citation [1] MUST mean sources[0], [2] sources[1], [3] sources[2]. Check every numbered citation against that exact mapping, including already factual prose. Return textCorrections for mismatched numbers. Replacement citations must refer to the provided evidenceUrl, and no other page. Explicitly check that every one of the three sources is used at a supported claim and no citation number is outside 1–3. Do not mix the byline of a university repost with its original publication, or mix author names from different repository records. Use the cited page's own byline/preferred citation. Preserve a credited author name variant when it clearly identifies the same person; report a correction if it is genuinely inaccurate. Commentary, interpretation and explicitly framed practical suggestions need not be direct quotations from research, but must not be attributed to a study as findings the study did not establish. Check whether a claimed finding is actually supported.\n\nReturn one JSON object ONLY, with no markdown or text outside it:\n{"passed":boolean,"issues":["material problems still present"],"checkedClaims":["at least three precise claims verified against their cited pages"],"sourceCorrections":[{"sourceId":"S1","title":"complete title on that cited page","authors":"exact byline or publishing organization when no individual author is credited","publication":"publisher of that page","evidenceUrl":"the exact cited page URL"}],"textCorrections":[{"sectionIndex":0,"original":"EXACT existing sentence or short passage from that section's prose","replacement":"precise supported replacement, or empty string to delete an unsupported claim","evidenceUrl":"cited source supporting the replacement; empty only for deletion"}]}\n\nFor every fixable issue provide the direct correction, not just instructions to a writer. sectionIndex is zero-based. original must match exactly once in that section; copy it character for character. Prefer deleting an unverifiable sentence to introducing new facts. Do not rewrite unaffected paragraphs. For a source metadata problem return the full correct metadata grounded only in that SAME cited page. Never invent missing names. If a material issue cannot be resolved from the cited evidence, list it and leave passed false. Return passed true only with no remaining issues and no requested corrections. Do not include a new unsupported concern solely because a previous reviewer requested edits; judge this actual version.\n\nARTICLE:\n${JSON.stringify(article)}`,
     true, null, `${category}: ${round ? 'verify targeted corrections' : 'fact-check'}`,
   );
   let review;
@@ -338,8 +351,9 @@ function validateArticle(article, searchedSources, existing, date, pairing) {
   }
   if (!Array.isArray(article.sources) || article.sources.length < 3) fail('Each story needs at least three sources.');
   const body = article.body.map(section => `${section[0]}\n${section[1]}`).join('\n');
-  const count = tokens(body).length;
-  if (count < 800 || count > 1600) fail(`Article length ${count} is outside 800–1,600 words.`);
+  if ([...body.matchAll(/\[(\d+)\]/g)].some(match => Number(match[1]) < 1 || Number(match[1]) > article.sources.length)) fail('Article contains an out-of-range inline citation.');
+  const count = countWords(body);
+  if (count < 800 || count > 2000) fail(`Article length ${count} is outside 800–2,000 words.`);
   if (article.category === 'Living') {
     const finalSection = article.body.at(-1);
     if (!finalSection || tokens(finalSection[1]).length < 50) fail('Living story must finish with a substantial, specific practice or reflection.');
@@ -378,12 +392,12 @@ async function makeArticle(category, date, pairing, existing, dailyRead = false,
   const sourceCandidates = uniqueSources(researched.sources).map((source, index) => ({ ...source, sourceId: `S${index + 1}` }));
   const schema = articleSchema(sourceCandidates);
   const drafted = await textCall(
-    `Write one original, substantial WILDWIRE article in JSON only, based on the research notes below. Voice: intelligent, confident, warm, inclusive and human; no filler, alpha clichés or generic AI phrasing. Keep reporting distinct from commentary. Do not invent interviews, personal experience, statistics or quotations. Category must be ${category}; ${dailyRead ? 'mark this as an additional Daily Read story' : 'this is the main pillar story'}. Write 6–9 useful sections and target 1,000–1,200 words (never fewer than 900). Build each section with real explanation, examples or useful steps, not padding. Put inline [1], [2], [3] citations in the relevant prose. Include concrete steps when the topic is training, cooking or another practical guide. For Living, make the final section a grounded, story-specific practice or reflection of at least 70 words; make its heading distinct from all previous Living endings below. Do not repeat a generic daily ritual.\n\nArchived Living endings:\n${oldLivingEndings}\n\nResearch notes:\n${researched.text}\n\nFor each of the exactly three cited sources, copy the complete exact page title, publication name, date, and named author(s) from the linked source page; do not shorten or paraphrase titles. Never use placeholder author metadata or infer names; if no individual author is listed, use the publishing organization. Select exactly three distinct sourceId values from this verified registry. Never write or change URLs; the publisher attaches each URL from its sourceId:\n${JSON.stringify(sourceCandidates)}\n\nReturn: {"category":"${category}","title":"...","subtitle":"...","imageAlt":"...","imageConcept":"a specific, visual scene centered on a couple, family or friends","body":[["section heading","substantial prose"],...],"sources":[{"title":"...","sourceId":"S1","authors":"...","publication":"..."},...]}`,
+    `Write one original, substantial WILDWIRE article in JSON only, based on the research notes below. Voice: intelligent, confident, warm, inclusive and human; no filler, alpha clichés or generic AI phrasing. Keep reporting distinct from commentary. Do not invent interviews, personal experience, statistics or quotations. Category must be ${category}; ${dailyRead ? 'mark this as an additional Daily Read story' : 'this is the main pillar story'}. Write 6–9 useful sections and target 1,000–1,200 words (never fewer than 900). Build each section with real explanation, examples or useful steps, not padding. Put inline [1], [2], [3] citations in the relevant prose. IMPORTANT: these numbers are positions in YOUR final sources array, not sourceId numbers or citation numbering from research notes. Use every selected source at least once; never output [4] or higher. Choose the sources array first, then assign the prose citations to its exact order. Include concrete steps when the topic is training, cooking or another practical guide. For Living, make the final section a grounded, story-specific practice or reflection of at least 70 words; make its heading distinct from all previous Living endings below. Do not repeat a generic daily ritual.\n\nArchived Living endings:\n${oldLivingEndings}\n\nResearch notes:\n${researched.text}\n\nFor each of the exactly three cited sources, copy the complete exact page title, publication name, date, and named author(s) from the linked source page; do not shorten or paraphrase titles. Never use placeholder author metadata or infer names; if no individual author is listed, use the publishing organization. Select exactly three distinct sourceId values from this verified registry. Never write or change URLs; the publisher attaches each URL from its sourceId:\n${JSON.stringify(sourceCandidates)}\n\nReturn: {"category":"${category}","title":"...","subtitle":"...","imageAlt":"...","imageConcept":"a specific, visual scene centered on a couple, family or friends","body":[["section heading","substantial prose"],...],"sources":[{"title":"...","sourceId":"S1","authors":"...","publication":"..."},...]}`,
     false, schema, `${category}: draft`,
   );
   let article = bindSources(parseJson(drafted.text), sourceCandidates);
   if (article.category !== category) fail(`Draft category mismatch for ${category}.`);
-  const draftWords = tokens((article.body || []).map(section => section.join('\n')).join('\n')).length;
+  const draftWords = countWords((article.body || []).map(section => section.join('\n')).join('\n'));
   if (draftWords < 800) {
     const repaired = await textCall(
       `Expand this underlength WILDWIRE article to 1,000–1,200 words across 6–9 useful sections. Preserve its headline, category, angle, source records, and inline [1], [2], [3] citations. Add meaningful explanation, practical detail, tradeoffs, and specific examples grounded only in the supplied research notes. Do not invent sources, quotes, statistics, personal experiences, or factual claims. Return the complete article JSON in the same schema using sourceId, title, authors and publication in each source record (omit URL and all computed publishing fields). The final Living section, if applicable, must remain a distinct story-specific practice/reflection of at least 70 words.\n\nRESEARCH NOTES:\n${researched.text}\n\nARTICLE TO EXPAND:\n${JSON.stringify(article)}`,
@@ -453,7 +467,7 @@ async function main() {
           result = await makeArticle(category, date, pairings[index], [...existing, ...previousInEdition], dailyRead, rejectedTopics);
           break;
         } catch (error) {
-          if (topicAttempt || !/Fact check failed|Possible duplicate|Article length|Research returned fewer|correction (?:did not match|must be grounded)|Replacement factual text/.test(error.message)) throw error;
+          if (topicAttempt || !/Fact check failed|Possible duplicate|Article length|Research returned fewer|inline citation|correction (?:did not match|must be grounded)|Replacement factual text/.test(error.message)) throw error;
           rejectedTopics.push(error.message);
           runReport.rejectedCandidates = [...(runReport.rejectedCandidates || []), { category, dailyRead, reason: error.message }];
           saveReport();
@@ -487,6 +501,8 @@ async function main() {
   }
   const allImages = [...results.map(item => item.image.path), ...pillarImages.map(item => item.image.path)];
   if (new Set(allImages).size !== assignments.length + CATEGORIES.length) fail('Image reuse detected in the daily edition and pillar tiles.');
+  const previousImages = [...existing.map(article => article.image), ...readEditionManifests().flatMap(manifest => Object.values(manifest.pillarImages || {}).map(tile => tile.image))].filter(Boolean).map(file => path.join(ROOT, file));
+  assertFreshImages([...results.map(item => item.image), ...pillarImages.map(item => item.image)], previousImages);
   // Even previews stage the complete edition in this disposable checkout, so
   // the following homepage, archive and site checks exercise NEW content.
   // The workflow's production gates alone authorize commits and deployment.
@@ -538,4 +554,4 @@ if (require.main === module) main().catch(error => {
   process.exitCode = 1;
 });
 
-module.exports = { torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle, articleSchema, bindSources, applyVerifiedCorrections, canonicalEvidenceUrl, apiRequest, DAILY_READ_COUNT, DAILY_READ_CATEGORIES };
+module.exports = { torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle, articleSchema, bindSources, applyVerifiedCorrections, canonicalEvidenceUrl, countWords, assertFreshImages, apiRequest, DAILY_READ_COUNT, DAILY_READ_CATEGORIES };
