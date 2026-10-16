@@ -22,6 +22,11 @@
     auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true }
   });
   const origin = window.location.origin;
+  const nextParam = new URLSearchParams(location.search).get('next');
+  const validNext = value => typeof value === 'string' && /^article\.html\?id=[a-z0-9-]+(?:#comments)?$/.test(value);
+  let next = validNext(nextParam) ? nextParam : null;
+  try { if (next) sessionStorage.setItem('wildwire-return-story-v1', next); else { const saved = sessionStorage.getItem('wildwire-return-story-v1'); if (validNext(saved)) next = saved; } } catch {}
+  // Preserve the existing OAuth allow-listed redirect; retain the article locally.
   const accountReturn = `${origin}${window.location.pathname}`;
   const syncFavoriteSet = async user => {
     const { data, error } = await client.from('saved_articles').select('article_id').eq('user_id', user.id);
@@ -64,9 +69,11 @@
     }
   };
   const renderSession = async session => {
+    window.dispatchEvent(new CustomEvent('wildwire:session', { detail: { session } }));
     if ($('account-active')) $('account-active').hidden = !session?.user;
     if ($('account-auth')) $('account-auth').hidden = Boolean(session?.user);
     if ($('account-email')) $('account-email').textContent = session?.user?.email || '';
+    if (session?.user && next && $('account-active') && !document.getElementById('continue-reading')) { const link=document.createElement('a'); link.id='continue-reading'; link.href=next; link.className='bookmark'; link.textContent='Continue reading and comment →'; $('account-active').append(link); }
     accountLinks.forEach(link => { link.textContent = session?.user ? 'Your account' : 'Sign in'; });
     if (session?.user) {
       try {
@@ -83,7 +90,7 @@
     document.querySelectorAll('[data-account-mode]').forEach(tab => { const active = tab === button; tab.classList.toggle('active', active); tab.setAttribute('aria-selected', String(active)); });
     const pass = $('account-password'); if (pass) pass.autocomplete = mode === 'signup' ? 'new-password' : 'current-password';
     const submit = $('account-submit'); if (submit) submit.textContent = mode === 'signup' ? 'Create free account' : 'Sign in';
-    say(mode === 'signup' ? 'Create a free account to sync your saved stories.' : 'Sign in to sync your saved stories.');
+    say(mode === 'signup' ? 'Create a free account to save stories and join the conversation.' : 'Sign in to save stories and join the conversation.');
   }));
   $('account-form')?.addEventListener('submit', async event => {
     event.preventDefault(); const form = new FormData(event.currentTarget); const email = String(form.get('email') || '').trim(); const password = String(form.get('password') || '');
@@ -101,7 +108,7 @@
   $('forgot-button')?.addEventListener('click', async () => {
     const email = $('account-email-input')?.value.trim();
     if (!email) { say('Enter your email address first, then choose Forgot password.'); return; }
-    try { const { error } = await client.auth.resetPasswordForEmail(email, { redirectTo: accountReturn + '?mode=reset' }); if (error) throw error; say('If an account exists for that address, a password reset link is on its way.'); }
+    try { const { error } = await client.auth.resetPasswordForEmail(email, { redirectTo: (() => { const url = new URL(accountReturn); url.searchParams.set('mode', 'reset'); return url.href; })() }); if (error) throw error; say('If an account exists for that address, a password reset link is on its way.'); }
     catch (error) { say(error.message || 'We could not send a reset link.'); }
   });
   $('new-password-form')?.addEventListener('submit', async event => {

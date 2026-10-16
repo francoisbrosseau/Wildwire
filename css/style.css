@@ -214,3 +214,6 @@ body{background:var(--bg);color:var(--cream)}
 .archive-invitation>div{display:flex;gap:10px;align-items:center;white-space:nowrap;color:#81766b}
 .archive-invitation .text-link{font-size:.72rem}
 @media(max-width:760px){.archive-invitation{align-items:flex-start;flex-direction:column;gap:14px}.archive-invitation>div{flex-wrap:wrap;white-space:normal}.worlds .category-index p.category-current-story{font-size:.76rem}}
+
+/* Reader conversations share the existing WILDWIRE palette and type. */
+.comment-form{display:grid;gap:16px;margin:24px 0 32px}.comment-form label{display:grid;gap:8px;font-weight:600}.comment-form input,.comment-form textarea{width:100%;box-sizing:border-box;background:transparent;border:1px solid var(--line);padding:12px;color:var(--cream);font:inherit}.comment-form textarea{resize:vertical}.comment-form button{justify-self:start}.reader-comment{padding:24px 0;border-top:1px solid var(--line)}.comment-heading{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.comment-heading time{font-size:.8rem;color:var(--muted)}.comment-body{white-space:pre-wrap;overflow-wrap:anywhere}.comment-remove{border:0;background:transparent;color:var(--muted);text-decoration:underline;font:inherit;font-size:.8rem;cursor:pointer}.comment-form button:disabled,.comment-remove:disabled{opacity:.6;cursor:wait}

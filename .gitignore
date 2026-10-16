@@ -1,3 +1,5 @@
 node_modules/
 .wildwire-runs/
 dist/
+
+supabase/.temp/
