@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
 :root{--bg:#171915;--panel:#20231d;--cream:#f4eee3;--muted:#bbb9ae;--gold:#c9b382;--ink:#24271f;--line:#40443a;--paper:#f1ede4;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:var(--bg);color:var(--cream);font-family:var(--sans);line-height:1.65}a{color:inherit;text-decoration:none}button,input{font:inherit}button{cursor:pointer}img{max-width:100%}a,button,input{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #b58a45;outline-offset:5px}.wrap{width:100%;max-width:1392px;margin:auto;padding:0 56px}.gold{color:var(--gold)}.skip-link{position:absolute;top:-100px;left:16px;z-index:100;background:var(--cream);color:var(--ink);padding:12px}.skip-link:focus{top:12px}
 .topbar{border-bottom:1px solid var(--line)}.topbar>.wrap{display:grid;justify-items:center}.edition{display:flex;justify-content:space-between;width:100%;font-size:.61rem;letter-spacing:.17em;padding:17px 0;color:var(--muted)}.edition a{letter-spacing:.07em}.edition a span{margin-left:10px;color:var(--gold)}.header{display:contents}.brand{grid-row:2;font-family:var(--serif);font-size:clamp(3.1rem,8.6vw,7.5rem);font-weight:700;letter-spacing:-.065em;line-height:1.15;white-space:nowrap}.brand span,.footer-brand span{color:var(--gold)}.tagline{grid-row:3;margin:12px 0 28px;font-size:.63rem;letter-spacing:.4em;text-align:center;color:var(--gold)}.nav{grid-row:4;width:100%;display:flex;justify-content:center;gap:clamp(18px,3.1vw,44px);border-top:1px solid var(--line);padding:17px 0}.nav a{font-size:.67rem;text-transform:uppercase;letter-spacing:.13em;white-space:nowrap}.nav a:last-child{color:var(--gold)}.nav a:hover,.nav a[aria-current=page]{color:var(--gold)}
@@ -32,3 +32,132 @@
 @media(max-width:1100px){.editorial-layout{gap:30px;grid-template-columns:1.1fr 1fr}.editorial-layout>.card:not(:first-child){gap:18px;grid-template-columns:1fr}.editorial-layout>.card:not(:first-child) .card-image{aspect-ratio:2.1}.editorial-layout>.card:not(:first-child) p{display:none}.editorial-layout>.card:first-child .card-image{aspect-ratio:.95}.editorial-layout>.card:first-child h3{font-size:2.6rem}}
 @media(max-width:760px){.editorial-layout{grid-template-columns:1fr;gap:34px}.editorial-layout>.card:first-child{grid-row:auto}.editorial-layout>.card:first-child .card-image{aspect-ratio:1.45}.editorial-layout>.card:not(:first-child){grid-template-columns:minmax(0,.65fr) minmax(0,1fr);gap:24px}.editorial-layout>.card:not(:first-child) .card-image{aspect-ratio:1}.editorial-layout>.card:not(:first-child) p{display:block}.reading-list>.card{grid-template-columns:150px minmax(0,1fr);gap:23px}.reading-list h3{font-size:1.7rem}.reading-list .card p{font-size:.8rem}.hero-caption{max-width:80%}}
 @media(max-width:480px){.editorial-layout>.card:first-child h3{font-size:2.3rem}.editorial-layout>.card:not(:first-child){grid-template-columns:110px minmax(0,1fr);gap:18px}.editorial-layout>.card:not(:first-child) h3{font-size:1.4rem}.editorial-layout>.card:not(:first-child) .card-image{aspect-ratio:.7}.editorial-layout>.card:not(:first-child) p{font-size:.76rem}.reading-list>.card{grid-template-columns:90px minmax(0,1fr);gap:17px}.reading-list .card-image{aspect-ratio:.75}.reading-list h3{font-size:1.45rem}.reading-list .actions{gap:14px;flex-wrap:wrap}.reading-list .card p{margin-bottom:12px}.issue-line{line-height:1.5}}
+
+/* WILDWIRE pilot identity: charcoal rather than green-black, a wire-mark and a harder editorial edge. */
+:root{--bg:#171413;--panel:#241f1c;--cream:#f2e9dc;--muted:#bfb4a5;--gold:#c8a66a;--ink:#28211d;--line:#453934;--paper:#f0e8dc}
+body{background:var(--bg);color:var(--cream)}
+.brand{display:flex;flex-direction:column;align-items:center;gap:6px;grid-row:2;font-size:inherit;letter-spacing:0}
+.brand-mark{display:block;width:39px;height:29px;fill:none;stroke:var(--gold);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.brand-name{font-family:var(--serif);font-size:clamp(3.1rem,8.6vw,7.5rem);font-weight:700;letter-spacing:-.065em;line-height:.96;white-space:nowrap}
+.brand-name span{color:var(--gold)}
+.edition{color:#c5b8a8}
+.edition>span{font-weight:600;color:var(--gold)}
+.nav{border-color:var(--line)}
+.nav a{font-weight:600}
+.issue-line{color:#c5b8a8}
+.hero{min-height:640px;background:#191514}
+.hero img{object-position:58% 50%;filter:saturate(.92) contrast(1.04)}
+.hero:after{background:linear-gradient(90deg,#171413 0%,#171413f5 26%,#171413c7 43%,#1714131a 76%),linear-gradient(0deg,#17141375,transparent 45%)}
+.hero-content{max-width:680px;padding:64px 56px}
+.hero h1{font-weight:500;letter-spacing:-.045em}
+.hero .eyebrow{color:#d7b777}
+.btn{background:var(--gold);color:#211a16;text-transform:uppercase;letter-spacing:.08em}
+.btn:hover{background:#e0c58f}
+.hero-caption{font-weight:600;color:#f5ebdc}
+.paper{background:#eee5d9}
+.paper .section-head p{max-width:300px;color:#62564e}
+.paper .eyebrow,.light .eyebrow,.paper .meta,.light .meta{color:#77592f}
+.picks .card:first-child .card-image img,.editorial-layout .card-image img,.reading-list .card-image img{filter:saturate(.9) contrast(1.03)}
+.card-image{background:#453a33}
+.category-index{border-color:#51433c}
+.category-number,.category-arrow{color:#d2ad70}
+.category-index>a:hover{background:#d5c3a415}
+.manifesto{position:relative}
+.manifesto:before,.manifesto:after{content:'';display:block;width:54px;height:1px;margin:0 auto 22px;background:var(--gold)}
+.manifesto:after{margin:22px auto 0}
+.manifesto h2{letter-spacing:-.045em}
+.footer{border-color:var(--line)}
+.article-shell h1{letter-spacing:-.045em}
+.article-content h2{color:#eadcc7}
+.article-content p{color:#d8cec1}
+.citation{color:#d7b777}
+.article-sources li a{color:#f2e9dc}
+@media(max-width:760px){.hero{min-height:600px}.hero:after{background:linear-gradient(0deg,#171413fa 0%,#171413d0 37%,#17141312 93%)}.hero-content{padding-bottom:62px}.brand-mark{height:27px}}
+@media(max-width:480px){.brand-name{font-size:clamp(2.9rem,13vw,4rem)}.hero{min-height:560px}.hero img{object-position:61% center}.hero:after{background:linear-gradient(0deg,#171413fa 0%,#171413d9 40%,#17141318 93%)}.hero-content{padding:30px 23px 58px}}
+
+/* Full-range WILDWIRE: a tougher wordmark, clearer copy, and room for everyday life. */
+:root{--bg:#181514;--panel:#241f1d;--cream:#fff6e9;--muted:#d0c3b5;--gold:#e0b85e;--ink:#211b18;--line:#51413a;--paper:#f2e9dc;--ember:#d96845}
+.brand{display:flex;align-items:center;justify-content:center;grid-row:2;font-size:inherit;letter-spacing:0}
+.brand-name{font-size:clamp(3.1rem,8.6vw,7.5rem);font-family:var(--serif);font-weight:700;letter-spacing:-.07em;line-height:1;position:relative}
+.brand-name span,.footer-brand span{color:var(--gold)}
+.brand:after{content:'';display:block;width:58px;height:4px;background:var(--ember);margin:8px auto 0;transform:skewX(-28deg)}
+.brand-mark{display:none}
+.tagline{color:#f2d18e;font-weight:600}
+.hero{background:#181514}
+.hero:after{background:linear-gradient(90deg,#181514 0%,#181514d9 32%,#18151442 62%,#18151408 82%),linear-gradient(0deg,#1815147a,transparent 52%)}
+.hero-content{position:relative;z-index:1;max-width:690px;padding:42px 44px;background:rgba(24,21,20,.93);border-left:5px solid var(--ember);box-shadow:0 18px 54px #0006}
+.hero h1{color:#fff8ed;text-shadow:0 2px 18px #0007;font-weight:600}
+.hero p{color:#f0e6d9;max-width:410px}
+.hero .eyebrow{color:#f1ca74}
+.btn{background:var(--gold);color:#201713}
+.btn:hover{background:#f0ce7a}
+.issue-line{color:#eadfd2}
+.issue-line span:first-child{color:#f3cc79;font-weight:700}
+.manifesto h2{color:#fff6e9}
+.manifesto p{color:#e0d3c4}
+.manifesto .eyebrow{color:#f3cc79}
+.article-shell>h1{color:#fff6e9;text-shadow:0 1px 0 #fff2;font-weight:600}
+.article-shell>.dek{color:#e0d3c4}
+.article-content h2{color:#fff0da}
+.article-content p{color:#e6ddd2}
+.article-content .small{color:#d0c3b5}
+.article-content .recipe-list{padding-left:25px;margin:20px 0 26px;color:#eee3d6}
+.article-content .recipe-list li{padding:4px 0 4px 7px}
+.article-content .recipe-list li::marker{color:var(--ember)}
+.article-sources li{color:#d0c3b5}
+.article-sources li a{color:#fff6e9}
+.citation{color:#f1ca74}
+.category-index p{font-size:.72rem;line-height:1.65;color:#d0c3b5}
+.category-index>a:hover{background:#d9684512}
+@media(max-width:1000px){.category-index p{font-size:.7rem}}
+@media(max-width:760px){.hero-content{background:rgba(24,21,20,.95);margin:0 20px 30px;padding:30px 26px 55px}.hero:after{background:linear-gradient(0deg,#181514e8 0%,#18151435 55%,#18151408 92%)}.brand:after{width:48px;height:3px;margin-top:6px}}
+@media(max-width:480px){.brand-name{font-size:clamp(2.9rem,13vw,4rem)}.hero-content{margin:0 16px 30px;padding:25px 21px 52px}.hero h1{font-size:clamp(2.5rem,10vw,3.15rem)}}
+
+/* The WILDWIRE blade mark cuts the two halves of the name apart. */
+.brand:after{content:none}
+.brand-name{display:inline-flex;align-items:center;justify-content:center;gap:.025em;font-family:'Barlow Condensed',Impact,'Arial Narrow',sans-serif;font-size:clamp(3.4rem,9vw,7.6rem);font-weight:800;letter-spacing:-.045em;line-height:.88;text-transform:uppercase}
+.brand-wild{color:#fff6e9!important}
+.brand-wire{color:#e0b85e!important}
+.brand-cut{position:relative;display:inline-block;flex:0 0 auto;width:.12em;height:.9em;margin:0 .025em;background:linear-gradient(155deg,#fff8e9 0 11%,#f1ca74 12% 43%,#e76a44 44% 54%,#9c382d 55% 100%);clip-path:polygon(38% 0,100% 7%,61% 73%,86% 100%,18% 84%,42% 18%,0 10%);transform:rotate(19deg);filter:drop-shadow(0 0 6px #e76a4466)}
+.brand-cut:after{content:'';position:absolute;top:24%;left:-22%;width:148%;height:7%;background:#fff1cf;transform:rotate(-24deg);opacity:.9}
+.footer-brand{display:inline-flex;align-items:center;gap:.025em;font-family:'Barlow Condensed',Impact,'Arial Narrow',sans-serif;font-weight:800;letter-spacing:-.04em;text-transform:uppercase}
+.footer-brand .brand-wild{color:#fff6e9!important}
+.footer-brand .brand-wire{color:#e0b85e!important}
+.footer-brand .brand-cut{width:.1em;height:.78em;margin:0 .04em}
+.inner-practice{display:grid;grid-template-columns:minmax(140px,.55fr) minmax(0,1.6fr) auto;align-items:center;gap:34px;margin:0 auto 62px;padding:28px 36px;background:#211b19;border-left:4px solid var(--ember);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.inner-practice-label{font-size:.64rem;font-weight:700;letter-spacing:.18em;color:#f1ca74}
+.inner-practice-copy h2{margin:0 0 7px;color:#fff6e9;font-size:clamp(1.65rem,2.5vw,2.35rem)}
+.inner-practice-copy p{margin:0;color:#e0d3c4;font-size:.87rem}
+.inner-practice-link{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#f1ca74;white-space:nowrap}
+.inner-practice-link span{margin-left:14px;color:var(--ember)}
+@media(max-width:760px){.brand-name{font-size:clamp(3rem,11.8vw,5.3rem)}.inner-practice{grid-template-columns:1fr;gap:12px;margin-bottom:48px;padding:25px 24px}.inner-practice-link{margin-top:5px;white-space:normal}}
+@media(max-width:480px){.brand-name{font-size:clamp(2.55rem,13vw,4rem)}}
+
+/* Contrast and color pass for the five-pillar index. */
+:root{--cream:#fffaf3;--paper:#f4f1eb;--gold:#dfb75a}
+.worlds,.worlds .section-head h2,.worlds .category-index>a{color:#fffaf3}
+.worlds .category-index p{color:#e2d6c8!important;font-size:.78rem;line-height:1.65}
+.worlds .category-index h3{font-family:var(--sans);font-size:1.35rem;font-weight:700;letter-spacing:.035em;text-transform:uppercase;color:#fffaf3}
+.worlds .category-number{display:inline-block;margin-bottom:4px;padding:0 0 5px;border-bottom:2px solid var(--ember);color:#f4ca70;font-size:.82rem;font-weight:700;letter-spacing:.16em}
+.worlds .category-arrow{color:#f4ca70}
+@media(max-width:1000px){.worlds .category-index p{font-size:.75rem}.worlds .category-index h3{font-size:1.2rem}}
+
+/* Replace the temporary type treatment with the review-only logo artwork. */
+.brand{display:flex;flex-direction:column;align-items:center;justify-content:center;grid-row:2}
+.brand:after{content:none}
+.brand-image{display:block;width:clamp(360px,47vw,700px);max-width:86vw;height:auto;object-fit:contain}
+.footer-brand{display:inline-block;line-height:0}
+.brand-image-footer{display:block;width:190px;max-width:55vw;height:auto}
+@media(max-width:760px){.brand-image{width:clamp(300px,84vw,610px);max-width:90vw}}
+@media(max-width:480px){.brand-image{width:88vw;max-width:390px}}
+
+/* Optional accounts: keep reading open; make sign-in a quiet utility. */
+.account-link{color:#f1ca74!important}.account-wrap{max-width:850px;min-height:58vh}.account-card{max-width:600px;margin:0 auto 26px;padding:30px;background:#fffaf3;color:#29221d;border:1px solid #d6cbbb;box-shadow:0 18px 50px #0002}.account-card .notice{margin-bottom:22px;color:#51463e;border-color:#cfc3b1}.account-card h2,.account-card label{color:#29221d}.account-card label{display:block;margin:16px 0 7px;font-size:.82rem;font-weight:650}.account-card input{width:100%;padding:12px 14px;border:1px solid #a89b89;background:#fff;color:#211b18;font:inherit}.account-card .btn{margin-top:22px;min-height:46px}.account-tabs{display:flex;gap:10px;margin-bottom:24px}.account-tabs .filter{color:#302821;border-color:#a89b89}.account-tabs .filter.active{background:#302821;color:#fffaf3}.google-button{margin:18px 0 12px;color:#29221d!important;border-color:#8c7d6a;width:100%;min-height:45px}.account-text-button{background:none;border:0;color:#73552f!important;font:inherit;cursor:pointer}.account-footnote{max-width:600px;margin:0 auto 65px;color:#e0d3c4}.sync-note{margin-bottom:8px}.sync-note a{color:#73552f;text-decoration:underline;text-underline-offset:3px}.sync-note+#account-sync-status{min-height:1.4em;margin-bottom:10px;color:#5d5148}.account-card [hidden]{display:none!important}
+@media(max-width:480px){.account-card{padding:23px 19px;margin-top:10px}.account-tabs{gap:8px}.account-tabs .filter{padding:9px 11px}.account-card .btn{width:100%}}
+
+/* Cover scale keeps the entire city scene and its human story visible. */
+.hero{min-height:580px}
+.hero img{object-fit:contain;object-position:right center}
+.hero-content{max-width:570px}
+.hero h1{font-size:clamp(2.45rem,3.9vw,3.8rem);max-width:560px}
+@media(max-width:760px){.hero{min-height:560px}.hero img{object-fit:cover;object-position:62% 42%}.hero-content{max-width:510px}.hero h1{font-size:clamp(2.4rem,9vw,2.9rem)}}

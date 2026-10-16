@@ -1,25 +1,37 @@
 # WILDWIRE — Discover. Inspire. Evolve.
 
-A responsive, static digital lifestyle publication designed for GitHub Pages.
+A responsive, static editorial publication hosted with GitHub Pages.
 
-## Launch
-Upload **the contents** of this folder to the root of the `wildwire` repository (not the enclosing folder). GitHub Pages should be set to `main` and `/ (root)`.
+## Site and domain
 
-## Functional now
-- Home page with featured story, editor picks and latest stories.
-- Five working category pages and article search.
-- Seven short-form starter articles plus one researched, long-form Explore pilot with linked sources. The pilot is a content and reader-flow test; scheduled AI publishing is not active.
-- Share button and browser-local favorites.
-- Responsive layout.
+- Primary domain: `https://wildwiremag.com`
+- GitHub Pages fallback: `https://francoisbrosseau.github.io/Wildwire/`
+- The `CNAME` file targets `wildwiremag.com`. See [DNS-SETUP.md](DNS-SETUP.md) for Namecheap records and [WILDWIRE-STATUS.md](WILDWIRE-STATUS.md) for current verification limits.
 
-## Comments (requires setup)
-Comments are **not active** until configured. Enable GitHub Discussions in repository Settings, install the giscus GitHub App, choose a Discussions category, then copy `repo`, `repoId`, `category` and `categoryId` from https://giscus.app/ into `js/comments-config.js`. This requires readers to have GitHub accounts. Test a comment after deployment.
+## Reader features
 
-## AI publishing (not active)
-No API keys or automated generation are included. AI publishing requires a separate secure GitHub Actions workflow, an API account, budget limits, editorial review and testing. Never add secret keys to this repository's public files.
+- Reading remains free without an account.
+- Guest favorites stay in the current browser.
+- Supabase email accounts and saved-article sync are implemented in the launch branch. The database uses owner-scoped Row Level Security. See [ACCOUNT-SETUP.md](ACCOUNT-SETUP.md).
+- Real signup, recovery and cross-device tests still need to be completed after deployment.
 
-## Images
-Editorial images are served locally from `images/` as WebP files. See `IMAGE-SOURCES.md` for provenance. See `REVIEW.md` for the upgrade details, tested behavior and remaining verification limits.
+## Editorial content
 
-## Add articles
-Add an object to `js/articles.js` with a unique `id`, category, title, subtitle, date, read, image and `body` array. The existing templates and links will pick it up automatically.
+Seven stable-ID articles span STRENGTH, STYLE, EXPLORE, CULTURE and LIVING. Articles are stored in `content/articles/` and validated before the site catalog is built. Article IDs are permanent; add new IDs instead of replacing existing records.
+
+Comments are not active until GitHub Discussions and giscus are configured in `js/comments-config.js`.
+
+## Daily publication
+
+Automatic AI publishing is not active. The proposed pipeline needs separate owner approval, an API secret, a budget limit, a dry run and end-to-end publication testing. See [PUBLISHING-SETUP.md](PUBLISHING-SETUP.md).
+
+## Local checks
+
+Install dependencies with `npm install`, then run:
+
+```sh
+npm test
+node scripts/check-content.cjs
+```
+
+These checks cover site DOM behavior, mocked account/favorites behavior and article integrity. They do not replace live authentication, viewport or deployment checks.

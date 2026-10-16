@@ -19,3 +19,9 @@ Photos were downloaded from the following existing or replacement Unsplash image
 These are imagined illustrative scenes, not documentary photographs of named people or locations. Both images are integrated into the site and their corresponding article pages.
 
 `edge-city.webp`: AI-generated illustrative image for the WILDWIRE Explore pilot, depicting two travelers climbing an urban staircase at sunrise. This is an imagined scene, not a documentary photograph.
+
+`city-at-dusk.webp`, `strength-duo.webp`, `style-duo.webp`, `culture-cinema.webp`, and `living-couple.webp`: created with the built-in image generation tool for the five-story WILDWIRE pilot. The images depict an adult couple overlooking an old Mediterranean city, training partners in a studio, two distinct street-style looks, a repertory cinema, and a couple in a thoughtful conversation at dinner. They are imagined illustrative scenes, not documentary photographs of named people or locations. Each article page labels its artwork.
+
+`tomato-bean-skillet.webp`: created with the built-in image generation tool for the Living recipe pilot. It illustrates a skillet of blistered tomatoes and white beans with yogurt, herbs and toast; it is not a documentary photograph of the actual recipe test.
+
+`wildwire-logo.png`: AI-generated transparent WILDWIRE wordmark approved by the founder for the site, with WILD in warm ivory, WIRE in champagne gold, and an ember-red blade slash.
