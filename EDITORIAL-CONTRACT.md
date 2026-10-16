@@ -80,5 +80,5 @@ Target: ready by 7 a.m. **America/Toronto**, including daylight saving time.
 Prepare early and retry once; never silently publish a weak or partial edition.
 Keep recurring publication off until a complete API-generated preview AND the
 GitHub Pages/live verification path succeed. The founder has authorized repair
-and testing within the reported $40/month budget. Do not assert billing balance,
+and testing within the reported $50/month budget (updated by the founder on October 16). Do not assert billing balance,
 actual charges or a hard spending limit have been verified without evidence.

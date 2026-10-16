@@ -13,7 +13,7 @@ assert.match(w.document.querySelector('#account-message').textContent, /not fini
 assert.equal(w.document.querySelector('.account-footnote').textContent.includes('No registration is needed'), true);
 w.close();
 
-const linked = new JSDOM(pageHtml, { url: 'https://wildwiremag.com/account.html', runScripts: 'dangerously' });
+const linked = new JSDOM(pageHtml, { url: 'https://wildwiremag.com/account.html?next=article.html%3Fid%3Dtest-story%23comments', runScripts: 'dangerously' });
 const v = linked.window;
 let mergedRows = [{ article_id: 'remote-story' }];
 const calls = [];
@@ -22,7 +22,8 @@ const mockClient = {
   auth: {
     onAuthStateChange() { return { data: { subscription: { unsubscribe() {} } } }; },
     async getSession() { return { data: { session }, error: null }; },
-    async signOut() { calls.push(['signOut']); return { error: null }; }
+    async signOut() { calls.push(['signOut']); return { error: null }; },
+    async signInWithOAuth(input) { calls.push(['oauth', input]); return { error: null }; }
   },
   from(table) {
     assert.equal(table, 'saved_articles');
@@ -42,6 +43,9 @@ const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
   await wait(5);
   assert.equal(v.document.querySelector('#account-active').hidden, false, 'A valid session shows account state');
   assert.equal(v.document.querySelector('#account-email').textContent, 'reader@example.test');
+  assert.equal(v.document.querySelector('#continue-reading').getAttribute('href'),'article.html?id=test-story#comments','Readers can return to the story after sign-in');
+  v.document.querySelector('#google-button').click();await wait(5);
+  assert.equal(calls.find(c=>c[0]==='oauth')[1].options.redirectTo,'https://wildwiremag.com/account.html','OAuth keeps the existing allow-listed redirect URL');
   const local = JSON.parse(v.localStorage.getItem('wildwire-favorites-v1'));
   assert.deepEqual(local.sort(), ['guest-story', 'remote-story']);
   assert(calls.some(c => c[0] === 'upsert' && c[1].some(r => r.article_id === 'guest-story')), 'Guest favorites merge to the signed-in account');

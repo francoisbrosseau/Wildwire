@@ -36,7 +36,9 @@
   6:40 commit cutoff. The first new scheduled edition has not yet occurred;
   its next target is October 17, ready before 7 a.m. local time. No 365-day or
   exact-time reliability guarantee follows from one successful sample.
-- The owner's reported $16 payment and $40 billing cap remain unverified. No
+- The owner's reported $16 payment and updated $50 monthly billing limit remain
+  independently unverified. The founder reported raising the limit to $50 on
+  October 16 and wants to reassess actual costs after a month. No
   payment, recharge, billing-limit increase or new paid service was activated.
 - The approved template is in EDITORIAL-CONTRACT.md. Manual daily editions remain
   supported while the automated path is being tested.
@@ -114,7 +116,7 @@ ChatGPT subscription usage and OpenAI API usage are separate. The GitHub
 runner calls OpenAI using the existing API secret, consuming the API account's
 credits/billing allowance. Creating the key itself is not an image/article
 purchase. Do not request or activate a new paid service, increase the approved
-budget, or claim that the owner's reported $16 payment/balance or $40 hard cap
+budget, or claim that the owner's reported $16 payment/balance or current $50 hard cap
 has been independently verified.
 
 Measured #22 requests: 747,367 input tokens (86,682 cached; 77,392 cache writes),
@@ -132,9 +134,10 @@ Extrapolating the five newly generated stories and their research/review work
 to eight, plus thirteen images, suggests roughly **$40–$55 USD/month** at daily
 frequency, before tax, with considerable retry variation. One recovered sample
 cannot establish a reliable monthly average. Do not promise the full approved
-format stays below $40. At a strict $40 limit, start with manual editions or
-fewer complete automated editions per week until actual billing demonstrates
-sustainable daily usage. Do not silently reduce the approved daily format.
+format stays below $50. The founder approved a reported $50 monthly limit
+and daily automation, with a review of actual costs after the first month.
+If costs exceed that ceiling, discuss changes to volume or frequency before
+changing the approved daily template or increasing any billing limit. Do not silently reduce the approved daily format.
 Five stories/five images would likely cost less, but is NOT the approved eight-
 story/thirteen-image template and needs the founder's explicit choice.
 
