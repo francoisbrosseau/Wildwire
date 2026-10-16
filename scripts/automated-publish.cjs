@@ -10,6 +10,8 @@ const MODEL = process.env.WILDWIRE_MODEL || 'gpt-6-luna';
 const IMAGE_MODEL = process.env.WILDWIRE_IMAGE_MODEL || 'gpt-image-2.5-flare';
 const DRY_RUN = process.env.WILDWIRE_DRY_RUN === 'true';
 const CATEGORIES = ['Strength', 'Style', 'Explore', 'Culture', 'Living'];
+const DAILY_READ_COUNT = 3;
+const DAILY_READ_CATEGORIES = ['Living', 'Culture', 'Explore', 'Living', 'Style'];
 const PAIRINGS = [
   'a woman and a man who are partners, with grounded attainable appearances',
   'two women friends with distinct personal style',
@@ -129,7 +131,7 @@ async function textCall(input, useSearch = false) {
 
 function selectedPairings(date) {
   const seed = crypto.createHash('sha256').update(date).digest().readUInt32BE(0);
-  return CATEGORIES.map((_, index) => PAIRINGS[(seed + index * 3) % PAIRINGS.length]);
+  return Array.from({ length: CATEGORIES.length + DAILY_READ_COUNT }, (_, index) => PAIRINGS[(seed + index * 3) % PAIRINGS.length]);
 }
 function imagePrompt(article, pairing, recentDescriptions = []) {
   const categoryDirection = {
@@ -212,17 +214,17 @@ function validateArticle(article, searchedSources, existing, date) {
   return count;
 }
 
-async function makeArticle(category, date, pairing, existing) {
+async function makeArticle(category, date, pairing, existing, dailyRead = false) {
   const history = existing.map(item => `- ${item.title} (${item.category})`).join('\n');
   const oldLivingEndings = existing.filter(item => item.category === 'Living').map(item => `- ${item.body?.at(-1)?.[0] || 'untitled'}: ${(item.body?.at(-1)?.[1] || '').slice(0, 220)}`).join('\n');
   const researched = await textCall(
-    `Research a fresh, useful WILDWIRE feature in the ${category} pillar. Find at least five credible current or primary sources; give exact URLs, publication names, publication dates, verified named author(s) from each source page, and factual notes. Never use placeholders such as “not specified,” “unknown,” or infer authors. If a source lists no individual author, identify its publishing organization as the author. Avoid repeating these archived stories:\n${history}\nThe editorial image will feature ${pairing}. The story itself can focus on a meaningful subject in this pillar. Do not invent quotes, people, results or statistics.`,
+    `Research a fresh, useful WILDWIRE ${dailyRead ? 'supplemental Daily Read' : 'pillar'} feature in the ${category} category. Find at least five credible current or primary sources; give exact URLs, publication names, publication dates, verified named author(s) from each source page, and factual notes. Never use placeholders such as “not specified,” “unknown,” or infer authors. If a source lists no individual author, identify its publishing organization as the author. Avoid repeating these archived stories:\n${history}\nThe editorial image will feature ${pairing}. The story itself can focus on a meaningful subject in this pillar. Do not invent quotes, people, results or statistics.`,
     true,
   );
   if (researched.sources.length < 3) fail(`Research returned fewer than three source links for ${category}.`);
   const sourceCandidates = uniqueSources(researched.sources);
   const drafted = await textCall(
-    `Write one original, substantial WILDWIRE article in JSON only, based on the research notes below. Voice: intelligent, confident, warm, inclusive and human; no filler, alpha clichés or generic AI phrasing. Keep reporting distinct from commentary. Do not invent interviews, personal experience, statistics or quotations. Category must be ${category}. Write 6–9 useful sections and 800–1,600 words. Put inline [1], [2], [3] citations in the relevant prose. Include concrete steps when the topic is training, cooking or another practical guide. For Living, make the final section a grounded, story-specific practice or reflection of at least 70 words; make its heading distinct from all previous Living endings below. Do not repeat a generic daily ritual.\n\nArchived Living endings:\n${oldLivingEndings}\n\nResearch notes:\n${researched.text}\n\nFor each of the exactly three cited sources, verify the title, publication, date, and named author(s) against the linked source page. Never use placeholder author metadata or infer names; if no individual author is listed, use the publishing organization. Use exactly three verified URLs from these search results:\n${JSON.stringify(sourceCandidates)}\n\nReturn: {"category":"${category}","title":"...","subtitle":"...","imageAlt":"...","imageConcept":"a specific, visual scene centered on a couple, family or friends","body":[["section heading","substantial prose"],...],"sources":[{"title":"...","url":"exact verified URL","authors":"...","publication":"..."},...]}`,
+    `Write one original, substantial WILDWIRE article in JSON only, based on the research notes below. Voice: intelligent, confident, warm, inclusive and human; no filler, alpha clichés or generic AI phrasing. Keep reporting distinct from commentary. Do not invent interviews, personal experience, statistics or quotations. Category must be ${category}; ${dailyRead ? 'mark this as an additional Daily Read story' : 'this is the main pillar story'}. Write 6–9 useful sections and 800–1,600 words. Put inline [1], [2], [3] citations in the relevant prose. Include concrete steps when the topic is training, cooking or another practical guide. For Living, make the final section a grounded, story-specific practice or reflection of at least 70 words; make its heading distinct from all previous Living endings below. Do not repeat a generic daily ritual.\n\nArchived Living endings:\n${oldLivingEndings}\n\nResearch notes:\n${researched.text}\n\nFor each of the exactly three cited sources, verify the title, publication, date, and named author(s) against the linked source page. Never use placeholder author metadata or infer names; if no individual author is listed, use the publishing organization. Use exactly three verified URLs from these search results:\n${JSON.stringify(sourceCandidates)}\n\nReturn: {"category":"${category}","title":"...","subtitle":"...","imageAlt":"...","imageConcept":"a specific, visual scene centered on a couple, family or friends","body":[["section heading","substantial prose"],...],"sources":[{"title":"...","url":"exact verified URL","authors":"...","publication":"..."},...]}`,
   );
   const article = parseJson(drafted.text);
   if (article.category !== category) fail(`Draft category mismatch for ${category}.`);
@@ -234,6 +236,7 @@ async function makeArticle(category, date, pairing, existing) {
   if (result.passed !== true || !Array.isArray(result.checkedClaims) || result.checkedClaims.length < 3) fail(`Fact check failed for ${category}: ${(result.issues || []).join('; ') || 'not enough checked claims'}`);
   const allSources = uniqueSources([...researched.sources, ...checked.sources]);
   const wordCount = validateArticle(article, allSources, existing, date);
+  if (dailyRead) article.dailyRead = true;
   return { article, wordCount, sourcesChecked: result.checkedClaims.length, sourceResults: allSources };
 }
 
@@ -242,28 +245,30 @@ async function main() {
   const date = editionDate(process.env.WILDWIRE_TEST_DATE || '', DRY_RUN);
   const existing = readExisting();
   const alreadyPublishedToday = editionArticles(existing, date);
-  if (CATEGORIES.every(category => alreadyPublishedToday.some(item => item.category === category))) {
+  if (CATEGORIES.every(category => alreadyPublishedToday.some(item => item.category === category && !item.dailyRead)) && alreadyPublishedToday.filter(item => item.dailyRead === true).length === DAILY_READ_COUNT) {
     console.log(JSON.stringify({ status: 'ALREADY_PUBLISHED', date, articles: alreadyPublishedToday.map(item => item.id) }, null, 2));
     return;
   }
   if (alreadyPublishedToday.length) fail(`Found a partial WILDWIRE edition dated ${date}; refusing to add stories to it.`);
   const pairings = selectedPairings(date);
   const results = [];
-  for (let index = 0; index < CATEGORIES.length; index++) {
+  const assignments = [...CATEGORIES.map(category => ({ category, dailyRead: false })), ...Array.from({ length: DAILY_READ_COUNT }, (_, index) => ({ category: DAILY_READ_CATEGORIES[(new Date(date + 'T00:00:00Z').getUTCDate() + index) % DAILY_READ_CATEGORIES.length], dailyRead: true }))];
+  for (let index = 0; index < assignments.length; index++) {
     const previousInEdition = results.map(item => item.article);
-    const result = await makeArticle(CATEGORIES[index], date, pairings[index], [...existing, ...previousInEdition]);
+    const { category, dailyRead } = assignments[index];
+    const result = await makeArticle(category, date, pairings[index], [...existing, ...previousInEdition], dailyRead);
     const candidateId = `${slugify(result.article.title)}-${date.replaceAll('-', '')}`;
     if (existing.some(item => item.id === candidateId) || results.some(item => item.article.id === candidateId)) fail(`Output already exists; refusing overwrite: ${candidateId}`);
-    const image = await generateImage(result.article, pairings[index], candidateId, existing);
+    const image = await generateImage(result.article, pairings[index], candidateId, [...existing, ...results.map(item => item.article)]);
     result.article.image = image.path;
     result.article.imagePrompt = image.prompt;
     result.article.imageGenerator = IMAGE_MODEL;
     result.article.imageUsage = 'AI-generated editorial illustration; no real people or documentary event.';
     result.article.imageVisualCheck = image.imageCheck;
     results.push({ ...result, image });
-    console.log(`Validated ${CATEGORIES[index]}: ${result.wordCount} words, ${result.article.sources.length} citations, image ${image.bytes.length} bytes.`);
+    console.log(`Validated ${dailyRead ? 'Daily Read' : category}: ${result.wordCount} words, ${result.article.sources.length} citations, image ${image.bytes.length} bytes.`);
   }
-  if (new Set(results.map(item => item.article.image)).size !== CATEGORIES.length) fail('Image reuse detected in the daily edition.');
+  if (new Set(results.map(item => item.article.image)).size !== assignments.length) fail('Image reuse detected in the daily edition.');
   if (DRY_RUN) {
     console.log(JSON.stringify({
       status: 'DRY_RUN_PASSED', date, articles: results.map(({ article, wordCount, sourcesChecked, image }) => ({
@@ -288,7 +293,7 @@ async function main() {
     }
     const catalog = require('node:child_process').spawnSync(process.execPath, [path.join(__dirname, 'build-content.cjs')], { cwd: ROOT, encoding: 'utf8' });
     if (catalog.status !== 0) fail(`Catalog build failed: ${catalog.stderr || catalog.stdout}`);
-    console.log(`WILDWIRE edition ${date} staged: five stories, five unique generated images. Run all content and functional checks before committing.`);
+    console.log(`WILDWIRE edition ${date} staged: eight stories (five pillars and three Daily Reads), eight unique generated images. Run all content and functional checks before committing.`);
   } catch (error) {
     for (const file of written.reverse()) fs.rmSync(file, { force: true });
     require('node:child_process').spawnSync(process.execPath, [path.join(__dirname, 'build-content.cjs')], { cwd: ROOT, encoding: 'utf8' });
@@ -301,4 +306,4 @@ if (require.main === module) main().catch(error => {
   process.exitCode = 1;
 });
 
-module.exports = { torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle };
+module.exports = { torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle, DAILY_READ_COUNT, DAILY_READ_CATEGORIES };

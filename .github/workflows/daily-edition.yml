@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       dry_run:
-        description: Generate and validate a five-story edition without publishing
+        description: Generate and validate an eight-story edition without publishing
         type: boolean
         default: true
         required: true
@@ -45,7 +45,7 @@ jobs:
       - name: Install the site's functional test dependency
         run: npm install --no-audit --no-fund
 
-      - name: Generate, research and illustrate five stories
+      - name: Generate, research and illustrate eight stories (five pillars and three Daily Reads)
         run: node scripts/automated-publish.cjs
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
