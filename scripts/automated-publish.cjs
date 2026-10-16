@@ -82,12 +82,13 @@ function readEditionManifests() {
     .map(name => JSON.parse(fs.readFileSync(path.join(EDITIONS_DIR, name), 'utf8')));
 }
 function uniqueSources(items) {
-  const urls = new Set();
-  return items.filter(source => {
-    if (!source?.url?.startsWith('https://') || urls.has(source.url)) return false;
-    urls.add(source.url);
-    return true;
-  });
+  const sources = new Map();
+  for (const source of items) {
+    if (!source?.url?.startsWith('https://')) continue;
+    const prior = sources.get(source.url) || {};
+    sources.set(source.url, { ...prior, ...Object.fromEntries(Object.entries(source).filter(([, value]) => value !== undefined && value !== '')) });
+  }
+  return [...sources.values()];
 }
 function responseText(response) {
   return (response.output || []).flatMap(item => item.content || [])
@@ -144,6 +145,55 @@ function bindSources(article, sourceCandidates) {
   return article;
 }
 
+function canonicalEvidenceUrl(value) {
+  const url = new URL(value);
+  if (url.protocol !== 'https:') fail('Evidence must use HTTPS.');
+  url.hash = '';
+  for (const key of [...url.searchParams.keys()]) if (/^(utm_|fbclid$|gclid$)/i.test(key)) url.searchParams.delete(key);
+  url.searchParams.sort();
+  return url.href.replace(/\/$/, '');
+}
+
+function applyVerifiedCorrections(article, review) {
+  const revised = structuredClone(article);
+  let changes = 0;
+  for (const correction of review.sourceCorrections || []) {
+    const source = revised.sources.find(item => item.sourceId === correction.sourceId);
+    if (!source) fail('Fact-check correction references an unknown source ID.');
+    if (canonicalEvidenceUrl(correction.evidenceUrl) !== canonicalEvidenceUrl(source.url)) fail('Source metadata correction must be grounded in its own cited page.');
+    for (const key of ['title', 'authors', 'publication']) {
+      if (typeof correction[key] !== 'string' || !correction[key].trim() || /^(?:unknown|not specified|n\/a)\b/i.test(correction[key])) fail(`Invalid verified source correction: ${key}.`);
+      if (source[key] !== correction[key].trim()) changes++;
+      source[key] = correction[key].trim();
+    }
+  }
+  const allowed = new Set(revised.sources.map(source => canonicalEvidenceUrl(source.url)));
+  for (const correction of review.textCorrections || []) {
+    const section = revised.body[correction.sectionIndex];
+    if (!Number.isInteger(correction.sectionIndex) || !section || typeof correction.original !== 'string' || !correction.original.trim() || typeof correction.replacement !== 'string') fail('Invalid targeted text correction.');
+    if (section[1].split(correction.original).length !== 2) fail('Fact-check text correction did not match exactly one passage.');
+    if (correction.replacement.trim() && (!correction.evidenceUrl || !allowed.has(canonicalEvidenceUrl(correction.evidenceUrl)))) fail('Replacement factual text needs evidence from a cited source.');
+    if (correction.original !== correction.replacement) changes++;
+    section[1] = section[1].replace(correction.original, correction.replacement).replace(/ {2,}/g, ' ').trim();
+  }
+  return { article: revised, changes };
+}
+
+async function reviewArticle(article, category, round) {
+  const checked = await textCall(
+    `Act as a careful WILDWIRE fact-checker. Open the exact cited pages and check material factual claims, nearby inline citations, and source metadata against those exact pages. The sourceId and URL mapping is fixed. Do not mix the byline of a university repost with its original publication, or mix author names from different repository records. Use the cited page's own byline/preferred citation. Preserve a credited author name variant when it clearly identifies the same person; report a correction if it is genuinely inaccurate. Commentary, interpretation and explicitly framed practical suggestions need not be direct quotations from research, but must not be attributed to a study as findings the study did not establish. Check whether a claimed finding is actually supported.\n\nReturn one JSON object ONLY, with no markdown or text outside it:\n{"passed":boolean,"issues":["material problems still present"],"checkedClaims":["at least three precise claims verified against their cited pages"],"sourceCorrections":[{"sourceId":"S1","title":"complete title on that cited page","authors":"exact byline or publishing organization when no individual author is credited","publication":"publisher of that page","evidenceUrl":"the exact cited page URL"}],"textCorrections":[{"sectionIndex":0,"original":"EXACT existing sentence or short passage from that section's prose","replacement":"precise supported replacement, or empty string to delete an unsupported claim","evidenceUrl":"cited source supporting the replacement; empty only for deletion"}]}\n\nFor every fixable issue provide the direct correction, not just instructions to a writer. sectionIndex is zero-based. original must match exactly once in that section; copy it character for character. Prefer deleting an unverifiable sentence to introducing new facts. Do not rewrite unaffected paragraphs. For a source metadata problem return the full correct metadata grounded only in that SAME cited page. Never invent missing names. If a material issue cannot be resolved from the cited evidence, list it and leave passed false. Return passed true only with no remaining issues and no requested corrections. Do not include a new unsupported concern solely because a previous reviewer requested edits; judge this actual version.\n\nARTICLE:\n${JSON.stringify(article)}`,
+    true, null, `${category}: ${round ? 'verify targeted corrections' : 'fact-check'}`,
+  );
+  let review;
+  try { review = parseJson(checked.text); } catch {
+    const formatted = await textCall(`Convert the following fact-check report into its requested JSON object. Preserve every finding and correction exactly; do not add research, approve a failed report, infer missing evidence or alter quoted source text. If it cannot be represented faithfully, use passed:false with the explanation in issues. Include arrays issues, checkedClaims, sourceCorrections and textCorrections. Return JSON only.\n${checked.text}`, false, null, `${category}: format fact-check report`);
+    review = parseJson(formatted.text);
+  }
+  if (!Array.isArray(review.issues) || !Array.isArray(review.checkedClaims) || !Array.isArray(review.sourceCorrections) || !Array.isArray(review.textCorrections)) fail('Fact-check report is missing required evidence/correction arrays.');
+  if (review.issues.length || review.sourceCorrections.length || review.textCorrections.length) review.passed = false;
+  return { review, sources: checked.sources };
+}
+
 async function apiRequest(payload, label) {
   let lastError;
   for (let attempt = 0; attempt < 3; attempt++) {
@@ -169,7 +219,8 @@ async function apiRequest(payload, label) {
         }
         log(`${label}: completed in ${Math.round((Date.now() - started) / 1000)}s.`);
         if (runReport) {
-          runReport.requests.push({ label, seconds: Math.round((Date.now() - started) / 1000), model: payload.model, usage: body.usage || null });
+          runReport.requests.push({ label, seconds: Math.round((Date.now() - started) / 1000), model: payload.model, usage: body.usage || null,
+            tools: (body.output || []).filter(item => /_call$/.test(item.type || '')).map(item => ({ type: item.type, model: item.model || null, usage: item.usage || null })) });
           saveReport();
         }
         return body;
@@ -226,7 +277,7 @@ function imagePrompt(article, pairing, recentDescriptions = []) {
     'No visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.',
   ].join('\n');
 }
-async function generateImage(article, pairing, id, existing) {
+async function generateImage(article, pairing, id, existing, attempt = 0) {
   const checkpoint = path.join(runDirectory, `${id}.webp`);
   const metadata = path.join(runDirectory, `${id}.image.json`);
   if (fs.existsSync(checkpoint) && fs.existsSync(metadata)) {
@@ -261,7 +312,14 @@ async function generateImage(article, pairing, id, existing) {
     max_output_tokens: 350,
   }, `Visual image check for ${article.category}`);
   const imageCheck = parseJson(responseText(reviewed));
-  if (imageCheck.passed !== true || Number(imageCheck.peopleCount) < 2) fail(`Generated cover failed its visual check for ${article.category}: ${(imageCheck.issues || []).join('; ') || 'pair/family not confirmed'}`);
+  if (imageCheck.passed !== true || Number(imageCheck.peopleCount) < 2) {
+    const issues = (imageCheck.issues || []).join('; ') || 'pair/family not confirmed';
+    if (!attempt) {
+      log(`${article.category}: cover rejected (${issues}); generating one corrected image.`);
+      return generateImage({ ...article, imageConcept: `${article.imageConcept}. Correct these previous image errors: ${issues}. Make the required companions unmistakable.` }, pairing, id, existing, 1);
+    }
+    fail(`Generated cover failed its visual check for ${article.category}: ${issues}`);
+  }
   const result = { path: `images/generated/${id}.webp`, prompt, imageCheck, sha256: crypto.createHash('sha256').update(bytes).digest('hex') };
   fs.writeFileSync(checkpoint, bytes);
   fs.writeFileSync(metadata, JSON.stringify(result, null, 2) + '\n');
@@ -309,11 +367,11 @@ function validateArticle(article, searchedSources, existing, date, pairing) {
   return count;
 }
 
-async function makeArticle(category, date, pairing, existing, dailyRead = false) {
+async function makeArticle(category, date, pairing, existing, dailyRead = false, rejectedTopics = []) {
   const history = existing.map(item => `- ${item.title} (${item.category})`).join('\n');
   const oldLivingEndings = existing.filter(item => item.category === 'Living').map(item => `- ${item.body?.at(-1)?.[0] || 'untitled'}: ${(item.body?.at(-1)?.[1] || '').slice(0, 220)}`).join('\n');
   const researched = await textCall(
-    `Research a fresh, useful WILDWIRE ${dailyRead ? 'supplemental Daily Read' : 'pillar'} feature in the ${category} category. Find at least five credible current or primary sources; give exact URLs, publication names, publication dates, verified named author(s) from each source page, and factual notes. Never use placeholders such as “not specified,” “unknown,” or infer authors. If a source lists no individual author, identify its publishing organization as the author. Avoid repeating these archived stories:\n${history}\nThe editorial image will feature ${pairing}. The story itself can focus on a meaningful subject in this pillar. Do not invent quotes, people, results or statistics.`,
+    `Research a fresh, useful WILDWIRE ${dailyRead ? 'supplemental Daily Read' : 'pillar'} feature in the ${category} category. Find at least five credible current or primary sources; give exact URLs, publication names, publication dates, verified named author(s) from each source page, and factual notes. Never use placeholders such as “not specified,” “unknown,” or infer authors. If a source lists no individual author, identify its publishing organization as the author. Avoid repeating these archived stories:\n${history}\nRejected candidate topics that must NOT be repeated: ${JSON.stringify(rejectedTopics)}. If any candidate was rejected, choose a substantially different, simpler-to-verify angle and different sources, not a paraphrase of the rejected story.\nThe editorial image will feature ${pairing}. The story itself can focus on a meaningful subject in this pillar. Do not invent quotes, people, results or statistics.`,
     true, null, `${category}: research`,
   );
   if (researched.sources.length < 3) fail(`Research returned fewer than three source links for ${category}.`);
@@ -334,31 +392,27 @@ async function makeArticle(category, date, pairing, existing, dailyRead = false)
     article = bindSources(parseJson(repaired.text), sourceCandidates);
     if (article.category !== category) fail(`Expanded draft category mismatch for ${category}.`);
   }
-  let checked = await textCall(
-    `Fact-check the claims and citations in this draft against current credible sources. Return JSON only: {"passed":boolean,"issues":[string],"checkedClaims":[string]}. Fail if any material factual claim is unsupported, a quote is fabricated, or a citation does not support its nearby claim. Check the exact sentence-to-source match; related coverage is not enough.\n\nDRAFT:\n${JSON.stringify(article)}`,
-    true, null, `${category}: fact-check`,
-  );
-  let result = parseJson(checked.text);
-  let checkedSources = [...checked.sources];
-  for (let repairAttempt = 0; repairAttempt < 2 && (result.passed !== true || !Array.isArray(result.checkedClaims) || result.checkedClaims.length < 3); repairAttempt++) {
-    const repaired = await textCall(
-      `Revise this WILDWIRE article to resolve every fact-check issue below, including source metadata. Copy each source’s complete page title exactly as shown on its linked page; correct any shortened or inaccurate title, author, or publication field. For disputed quantities, describe exactly what the source counted and how it categorized it. For training terminology, preserve the source's distinction between estimates, effort targets and observed outcomes. Remove a detail entirely when it cannot be verified precisely; do not defend or restate an ambiguous claim. Select citations only by the sourceId values in the verified registry below. Preserve the mapping between inline citation numbers and source records. Do not output URLs; they are attached deterministically by the publisher. Keep the article natural, substantial (1,000–1,200 words), 6–9 useful sections, its category, headline angle, companion-centered editorial image concept and all reliable practical detail. Do not invent facts, studies, sources, quotes, personal experience or author metadata. Do not preserve source titles or metadata that the fact check identified as incorrect. Preserve exactly three verified source records and inline [1], [2], [3] references at the claims they actually support. Return the complete article JSON in the same schema using sourceId, title, authors and publication in each source record (omit URL and all computed publishing fields).\n\nFACT-CHECK ISSUES:\n${JSON.stringify(result.issues || [])}\n\nVERIFIED SOURCES:\n${JSON.stringify(sourceCandidates)}\n\nRESEARCH NOTES:\n${researched.text}\n\nARTICLE TO REVISE:\n${JSON.stringify(article)}`,
-      false, schema, `${category}: repair factual issues`,
-    );
-    article = bindSources(parseJson(repaired.text), sourceCandidates);
-    if (article.category !== category) fail(`Fact-check repair changed the category for ${category}.`);
-    checked = await textCall(
-      `Re-check every factual claim and source attribution in this revised article against current credible pages. Be strict about whether the exact cited source supports the exact sentence. Return JSON only: {"passed":boolean,"issues":[string],"checkedClaims":[string]}. Pass only when every material claim is supported and at least three claims are checked.\n\nARTICLE:\n${JSON.stringify(article)}`,
-      true, null, `${category}: recheck revision`,
-    );
-    result = parseJson(checked.text);
+  const checkedSources = [];
+  const audit = [];
+  let result;
+  for (let round = 0; round < 3; round++) {
+    const checked = await reviewArticle(article, category, round);
+    result = checked.review;
     checkedSources.push(...checked.sources);
+    audit.push({ round, review: result });
+    if (runDirectory) fs.writeFileSync(path.join(runDirectory, `${category.toLowerCase()}-${dailyRead ? 'read' : 'lead'}-${slugify(article.title)}.review.json`), JSON.stringify({ article, audit }, null, 2) + '\n');
+    if (result.passed === true && result.checkedClaims.length >= 3) break;
+    if (round === 2) break;
+    const corrected = applyVerifiedCorrections(article, result);
+    if (!corrected.changes) fail(`Fact check failed for ${category}: no evidence-grounded correction was supplied. ${(result.issues || []).join('; ')}`);
+    article = corrected.article;
+    log(`${category}: applied ${corrected.changes} targeted factual/metadata corrections; checking the corrected version.`);
   }
-  if (result.passed !== true || !Array.isArray(result.checkedClaims) || result.checkedClaims.length < 3) fail(`Fact check failed for ${category}: ${(result.issues || []).join('; ') || 'not enough checked claims'}`);
+  if (result.passed !== true || result.checkedClaims.length < 3) fail(`Fact check failed for ${category}: ${(result.issues || []).join('; ') || 'not enough checked claims'}`);
   const allSources = uniqueSources([...researched.sources, ...checkedSources]);
   const wordCount = validateArticle(article, allSources, existing, date, pairing);
   if (dailyRead) article.dailyRead = true;
-  return { article, wordCount, sourcesChecked: result.checkedClaims.length, sourceResults: allSources };
+  return { article, wordCount, sourcesChecked: result.checkedClaims.length, sourceResults: allSources, editorialAudit: audit };
 }
 
 async function main() {
@@ -393,7 +447,19 @@ async function main() {
       result.wordCount = validateArticle(result.article, result.sourceResults, [...existing, ...previousInEdition], date, pairings[index]);
       log(`${category}: recovered validated article "${result.article.title}".`);
     } else {
-      result = await makeArticle(category, date, pairings[index], [...existing, ...previousInEdition], dailyRead);
+      const rejectedTopics = [];
+      for (let topicAttempt = 0; topicAttempt < 2; topicAttempt++) {
+        try {
+          result = await makeArticle(category, date, pairings[index], [...existing, ...previousInEdition], dailyRead, rejectedTopics);
+          break;
+        } catch (error) {
+          if (topicAttempt || !/Fact check failed|Possible duplicate|Article length|Research returned fewer|correction (?:did not match|must be grounded)|Replacement factual text/.test(error.message)) throw error;
+          rejectedTopics.push(error.message);
+          runReport.rejectedCandidates = [...(runReport.rejectedCandidates || []), { category, dailyRead, reason: error.message }];
+          saveReport();
+          log(`${category}: candidate rejected; making one fresh-topic attempt instead of recycling an unreliable draft.`);
+        }
+      }
       fs.writeFileSync(checkpoint, JSON.stringify(result, null, 2) + '\n');
     }
     const candidateId = `${slugify(result.article.title)}-${date.replaceAll('-', '')}`;
@@ -472,4 +538,4 @@ if (require.main === module) main().catch(error => {
   process.exitCode = 1;
 });
 
-module.exports = { torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle, articleSchema, bindSources, apiRequest, DAILY_READ_COUNT, DAILY_READ_CATEGORIES };
+module.exports = { torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle, articleSchema, bindSources, applyVerifiedCorrections, canonicalEvidenceUrl, apiRequest, DAILY_READ_COUNT, DAILY_READ_CATEGORIES };
