@@ -1,8 +1,10 @@
 const assert = require('node:assert/strict');
-const { torontoDate, selectedPairings, imagePrompt, titleOverlap, validateArticle } = require('../scripts/automated-publish.cjs');
+const { torontoDate, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle } = require('../scripts/automated-publish.cjs');
 
 assert.equal(torontoDate(new Date('2026-01-01T02:00:00Z')), '2025-12-31', 'Toronto date follows local midnight across UTC');
 assert.equal(torontoDate(new Date('2026-01-01T05:00:00Z')), '2026-01-01', 'Toronto calendar date is used after local midnight');
+assert.equal(torontoDate(new Date('2026-03-08T06:59:00Z')), '2026-03-08', 'Spring DST transition keeps Toronto publication date stable');
+assert.equal(torontoDate(new Date('2026-11-01T05:59:00Z')), '2026-11-01', 'Fall DST transition keeps Toronto publication date stable');
 const first = selectedPairings('2026-10-16');
 assert.equal(first.length, 5);
 assert.equal(new Set(first).size, 5, 'A daily edition rotates to five distinct partnerships');
@@ -19,6 +21,7 @@ assert.match(image, /no smiling while lifting/i);
 assert.match(imagePrompt({category:'Culture',title:'T',subtitle:'S',imageConcept:'Two friends in a gallery'},first[0],['Three generations cook at home']), /Avoid repeating these recent WILDWIRE image scenes/);
 assert.ok(titleOverlap('A shared training plan', 'A training plan shared'), 'Near-duplicate title overlap is detected');
 assert.equal(titleOverlap('A winter museum visit', 'Cooking with family'), 0);
+assert.ok(contentOverlap('Training partners share a plan and build strength together', 'Build strength together with a shared plan for training partners') > 0.68, 'Near-duplicate story topics are detected even when headlines differ');
 
 const longBody = ('A useful practical section gives the reader clear context and next steps. This story keeps the advice specific, responsible and human. [1] [2] [3] ').repeat(8);
 const article = {
