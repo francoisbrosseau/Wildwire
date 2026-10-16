@@ -131,8 +131,8 @@ window.WILDWIRE_ARTICLES = [
     "date": "2026-10-16",
     "read": 5,
     "author": "WILDWIRE Living",
-    "image": "images/coffee-at-home.webp",
-    "imageAlt": "A man pours hot water over a ceramic coffee dripper in a sunlit kitchen",
+    "image": "images/coffee-at-home-partners.webp",
+    "imageAlt": "Two partners share coffee in a sunlit kitchen",
     "imageCredit": "AI-generated editorial image; illustrative, not a documentary photograph.",
     "url": "article.html?id=coffee-without-the-performance",
     "body": [
