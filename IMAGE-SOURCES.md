@@ -50,3 +50,10 @@ The five edition assets below were generated with OpenAI image generation for WI
 - `images/edition-20261016-explore.webp` — generated for the explore feature; source PNG retained in the working image-generation output.
 - `images/edition-20261016-culture.webp` — generated for the culture feature; source PNG retained in the working image-generation output.
 - `images/edition-20261016-living.webp` — generated for the living feature; source PNG retained in the working image-generation output.
+
+## Finance expansion — October 16, 2026
+
+Two new illustrations generated through built-in `image_gen`; the underlying model identifier was not exposed by the tool. Both are fictional editorial scenes, not documentary photographs. Original PNGs were converted to WebP without compositional changes.
+
+- `images/finance-money-basics-20261016.webp`: Finance article cover. Prompt: “Use case photorealistic-natural. WILDWIRE magazine Finance article cover, landscape 3:2. Cinematic editorial photograph of a thoughtful interracial couple in their thirties at a modest apartment dining table, reading household paperwork and discussing finances, calculator, closed laptop, notebook; attentive capable expressions, warm late-afternoon window light, charcoal and cream and muted burgundy accents, realistic hands, lived-in texture, premium independent lifestyle magazine. No readable text, no logos, no coins flying, no luxury or stock-photo grin. Save as a project asset.”
+- `images/pillar-finance-20261016.webp`: Independent Finance category tile. Prompt: “Use case photorealistic-natural. WILDWIRE Finance category tile image, landscape 3:2. Distinct cinematic editorial photograph: two women friends in their forties comparing a notebook and small calculator at a sunny neighborhood cafe table, thoughtful engaged discussion about everyday money, natural confident candid expressions, street window, muted warm tones with dark burgundy accent, realistic bodies and hands. Different setting and people from an apartment couple. No readable words or logos, no fake charts, no luxury, no stock-photo grin. Save as project asset.”

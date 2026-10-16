@@ -81,7 +81,7 @@ jobs:
               cp -n "$source_dir/"* ".wildwire-runs/$EDITION_DATE/"
             fi
           done
-      - name: Research and generate eight stories and thirteen distinct images
+      - name: Research and generate nine stories and fifteen distinct images
         id: generate
         # A rejected PREVIEW is a diagnostic result, not a production failure email.
         # Its outcome remains visible below; production failures still fail the job.
@@ -122,7 +122,7 @@ jobs:
           VALIDATED: ${{ steps.validate.outcome }}
         run: |
           if [ "$GENERATED" = success ] && [ "$VALIDATED" = success ]; then
-            echo '## PREVIEW PASSED — eight new stories, thirteen new images, new-edition site tests passed. Nothing published.' >> "$GITHUB_STEP_SUMMARY"
+            echo '## PREVIEW PASSED — nine new stories, fifteen new images, new-edition site tests passed. Nothing published.' >> "$GITHUB_STEP_SUMMARY"
           else
             echo '## PREVIEW NEEDS ATTENTION — not approved for production. Nothing published. Inspect the failed step and attached edition report. Preview diagnostics do not send production-failure alerts.' >> "$GITHUB_STEP_SUMMARY"
           fi
