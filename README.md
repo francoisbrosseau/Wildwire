@@ -23,7 +23,7 @@ Comments are not active until GitHub Discussions and giscus are configured in `j
 
 ## Daily publication
 
-Automatic AI publishing is not active. The proposed pipeline needs separate owner approval, an API secret, a budget limit, a dry run and end-to-end publication testing. See [PUBLISHING-SETUP.md](PUBLISHING-SETUP.md).
+A five-pillar editorial engine and sample edition are prepared, but unattended publishing is not active. It requires a separately billed API key, an account spending limit, an approved sample and a live end-to-end publication test. See [PUBLISHING-SETUP.md](PUBLISHING-SETUP.md).
 
 ## Local checks
 

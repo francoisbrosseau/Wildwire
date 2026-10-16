@@ -25,3 +25,18 @@ These are imagined illustrative scenes, not documentary photographs of named peo
 `tomato-bean-skillet.webp`: created with the built-in image generation tool for the Living recipe pilot. It illustrates a skillet of blistered tomatoes and white beans with yogurt, herbs and toast; it is not a documentary photograph of the actual recipe test.
 
 `wildwire-logo.png`: AI-generated transparent WILDWIRE wordmark approved by the founder for the site, with WILD in warm ivory, WIRE in champagne gold, and an ember-red blade slash.
+
+
+## Sample partnership edition
+
+Five sample images created with built-in ImageGen on 2026-10-16. They are original AI-generated editorial illustrations, not documentary photographs, and depict no identifiable real people. The corresponding article records disclose this provenance.
+
+| Asset | Prompt summary | Provenance / rights record |
+| --- | --- | --- |
+| images/generated/sample-strength.webp | Focused woman and man training partners prepare to deadlift in a neighborhood gym. | Built-in ImageGen; AI-generated; created 2026-10-16; no documentary source or photographer. |
+| images/generated/sample-style.webp | Two stylish women friends walk with purpose on a rain-darkened city street. | Built-in ImageGen; AI-generated; created 2026-10-16; no documentary source or photographer. |
+| images/generated/sample-explore.webp | Two travelers study a map at a coastal rail station. | Built-in ImageGen; AI-generated; created 2026-10-16; no documentary source or photographer. |
+| images/generated/sample-culture.webp | Two male friends discuss an abstract painting in a contemporary museum. | Built-in ImageGen; AI-generated; created 2026-10-16; no documentary source or photographer. |
+| images/generated/sample-living.webp | Three generations prepare dinner together in a lived-in kitchen. | Built-in ImageGen; AI-generated; created 2026-10-16; no documentary source or photographer. |
+
+The unattended pipeline creates a new WebP image for each article, stores the exact prompt and model in that article's JSON, and publishes an AI-generated disclosure. OpenAI's terms assign output to the customer as between the customer and OpenAI, to the extent permitted by law, but also make the customer responsible for rights and use. This does not guarantee every image is clear of third-party rights or similar outputs; editorial review remains necessary. See the [OpenAI Services Agreement](https://openai.com/policies/services-agreement/).
