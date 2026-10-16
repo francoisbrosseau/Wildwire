@@ -1,5 +1,5 @@
 const assert = require('node:assert/strict');
-const { torontoDate, editionDate, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle } = require('../scripts/automated-publish.cjs');
+const { torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle } = require('../scripts/automated-publish.cjs');
 
 assert.equal(torontoDate(new Date('2026-01-01T02:00:00Z')), '2025-12-31', 'Toronto date follows local midnight across UTC');
 assert.equal(torontoDate(new Date('2026-01-01T05:00:00Z')), '2026-01-01', 'Toronto calendar date is used after local midnight');
@@ -9,6 +9,8 @@ assert.equal(editionDate('2026-10-17', true), '2026-10-17', 'An explicit future 
 assert.throws(() => editionDate('2026-10-17', false), /only be used for a dry run/);
 assert.throws(() => editionDate('2026-02-30', true), /valid calendar date/);
 assert.equal(editionDate('', false, new Date('2026-01-01T02:00:00Z')), '2025-12-31', 'Production dates always use Toronto time');
+const earlierSameDayStories=[{date:'2026-10-16',id:'legacy-draft'},{editionDate:'2026-10-16',id:'today-a'},{editionDate:'2026-10-16',id:'today-b'}];
+assert.deepEqual(editionArticles(earlierSameDayStories,'2026-10-16').map(a=>a.id),['today-a','today-b'],'Only explicitly grouped edition articles count as today’s completed run');
 const first = selectedPairings('2026-10-16');
 assert.equal(first.length, 5);
 assert.equal(new Set(first).size, 5, 'A daily edition rotates to five distinct partnerships');

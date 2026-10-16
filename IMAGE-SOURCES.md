@@ -40,3 +40,13 @@ Five sample images created with built-in ImageGen on 2026-10-16. They are origin
 | images/generated/sample-living.webp | Three generations prepare dinner together in a lived-in kitchen. | Built-in ImageGen; AI-generated; created 2026-10-16; no documentary source or photographer. |
 
 The unattended pipeline creates a new WebP image for each article, stores the exact prompt and model in that article's JSON, and publishes an AI-generated disclosure. OpenAI's terms assign output to the customer as between the customer and OpenAI, to the extent permitted by law, but also make the customer responsible for rights and use. This does not guarantee every image is clear of third-party rights or similar outputs; editorial review remains necessary. See the [OpenAI Services Agreement](https://openai.com/policies/services-agreement/).
+
+## Daily edition — 2026-10-16
+
+The five edition assets below were generated with OpenAI image generation for WILDWIRE on 2026-10-16. They are fictional editorial illustrations, not documentary photographs, contain no depicted real identifiable people, and are original generated works used for this site.
+
+- `images/edition-20261016-strength.webp` — generated for the strength feature; source PNG retained in the working image-generation output.
+- `images/edition-20261016-style.webp` — generated for the style feature; source PNG retained in the working image-generation output.
+- `images/edition-20261016-explore.webp` — generated for the explore feature; source PNG retained in the working image-generation output.
+- `images/edition-20261016-culture.webp` — generated for the culture feature; source PNG retained in the working image-generation output.
+- `images/edition-20261016-living.webp` — generated for the living feature; source PNG retained in the working image-generation output.

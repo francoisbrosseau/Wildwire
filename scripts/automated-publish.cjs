@@ -42,6 +42,9 @@ function torontoDate(now = new Date()) {
   const get = type => parts.find(part => part.type === type).value;
   return `${get('year')}-${get('month')}-${get('day')}`;
 }
+function editionArticles(existing, date) {
+  return existing.filter(article => article.editionDate === date);
+}
 function editionDate(testDate = '', dryRun = false, now = new Date()) {
   if (!testDate) return torontoDate(now);
   if (!dryRun) fail('WILDWIRE_TEST_DATE can only be used for a dry run.');
@@ -201,6 +204,7 @@ function validateArticle(article, searchedSources, existing, date) {
   })) fail(`Possible duplicate story or headline: ${article.title}`);
   article.id = `${slugify(article.title)}-${date.replaceAll('-', '')}`;
   article.date = date;
+  article.editionDate = date;
   article.url = `article.html?id=${encodeURIComponent(article.id)}`;
   article.read = Math.max(4, Math.ceil(count / 220));
   article.author = 'WILDWIRE Editorial';
@@ -237,7 +241,7 @@ async function main() {
   if (!TOKEN) fail('Missing OPENAI_API_KEY. No content files were changed.');
   const date = editionDate(process.env.WILDWIRE_TEST_DATE || '', DRY_RUN);
   const existing = readExisting();
-  const alreadyPublishedToday = existing.filter(item => item.date === date);
+  const alreadyPublishedToday = editionArticles(existing, date);
   if (CATEGORIES.every(category => alreadyPublishedToday.some(item => item.category === category))) {
     console.log(JSON.stringify({ status: 'ALREADY_PUBLISHED', date, articles: alreadyPublishedToday.map(item => item.id) }, null, 2));
     return;
@@ -297,4 +301,4 @@ if (require.main === module) main().catch(error => {
   process.exitCode = 1;
 });
 
-module.exports = { torontoDate, editionDate, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle };
+module.exports = { torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle };

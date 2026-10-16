@@ -10,7 +10,7 @@ const ARTICLES=window.WILDWIRE_ARTICLES||[];const STORE='wildwire-favorites-v1';
  return '<img class="article-cover" src="'+a.image+'" alt="'+escapeHTML(a.imageAlt||a.title)+'">'+(a.imageCredit?'<p class="article-image-note">'+escapeHTML(a.imageCredit)+'</p>':'')+'<div class="article-content">'+sections+sources+'<p class="small">'+escapeHTML(a.author||'WILDWIRE Editorial')+' · Original WILDWIRE feature.</p></div>';
 }function renderHome(target){
  const categories=['Strength','Style','Explore','Culture','Living'];
- const ordered=[...ARTICLES].sort((a,b)=>b.date.localeCompare(a.date)||categories.indexOf(a.category)-categories.indexOf(b.category)||a.id.localeCompare(b.id));
+ const ordered=[...ARTICLES].sort((a,b)=>b.date.localeCompare(a.date)||Number(b.editionDate===b.date)-Number(a.editionDate===a.date)||categories.indexOf(a.category)-categories.indexOf(b.category)||a.id.localeCompare(b.id));
  const latestByCategory=Object.fromEntries(categories.map(category=>[category,ordered.find(article=>article.category===category)]));
  const newestDate=ordered[0]?.date;
  const current=categories.map(category=>latestByCategory[category]).filter(Boolean);
