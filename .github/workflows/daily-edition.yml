@@ -27,7 +27,9 @@ concurrency:
 
 jobs:
   publish:
-    if: (github.event_name == 'schedule' && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes') || github.event_name == 'workflow_dispatch'
+    if: >-
+      (github.event_name == 'schedule' && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes') ||
+      (github.event_name == 'workflow_dispatch' && (inputs.dry_run == true || (inputs.dry_run == false && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes')))
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
@@ -57,13 +59,15 @@ jobs:
           npm test
 
       - name: Refuse a late edition
-        if: github.event_name == 'schedule' && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes'
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.dry_run == false)
         run: |
           node -e "const p=new Intl.DateTimeFormat('en-GB',{timeZone:'America/Toronto',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date()).split(':').map(Number); if(p[0]>6||(p[0]===6&&p[1]>=40)) throw new Error('Edition missed the 6:40 a.m. Toronto publication cutoff; nothing will be committed.');"
 
       - name: Commit the complete validated edition
         id: publish
-        if: github.event_name == 'schedule' && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes'
+        if: >-
+          (github.event_name == 'schedule' && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes') ||
+          (github.event_name == 'workflow_dispatch' && inputs.dry_run == false && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes')
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
