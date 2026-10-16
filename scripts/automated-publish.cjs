@@ -192,7 +192,7 @@ async function generateImage(article, pairing, id, existing) {
     model: MODEL,
     text: { format: { type: 'json_object' } },
     input: [{ role: 'user', content: [
-      { type: 'input_text', text: 'Review this proposed editorial cover. Return JSON only: {"passed":boolean,"peopleCount":number,"issues":[string]}. Pass only if it visibly centers at least two adult people together, matches the story concept, has no text, logo or watermark, and appears suitable as a polished editorial illustration. Be conservative.' },
+      { type: 'input_text', text: `Review this proposed WILDWIRE editorial cover. Return JSON only: {"passed":boolean,"peopleCount":number,"issues":[string]}. Story: ${article.title}. ${article.subtitle} Scene concept: ${article.imageConcept}. Intended people: ${pairing}. Pass only if the image visibly centers at least two adults together, matches the supplied story and scene concept, contains no text, logo or watermark, and looks suitable as a polished editorial illustration. Be conservative.` },
       { type: 'input_image', image_url: `data:image/webp;base64,${bytes.toString('base64')}`, detail: 'low' },
     ] }],
     max_output_tokens: 350,
