@@ -1,0 +1,47 @@
+{
+  "id": "five-quiet-minutes",
+  "category": "Living",
+  "title": "Find Your Feet. Then Go Again.",
+  "subtitle": "A five-minute grounding practice for the moment your attention has been pulled in six directions.",
+  "date": "2026-10-15",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "image": "images/quiet.webp",
+  "imageAlt": "First light spreading over a quiet landscape at sunrise",
+  "imageCredit": "Photograph via Unsplash; see IMAGE-SOURCES.md for the image source.",
+  "body": [
+    [
+      "You do not need to feel peaceful first",
+      "A useful pause is not a performance of serenity. You can arrive distracted, skeptical, tired or carrying the whole day in your jaw. The practice is simply to notice what is here, let the body meet the ground, and choose what gets your attention next. Take the next five minutes as a small reset, not a promise to fix your life."
+    ],
+    [
+      "The five-minute practice",
+      "Set a gentle timer for five minutes and sit or stand somewhere safe. Keep your eyes open if closing them feels uncomfortable.\n\n1. ARRIVE — For about 30 seconds, name where you are and what is supporting you: “I am in the kitchen. My feet are on the floor. The chair is holding me.”\n\n2. UNCLENCH — For one minute, soften your hands, jaw and shoulders as much as feels natural. Do not force a deep breath. Let breathing stay ordinary.\n\n3. FOLLOW — For two minutes, notice the next few breaths at the nose, chest or belly. When the mind leaves, silently say “thinking” or “planning,” then return to one breath. No scolding, no score.\n\n4. NAME — For one minute, identify one thing you feel, one thing you need and one thing you value right now. “I feel rushed. I need to answer one message. I value being present at dinner.”\n\n5. CHOOSE — For the final 30 seconds, pick one small next action: fill a glass of water, send the honest reply, step outside, begin the task, or sit beside someone you love. End the timer and do that thing."
+    ],
+    [
+      "If you pray, let prayer be part of it",
+      "You can replace the breath-counting portion with a short prayer, a line of scripture, a repeated phrase or a few words of gratitude. Keep the practice in your own tradition and language. If you are not religious, silence, a steady breath or attention to the room is enough. The point is not to borrow somebody else’s certainty. It is to make a little space for what you believe matters."
+    ],
+    [
+      "A note on the evidence",
+      "A randomized study tested brief five-minute breathing practices daily for one month and reported changes in mood and physiological arousal in its participants [1]. That study tested specific breathing exercises in a research setting; it does not prove this grounding sequence treats anxiety, works for everyone or replaces care. Use the practice because it gives you a moment to pause, not because anyone promised a cure. If focusing on breath feels uncomfortable, keep your eyes open and orient to objects, sounds and contact with the floor instead."
+    ],
+    [
+      "Adapt the practice to the day",
+      "If sitting makes you restless, do it standing with both feet planted or walking slowly on a quiet, familiar route. If breath focus feels edgy, leave it out: look around and name five things you see, four points of contact, and three sounds. If you have only a minute, use ARRIVE and CHOOSE. If you are with a partner, take turns speaking one sentence about what you need; listening counts, fixing does not. You can stop at any point. A grounding exercise should give you choice, not take it away."
+    ],
+    [
+      "Take it into ordinary life",
+      "Try the practice once before opening your inbox, after a difficult conversation or at the threshold between work and home. It can be done alone or beside a partner without making the moment a shared assignment. Some days you will notice more; some days the timer will simply end. Both count as showing up. The win is not becoming unshakeable. It is finding your footing, then choosing your next move with a little more intention."
+    ]
+  ],
+  "sources": [
+    {
+      "title": "Brief structured respiration practices enhance mood and reduce physiological arousal",
+      "authors": "M. A. Balban et al.",
+      "publication": "Cell Reports Medicine 4(1), 100895 (2023)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36630953/"
+    }
+  ],
+  "url": "article.html?id=five-quiet-minutes"
+}

@@ -1,0 +1,24 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const root = path.resolve(__dirname, '..');
+const dir = path.join(root, 'content', 'articles');
+const output = path.join(root, 'js', 'articles.js');
+const allowed = new Set(['Strength', 'Style', 'Explore', 'Culture', 'Living']);
+const files = fs.readdirSync(dir).filter(name => name.endsWith('.json')).sort();
+if (!files.length) throw new Error('No articles found in content/articles.');
+const seen = new Set();
+const articles = files.map(name => {
+  const article = JSON.parse(fs.readFileSync(path.join(dir, name), 'utf8'));
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(article.id || '') || seen.has(article.id)) throw new Error(`Invalid or duplicate article id in ${name}`);
+  seen.add(article.id);
+  if (path.basename(name, '.json') !== article.id) throw new Error(`Filename must match permanent article id: ${name}`);
+  if (!allowed.has(article.category)) throw new Error(`Unsupported category in ${name}`);
+  if (!article.title || !article.subtitle || !/^\d{4}-\d\d-\d\d$/.test(article.date) || !Number.isInteger(article.read) || !article.image || !Array.isArray(article.body) || article.body.length < 4 || article.url !== `article.html?id=${encodeURIComponent(article.id)}`) throw new Error(`Incomplete article fields in ${name}`);
+  for (const [heading, body] of article.body) if (!heading || !body) throw new Error(`Empty section in ${name}`);
+  if (!Array.isArray(article.sources)) throw new Error(`sources must be an array in ${name}`);
+  if (article.sources.some(source => !/^https:\/\//.test(source.url) || !source.title || !source.publication)) throw new Error(`Invalid source record in ${name}`);
+  if (!fs.existsSync(path.join(root, article.image))) throw new Error(`Missing local image for ${article.id}: ${article.image}`);
+  return article;
+});
+fs.writeFileSync(output, `window.WILDWIRE_ARTICLES = ${JSON.stringify(articles, null, 2)};\n`);
+console.log(`Built article catalog: ${articles.length} stable IDs → js/articles.js`);
