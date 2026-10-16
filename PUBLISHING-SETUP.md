@@ -2,14 +2,29 @@
 
 ## Verified state — October 16, 2026
 
-- The API key is present as a GitHub Actions secret. Real tests have successfully
-  generated and fact-checked a Strength story and generated/reviewed its image.
-- A complete eight-story/thirteen-image unattended run has **not yet passed**.
-  The original run (#19) stopped after a source registry mismatch. The repaired
-  preview (#20) fixed URL binding and validated Strength and its image, but
-  rejected Style after two fact-check repair rounds: inaccurate author metadata
-  and an unsupported interpretation of a repair study. Existing public content
-  was not changed. No further paid reruns were launched after this result.
+- Complete preview **#22 passed** on commit
+  `5ba4506d912b3aa0a1300436c38bad9d2ded1db4`:
+  https://github.com/francoisbrosseau/Wildwire/actions/runs/38951208443
+  It staged eight new articles (five pillars, three Daily Reads) and thirteen
+  unique images, rebuilt the homepage/archive catalogs, and passed all site,
+  account/favorites mocks, content, source-binding and API regression checks.
+  The packaged preview contains 29 archived articles, preserving the prior 21.
+- This was a **recovered full preview**, not a clean one-shot run: three validated
+  stories/images were recovered from earlier diagnostic runs; five stories and
+  ten images were newly generated in #22. A Living candidate was rejected and
+  its one bounded fresh-topic fallback succeeded. The resumed run took 16m10s.
+  Do not misrepresent that as the runtime or cost of an entire fresh edition.
+- Main repair: fact-checkers now supply exact evidence-grounded edits, instead
+  of a wholesale rewrite that could reintroduce errors. Numbered citations are
+  mapped to source-array positions, not research-note/source-ID numbering.
+  Invalid or unsupported corrections still fail closed. Image byte hashes
+  prevent renamed archive images or duplicate new files from bypassing checks.
+- The October 16 approved manual edition now has a manifest pointing to its
+  existing eight stories and five existing tile assets. No logo/image bytes or
+  existing article URLs were changed by that backfill.
+- **Explicit Actions-based Pages deployment has not yet been tested live.**
+  Preview deployment and live verification were intentionally skipped. The
+  production schedule must not be called operational until that path passes.
 - Recurring production is **off**. Both launch variables were absent when checked.
   The owner's reported $16 payment and $40 billing cap have not been independently
   verified. Do not claim to know the remaining API credit balance.
@@ -82,14 +97,43 @@ https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-
 
 ## Cost
 
-The earlier $20–$35 estimate described five stories/five images. It must not be
-reused for the approved edition's eight stories/thirteen images, additional
-research and fact-check calls, and retries. Measure real usage from report.json
-and the OpenAI Platform billing dashboard before declaring this volume sustainable
-at $40/month. Price reference: https://developers.openai.com/api/docs/pricing
-API billing is separate from ChatGPT. The repository cannot inspect or enforce
-an account billing limit. Until full-run costs and reliability are measured,
-manual editions or a lower publishing frequency are the honest fallback.
+ChatGPT subscription usage and OpenAI API usage are separate. The GitHub
+runner calls OpenAI using the existing API secret, consuming the API account's
+credits/billing allowance. Creating the key itself is not an image/article
+purchase. Do not request or activate a new paid service, increase the approved
+budget, or claim that the owner's reported $16 payment/balance or $40 hard cap
+has been independently verified.
+
+Measured #22 requests: 747,367 input tokens (86,682 cached; 77,392 cache writes),
+63,121 output tokens, 69 web-search tool calls and ten generated images. The
+root Responses usage does not expose the image model's own token breakdown.
+At October 16 standard GPT-6 Luna prices, recorded text usage estimates to
+$0.1004; recorded search calls to $0.69. The official image calculator estimates
+$0.01029 image output per medium 1536×1024 GPT-Image-2.5 image, or about $0.103
+for these ten, excluding image-model input. Thus #22's recorded requests imply
+about $0.90, **excluding the three recovered stories/images**, earlier failed
+attempts, some image input, tax and any unreported billable requests. This is
+an engineering estimate, not an invoice or a verified account charge.
+
+Extrapolating the five newly generated stories and their research/review work
+to eight, plus thirteen images, suggests roughly **$40–$55 USD/month** at daily
+frequency, before tax, with considerable retry variation. One recovered sample
+cannot establish a reliable monthly average. Do not promise the full approved
+format stays below $40. At a strict $40 limit, start with manual editions or
+fewer complete automated editions per week until actual billing demonstrates
+sustainable daily usage. Do not silently reduce the approved daily format.
+Five stories/five images would likely cost less, but is NOT the approved eight-
+story/thirteen-image template and needs the founder's explicit choice.
+
+The existing public GitHub Pages repository does not require a new paid hosting
+service for this implementation. Secure API billing settings must be inspected
+in OpenAI Platform to confirm balance, recharge behavior and an enforced cap.
+The repository cannot inspect or enforce an account-level billing limit.
+
+Official references:
+https://learn.chatgpt.com/docs/pricing
+https://developers.openai.com/api/docs/pricing
+https://developers.openai.com/api/docs/guides/image-generation
 
 ## Recovery
 
