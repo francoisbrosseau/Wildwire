@@ -19,7 +19,7 @@ Comments are **not active** until configured. Enable GitHub Discussions in repos
 No API keys or automated generation are included. AI publishing requires a separate secure GitHub Actions workflow, an API account, budget limits, editorial review and testing. Never add secret keys to this repository's public files.
 
 ## Images
-Starter editorial photos use remote Unsplash image URLs. Check each photo's licensing and reliability before production; replace with locally hosted licensed images for best long-term control.
+Editorial images are served locally from `images/` as WebP files. See `IMAGE-SOURCES.md` for provenance. See `REVIEW.md` for the upgrade details, tested behavior and remaining verification limits.
 
 ## Add articles
 Add an object to `js/articles.js` with a unique `id`, category, title, subtitle, date, read, image and `body` array. The existing templates and links will pick it up automatically.

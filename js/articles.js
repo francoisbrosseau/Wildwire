@@ -6,7 +6,7 @@ window.WILDWIRE_ARTICLES = [
     "subtitle": "Why the simplest daily movement deserves a place beside your workouts.",
     "date": "October 15, 2026",
     "read": 5,
-    "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1400&q=85",
+    "image": "images/strength.webp",
     "body": [
       [
         "Start with what you can repeat",
@@ -24,7 +24,8 @@ window.WILDWIRE_ARTICLES = [
         "Try this tomorrow",
         "Choose a 20-minute window, put your phone away for the first five minutes, and notice how you feel afterward."
       ]
-    ]
+    ],
+    "imageAlt": "Walkers following a mountain trail beneath snowy peaks"
   },
   {
     "id": "cook-together",
@@ -33,7 +34,7 @@ window.WILDWIRE_ARTICLES = [
     "subtitle": "An uncomplicated way to turn dinner into a shared experience.",
     "date": "October 15, 2026",
     "read": 4,
-    "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1400&q=85",
+    "image": "images/shared-table.webp",
     "body": [
       [
         "Keep the menu simple",
@@ -51,7 +52,8 @@ window.WILDWIRE_ARTICLES = [
         "Try this tomorrow",
         "Choose a recipe together, shop for only what you need and make dinner without rushing."
       ]
-    ]
+    ],
+    "imageAlt": "Friends and a child sharing a lively dinner in a warmly lit home"
   },
   {
     "id": "dress-with-intention",
@@ -60,7 +62,7 @@ window.WILDWIRE_ARTICLES = [
     "subtitle": "A sharper wardrobe begins with fit, care and a few reliable pieces.",
     "date": "October 15, 2026",
     "read": 4,
-    "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1400&q=85",
+    "image": "images/style.webp",
     "body": [
       [
         "Fit comes first",
@@ -78,7 +80,8 @@ window.WILDWIRE_ARTICLES = [
         "Try this tomorrow",
         "Pick one outfit you already own and improve it with a better fit, cleaner shoes or a more deliberate combination."
       ]
-    ]
+    ],
+    "imageAlt": "A textured cream knit garment on a wooden hanger"
   },
   {
     "id": "travel-with-curiosity",
@@ -87,7 +90,7 @@ window.WILDWIRE_ARTICLES = [
     "subtitle": "Why one neighborhood can tell you more than ten rushed landmarks.",
     "date": "October 15, 2026",
     "read": 5,
-    "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1400&q=85",
+    "image": "images/cover-sea.webp",
     "body": [
       [
         "Trade the checklist for curiosity",
@@ -105,7 +108,8 @@ window.WILDWIRE_ARTICLES = [
         "Try this on your next trip",
         "Set aside half a day with no rigid itinerary and explore one area on foot."
       ]
-    ]
+    ],
+    "imageAlt": "A woman overlooking a rugged coast and sunlit sea"
   },
   {
     "id": "better-conversations",
@@ -114,7 +118,7 @@ window.WILDWIRE_ARTICLES = [
     "subtitle": "Listening to understand can change the tone of everyday relationships.",
     "date": "October 15, 2026",
     "read": 5,
-    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1400&q=85",
+    "image": "images/connection.webp",
     "body": [
       [
         "Make space before replying",
@@ -132,7 +136,8 @@ window.WILDWIRE_ARTICLES = [
         "Try this today",
         "During one conversation, summarize what you heard before offering your own perspective."
       ]
-    ]
+    ],
+    "imageAlt": "Friends sitting together beside the water"
   },
   {
     "id": "quiet-moments",
@@ -141,7 +146,7 @@ window.WILDWIRE_ARTICLES = [
     "subtitle": "A grounded introduction to reflection, ritual and reconnecting with yourself.",
     "date": "October 15, 2026",
     "read": 4,
-    "image": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1400&q=85",
+    "image": "images/quiet.webp",
     "body": [
       [
         "Meaning does not need a label",
@@ -159,7 +164,8 @@ window.WILDWIRE_ARTICLES = [
         "Try this tomorrow",
         "Spend five minutes reflecting on one thing you appreciated and one thing you want to bring more of into your day."
       ]
-    ]
+    ],
+    "imageAlt": "Warm sunrise over a misty countryside"
   },
   {
     "id": "gadgets-that-earn-their-place",
@@ -168,7 +174,7 @@ window.WILDWIRE_ARTICLES = [
     "subtitle": "Buy technology that solves a problem, not technology that creates another one.",
     "date": "October 15, 2026",
     "read": 4,
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1400&q=85",
+    "image": "images/technology.webp",
     "body": [
       [
         "Name the problem first",
@@ -186,6 +192,7 @@ window.WILDWIRE_ARTICLES = [
         "Try this next time",
         "Use a 48-hour waiting period for nonessential tech purchases and revisit the original problem."
       ]
-    ]
+    ],
+    "imageAlt": "An overhead view of laptops and devices on a shared table"
   }
 ];
