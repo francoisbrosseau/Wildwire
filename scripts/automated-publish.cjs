@@ -222,13 +222,28 @@ async function makeArticle(category, date, pairing, existing) {
   );
   const article = parseJson(drafted.text);
   if (article.category !== category) fail(`Draft category mismatch for ${category}.`);
-  const checked = await textCall(
-    `Fact-check the claims, citations, and health or safety recommendations in this draft against current credible sources. Treat every warning, contraindication and practical health recommendation as a factual claim that needs direct source support and a nearby citation. Return JSON only: {"passed":boolean,"issues":[string],"checkedClaims":[string]}. Fail if any material factual claim is unsupported, a quote is fabricated, or a citation does not support its nearby claim.\n\nDRAFT:\n${JSON.stringify(article)}`,
-    true,
-  );
-  const result = parseJson(checked.text);
-  if (result.passed !== true || !Array.isArray(result.checkedClaims) || result.checkedClaims.length < 3) fail(`Fact check failed for ${category}: ${(result.issues || []).join('; ') || 'not enough checked claims'}`);
-  const allSources = uniqueSources([...researched.sources, ...checked.sources]);
+  const repairSources = [];
+  let checked;
+  let result;
+  for (let attempt = 0; attempt < 3; attempt++) {
+    checked = await textCall(
+      `Fact-check the claims, citations, and health or safety recommendations in this draft against current credible sources. Treat every warning, contraindication and practical health recommendation as a factual claim that needs direct source support and a nearby citation. Return JSON only: {"passed":boolean,"issues":[string],"checkedClaims":[string]}. Fail if any material factual claim is unsupported, a quote is fabricated, or a citation does not support its nearby claim.\n\nDRAFT:\n${JSON.stringify(article)}`,
+      true,
+    );
+    result = parseJson(checked.text);
+    if (result.passed === true && Array.isArray(result.checkedClaims) && result.checkedClaims.length >= 3) break;
+    if (attempt === 2) fail(`Fact check failed for ${category}: ${(result.issues || []).join('; ') || 'not enough checked claims'}`);
+    repairSources.push(...checked.sources);
+    const availableSources = uniqueSources([...sourceCandidates, ...repairSources]);
+    const repaired = await textCall(
+      `Repair this draft using the fact-check issues below. Correct every unsupported claim or citation mismatch. Remove recommendations or specifics that the verified sources do not directly support. Do not invent facts, quotations, authors or source metadata. Add current credible sources through web research when needed, then cite each material factual claim immediately with [1], [2], or [3]. Keep the article in the ${category} category, maintain the WILDWIRE voice and 800–1,600 word range, and return the full article JSON with exactly three source objects. Each source must use an exact URL from the verified search results supplied below and include its real title, named author(s) or publishing organization, and publication. If a claim cannot be supported, remove it.\n\nFact-check issues:\n${JSON.stringify(result.issues || [])}\n\nCurrent article:\n${JSON.stringify(article)}\n\nVerified source candidates:\n${JSON.stringify(availableSources)}`,
+      true,
+    );
+    repairSources.push(...repaired.sources);
+    article = parseJson(repaired.text);
+    if (article.category !== category) fail(`Repair category mismatch for ${category}.`);
+  }
+  const allSources = uniqueSources([...researched.sources, ...repairSources, ...checked.sources]);
   const wordCount = validateArticle(article, allSources, existing, date);
   return { article, wordCount, sourcesChecked: result.checkedClaims.length, sourceResults: allSources };
 }
