@@ -81,9 +81,9 @@ function responseSources(response) {
   }
   return uniqueSources(results);
 }
-function parseJson(value) {
-  const cleaned = String(value).trim().replace(/^\`\`\`(?:json)?\s*/i, '').replace(/\s*\`\`\`$/, '');
-  try { return JSON.parse(cleaned); } catch { fail('Model did not return valid JSON.'); }
+function parseJson(value, label = 'model output') {
+  const cleaned = String(value).trim().replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '');
+  try { return JSON.parse(cleaned); } catch (error) { fail(`${label} was not valid JSON (${error.message}).`); }
 }
 
 async function apiRequest(payload, label) {
@@ -110,10 +110,11 @@ async function apiRequest(payload, label) {
   throw lastError || new Error(`${label} failed after retries.`);
 }
 
-async function textCall(input, useSearch = false) {
+async function textCall(input, useSearch = false, expectJson = false) {
   const response = await apiRequest({
     model: MODEL,
     input,
+    text: expectJson ? { format: { type: 'json_object' } } : undefined,
     tools: useSearch ? [{ type: 'web_search' }] : [],
     tool_choice: useSearch ? 'required' : undefined,
     include: useSearch ? ['web_search_call.action.sources'] : undefined,
@@ -164,13 +165,14 @@ async function generateImage(article, pairing, id, existing) {
   if (bytes.toString('ascii', 0, 4) !== 'RIFF' || bytes.toString('ascii', 8, 12) !== 'WEBP') fail(`Generated image is not a WebP for ${article.category}.`);
   const reviewed = await apiRequest({
     model: MODEL,
+    text: { format: { type: 'json_object' } },
     input: [{ role: 'user', content: [
       { type: 'input_text', text: 'Review this proposed editorial cover. Return JSON only: {"passed":boolean,"peopleCount":number,"issues":[string]}. Pass only if it visibly centers at least two adult people together, matches the story concept, has no text, logo or watermark, and appears suitable as a polished editorial illustration. Be conservative.' },
       { type: 'input_image', image_url: `data:image/webp;base64,${bytes.toString('base64')}`, detail: 'low' },
     ] }],
     max_output_tokens: 350,
   }, `Visual image check for ${article.category}`);
-  const imageCheck = parseJson(responseText(reviewed));
+  const imageCheck = parseJson(responseText(reviewed), `Visual image check for ${article.category}`);
   if (imageCheck.passed !== true || Number(imageCheck.peopleCount) < 2) fail(`Generated cover failed its visual check for ${article.category}: ${(imageCheck.issues || []).join('; ') || 'pair/family not confirmed'}`);
   return { bytes, path: `images/generated/${id}.webp`, prompt, imageCheck };
 }
@@ -219,8 +221,10 @@ async function makeArticle(category, date, pairing, existing) {
   const sourceCandidates = uniqueSources(researched.sources);
   const drafted = await textCall(
     `Write one original, substantial WILDWIRE article in JSON only, based on the research notes below. Voice: intelligent, confident, warm, inclusive and human; no filler, alpha clichés or generic AI phrasing. Keep reporting distinct from commentary. Do not invent interviews, personal experience, statistics or quotations. Category must be ${category}. Write 6–9 useful sections and 800–1,600 words. Put inline [1], [2], [3] citations immediately beside material factual claims. Every health, safety, training, nutrition or cooking recommendation—including warning signs and contraindications—must be directly supported by one of the linked sources and cited beside it. Do not add generic symptom lists or safety warnings unless a source supports them; if the sources do not support a warning, omit it or clearly frame it as a general non-clinical precaution. Include concrete steps when the topic is training, cooking or another practical guide. For Living, make the final section a grounded, story-specific practice or reflection of at least 70 words; make its heading distinct from all previous Living endings below. Do not repeat a generic daily ritual. The imageConcept field must literally include at least one of these terms: couple, family, friends, partners, siblings. It must describe two or more adults together and specifically match the story.\n\nArchived Living endings:\n${oldLivingEndings}\n\nResearch notes:\n${researched.text}\n\nFor each of the exactly three cited sources, verify the title, publication, date, and named author(s) against the linked source page. Never use placeholder author metadata or infer names; if no individual author is listed, use the publishing organization. Use exactly three verified URLs from these search results:\n${JSON.stringify(sourceCandidates)}\n\nReturn: {"category":"${category}","title":"...","subtitle":"...","imageAlt":"...","imageConcept":"a specific visual scene centered on companions; MUST literally include one of: couple, family, friends, partners, siblings","body":[["section heading","substantial prose"],...],"sources":[{"title":"...","url":"exact verified URL","authors":"...","publication":"..."},...]}`,
+    false,
+    true,
   );
-  let article = parseJson(drafted.text);
+  let article = parseJson(drafted.text, `Draft for ${category}`);
   if (article.category !== category) fail(`Draft category mismatch for ${category}.`);
   const repairSources = [];
   let checked;
@@ -229,8 +233,9 @@ async function makeArticle(category, date, pairing, existing) {
     checked = await textCall(
       `Fact-check the claims, citations, and health or safety recommendations in this draft against current credible sources. Treat every warning, contraindication and practical health recommendation as a factual claim that needs direct source support and a nearby citation. Return JSON only: {"passed":boolean,"issues":[string],"checkedClaims":[string]}. Fail if any material factual claim is unsupported, a quote is fabricated, or a citation does not support its nearby claim.\n\nDRAFT:\n${JSON.stringify(article)}`,
       true,
+      true,
     );
-    result = parseJson(checked.text);
+    result = parseJson(checked.text, `Fact check for ${category}`);
     if (result.passed === true && Array.isArray(result.checkedClaims) && result.checkedClaims.length >= 3) break;
     if (attempt === 2) fail(`Fact check failed for ${category}: ${(result.issues || []).join('; ') || 'not enough checked claims'}`);
     repairSources.push(...checked.sources);
@@ -238,9 +243,10 @@ async function makeArticle(category, date, pairing, existing) {
     const repaired = await textCall(
       `Repair this draft using the fact-check issues below. Correct every unsupported claim or citation mismatch. Remove recommendations or specifics that the verified sources do not directly support. Do not invent facts, quotations, authors or source metadata. Add current credible sources through web research when needed, then cite each material factual claim immediately with [1], [2], or [3]. Keep the article in the ${category} category, maintain the WILDWIRE voice and 800–1,600 word range, and return the full article JSON with exactly three source objects. Preserve an imageConcept that literally includes one of these words: couple, family, friends, partners, siblings, and describes at least two adults together in a story-relevant scene. Each source must use an exact URL from the verified search results supplied below and include its real title, named author(s) or publishing organization, and publication. If a claim cannot be supported, remove it.\n\nFact-check issues:\n${JSON.stringify(result.issues || [])}\n\nCurrent article:\n${JSON.stringify(article)}\n\nVerified source candidates:\n${JSON.stringify(availableSources)}`,
       true,
+      true,
     );
     repairSources.push(...repaired.sources);
-    article = parseJson(repaired.text);
+    article = parseJson(repaired.text, `Repair draft for ${category}`);
     if (article.category !== category) fail(`Repair category mismatch for ${category}.`);
   }
   const allSources = uniqueSources([...researched.sources, ...repairSources, ...checked.sources]);
