@@ -1,5 +1,5 @@
 const assert = require('node:assert/strict');
-const { torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle, articleSchema, bindSources, apiRequest, DAILY_READ_COUNT } = require('../scripts/automated-publish.cjs');
+const { torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle, articleSchema, bindSources, applyVerifiedCorrections, canonicalEvidenceUrl, countWords, assertFreshImages, apiRequest, DAILY_READ_COUNT } = require('../scripts/automated-publish.cjs');
 
 assert.equal(torontoDate(new Date('2026-01-01T02:00:00Z')), '2025-12-31', 'Toronto date follows local midnight across UTC');
 assert.equal(torontoDate(new Date('2026-01-01T05:00:00Z')), '2026-01-01', 'Toronto calendar date is used after local midnight');
@@ -59,6 +59,48 @@ assert.deepEqual(bound.sources.map(source => source.url), registry.map(source =>
 assert.throws(() => bindSources({sources:[...registry.slice(0,2), {...registry[2],sourceId:'S999'}]},registry), /Invalid or repeated/);
 assert.throws(() => bindSources({sources:[registry[0],registry[0],registry[2]]},registry), /Invalid or repeated/);
 assert.ok(!articleSchema(registry).properties.sources.items.properties.url, 'The API output schema does not permit model-written source URLs');
+
+// Reproduce the real Style rejection: metadata from a repost and its original
+// publication were mixed, and "identity" was overstated as a finding about style.
+const disputed = {
+  title:'Visible Repair, Your Own Way', category:'Style', subtitle:'Keep what works.',
+  sources:[
+    {sourceId:'S1',title:'An inaccurate title',authors:'Elaine L. Ritch',publication:'The Conversation',url:'https://www.mmu.ac.uk/news-and-events/news/story/visible-mending-why-showing-repairs-better-hiding-them'},
+    {sourceId:'S2',title:'Repair research',authors:'Researchers',publication:'Sustainability',url:'https://www.mdpi.com/2071-1050/14/17/10821'},
+  ],
+  body:[['Repair and identity','The study found whether repair fits a person’s sense of style is a barrier. [2] Keep the repair visible if you like its character.']],
+};
+const review = {
+  sourceCorrections:[{sourceId:'S1',title:'Visible mending: why showing off repairs is better than hiding them',authors:'Amber Martin-Woodhead and Martyn Evans',publication:'Manchester Metropolitan University',evidenceUrl:disputed.sources[0].url+'?utm_source=openai'}],
+  textCorrections:[{sectionIndex:0,original:'The study found whether repair fits a person’s sense of style is a barrier. [2]',replacement:'The study identified incongruence with identity as a barrier to repair. [2]',evidenceUrl:disputed.sources[1].url}],
+};
+const patched=applyVerifiedCorrections(disputed,review);
+assert.equal(patched.article.sources[0].authors,'Amber Martin-Woodhead and Martyn Evans','Verified byline is applied directly, not rewritten from disputed notes');
+assert.equal(patched.article.sources[0].publication,'Manchester Metropolitan University');
+assert.match(patched.article.body[0][1],/incongruence with identity/);
+assert.match(patched.article.body[0][1],/Keep the repair visible if you like its character/,'Unaffected commentary survives the targeted edit');
+assert.equal(patched.article.title,disputed.title);
+const wrongNumber=applyVerifiedCorrections(disputed,{textCorrections:[{...review.textCorrections[0],replacement:'The study identified identity as a barrier. [61]'}]});
+assert.match(wrongNumber.article.body[0][1],/barrier\. \[2\]/,'Corrected citations are bound to evidence URL position, never sourceId or research-note numbering');
+assert.throws(()=>validateArticle({...article,body:article.body.map((section,index)=>index===0?[section[0],section[1]+' Invalid [4].']:section)},article.sources,[],'2026-10-16'),/out-of-range inline citation/);
+assert.equal(disputed.sources[0].authors,'Elaine L. Ritch','The audit keeps the original candidate unchanged');
+assert.equal(patched.article.sources[0].url,disputed.sources[0].url,'Corrections cannot substitute another URL');
+assert.equal(canonicalEvidenceUrl(disputed.sources[1].url+'?utm_source=openai#references'),disputed.sources[1].url);
+assert.throws(()=>applyVerifiedCorrections(disputed,{sourceCorrections:[{...review.sourceCorrections[0],evidenceUrl:disputed.sources[1].url}]}),/own cited page/,'A byline from another record cannot be mixed into the cited source');
+assert.throws(()=>applyVerifiedCorrections(disputed,{textCorrections:[{...review.textCorrections[0],original:'Invented passage'}]}),/match exactly one/);
+assert.throws(()=>applyVerifiedCorrections(disputed,{textCorrections:[{...review.textCorrections[0],evidenceUrl:'https://fabricated.example/claim'}]}),/needs evidence/);
+assert.throws(()=>applyVerifiedCorrections(disputed,{sourceCorrections:[{...review.sourceCorrections[0],sourceId:'S99'}]}),/unknown source ID/);
+
+assert.equal(countWords('We go on. [1] A new start.'),6,'Reading times count short words and exclude citation markers');
+assert.equal(article.read,Math.max(4,Math.ceil(countWords(article.body.map(section=>section.join(' ')).join(' '))/220)));
+const tempFs=require('node:fs'),tempPath=require('node:path'),tempOs=require('node:os');
+const fixtureDir=tempFs.mkdtempSync(tempPath.join(tempOs.tmpdir(),'wildwire-image-hash-'));
+try {
+  const earlier=tempPath.join(fixtureDir,'earlier.webp');tempFs.writeFileSync(earlier,'previous image bytes');
+  assert.throws(()=>assertFreshImages([{path:'renamed.webp',bytes:Buffer.from('previous image bytes')}],[earlier]),/Image content is repeated/,'Renaming a past image cannot bypass the no-reuse guard');
+  assert.throws(()=>assertFreshImages([{path:'a.webp',bytes:Buffer.from('new image')},{path:'b.webp',bytes:Buffer.from('new image')}],[]),/Image content is repeated/,'Two filenames cannot share image content in one edition');
+  assertFreshImages([{path:'fresh.webp',bytes:Buffer.from('brand new image')}],[earlier]);
+} finally {tempFs.rmSync(fixtureDir,{recursive:true,force:true});}
 
 (async () => {
   const originalFetch = global.fetch;

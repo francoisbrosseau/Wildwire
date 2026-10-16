@@ -16,6 +16,11 @@ on:
         type: string
         default: ''
         required: false
+      resume_run:
+        description: Optional previous preview run ID to recover validated unpublished work
+        type: string
+        default: ''
+        required: false
 
 permissions:
   contents: read
@@ -34,6 +39,7 @@ jobs:
     permissions:
       contents: write
       issues: write
+      actions: read
     timeout-minutes: 60
     outputs:
       live: ${{ steps.publish.outputs.live }}
@@ -60,6 +66,21 @@ jobs:
           path: .wildwire-runs
           key: editorial-v2-${{ github.ref_name }}-${{ steps.edition.outputs.date }}-${{ hashFiles('scripts/automated-publish.cjs') }}-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: editorial-v2-${{ github.ref_name }}-${{ steps.edition.outputs.date }}-${{ hashFiles('scripts/automated-publish.cjs') }}-
+      - name: Recover an explicitly selected previous preview
+        if: github.event_name == 'workflow_dispatch' && inputs.dry_run && inputs.resume_run != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RESUME_RUN: ${{ inputs.resume_run }}
+          EDITION_DATE: ${{ steps.edition.outputs.date }}
+        run: |
+          [[ "$RESUME_RUN" =~ ^[0-9]+$ ]] || { echo 'resume_run must be a numeric run ID'; exit 1; }
+          gh run download "$RESUME_RUN" --repo "$GITHUB_REPOSITORY" --pattern "wildwire-edition-${EDITION_DATE}-*" --dir "$RUNNER_TEMP/recovered-edition"
+          for source_dir in "$RUNNER_TEMP/recovered-edition/.wildwire-runs/$EDITION_DATE" "$RUNNER_TEMP/recovered-edition/"*/.wildwire-runs/"$EDITION_DATE"; do
+            if [ -d "$source_dir" ]; then
+              mkdir -p ".wildwire-runs/$EDITION_DATE"
+              cp -n "$source_dir/"* ".wildwire-runs/$EDITION_DATE/"
+            fi
+          done
       - name: Research and generate eight stories and thirteen distinct images
         id: generate
         # A rejected PREVIEW is a diagnostic result, not a production failure email.

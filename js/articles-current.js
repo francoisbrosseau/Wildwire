@@ -1070,3 +1070,40 @@ window.WILDWIRE_ARTICLES = [
     "editionDate": "2026-10-16"
   }
 ];
+window.WILDWIRE_PILLAR_IMAGES = {
+  "Strength": {
+    "image": "images/pillar-strength-focus-20261016.webp",
+    "alt": "A woman and a man push weighted training sleds with focused effort in a gym.",
+    "provenance": "Existing image from the founder-approved October 16 manual edition; original asset retained.",
+    "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+    "sha256": "a105ebdefc451a646d0af02f7e0f9d0bb5cb81d2b9e2e7e4edcd1ad348590582"
+  },
+  "Style": {
+    "image": "images/pillar-style-drive-20261016.webp",
+    "alt": "Two companions in tailored burgundy and ivory outfits walk with purpose through a city.",
+    "provenance": "Existing image from the founder-approved October 16 manual edition; original asset retained.",
+    "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+    "sha256": "97deed9eca9e237db225bbfda1a14760ec0fcd1ff9093b078fd47478b68b9671"
+  },
+  "Explore": {
+    "image": "images/pillar-explore-partners-20261016.webp",
+    "alt": "Two hiking partners climb a coastal trail above the sea.",
+    "provenance": "Existing image from the founder-approved October 16 manual edition; original asset retained.",
+    "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+    "sha256": "782c7b1fcab2eaa02e3762c0fe3e08581261000fc40baf25fa88ccfe4cd8c457"
+  },
+  "Culture": {
+    "image": "images/pillar-culture-question-20261016.webp",
+    "alt": "Two companions discuss a photograph in a gallery.",
+    "provenance": "Existing image from the founder-approved October 16 manual edition; original asset retained.",
+    "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+    "sha256": "031830f49882727466d33cd766c87739822afd05acfcc856a4dd8fb4ac44ba5a"
+  },
+  "Living": {
+    "image": "images/pillar-living-partners-20261016.webp",
+    "alt": "A couple share a drink and an open notebook on a leafy terrace.",
+    "provenance": "Existing image from the founder-approved October 16 manual edition; original asset retained.",
+    "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+    "sha256": "8036b50d6b08614e55ace9fc151dacb09cf754c6d54bf3ad71ee25e3a89bf88f"
+  }
+};
