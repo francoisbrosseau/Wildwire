@@ -153,11 +153,22 @@ window.WILDWIRE_ARTICLES = [
         "If you have no scale, use the same spoon and mug each day and change one thing at a time. If you are using a French press, let the coffee steep for about four minutes, then press gently. If the kettle is still on the counter and your toddler is already asking for breakfast, let the coffee be simple. A ritual should help you live your morning, not make you late for it."
       ],
       [
+        "If the cup misses",
+        "Taste is feedback, not a grade. Write down one thing you notice: too intense, a little thin, softer as it cools, or exactly what you wanted. If it is too strong, add a splash of water or use a little less coffee next time. If it feels thin, use a touch more coffee. If the flavor is harsh or uneven, pour more slowly and keep the grind medium. Change one thing, then brew again; changing the beans, grind, dose and water all at once leaves you with no clue what helped.\n\nThe coffee you enjoy is the right result. If you like it with milk, make it that way. If a French press or instant coffee is what fits your kitchen, use that. The method should serve the morning you have, not the coffee you think you are supposed to like."
+      ],
+      [
         "Leave a little room",
         "For one week, try making the first cup before opening the news or messages. Stand by the window, sit at the table, or take the mug outside. You do not have to meditate over it or make the moment profound. Just drink while the coffee is still warm.\n\nThe point is not to become a coffee person. It is to claim a small beginning that belongs to you. Tomorrow, change the beans, the mug, or nothing at all. Keep the parts that make you glad you got up."
       ]
     ],
-    "sources": []
+    "sources": [
+      {
+        "title": "SCA Minimum Certification Requirements for Coffee Brewers",
+        "authors": "Specialty Coffee Association",
+        "publication": "Specialty Coffee Association",
+        "url": "https://sca.coffee/s/2017-SCA-CHB-Program-Requirements-ba6g.pdf"
+      }
+    ]
   },
   {
     "id": "five-quiet-minutes",
