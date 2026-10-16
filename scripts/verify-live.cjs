@@ -59,7 +59,7 @@ async function verify() {
       await delay(20000);
     }
   }
-  throw new Error(`Live verification timed out; the previous published site remains in place. Last result: ${lastError?.message || 'unknown error'}`);
+  throw new Error(`Live verification timed out; public deployment state is unconfirmed. Inspect Pages and the live site before rollback. Last result: ${lastError?.message || 'unknown error'}`);
 }
 
 verify().catch(error => { console.error(error.message); process.exitCode = 1; });

@@ -3,23 +3,22 @@ name: WILDWIRE daily edition
 on:
   schedule:
     - cron: '17 3,5 * * *'
-      timezone: "America/Toronto"
+      timezone: America/Toronto
   workflow_dispatch:
     inputs:
       dry_run:
-        description: Generate and validate an eight-story edition and five fresh pillar images without publishing
+        description: Build and inspect a complete preview; never commit or deploy
         type: boolean
         default: true
         required: true
       test_date:
-        description: Optional future Toronto calendar date for an isolated dry run
+        description: Optional future Toronto date for an isolated preview (YYYY-MM-DD)
         type: string
         default: ''
         required: false
 
 permissions:
-  contents: write
-  issues: write
+  contents: read
 
 concurrency:
   group: wildwire-daily-edition
@@ -29,76 +28,153 @@ jobs:
   publish:
     if: >-
       (github.event_name == 'schedule' && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes') ||
-      (github.event_name == 'workflow_dispatch' && (inputs.dry_run == true || (inputs.dry_run == false && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes')))
-    runs-on: ubuntu-latest
-    timeout-minutes: 45
+      (github.event_name == 'workflow_dispatch' && (inputs.dry_run == true ||
+      (inputs.dry_run == false && github.ref_name == github.event.repository.default_branch && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes')))
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+      issues: write
+    timeout-minutes: 60
+    outputs:
+      live: ${{ steps.publish.outputs.live }}
+      revision: ${{ steps.publish.outputs.revision }}
+    env:
+      WILDWIRE_DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'true' || 'false' }}
+      WILDWIRE_TEST_DATE: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && inputs.test_date || '' }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           ref: ${{ github.event_name == 'workflow_dispatch' && github.ref || github.event.repository.default_branch }}
           fetch-depth: 0
-
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-
-      - name: Install the site's functional test dependency
+      - name: Install test dependencies
         run: npm install --no-audit --no-fund
-
-      - name: Generate, research and illustrate eight stories plus five distinct pillar tile images
+      - name: Select Toronto edition date
+        id: edition
+        run: node -e "const e=require('./scripts/automated-publish.cjs');require('fs').appendFileSync(process.env.GITHUB_OUTPUT,'date='+e.editionDate(process.env.WILDWIRE_TEST_DATE,process.env.WILDWIRE_DRY_RUN==='true')+'\n')"
+      - name: Recover validated stories and images from an earlier attempt
+        uses: actions/cache/restore@v4
+        with:
+          path: .wildwire-runs
+          key: editorial-v2-${{ github.ref_name }}-${{ steps.edition.outputs.date }}-${{ hashFiles('scripts/automated-publish.cjs') }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: editorial-v2-${{ github.ref_name }}-${{ steps.edition.outputs.date }}-${{ hashFiles('scripts/automated-publish.cjs') }}-
+      - name: Research and generate eight stories and thirteen distinct images
+        id: generate
+        # A rejected PREVIEW is a diagnostic result, not a production failure email.
+        # Its outcome remains visible below; production failures still fail the job.
+        continue-on-error: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
         run: node scripts/automated-publish.cjs
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          WILDWIRE_DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
-          WILDWIRE_TEST_DATE: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && inputs.test_date || '' }}
-
-      - name: Rebuild article catalog and run editorial and site checks
+      - name: Validate the NEW edition and its homepage and archive integration
+        id: validate
+        if: steps.generate.outcome == 'success'
+        continue-on-error: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
         run: |
-          node scripts/build-content.cjs
           node scripts/check-content.cjs
           npm test
-
-      - name: Refuse a late edition
-        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.dry_run == false)
+          node scripts/package-pages.cjs
+      - name: Save validated work even if a later story failed
+        if: always() && steps.edition.outputs.date != ''
+        uses: actions/cache/save@v4
+        continue-on-error: true
+        with:
+          path: .wildwire-runs
+          key: editorial-v2-${{ github.ref_name }}-${{ steps.edition.outputs.date }}-${{ hashFiles('scripts/automated-publish.cjs') }}-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Keep the preview, provenance, usage and failure report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wildwire-edition-${{ steps.edition.outputs.date }}-${{ github.run_attempt }}
+          path: |
+            .wildwire-runs/
+            dist/
+          include-hidden-files: true
+          if-no-files-found: ignore
+          retention-days: 14
+      - name: Preview result (read this before promoting)
+        if: always() && github.event_name == 'workflow_dispatch' && inputs.dry_run
+        env:
+          GENERATED: ${{ steps.generate.outcome }}
+          VALIDATED: ${{ steps.validate.outcome }}
         run: |
-          node -e "const p=new Intl.DateTimeFormat('en-GB',{timeZone:'America/Toronto',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date()).split(':').map(Number); if(p[0]>6||(p[0]===6&&p[1]>=40)) throw new Error('Edition missed the 6:40 a.m. Toronto publication cutoff; nothing will be committed.');"
-
+          if [ "$GENERATED" = success ] && [ "$VALIDATED" = success ]; then
+            echo '## PREVIEW PASSED — eight new stories, thirteen new images, new-edition site tests passed. Nothing published.' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo '## PREVIEW NEEDS ATTENTION — not approved for production. Nothing published. Inspect the failed step and attached edition report. Preview diagnostics do not send production-failure alerts.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Refuse a scheduled edition that missed its deadline
+        if: github.event_name == 'schedule'
+        run: node -e "const p=new Intl.DateTimeFormat('en-GB',{timeZone:'America/Toronto',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date()).split(':').map(Number);if(p[0]>6||(p[0]===6&&p[1]>=40))throw Error('Missed the 6:40 a.m. Toronto cutoff; no edition committed.')"
       - name: Commit the complete validated edition
         id: publish
         if: >-
-          (github.event_name == 'schedule' && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes') ||
-          (github.event_name == 'workflow_dispatch' && inputs.dry_run == false && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes')
+          steps.generate.outcome == 'success' && steps.validate.outcome == 'success' &&
+          env.WILDWIRE_DRY_RUN == 'false' && github.ref_name == github.event.repository.default_branch &&
+          vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add content/articles content/editions images/generated js/articles.js js/articles-current.js
-          if git diff --cached --quiet; then
-            echo "published=false" >> "$GITHUB_OUTPUT"
-            echo "Today's edition is already present; no duplicate commit was made."
-            exit 0
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish WILDWIRE daily edition"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
-          git commit -m "Publish WILDWIRE daily edition"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
-          echo "published=true" >> "$GITHUB_OUTPUT"
+          echo "revision=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo 'live=true' >> "$GITHUB_OUTPUT"
+      - name: Report a production failure
+        if: failure() && env.WILDWIRE_DRY_RUN == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        continue-on-error: true
+        run: |
+          title="WILDWIRE daily edition failed: $(TZ=America/Toronto date +%F)"
+          count=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "$title in:title" --json number --jq length)
+          if [ "$count" = 0 ]; then
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "Generation or validation failed; no candidate was committed. Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          fi
 
-      - name: Confirm WildWireMag.com serves today's edition
-        if: steps.publish.outputs.published == 'true'
+  deploy:
+    needs: publish
+    if: needs.publish.outputs.live == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
+    with:
+      revision: ${{ needs.publish.outputs.revision }}
+
+  verify:
+    needs: [publish, deploy]
+    if: always() && needs.publish.outputs.live == 'true'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ needs.publish.outputs.revision }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Verify WildWireMag.com serves the committed edition
+        if: needs.deploy.result == 'success'
         run: node scripts/verify-live.cjs
-
-      - name: Record and notify failed run
+      - name: Fail if Pages deployment failed
+        if: needs.deploy.result != 'success'
+        run: exit 1
+      - name: Report a deployment or live-verification failure
         if: failure()
         env:
           GH_TOKEN: ${{ github.token }}
         continue-on-error: true
         run: |
-          run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
-          title="WILDWIRE daily edition failed: $(TZ=America/Toronto date +%F)"
-          body="The automated edition failed before live verification. Existing site content was left in place. Review the run log: ${run_url}"
-          open_issue=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "$title" --json title --jq '.[].title')
-          if [[ "$open_issue" != *"$title"* ]]; then
-            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "$body"
+          title="WILDWIRE deployment needs attention: $(TZ=America/Toronto date +%F)"
+          count=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "$title in:title" --json number --jq length)
+          if [ "$count" = 0 ]; then
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "A complete edition was committed but deployment or public verification failed. Inspect Pages before deciding whether to redeploy or revert. Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           fi
-
-      - name: Summarize failed run
-        if: failure()
-        run: echo "WILDWIRE did not verify a complete live edition. The prior live site remains in place; see the Actions run and failure issue." >> "$GITHUB_STEP_SUMMARY"

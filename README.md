@@ -23,7 +23,7 @@ Comments are not active until GitHub Discussions and giscus are configured in `j
 
 ## Daily publication
 
-A five-pillar editorial engine and sample edition are prepared, but unattended publishing is not active. It requires a separately billed API key, an account spending limit, an approved sample and a live end-to-end publication test. See [PUBLISHING-SETUP.md](PUBLISHING-SETUP.md).
+The approved edition has five pillar features, three Daily Reads and thirteen distinct images. The API key works, but unattended publishing remains off until a complete preview and live deployment pass. See [EDITORIAL-CONTRACT.md](EDITORIAL-CONTRACT.md) for the permanent daily template and [PUBLISHING-SETUP.md](PUBLISHING-SETUP.md) for verified state, diagnostics, costs and pause/resume controls.
 
 ## Local checks
 

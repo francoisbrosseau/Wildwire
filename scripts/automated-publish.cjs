@@ -10,6 +10,12 @@ const TOKEN = process.env.OPENAI_API_KEY;
 const MODEL = process.env.WILDWIRE_MODEL || 'gpt-6-luna';
 const IMAGE_MODEL = process.env.WILDWIRE_IMAGE_MODEL || 'gpt-image-2.5-flare';
 const DRY_RUN = process.env.WILDWIRE_DRY_RUN === 'true';
+let runDirectory;
+let runReport;
+function saveReport() {
+  if (runDirectory && runReport) fs.writeFileSync(path.join(runDirectory, 'report.json'), JSON.stringify(runReport, null, 2) + '\n');
+}
+function log(message) { console.log(`${new Date().toISOString()} ${message}`); }
 const CATEGORIES = ['Strength', 'Style', 'Explore', 'Culture', 'Living'];
 const DAILY_READ_COUNT = 3;
 const DAILY_READ_CATEGORIES = ['Living', 'Culture', 'Explore', 'Living', 'Style'];
@@ -104,40 +110,95 @@ function parseJson(value) {
   try { return JSON.parse(cleaned); } catch { fail('Model did not return valid JSON.'); }
 }
 
+function articleSchema(sourceCandidates) {
+  return {
+    type: 'object', additionalProperties: false,
+    required: ['category', 'title', 'subtitle', 'imageAlt', 'imageConcept', 'body', 'sources'],
+    properties: {
+      category: { type: 'string', enum: CATEGORIES },
+      ...Object.fromEntries(['title', 'subtitle', 'imageAlt', 'imageConcept'].map(key => [key, { type: 'string' }])),
+      body: { type: 'array', minItems: 6, maxItems: 9, items: { type: 'array', minItems: 2, maxItems: 2, items: { type: 'string' } } },
+      sources: { type: 'array', minItems: 3, maxItems: 3, items: {
+        type: 'object', additionalProperties: false,
+        required: ['sourceId', 'title', 'authors', 'publication'],
+        properties: {
+          sourceId: { type: 'string', enum: sourceCandidates.map(source => source.sourceId) },
+          ...Object.fromEntries(['title', 'authors', 'publication'].map(key => [key, { type: 'string' }])),
+        },
+      } },
+    },
+  };
+}
+
+function bindSources(article, sourceCandidates) {
+  const registry = new Map(sourceCandidates.map(source => [source.sourceId, source]));
+  if (!Array.isArray(article.sources) || article.sources.length !== 3) fail('The draft must cite exactly three registered sources.');
+  const seen = new Set();
+  article.sources = article.sources.map(source => {
+    const registered = registry.get(source.sourceId);
+    if (!registered || seen.has(source.sourceId)) fail(`Invalid or repeated research source ID: ${source.sourceId}`);
+    seen.add(source.sourceId);
+    // The model selects an ID; only the verified research registry supplies URLs.
+    return { ...source, url: registered.url };
+  });
+  return article;
+}
+
 async function apiRequest(payload, label) {
   let lastError;
-  for (let attempt = 0; attempt < 4; attempt++) {
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const started = Date.now();
+    let retryable = true;
+    log(`${label}: request ${attempt + 1}/3 started.`);
+    const heartbeat = setInterval(() => log(`${label}: still waiting (${Math.round((Date.now() - started) / 1000)}s).`), 45000);
+    heartbeat.unref();
     try {
       const response = await fetch('https://api.openai.com/v1/responses', {
         method: 'POST',
         headers: { Authorization: `Bearer ${TOKEN}`, 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
+        signal: AbortSignal.timeout(payload.tools?.some(tool => tool.type === 'image_generation') ? 240000 : 180000),
       });
       const raw = await response.text();
       let body;
       try { body = JSON.parse(raw); } catch { body = { error: { message: raw.slice(0, 400) } }; }
-      if (response.ok) return body;
+      if (response.ok) {
+        if (body.status && body.status !== 'completed') {
+          retryable = false;
+          fail(`${label}: API response ${body.status} (${body.incomplete_details?.reason || body.error?.message || 'no complete output'}).`);
+        }
+        log(`${label}: completed in ${Math.round((Date.now() - started) / 1000)}s.`);
+        if (runReport) {
+          runReport.requests.push({ label, seconds: Math.round((Date.now() - started) / 1000), model: payload.model, usage: body.usage || null });
+          saveReport();
+        }
+        return body;
+      }
       const message = body.error?.message || `HTTP ${response.status}`;
-      if (![408, 409, 429, 500, 502, 503, 504].includes(response.status)) fail(`${label}: ${message}`);
+      retryable = [408, 409, 429, 500, 502, 503, 504].includes(response.status) && !['insufficient_quota', 'billing_hard_limit_reached'].includes(body.error?.code);
       lastError = new Error(`${label}: ${message}`);
     } catch (error) {
       lastError = error;
+    } finally {
+      clearInterval(heartbeat);
     }
-    if (attempt < 3) await new Promise(resolve => setTimeout(resolve, 1200 * (2 ** attempt)));
+    if (!retryable) throw lastError;
+    log(`${label}: ${lastError.message}; ${attempt < 2 ? 'retrying transient failure' : 'retry limit reached'}.`);
+    if (attempt < 2) await new Promise(resolve => setTimeout(resolve, 1500 * (2 ** attempt)));
   }
   throw lastError || new Error(`${label} failed after retries.`);
 }
 
-async function textCall(input, useSearch = false) {
+async function textCall(input, useSearch = false, schema = null, label = '') {
   const response = await apiRequest({
     model: MODEL,
     input,
-    text: useSearch ? { format: { type: 'text' } } : { format: { type: 'json_object' } },
+    text: { format: useSearch ? { type: 'text' } : schema ? { type: 'json_schema', name: 'wildwire_article', strict: true, schema } : { type: 'json_object' } },
     tools: useSearch ? [{ type: 'web_search' }] : [],
     tool_choice: useSearch ? 'required' : undefined,
     include: useSearch ? ['web_search_call.action.sources'] : undefined,
     max_output_tokens: 8000,
-  }, useSearch ? 'Research / fact-check' : 'Article generation');
+  }, label || (useSearch ? 'Research / fact-check' : 'Article generation'));
   const text = responseText(response);
   if (!text) fail('Responses API returned no text.');
   return { text, sources: responseSources(response) };
@@ -166,6 +227,16 @@ function imagePrompt(article, pairing, recentDescriptions = []) {
   ].join('\n');
 }
 async function generateImage(article, pairing, id, existing) {
+  const checkpoint = path.join(runDirectory, `${id}.webp`);
+  const metadata = path.join(runDirectory, `${id}.image.json`);
+  if (fs.existsSync(checkpoint) && fs.existsSync(metadata)) {
+    const saved = JSON.parse(fs.readFileSync(metadata, 'utf8'));
+    const bytes = fs.readFileSync(checkpoint);
+    if (saved.imageCheck?.passed === true && saved.imageCheck.peopleCount >= 2 && bytes.length > 20000 && saved.sha256 === crypto.createHash('sha256').update(bytes).digest('hex')) {
+      log(`${article.category}: recovered validated image ${id}.`);
+      return { ...saved, bytes };
+    }
+  }
   const prompt = imagePrompt(article, pairing, existing.slice(-30).map(item => item.imageAlt).filter(Boolean));
   const response = await apiRequest({
     model: MODEL,
@@ -191,7 +262,12 @@ async function generateImage(article, pairing, id, existing) {
   }, `Visual image check for ${article.category}`);
   const imageCheck = parseJson(responseText(reviewed));
   if (imageCheck.passed !== true || Number(imageCheck.peopleCount) < 2) fail(`Generated cover failed its visual check for ${article.category}: ${(imageCheck.issues || []).join('; ') || 'pair/family not confirmed'}`);
-  return { bytes, path: `images/generated/${id}.webp`, prompt, imageCheck };
+  const result = { path: `images/generated/${id}.webp`, prompt, imageCheck, sha256: crypto.createHash('sha256').update(bytes).digest('hex') };
+  fs.writeFileSync(checkpoint, bytes);
+  fs.writeFileSync(metadata, JSON.stringify(result, null, 2) + '\n');
+  runReport.images.push({ id, category: article.category, path: result.path, imageCheck, bytes: bytes.length });
+  saveReport();
+  return { ...result, bytes };
 }
 
 function validateArticle(article, searchedSources, existing, date, pairing) {
@@ -214,7 +290,8 @@ function validateArticle(article, searchedSources, existing, date, pairing) {
   }
   const verified = new Set(searchedSources.map(source => source.url));
   article.sources.forEach((source, index) => {
-    if (!source.title || !source.publication || !verified.has(source.url)) fail(`Source ${index + 1} is not a verified research result.`);
+    if (!source.title || !source.publication) fail(`Source ${index + 1} is missing title or publication metadata.`);
+    if (!verified.has(source.url)) fail(`Source ${index + 1} URL is not a verified research result: ${source.url}`);
     if (!source.authors || /^(?:not specified|unknown|n\/a|not available)\b/i.test(String(source.authors).trim())) fail(`Source ${index + 1} needs verified author or publishing-organization metadata.`);
     if (!body.includes(`[${index + 1}]`)) fail(`Source ${index + 1} has no inline citation.`);
   });
@@ -237,38 +314,42 @@ async function makeArticle(category, date, pairing, existing, dailyRead = false)
   const oldLivingEndings = existing.filter(item => item.category === 'Living').map(item => `- ${item.body?.at(-1)?.[0] || 'untitled'}: ${(item.body?.at(-1)?.[1] || '').slice(0, 220)}`).join('\n');
   const researched = await textCall(
     `Research a fresh, useful WILDWIRE ${dailyRead ? 'supplemental Daily Read' : 'pillar'} feature in the ${category} category. Find at least five credible current or primary sources; give exact URLs, publication names, publication dates, verified named author(s) from each source page, and factual notes. Never use placeholders such as “not specified,” “unknown,” or infer authors. If a source lists no individual author, identify its publishing organization as the author. Avoid repeating these archived stories:\n${history}\nThe editorial image will feature ${pairing}. The story itself can focus on a meaningful subject in this pillar. Do not invent quotes, people, results or statistics.`,
-    true,
+    true, null, `${category}: research`,
   );
   if (researched.sources.length < 3) fail(`Research returned fewer than three source links for ${category}.`);
-  const sourceCandidates = uniqueSources(researched.sources);
+  const sourceCandidates = uniqueSources(researched.sources).map((source, index) => ({ ...source, sourceId: `S${index + 1}` }));
+  const schema = articleSchema(sourceCandidates);
   const drafted = await textCall(
-    `Write one original, substantial WILDWIRE article in JSON only, based on the research notes below. Voice: intelligent, confident, warm, inclusive and human; no filler, alpha clichés or generic AI phrasing. Keep reporting distinct from commentary. Do not invent interviews, personal experience, statistics or quotations. Category must be ${category}; ${dailyRead ? 'mark this as an additional Daily Read story' : 'this is the main pillar story'}. Write 6–9 useful sections and target 1,000–1,200 words (never fewer than 900). Build each section with real explanation, examples or useful steps, not padding. Put inline [1], [2], [3] citations in the relevant prose. Include concrete steps when the topic is training, cooking or another practical guide. For Living, make the final section a grounded, story-specific practice or reflection of at least 70 words; make its heading distinct from all previous Living endings below. Do not repeat a generic daily ritual.\n\nArchived Living endings:\n${oldLivingEndings}\n\nResearch notes:\n${researched.text}\n\nFor each of the exactly three cited sources, copy the complete exact page title, publication name, date, and named author(s) from the linked source page; do not shorten or paraphrase titles. Never use placeholder author metadata or infer names; if no individual author is listed, use the publishing organization. Use exactly three verified URLs from these search results:\n${JSON.stringify(sourceCandidates)}\n\nReturn: {"category":"${category}","title":"...","subtitle":"...","imageAlt":"...","imageConcept":"a specific, visual scene centered on a couple, family or friends","body":[["section heading","substantial prose"],...],"sources":[{"title":"...","url":"exact verified URL","authors":"...","publication":"..."},...]}`,
+    `Write one original, substantial WILDWIRE article in JSON only, based on the research notes below. Voice: intelligent, confident, warm, inclusive and human; no filler, alpha clichés or generic AI phrasing. Keep reporting distinct from commentary. Do not invent interviews, personal experience, statistics or quotations. Category must be ${category}; ${dailyRead ? 'mark this as an additional Daily Read story' : 'this is the main pillar story'}. Write 6–9 useful sections and target 1,000–1,200 words (never fewer than 900). Build each section with real explanation, examples or useful steps, not padding. Put inline [1], [2], [3] citations in the relevant prose. Include concrete steps when the topic is training, cooking or another practical guide. For Living, make the final section a grounded, story-specific practice or reflection of at least 70 words; make its heading distinct from all previous Living endings below. Do not repeat a generic daily ritual.\n\nArchived Living endings:\n${oldLivingEndings}\n\nResearch notes:\n${researched.text}\n\nFor each of the exactly three cited sources, copy the complete exact page title, publication name, date, and named author(s) from the linked source page; do not shorten or paraphrase titles. Never use placeholder author metadata or infer names; if no individual author is listed, use the publishing organization. Select exactly three distinct sourceId values from this verified registry. Never write or change URLs; the publisher attaches each URL from its sourceId:\n${JSON.stringify(sourceCandidates)}\n\nReturn: {"category":"${category}","title":"...","subtitle":"...","imageAlt":"...","imageConcept":"a specific, visual scene centered on a couple, family or friends","body":[["section heading","substantial prose"],...],"sources":[{"title":"...","sourceId":"S1","authors":"...","publication":"..."},...]}`,
+    false, schema, `${category}: draft`,
   );
-  let article = parseJson(drafted.text);
+  let article = bindSources(parseJson(drafted.text), sourceCandidates);
   if (article.category !== category) fail(`Draft category mismatch for ${category}.`);
   const draftWords = tokens((article.body || []).map(section => section.join('\n')).join('\n')).length;
   if (draftWords < 800) {
     const repaired = await textCall(
-      `Expand this underlength WILDWIRE article to 1,000–1,200 words across 6–9 useful sections. Preserve its headline, category, angle, source records, and inline [1], [2], [3] citations. Add meaningful explanation, practical detail, tradeoffs, and specific examples grounded only in the supplied research notes. Do not invent sources, quotes, statistics, personal experiences, or factual claims. Return the complete article JSON in the same schema. The final Living section, if applicable, must remain a distinct story-specific practice/reflection of at least 70 words.\n\nRESEARCH NOTES:\n${researched.text}\n\nARTICLE TO EXPAND:\n${JSON.stringify(article)}`,
+      `Expand this underlength WILDWIRE article to 1,000–1,200 words across 6–9 useful sections. Preserve its headline, category, angle, source records, and inline [1], [2], [3] citations. Add meaningful explanation, practical detail, tradeoffs, and specific examples grounded only in the supplied research notes. Do not invent sources, quotes, statistics, personal experiences, or factual claims. Return the complete article JSON in the same schema using sourceId, title, authors and publication in each source record (omit URL and all computed publishing fields). The final Living section, if applicable, must remain a distinct story-specific practice/reflection of at least 70 words.\n\nRESEARCH NOTES:\n${researched.text}\n\nARTICLE TO EXPAND:\n${JSON.stringify(article)}`,
+      false, schema, `${category}: expand draft`,
     );
-    article = parseJson(repaired.text);
+    article = bindSources(parseJson(repaired.text), sourceCandidates);
     if (article.category !== category) fail(`Expanded draft category mismatch for ${category}.`);
   }
   let checked = await textCall(
     `Fact-check the claims and citations in this draft against current credible sources. Return JSON only: {"passed":boolean,"issues":[string],"checkedClaims":[string]}. Fail if any material factual claim is unsupported, a quote is fabricated, or a citation does not support its nearby claim. Check the exact sentence-to-source match; related coverage is not enough.\n\nDRAFT:\n${JSON.stringify(article)}`,
-    true,
+    true, null, `${category}: fact-check`,
   );
   let result = parseJson(checked.text);
   let checkedSources = [...checked.sources];
   for (let repairAttempt = 0; repairAttempt < 2 && (result.passed !== true || !Array.isArray(result.checkedClaims) || result.checkedClaims.length < 3); repairAttempt++) {
     const repaired = await textCall(
-      `Revise this WILDWIRE article to resolve every fact-check issue below, including source metadata. Copy each source’s complete page title exactly as shown on its linked page; correct any shortened or inaccurate title, author, or publication field. For disputed quantities, describe exactly what the source counted and how it categorized it. For training terminology, preserve the source's distinction between estimates, effort targets and observed outcomes. Remove a detail entirely when it cannot be verified precisely; do not defend or restate an ambiguous claim. Change citations only among the exact verified source URLs listed here. Keep the article natural, substantial (1,000–1,200 words), 6–9 useful sections, its category, headline angle, companion-centered editorial image concept and all reliable practical detail. Do not invent facts, studies, sources, quotes, personal experience or author metadata. Do not preserve source titles or metadata that the fact check identified as incorrect. Preserve exactly three verified source records and inline [1], [2], [3] references at the claims they actually support. Return the complete article JSON in the same schema.\n\nFACT-CHECK ISSUES:\n${JSON.stringify(result.issues || [])}\n\nVERIFIED SOURCES:\n${JSON.stringify(sourceCandidates)}\n\nRESEARCH NOTES:\n${researched.text}\n\nARTICLE TO REVISE:\n${JSON.stringify(article)}`,
+      `Revise this WILDWIRE article to resolve every fact-check issue below, including source metadata. Copy each source’s complete page title exactly as shown on its linked page; correct any shortened or inaccurate title, author, or publication field. For disputed quantities, describe exactly what the source counted and how it categorized it. For training terminology, preserve the source's distinction between estimates, effort targets and observed outcomes. Remove a detail entirely when it cannot be verified precisely; do not defend or restate an ambiguous claim. Select citations only by the sourceId values in the verified registry below. Preserve the mapping between inline citation numbers and source records. Do not output URLs; they are attached deterministically by the publisher. Keep the article natural, substantial (1,000–1,200 words), 6–9 useful sections, its category, headline angle, companion-centered editorial image concept and all reliable practical detail. Do not invent facts, studies, sources, quotes, personal experience or author metadata. Do not preserve source titles or metadata that the fact check identified as incorrect. Preserve exactly three verified source records and inline [1], [2], [3] references at the claims they actually support. Return the complete article JSON in the same schema using sourceId, title, authors and publication in each source record (omit URL and all computed publishing fields).\n\nFACT-CHECK ISSUES:\n${JSON.stringify(result.issues || [])}\n\nVERIFIED SOURCES:\n${JSON.stringify(sourceCandidates)}\n\nRESEARCH NOTES:\n${researched.text}\n\nARTICLE TO REVISE:\n${JSON.stringify(article)}`,
+      false, schema, `${category}: repair factual issues`,
     );
-    article = parseJson(repaired.text);
+    article = bindSources(parseJson(repaired.text), sourceCandidates);
     if (article.category !== category) fail(`Fact-check repair changed the category for ${category}.`);
     checked = await textCall(
       `Re-check every factual claim and source attribution in this revised article against current credible pages. Be strict about whether the exact cited source supports the exact sentence. Return JSON only: {"passed":boolean,"issues":[string],"checkedClaims":[string]}. Pass only when every material claim is supported and at least three claims are checked.\n\nARTICLE:\n${JSON.stringify(article)}`,
-      true,
+      true, null, `${category}: recheck revision`,
     );
     result = parseJson(checked.text);
     checkedSources.push(...checked.sources);
@@ -283,6 +364,11 @@ async function makeArticle(category, date, pairing, existing, dailyRead = false)
 async function main() {
   if (!TOKEN) fail('Missing OPENAI_API_KEY. No content files were changed.');
   const date = editionDate(process.env.WILDWIRE_TEST_DATE || '', DRY_RUN);
+  runDirectory = path.join(ROOT, '.wildwire-runs', date);
+  fs.mkdirSync(runDirectory, { recursive: true });
+  runReport = { date, dryRun: DRY_RUN, startedAt: new Date().toISOString(), status: 'GENERATING', requests: [], articles: [], images: [] };
+  saveReport();
+  log(`Starting ${DRY_RUN ? 'isolated preview' : 'production candidate'} for ${date}: eight stories, thirteen images.`);
   const existing = readExisting();
   const priorTileDescriptions = readEditionManifests().slice(-30).flatMap(manifest => Object.values(manifest.pillarImages || {}).map(tile => tile.alt).filter(Boolean));
   const existingWithTileHistory = [...existing, ...priorTileDescriptions.map((imageAlt, index) => ({ id: `prior-pillar-tile-${index}`, imageAlt }))];
@@ -298,7 +384,18 @@ async function main() {
   for (let index = 0; index < assignments.length; index++) {
     const previousInEdition = results.map(item => item.article);
     const { category, dailyRead } = assignments[index];
-    const result = await makeArticle(category, date, pairings[index], [...existing, ...previousInEdition], dailyRead);
+    log(`Story ${index + 1}/${assignments.length}: ${category}${dailyRead ? ' Daily Read' : ''}.`);
+    const checkpoint = path.join(runDirectory, `story-${index}.json`);
+    let result;
+    if (fs.existsSync(checkpoint)) {
+      result = JSON.parse(fs.readFileSync(checkpoint, 'utf8'));
+      if (result.article.category !== category || Boolean(result.article.dailyRead) !== dailyRead) fail('Cached article assignment does not match this edition.');
+      result.wordCount = validateArticle(result.article, result.sourceResults, [...existing, ...previousInEdition], date, pairings[index]);
+      log(`${category}: recovered validated article "${result.article.title}".`);
+    } else {
+      result = await makeArticle(category, date, pairings[index], [...existing, ...previousInEdition], dailyRead);
+      fs.writeFileSync(checkpoint, JSON.stringify(result, null, 2) + '\n');
+    }
     const candidateId = `${slugify(result.article.title)}-${date.replaceAll('-', '')}`;
     if (existing.some(item => item.id === candidateId) || results.some(item => item.article.id === candidateId)) fail(`Output already exists; refusing overwrite: ${candidateId}`);
     const image = await generateImage(result.article, pairings[index], candidateId, [...existingWithTileHistory, ...results.map(item => item.article)]);
@@ -308,6 +405,8 @@ async function main() {
     result.article.imageUsage = 'AI-generated editorial illustration; no real people or documentary event.';
     result.article.imageVisualCheck = image.imageCheck;
     results.push({ ...result, image });
+    runReport.articles.push({ id: result.article.id, category, dailyRead, words: result.wordCount });
+    saveReport();
     console.log(`Validated ${dailyRead ? 'Daily Read' : category}: ${result.wordCount} words, ${result.article.sources.length} citations, image ${image.bytes.length} bytes.`);
   }
   const pillarImages = [];
@@ -322,16 +421,9 @@ async function main() {
   }
   const allImages = [...results.map(item => item.image.path), ...pillarImages.map(item => item.image.path)];
   if (new Set(allImages).size !== assignments.length + CATEGORIES.length) fail('Image reuse detected in the daily edition and pillar tiles.');
-  if (DRY_RUN) {
-    console.log(JSON.stringify({
-      status: 'DRY_RUN_PASSED', date, articles: results.map(({ article, wordCount, sourcesChecked, image }) => ({
-        id: article.id, category: article.category, title: article.title, words: wordCount,
-        sources: article.sources.length, claimsChecked: sourcesChecked, generatedImage: image.path,
-      })), pillarTileImages: pillarImages.map(({ category, image }) => ({ category, generatedImage: image.path })),
-    }, null, 2));
-    return;
-  }
-
+  // Even previews stage the complete edition in this disposable checkout, so
+  // the following homepage, archive and site checks exercise NEW content.
+  // The workflow's production gates alone authorize commits and deployment.
   fs.mkdirSync(IMAGE_DIR, { recursive: true });
   const written = [];
   try {
@@ -358,6 +450,9 @@ async function main() {
     written.push(editionPath);
     const catalog = require('node:child_process').spawnSync(process.execPath, [path.join(__dirname, 'build-content.cjs')], { cwd: ROOT, encoding: 'utf8' });
     if (catalog.status !== 0) fail(`Catalog build failed: ${catalog.stderr || catalog.stdout}`);
+    runReport.status = DRY_RUN ? 'PREVIEW_STAGED' : 'CANDIDATE_STAGED';
+    runReport.finishedAt = new Date().toISOString();
+    saveReport();
     console.log(`WILDWIRE edition ${date} staged: eight stories (five pillars and three Daily Reads), plus five unique pillar tile images; thirteen generated images total. Run all content and functional checks before committing.`);
   } catch (error) {
     for (const file of written.reverse()) fs.rmSync(file, { force: true });
@@ -367,8 +462,14 @@ async function main() {
 }
 
 if (require.main === module) main().catch(error => {
+  if (runReport) {
+    runReport.status = 'REJECTED';
+    runReport.error = error.message;
+    runReport.finishedAt = new Date().toISOString();
+    saveReport();
+  }
   console.error(`WILDWIRE edition failed closed: ${error.message}`);
   process.exitCode = 1;
 });
 
-module.exports = { torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle, DAILY_READ_COUNT, DAILY_READ_CATEGORIES };
+module.exports = { torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle, articleSchema, bindSources, apiRequest, DAILY_READ_COUNT, DAILY_READ_CATEGORIES };
