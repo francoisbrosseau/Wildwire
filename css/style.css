@@ -161,3 +161,18 @@ body{background:var(--bg);color:var(--cream)}
 .hero-content{max-width:570px}
 .hero h1{font-size:clamp(2.45rem,3.9vw,3.8rem);max-width:560px}
 @media(max-width:760px){.hero{min-height:560px}.hero img{object-fit:cover;object-position:62% 42%}.hero-content{max-width:510px}.hero h1{font-size:clamp(2.4rem,9vw,2.9rem)}}
+
+
+/* WILDWIRE wordmark: crisp ivory and champagne lettering with a single ember blade. */
+.brand{display:flex;flex-direction:column;align-items:center;justify-content:center;grid-row:2;min-height:0;font-size:inherit;letter-spacing:0}
+.brand:after{content:none}
+.brand-name{display:inline-flex;align-items:center;justify-content:center;gap:0;font-family:'Barlow Condensed',Impact,'Arial Narrow',sans-serif;font-size:clamp(3.5rem,8.2vw,7.25rem);font-weight:800;letter-spacing:-.055em;line-height:.9;text-transform:uppercase;white-space:nowrap}
+.brand-wild{color:#fff9ef!important}
+.brand-wire{color:#d8b86d!important}
+.brand-cut{position:static;display:inline-block;flex:0 0 auto;width:.115em;height:.88em;margin:0 .09em;background:#c94e38;clip-path:polygon(62% 0,100% 0,38% 100%,0 100%);transform:translateY(-.01em);filter:none;box-shadow:none}
+.brand-cut:before,.brand-cut:after{content:none!important}
+.footer-brand{display:inline-flex;align-items:center;line-height:1}
+.footer-brand .brand-name{font-size:2.05rem;letter-spacing:-.045em}
+.footer-brand .brand-cut{height:.84em;margin:0 .08em}
+@media(max-width:760px){.brand-name{font-size:clamp(3rem,11.8vw,5.3rem)}.footer-brand .brand-name{font-size:1.9rem}}
+@media(max-width:480px){.brand-name{font-size:clamp(2.55rem,12.8vw,3.9rem)}.footer-brand .brand-name{font-size:1.9rem}}
