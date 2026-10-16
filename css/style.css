@@ -205,3 +205,12 @@ body{background:var(--bg);color:var(--cream)}
 
 /* Make story category and reading-time labels easy to scan on the feature deck. */
 .editorial-layout .meta,.reading-list .meta{display:inline-flex;align-items:center;width:max-content;padding:5px 9px;border-left:2px solid var(--ember);background:#e5dac6;color:#51402b;font-size:.67rem;font-weight:800;letter-spacing:.15em;line-height:1.25}
+
+/* Give each pillar's current story room to read while keeping the approved tile layout. */
+.worlds .category-index p.category-current-story{display:-webkit-box;max-width:none;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:3;color:#fffaf3!important;font-family:var(--display);font-size:.8rem;font-weight:700;line-height:1.45}
+.worlds .category-index p.category-scope{margin-top:6px;color:#d4c4b4!important;font-size:.61rem;line-height:1.45}
+.archive-invitation{display:flex;align-items:center;justify-content:space-between;gap:24px;border-top:1px solid var(--line);padding-top:22px}
+.archive-invitation p{max-width:560px;margin:0;color:#d0c3b5;font-size:.86rem;line-height:1.65}
+.archive-invitation>div{display:flex;gap:10px;align-items:center;white-space:nowrap;color:#81766b}
+.archive-invitation .text-link{font-size:.72rem}
+@media(max-width:760px){.archive-invitation{align-items:flex-start;flex-direction:column;gap:14px}.archive-invitation>div{flex-wrap:wrap;white-space:normal}.worlds .category-index p.category-current-story{font-size:.76rem}}

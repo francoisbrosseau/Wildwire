@@ -1,10 +1,14 @@
 const assert = require('node:assert/strict');
-const { torontoDate, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle } = require('../scripts/automated-publish.cjs');
+const { torontoDate, editionDate, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle } = require('../scripts/automated-publish.cjs');
 
 assert.equal(torontoDate(new Date('2026-01-01T02:00:00Z')), '2025-12-31', 'Toronto date follows local midnight across UTC');
 assert.equal(torontoDate(new Date('2026-01-01T05:00:00Z')), '2026-01-01', 'Toronto calendar date is used after local midnight');
 assert.equal(torontoDate(new Date('2026-03-08T06:59:00Z')), '2026-03-08', 'Spring DST transition keeps Toronto publication date stable');
 assert.equal(torontoDate(new Date('2026-11-01T05:59:00Z')), '2026-11-01', 'Fall DST transition keeps Toronto publication date stable');
+assert.equal(editionDate('2026-10-17', true), '2026-10-17', 'An explicit future Toronto date is allowed for an isolated dry run');
+assert.throws(() => editionDate('2026-10-17', false), /only be used for a dry run/);
+assert.throws(() => editionDate('2026-02-30', true), /valid calendar date/);
+assert.equal(editionDate('', false, new Date('2026-01-01T02:00:00Z')), '2025-12-31', 'Production dates always use Toronto time');
 const first = selectedPairings('2026-10-16');
 assert.equal(first.length, 5);
 assert.equal(new Set(first).size, 5, 'A daily edition rotates to five distinct partnerships');
@@ -39,4 +43,8 @@ assert.equal(article.id, 'train-together-with-purpose-20261016');
 assert.equal(article.url, 'article.html?id=train-together-with-purpose-20261016');
 assert.throws(() => validateArticle({...article, imageConcept:'A solitary athlete'}, article.sources, [], '2026-10-16'), /center companions/);
 assert.throws(() => validateArticle({...article, title:'Previously Used Story'}, article.sources, [{title:'Previously Used Story'}], '2026-10-16'), /Possible duplicate/);
-console.log('Editorial engine unit checks passed: Toronto dates, rotating partnerships, image brief, citations, length and duplicate safeguards.');
+const living = {...article, category:'Living', title:'A Different Evening Practice', body:[...article.body.slice(0,-1), ['A practice for the walk home', longBody]]};
+assert.ok(validateArticle(living, living.sources, [], '2026-10-16') >= 800, 'Living stories finish with a substantial, story-specific practice');
+assert.throws(() => validateArticle({...living, body:[...living.body.slice(0,-1), ['A practice for the walk home', 'Too short.']]}, living.sources, [], '2026-10-16'), /substantial, specific practice/);
+assert.throws(() => validateArticle({...living, body:[...living.body.slice(0,-1), ['A practice for the walk home', longBody]]}, living.sources, [{category:'Living',body:[['Ending',''],['A practice for the walk home',longBody]]}], '2026-10-16'), /repeats an archived closing practice/);
+console.log('Editorial engine unit checks passed: Toronto dates, dry-run date gate, rotating partnerships, image brief, citations, Living practices, length and duplicate safeguards.');
