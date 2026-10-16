@@ -170,7 +170,7 @@ async function generateImage(article, pairing, id, existing) {
   const reviewed = await apiRequest({
     model: MODEL,
     input: [{ role: 'user', content: [
-      { type: 'input_text', text: 'Review this proposed editorial cover. Return JSON only: {"passed":boolean,"peopleCount":number,"issues":[string]}. Pass only if it visibly centers at least two adult people together, matches the story concept, has no text, logo or watermark, and appears suitable as a polished editorial illustration. Be conservative.' },
+      { type: 'input_text', text: `Review this proposed WILDWIRE cover for the ${article.category} story titled "${article.title}". Story concept: ${article.imageConcept}. Intended pairing: ${pairing}. Return JSON only: {"passed":boolean,"peopleCount":number,"issues":[string]}. Pass only if it visibly centers at least two adult people together, fits the stated story concept and category, has no text, logo or watermark, and appears suitable as a polished editorial illustration. Be conservative.` },
       { type: 'input_image', image_url: `data:image/webp;base64,${bytes.toString('base64')}`, detail: 'low' },
     ] }],
     max_output_tokens: 350,
