@@ -6,14 +6,14 @@ site instead of redesigning it. Motto: **DISCOVER. INSPIRE. EVOLVE.**
 
 ## What changes every day
 
-- Five substantial new pillar articles: STRENGTH, STYLE, EXPLORE, CULTURE, LIVING.
+- Six substantial new pillar articles: STRENGTH, STYLE, EXPLORE, CULTURE, LIVING, FINANCE.
 - Three additional, completely new stories in **Daily Read / Stay for the good
   part**. Show exactly three current stories here; the growing archive lives in
   All Stories, category navigation, search and readers' saved stories.
 - The hero and three selections in **The lives we're building** promote the new
   edition. Hero/title/caption/links change with their selected stories.
-- **Take the wider view** keeps its five category labels and layout, opens each
-  pillar's new article, and uses five NEW separate tile images. Never reuse the
+- **Take the wider view** keeps its six category labels and layout, opens each
+  pillar's new article, and uses six NEW separate tile images. Never reuse the
   hero or card cover as a pillar tile, or reuse a previous day's image.
 - The Living practice/spirituality feature uses the new Living story, title,
   image and specific grounded practice; it must not retain yesterday's ending.
@@ -21,7 +21,7 @@ site instead of redesigning it. Motto: **DISCOVER. INSPIRE. EVOLVE.**
   continue pointing to the same stories. Never replace old stories in place.
 
 The homepage intentionally links some feature stories in more than one place.
-Each article has one permanent cover; the five pillar tiles have independent
+Each article has one permanent cover; the six pillar tiles have independent
 images. No editorial image asset is repurposed for an unrelated article.
 
 ## Identity and pictures
@@ -67,8 +67,8 @@ headline. Compare against the full article archive. No filler to meet a quota.
 ## Manual mornings
 
 When the founder asks for today's edition, read this contract, inspect the
-latest archive and current site, then prepare the five pillar stories, three
-Daily Reads and thirteen images for that Toronto calendar date. Use fresh
+latest archive and current site, then prepare the six pillar stories, three
+Daily Reads and fifteen images for that Toronto calendar date. Use fresh
 subjects and compositions. Stage a complete edition manifest, rebuild both
 catalogs, run all checks, deploy, and verify the new URLs and images on
 https://wildwiremag.com. Preserve today's approved site until the new edition
@@ -82,3 +82,5 @@ Keep recurring publication off until a complete API-generated preview AND the
 GitHub Pages/live verification path succeed. The founder has authorized repair
 and testing within the reported $50/month budget (updated by the founder on October 16). Do not assert billing balance,
 actual charges or a hard spending limit have been verified without evidence.
+
+Finance expansion approved October 16, 2026: six pillar features, three Daily Reads, fifteen unique images. Finance explains money, investing, mortgages and crypto using primary sources and explicit jurisdiction where relevant. Educational coverage only: no personalized financial recommendations, asset picks or return promises. Preserve the other five categories and all existing reader features.

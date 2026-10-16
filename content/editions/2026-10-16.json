@@ -8,7 +8,8 @@
     "one-story-two-readings-20261016",
     "read-something-that-changes-the-conversation-20261016",
     "the-city-opens-at-walking-speed-20261016",
-    "wear-it-like-you-mean-it-20261016"
+    "wear-it-like-you-mean-it-20261016",
+    "money-without-the-mystique-20261016"
   ],
   "pillarImages": {
     "Strength": {
@@ -45,6 +46,13 @@
       "provenance": "Existing image from the founder-approved October 16 manual edition; original asset retained.",
       "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
       "sha256": "8036b50d6b08614e55ace9fc151dacb09cf754c6d54bf3ad71ee25e3a89bf88f"
+    },
+    "Finance": {
+      "image": "images/pillar-finance-20261016.webp",
+      "alt": "Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe.",
+      "provenance": "New image generated with built-in image generation for the approved Finance expansion on October 16, 2026.",
+      "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+      "sha256": "aefccc2e6c7ca59593c3e1c730bfa86e261e0cb86613ab7ac91533cf5cdc26fb"
     }
   },
   "origin": "Approved manual edition; manifest backfilled without changing stories, images or their URLs."

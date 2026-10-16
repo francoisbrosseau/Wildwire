@@ -16,10 +16,11 @@ function saveReport() {
   if (runDirectory && runReport) fs.writeFileSync(path.join(runDirectory, 'report.json'), JSON.stringify(runReport, null, 2) + '\n');
 }
 function log(message) { console.log(`${new Date().toISOString()} ${message}`); }
-const CATEGORIES = ['Strength', 'Style', 'Explore', 'Culture', 'Living'];
+const CATEGORIES = ['Strength', 'Style', 'Explore', 'Culture', 'Living', 'Finance'];
 const DAILY_READ_COUNT = 3;
 const DAILY_READ_CATEGORIES = ['Living', 'Culture', 'Explore', 'Living', 'Style'];
 const PILLAR_SCENES = {
+  Finance: 'Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting.',
   Strength: 'Two training partners prepare for a focused strength session in a practical neighborhood gym.',
   Style: 'Two sharply dressed friends walk with calm runway confidence through an urban street.',
   Explore: 'Two travel partners study a city map at a vivid street corner, ready to explore.',
@@ -274,6 +275,7 @@ function selectedPairings(date) {
 }
 function imagePrompt(article, pairing, recentDescriptions = []) {
   const categoryDirection = {
+    Finance: 'attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery',
     Strength: 'serious, focused partners training with controlled effort; no smiling while lifting',
     Style: 'confident, well-dressed friends with runway energy grounded in attainable real life',
     Explore: 'curious companions discovering a place together, with a real sense of location',
@@ -385,7 +387,7 @@ async function makeArticle(category, date, pairing, existing, dailyRead = false,
   const history = existing.map(item => `- ${item.title} (${item.category})`).join('\n');
   const oldLivingEndings = existing.filter(item => item.category === 'Living').map(item => `- ${item.body?.at(-1)?.[0] || 'untitled'}: ${(item.body?.at(-1)?.[1] || '').slice(0, 220)}`).join('\n');
   const researched = await textCall(
-    `Research a fresh, useful WILDWIRE ${dailyRead ? 'supplemental Daily Read' : 'pillar'} feature in the ${category} category. Find at least five credible current or primary sources; give exact URLs, publication names, publication dates, verified named author(s) from each source page, and factual notes. Never use placeholders such as “not specified,” “unknown,” or infer authors. If a source lists no individual author, identify its publishing organization as the author. Avoid repeating these archived stories:\n${history}\nRejected candidate topics that must NOT be repeated: ${JSON.stringify(rejectedTopics)}. If any candidate was rejected, choose a substantially different, simpler-to-verify angle and different sources, not a paraphrase of the rejected story.\nThe editorial image will feature ${pairing}. The story itself can focus on a meaningful subject in this pillar. Do not invent quotes, people, results or statistics.`,
+    `Research a fresh, useful WILDWIRE ${dailyRead ? 'supplemental Daily Read' : 'pillar'} feature in the ${category} category. Find at least five credible current or primary sources; give exact URLs, publication names, publication dates, verified named author(s) from each source page, and factual notes. Never use placeholders such as “not specified,” “unknown,” or infer authors. If a source lists no individual author, identify its publishing organization as the author. Avoid repeating these archived stories:\n${history}\nRejected candidate topics that must NOT be repeated: ${JSON.stringify(rejectedTopics)}. If any candidate was rejected, choose a substantially different, simpler-to-verify angle and different sources, not a paraphrase of the rejected story.\nFor Finance, cover financial literacy such as saving, investing concepts, mortgage mechanics or cryptocurrency risks. Use official primary sources. State the relevant jurisdiction for laws, taxes, account rules and mortgage conventions. Explain concepts without personalized recommendations, asset picks, price forecasts, guaranteed returns or instructions to buy/sell. Add a brief educational-only scope note. The editorial image will feature ${pairing}. The story itself can focus on a meaningful subject in this pillar. Do not invent quotes, people, results or statistics.`,
     true, null, `${category}: research`,
   );
   if (researched.sources.length < 3) fail(`Research returned fewer than three source links for ${category}.`);
@@ -436,7 +438,7 @@ async function main() {
   fs.mkdirSync(runDirectory, { recursive: true });
   runReport = { date, dryRun: DRY_RUN, startedAt: new Date().toISOString(), status: 'GENERATING', requests: [], articles: [], images: [] };
   saveReport();
-  log(`Starting ${DRY_RUN ? 'isolated preview' : 'production candidate'} for ${date}: eight stories, thirteen images.`);
+  log(`Starting ${DRY_RUN ? 'isolated preview' : 'production candidate'} for ${date}: nine stories, fifteen images.`);
   const existing = readExisting();
   const priorTileDescriptions = readEditionManifests().slice(-30).flatMap(manifest => Object.values(manifest.pillarImages || {}).map(tile => tile.alt).filter(Boolean));
   const existingWithTileHistory = [...existing, ...priorTileDescriptions.map((imageAlt, index) => ({ id: `prior-pillar-tile-${index}`, imageAlt }))];
@@ -535,7 +537,7 @@ async function main() {
     runReport.status = DRY_RUN ? 'PREVIEW_STAGED' : 'CANDIDATE_STAGED';
     runReport.finishedAt = new Date().toISOString();
     saveReport();
-    console.log(`WILDWIRE edition ${date} staged: eight stories (five pillars and three Daily Reads), plus five unique pillar tile images; thirteen generated images total. Run all content and functional checks before committing.`);
+    console.log(`WILDWIRE edition ${date} staged: nine stories (six pillars and three Daily Reads), plus six unique pillar tile images; fifteen generated images total. Run all content and functional checks before committing.`);
   } catch (error) {
     for (const file of written.reverse()) fs.rmSync(file, { force: true });
     require('node:child_process').spawnSync(process.execPath, [path.join(__dirname, 'build-content.cjs')], { cwd: ROOT, encoding: 'utf8' });

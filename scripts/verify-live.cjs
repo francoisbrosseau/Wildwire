@@ -7,7 +7,7 @@ const stories = fs.readdirSync(path.join(root, 'content', 'articles'))
   .filter(file => file.endsWith('.json'))
   .map(file => JSON.parse(fs.readFileSync(path.join(root, 'content', 'articles', file), 'utf8')))
   .filter(article => article.editionDate === date);
-const required = ['Strength', 'Style', 'Explore', 'Culture', 'Living'];
+const required = ['Strength', 'Style', 'Explore', 'Culture', 'Living', 'Finance'];
 
 async function get(url) {
   const response = await fetch(url, { signal: AbortSignal.timeout(15000), cache: 'no-store' });
@@ -18,16 +18,16 @@ async function get(url) {
 async function verify() {
   const pillars = stories.filter(article => !article.dailyRead);
   const dailyReads = stories.filter(article => article.dailyRead === true);
-  if (stories.length !== 8 || pillars.length !== 5 || dailyReads.length !== 3 || new Set(pillars.map(article => article.category)).size !== 5 ||
+  if (stories.length !== 9 || pillars.length !== 6 || dailyReads.length !== 3 || new Set(pillars.map(article => article.category)).size !== 6 ||
       !required.every(category => pillars.some(article => article.category === category))) {
-    throw new Error(`Expected five pillar stories and three Daily Reads for ${date}; found ${stories.length}.`);
+    throw new Error(`Expected six pillar stories and three Daily Reads for ${date}; found ${stories.length}.`);
   }
   const editionPath = path.join(root, 'content', 'editions', `${date}.json`);
   if (!fs.existsSync(editionPath)) throw new Error(`Missing edition manifest for ${date}.`);
   const manifest = JSON.parse(fs.readFileSync(editionPath, 'utf8'));
   const tileImages = required.map(category => manifest.pillarImages?.[category]?.image);
-  if (tileImages.some(image => !image) || new Set(tileImages).size !== 5 || tileImages.some(image => stories.some(article => article.image === image))) {
-    throw new Error('Edition manifest must contain five separate pillar images that are not story covers.');
+  if (tileImages.some(image => !image) || new Set(tileImages).size !== 6 || tileImages.some(image => stories.some(article => article.image === image))) {
+    throw new Error('Edition manifest must contain six separate pillar images that are not story covers.');
   }
   const deadline = Date.now() + 8 * 60 * 1000;
   let lastError;

@@ -168,3 +168,7 @@ run npm test and node scripts/check-content.cjs, publish through the configured
 Pages path, and verify the real domain. Report explicitly whether publication
 succeeded. ChatGPT does not need to be open for GitHub Actions to run once the
 complete production path is tested and enabled.
+
+## Finance expansion — October 16, 2026
+
+The founder requested Finance as a sixth daily pillar. The current format is now nine stories (six pillars plus three Daily Reads) and fifteen unique images (nine covers plus six separate pillar tiles). Finance is included in generation, catalog building, homepage/category navigation and public verification. Existing stories and image bytes remain preserved. The original eight-story preview and cost sample above predate this expansion; they do not measure the expanded format. No API billing limit or schedule was changed.
