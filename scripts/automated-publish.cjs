@@ -249,13 +249,27 @@ async function makeArticle(category, date, pairing, existing, dailyRead = false)
     article = parseJson(repaired.text);
     if (article.category !== category) fail(`Expanded draft category mismatch for ${category}.`);
   }
-  const checked = await textCall(
-    `Fact-check the claims and citations in this draft against current credible sources. Return JSON only: {"passed":boolean,"issues":[string],"checkedClaims":[string]}. Fail if any material factual claim is unsupported, a quote is fabricated, or a citation does not support its nearby claim.\n\nDRAFT:\n${JSON.stringify(article)}`,
+  let checked = await textCall(
+    `Fact-check the claims and citations in this draft against current credible sources. Return JSON only: {"passed":boolean,"issues":[string],"checkedClaims":[string]}. Fail if any material factual claim is unsupported, a quote is fabricated, or a citation does not support its nearby claim. Check the exact sentence-to-source match; related coverage is not enough.\n\nDRAFT:\n${JSON.stringify(article)}`,
     true,
   );
-  const result = parseJson(checked.text);
+  let result = parseJson(checked.text);
+  let checkedSources = [...checked.sources];
+  if (result.passed !== true || !Array.isArray(result.checkedClaims) || result.checkedClaims.length < 3) {
+    const repaired = await textCall(
+      `Revise this WILDWIRE article to resolve every fact-check issue below. Remove or accurately narrow any claim a cited page does not support; change citations only among the exact verified source URLs listed here. Keep the article natural, substantial (1,000–1,200 words), 6–9 useful sections, its category, headline angle, companion-centered editorial image concept and all reliable practical detail. Do not invent facts, studies, sources, quotes, personal experience or author metadata. Preserve exactly three verified source records and inline [1], [2], [3] references at the claims they actually support. Return the complete article JSON in the same schema.\n\nFACT-CHECK ISSUES:\n${JSON.stringify(result.issues || [])}\n\nVERIFIED SOURCES:\n${JSON.stringify(sourceCandidates)}\n\nRESEARCH NOTES:\n${researched.text}\n\nARTICLE TO REVISE:\n${JSON.stringify(article)}`,
+    );
+    article = parseJson(repaired.text);
+    if (article.category !== category) fail(`Fact-check repair changed the category for ${category}.`);
+    checked = await textCall(
+      `Re-check every factual claim and source attribution in this revised article against current credible pages. Be strict about whether the exact cited source supports the exact sentence. Return JSON only: {"passed":boolean,"issues":[string],"checkedClaims":[string]}. Pass only when every material claim is supported and at least three claims are checked.\n\nARTICLE:\n${JSON.stringify(article)}`,
+      true,
+    );
+    result = parseJson(checked.text);
+    checkedSources.push(...checked.sources);
+  }
   if (result.passed !== true || !Array.isArray(result.checkedClaims) || result.checkedClaims.length < 3) fail(`Fact check failed for ${category}: ${(result.issues || []).join('; ') || 'not enough checked claims'}`);
-  const allSources = uniqueSources([...researched.sources, ...checked.sources]);
+  const allSources = uniqueSources([...researched.sources, ...checkedSources]);
   const wordCount = validateArticle(article, allSources, existing, date);
   if (dailyRead) article.dailyRead = true;
   return { article, wordCount, sourcesChecked: result.checkedClaims.length, sourceResults: allSources };
