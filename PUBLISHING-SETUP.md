@@ -9,14 +9,14 @@ The engine is designed for five new stories per Toronto calendar day—one for e
 ## Scheduled process
 
 - GitHub Actions uses the IANA timezone America/Toronto; the schedule therefore follows daylight saving time.
-- It makes attempts at 3:17, 4:17, 5:17 and 6:17 a.m. local time. Later attempts act as retries if an earlier run fails; a complete edition already in the archive is detected and not regenerated.
+- It makes attempts at 3:17 and 5:17 a.m. local time. The later attempt acts as one retry if an earlier run fails; a complete edition already in the archive is detected and not regenerated.
 - A run must pass its publication cutoff at 6:40 a.m. Toronto time. The job then commits the full edition in one change, runs GitHub Pages deployment through the existing branch publishing setup, and polls WildWireMag.com for all five article IDs and image files.
 - The homepage selects the newest complete edition for its existing feature and story cards. Article IDs and URLs remain permanent; categories, search and favorites continue to use the shared catalog.
 - A partial edition is never committed. Research, citation, length, duplicate-title, image-format, catalog and site checks must all pass first.
 - Generated images must center a couple, family or friends, with varied people and compositions across the five pillars. They are labeled as AI-generated editorial illustrations.
 - A failed run writes a failure summary and opens a GitHub issue. The previous live edition remains available if a candidate fails before deployment.
 
-GitHub's own documentation says scheduled workflows can be delayed or dropped during periods of high load. The early schedule, four attempts, cutoff and live-site verification reduce that risk, but GitHub Actions cannot guarantee that the site will be live at exactly 7:00 every day. See [scheduled workflow behavior](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows) and [workflow timezone syntax](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#onschedule).
+GitHub's own documentation says scheduled workflows can be delayed or dropped during periods of high load. The early schedule, one retry, cutoff and live-site verification reduce that risk, but GitHub Actions cannot guarantee that the site will be live at exactly 7:00 every day. See [scheduled workflow behavior](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows) and [workflow timezone syntax](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#onschedule).
 
 ## ChatGPT Work scheduling
 
@@ -24,7 +24,7 @@ ChatGPT scheduled automations can run a scheduled prompt, but they are not the d
 
 ## Cost estimate
 
-Planning estimate for five articles and five 1536 × 1024 medium-quality generated images each day: **about $20–$35 USD/month** for model tokens, roughly ten web-search calls per day, one image and one automated visual check per article, assuming no unusually heavy retries. This is an estimate, not a quote; actual image-token usage, search context, model prices and failed retries can change it. GitHub Actions is expected to be $0 for this public repository's standard hosted workflow. Configure an OpenAI API project spending limit of $40/month before activation; this repo cannot set or enforce account-level API billing limits.
+Planning estimate for five articles and five 1536 × 1024 medium-quality generated images each day: **about $20–$35 USD/month** for model tokens, roughly ten web-search calls per day, one image and one automated visual check per article, assuming no unusually heavy retries. This is an estimate, not a quote; actual image-token usage, search context, model prices and failed retries can change it. GitHub Actions is expected to be $0 for this public repository's standard hosted workflow. Before activation, configure a $40 hard spending limit for the API organization or project. A monthly project spend alert is only a soft threshold and will not stop requests; a hard limit can stop them, but enforcement may lag and slightly exceed the configured amount. See [OpenAI API spend-limit guidance](https://help.openai.com/en/articles/6614457-troubleshooting-api-usage-and-spend-limits). The repo cannot set or enforce account billing limits.
 
 Current model and image prices are listed at [OpenAI API pricing](https://developers.openai.com/api/docs/pricing). Web search is priced per call and search-content tokens are additional at the chosen model rate.
 

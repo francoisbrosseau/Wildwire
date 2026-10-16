@@ -2,7 +2,7 @@ name: WILDWIRE daily edition
 
 on:
   schedule:
-    - cron: '17 3,4,5,6 * * *'
+    - cron: '17 3,5 * * *'
       timezone: "America/Toronto"
   workflow_dispatch:
     inputs:
@@ -84,7 +84,10 @@ jobs:
           run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           title="WILDWIRE daily edition failed: $(TZ=America/Toronto date +%F)"
           body="The automated edition failed before live verification. Existing site content was left in place. Review the run log: ${run_url}"
-          gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "$body"
+          open_issue=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "$title" --json title --jq '.[].title')
+          if [[ "$open_issue" != *"$title"* ]]; then
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "$body"
+          fi
 
       - name: Summarize failed run
         if: failure()
