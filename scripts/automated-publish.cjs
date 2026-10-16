@@ -193,10 +193,14 @@ async function generateImage(article, pairing, id, existing) {
   return { bytes, path: `images/generated/${id}.webp`, prompt, imageCheck };
 }
 
-function validateArticle(article, searchedSources, existing, date) {
+function validateArticle(article, searchedSources, existing, date, pairing) {
   if (!CATEGORIES.includes(article.category)) fail('Invalid article category.');
   if (!article.title || !article.subtitle || !Array.isArray(article.body) || article.body.length < 6) fail('Article structure is incomplete.');
-  if (!article.imageConcept || !article.imageAlt || !/\b(couple|family|friends|partners|siblings)\b/i.test(article.imageConcept)) fail('Image concept must explicitly center companions.');
+  if (!article.imageAlt) fail('Article image alt text is missing.');
+  if (!/\b(couple|family|friends|partners|siblings)\b/i.test(article.imageConcept || '')) {
+    const scene = String(article.imageConcept || '').trim();
+    article.imageConcept = `${pairing} together, in a specific visual scene about “${article.title}”${scene ? `: ${scene}` : '.'}`;
+  }
   if (!Array.isArray(article.sources) || article.sources.length < 3) fail('Each story needs at least three sources.');
   const body = article.body.map(section => `${section[0]}\n${section[1]}`).join('\n');
   const count = tokens(body).length;
@@ -270,7 +274,7 @@ async function makeArticle(category, date, pairing, existing, dailyRead = false)
   }
   if (result.passed !== true || !Array.isArray(result.checkedClaims) || result.checkedClaims.length < 3) fail(`Fact check failed for ${category}: ${(result.issues || []).join('; ') || 'not enough checked claims'}`);
   const allSources = uniqueSources([...researched.sources, ...checkedSources]);
-  const wordCount = validateArticle(article, allSources, existing, date);
+  const wordCount = validateArticle(article, allSources, existing, date, pairing);
   if (dailyRead) article.dailyRead = true;
   return { article, wordCount, sourcesChecked: result.checkedClaims.length, sourceResults: allSources };
 }
