@@ -8,7 +8,7 @@ Upload **the contents** of this folder to the root of the `wildwire` repository 
 ## Functional now
 - Home page with featured story, editor picks and latest stories.
 - Five working category pages and article search.
-- Seven original introductory articles (short-form starter content; expand and fact-check before treating as a mature editorial launch).
+- Seven short-form starter articles plus one researched, long-form Explore pilot with linked sources. The pilot is a content and reader-flow test; scheduled AI publishing is not active.
 - Share button and browser-local favorites.
 - Responsive layout.
 

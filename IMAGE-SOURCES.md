@@ -17,3 +17,5 @@ Photos were downloaded from the following existing or replacement Unsplash image
 `shared-table.webp`: created with the built-in image generation tool. Prompt: intimate candid dinner in a warm apartment at dusk; three adult friends of varied appearances and a child passing a bowl of vegetables; relaxed laughter; rustic table, ceramic plates, linens, lamplight and candles; sophisticated lived-in home; natural textures and editorial grain; no sterile kitchen, text or logos.
 
 These are imagined illustrative scenes, not documentary photographs of named people or locations. Both images are integrated into the site and their corresponding article pages.
+
+`edge-city.webp`: AI-generated illustrative image for the WILDWIRE Explore pilot, depicting two travelers climbing an urban staircase at sunrise. This is an imagined scene, not a documentary photograph.
