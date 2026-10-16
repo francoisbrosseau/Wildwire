@@ -539,7 +539,7 @@ window.WILDWIRE_ARTICLES = [
     "date": "2026-10-16",
     "read": 5,
     "author": "WILDWIRE Editorial",
-    "image": "images/edition-20261016-culture.webp",
+    "image": "images/edition-20261016-culture-fixed.webp",
     "imageAlt": "Two older readers discuss open books in a warmly lit independent bookshop.",
     "imageCredit": "AI-generated editorial image. The people and bookshop are illustrative, not documentary.",
     "body": [
@@ -691,7 +691,7 @@ window.WILDWIRE_ARTICLES = [
     "date": "2026-10-16",
     "read": 5,
     "author": "WILDWIRE Editorial",
-    "image": "images/edition-20261016-explore.webp",
+    "image": "images/edition-20261016-explore-fixed.webp",
     "imageAlt": "A Latina woman and South Asian man pause over a paper map on an autumn Montreal street.",
     "imageCredit": "AI-generated editorial image. The people and location are illustrative, not documentary.",
     "body": [
@@ -893,7 +893,7 @@ window.WILDWIRE_ARTICLES = [
     "date": "2026-10-16",
     "read": 5,
     "author": "WILDWIRE Editorial",
-    "image": "images/edition-20261016-style.webp",
+    "image": "images/edition-20261016-style-fixed.webp",
     "imageAlt": "A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain.",
     "imageCredit": "AI-generated editorial image. The people and street scene are illustrative, not documentary.",
     "body": [
