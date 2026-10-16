@@ -37,7 +37,8 @@ Keep the schedule off until these steps are reviewed and approved:
 3. Set the OpenAI project spending limit to $40/month or less.
 4. Run the workflow manually with dry_run: true; it will generate and validate but will not commit.
 5. Approve a clearly identified live test publication, then confirm GitHub Pages and WildWireMag.com serve it.
-6. Only after that approval, set repository variables WILDWIRE_AUTO_PUBLISH to enabled and WILDWIRE_LIVE_APPROVED to yes.
+6. Confirm the Actions token can push to main under the repository’s branch protection rules. The connected GitHub view cannot read those settings.
+7. Only after that approval, set repository variables WILDWIRE_AUTO_PUBLISH to enabled and WILDWIRE_LIVE_APPROVED to yes.
 
 Without both variables set to their exact values, scheduled jobs skip publishing. Remove or change WILDWIRE_AUTO_PUBLISH to pause; set it back to enabled to resume. Manual runs default to dry-run and never publish.
 
