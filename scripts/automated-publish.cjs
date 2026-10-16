@@ -132,7 +132,7 @@ async function textCall(input, useSearch = false) {
   const response = await apiRequest({
     model: MODEL,
     input,
-    text: { format: { type: 'json_object' } },
+    text: useSearch ? { format: { type: 'text' } } : { format: { type: 'json_object' } },
     tools: useSearch ? [{ type: 'web_search' }] : [],
     tool_choice: useSearch ? 'required' : undefined,
     include: useSearch ? ['web_search_call.action.sources'] : undefined,
