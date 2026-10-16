@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       dry_run:
-        description: Generate and validate an eight-story edition without publishing
+        description: Generate and validate an eight-story edition and five fresh pillar images without publishing
         type: boolean
         default: true
         required: true
@@ -45,7 +45,7 @@ jobs:
       - name: Install the site's functional test dependency
         run: npm install --no-audit --no-fund
 
-      - name: Generate, research and illustrate eight stories (five pillars and three Daily Reads)
+      - name: Generate, research and illustrate eight stories plus five distinct pillar tile images
         run: node scripts/automated-publish.cjs
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -71,7 +71,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/articles images/generated js/articles.js
+          git add content/articles content/editions images/generated js/articles.js js/articles-current.js
           if git diff --cached --quiet; then
             echo "published=false" >> "$GITHUB_OUTPUT"
             echo "Today's edition is already present; no duplicate commit was made."
