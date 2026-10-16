@@ -119,7 +119,7 @@ window.WILDWIRE_ARTICLES = [
     "date": "2026-10-16",
     "read": 6,
     "author": "WILDWIRE Editorial",
-    "image": "images/edition-20261016-strength.webp",
+    "image": "images/edition-20261016-strength.webp?v=20261016-fixed",
     "imageAlt": "A focused woman sets up a deadlift while her male training partner watches attentively in a neighborhood gym.",
     "imageCredit": "AI-generated editorial image. The people and training scene are illustrative, not documentary.",
     "body": [
@@ -228,7 +228,7 @@ window.WILDWIRE_ARTICLES = [
     "date": "2026-10-16",
     "read": 5,
     "author": "WILDWIRE Editorial",
-    "image": "images/edition-20261016-living.webp",
+    "image": "images/edition-20261016-living.webp?v=20261016-fixed",
     "imageAlt": "A Middle Eastern woman and Black man share a thoughtful conversation at their kitchen table.",
     "imageCredit": "AI-generated editorial image. The people and home are illustrative, not documentary.",
     "body": [
