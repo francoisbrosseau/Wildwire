@@ -1,4 +1,5 @@
-window.WILDWIRE_ARTICLES = [
+µ®•z∫ËØ
+‚∂)‡≤÷ßu™›¢Îi∫–k¢Gß¶*^window.WILDWIRE_ARTICLES = [
   {
     "id": "a-meal-doesnt-have-to-fix-the-day",
     "category": "Living",
@@ -112,6 +113,62 @@ window.WILDWIRE_ARTICLES = [
     ]
   },
   {
+    "id": "a-strong-session-together-20261016",
+    "category": "Strength",
+    "title": "A Strong Session, Built for Two",
+    "subtitle": "Train beside each other without turning love into coaching, comparison or a contest.",
+    "date": "2026-10-16",
+    "read": 6,
+    "author": "WILDWIRE Editorial",
+    "image": "images/edition-20261016-strength.webp",
+    "imageAlt": "A focused woman sets up a deadlift while her male training partner watches attentively in a neighborhood gym.",
+    "imageCredit": "AI-generated editorial image. The people and training scene are illustrative, not documentary.",
+    "body": [
+      [
+        "The work is yours; the support is shared",
+        "The bar is loaded. One person is thinking about the next rep; the other is checking the plates, the space and the room. There is no speech about becoming unstoppable. There is just a clear plan and someone nearby who understands why you came.\n\nThat is the useful version of training together. The point is not to merge two bodies, two schedules or two definitions of progress. It is to make room for both people to get stronger on their own terms. One partner might be building confidence with basic lifts while the other is returning after a break. They can share a warm-up, a bench and a ride home without doing identical work.\n\nA 2026 microrandomized pilot followed 38 romantic couples for 55 days and tested smartphone prompts, support guidance and shared activity planning. It found promising effects from some partner-focused prompts, but the sample was small, self-selected and the effects varied. It is evidence that support is worth designing thoughtfully, not proof that every couple should train together [1].\n\nFor general adult health, the World Health Organization recommends muscle-strengthening activity at moderate or greater intensity involving all major muscle groups on two or more days a week. This one session is a template, not an individualized plan; adjust frequency and movements for your situation [3]."
+      ],
+      [
+        "Agree on the kind of support first",
+        "Before you start, ask one question: ‚ÄúWhat would help today‚Äîcompany, a spot, a reminder, or space?‚Äù The answer can change from one session to another. A partner who wants quiet focus does not need a running commentary. A partner learning a movement may want a coach, but that does not automatically make their partner the right coach.\n\nKeep technical feedback with a qualified trainer when either person is unsure. Be a training partner, not an unpaid authority. Agree on practical boundaries: whether to share a rack, how long to rest, what counts as a spot, and when each person needs to finish. These small agreements stop a good session from becoming a negotiation between sets."
+      ],
+      [
+        "A repeatable 45-minute session",
+        "Use this as a simple full-body starting point for generally healthy beginners who are already cleared for exercise. Keep effort moderate, use loads you can control, and stop if pain, dizziness or unusual shortness of breath appears. If either person has an injury, medical condition, pregnancy-related concern or a long break from training, ask a qualified clinician or coach to adapt the plan. The gym is not the place to prove toughness through pain.\n\n1. **Arrive and set the plan (2 minutes).** Each person names one goal and one limit‚Äîfor example, ‚ÄúI want to practice my hinge; I have forty minutes.‚Äù\n2. **Warm up (6 minutes).** Walk or cycle easily for three minutes. Then do 8 bodyweight squats, 8 hip hinges, 6 incline push-ups and 6 controlled reverse lunges per side. Move smoothly; this is preparation, not a test.\n3. **Pair A: squat and row (3 rounds).** Each person performs 8‚Äì10 comfortable goblet squats, then 8‚Äì12 cable or band rows. Rest 60‚Äì90 seconds. Adjust the load independently; do not race each other.\n4. **Pair B: hinge and push (3 rounds).** Choose a light dumbbell Romanian deadlift for 8 reps and an incline push-up or machine chest press for 8‚Äì10 reps. Keep the movement controlled and finish each set with a few good reps still possible.\n5. **Carry or walk (2 rounds).** Carry light dumbbells for 20‚Äì30 metres or walk briskly for two minutes. Keep posture steady and breathing under control.\n6. **Close the session (3 minutes).** Each person names one thing that felt solid and one adjustment for next time. Write down the weights and reps, then leave the scorekeeping behind."
+      ],
+      [
+        "Progress without making it personal",
+        "For the first two weeks, repeat the same movements and choose loads that make good technique easy to maintain. When a person can finish the top end of the rep range comfortably in every set, add a small amount of weight next time‚Äîor keep the load and improve control. Change one thing at a time. Different loads are not evidence of different commitment.\n\nA 1995 university fitness-program study found higher attendance among 16 married pairs who joined together than among married individuals who joined without a spouse. Its size, age and setting make it a limited comparison, not a universal rule [2]. The useful takeaway is modest: support may help make showing up easier. The support only counts if it respects the other person‚Äôs agency."
+      ],
+      [
+        "The win is a session you can return to",
+        "Pick a day that survives ordinary life. Put the next session in the calendar before you leave, but keep an individual fallback: if one person cannot make it, the other can still train. On a difficult week, a twenty-minute walk together may be the win. On a strong week, lift with focus and then go make dinner.\n\nA good partnership can hold two ambitions at once. It can encourage without monitoring, challenge without shaming, and celebrate progress without requiring matching results. The strongest thing you do together may be letting each person own the work‚Äîand still choosing to be there."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Effectiveness of Smartphone-Based Dyadic Interventions to Increase Physical Activity in Romantic Couples: Microrandomized Trial",
+        "authors": "P. S. H√∂hener et al.",
+        "publication": "JMIR mHealth and uHealth, 14 (2026), e67136",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41592319/"
+      },
+      {
+        "title": "Twelve month adherence of adults who joined a fitness program with a spouse vs without a spouse",
+        "authors": "J. P. Wallace, J. S. Raglin, and C. A. Jastremski",
+        "publication": "The Journal of Sports Medicine and Physical Fitness, 35(3) (1995), 206‚Äì213",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8775648/"
+      },
+      {
+        "title": "WHO guidelines on physical activity and sedentary behaviour",
+        "authors": "World Health Organization",
+        "publication": "WHO Guidelines (2020)",
+        "url": "https://www.who.int/publications-detail-redirect/9789240015128"
+      }
+    ],
+    "url": "article.html?id=a-strong-session-together-20261016",
+    "editionDate": "2026-10-16"
+  },
+  {
     "id": "a-wardrobe-that-earns-its-place",
     "category": "Style",
     "title": "A Wardrobe That Earns Its Place",
@@ -135,7 +192,8 @@ window.WILDWIRE_ARTICLES = [
         "Choose three anchors for the next seven days: a top layer, a pair of trousers or a skirt, and shoes you can genuinely wear for the day. Build around the colors already in your closet. A charcoal jacket can sharpen denim; a soft knit can lower the temperature of a tailored trouser; a clean white shirt can move between a client call and an informal dinner. The formula is not universal. It should remove friction, not flatten personality.\n\nThen choose one detail that feels like yours: a ring, a scarf, a strong belt, a red lip, a precise watch or a bag with a little history. When the base is dependable, that detail carries more weight."
       ],
       [
-        "Try the two-person closet edit",
+        "Try the twµ®•z∫ËØ
+‚∂)‡≤÷ßu™›¢Îi∫–k¢Gß¶*^o-person closet edit",
         "Take turns choosing five pieces the other person wears often and ask why. ‚ÄúBecause it fits my shoulders,‚Äù ‚Äúbecause I can walk in it,‚Äù and ‚Äúbecause I feel like myself‚Äù are better answers than a trend report. Then find one item that rarely leaves the hanger. Is it uncomfortable? Does it need special care? Does it belong to an imagined version of the week? Keep the conversation curious; nobody needs a verdict on their body.\n\nFor anything you keep, check its care label before deciding how much maintenance it asks of you. In the United States, the Federal Trade Commission‚Äôs Care Labeling Rule requires care instructions for covered textile apparel products [1]. Those labels are practical information: follow the garment‚Äôs instructions and you are less likely to discover that a favorite piece came with a routine you never wanted."
       ],
       [
@@ -165,6 +223,57 @@ window.WILDWIRE_ARTICLES = [
     ]
   },
   {
+    "id": "a-weekly-check-in-with-room-to-breathe-20261016",
+    "category": "Living",
+    "title": "A Weekly Check-In With Room to Breathe",
+    "subtitle": "A short conversation about the week ahead can make ambition feel shared without turning home into another meeting.",
+    "date": "2026-10-16",
+    "read": 5,
+    "author": "WILDWIRE Editorial",
+    "image": "images/edition-20261016-living.webp",
+    "imageAlt": "A Middle Eastern woman and Black man share a thoughtful conversation at their kitchen table.",
+    "imageCredit": "AI-generated editorial image. The people and home are illustrative, not documentary.",
+    "body": [
+      [
+        "Start before the problem becomes the whole week",
+        "It is Sunday evening. The calendar is full, the kitchen is half-reset and both people know they have been answering logistics instead of each other. Nobody needs a dramatic summit. What may help is a little protected attention before the week starts to run them.\n\nA check-in is not a performance review for a relationship. It is a small place to say what is going well, what is weighing on you, and where help would matter. A 2026 guide from the Gottman Institute outlines regulµ®•z∫ËØ
+‚∂)‡≤÷ßu™›¢Îi∫–k¢Gß¶*^ar check-ins that include appreciations, what is working, one concern, a specific request and a look at the week ahead [1]. That is a practical framework, not a guarantee or a substitute for professional help."
+      ],
+      [
+        "Set the tone before you set the timer",
+        "Choose a time when neither person is rushing out the door or already at the edge of exhaustion. Sit somewhere neutral. Put phones out of reach. If one person is flooded or too upset to listen, pause and agree on when to return; do not use ‚Äúwe need to talk‚Äù as a surprise trap.\n\nSet a limit of 20 minutes. A short container can make honesty more possible, but it should never be used to shut down an issue that needs more care. The goal is to understand and plan one next step, not to settle every old disagreement in one sitting."
+      ],
+      [
+        "A 20-minute check-in, step by step",
+        "1. **Arrive (2 minutes).** Take a breath and ask, ‚ÄúDo we both have enough room for this now?‚Äù If not, choose a real time later.\n2. **Name one appreciation each (3 minutes).** Make it specific: ‚ÄúThanks for handling the pickup when my meeting ran late; it gave me room to finish calmly.‚Äù No scorekeeping and no fishing for a compliment back.\n3. **Say what is working (3 minutes).** Name one thing the two of you handled well this week, even if it was ordinary: the meal plan, calling a parent, or making time for a walk.\n4. **Share one concern each (6 minutes).** Take turns. Use a concrete moment and your own experience: ‚ÄúI felt stretched when the plan changed and I did not know who was covering dinner.‚Äù The listener reflects what they heard before proposing a fix.\n5. **Make one request or offer (4 minutes).** Ask for something doable: ‚ÄúCould you take Tuesday dinner so I can make the class?‚Äù The other person can accept, negotiate or suggest another form of help. A request is not a command.\n6. **Look at the week together (2 minutes).** Check the calendar, identify one pinch point and protect one small shared moment that is not an errand. End with the next step written down."
+      ],
+      [
+        "Let different ambitions stay different",
+        "Maybe one partner wants a promotion and the other wants a slower month. Maybe a training plan, a caregiving responsibility or a spiritual practice is taking more room than usual. A partnership does not require identical appetites for achievement. It asks each person to make the other‚Äôs real life visible and to negotiate the shared parts honestly.\n\nSupport can be practical: take a task off someone‚Äôs plate, make a quiet hour possible, or ask what kind of company they want. The person pursuing the goal still owns it. The person supporting them should not have to disappear. If the same person keeps doing the scheduling, listening and remembering, the check-in needs to include that load too."
+      ],
+      [
+        "A small ritual, not a cure-all",
+        "Research on conflict communication cautions against treating any single technique as universally helpful; how people communicate depends on the context and the partners involved [2]. A check-in is useful only while both people feel safe and free to speak. If one person is controlling, intimidating or afraid, a joint ritual is not the right fix. Seek individual, trusted support instead.\n\nFor ordinary weeks, try the practice for a month and then ask whether it feels useful. Shorten it if it turns into a chore. Change the questions if they miss what matters. Keep the parts that create room for honesty and drop the parts that make either person feel managed. The point is not to optimize your home. It is to remember there are two whole people living in it."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "This Relationship Skill Is Essential: How to Have a Relationship Check-In",
+        "authors": "The Gottman Institute",
+        "publication": "Relationship blog, September 19, 2026",
+        "url": "https://www.gottman.com/blog/this-relationship-skill-is-essential-how-to-have-a-relationship-check-in/"
+      },
+      {
+        "title": "What Type of Communication during Conflict is Beneficial for Intimate Relationships?",
+        "authors": "M. Overall, N. Girme, and S. Simpson",
+        "publication": "Current Opinion in Psychology, 13 (2017), 1‚Äì5",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5181851/"
+      }
+    ],
+    "url": "article.html?id=a-weekly-check-in-with-room-to-breathe-20261016",
+    "editionDate": "2026-10-16"
+  },
+  {
     "id": "ambition-looks-better-shared",
     "category": "Living",
     "title": "Ambition Looks Better Shared",
@@ -182,7 +291,8 @@ window.WILDWIRE_ARTICLES = [
       ],
       [
         "Support is more concrete than applause",
-        "In a 14-day daily-diary study of 99 inactive, overweight heterosexual couples working toward physical-activity goals, providing support to a partner was associated with the support-giver's own activity, positive affect and relationship satisfaction on that day [1]. It was an observational daily-life study, not proof that encouragement caused those outcomes or a guarantee for every couple.\n\nStill, it points toward a practical distinction: support works best when it responds to what the other person actually needs. One partner may want company for a walk. Another may want the kitchen cleared and no commentary. Ask. Do not assume that your preferred kind of help is the kind they want.\n\nThat study‚Äôs participants were heterosexual couples who were inactive and overweight and had chosen physical-activity goals. Its results should not be stretched to every couple, culture or kind of ambition. A separate five-week randomized field experiment with 125 couples found that a brief plan for expressing gratitude increased everyday time spent together relative to a control group [2]. Neither study says a ritual can solve a serious relationship problem. Both make a useful case for concrete attention."
+        "In a 14-day daily-diary study of 99 inactive, overweight heterosexual couples working toward physical-activity goals, proµ®•z∫ËØ
+‚∂)‡≤÷ßu™›¢Îi∫–k¢Gß¶*^viding support to a partner was associated with the support-giver's own activity, positive affect and relationship satisfaction on that day [1]. It was an observational daily-life study, not proof that encouragement caused those outcomes or a guarantee for every couple.\n\nStill, it points toward a practical distinction: support works best when it responds to what the other person actually needs. One partner may want company for a walk. Another may want the kitchen cleared and no commentary. Ask. Do not assume that your preferred kind of help is the kind they want.\n\nThat study‚Äôs participants were heterosexual couples who were inactive and overweight and had chosen physical-activity goals. Its results should not be stretched to every couple, culture or kind of ambition. A separate five-week randomized field experiment with 125 couples found that a brief plan for expressing gratitude increased everyday time spent together relative to a control group [2]. Neither study says a ritual can solve a serious relationship problem. Both make a useful case for concrete attention."
       ],
       [
         "Run a ten-minute weekly check-in",
@@ -319,7 +429,7 @@ window.WILDWIRE_ARTICLES = [
       ],
       [
         "If the cup misses",
-        "Taste is feedback, not a grade. Write down one thing you notice: too intense, a little thin, softer as it cools, or exactly what you wanted. If it is too strong, add a splash of water or use a little less coffee next time. If it feels thin, use a touch more coffee. If the flavor is harsh or uneven, pour more slowly and keep the grind medium. Change one thing, then brew again; changing the beans, grind, dose and water all at once leaves you with no clue what helped.\n\nThe coffee you enjoy is the right result. If you like it with milk, make it that way. If a French press or instant coffee is what fits your kitchen, use that. The method should serve the morning you have, not the coffee you think you are supposed to like."
+        "Taste is feedback, not a grade. Write down one thing you notice: too intense, a little thin, softer as it cools, or exactly what you wanted. If it is too strong, add a splash of water or use a little less coffee next time. If it feels thin, use a touch more coffee. If the flavor is harsh or uneven, pour more slowly and keep the grind medium. Change one thing, then brew again; changing the beans, grind, dose and water all at once leaves you with no clue what helped.\n\nThµ®•¬∏≠yÍÎ¢∞k¢Gß¶*^e coffee you enjoy is the right result. If you like it with milk, make it that way. If a French press or instant coffee is what fits your kitchen, use that. The method should serve the morning you have, not the coffee you think you are supposed to like."
       ],
       [
         "Leave a little room",
@@ -424,6 +534,50 @@ window.WILDWIRE_ARTICLES = [
       }
     ],
     "url": "article.html?id=give-an-album-an-evening"
+  },
+  {
+    "id": "read-something-that-changes-the-conversation-20261016",
+    "category": "Culture",
+    "title": "Read Something That Changes the Conversation",
+    "subtitle": "A story can give two people a third thing to look at‚Äîand a better question to ask each other.",
+    "date": "2026-10-16",
+    "read": 5,
+    "author": "WILDWIRE Editorial",
+    "image": "images/edition-20261016-culture.webp",
+    "imageAlt": "Two older readers discuss open books in a warmly lit independent bookshop.",
+    "imageCredit": "AI-generated editorial image. The people and bookshop are illustrative, not documentary.",
+    "body": [
+      [
+        "The book is a third presence",
+        "At a quiet table in a bookshop, one person turns a page back and points to a sentence. The other does not answer right away. That pause is part of the conversation. They are not arguing about their own history or solving a household problem. They are looking together at a character‚Äôs decision, a line of poetry, an unfamiliar life.\n\nArt gives people a third thing to face. It can make a difficult question less direct and a familiar question feel new. A novel, essay, film or album can open a conversation without demanding that either person disclose more than they want to. The point is not to use culture as a shortcut to intimacy. It is to share attention with something that has enough depth to send each of you somewhere different."
+      ],
+      [
+        "What the evidence says‚Äîand does not",
+        "A 2025 scoping review in Frontiers in Psychology mapped 15 studies of structured shared reading published between 2007 and 2024. The researchers found promising reports and that participants often appreciated the practice, but they also noted a lack of large controlled studies and long-term evidence. They concluded that more research is needed before treating shared reading as a clinical intervention [1].\n\nThat review examined facilitated group reading, not couples reading novels on a sofa. We should not claim that finishing a book together improves a relationship or mental health. A more grounded idea is simpler: reading and discussing a text gives you material to notice, interpret and disagree about. Whether that becomes meaningful depends on how you treat each other while you talk."
+      ],
+      [
+        "A one-evening culture practice",
+        "1. **Choose a small work.** Pick a short story, poem, essay, a single film scene, a photo series or one side of an album. Keep the commitment light enough that neither person has to turn the evening into homework.\n2. **Choose without testing each other.** One person picks this time, the other next time. Give a one-line reason for the choice, but avoid presenting it as a secret lesson for your partner.\n3. **Meet the work on its own terms.** Read or watch without checking a phone. Notice one moment that made you curious, uncomfortable, amused or uncertain.\n4. **Start with observation.** Ask ‚ÄúWhat did you notice?‚Äù before ‚ÄúWhat did you think it meant?‚Äù Specific details keep the discussion close to the work.\n5. **Trade interpretations.** Each person gets a few minutes to speak without being corrected. Then ask, ‚ÄúWhat do you think the other person saw that you missed?‚Äù\n6. **Leave the ending open.** You do not need a shared verdict. Pick one line, image or question to carry into the week."
+      ],
+      [
+        "Disagreement is part of the pleasure",
+        "One person reads a character as brave; the other sees someone being reckless. That difference is not a problem to fix. It is an invitation to see what each of you considers courage, loyalty or responsibility. Keep the discussion about the work until both people choose to make it personal.\n\nA useful boundary is to ask before connecting a story to someone‚Äôs private life: ‚ÄúDo you want to talk about what this brings up, or stay with the book?‚Äù This leaves room for honesty without turning an evening into an ambush. If a topic lands badly, you can stop. A good cultural conversation does not require perfect openness; it requires respect for each person‚Äôs limits."
+      ],
+      [
+        "Keep a shelf of shared discoveries",
+        "Save a note with the things you have experienced together: a film that stayed with you, a gallery you want to revisit, the poem you still disagree about. Add a recommendation from each person, not only the one with the longer reading list.\n\nOver time the list becomes a portrait of attention: what you noticed, what challenged you, what made you laugh and what each of you brought to the same work. You do not have to like everything the other person likes. A richer life together may come from learning how to stay curious when your responses are different‚Äîand how to let a piece of art keep its own mystery."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Shared reading as an intervention to improve health and well-being in adults: a scoping review",
+        "authors": "K. J√§rvholm, A. Ohlsson, K. Bernhardsson, A. W. Gustafsson, P. Johnsson, M. Malmstr√∂m, J. Wistrand, and T. Forslid",
+        "publication": "Frontiers in Psychology, 16 (2025), 1484839",
+        "url": "https://doi.org/10.3389/fpsyg.2025.1484839"
+      }
+    ],
+    "url": "article.html?id=read-something-that-changes-the-conversation-20261016",
+    "editionDate": "2026-10-16"
   },
   {
     "id": "runway-energy-real-life",
@@ -532,6 +686,56 @@ window.WILDWIRE_ARTICLES = [
       }
     ],
     "url": "article.html?id=strength-that-fits"
+  },
+  {
+    "id": "the-city-opens-at-walking-speed-20261016",
+    "category": "Explore",
+    "title": "The City Opens at Walking Speed",
+    "subtitle": "A map gets you there. A slower route gives you something to notice together.",
+    "date": "2026-10-16",
+    "read": 5,
+    "author": "WILDWIRE Editorial",
+    "image": "images/edition-20261016-explore.webp",
+    "imageAlt": "A Latina woman and South Asian man pause over a paper map on an autumn Montreal street.",
+    "imageCredit": "AI-generated editorial image. The people and location are illustrative, not documentary.",
+    "body": [
+      [
+        "Arrive before you have a verdict",
+        "The map is open between them, the caf√© they meant to find still three blocks away. A bus exhales at the corner. A shopkeeper stacks chairs. Someone has put a small table beneath a fire escape. They turn the paper map once and decide to walk the long way.\n\nThat tiny decision is the difference between consuming a destination and meeting it. A city is not a checklist of sights; it is a series of thresholds. At walking speed, you can change your mind without losing the day. You can notice the street that smells like bread, the public stairs that lead to a view, the block where people have made a place to sit. You do not need a packed itinerary to feel that you went somewhere."
+      ],
+      [
+        "A Montreal day, planned loosely",
+        "Montr√©al makes a useful case study because the city maintains a mix of permanent and seasonal pedestrian streets. Its municipal guide says these routes are designed for walking and shared use, and that some street segments become temporary pedestrian streets in summer [1]. Dates and conditions change, so check the city‚Äôs current listings before setting out.\n\nStart with one neighborhood rather than trying to cross the whole island. Pick a transit stop, a market or a museum as your anchor. Walk for 30‚Äì45 minutes without rushing, then pause somewhere that invites you in. From there, decide together: continue toward a park, follow a side street, or take the metro to a second area. The best plan has one firm reservation and enough open space to let the city alter it."
+      ],
+      [
+        "Make a walking date that feels like travel",
+        "1. **Choose a question.** Before leaving, each person names one thing they would like to notice: old stone, new public art, a bakery, a quiet square, a particular kind of storefront.\n2. **Set a loose boundary.** Decide how long you want to walk and how much you are comfortable spending. Practical limits make room for spontaneity.\n3. **Navigate in turns.** One person chooses the first stretch; the other chooses the next. If you disagree, stop at the corner and compare what each route offers.\n4. **Put the phone to work, then away.** Use it for transit, accessibility information, weather and opening hours. Once oriented, pocket it for a few blocks and let yourselves read the street.\n5. **Take one photograph each.** Choose a detail you want to remember, not a proof-of-visit pose. At the end, show each other what caught your attention.\n6. **Leave one thing for next time.** A city becomes more interesting when you have a reason to return. Note the bookshop, public garden or restaurant you did not get to."
+      ],
+      [
+        "Walk with care, not romantic assumptions",
+        "‚ÄúWalk everywhere‚Äù is not a universal travel tip. Weather, mobility, fatigue, lighting and neighborhood conditions matter. Check current local guidance, use marked crossings, choose accessible routes when needed and agree on a turning-back point. Montreal‚Äôs city pages distinguish pedestrian-only streets from shared streets and describe their rules; a place being walkable does not mean every route suits every person [2].\n\nThe companion matters here. A slow day only works if both people can set the pace. Ask whether the route feels comfortable, whether a break is needed and what would make the next stretch easier. Being attentive is part of the itinerary."
+      ],
+      [
+        "Bring home a memory with texture",
+        "At dinner, each person gets one minute to tell the other what they noticed that the other might have missed. It could be the sound of a skateboard on stone, a window full of plants or the way a narrow street opened onto a wide square. Details are a way of sharing attention.\n\nYou may not have seen every famous landmark. You may have found something harder to package: a rhythm that belongs to that place and one day that belonged to the two of you. Travel does not need to be far away to widen your view. Sometimes the most revealing direction is the side street you almost passed."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Pedestrian Streets",
+        "authors": "City of Montr√©al",
+        "publication": "Official municipal guide, last updated May 25, 2026",
+        "url": "https://montreal.ca/en/topics/pedestrian-streets"
+      },
+      {
+        "title": "Travel and Transportation",
+        "authors": "City of Montr√©al",
+        "publication": "Official municipal guide",
+        "url": "https://montreal.ca/en/travel-and-transportation"
+      }
+    ],
+    "url": "article.html?id=the-city-opens-at-walking-speed-20261016",
+    "editionDate": "2026-10-16"
   },
   {
     "id": "the-trip-begins-between-stations",
@@ -684,5 +888,55 @@ window.WILDWIRE_ARTICLES = [
         "url": "https://health.gov/our-work/nutrition-physical-activity/physical-activity-guidelines/current-guidelines"
       }
     ]
+  },
+  {
+    "id": "wear-it-like-you-mean-it-20261016",
+    "category": "Style",
+    "title": "Wear It Like You Mean It",
+    "subtitle": "A shared point of view starts with clothes that fit your real days‚Äînot a matching outfit or a shopping spree.",
+    "date": "2026-10-16",
+    "read": 5,
+    "author": "WILDWIRE Editorial",
+    "image": "images/edition-20261016-style.webp",
+    "imageAlt": "A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain.",
+    "imageCredit": "AI-generated editorial image. The people and street scene are illustrative, not documentary.",
+    "body": [
+      [
+        "Style is the signal you choose",
+        "They meet outside a small restaurant after work. One has a long charcoal coat, the other a dark knit under a clean jacket. Nothing matches. Nothing is trying too hard. The connection is in the level of care: shoes looked after, proportions considered, clothes chosen for the lives they actually lead.\n\nThat is a better starting point for dressing with a partner than matching colors or building a joint uniform. A shared style can mean you both value ease, good fit, texture, repair or a little drama. The expression should still belong to each person. You are not dressing as a couple; you are two people arriving in the same frame with your own point of view."
+      ],
+      [
+        "Start with the week, not the fantasy",
+        "Lay out what a normal week asks of you: work, training, caregiving, evenings out, weather, transit and time on your feet. The wardrobe that works is shaped by those hours. A beautiful jacket that stays on a hanger because it is impractical is a poor investment, however good it looked online.\n\nA 2026 study in Psychology & Marketing tested ‚Äúcost per wear‚Äù as a way to compare clothing options. Across six preregistered experiments, communicating the expected cost per wear shifted preferences toward some higher-quality garments, especially when items could be compared. The authors also caution that the effect depends on context and options; a number cannot tell you everything about labor, materials, repairability or whether the piece feels like you [1]."
+      ],
+      [
+        "Build a two-person point of view",
+        "Try this in twenty minutes, using what you already own.\n\n1. **Choose three shared words.** Each person picks words independently‚Äîperhaps ‚Äúgrounded,‚Äù ‚Äúsharp‚Äù and ‚Äúuseful.‚Äù Compare lists and keep the overlap. These words describe the atmosphere, not a dress code.\n2. **Name each person‚Äôs non-negotiables.** One might need shoes for a long commute; the other may want room to move. Keep those needs intact.\n3. **Find one repeated detail.** It could be a dark neutral, a strong belt, a crisp collar, a worn leather texture or a clean silhouette. It is a thread, not a uniform.\n4. **Build one complete outfit each.** Start with a piece already worn often. Add layers for the actual weather and the actual plan. Take a quick photo so the combination is easy to repeat.\n5. **Use the chair test.** Sit, walk, reach, climb stairs. If the outfit only works while standing still, edit it.\n6. **Write down the gap.** If something is missing, name the exact job it needs to do before shopping. ‚ÄúA rain-ready shoe for the walk to work‚Äù is a useful brief. ‚ÄúA whole new look‚Äù is not."
+      ],
+      [
+        "Let the numbers ask a better question",
+        "Cost per wear is easy to calculate: divide the purchase price by a realistic estimate of wears. A $120 overshirt worn 100 times costs $1.20 per wear before care and repair. That does not make it automatically better than a cheaper piece; the estimate is only useful if the garment survives and you enjoy wearing it.\n\nResearch into clothing use also reminds us that lifespan is not just a materials question. A 2020 international wardrobe survey examined wearing and washing practices across five countries and found that how garments are used and cared for affects their active life [2]. Treat that as a reason to learn the care label, air garments between wears when appropriate, mend a loose button early and buy for fit‚Äînot a promise that one fabric or price point is always sustainable."
+      ],
+      [
+        "Keep the individual in the picture",
+        "If one person loves color and the other lives in black, the shared point of view can be restraint in fit, not identical palettes. If one wants a bold look for a night out, the other can dress in a way that feels equally considered without becoming a prop. Compliments should sound like recognition, not permission: ‚ÄúThat looks like you‚Äù carries more respect than ‚ÄúNow we match.‚Äù\n\nStart with an outfit you already trust. Ask what makes it work, then give the other person the same space to answer. The aim is not to become a styled pair for strangers. It is to leave the house feeling more like yourselves‚Äîand a little more deliberate about the impression you leave."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Shifting Toward Quality: How Communicating ‚ÄúCost per Wear‚Äù Influences Consumer Preference for Clothing",
+        "authors": "L. Eckmann and L. A. Reisch",
+        "publication": "Psychology & Marketing, 43(2) (2026), 330‚Äì342",
+        "url": "https://doi.org/10.1002/mar.70061"
+      },
+      {
+        "title": "What Affects Garment Lifespans? International Clothing Practices Based on a Wardrobe Survey in China, Germany, Japan, the UK, and the USA",
+        "authors": "C. Laitala and B. Klepp",
+        "publication": "Sustainability, 12(21) (2020)",
+        "url": "https://doi.org/10.3390/su12219151"
+      }
+    ],
+    "url": "article.html?id=wear-it-like-you-mean-it-20261016",
+    "editionDate": "2026-10-16"
   }
 ];

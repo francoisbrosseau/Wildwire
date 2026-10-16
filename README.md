@@ -17,7 +17,7 @@ A responsive, static editorial publication hosted with GitHub Pages.
 
 ## Editorial content
 
-Seven stable-ID articles span STRENGTH, STYLE, EXPLORE, CULTURE and LIVING. Articles are stored in `content/articles/` and validated before the site catalog is built. Article IDs are permanent; add new IDs instead of replacing existing records.
+The archive keeps stable-ID articles across STRENGTH, STYLE, EXPLORE, CULTURE and LIVING. Articles are stored in `content/articles/` and validated before the site catalog is built. Article IDs are permanent; add new IDs instead of replacing existing records. The October 16, 2026 manual edition adds five new features, one per pillar, while preserving the existing archive.
 
 Comments are not active until GitHub Discussions and giscus are configured in `js/comments-config.js`.
 
