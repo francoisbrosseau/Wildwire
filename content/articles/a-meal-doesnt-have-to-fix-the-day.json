@@ -1,0 +1,26 @@
+{
+  "id": "a-meal-doesnt-have-to-fix-the-day",
+  "category": "Living",
+  "title": "A Meal Doesn’t Have to Fix the Day",
+  "subtitle": "Three generations in one kitchen, a pot on the stove and a kinder definition of eating together.",
+  "date": "2026-10-16",
+  "url": "article.html?id=a-meal-doesnt-have-to-fix-the-day",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "image": "images/generated/sample-living.webp",
+  "imageAlt": "Three generations of a family prepare a simple dinner together in a lived-in kitchen.",
+  "imageGenerator": "Built-in ImageGen",
+  "imagePrompt": "Warm cinematic 3:2 lifestyle documentary; three generations of a family prepare dinner together in a lived-in kitchen; candid hands passing a bowl, practical home textures, no text, logos or watermark.",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "body": [
+    ["The table is not a stage", "Some evenings, dinner is a bowl of something warm, a few questions and the ordinary noise of people coming home at different times. It does not need matching plates or a story worth telling later. The useful part may be that somebody remembered to buy bread, somebody else chopped onions, and everyone gets to stop making decisions for a little while.\n\nShared meals are often described as a cure for modern disconnection. The evidence deserves more care than that. A systematic review of in-home eating found that studies linking shared meals to diet, health and family outcomes often had limitations, so strong causal promises are not warranted [1]. We do not need to oversell dinner to value the chance to sit near one another."],
+    ["Give everyone one job", "A meal becomes easier when the work is visible and small. One person rinses greens. Another sets out bowls. Someone who arrives late can grate cheese or bring fruit. If a child wants to help, give them a task that is safe and specific. If an older parent is visiting, ask what they would actually enjoy doing rather than assuming they should host, advise or stay out of the way.\n\nThe point is not equal minutes with a stopwatch. It is shared ownership. Nobody should have to manage the meal, the conversation and everybody’s feelings alone. If one person has carried the week, the others can take the lead tonight."],
+    ["Build a low-pressure bowl", "Cook a pot of lentils, beans or rice. Put out a few things that can be added at the table: chopped vegetables, herbs, yogurt, chili oil, lemon, toasted seeds or leftovers. This is not a recipe that demands one correct combination. It is a flexible supper for people who may want different amounts, textures or heat. Keep food safety, allergies and personal dietary needs in view; the shared idea is choice, not a single prescribed plate.\n\nWhen the food is simple, attention can move back to the people. Ask a question that does not sound like an interview: What did you notice today? What took more energy than you expected? What are you looking forward to? A person can answer briefly or pass."],
+    ["Make room for different appetites", "Families and couples rarely arrive with identical schedules or needs. One person may be hungry at six; another may have eaten late. One may be ready to talk; another needs ten quiet minutes. Let the table hold these differences without turning them into a referendum on who cares. A shared meal can be a common point in the evening, not proof that everyone is doing life the same way.\n\nResearch on communal eating has explored associations between eating with others and social bonds, but association is not a guarantee of closeness [2]. The meal does not make a relationship healthy on its own. How people treat one another still matters."],
+    ["A ritual can be tiny", "Try one small repeatable marker: light a candle, put phones in a basket for the first ten minutes, or let each person choose the music once a week. Keep it easy to skip when the day is hard. Rituals should make room, not add another standard that someone can fail.\n\nAfter dinner, share the cleanup. Leave one thing ready for tomorrow: a container in the fridge, a washed pan, or a note about what is running low. Then stop. You do not need to transform an ordinary Tuesday into a perfect family memory. Sometimes the memory is simply that nobody had to carry it alone."]
+  ],
+  "sources": [
+    {"title":"Diet and Health Benefits Associated with In-Home Eating and Sharing Meals at Home: A Systematic Review","authors":"Mills et al.","publication":"PubMed","url":"https://pubmed.ncbi.nlm.nih.gov/33562357/"},
+    {"title":"Breaking Bread: The Functions of Social Eating","authors":"Dunbar","publication":"PubMed","url":"https://pubmed.ncbi.nlm.nih.gov/32025474/"}
+  ]
+}

@@ -1,20 +1,50 @@
-# WILDWIRE daily publishing — not active
+# WILDWIRE daily publishing
 
-WILDWIRE does **not** currently publish articles on a schedule. The daily workflow is not part of the launch branch, no AI API secret or enablement variable is configured, and no recurring publication is authorized. Do not describe tomorrow's edition as automatic.
+## Current state
 
-## Proposed design
+The five-story editorial engine and sample edition are prepared in a review branch. **Production publishing is not active.** No API key was added, no paid API call was made, and the recurring workflow will remain off until the owner reviews the sample, cost and live-publish test.
 
-The local draft pipeline targets 7:00 a.m. `America/Toronto` and proposes one article only when research, source, image-rights, originality, length, content-build and functional checks all pass. It uses an API-backed model and would require an `OPENAI_API_KEY` secret. A repository variable would act as a pause switch. A manual dry run must pass before any default-branch schedule is enabled.
+The engine is designed for five new stories per Toronto calendar day—one for each pillar. It uses a separately billed OpenAI API key for research, writing, fact-checking and generated images. ChatGPT access does not include API usage.
 
-This proposal has not been deployed or tested end to end. GitHub Actions has no API allowance bundled with ChatGPT. API usage and any image-provider costs require review and approval before activation. No unattended workflow should be merged or enabled until the owner explicitly approves its exact behavior and budget.
+## Scheduled process
 
-## Safeguards required before activation
+- GitHub Actions uses the IANA timezone America/Toronto; the schedule therefore follows daylight saving time.
+- It makes attempts at 3:17, 4:17, 5:17 and 6:17 a.m. local time. Later attempts act as retries if an earlier run fails; a complete edition already in the archive is detected and not regenerated.
+- A run must pass its publication cutoff at 6:40 a.m. Toronto time. The job then commits the full edition in one change, runs GitHub Pages deployment through the existing branch publishing setup, and polls WildWireMag.com for all five article IDs and image files.
+- The homepage selects the newest complete edition for its existing feature and story cards. Article IDs and URLs remain permanent; categories, search and favorites continue to use the shared catalog.
+- A partial edition is never committed. Research, citation, length, duplicate-title, image-format, catalog and site checks must all pass first.
+- Generated images must center a couple, family or friends, with varied people and compositions across the five pillars. They are labeled as AI-generated editorial illustrations.
+- A failed run writes a failure summary and opens a GitHub issue. The previous live edition remains available if a candidate fails before deployment.
 
-- Run a manual dry run that creates no commit and no public article.
-- Review sources, article quality, duplicate detection and image license/attribution.
-- Confirm build and site tests pass before a generated commit can be created.
-- Keep publication paused by default; provide a documented pause switch and rollback procedure.
-- Test a clearly identified end-to-end test publication only with the owner's approval.
-- Report failures through GitHub Actions logs and confirm the prior site remains deployable.
+GitHub's own documentation says scheduled workflows can be delayed or dropped during periods of high load. The early schedule, four attempts, cutoff and live-site verification reduce that risk, but GitHub Actions cannot guarantee that the site will be live at exactly 7:00 every day. See [scheduled workflow behavior](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows) and [workflow timezone syntax](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#onschedule).
 
-The current recommendation is to finish and verify reader accounts and the custom domain first. Daily publication remains a later milestone.
+## ChatGPT Work scheduling
+
+ChatGPT scheduled automations can run a scheduled prompt, but they are not the deployment runtime for this GitHub Pages project. They do not provide this repository's persistent build environment, API secret handling, atomic commit, Pages verification and retry controls as one guaranteed unattended publishing job. The engine uses GitHub Actions instead. WILDWIRE_AUTO_PUBLISH is the pause/resume switch; a separate WILDWIRE_LIVE_APPROVED variable provides the one-time launch gate.
+
+## Cost estimate
+
+Planning estimate for five articles and five 1536 × 1024 medium-quality generated images each day: **about $20–$35 USD/month** for model tokens, roughly ten web-search calls per day, one image and one automated visual check per article, assuming no unusually heavy retries. This is an estimate, not a quote; actual image-token usage, search context, model prices and failed retries can change it. GitHub Actions is expected to be $0 for this public repository's standard hosted workflow. Configure an OpenAI API project spending limit of $40/month before activation; this repo cannot set or enforce account-level API billing limits.
+
+Current model and image prices are listed at [OpenAI API pricing](https://developers.openai.com/api/docs/pricing). Web search is priced per call and search-content tokens are additional at the chosen model rate.
+
+## Activation checklist
+
+Keep the schedule off until these steps are reviewed and approved:
+
+1. Merge the reviewed engine and sample edition after approving their content.
+2. Add OPENAI_API_KEY as a GitHub Actions repository secret. Do not put it in source files or issue text.
+3. Set the OpenAI project spending limit to $40/month or less.
+4. Run the workflow manually with dry_run: true; it will generate and validate but will not commit.
+5. Approve a clearly identified live test publication, then confirm GitHub Pages and WildWireMag.com serve it.
+6. Only after that approval, set repository variables WILDWIRE_AUTO_PUBLISH to enabled and WILDWIRE_LIVE_APPROVED to yes.
+
+Without both variables set to their exact values, scheduled jobs skip publishing. Remove or change WILDWIRE_AUTO_PUBLISH to pause; set it back to enabled to resume. Manual runs default to dry-run and never publish.
+
+## Rollback
+
+If a published edition needs to be withdrawn, revert the single “Publish WILDWIRE daily edition” commit on main; GitHub Pages will redeploy the prior archive. This preserves all older permanent articles. For a failed pre-publication check, no rollback is needed because no article commit is made.
+
+## Verification limits
+
+The sample edition and homepage/archive integration pass local content and DOM tests. The workflow has not yet been run against a real API key, its generated images have not been produced by the API path, and no test edition has been deployed to WildWireMag.com. Those are deliberate remaining gates: the API requires separate billing and a public test deployment must be explicitly approved.

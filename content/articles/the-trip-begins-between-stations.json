@@ -1,0 +1,25 @@
+{
+  "id": "the-trip-begins-between-stations",
+  "category": "Explore",
+  "title": "The Trip Begins Between Stations",
+  "subtitle": "A weekend away gets better when the journey has room for both people to notice something different.",
+  "date": "2026-10-16",
+  "url": "article.html?id=the-trip-begins-between-stations",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "image": "images/generated/sample-explore.webp",
+  "imageAlt": "Two travelers study a map together at a coastal rail station above a harbor.",
+  "imageGenerator": "Built-in ImageGen",
+  "imagePrompt": "Premium cinematic 3:2 travel documentary; two adult travelers with different backgrounds study a paper map together at a coastal rail station above a harbor; curious, grounded, overcast natural light, no text, logos or watermark.",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "body": [
+    ["Leave a little space in the itinerary", "The familiar version of a getaway begins with a list: the landmark, the restaurant, the perfect photo, the place someone recommended six months ago. Lists are useful. They also make it possible to arrive somewhere beautiful and spend the whole day managing the plan.\n\nTry choosing one anchor for the day and leaving the rest open. The anchor might be a ferry, a market, a museum or a long walk to the water. Everything else becomes a chance to follow what catches your attention. One person may stop for the old station clock; the other may want to see what is down the side street. A trip is richer when those differences can steer it."],
+    ["Make the journey part of the day", "A train or bus changes the pace. You have time to watch the industrial edge of a city give way to fields, to compare what you expected with what is outside the window, and to settle into conversation without someone negotiating traffic. In Ontario and Québec, VIA Rail’s Corridor connects cities including Windsor, Toronto, Ottawa, Montréal and Québec City; its route information is a practical starting point for planning [1]. Check current schedules, fares and service notices before booking.\n\nThe point is not that rail is always the best choice. It is that the method of getting somewhere shapes the day. Choose the one that leaves you with enough energy, time and budget to enjoy being there."],
+    ["Plan for two different appetites", "Before leaving, each person names one thing they would be glad to do and one thing they would rather skip. These are not competing demands; they are useful information. If one wants architecture and the other wants a long lunch, look for a neighborhood where both can happen without crossing the city twice. If you are traveling with friends, agree on a window for splitting up and a simple place to meet again.\n\nKeep the shared essentials easy: tickets saved offline, a meeting point, a backup route and one person who knows the booking details. Then let the rest be less managed. A small amount of preparation is what makes spontaneity feel generous instead of stressful."],
+    ["A field note for the afternoon", "Pick a single street, waterfront or public square and spend twenty minutes paying attention before deciding where to go next. Each person notices three things: a sound, a material and a detail someone else might walk past. Share them over coffee or at the next stop. It is a small practice, but it changes the scale of the trip. The destination becomes more than proof that you went.\n\nThe woman in the image sees the map; her companion sees the harbor behind it. Neither view is wrong. A good travel partner can hold the plan and still look up."],
+    ["Come back with a memory, not a receipt", "You do not have to cover every attraction to have had a day. Choose one meal you both remember, one stretch of road you would take again and one surprise that was not on the itinerary. Save the route or the place name while it is still fresh. If you took a photograph, write a sentence about what happened just outside the frame.\n\nThat is how a short escape becomes something you can return to: not because it was flawless, but because you were both awake for it. The train was only the beginning. The trip really started when one of you pointed out something the other had missed."]
+  ],
+  "sources": [
+    {"title":"Travel Ontario and Québec: Corridor train routes","authors":"VIA Rail Canada","publication":"VIA Rail","url":"https://www.viarail.ca/explore-our-destinations/trains/ontario-and-quebec"}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "a-wardrobe-that-earns-its-place",
+  "category": "Style",
+  "title": "A Wardrobe That Earns Its Place",
+  "subtitle": "Two friends, a crowded week and a better question than “What’s trending?”: what do we actually reach for?",
+  "date": "2026-10-16",
+  "url": "article.html?id=a-wardrobe-that-earns-its-place",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "image": "images/generated/sample-style.webp",
+  "imageAlt": "Two stylish women friends walk with purpose along a rain-darkened city street.",
+  "imageGenerator": "Built-in ImageGen",
+  "imagePrompt": "Premium cinematic 3:2 fashion editorial; two stylish adult women friends walk with purpose on a rain-darkened city street; attainable tailored coats, serious confident expressions, natural texture, no text, logos or watermark.",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "body": [
+    ["Start with the week you really have", "A wardrobe is not a mood board. It is a set of decisions you make before coffee, between a meeting and a train, or while packing for three days that somehow contain six kinds of weather. The useful question is not whether a piece looks impressive on a hanger. It is whether it works with the life you actually lead.\n\nTwo friends comparing notes can reveal the gap between the person you want to dress as and the clothes you rely on. One might keep reaching for a relaxed jacket because it handles a commute and dinner. The other might realize that the “special” trousers are the only pair that fit comfortably through a long day. Those are clues, not failures of taste."],
+    ["Make a small uniform, not a costume", "Choose three anchors for the next seven days: a top layer, a pair of trousers or a skirt, and shoes you can genuinely wear for the day. Build around the colors already in your closet. A charcoal jacket can sharpen denim; a soft knit can lower the temperature of a tailored trouser; a clean white shirt can move between a client call and an informal dinner. The formula is not universal. It should remove friction, not flatten personality.\n\nThen choose one detail that feels like yours: a ring, a scarf, a strong belt, a red lip, a precise watch or a bag with a little history. When the base is dependable, that detail carries more weight."],
+    ["Try the two-person closet edit", "Take turns choosing five pieces the other person wears often and ask why. “Because it fits my shoulders,” “because I can walk in it,” and “because I feel like myself” are better answers than a trend report. Then find one item that rarely leaves the hanger. Is it uncomfortable? Does it need special care? Does it belong to an imagined version of the week? Keep the conversation curious; nobody needs a verdict on their body.\n\nFor anything you keep, check its care label before deciding how much maintenance it asks of you. In the United States, the Federal Trade Commission’s Care Labeling Rule requires care instructions for covered textile apparel products [1]. Those labels are practical information: follow the garment’s instructions and you are less likely to discover that a favorite piece came with a routine you never wanted."],
+    ["Fit is a relationship, not a size", "A number on a tag is a manufacturing convention, not a measure of whether you deserve to wear the clothes. If a piece pulls, shifts or asks you to keep adjusting it, the problem may be the cut, not you. Try another size, a different rise, a softer fabric or a tailor’s small alteration. Fit is specific to the garment and to the day.\n\nWhen you shop, move in the clothing. Sit down. Reach overhead. Put your phone and keys where they would go. If the piece only works when you stand perfectly still under flattering light, it may not be earning its place."],
+    ["Buy less by becoming more observant", "Before adding something new, name the job it will do. What three existing pieces will it work with? What weather does it solve? What will you wear it to? If the answer is “I just like it,” that can still be enough—but knowing the difference between pleasure and panic is useful. You do not need to turn every purchase into a spreadsheet.\n\nStyle grows when attention gets sharper. Notice which jacket makes you stand taller, which shoe carries you through the day, and which color keeps coming back. Take those observations into the next decision. The two women in the photograph are not dressed alike. They share something more useful: each looks settled in her own choice, and both are moving somewhere."]
+  ],
+  "sources": [
+    {"title":"Care Labeling of Textile Wearing Apparel & Certain Piece Goods","authors":"Federal Trade Commission","publication":"FTC","url":"https://www.ftc.gov/legal-library/browse/rules/care-labeling-textile-wearing-apparel-certain-piece-goods"}
+  ]
+}

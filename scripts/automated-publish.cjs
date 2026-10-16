@@ -1,116 +1,284 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');
-const { spawnSync } = require('node:child_process');
-const root = path.resolve(__dirname, '..');
-const token = process.env.OPENAI_API_KEY;
-if (!token) throw new Error('Missing OPENAI_API_KEY secret. No files were changed.');
-const model = process.env.WILDWIRE_MODEL || 'gpt-5.4-mini';
-const dryRun = process.env.WILDWIRE_DRY_RUN === 'true';
-const categories = ['Strength', 'Style', 'Explore', 'Culture', 'Living'];
-const articlesDir = path.join(root, 'content', 'articles');
-const articles = fs.readdirSync(articlesDir).filter(x => x.endsWith('.json')).map(x => JSON.parse(fs.readFileSync(path.join(articlesDir, x), 'utf8')));
-const recent = articles.filter(a => Date.now() - Date.parse(a.date + 'T12:00:00Z') < 45 * 86400000);
-const count = Object.fromEntries(categories.map(c => [c, recent.filter(a => a.category === c).length]));
-const lowest = Math.min(...Object.values(count));
-const tied = categories.filter(c => count[c] === lowest);
-const daySeed = crypto.createHash('sha256').update(new Date().toISOString().slice(0, 10)).digest().readUInt32BE(0);
-const category = tied[daySeed % tied.length];
-const excluded = articles.map(a => `- ${a.title} (${a.category})`).join('\n');
-const wordTokens = s => String(s || '').toLowerCase().match(/[a-z0-9]{3,}/g) || [];
-const overlap = (a, b) => { const A = new Set(wordTokens(a)), B = new Set(wordTokens(b)); return A.size && B.size ? [...A].filter(x => B.has(x)).length / Math.min(A.size, B.size) : 0; };
-async function request(input, tools = []) {
-  const res = await fetch('https://api.openai.com/v1/responses', {
-    method: 'POST', headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ model, input, tools, tool_choice: tools.length ? 'required' : undefined, include: tools.length ? ['web_search_call.action.sources'] : undefined, max_output_tokens: 6500 })
+
+const ROOT = path.resolve(__dirname, '..');
+const ARTICLES_DIR = path.join(ROOT, 'content', 'articles');
+const IMAGE_DIR = path.join(ROOT, 'images', 'generated');
+const TOKEN = process.env.OPENAI_API_KEY;
+const MODEL = process.env.WILDWIRE_MODEL || 'gpt-6-luna';
+const IMAGE_MODEL = process.env.WILDWIRE_IMAGE_MODEL || 'gpt-image-2.5-flare';
+const DRY_RUN = process.env.WILDWIRE_DRY_RUN === 'true';
+const CATEGORIES = ['Strength', 'Style', 'Explore', 'Culture', 'Living'];
+const PAIRINGS = [
+  'a woman and a man who are partners, with grounded attainable appearances',
+  'two women friends with distinct personal style',
+  'two men friends with different backgrounds',
+  'a couple with visibly different ages and life experience',
+  'three generations of one family working together',
+  'two friends of different genders traveling together',
+  'two women partners with distinct builds and features',
+  'a couple of different ethnic backgrounds sharing a thoughtful moment',
+  'two adult siblings or close friends collaborating',
+  'an adult couple with one older family member',
+];
+
+const fail = message => { throw new Error(message); };
+const tokens = value => String(value || '').toLowerCase().match(/[a-z0-9]{3,}/g) || [];
+const titleOverlap = (left, right) => {
+  const a = new Set(tokens(left)), b = new Set(tokens(right));
+  return a.size && b.size ? [...a].filter(word => b.has(word)).length / Math.min(a.size, b.size) : 0;
+};
+const STOP_WORDS = new Set('about after again against along also among and any are around article because been before being between both could daily does each from have into just make more most must need only other should story than their them there these they this those through under until very what when where which while with would your'.split(' '));
+function contentOverlap(left, right) {
+  const a = new Set(tokens(left).filter(word => !STOP_WORDS.has(word)));
+  const b = new Set(tokens(right).filter(word => !STOP_WORDS.has(word)));
+  return a.size && b.size ? [...a].filter(word => b.has(word)).length / Math.min(a.size, b.size) : 0;
+}
+function torontoDate(now = new Date()) {
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'America/Toronto', year: 'numeric', month: '2-digit', day: '2-digit',
+  }).formatToParts(now);
+  const get = type => parts.find(part => part.type === type).value;
+  return `${get('year')}-${get('month')}-${get('day')}`;
+}
+function slugify(value) {
+  return value.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 64).replace(/-$/, '');
+}
+function readExisting() {
+  return fs.readdirSync(ARTICLES_DIR).filter(name => name.endsWith('.json'))
+    .map(name => JSON.parse(fs.readFileSync(path.join(ARTICLES_DIR, name), 'utf8')));
+}
+function uniqueSources(items) {
+  const urls = new Set();
+  return items.filter(source => {
+    if (!source?.url?.startsWith('https://') || urls.has(source.url)) return false;
+    urls.add(source.url);
+    return true;
   });
-  const body = await res.json();
-  if (!res.ok) throw new Error(`Responses API ${res.status}: ${JSON.stringify(body.error || body).slice(0, 700)}`);
-  const text = (body.output || []).flatMap(x => x.content || []).filter(x => x.type === 'output_text').map(x => x.text).join('\n');
-  if (!text) throw new Error('AI response contained no text.');
-  const sourceItems = (body.output || []).flatMap(x => x.action?.sources || []).filter(s => s.url);
-  return { text, sources: sourceItems };
 }
-const sourceList = sources => [...new Map(sources.map(s => [s.url, s])).values()];
-function parseJSON(text) { const cleaned = text.trim().replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, ''); return JSON.parse(cleaned); }
-function validate(article, searched) {
-  if (!article || !categories.includes(article.category)) throw new Error('Invalid category.');
-  if (!article.title || !article.subtitle || !Array.isArray(article.body) || article.body.length < 6) throw new Error('Article fields/section depth failed.');
-  const bodyText = article.body.map(x => `${x[0]} ${x[1]}`).join('\n');
-  const wordCount = wordTokens(bodyText).length;
-  if (wordCount < 850 || wordCount > 1800) throw new Error(`Article length ${wordCount} is outside the 850–1,800 word guardrail.`);
-  if (!Array.isArray(article.sources) || article.sources.length < 3) throw new Error('Fewer than three cited research sources.');
-  const verifiedUrls = new Set(searched.map(s => s.url));
-  for (const source of article.sources) {
-    if (!source.url?.startsWith('https://') || !verifiedUrls.has(source.url) || !source.title || !source.publication) throw new Error(`Citation is not among returned web-search sources: ${source.url || '(missing URL)'}`);
+function responseText(response) {
+  return (response.output || []).flatMap(item => item.content || [])
+    .filter(item => item.type === 'output_text').map(item => item.text).join('\n').trim();
+}
+function responseSources(response) {
+  const results = [];
+  for (const item of response.output || []) {
+    for (const source of item.action?.sources || []) results.push(source);
+    for (const content of item.content || []) {
+      for (const annotation of content.annotations || []) {
+        if (annotation.url) results.push({ url: annotation.url, title: annotation.title || annotation.url });
+      }
+    }
   }
-  for (let i = 0; i < article.sources.length; i++) if (!bodyText.includes(`[${i + 1}]`)) throw new Error(`Source ${i + 1} is not cited in article body.`);
-  const slug = article.title.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 64).replace(/-$/, '');
-  const id = `${slug}-${new Date().toISOString().slice(0, 10).replaceAll('-', '')}`;
-  article.id = id;
-  article.date = new Date().toISOString().slice(0, 10);
-  article.url = `article.html?id=${encodeURIComponent(id)}`;
-  article.read = Math.max(5, Math.ceil(wordCount / 220));
+  return uniqueSources(results);
+}
+function parseJson(value) {
+  const cleaned = String(value).trim().replace(/^\`\`\`(?:json)?\s*/i, '').replace(/\s*\`\`\`$/, '');
+  try { return JSON.parse(cleaned); } catch { fail('Model did not return valid JSON.'); }
+}
+
+async function apiRequest(payload, label) {
+  let lastError;
+  for (let attempt = 0; attempt < 4; attempt++) {
+    try {
+      const response = await fetch('https://api.openai.com/v1/responses', {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${TOKEN}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      const raw = await response.text();
+      let body;
+      try { body = JSON.parse(raw); } catch { body = { error: { message: raw.slice(0, 400) } }; }
+      if (response.ok) return body;
+      const message = body.error?.message || `HTTP ${response.status}`;
+      if (![408, 409, 429, 500, 502, 503, 504].includes(response.status)) fail(`${label}: ${message}`);
+      lastError = new Error(`${label}: ${message}`);
+    } catch (error) {
+      lastError = error;
+    }
+    if (attempt < 3) await new Promise(resolve => setTimeout(resolve, 1200 * (2 ** attempt)));
+  }
+  throw lastError || new Error(`${label} failed after retries.`);
+}
+
+async function textCall(input, useSearch = false) {
+  const response = await apiRequest({
+    model: MODEL,
+    input,
+    tools: useSearch ? [{ type: 'web_search' }] : [],
+    tool_choice: useSearch ? 'required' : undefined,
+    include: useSearch ? ['web_search_call.action.sources'] : undefined,
+    max_output_tokens: 6200,
+  }, useSearch ? 'Research / fact-check' : 'Article generation');
+  const text = responseText(response);
+  if (!text) fail('Responses API returned no text.');
+  return { text, sources: responseSources(response) };
+}
+
+function selectedPairings(date) {
+  const seed = crypto.createHash('sha256').update(date).digest().readUInt32BE(0);
+  return CATEGORIES.map((_, index) => PAIRINGS[(seed + index * 3) % PAIRINGS.length]);
+}
+function imagePrompt(article, pairing, recentDescriptions = []) {
+  const categoryDirection = {
+    Strength: 'serious, focused partners training with controlled effort; no smiling while lifting',
+    Style: 'confident, well-dressed friends with runway energy grounded in attainable real life',
+    Explore: 'curious companions discovering a place together, with a real sense of location',
+    Culture: 'thoughtful companions paying attention, discussing or questioning something cultural',
+    Living: 'warm, capable people sharing food, home life or an everyday ritual',
+  }[article.category];
+  return [
+    'Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.',
+    `Story: ${article.title}. ${article.subtitle}`,
+    `People: ${pairing}. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.`,
+    `Direction: ${categoryDirection}.`,
+    `Scene concept: ${article.imageConcept}`,
+    recentDescriptions.length ? `Avoid repeating these recent WILDWIRE image scenes: ${recentDescriptions.join(' | ')}` : '',
+    'No visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.',
+  ].join('\n');
+}
+async function generateImage(article, pairing, id, existing) {
+  const prompt = imagePrompt(article, pairing, existing.slice(-30).map(item => item.imageAlt).filter(Boolean));
+  const response = await apiRequest({
+    model: MODEL,
+    input: prompt,
+    tools: [{
+      type: 'image_generation', model: IMAGE_MODEL, size: '1536x1024',
+      quality: 'medium', output_format: 'webp', compression: 82,
+    }],
+    max_output_tokens: 1600,
+  }, `Image generation for ${article.category}`);
+  const imageOutput = (response.output || []).find(item => item.type === 'image_generation_call' && item.result);
+  if (!imageOutput) fail(`No generated image was returned for ${article.category}.`);
+  const bytes = Buffer.from(imageOutput.result, 'base64');
+  if (bytes.length < 20_000 || bytes.length > 12_000_000) fail(`Generated image size is invalid for ${article.category}.`);
+  if (bytes.toString('ascii', 0, 4) !== 'RIFF' || bytes.toString('ascii', 8, 12) !== 'WEBP') fail(`Generated image is not a WebP for ${article.category}.`);
+  const reviewed = await apiRequest({
+    model: MODEL,
+    input: [{ role: 'user', content: [
+      { type: 'input_text', text: 'Review this proposed editorial cover. Return JSON only: {"passed":boolean,"peopleCount":number,"issues":[string]}. Pass only if it visibly centers at least two adult people together, matches the story concept, has no text, logo or watermark, and appears suitable as a polished editorial illustration. Be conservative.' },
+      { type: 'input_image', image_url: `data:image/webp;base64,${bytes.toString('base64')}`, detail: 'low' },
+    ] }],
+    max_output_tokens: 350,
+  }, `Visual image check for ${article.category}`);
+  const imageCheck = parseJson(responseText(reviewed));
+  if (imageCheck.passed !== true || Number(imageCheck.peopleCount) < 2) fail(`Generated cover failed its visual check for ${article.category}: ${(imageCheck.issues || []).join('; ') || 'pair/family not confirmed'}`);
+  return { bytes, path: `images/generated/${id}.webp`, prompt, imageCheck };
+}
+
+function validateArticle(article, searchedSources, existing, date) {
+  if (!CATEGORIES.includes(article.category)) fail('Invalid article category.');
+  if (!article.title || !article.subtitle || !Array.isArray(article.body) || article.body.length < 6) fail('Article structure is incomplete.');
+  if (!article.imageConcept || !article.imageAlt || !/\b(couple|family|friends|partners|siblings)\b/i.test(article.imageConcept)) fail('Image concept must explicitly center companions.');
+  if (!Array.isArray(article.sources) || article.sources.length < 3) fail('Each story needs at least three sources.');
+  const body = article.body.map(section => `${section[0]}\n${section[1]}`).join('\n');
+  const count = tokens(body).length;
+  if (count < 800 || count > 1600) fail(`Article length ${count} is outside 800–1,600 words.`);
+  const verified = new Set(searchedSources.map(source => source.url));
+  article.sources.forEach((source, index) => {
+    if (!source.title || !source.publication || !verified.has(source.url)) fail(`Source ${index + 1} is not a verified research result.`);
+    if (!body.includes(`[${index + 1}]`)) fail(`Source ${index + 1} has no inline citation.`);
+  });
+  if (existing.some(old => {
+    const oldBody = (old.body || []).map(section => section.join(' ')).join(' ');
+    return old.id === article.id || titleOverlap(old.title, article.title) > 0.64 || contentOverlap(`${article.title} ${article.subtitle} ${body}`, `${old.title} ${old.subtitle} ${oldBody}`) > 0.68;
+  })) fail(`Possible duplicate story or headline: ${article.title}`);
+  article.id = `${slugify(article.title)}-${date.replaceAll('-', '')}`;
+  article.date = date;
+  article.url = `article.html?id=${encodeURIComponent(article.id)}`;
+  article.read = Math.max(4, Math.ceil(count / 220));
   article.author = 'WILDWIRE Editorial';
-  if (articles.some(a => a.id === id || overlap(a.title, article.title) > .66)) throw new Error('Duplicate or near-duplicate story detected.');
-  return wordCount;
+  article.imageCredit = 'AI-generated editorial illustration; depicts no real people or documentary event.';
+  return count;
 }
-async function findLicensedImage(query) {
-  const api = new URL('https://commons.wikimedia.org/w/api.php');
-  api.search = new URLSearchParams({ action: 'query', generator: 'search', gsrsearch: `filetype:bitmap ${query}`, gsrnamespace: '6', gsrlimit: '15', prop: 'imageinfo', iiprop: 'url|extmetadata', iiurlwidth: '1600', format: 'json', origin: '*' }).toString();
-  const res = await fetch(api, { headers: { 'User-Agent': 'WILDWIREEditorial/1.0 (licensed editorial image selection)' } });
-  if (!res.ok) throw new Error(`Wikimedia Commons search failed (${res.status}).`);
-  const data = await res.json();
-  const pages = Object.values(data.query?.pages || {});
-  const used = new Set(articles.map(a => a.imageSource).filter(Boolean));
-  const allowed = new Set(['CC0', 'Public domain', 'CC BY 4.0', 'CC BY-SA 4.0', 'CC BY 3.0', 'CC BY-SA 3.0']);
-  const image = pages.map(p => ({ page: p, info: p.imageinfo?.[0] })).find(x => x.info && !used.has(x.info.descriptionurl) && allowed.has(x.info.extmetadata?.LicenseShortName?.value?.replace(/<[^>]+>/g, '').trim()));
-  if (!image) throw new Error('No suitably licensed Wikimedia image found; publishing is halted rather than using unverified artwork.');
-  const ext = image.info.mime === 'image/png' ? 'png' : image.info.mime === 'image/jpeg' ? 'jpg' : null;
-  if (!ext) throw new Error(`Image format ${image.info.mime} is not supported by the image guard.`);
-  const license = image.info.extmetadata.LicenseShortName.value.replace(/<[^>]+>/g, '').trim();
-  const artist = image.info.extmetadata.Artist?.value?.replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ').trim() || 'Wikimedia Commons contributor';
-  const credit = `Image: ${artist}. ${license}. Source: ${image.page.title} (Wikimedia Commons).`;
-  const download = await fetch(image.info.thumburl || image.info.url);
-  if (!download.ok) throw new Error(`Image download failed (${download.status}).`);
-  const bytes = Buffer.from(await download.arrayBuffer());
-  if (bytes.length < 5000 || bytes.length > 12_000_000) throw new Error('Image file size outside safe range.');
-  return { ext, bytes, credit, source: image.info.descriptionurl, license };
+
+async function makeArticle(category, date, pairing, existing) {
+  const history = existing.map(item => `- ${item.title} (${item.category})`).join('\n');
+  const researched = await textCall(
+    `Research a fresh, useful WILDWIRE feature in the ${category} pillar. Find at least five credible current or primary sources; give URLs, publication names and factual notes. Avoid repeating these archived stories:\n${history}\nThe editorial image will feature ${pairing}. The story itself can focus on a meaningful subject in this pillar. Do not invent quotes, people, results or statistics.`,
+    true,
+  );
+  if (researched.sources.length < 3) fail(`Research returned fewer than three source links for ${category}.`);
+  const sourceCandidates = uniqueSources(researched.sources);
+  const drafted = await textCall(
+    `Write one original, substantial WILDWIRE article in JSON only, based on the research notes below. Voice: intelligent, confident, warm, inclusive and human; no filler, alpha clichés or generic AI phrasing. Keep reporting distinct from commentary. Do not invent interviews, personal experience, statistics or quotations. Category must be ${category}. Write 6–9 useful sections and 800–1,600 words. Put inline [1], [2], [3] citations in the relevant prose. Include concrete steps when the topic is training, cooking or another practical guide.\n\nResearch notes:\n${researched.text}\n\nUse exactly three verified URLs from these search results:\n${JSON.stringify(sourceCandidates)}\n\nReturn: {"category":"${category}","title":"...","subtitle":"...","imageAlt":"...","imageConcept":"a specific, visual scene centered on a couple, family or friends","body":[["section heading","substantial prose"],...],"sources":[{"title":"...","url":"exact verified URL","authors":"...","publication":"..."},...]}`,
+  );
+  const article = parseJson(drafted.text);
+  if (article.category !== category) fail(`Draft category mismatch for ${category}.`);
+  const checked = await textCall(
+    `Fact-check the claims and citations in this draft against current credible sources. Return JSON only: {"passed":boolean,"issues":[string],"checkedClaims":[string]}. Fail if any material factual claim is unsupported, a quote is fabricated, or a citation does not support its nearby claim.\n\nDRAFT:\n${JSON.stringify(article)}`,
+    true,
+  );
+  const result = parseJson(checked.text);
+  if (result.passed !== true || !Array.isArray(result.checkedClaims) || result.checkedClaims.length < 3) fail(`Fact check failed for ${category}: ${(result.issues || []).join('; ') || 'not enough checked claims'}`);
+  const allSources = uniqueSources([...researched.sources, ...checked.sources]);
+  const wordCount = validateArticle(article, allSources, existing, date);
+  return { article, wordCount, sourcesChecked: result.checkedClaims.length, sourceResults: allSources };
 }
-(async () => {
-  const history = excluded || '(No previously published articles.)';
-  const research = await request(`Research a fresh, useful WILDWIRE feature topic in the ${category} pillar. Avoid these existing stories:\n${history}\nFind at least five credible, current primary or authoritative sources; explain the findings and provide verifiable facts. Avoid invented quotations and unsupported health, financial, or social claims.`, [{ type: 'web_search' }]);
-  if (research.sources.length < 3) throw new Error('Research did not return at least three independent sources.');
-  const researchUrls = sourceList(research.sources);
-  const draftResult = await request(`Write one original WILDWIRE feature in JSON only, based exclusively on this research. Voice: intelligent, warm, confident, practical, human; with personality and edge but no alpha clichés, filler, or preachy self-help. Category: ${category}. Research notes:\n${research.text}\n\nVerified source candidates (use exactly 3–5 URLs from this list):\n${JSON.stringify(researchUrls)}\n\nSchema: {"category":"${category}","title":"...","subtitle":"...","imageAlt":"...","body":[["section heading","substantial prose with paragraphs separated by blank lines; use inline [1], [2] citations for sourced claims"],...],"sources":[{"title":"...","url":"exact candidate URL","authors":"author or institution","publication":"publisher/site"},...]}. Write 6–9 sections and 850–1,800 words, each section with useful detail. Never invent sources or quotes. Return valid JSON only.`);
-  const draft = parseJSON(draftResult.text);
-  if (draft.category !== category) throw new Error('Draft category differs from selected pillar.');
-  const check = await request(`Fact-check this proposed WILDWIRE story against current web sources. Search key factual claims. Return JSON only: {"passed":boolean,"issues":[string],"checkedClaims":[string]}. A pass requires no unsupported material factual claims and no false/attributed quotations. If uncertain, fail. STORY:\n${JSON.stringify(draft)}`, [{ type: 'web_search' }]);
-  const checked = parseJSON(check.text);
-  if (checked.passed !== true || !Array.isArray(checked.checkedClaims) || checked.checkedClaims.length < 3) throw new Error(`Independent fact-check failed: ${(checked.issues || []).join('; ') || 'incomplete verification'}`);
-  const searched = sourceList([...research.sources, ...check.sources]);
-  const wordCount = validate(draft, searched);
-  const image = await findLicensedImage(`${draft.title} editorial photo`);
-  draft.image = `images/generated/${draft.id}.${image.ext}`;
-  draft.imageLicense = image.license;
-  draft.imageSource = image.source;
-  draft.imageCredit = image.credit;
-  const imagePath = path.join(root, draft.image);
-  if (dryRun) {
-    console.log(JSON.stringify({ status: 'DRY_RUN_PASSED', id: draft.id, category, words: wordCount, sources: draft.sources.length, imageLicense: image.license, imageCredit: image.credit }, null, 2));
+
+async function main() {
+  if (!TOKEN) fail('Missing OPENAI_API_KEY. No content files were changed.');
+  const date = torontoDate();
+  const existing = readExisting();
+  const alreadyPublishedToday = existing.filter(item => item.date === date);
+  if (CATEGORIES.every(category => alreadyPublishedToday.some(item => item.category === category))) {
+    console.log(JSON.stringify({ status: 'ALREADY_PUBLISHED', date, articles: alreadyPublishedToday.map(item => item.id) }, null, 2));
     return;
   }
-  if (fs.existsSync(path.join(articlesDir, `${draft.id}.json`)) || fs.existsSync(imagePath)) throw new Error('Generated output path already exists; refusing overwrite.');
-  fs.mkdirSync(path.dirname(imagePath), { recursive: true });
-  fs.mkdirSync(articlesDir, { recursive: true });
-  fs.writeFileSync(imagePath, image.bytes, { flag: 'wx' });
-  fs.writeFileSync(path.join(articlesDir, `${draft.id}.json`), JSON.stringify(draft, null, 2) + '\n', { flag: 'wx' });
-  const build = spawnSync(process.execPath, [path.join(__dirname, 'build-content.cjs')], { cwd: root, encoding: 'utf8' });
-  const checkContent = spawnSync(process.execPath, [path.join(__dirname, 'check-content.cjs')], { cwd: root, encoding: 'utf8' });
-  if (build.status !== 0 || checkContent.status !== 0) {
-    fs.rmSync(path.join(articlesDir, `${draft.id}.json`), { force: true }); fs.rmSync(imagePath, { force: true });
-    spawnSync(process.execPath, [path.join(__dirname, 'build-content.cjs')], { cwd: root });
-    throw new Error(`Catalog safeguards failed; candidate removed. ${(build.stderr || checkContent.stderr || build.stdout || checkContent.stdout || '').slice(0, 900)}`);
+  if (alreadyPublishedToday.length) fail(`Found a partial WILDWIRE edition dated ${date}; refusing to add stories to it.`);
+  const pairings = selectedPairings(date);
+  const results = [];
+  for (let index = 0; index < CATEGORIES.length; index++) {
+    const previousInEdition = results.map(item => item.article);
+    const result = await makeArticle(CATEGORIES[index], date, pairings[index], [...existing, ...previousInEdition]);
+    const candidateId = `${slugify(result.article.title)}-${date.replaceAll('-', '')}`;
+    if (existing.some(item => item.id === candidateId) || results.some(item => item.article.id === candidateId)) fail(`Output already exists; refusing overwrite: ${candidateId}`);
+    const image = await generateImage(result.article, pairings[index], candidateId, existing);
+    result.article.image = image.path;
+    result.article.imagePrompt = image.prompt;
+    result.article.imageGenerator = IMAGE_MODEL;
+    result.article.imageUsage = 'AI-generated editorial illustration; no real people or documentary event.';
+    result.article.imageVisualCheck = image.imageCheck;
+    results.push({ ...result, image });
+    console.log(`Validated ${CATEGORIES[index]}: ${result.wordCount} words, ${result.article.sources.length} citations, image ${image.bytes.length} bytes.`);
   }
-  console.log(`Candidate safely added: ${draft.id} (${category}, ${wordCount} words, ${draft.sources.length} sources, ${image.license}).`);
-})().catch(error => { console.error(`WILDWIRE publication failed closed: ${error.message}`); process.exitCode = 1; });
+  if (new Set(results.map(item => item.article.image)).size !== CATEGORIES.length) fail('Image reuse detected in the daily edition.');
+  if (DRY_RUN) {
+    console.log(JSON.stringify({
+      status: 'DRY_RUN_PASSED', date, articles: results.map(({ article, wordCount, sourcesChecked, image }) => ({
+        id: article.id, category: article.category, title: article.title, words: wordCount,
+        sources: article.sources.length, claimsChecked: sourcesChecked, generatedImage: image.path,
+      })),
+    }, null, 2));
+    return;
+  }
+
+  fs.mkdirSync(IMAGE_DIR, { recursive: true });
+  const written = [];
+  try {
+    for (const item of results) {
+      const articlePath = path.join(ARTICLES_DIR, `${item.article.id}.json`);
+      const imagePath = path.join(ROOT, item.image.path);
+      if (fs.existsSync(articlePath) || fs.existsSync(imagePath)) fail(`Refusing to overwrite ${item.article.id}`);
+      fs.writeFileSync(imagePath, item.image.bytes, { flag: 'wx' });
+      written.push(imagePath);
+      fs.writeFileSync(articlePath, JSON.stringify(item.article, null, 2) + '\n', { flag: 'wx' });
+      written.push(articlePath);
+    }
+    const catalog = require('node:child_process').spawnSync(process.execPath, [path.join(__dirname, 'build-content.cjs')], { cwd: ROOT, encoding: 'utf8' });
+    if (catalog.status !== 0) fail(`Catalog build failed: ${catalog.stderr || catalog.stdout}`);
+    console.log(`WILDWIRE edition ${date} staged: five stories, five unique generated images. Run all content and functional checks before committing.`);
+  } catch (error) {
+    for (const file of written.reverse()) fs.rmSync(file, { force: true });
+    require('node:child_process').spawnSync(process.execPath, [path.join(__dirname, 'build-content.cjs')], { cwd: ROOT, encoding: 'utf8' });
+    throw error;
+  }
+}
+
+if (require.main === module) main().catch(error => {
+  console.error(`WILDWIRE edition failed closed: ${error.message}`);
+  process.exitCode = 1;
+});
+
+module.exports = { torontoDate, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle };

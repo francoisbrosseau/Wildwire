@@ -1,0 +1,27 @@
+{
+  "id": "two-people-one-training-plan",
+  "category": "Strength",
+  "title": "Two People, One Training Plan—Without Lifting the Same",
+  "subtitle": "A good training partnership makes room for different bodies, different loads and the same clear commitment.",
+  "date": "2026-10-16",
+  "url": "article.html?id=two-people-one-training-plan",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "image": "images/generated/sample-strength.webp",
+  "imageAlt": "Two focused training partners prepare for a deadlift in a sunlit neighborhood gym.",
+  "imageGenerator": "Built-in ImageGen",
+  "imagePrompt": "Premium cinematic 3:2 editorial photograph; a focused, attainable woman and man training partnership prepare to deadlift in a worn dawn gym; natural side light, charcoal and warm concrete, no text, logos or watermark.",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "body": [
+    ["Train beside each other, not against each other", "The best training partner is not a human stopwatch or a second opinion on your body. It is someone who helps you keep a promise to yourself. One of you may be learning the movement; the other may be adding weight. One may have forty minutes; the other can stay for an hour. The session can still belong to both of you.\n\nThat distinction matters. A shared plan is useful when it creates consistency without pretending that two people have the same history, recovery, confidence or goal. The point is not to make every set identical. It is to make showing up easier."],
+    ["Build the session around a common shape", "Choose a small number of movements that work in the same area of the gym: a squat pattern, a hinge, a press and a pull. Keep the order shared, then let each person pick a load and variation that fits. While one person lifts, the other can watch the setup, count reps or simply stay present. Change roles without turning every rest into coaching.\n\nIf a movement is unfamiliar, begin with a version that feels controlled: a box squat, a dumbbell hinge or a supported row. Add difficulty when the movement stays steady and the effort feels appropriate. A workout is not improved by making a partner prove something."],
+    ["Give feedback a job", "Before the first set, agree on what kind of feedback is welcome. “Tell me if my back position changes” is useful. A running commentary on every rep can make a new lifter feel watched instead of supported. Keep cues brief and specific. Ask before changing someone’s setup, and stop a set if either person reports pain, dizziness or unusual discomfort.\n\nResearch reviews of exercise referral programs have found that social support, confidence and feeling capable are among the factors associated with sticking with exercise [1]. That does not mean a partner guarantees adherence. It does suggest that the atmosphere around a session matters. Respect is part of the equipment."],
+    ["A practical first session", "Try this two-person session at a conversational pace. Start with five minutes of easy walking or cycling, then do two rounds of: goblet squat, 8–10 repetitions; dumbbell Romanian deadlift, 8–10; incline push-up or dumbbell press, 6–10; and a supported one-arm row, 8–12 per side. Choose a version and load that leave both partners able to finish each rep with control. Rest as needed.\n\nFor the first week, repeat the session once more rather than adding a new circuit. Write down the movement, load and how it felt. If one person is ready to progress, add a small amount of weight or one repetition for that person only. If the other needs to repeat the same dose, that is progress too."],
+    ["Keep the plan adult-sized", "Life will interrupt the perfect schedule. Decide in advance what counts as a successful short session: perhaps two movements and twenty minutes. If one person cancels, the other can still train. If both are tired, switch to an easy walk and protect the habit without treating fatigue like a moral failure. The U.S. activity guidelines are a useful broad reference, but individual needs and medical circumstances differ [2].\n\nThe goal is not to become each other’s project. It is to have a reliable appointment with effort, where neither person has to shrink or perform. Leave the gym knowing what comes next, then let the rest of the day be the rest of the day."],
+    ["The measure that lasts", "A good partnership makes the work feel possible again next week. It can hold ambition and patience in the same room: a focused set, a sensible load, an honest “not today,” and a small note about what to try next time. Two people can train toward different destinations and still help each other move. That is the stronger kind of shared plan: close enough to create momentum, flexible enough to remain yours."]
+  ],
+  "sources": [
+    {"title":"Assessing the psychosocial factors associated with adherence to exercise referral schemes: A systematic review","authors":"Morgan et al.","publication":"BMJ Open / PubMed","url":"https://pubmed.ncbi.nlm.nih.gov/30742334/"},
+    {"title":"Physical Activity Guidelines for Americans","authors":"U.S. Department of Health and Human Services","publication":"Health.gov","url":"https://health.gov/our-work/nutrition-physical-activity/physical-activity-guidelines/current-guidelines"}
+  ]
+}

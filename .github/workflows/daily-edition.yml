@@ -1,0 +1,91 @@
+name: WILDWIRE daily edition
+
+on:
+  schedule:
+    - cron: '17 3,4,5,6 * * *'
+      timezone: "America/Toronto"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Generate and validate a five-story edition without publishing
+        type: boolean
+        default: true
+        required: true
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: wildwire-daily-edition
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: (github.event_name == 'schedule' && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes') || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install the site's functional test dependency
+        run: npm install --no-audit --no-fund
+
+      - name: Generate, research and illustrate five stories
+        run: node scripts/automated-publish.cjs
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          WILDWIRE_DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
+
+      - name: Rebuild article catalog and run editorial and site checks
+        run: |
+          node scripts/build-content.cjs
+          node scripts/check-content.cjs
+          npm test
+
+      - name: Refuse a late edition
+        if: github.event_name == 'schedule' && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes'
+        run: |
+          node -e "const p=new Intl.DateTimeFormat('en-GB',{timeZone:'America/Toronto',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date()).split(':').map(Number); if(p[0]>6||(p[0]===6&&p[1]>=40)) throw new Error('Edition missed the 6:40 a.m. Toronto publication cutoff; nothing will be committed.');"
+
+      - name: Commit the complete validated edition
+        id: publish
+        if: github.event_name == 'schedule' && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/articles images/generated js/articles.js
+          if git diff --cached --quiet; then
+            echo "published=false" >> "$GITHUB_OUTPUT"
+            echo "Today's edition is already present; no duplicate commit was made."
+            exit 0
+          fi
+          git commit -m "Publish WILDWIRE daily edition"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+          echo "published=true" >> "$GITHUB_OUTPUT"
+
+      - name: Confirm WildWireMag.com serves today's edition
+        if: steps.publish.outputs.published == 'true'
+        run: node scripts/verify-live.cjs
+
+      - name: Record and notify failed run
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        continue-on-error: true
+        run: |
+          run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          title="WILDWIRE daily edition failed: $(TZ=America/Toronto date +%F)"
+          body="The automated edition failed before live verification. Existing site content was left in place. Review the run log: ${run_url}"
+          gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "$body"
+
+      - name: Summarize failed run
+        if: failure()
+        run: echo "WILDWIRE did not verify a complete live edition. The prior live site remains in place; see the Actions run and failure issue." >> "$GITHUB_STEP_SUMMARY"

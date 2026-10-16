@@ -1,5 +1,146 @@
 window.WILDWIRE_ARTICLES = [
   {
+    "id": "a-meal-doesnt-have-to-fix-the-day",
+    "category": "Living",
+    "title": "A Meal Doesn’t Have to Fix the Day",
+    "subtitle": "Three generations in one kitchen, a pot on the stove and a kinder definition of eating together.",
+    "date": "2026-10-16",
+    "url": "article.html?id=a-meal-doesnt-have-to-fix-the-day",
+    "read": 5,
+    "author": "WILDWIRE Editorial",
+    "image": "images/generated/sample-living.webp",
+    "imageAlt": "Three generations of a family prepare a simple dinner together in a lived-in kitchen.",
+    "imageGenerator": "Built-in ImageGen",
+    "imagePrompt": "Warm cinematic 3:2 lifestyle documentary; three generations of a family prepare dinner together in a lived-in kitchen; candid hands passing a bowl, practical home textures, no text, logos or watermark.",
+    "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+    "body": [
+      [
+        "The table is not a stage",
+        "Some evenings, dinner is a bowl of something warm, a few questions and the ordinary noise of people coming home at different times. It does not need matching plates or a story worth telling later. The useful part may be that somebody remembered to buy bread, somebody else chopped onions, and everyone gets to stop making decisions for a little while.\n\nShared meals are often described as a cure for modern disconnection. The evidence deserves more care than that. A systematic review of in-home eating found that studies linking shared meals to diet, health and family outcomes often had limitations, so strong causal promises are not warranted [1]. We do not need to oversell dinner to value the chance to sit near one another."
+      ],
+      [
+        "Give everyone one job",
+        "A meal becomes easier when the work is visible and small. One person rinses greens. Another sets out bowls. Someone who arrives late can grate cheese or bring fruit. If a child wants to help, give them a task that is safe and specific. If an older parent is visiting, ask what they would actually enjoy doing rather than assuming they should host, advise or stay out of the way.\n\nThe point is not equal minutes with a stopwatch. It is shared ownership. Nobody should have to manage the meal, the conversation and everybody’s feelings alone. If one person has carried the week, the others can take the lead tonight."
+      ],
+      [
+        "Build a low-pressure bowl",
+        "Cook a pot of lentils, beans or rice. Put out a few things that can be added at the table: chopped vegetables, herbs, yogurt, chili oil, lemon, toasted seeds or leftovers. This is not a recipe that demands one correct combination. It is a flexible supper for people who may want different amounts, textures or heat. Keep food safety, allergies and personal dietary needs in view; the shared idea is choice, not a single prescribed plate.\n\nWhen the food is simple, attention can move back to the people. Ask a question that does not sound like an interview: What did you notice today? What took more energy than you expected? What are you looking forward to? A person can answer briefly or pass."
+      ],
+      [
+        "Make room for different appetites",
+        "Families and couples rarely arrive with identical schedules or needs. One person may be hungry at six; another may have eaten late. One may be ready to talk; another needs ten quiet minutes. Let the table hold these differences without turning them into a referendum on who cares. A shared meal can be a common point in the evening, not proof that everyone is doing life the same way.\n\nResearch on communal eating has explored associations between eating with others and social bonds, but association is not a guarantee of closeness [2]. The meal does not make a relationship healthy on its own. How people treat one another still matters."
+      ],
+      [
+        "A ritual can be tiny",
+        "Try one small repeatable marker: light a candle, put phones in a basket for the first ten minutes, or let each person choose the music once a week. Keep it easy to skip when the day is hard. Rituals should make room, not add another standard that someone can fail.\n\nAfter dinner, share the cleanup. Leave one thing ready for tomorrow: a container in the fridge, a washed pan, or a note about what is running low. Then stop. You do not need to transform an ordinary Tuesday into a perfect family memory. Sometimes the memory is simply that nobody had to carry it alone."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Diet and Health Benefits Associated with In-Home Eating and Sharing Meals at Home: A Systematic Review",
+        "authors": "Mills et al.",
+        "publication": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33562357/"
+      },
+      {
+        "title": "Breaking Bread: The Functions of Social Eating",
+        "authors": "Dunbar",
+        "publication": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32025474/"
+      }
+    ]
+  },
+  {
+    "id": "a-second-set-of-eyes-at-the-museum",
+    "category": "Culture",
+    "title": "A Second Set of Eyes at the Museum",
+    "subtitle": "A painting can start a conversation before either person knows what they think about it.",
+    "date": "2026-10-16",
+    "url": "article.html?id=a-second-set-of-eyes-at-the-museum",
+    "read": 5,
+    "author": "WILDWIRE Editorial",
+    "image": "images/generated/sample-culture.webp",
+    "imageAlt": "Two male friends quietly discuss a large abstract painting in a contemporary gallery.",
+    "imageGenerator": "Built-in ImageGen",
+    "imagePrompt": "Premium cinematic 3:2 cultural editorial; two adult male friends quietly study and discuss a large abstract painting in a contemporary gallery; thoughtful expressions, quiet skylight, no text, logos or watermark.",
+    "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+    "body": [
+      [
+        "Do not rush to know what it means",
+        "The first temptation in a gallery is to look for the label. We want the title, the date, the artist’s intention—the correct key that unlocks the room. Information matters. But before reading it, give the work a minute without instructions. What holds your eye? What feels deliberate? What detail irritates you?\n\nTwo people can stand in front of the same painting and come away with different first impressions. That is not a test with one winner. It is the start of seeing how attention works: what each person notices, what they bring with them and what they are willing to revise."
+      ],
+      [
+        "Use questions that open the room",
+        "Try these in order: What do you notice first? Where does your eye go next? What do you think is happening just outside the frame? Which part would you remove or keep? These questions ask for looking before judgment. They also make space for someone who does not know art vocabulary. “I like the blue because it feels cold” is a perfectly good beginning.\n\nThen read the label. See what changes. Maybe the artist’s materials make one detail more interesting; maybe the historical context makes the image harder to dismiss. Or maybe the label does not change your mind at all. The conversation is valuable either way."
+      ],
+      [
+        "Disagreement is part of the visit",
+        "One friend may see tension; the other may see humor. Resist the urge to settle the question as if the museum were a debate stage. Ask what in the work leads them there. A brush mark, a gap, the scale of a figure, a color that feels out of place—specific observations make the disagreement more interesting than a quick verdict.\n\nA recent study of self-directed museum visits reported possible wellbeing benefits, while also calling for more robust research to understand the effects [1]. That is a careful reason to value the experience, not a promise that every gallery visit will change your life. A visit can simply give two people a room, a shared focus and permission to think aloud."
+      ],
+      [
+        "Pick one work, then walk away",
+        "Instead of trying to see every room, each person chooses one piece to return to before leaving. On the second visit, say what has changed. Maybe another work in the gallery has altered the way you read it. Maybe your companion noticed something you missed. Maybe you are less certain than you were ten minutes ago. That uncertainty is often a good sign: you are still paying attention.\n\nTake a note in your phone, but make it a sentence rather than a verdict. “I thought it was lonely, then I noticed the open door.” A month later, that will bring back more than a photograph of the wall."
+      ],
+      [
+        "Leave with a question",
+        "A strong cultural experience does not have to hand you a clean takeaway. Sometimes it leaves you with a question worth carrying: who gets to tell this story, what a city chooses to preserve, or why a particular face stays in your mind? Ask your friend what they are still thinking about as you walk outside. Listen for the part that surprises you.\n\nYou came to look at art. You may also discover the way another person looks at the world. That is a small, human reason to make room for culture in an ambitious life: it stretches attention without asking it to become a performance."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "More Inspired, Less Anxious: Well-Being Impacts of a Self-Directed Art Museum Visit",
+        "authors": "Luke et al.",
+        "publication": "Curator: The Museum Journal",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/cura.70042"
+      }
+    ]
+  },
+  {
+    "id": "a-wardrobe-that-earns-its-place",
+    "category": "Style",
+    "title": "A Wardrobe That Earns Its Place",
+    "subtitle": "Two friends, a crowded week and a better question than “What’s trending?”: what do we actually reach for?",
+    "date": "2026-10-16",
+    "url": "article.html?id=a-wardrobe-that-earns-its-place",
+    "read": 5,
+    "author": "WILDWIRE Editorial",
+    "image": "images/generated/sample-style.webp",
+    "imageAlt": "Two stylish women friends walk with purpose along a rain-darkened city street.",
+    "imageGenerator": "Built-in ImageGen",
+    "imagePrompt": "Premium cinematic 3:2 fashion editorial; two stylish adult women friends walk with purpose on a rain-darkened city street; attainable tailored coats, serious confident expressions, natural texture, no text, logos or watermark.",
+    "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+    "body": [
+      [
+        "Start with the week you really have",
+        "A wardrobe is not a mood board. It is a set of decisions you make before coffee, between a meeting and a train, or while packing for three days that somehow contain six kinds of weather. The useful question is not whether a piece looks impressive on a hanger. It is whether it works with the life you actually lead.\n\nTwo friends comparing notes can reveal the gap between the person you want to dress as and the clothes you rely on. One might keep reaching for a relaxed jacket because it handles a commute and dinner. The other might realize that the “special” trousers are the only pair that fit comfortably through a long day. Those are clues, not failures of taste."
+      ],
+      [
+        "Make a small uniform, not a costume",
+        "Choose three anchors for the next seven days: a top layer, a pair of trousers or a skirt, and shoes you can genuinely wear for the day. Build around the colors already in your closet. A charcoal jacket can sharpen denim; a soft knit can lower the temperature of a tailored trouser; a clean white shirt can move between a client call and an informal dinner. The formula is not universal. It should remove friction, not flatten personality.\n\nThen choose one detail that feels like yours: a ring, a scarf, a strong belt, a red lip, a precise watch or a bag with a little history. When the base is dependable, that detail carries more weight."
+      ],
+      [
+        "Try the two-person closet edit",
+        "Take turns choosing five pieces the other person wears often and ask why. “Because it fits my shoulders,” “because I can walk in it,” and “because I feel like myself” are better answers than a trend report. Then find one item that rarely leaves the hanger. Is it uncomfortable? Does it need special care? Does it belong to an imagined version of the week? Keep the conversation curious; nobody needs a verdict on their body.\n\nFor anything you keep, check its care label before deciding how much maintenance it asks of you. In the United States, the Federal Trade Commission’s Care Labeling Rule requires care instructions for covered textile apparel products [1]. Those labels are practical information: follow the garment’s instructions and you are less likely to discover that a favorite piece came with a routine you never wanted."
+      ],
+      [
+        "Fit is a relationship, not a size",
+        "A number on a tag is a manufacturing convention, not a measure of whether you deserve to wear the clothes. If a piece pulls, shifts or asks you to keep adjusting it, the problem may be the cut, not you. Try another size, a different rise, a softer fabric or a tailor’s small alteration. Fit is specific to the garment and to the day.\n\nWhen you shop, move in the clothing. Sit down. Reach overhead. Put your phone and keys where they would go. If the piece only works when you stand perfectly still under flattering light, it may not be earning its place."
+      ],
+      [
+        "Buy less by becoming more observant",
+        "Before adding something new, name the job it will do. What three existing pieces will it work with? What weather does it solve? What will you wear it to? If the answer is “I just like it,” that can still be enough—but knowing the difference between pleasure and panic is useful. You do not need to turn every purchase into a spreadsheet.\n\nStyle grows when attention gets sharper. Notice which jacket makes you stand taller, which shoe carries you through the day, and which color keeps coming back. Take those observations into the next decision. The two women in the photograph are not dressed alike. They share something more useful: each looks settled in her own choice, and both are moving somewhere."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Care Labeling of Textile Wearing Apparel & Certain Piece Goods",
+        "authors": "Federal Trade Commission",
+        "publication": "FTC",
+        "url": "https://www.ftc.gov/legal-library/browse/rules/care-labeling-textile-wearing-apparel-certain-piece-goods"
+      }
+    ]
+  },
+  {
     "id": "ambition-looks-better-shared",
     "category": "Living",
     "title": "Ambition Looks Better Shared",
@@ -369,6 +510,51 @@ window.WILDWIRE_ARTICLES = [
     "url": "article.html?id=strength-that-fits"
   },
   {
+    "id": "the-trip-begins-between-stations",
+    "category": "Explore",
+    "title": "The Trip Begins Between Stations",
+    "subtitle": "A weekend away gets better when the journey has room for both people to notice something different.",
+    "date": "2026-10-16",
+    "url": "article.html?id=the-trip-begins-between-stations",
+    "read": 5,
+    "author": "WILDWIRE Editorial",
+    "image": "images/generated/sample-explore.webp",
+    "imageAlt": "Two travelers study a map together at a coastal rail station above a harbor.",
+    "imageGenerator": "Built-in ImageGen",
+    "imagePrompt": "Premium cinematic 3:2 travel documentary; two adult travelers with different backgrounds study a paper map together at a coastal rail station above a harbor; curious, grounded, overcast natural light, no text, logos or watermark.",
+    "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+    "body": [
+      [
+        "Leave a little space in the itinerary",
+        "The familiar version of a getaway begins with a list: the landmark, the restaurant, the perfect photo, the place someone recommended six months ago. Lists are useful. They also make it possible to arrive somewhere beautiful and spend the whole day managing the plan.\n\nTry choosing one anchor for the day and leaving the rest open. The anchor might be a ferry, a market, a museum or a long walk to the water. Everything else becomes a chance to follow what catches your attention. One person may stop for the old station clock; the other may want to see what is down the side street. A trip is richer when those differences can steer it."
+      ],
+      [
+        "Make the journey part of the day",
+        "A train or bus changes the pace. You have time to watch the industrial edge of a city give way to fields, to compare what you expected with what is outside the window, and to settle into conversation without someone negotiating traffic. In Ontario and Québec, VIA Rail’s Corridor connects cities including Windsor, Toronto, Ottawa, Montréal and Québec City; its route information is a practical starting point for planning [1]. Check current schedules, fares and service notices before booking.\n\nThe point is not that rail is always the best choice. It is that the method of getting somewhere shapes the day. Choose the one that leaves you with enough energy, time and budget to enjoy being there."
+      ],
+      [
+        "Plan for two different appetites",
+        "Before leaving, each person names one thing they would be glad to do and one thing they would rather skip. These are not competing demands; they are useful information. If one wants architecture and the other wants a long lunch, look for a neighborhood where both can happen without crossing the city twice. If you are traveling with friends, agree on a window for splitting up and a simple place to meet again.\n\nKeep the shared essentials easy: tickets saved offline, a meeting point, a backup route and one person who knows the booking details. Then let the rest be less managed. A small amount of preparation is what makes spontaneity feel generous instead of stressful."
+      ],
+      [
+        "A field note for the afternoon",
+        "Pick a single street, waterfront or public square and spend twenty minutes paying attention before deciding where to go next. Each person notices three things: a sound, a material and a detail someone else might walk past. Share them over coffee or at the next stop. It is a small practice, but it changes the scale of the trip. The destination becomes more than proof that you went.\n\nThe woman in the image sees the map; her companion sees the harbor behind it. Neither view is wrong. A good travel partner can hold the plan and still look up."
+      ],
+      [
+        "Come back with a memory, not a receipt",
+        "You do not have to cover every attraction to have had a day. Choose one meal you both remember, one stretch of road you would take again and one surprise that was not on the itinerary. Save the route or the place name while it is still fresh. If you took a photograph, write a sentence about what happened just outside the frame.\n\nThat is how a short escape becomes something you can return to: not because it was flawless, but because you were both awake for it. The train was only the beginning. The trip really started when one of you pointed out something the other had missed."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Travel Ontario and Québec: Corridor train routes",
+        "authors": "VIA Rail Canada",
+        "publication": "VIA Rail",
+        "url": "https://www.viarail.ca/explore-our-destinations/trains/ontario-and-quebec"
+      }
+    ]
+  },
+  {
     "id": "tomato-bean-skillet",
     "category": "Living",
     "title": "The Skillet Dinner That Saves a Tuesday",
@@ -403,5 +589,60 @@ window.WILDWIRE_ARTICLES = [
     ],
     "sources": [],
     "url": "article.html?id=tomato-bean-skillet"
+  },
+  {
+    "id": "two-people-one-training-plan",
+    "category": "Strength",
+    "title": "Two People, One Training Plan—Without Lifting the Same",
+    "subtitle": "A good training partnership makes room for different bodies, different loads and the same clear commitment.",
+    "date": "2026-10-16",
+    "url": "article.html?id=two-people-one-training-plan",
+    "read": 5,
+    "author": "WILDWIRE Editorial",
+    "image": "images/generated/sample-strength.webp",
+    "imageAlt": "Two focused training partners prepare for a deadlift in a sunlit neighborhood gym.",
+    "imageGenerator": "Built-in ImageGen",
+    "imagePrompt": "Premium cinematic 3:2 editorial photograph; a focused, attainable woman and man training partnership prepare to deadlift in a worn dawn gym; natural side light, charcoal and warm concrete, no text, logos or watermark.",
+    "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+    "body": [
+      [
+        "Train beside each other, not against each other",
+        "The best training partner is not a human stopwatch or a second opinion on your body. It is someone who helps you keep a promise to yourself. One of you may be learning the movement; the other may be adding weight. One may have forty minutes; the other can stay for an hour. The session can still belong to both of you.\n\nThat distinction matters. A shared plan is useful when it creates consistency without pretending that two people have the same history, recovery, confidence or goal. The point is not to make every set identical. It is to make showing up easier."
+      ],
+      [
+        "Build the session around a common shape",
+        "Choose a small number of movements that work in the same area of the gym: a squat pattern, a hinge, a press and a pull. Keep the order shared, then let each person pick a load and variation that fits. While one person lifts, the other can watch the setup, count reps or simply stay present. Change roles without turning every rest into coaching.\n\nIf a movement is unfamiliar, begin with a version that feels controlled: a box squat, a dumbbell hinge or a supported row. Add difficulty when the movement stays steady and the effort feels appropriate. A workout is not improved by making a partner prove something."
+      ],
+      [
+        "Give feedback a job",
+        "Before the first set, agree on what kind of feedback is welcome. “Tell me if my back position changes” is useful. A running commentary on every rep can make a new lifter feel watched instead of supported. Keep cues brief and specific. Ask before changing someone’s setup, and stop a set if either person reports pain, dizziness or unusual discomfort.\n\nResearch reviews of exercise referral programs have found that social support, confidence and feeling capable are among the factors associated with sticking with exercise [1]. That does not mean a partner guarantees adherence. It does suggest that the atmosphere around a session matters. Respect is part of the equipment."
+      ],
+      [
+        "A practical first session",
+        "Try this two-person session at a conversational pace. Start with five minutes of easy walking or cycling, then do two rounds of: goblet squat, 8–10 repetitions; dumbbell Romanian deadlift, 8–10; incline push-up or dumbbell press, 6–10; and a supported one-arm row, 8–12 per side. Choose a version and load that leave both partners able to finish each rep with control. Rest as needed.\n\nFor the first week, repeat the session once more rather than adding a new circuit. Write down the movement, load and how it felt. If one person is ready to progress, add a small amount of weight or one repetition for that person only. If the other needs to repeat the same dose, that is progress too."
+      ],
+      [
+        "Keep the plan adult-sized",
+        "Life will interrupt the perfect schedule. Decide in advance what counts as a successful short session: perhaps two movements and twenty minutes. If one person cancels, the other can still train. If both are tired, switch to an easy walk and protect the habit without treating fatigue like a moral failure. The U.S. activity guidelines are a useful broad reference, but individual needs and medical circumstances differ [2].\n\nThe goal is not to become each other’s project. It is to have a reliable appointment with effort, where neither person has to shrink or perform. Leave the gym knowing what comes next, then let the rest of the day be the rest of the day."
+      ],
+      [
+        "The measure that lasts",
+        "A good partnership makes the work feel possible again next week. It can hold ambition and patience in the same room: a focused set, a sensible load, an honest “not today,” and a small note about what to try next time. Two people can train toward different destinations and still help each other move. That is the stronger kind of shared plan: close enough to create momentum, flexible enough to remain yours."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Assessing the psychosocial factors associated with adherence to exercise referral schemes: A systematic review",
+        "authors": "Morgan et al.",
+        "publication": "BMJ Open / PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30742334/"
+      },
+      {
+        "title": "Physical Activity Guidelines for Americans",
+        "authors": "U.S. Department of Health and Human Services",
+        "publication": "Health.gov",
+        "url": "https://health.gov/our-work/nutrition-physical-activity/physical-activity-guidelines/current-guidelines"
+      }
+    ]
   }
 ];
