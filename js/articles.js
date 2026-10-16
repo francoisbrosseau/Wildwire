@@ -1,5 +1,4 @@
-µ®•z∫ËØ
-‚∂)‡≤÷ßu™›¢Îi∫–k¢Gß¶*^window.WILDWIRE_ARTICLES = [
+window.WILDWIRE_ARTICLES = [
   {
     "id": "a-meal-doesnt-have-to-fix-the-day",
     "category": "Living",
@@ -192,8 +191,7 @@
         "Choose three anchors for the next seven days: a top layer, a pair of trousers or a skirt, and shoes you can genuinely wear for the day. Build around the colors already in your closet. A charcoal jacket can sharpen denim; a soft knit can lower the temperature of a tailored trouser; a clean white shirt can move between a client call and an informal dinner. The formula is not universal. It should remove friction, not flatten personality.\n\nThen choose one detail that feels like yours: a ring, a scarf, a strong belt, a red lip, a precise watch or a bag with a little history. When the base is dependable, that detail carries more weight."
       ],
       [
-        "Try the twµ®•z∫ËØ
-‚∂)‡≤÷ßu™›¢Îi∫–k¢Gß¶*^o-person closet edit",
+        "Try the two-person closet edit",
         "Take turns choosing five pieces the other person wears often and ask why. ‚ÄúBecause it fits my shoulders,‚Äù ‚Äúbecause I can walk in it,‚Äù and ‚Äúbecause I feel like myself‚Äù are better answers than a trend report. Then find one item that rarely leaves the hanger. Is it uncomfortable? Does it need special care? Does it belong to an imagined version of the week? Keep the conversation curious; nobody needs a verdict on their body.\n\nFor anything you keep, check its care label before deciding how much maintenance it asks of you. In the United States, the Federal Trade Commission‚Äôs Care Labeling Rule requires care instructions for covered textile apparel products [1]. Those labels are practical information: follow the garment‚Äôs instructions and you are less likely to discover that a favorite piece came with a routine you never wanted."
       ],
       [
@@ -236,8 +234,7 @@
     "body": [
       [
         "Start before the problem becomes the whole week",
-        "It is Sunday evening. The calendar is full, the kitchen is half-reset and both people know they have been answering logistics instead of each other. Nobody needs a dramatic summit. What may help is a little protected attention before the week starts to run them.\n\nA check-in is not a performance review for a relationship. It is a small place to say what is going well, what is weighing on you, and where help would matter. A 2026 guide from the Gottman Institute outlines regulµ®•z∫ËØ
-‚∂)‡≤÷ßu™›¢Îi∫–k¢Gß¶*^ar check-ins that include appreciations, what is working, one concern, a specific request and a look at the week ahead [1]. That is a practical framework, not a guarantee or a substitute for professional help."
+        "It is Sunday evening. The calendar is full, the kitchen is half-reset and both people know they have been answering logistics instead of each other. Nobody needs a dramatic summit. What may help is a little protected attention before the week starts to run them.\n\nA check-in is not a performance review for a relationship. It is a small place to say what is going well, what is weighing on you, and where help would matter. A 2026 guide from the Gottman Institute outlines regular check-ins that include appreciations, what is working, one concern, a specific request and a look at the week ahead [1]. That is a practical framework, not a guarantee or a substitute for professional help."
       ],
       [
         "Set the tone before you set the timer",
@@ -291,8 +288,7 @@
       ],
       [
         "Support is more concrete than applause",
-        "In a 14-day daily-diary study of 99 inactive, overweight heterosexual couples working toward physical-activity goals, proµ®•z∫ËØ
-‚∂)‡≤÷ßu™›¢Îi∫–k¢Gß¶*^viding support to a partner was associated with the support-giver's own activity, positive affect and relationship satisfaction on that day [1]. It was an observational daily-life study, not proof that encouragement caused those outcomes or a guarantee for every couple.\n\nStill, it points toward a practical distinction: support works best when it responds to what the other person actually needs. One partner may want company for a walk. Another may want the kitchen cleared and no commentary. Ask. Do not assume that your preferred kind of help is the kind they want.\n\nThat study‚Äôs participants were heterosexual couples who were inactive and overweight and had chosen physical-activity goals. Its results should not be stretched to every couple, culture or kind of ambition. A separate five-week randomized field experiment with 125 couples found that a brief plan for expressing gratitude increased everyday time spent together relative to a control group [2]. Neither study says a ritual can solve a serious relationship problem. Both make a useful case for concrete attention."
+        "In a 14-day daily-diary study of 99 inactive, overweight heterosexual couples working toward physical-activity goals, providing support to a partner was associated with the support-giver's own activity, positive affect and relationship satisfaction on that day [1]. It was an observational daily-life study, not proof that encouragement caused those outcomes or a guarantee for every couple.\n\nStill, it points toward a practical distinction: support works best when it responds to what the other person actually needs. One partner may want company for a walk. Another may want the kitchen cleared and no commentary. Ask. Do not assume that your preferred kind of help is the kind they want.\n\nThat study‚Äôs participants were heterosexual couples who were inactive and overweight and had chosen physical-activity goals. Its results should not be stretched to every couple, culture or kind of ambition. A separate five-week randomized field experiment with 125 couples found that a brief plan for expressing gratitude increased everyday time spent together relative to a control group [2]. Neither study says a ritual can solve a serious relationship problem. Both make a useful case for concrete attention."
       ],
       [
         "Run a ten-minute weekly check-in",
@@ -429,7 +425,7 @@
       ],
       [
         "If the cup misses",
-        "Taste is feedback, not a grade. Write down one thing you notice: too intense, a little thin, softer as it cools, or exactly what you wanted. If it is too strong, add a splash of water or use a little less coffee next time. If it feels thin, use a touch more coffee. If the flavor is harsh or uneven, pour more slowly and keep the grind medium. Change one thing, then brew again; changing the beans, grind, dose and water all at once leaves you with no clue what helped.\n\nThµ®•¬∏≠yÍÎ¢∞k¢Gß¶*^e coffee you enjoy is the right result. If you like it with milk, make it that way. If a French press or instant coffee is what fits your kitchen, use that. The method should serve the morning you have, not the coffee you think you are supposed to like."
+        "Taste is feedback, not a grade. Write down one thing you notice: too intense, a little thin, softer as it cools, or exactly what you wanted. If it is too strong, add a splash of water or use a little less coffee next time. If it feels thin, use a touch more coffee. If the flavor is harsh or uneven, pour more slowly and keep the grind medium. Change one thing, then brew again; changing the beans, grind, dose and water all at once leaves you with no clue what helped.\n\nThe coffee you enjoy is the right result. If you like it with milk, make it that way. If a French press or instant coffee is what fits your kitchen, use that. The method should serve the morning you have, not the coffee you think you are supposed to like."
       ],
       [
         "Leave a little room",
