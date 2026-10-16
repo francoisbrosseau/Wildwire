@@ -1,0 +1,50 @@
+name: Deploy WILDWIRE to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      revision:
+        type: string
+        required: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: wildwire-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.ref_name == github.event.repository.default_branch && vars.WILDWIRE_LIVE_APPROVED == 'yes'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.revision || github.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Check and package the exact committed site
+        run: |
+          npm install --no-audit --no-fund
+          node scripts/build-content.cjs
+          node scripts/check-content.cjs
+          npm test
+          node scripts/package-pages.cjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Deploy the artifact explicitly (bot commits do not trigger branch builds)
+        id: deployment
+        uses: actions/deploy-pages@v4

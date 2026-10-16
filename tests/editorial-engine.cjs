@@ -1,5 +1,5 @@
 const assert = require('node:assert/strict');
-const { torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle, DAILY_READ_COUNT } = require('../scripts/automated-publish.cjs');
+const { torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle, articleSchema, bindSources, apiRequest, DAILY_READ_COUNT } = require('../scripts/automated-publish.cjs');
 
 assert.equal(torontoDate(new Date('2026-01-01T02:00:00Z')), '2025-12-31', 'Toronto date follows local midnight across UTC');
 assert.equal(torontoDate(new Date('2026-01-01T05:00:00Z')), '2026-01-01', 'Toronto calendar date is used after local midnight');
@@ -45,10 +45,43 @@ assert.ok(count >= 800);
 assert.equal(article.id, 'train-together-with-purpose-20261016');
 assert.equal(article.url, 'article.html?id=train-together-with-purpose-20261016');
 assert.throws(() => validateArticle({...article, sources:article.sources.map((source,index)=>index===0?{...source,authors:'Not specified in the research notes'}:source)}, article.sources, [], '2026-10-16'), /verified author or publishing-organization metadata/);
-assert.throws(() => validateArticle({...article, imageConcept:'A solitary athlete'}, article.sources, [], '2026-10-16'), /center companions/);
+const repairedImageArticle = {...article, imageConcept:'A solitary athlete'};
+validateArticle(repairedImageArticle, repairedImageArticle.sources, [], '2026-10-16', first[0]);
+assert.match(repairedImageArticle.imageConcept, /two men friends.*together.*A solitary athlete/i, 'Missing companion wording is repaired from the assigned daily pairing');
 assert.throws(() => validateArticle({...article, title:'Previously Used Story'}, article.sources, [{title:'Previously Used Story'}], '2026-10-16'), /Possible duplicate/);
 const living = {...article, category:'Living', title:'A Different Evening Practice', body:[...article.body.slice(0,-1), ['A practice for the walk home', longBody]]};
 assert.ok(validateArticle(living, living.sources, [], '2026-10-16') >= 800, 'Living stories finish with a substantial, story-specific practice');
 assert.throws(() => validateArticle({...living, body:[...living.body.slice(0,-1), ['A practice for the walk home', 'Too short.']]}, living.sources, [], '2026-10-16'), /substantial, specific practice/);
 assert.throws(() => validateArticle({...living, body:[...living.body.slice(0,-1), ['A practice for the walk home', longBody]]}, living.sources, [{category:'Living',body:[['Ending',''],['A practice for the walk home',longBody]]}], '2026-10-16'), /repeats an archived closing practice/);
-console.log('Editorial engine unit checks passed: Toronto dates, dry-run date gate, eight rotating partnerships, image brief, citations, Living practices, length and duplicate safeguards.');
+const registry = article.sources.map((source, index) => ({ ...source, sourceId: `S${index + 1}` }));
+const bound = bindSources({sources: registry.map(source => ({...source, url:'https://fabricated.example/not-verified'}))}, registry);
+assert.deepEqual(bound.sources.map(source => source.url), registry.map(source => source.url), 'Generated URLs never override verified research URLs');
+assert.throws(() => bindSources({sources:[...registry.slice(0,2), {...registry[2],sourceId:'S999'}]},registry), /Invalid or repeated/);
+assert.throws(() => bindSources({sources:[registry[0],registry[0],registry[2]]},registry), /Invalid or repeated/);
+assert.ok(!articleSchema(registry).properties.sources.items.properties.url, 'The API output schema does not permit model-written source URLs');
+
+(async () => {
+  const originalFetch = global.fetch;
+  let calls = 0;
+  try {
+    global.fetch = async (_url, options) => {
+      calls++;
+      assert.ok(options.signal instanceof AbortSignal, 'Every API attempt has a bounded timeout');
+      return new Response(JSON.stringify({error:{message:'Invalid key',code:'invalid_api_key'}}), {status:401});
+    };
+    await assert.rejects(apiRequest({model:'test'}, 'Mock authentication'), /Invalid key/);
+    assert.equal(calls,1,'Permanent authentication failures are not retried and billed repeatedly');
+    calls = 0;
+    global.fetch = async () => {
+      calls++;
+      return calls===1 ? new Response(JSON.stringify({error:{message:'Busy'}}),{status:503}) : new Response(JSON.stringify({status:'completed',output:[]}));
+    };
+    await apiRequest({model:'test'},'Mock transient outage');
+    assert.equal(calls,2,'A transient server failure is retried successfully');
+    calls = 0;
+    global.fetch = async () => { calls++; return new Response(JSON.stringify({status:'incomplete',incomplete_details:{reason:'max_output_tokens'}})); };
+    await assert.rejects(apiRequest({model:'test'},'Mock truncation'),/incomplete/);
+    assert.equal(calls,1,'Truncated responses cannot silently become accepted articles');
+  } finally { global.fetch = originalFetch; }
+  console.log('Editorial engine checks passed, including forged source URLs, invalid source IDs, permanent API failures, transient retries and incomplete output.');
+})().catch(error => { console.error(error); process.exitCode=1; });

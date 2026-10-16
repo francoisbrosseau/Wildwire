@@ -1,5 +1,8 @@
 const fs=require('node:fs'),path=require('node:path');
-const data=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../js/articles.js'),'utf8').replace(/^window\.WILDWIRE_ARTICLES\s*=\s*/,'').replace(/;\s*$/,''));
+const catalogSource=fs.readFileSync(path.resolve(__dirname,'../js/articles.js'),'utf8');
+const catalogMatch=catalogSource.match(/^window\.WILDWIRE_ARTICLES\s*=\s*([\s\S]*?);(?:\s*window\.WILDWIRE_PILLAR_IMAGES|\s*$)/);
+if(!catalogMatch)throw Error('Could not read generated article catalog');
+const data=JSON.parse(catalogMatch[1]);
 const ids=new Set(), images=new Map(), recent=data.filter(a=>Date.now()-Date.parse(a.date+'T12:00:00Z')<120*86400000);
 const words=s=>(s||'').toLowerCase().match(/[a-z0-9]{3,}/g)||[];
 const overlap=(a,b)=>{const A=new Set(words(a)),B=new Set(words(b));return A.size&&B.size?[...A].filter(x=>B.has(x)).length/Math.min(A.size,B.size):0};

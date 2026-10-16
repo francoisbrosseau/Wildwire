@@ -6,7 +6,7 @@ const date = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Toronto' }).f
 const stories = fs.readdirSync(path.join(root, 'content', 'articles'))
   .filter(file => file.endsWith('.json'))
   .map(file => JSON.parse(fs.readFileSync(path.join(root, 'content', 'articles', file), 'utf8')))
-  .filter(article => article.date === date);
+  .filter(article => article.editionDate === date);
 const required = ['Strength', 'Style', 'Explore', 'Culture', 'Living'];
 
 async function get(url) {
@@ -16,9 +16,18 @@ async function get(url) {
 }
 
 async function verify() {
-  if (stories.length !== 5 || new Set(stories.map(article => article.category)).size !== 5 ||
-      !required.every(category => stories.some(article => article.category === category))) {
-    throw new Error(`Expected five unique pillar stories for ${date}; found ${stories.length}.`);
+  const pillars = stories.filter(article => !article.dailyRead);
+  const dailyReads = stories.filter(article => article.dailyRead === true);
+  if (stories.length !== 8 || pillars.length !== 5 || dailyReads.length !== 3 || new Set(pillars.map(article => article.category)).size !== 5 ||
+      !required.every(category => pillars.some(article => article.category === category))) {
+    throw new Error(`Expected five pillar stories and three Daily Reads for ${date}; found ${stories.length}.`);
+  }
+  const editionPath = path.join(root, 'content', 'editions', `${date}.json`);
+  if (!fs.existsSync(editionPath)) throw new Error(`Missing edition manifest for ${date}.`);
+  const manifest = JSON.parse(fs.readFileSync(editionPath, 'utf8'));
+  const tileImages = required.map(category => manifest.pillarImages?.[category]?.image);
+  if (tileImages.some(image => !image) || new Set(tileImages).size !== 5 || tileImages.some(image => stories.some(article => article.image === image))) {
+    throw new Error('Edition manifest must contain five separate pillar images that are not story covers.');
   }
   const deadline = Date.now() + 8 * 60 * 1000;
   let lastError;
@@ -30,7 +39,7 @@ async function verify() {
         get(`https://wildwiremag.com/js/app.js?edition=${Date.now()}`),
       ]);
       const [catalog, home, app] = await Promise.all([catalogResponse.text(), homeResponse.text(), appResponse.text()]);
-      if (!home.includes('js/articles.js') || !app.includes('edition=') && !app.includes('isDailyEdition')) {
+      if ((!home.includes('js/articles-current.js') && !home.includes('js/articles.js')) || !app.includes('category-index')) {
         throw new Error('Live homepage does not load the article catalog and daily edition selector.');
       }
       for (const article of stories) {
@@ -40,14 +49,17 @@ async function verify() {
         }
         await get(`https://wildwiremag.com/article.html?id=${encodeURIComponent(article.id)}&edition=${Date.now()}`);
       }
-      console.log(JSON.stringify({ status: 'LIVE_VERIFIED', date, url: 'https://wildwiremag.com/', articles: stories.map(item => item.id) }, null, 2));
+      for (const image of tileImages) {
+        if ((await get(`https://wildwiremag.com/${image}?edition=${Date.now()}`)).headers.get('content-type')?.startsWith('image/') !== true) throw new Error(`Live pillar image is missing or not served as an image: ${image}`);
+      }
+      console.log(JSON.stringify({ status: 'LIVE_VERIFIED', date, url: 'https://wildwiremag.com/', articles: stories.map(item => item.id), pillarTileImages: tileImages }, null, 2));
       return;
     } catch (error) {
       lastError = error;
       await delay(20000);
     }
   }
-  throw new Error(`Live verification timed out; the previous published site remains in place. Last result: ${lastError?.message || 'unknown error'}`);
+  throw new Error(`Live verification timed out; public deployment state is unconfirmed. Inspect Pages and the live site before rollback. Last result: ${lastError?.message || 'unknown error'}`);
 }
 
 verify().catch(error => { console.error(error.message); process.exitCode = 1; });
