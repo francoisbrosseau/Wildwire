@@ -11,6 +11,11 @@ on:
         type: boolean
         default: true
         required: true
+      test_date:
+        description: Optional future Toronto calendar date for an isolated dry run
+        type: string
+        default: ''
+        required: false
 
 permissions:
   contents: write
@@ -28,7 +33,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.repository.default_branch }}
+          ref: ${{ github.event_name == 'workflow_dispatch' && github.ref || github.event.repository.default_branch }}
           fetch-depth: 0
 
       - uses: actions/setup-node@v4
@@ -43,6 +48,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           WILDWIRE_DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
+          WILDWIRE_TEST_DATE: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && inputs.test_date || '' }}
 
       - name: Rebuild article catalog and run editorial and site checks
         run: |

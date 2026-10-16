@@ -42,6 +42,14 @@ function torontoDate(now = new Date()) {
   const get = type => parts.find(part => part.type === type).value;
   return `${get('year')}-${get('month')}-${get('day')}`;
 }
+function editionDate(testDate = '', dryRun = false, now = new Date()) {
+  if (!testDate) return torontoDate(now);
+  if (!dryRun) fail('WILDWIRE_TEST_DATE can only be used for a dry run.');
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(testDate)) fail('WILDWIRE_TEST_DATE must use YYYY-MM-DD.');
+  const parsed = new Date(`${testDate}T00:00:00.000Z`);
+  if (!Number.isFinite(parsed.getTime()) || parsed.toISOString().slice(0, 10) !== testDate) fail('WILDWIRE_TEST_DATE is not a valid calendar date.');
+  return testDate;
+}
 function slugify(value) {
   return value.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 64).replace(/-$/, '');
 }
@@ -175,6 +183,12 @@ function validateArticle(article, searchedSources, existing, date) {
   const body = article.body.map(section => `${section[0]}\n${section[1]}`).join('\n');
   const count = tokens(body).length;
   if (count < 800 || count > 1600) fail(`Article length ${count} is outside 800–1,600 words.`);
+  if (article.category === 'Living') {
+    const finalSection = article.body.at(-1);
+    if (!finalSection || tokens(finalSection[1]).length < 50) fail('Living story must finish with a substantial, specific practice or reflection.');
+    const ending = slugify(finalSection[0]);
+    if (existing.some(old => old.category === 'Living' && slugify(old.body?.at(-1)?.[0] || '') === ending)) fail('Living story repeats an archived closing practice heading.');
+  }
   const verified = new Set(searchedSources.map(source => source.url));
   article.sources.forEach((source, index) => {
     if (!source.title || !source.publication || !verified.has(source.url)) fail(`Source ${index + 1} is not a verified research result.`);
@@ -195,6 +209,7 @@ function validateArticle(article, searchedSources, existing, date) {
 
 async function makeArticle(category, date, pairing, existing) {
   const history = existing.map(item => `- ${item.title} (${item.category})`).join('\n');
+  const oldLivingEndings = existing.filter(item => item.category === 'Living').map(item => `- ${item.body?.at(-1)?.[0] || 'untitled'}: ${(item.body?.at(-1)?.[1] || '').slice(0, 220)}`).join('\n');
   const researched = await textCall(
     `Research a fresh, useful WILDWIRE feature in the ${category} pillar. Find at least five credible current or primary sources; give URLs, publication names and factual notes. Avoid repeating these archived stories:\n${history}\nThe editorial image will feature ${pairing}. The story itself can focus on a meaningful subject in this pillar. Do not invent quotes, people, results or statistics.`,
     true,
@@ -202,7 +217,7 @@ async function makeArticle(category, date, pairing, existing) {
   if (researched.sources.length < 3) fail(`Research returned fewer than three source links for ${category}.`);
   const sourceCandidates = uniqueSources(researched.sources);
   const drafted = await textCall(
-    `Write one original, substantial WILDWIRE article in JSON only, based on the research notes below. Voice: intelligent, confident, warm, inclusive and human; no filler, alpha clichés or generic AI phrasing. Keep reporting distinct from commentary. Do not invent interviews, personal experience, statistics or quotations. Category must be ${category}. Write 6–9 useful sections and 800–1,600 words. Put inline [1], [2], [3] citations in the relevant prose. Include concrete steps when the topic is training, cooking or another practical guide.\n\nResearch notes:\n${researched.text}\n\nUse exactly three verified URLs from these search results:\n${JSON.stringify(sourceCandidates)}\n\nReturn: {"category":"${category}","title":"...","subtitle":"...","imageAlt":"...","imageConcept":"a specific, visual scene centered on a couple, family or friends","body":[["section heading","substantial prose"],...],"sources":[{"title":"...","url":"exact verified URL","authors":"...","publication":"..."},...]}`,
+    `Write one original, substantial WILDWIRE article in JSON only, based on the research notes below. Voice: intelligent, confident, warm, inclusive and human; no filler, alpha clichés or generic AI phrasing. Keep reporting distinct from commentary. Do not invent interviews, personal experience, statistics or quotations. Category must be ${category}. Write 6–9 useful sections and 800–1,600 words. Put inline [1], [2], [3] citations in the relevant prose. Include concrete steps when the topic is training, cooking or another practical guide. For Living, make the final section a grounded, story-specific practice or reflection of at least 70 words; make its heading distinct from all previous Living endings below. Do not repeat a generic daily ritual.\n\nArchived Living endings:\n${oldLivingEndings}\n\nResearch notes:\n${researched.text}\n\nUse exactly three verified URLs from these search results:\n${JSON.stringify(sourceCandidates)}\n\nReturn: {"category":"${category}","title":"...","subtitle":"...","imageAlt":"...","imageConcept":"a specific, visual scene centered on a couple, family or friends","body":[["section heading","substantial prose"],...],"sources":[{"title":"...","url":"exact verified URL","authors":"...","publication":"..."},...]}`,
   );
   const article = parseJson(drafted.text);
   if (article.category !== category) fail(`Draft category mismatch for ${category}.`);
@@ -219,7 +234,7 @@ async function makeArticle(category, date, pairing, existing) {
 
 async function main() {
   if (!TOKEN) fail('Missing OPENAI_API_KEY. No content files were changed.');
-  const date = torontoDate();
+  const date = editionDate(process.env.WILDWIRE_TEST_DATE || '', DRY_RUN);
   const existing = readExisting();
   const alreadyPublishedToday = existing.filter(item => item.date === date);
   if (CATEGORIES.every(category => alreadyPublishedToday.some(item => item.category === category))) {
@@ -281,4 +296,4 @@ if (require.main === module) main().catch(error => {
   process.exitCode = 1;
 });
 
-module.exports = { torontoDate, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle };
+module.exports = { torontoDate, editionDate, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle };
