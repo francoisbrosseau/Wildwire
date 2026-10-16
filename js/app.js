@@ -32,8 +32,6 @@ const ARTICLES=window.WILDWIRE_ARTICLES||[];const STORE='wildwire-favorites-v1';
   link.href='article.html?id='+encodeURIComponent(article.id);
   const title=link.querySelector('.category-current-story');
   if(title)title.textContent=article.title;
-  const image=link.querySelector('img');
-  if(image){image.src=article.image;image.alt=article.imageAlt||article.title;}
  });
  const living=byCategory.Living||latestByCategory.Living;
  if(living){
