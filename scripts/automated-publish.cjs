@@ -5,6 +5,7 @@ const crypto = require('node:crypto');
 const ROOT = path.resolve(__dirname, '..');
 const ARTICLES_DIR = path.join(ROOT, 'content', 'articles');
 const IMAGE_DIR = path.join(ROOT, 'images', 'generated');
+const EDITIONS_DIR = path.join(ROOT, 'content', 'editions');
 const TOKEN = process.env.OPENAI_API_KEY;
 const MODEL = process.env.WILDWIRE_MODEL || 'gpt-6-luna';
 const IMAGE_MODEL = process.env.WILDWIRE_IMAGE_MODEL || 'gpt-image-2.5-flare';
@@ -12,6 +13,13 @@ const DRY_RUN = process.env.WILDWIRE_DRY_RUN === 'true';
 const CATEGORIES = ['Strength', 'Style', 'Explore', 'Culture', 'Living'];
 const DAILY_READ_COUNT = 3;
 const DAILY_READ_CATEGORIES = ['Living', 'Culture', 'Explore', 'Living', 'Style'];
+const PILLAR_SCENES = {
+  Strength: 'Two training partners prepare for a focused strength session in a practical neighborhood gym.',
+  Style: 'Two sharply dressed friends walk with calm runway confidence through an urban street.',
+  Explore: 'Two travel partners study a city map at a vivid street corner, ready to explore.',
+  Culture: 'Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious.',
+  Living: 'A couple and a family member prepare a simple meal together in a warm, lived-in kitchen.',
+};
 const PAIRINGS = [
   'a woman and a man who are partners, with grounded attainable appearances',
   'two women friends with distinct personal style',
@@ -61,6 +69,11 @@ function slugify(value) {
 function readExisting() {
   return fs.readdirSync(ARTICLES_DIR).filter(name => name.endsWith('.json'))
     .map(name => JSON.parse(fs.readFileSync(path.join(ARTICLES_DIR, name), 'utf8')));
+}
+function readEditionManifests() {
+  if (!fs.existsSync(EDITIONS_DIR)) return [];
+  return fs.readdirSync(EDITIONS_DIR).filter(name => /^\d{4}-\d{2}-\d{2}\.json$/.test(name)).sort()
+    .map(name => JSON.parse(fs.readFileSync(path.join(EDITIONS_DIR, name), 'utf8')));
 }
 function uniqueSources(items) {
   const urls = new Set();
@@ -170,7 +183,7 @@ async function generateImage(article, pairing, id, existing) {
   const reviewed = await apiRequest({
     model: MODEL,
     input: [{ role: 'user', content: [
-      { type: 'input_text', text: `Review this proposed WILDWIRE cover for the ${article.category} story titled "${article.title}". Story concept: ${article.imageConcept}. Intended pairing: ${pairing}. Return JSON only: {"passed":boolean,"peopleCount":number,"issues":[string]}. Pass only if it visibly centers at least two adult people together, fits the stated story concept and category, has no text, logo or watermark, and appears suitable as a polished editorial illustration. Be conservative.` },
+      { type: 'input_text', text: `Review this proposed WILDWIRE editorial cover for the ${article.category} story "${article.title}". Story concept: ${article.imageConcept}. Intended pairing: ${pairing}. Return JSON only: {"passed":boolean,"peopleCount":number,"issues":[string]}. Pass only if it visibly centers at least two adult people together, fits the stated story concept and category, has no text, logo or watermark, and appears suitable as a polished editorial illustration. Be conservative.` },
       { type: 'input_image', image_url: `data:image/webp;base64,${bytes.toString('base64')}`, detail: 'low' },
     ] }],
     max_output_tokens: 350,
@@ -224,10 +237,18 @@ async function makeArticle(category, date, pairing, existing, dailyRead = false)
   if (researched.sources.length < 3) fail(`Research returned fewer than three source links for ${category}.`);
   const sourceCandidates = uniqueSources(researched.sources);
   const drafted = await textCall(
-    `Write one original, substantial WILDWIRE article in JSON only, based on the research notes below. Voice: intelligent, confident, warm, inclusive and human; no filler, alpha clichés or generic AI phrasing. Keep reporting distinct from commentary. Do not invent interviews, personal experience, statistics or quotations. Category must be ${category}; ${dailyRead ? 'mark this as an additional Daily Read story' : 'this is the main pillar story'}. Write 6–9 useful sections and 800–1,600 words. Put inline [1], [2], [3] citations in the relevant prose. Include concrete steps when the topic is training, cooking or another practical guide. For Living, make the final section a grounded, story-specific practice or reflection of at least 70 words; make its heading distinct from all previous Living endings below. Do not repeat a generic daily ritual.\n\nArchived Living endings:\n${oldLivingEndings}\n\nResearch notes:\n${researched.text}\n\nFor each of the exactly three cited sources, verify the title, publication, date, and named author(s) against the linked source page. Never use placeholder author metadata or infer names; if no individual author is listed, use the publishing organization. Use exactly three verified URLs from these search results:\n${JSON.stringify(sourceCandidates)}\n\nReturn: {"category":"${category}","title":"...","subtitle":"...","imageAlt":"...","imageConcept":"a specific, visual scene centered on a couple, family or friends","body":[["section heading","substantial prose"],...],"sources":[{"title":"...","url":"exact verified URL","authors":"...","publication":"..."},...]}`,
+    `Write one original, substantial WILDWIRE article in JSON only, based on the research notes below. Voice: intelligent, confident, warm, inclusive and human; no filler, alpha clichés or generic AI phrasing. Keep reporting distinct from commentary. Do not invent interviews, personal experience, statistics or quotations. Category must be ${category}; ${dailyRead ? 'mark this as an additional Daily Read story' : 'this is the main pillar story'}. Write 6–9 useful sections and target 1,000–1,200 words (never fewer than 900). Build each section with real explanation, examples or useful steps, not padding. Put inline [1], [2], [3] citations in the relevant prose. Include concrete steps when the topic is training, cooking or another practical guide. For Living, make the final section a grounded, story-specific practice or reflection of at least 70 words; make its heading distinct from all previous Living endings below. Do not repeat a generic daily ritual.\n\nArchived Living endings:\n${oldLivingEndings}\n\nResearch notes:\n${researched.text}\n\nFor each of the exactly three cited sources, verify the title, publication, date, and named author(s) against the linked source page. Never use placeholder author metadata or infer names; if no individual author is listed, use the publishing organization. Use exactly three verified URLs from these search results:\n${JSON.stringify(sourceCandidates)}\n\nReturn: {"category":"${category}","title":"...","subtitle":"...","imageAlt":"...","imageConcept":"a specific, visual scene centered on a couple, family or friends","body":[["section heading","substantial prose"],...],"sources":[{"title":"...","url":"exact verified URL","authors":"...","publication":"..."},...]}`,
   );
-  const article = parseJson(drafted.text);
+  let article = parseJson(drafted.text);
   if (article.category !== category) fail(`Draft category mismatch for ${category}.`);
+  const draftWords = tokens((article.body || []).map(section => section.join('\n')).join('\n')).length;
+  if (draftWords < 800) {
+    const repaired = await textCall(
+      `Expand this underlength WILDWIRE article to 1,000–1,200 words across 6–9 useful sections. Preserve its headline, category, angle, source records, and inline [1], [2], [3] citations. Add meaningful explanation, practical detail, tradeoffs, and specific examples grounded only in the supplied research notes. Do not invent sources, quotes, statistics, personal experiences, or factual claims. Return the complete article JSON in the same schema. The final Living section, if applicable, must remain a distinct story-specific practice/reflection of at least 70 words.\n\nRESEARCH NOTES:\n${researched.text}\n\nARTICLE TO EXPAND:\n${JSON.stringify(article)}`,
+    );
+    article = parseJson(repaired.text);
+    if (article.category !== category) fail(`Expanded draft category mismatch for ${category}.`);
+  }
   const checked = await textCall(
     `Fact-check the claims and citations in this draft against current credible sources. Return JSON only: {"passed":boolean,"issues":[string],"checkedClaims":[string]}. Fail if any material factual claim is unsupported, a quote is fabricated, or a citation does not support its nearby claim.\n\nDRAFT:\n${JSON.stringify(article)}`,
     true,
@@ -244,6 +265,8 @@ async function main() {
   if (!TOKEN) fail('Missing OPENAI_API_KEY. No content files were changed.');
   const date = editionDate(process.env.WILDWIRE_TEST_DATE || '', DRY_RUN);
   const existing = readExisting();
+  const priorTileDescriptions = readEditionManifests().slice(-30).flatMap(manifest => Object.values(manifest.pillarImages || {}).map(tile => tile.alt).filter(Boolean));
+  const existingWithTileHistory = [...existing, ...priorTileDescriptions.map((imageAlt, index) => ({ id: `prior-pillar-tile-${index}`, imageAlt }))];
   const alreadyPublishedToday = editionArticles(existing, date);
   if (CATEGORIES.every(category => alreadyPublishedToday.some(item => item.category === category && !item.dailyRead)) && alreadyPublishedToday.filter(item => item.dailyRead === true).length === DAILY_READ_COUNT) {
     console.log(JSON.stringify({ status: 'ALREADY_PUBLISHED', date, articles: alreadyPublishedToday.map(item => item.id) }, null, 2));
@@ -259,7 +282,7 @@ async function main() {
     const result = await makeArticle(category, date, pairings[index], [...existing, ...previousInEdition], dailyRead);
     const candidateId = `${slugify(result.article.title)}-${date.replaceAll('-', '')}`;
     if (existing.some(item => item.id === candidateId) || results.some(item => item.article.id === candidateId)) fail(`Output already exists; refusing overwrite: ${candidateId}`);
-    const image = await generateImage(result.article, pairings[index], candidateId, [...existing, ...results.map(item => item.article)]);
+    const image = await generateImage(result.article, pairings[index], candidateId, [...existingWithTileHistory, ...results.map(item => item.article)]);
     result.article.image = image.path;
     result.article.imagePrompt = image.prompt;
     result.article.imageGenerator = IMAGE_MODEL;
@@ -268,13 +291,24 @@ async function main() {
     results.push({ ...result, image });
     console.log(`Validated ${dailyRead ? 'Daily Read' : category}: ${result.wordCount} words, ${result.article.sources.length} citations, image ${image.bytes.length} bytes.`);
   }
-  if (new Set(results.map(item => item.article.image)).size !== assignments.length) fail('Image reuse detected in the daily edition.');
+  const pillarImages = [];
+  for (const [index, category] of CATEGORIES.entries()) {
+    const concept = PILLAR_SCENES[category];
+    const tileArticle = { category, title: `Take the wider view: ${category}`, subtitle: concept, imageAlt: concept, imageConcept: concept };
+    const id = `pillar-${category.toLowerCase()}-${date.replaceAll('-', '')}`;
+    const pairing = pairings[(index + 1) % pairings.length];
+    const image = await generateImage(tileArticle, pairing, id, [...existingWithTileHistory, ...results.map(item => item.article), ...pillarImages.map(item => ({ imageAlt: item.imageAlt }))]);
+    pillarImages.push({ category, imageAlt: concept, image, imageConcept: concept });
+    console.log(`Validated fresh ${category} pillar tile image: ${image.bytes.length} bytes.`);
+  }
+  const allImages = [...results.map(item => item.image.path), ...pillarImages.map(item => item.image.path)];
+  if (new Set(allImages).size !== assignments.length + CATEGORIES.length) fail('Image reuse detected in the daily edition and pillar tiles.');
   if (DRY_RUN) {
     console.log(JSON.stringify({
       status: 'DRY_RUN_PASSED', date, articles: results.map(({ article, wordCount, sourcesChecked, image }) => ({
         id: article.id, category: article.category, title: article.title, words: wordCount,
         sources: article.sources.length, claimsChecked: sourcesChecked, generatedImage: image.path,
-      })),
+      })), pillarTileImages: pillarImages.map(({ category, image }) => ({ category, generatedImage: image.path })),
     }, null, 2));
     return;
   }
@@ -291,9 +325,21 @@ async function main() {
       fs.writeFileSync(articlePath, JSON.stringify(item.article, null, 2) + '\n', { flag: 'wx' });
       written.push(articlePath);
     }
+    for (const item of pillarImages) {
+      const imagePath = path.join(ROOT, item.image.path);
+      if (fs.existsSync(imagePath)) fail(`Refusing to overwrite pillar image ${item.category}`);
+      fs.writeFileSync(imagePath, item.image.bytes, { flag: 'wx' });
+      written.push(imagePath);
+    }
+    fs.mkdirSync(EDITIONS_DIR, { recursive: true });
+    const editionPath = path.join(EDITIONS_DIR, `${date}.json`);
+    if (fs.existsSync(editionPath)) fail(`Refusing to overwrite edition manifest ${date}`);
+    const manifest = { date, articles: results.map(({ article }) => article.id), pillarImages: Object.fromEntries(pillarImages.map(({ category, image, imageAlt, imageConcept }) => [category, { image: image.path, alt: imageAlt, prompt: image.prompt, imageGenerator: IMAGE_MODEL, imageUsage: 'AI-generated editorial illustration; no real people or documentary event.', visualCheck: image.imageCheck }])) };
+    fs.writeFileSync(editionPath, JSON.stringify(manifest, null, 2) + '\n', { flag: 'wx' });
+    written.push(editionPath);
     const catalog = require('node:child_process').spawnSync(process.execPath, [path.join(__dirname, 'build-content.cjs')], { cwd: ROOT, encoding: 'utf8' });
     if (catalog.status !== 0) fail(`Catalog build failed: ${catalog.stderr || catalog.stdout}`);
-    console.log(`WILDWIRE edition ${date} staged: eight stories (five pillars and three Daily Reads), eight unique generated images. Run all content and functional checks before committing.`);
+    console.log(`WILDWIRE edition ${date} staged: eight stories (five pillars and three Daily Reads), plus five unique pillar tile images; thirteen generated images total. Run all content and functional checks before committing.`);
   } catch (error) {
     for (const file of written.reverse()) fs.rmSync(file, { force: true });
     require('node:child_process').spawnSync(process.execPath, [path.join(__dirname, 'build-content.cjs')], { cwd: ROOT, encoding: 'utf8' });
