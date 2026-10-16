@@ -22,12 +22,22 @@
 - The October 16 approved manual edition now has a manifest pointing to its
   existing eight stories and five existing tile assets. No logo/image bytes or
   existing article URLs were changed by that backfill.
-- **Explicit Actions-based Pages deployment has not yet been tested live.**
-  Preview deployment and live verification were intentionally skipped. The
-  production schedule must not be called operational until that path passes.
-- Recurring production is **off**. Both launch variables were absent when checked.
-  The owner's reported $16 payment and $40 billing cap have not been independently
-  verified. Do not claim to know the remaining API credit balance.
+- The founder approved the Actions publishing-source change, deployment gate
+  and daily unattended publishing on October 16. Pages Source is now **GitHub
+  Actions**, `WILDWIRE_LIVE_APPROVED=yes`, `WILDWIRE_AUTO_PUBLISH=enabled`.
+- Explicit Actions deployment #38960071745 succeeded:
+  https://github.com/francoisbrosseau/Wildwire/actions/runs/38960071745
+  A subsequent domain check returned LIVE_VERIFIED for all eight approved
+  October 16 stories and thirteen images. Live production-path run #38960361323 passed all three jobs: publish,
+  explicit deployment, and public verification. It correctly returned
+  ALREADY_PUBLISHED and generated no duplicate October 16 content.
+  https://github.com/francoisbrosseau/Wildwire/actions/runs/38960361323
+- Recurring starts are enabled for 3:17 and 5:17 a.m. America/Toronto, with a
+  6:40 commit cutoff. The first new scheduled edition has not yet occurred;
+  its next target is October 17, ready before 7 a.m. local time. No 365-day or
+  exact-time reliability guarantee follows from one successful sample.
+- The owner's reported $16 payment and $40 billing cap remain unverified. No
+  payment, recharge, billing-limit increase or new paid service was activated.
 - The approved template is in EDITORIAL-CONTRACT.md. Manual daily editions remain
   supported while the automated path is being tested.
 
@@ -62,12 +72,12 @@ saveable. GitHub bot commits do not trigger a branch-based Pages build, so the
 pipeline explicitly calls the reusable pages.yml deployment workflow, then
 verifies all eight stories and thirteen images on WildWireMag.com.
 
-The explicit Pages job is gated by WILDWIRE_LIVE_APPROVED=yes, so merging these
-repairs does not change deployment or create new deployment-failure emails.
+The explicit Pages job requires WILDWIRE_LIVE_APPROVED=yes. With that approved
+gate enabled, ordinary main pushes and authorized production runs deploy the
+validated static artifact.
 The repository's **Settings → Pages → Source must be GitHub Actions** before
-using pages.yml. The repository currently uses main/root branch publishing.
-Prepare and validate the workflow before changing that setting. Once migrated,
-ordinary pushes to main, manual deploys, and the daily engine all use pages.yml.
+using pages.yml. The migration was approved and saved on October 16. Ordinary
+pushes to main, manual deploys, and the daily engine now use pages.yml.
 Deployments use the github-pages environment and short-lived GitHub permissions;
 no personal GitHub token or new paid hosting service is needed.
 
@@ -87,7 +97,10 @@ leave the published archive untouched.
   for recurring or manual live publication. Live dispatches must use main.
 - Pause: remove/change WILDWIRE_AUTO_PUBLISH. Resume: restore enabled after
   checking the current workflow and edition state.
-- Do not enable until a complete preview AND the Pages/live path pass.
+- A separate 6:50 a.m. Toronto watchdog checks today's complete public edition
+  and raises a dated GitHub issue on a missing edition or live-check failure.
+  It does not generate content or incur OpenAI API usage. It honors both gates.
+- Activation requires a complete preview AND the Pages/live path to pass.
 
 GitHub may delay scheduled runs; this is a target with retries and monitoring,
 not a guarantee of exact daily availability. Official references:

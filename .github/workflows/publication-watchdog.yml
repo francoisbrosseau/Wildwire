@@ -1,0 +1,38 @@
+name: Check the morning WILDWIRE edition
+
+on:
+  schedule:
+    - cron: '50 6 * * *'
+      timezone: America/Toronto
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: wildwire-morning-watchdog
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    if: vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Check today's eight stories and thirteen images on the real domain
+        run: node scripts/verify-live.cjs
+      - name: Report a missing or inaccessible morning edition
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="WILDWIRE morning edition missing or inaccessible: $(TZ=America/Toronto date +%F)"
+          count=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "$title in:title" --json number --jq length)
+          if [ "$count" = 0 ]; then
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "The 6:50 a.m. Toronto watchdog could not verify today's complete public edition. Check the daily run and Pages deployment; preserve the archive and avoid regenerating an already committed edition. Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          fi
