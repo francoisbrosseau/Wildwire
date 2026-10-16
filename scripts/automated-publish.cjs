@@ -83,7 +83,32 @@ function responseSources(response) {
 }
 function parseJson(value, label = 'model output') {
   const cleaned = String(value).trim().replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '');
-  try { return JSON.parse(cleaned); } catch (error) { fail(`${label} was not valid JSON (${error.message}).`); }
+  const candidates = [cleaned];
+  const start = cleaned.indexOf('{');
+  if (start >= 0) {
+    let depth = 0;
+    let inString = false;
+    let escaped = false;
+    for (let index = start; index < cleaned.length; index++) {
+      const char = cleaned[index];
+      if (inString) {
+        if (escaped) escaped = false;
+        else if (char === '\\') escaped = true;
+        else if (char === '"') inString = false;
+      } else if (char === '"') inString = true;
+      else if (char === '{') depth++;
+      else if (char === '}' && --depth === 0) {
+        const objectText = cleaned.slice(start, index + 1);
+        if (objectText !== cleaned) candidates.push(objectText);
+        break;
+      }
+    }
+  }
+  let parseError;
+  for (const candidate of candidates) {
+    try { return JSON.parse(candidate); } catch (error) { parseError = error; }
+  }
+  fail(`${label} was not valid JSON (${parseError?.message || 'no JSON object found'}).`);
 }
 
 async function apiRequest(payload, label) {
@@ -114,7 +139,7 @@ async function textCall(input, useSearch = false, expectJson = false) {
   const response = await apiRequest({
     model: MODEL,
     input,
-    text: expectJson ? { format: { type: 'json_object' } } : undefined,
+    text: expectJson && !useSearch ? { format: { type: 'json_object' } } : undefined,
     tools: useSearch ? [{ type: 'web_search' }] : [],
     tool_choice: useSearch ? 'required' : undefined,
     include: useSearch ? ['web_search_call.action.sources'] : undefined,
