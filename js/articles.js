@@ -13,7 +13,7 @@ window.WILDWIRE_ARTICLES = [
     "body": [
       [
         "A strong partnership has two centers",
-        "There is a thin line between building a life together and managing each other. A relationship should give both people room to pursue their own work, health, faith, friendship and ambition. It should also be a place where those pursuits are known.\n\nThat is a quieter kind of romance than the grand gesture. It looks like asking what matters this week, remembering the answer, and adjusting the evening so the other person has a fair shot at it. Love is not a productivity system. But care often becomes visible in the way we make space.\n\nThe fantasy of the self-made person is tidy because it edits out the people who carried the water, held the fort, asked the hard question or sat nearby while the plan was still uncertain. Interdependence is not weakness. It is a mature way to be strong: capable on your own, generous with another person, and clear about what you can offer."
+        "One person has a big week at work. The other has been saying for months they want to get back to training. By Wednesday, both plans are competing with dinner, laundry and the question of who remembered to book the appointment.\n\nThis is where support becomes real: not in a speech about chasing dreams, but in asking what matters this week and making a little room for it. A strong partnership has two centers. Each person gets to want something of their own; each person gets to be known."
       ],
       [
         "Support is more concrete than applause",
@@ -66,7 +66,7 @@ window.WILDWIRE_ARTICLES = [
     "body": [
       [
         "Arrival is not the whole trip",
-        "The first morning in an unfamiliar city offers a familiar temptation: type in the café, follow the blue line, arrive, collect the coffee, repeat. It is efficient. It also turns a place into a sequence of instructions. You can cross half a city without forming much of an impression beyond the next turn.\n\nA phone is brilliant at getting us where we intend to go. The question is whether we want the journey to leave a trace. A neighborhood becomes more than a backdrop when we notice how its streets fit together, which corner opens onto a square, and where the light changes between the old market and the water."
+        "You have landed, dropped your bag and found the café you saved. The map got you there. But if you leave with only a receipt and a blue line in your phone, the city has stayed mostly out of reach.\n\nGive the first hour one small detour. Walk toward the water instead of the next pin. Notice where the busy street thins into a market lane, where people stop for bread, where a square catches the late light. You do not need to collect facts about a place to feel its shape. You need to give it a little attention."
       ],
       [
         "Navigation has more than one gear",
@@ -124,6 +124,42 @@ window.WILDWIRE_ARTICLES = [
     "url": "article.html?id=city-beyond-blue-dot"
   },
   {
+    "id": "coffee-without-the-performance",
+    "category": "Living",
+    "title": "A Better Cup, Made Slowly",
+    "subtitle": "A simple pour-over and a small morning ritual that make coffee feel like yours, without turning the kitchen into a lab.",
+    "date": "2026-10-16",
+    "read": 5,
+    "author": "WILDWIRE Living",
+    "image": "images/coffee-at-home.webp",
+    "imageAlt": "A man pours hot water over a ceramic coffee dripper in a sunlit kitchen",
+    "imageCredit": "AI-generated editorial image; illustrative, not a documentary photograph.",
+    "url": "article.html?id=coffee-without-the-performance",
+    "body": [
+      [
+        "Start with the cup you actually want",
+        "Some mornings are already spoken for. The calendar is full, the messages have arrived, and coffee becomes one more thing to carry from room to room. Other mornings give you a few quiet minutes. This is a way to make those minutes feel like yours.\n\nA good cup does not require a new identity or expensive gear. It asks for fresh coffee, water, a mug you like, and enough attention to notice what changes when you slow the first part of the day down."
+      ],
+      [
+        "A small pour-over setup",
+        "This is a starting point for one generous mug. Keep the ratio simple, then adjust it for your taste.\n\n- 18 grams of medium-ground coffee (about 3 level tablespoons, though a scale is more consistent)\n- 300 grams of hot water (about 1¼ cups)\n- A dripper and paper filter, or a French press if that is what you own\n- A mug, a kettle and five unhurried minutes\n\nThe 18-to-300 ratio is a useful first try, not a rule. If the cup tastes too strong, use a little more water next time; if it feels thin, add a little more coffee."
+      ],
+      [
+        "Brew it without fuss",
+        "1. Rinse the paper filter with hot water, then empty the mug or carafe. This takes away the papery taste and warms the vessel.\n2. Add the ground coffee and give the dripper a gentle shake so the bed sits level.\n3. Pour just enough hot water to wet all the grounds. Wait about 30 seconds while the coffee blooms.\n4. Slowly pour the remaining water in a small circle, keeping the stream steady. Let the water drain before you lift the dripper.\n5. Take the first sip before you add anything. Notice whether it is bright, bitter, soft or full. Sweeten or add milk if that is how you like it."
+      ],
+      [
+        "Make the method fit your morning",
+        "If you have no scale, use the same spoon and mug each day and change one thing at a time. If you are using a French press, let the coffee steep for about four minutes, then press gently. If the kettle is still on the counter and your toddler is already asking for breakfast, let the coffee be simple. A ritual should help you live your morning, not make you late for it."
+      ],
+      [
+        "Leave a little room",
+        "For one week, try making the first cup before opening the news or messages. Stand by the window, sit at the table, or take the mug outside. You do not have to meditate over it or make the moment profound. Just drink while the coffee is still warm.\n\nThe point is not to become a coffee person. It is to claim a small beginning that belongs to you. Tomorrow, change the beans, the mug, or nothing at all. Keep the parts that make you glad you got up."
+      ]
+    ],
+    "sources": []
+  },
+  {
     "id": "five-quiet-minutes",
     "category": "Living",
     "title": "Find Your Feet. Then Go Again.",
@@ -137,7 +173,7 @@ window.WILDWIRE_ARTICLES = [
     "body": [
       [
         "You do not need to feel peaceful first",
-        "A useful pause is not a performance of serenity. You can arrive distracted, skeptical, tired or carrying the whole day in your jaw. The practice is simply to notice what is here, let the body meet the ground, and choose what gets your attention next. Take the next five minutes as a small reset, not a promise to fix your life."
+        "You can sit down still carrying the meeting in your shoulders. You can be skeptical, impatient or already thinking about the next thing. None of that disqualifies you from a pause.\n\nFor five minutes, notice what is supporting you, let your breathing stay ordinary, and decide what deserves your attention next. This is not a promise to fix the day. It is a way to meet the next part of it with your feet under you."
       ],
       [
         "The five-minute practice",
@@ -184,7 +220,7 @@ window.WILDWIRE_ARTICLES = [
     "body": [
       [
         "An album has a shape",
-        "Streaming makes abundance feel like a permanent setting. There is always another track, another list made for a mood we have not quite named. The convenience is real. So is the strange feeling of finishing an evening with plenty of sound and little memory of what played.\n\nAn album asks for a different kind of attention. It has a sequence, an atmosphere and sometimes a turn you would miss if you used every quiet moment to reach for the skip button. Listening this way is not morally superior. It is simply a different experience—closer to reading a book than scanning its chapter titles.\n\nThere is no need to romanticize the past. Albums have always competed with work, conversation and the next record. The difference now is the frictionless exit: a new recommendation appears before we have decided whether the last thing moved us. Choosing to stay is a tiny act of authorship over the evening."
+        "You put on an album while making dinner. By the time the plates are on the table, the music has become background and your phone has chosen the next thing. Nothing went wrong; the evening just slipped by without leaving much behind.\n\nAn album gives you another pace. It has an order, a mood, and sometimes a turn that only lands if you stay past the first track. Listening all the way through is not a test of taste or discipline. It is one small way to let a piece of work have the time it was made for."
       ],
       [
         "Shared listening changes the room",
@@ -227,7 +263,7 @@ window.WILDWIRE_ARTICLES = [
     "body": [
       [
         "The runway is a signal, not a shopping list",
-        "Fashion week is built to exaggerate. That is its job. The mistake is treating every theatrical look as an instruction to buy a new personality. The useful question is smaller: what idea keeps appearing, and how could it work in the life you actually lead?\n\nSpring/Summer 2027 coverage has repeatedly pointed to lighter, more fluid dressing and a stronger appetite for individual expression. Designers showed skirts in many forms, sheer and airy layers, and unexpected combinations; reporters also noted practical tailoring and versatile pieces alongside the spectacle [1][2]. That is not a forecast that everyone will dress alike. It is a set of ingredients.\n\nThe difference between a report and a rule matters. A runway is a creative argument made by a designer; it is not a reliable prediction of what every person will wear six months from now. Our job is to translate the idea, then leave readers free to disagree."
+        "A runway is designed to stop you in your tracks. Your wardrobe has to get you through an actual day: the early meeting, the walk across town, the jacket you leave on the back of a chair. Treat fashion week as a source of ideas, not a demand to replace the clothes that already feel like you.\n\nSpring/Summer 2027 coverage has repeatedly pointed to lighter, more fluid dressing and a stronger appetite for individual expression. Designers showed skirts in many forms, sheer and airy layers, and unexpected combinations; reporters also noted practical tailoring and versatile pieces alongside the spectacle [1][2]. Those are ingredients, not instructions.\n\nThe difference matters. A designer makes a creative argument; no runway can predict what every person will want to wear six months from now. Take the part that catches your eye and leave the rest."
       ],
       [
         "Three ideas worth taking home",
@@ -270,7 +306,7 @@ window.WILDWIRE_ARTICLES = [
     "body": [
       [
         "Strength should travel with you",
-        "A good training plan is not a punishment for having a life. It should make the rest of your life more available: carrying the awkward suitcase, taking the stairs without negotiation, playing on the floor with a child, moving furniture with a friend, or feeling at home in your own body. The point is capability. The mirror may notice; it is not the whole story.\n\nThe most useful plan is one you can repeat when work is busy, weather is unimpressive and motivation has stopped sending messages.\n\nStrength is not a single look. It can mean enough power to move confidently, enough stability to carry a child, enough endurance to finish a long day, or simply learning what your body can do when you give it patient practice. The useful measure is personal: what feels more possible now than it did a month ago?"
+        "It is 6:15 on a Tuesday. You have forty minutes before the rest of the evening takes over. A useful strength session should fit inside that window and leave you better prepared for the life waiting outside the gym: the stairs, the suitcase, the long shift, the kid who wants to be picked up.\n\nThat is the standard here: work you can repeat, movements you can learn, and progress you can actually notice. The mirror may be part of your reason. It does not have to be the only reason.\n\nIf you are starting again after a long gap, you do not need to make up for lost time in one workout. Start with a version you can control. Give yourself a few weeks to become the person who shows up twice a week."
       ],
       [
         "The minimum is a floor, not a ceiling",
@@ -282,15 +318,15 @@ window.WILDWIRE_ARTICLES = [
       ],
       [
         "Set up two sessions",
-        "This four-week starter plan is for a generally healthy adult who is new to regular strength training. Schedule Session A and Session B on separate days, with at least one rest day between them. Each session covers the whole body and should take about 35–45 minutes once you know the movements.\n\nStart with five minutes of easy walking or cycling. Then do one light practice set of the first two exercises. For each working set, choose a version or load that feels challenging while leaving about two or three good repetitions in reserve. Rest 90 seconds to two minutes between sets, or longer until your breathing settles. If you are returning after a long break, start with one set per movement and build toward two."
+        "This four-week starter plan is for a generally healthy adult who is new to regular strength training. Schedule Session A and Session B on separate days, with at least one rest day between them. Each session covers the whole body and takes about 35–45 minutes once you know the movements. If your week is already full, put the sessions in your calendar before the week starts; Monday and Thursday is one simple example. If two days is too much at first, do one session, repeat it next week, then add the second day when the habit feels steady.\n\nStart with five minutes of easy walking or cycling. Then do one light practice set of the first two exercises. For each working set, choose a version or load that feels challenging while leaving about two or three good repetitions in reserve. Rest 90 seconds to two minutes between sets, or longer until your breathing settles. If you are returning after a long break, start with one set per movement and build toward two."
       ],
       [
         "Session A — build the base",
-        "Complete the movements in order. Move smoothly and use a range you can control.\n\n- Goblet squat or sit-to-stand — 2 sets of 8–12. Hold one dumbbell close to your chest, or use a sturdy chair. Sit your hips back and down, then press through your whole foot to stand. Let the chair make the movement easier; do not drop onto it.\n- Dumbbell Romanian deadlift or backpack hip hinge — 2 sets of 8–12. Keep a soft bend in your knees, send your hips back, and keep the weight close to your legs. Stand by bringing your hips forward. Stop the descent before your back rounds.\n- Incline push-up or chest press — 2 sets of 6–12. For a push-up, use a wall or sturdy counter; keep your body in one steady line and lower your chest toward the edge. For a machine press, use a comfortable range and avoid locking your elbows hard.\n- Band or cable row — 2 sets of 8–12. Secure the band or set the cable around chest height. Pull your elbows back, pause briefly, then return with control. Keep your shoulders away from your ears.\n- Suitcase carry — 3 walks of 20–30 metres per side. Hold one weight at your side, stand tall, and walk without leaning toward or away from the load. Switch hands and repeat."
+        "Complete the movements in order. Move smoothly and use a range you can control. Keep a note on your phone of the weight and reps; next Tuesday, you will not have to guess.\n\n- Goblet squat or sit-to-stand — 2 sets of 8–12. Hold one dumbbell close to your chest, or use a sturdy chair. Sit your hips back and down, then press through your whole foot to stand. Let the chair make the movement easier; do not drop onto it.\n- Dumbbell Romanian deadlift or backpack hip hinge — 2 sets of 8–12. Keep a soft bend in your knees, send your hips back, and keep the weight close to your legs. Stand by bringing your hips forward. Stop the descent before your back rounds.\n- Incline push-up or chest press — 2 sets of 6–12. For a push-up, use a wall or sturdy counter; keep your body in one steady line and lower your chest toward the edge. For a machine press, use a comfortable range and avoid locking your elbows hard.\n- Band or cable row — 2 sets of 8–12. Secure the band or set the cable around chest height. Pull your elbows back, pause briefly, then return with control. Keep your shoulders away from your ears.\n- Suitcase carry — 3 walks of 20–30 metres per side. Hold one weight at your side, stand tall, and walk without leaning toward or away from the load. Switch hands and repeat."
       ],
       [
         "Session B — balance and control",
-        "Use a steady pace. Keep a rail, wall or chair nearby for balance when needed.\n\n- Low step-up or supported split squat — 2 sets of 8 per side. For a step-up, choose a low, stable step and place the whole foot on it; rise through that foot and lower slowly. For a split squat, hold support, keep both feet planted, and lower only as far as you can stay balanced.\n- Glute bridge — 2 sets of 10–15. Lie on your back with knees bent and feet planted. Tighten your abdomen gently, press through your feet, and lift your hips until your body forms a comfortable line from shoulders to knees. Lower slowly; do not arch your lower back to chase extra height.\n- Dumbbell floor press or incline push-up — 2 sets of 8–12. For a floor press, lie on your back with a dumbbell in each hand, elbows resting lightly on the floor, and press above your chest. Use the same controlled push-up setup from Session A if you prefer bodyweight.\n- Band or cable row — 2 sets of 8–12. Repeat the row from Session A so you can practice and gradually improve it.\n- Dead bug — 2 sets of 6–8 per side. Lie on your back with arms reaching upward and knees bent. Keep your lower back comfortably steady as you slowly lower one heel and the opposite arm, then return and switch. Shorten the reach if your back starts to lift."
+        "Use a steady pace. Keep a rail, wall or chair nearby for balance when needed. This day is not a test of grit. Make the step lower or the split squat shallower if that lets every rep stay quiet and controlled.\n\n- Low step-up or supported split squat — 2 sets of 8 per side. For a step-up, choose a low, stable step and place the whole foot on it; rise through that foot and lower slowly. For a split squat, hold support, keep both feet planted, and lower only as far as you can stay balanced.\n- Glute bridge — 2 sets of 10–15. Lie on your back with knees bent and feet planted. Tighten your abdomen gently, press through your feet, and lift your hips until your body forms a comfortable line from shoulders to knees. Lower slowly; do not arch your lower back to chase extra height.\n- Dumbbell floor press or incline push-up — 2 sets of 8–12. For a floor press, lie on your back with a dumbbell in each hand, elbows resting lightly on the floor, and press above your chest. Use the same controlled push-up setup from Session A if you prefer bodyweight.\n- Band or cable row — 2 sets of 8–12. Repeat the row from Session A so you can practice and gradually improve it.\n- Dead bug — 2 sets of 6–8 per side. Lie on your back with arms reaching upward and knees bent. Keep your lower back comfortably steady as you slowly lower one heel and the opposite arm, then return and switch. Shorten the reach if your back starts to lift."
       ],
       [
         "Progress for four weeks",
