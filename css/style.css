@@ -201,3 +201,7 @@ body{background:var(--bg);color:var(--cream)}
 @media(max-width:1000px){.category-index{grid-template-columns:repeat(3,minmax(0,1fr))}.category-index>a{min-height:260px}}
 @media(max-width:760px){.brand{width:88vw;max-width:610px}.category-index{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.category-index>a,.category-index>a:first-child{min-height:250px;padding:0;border:1px solid #5a4b3f}.category-index>a:last-child{grid-column:1/-1}.category-copy{padding:18px 15px 16px}.inner-practice{grid-template-columns:1fr;gap:13px;padding:22px}.inner-practice-image{height:230px}.inner-practice-link{margin-top:3px}}
 @media(max-width:480px){.brand{width:90vw}.category-index>a,.category-index>a:first-child{min-height:225px;padding:0}.category-copy{padding:15px 12px}.worlds .category-index h3{font-size:1.08rem}.worlds .category-index p{font-size:.63rem}.inner-practice-image{height:200px}}
+
+
+/* Make story category and reading-time labels easy to scan on the feature deck. */
+.editorial-layout .meta,.reading-list .meta{display:inline-flex;align-items:center;width:max-content;padding:5px 9px;border-left:2px solid var(--ember);background:#e5dac6;color:#51402b;font-size:.67rem;font-weight:800;letter-spacing:.15em;line-height:1.25}
