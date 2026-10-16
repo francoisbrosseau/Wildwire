@@ -35,12 +35,13 @@ const article = {
   imageConcept: 'Two adult friends train together in a neighborhood gym.',
   imageAlt: 'Two training partners prepare a barbell.',
   body: [['A section', longBody], ['Another section', longBody], ['A third section', longBody], ['A fourth section', longBody], ['A fifth section', longBody], ['A sixth section', longBody]],
-  sources: [1,2,3].map(index => ({title:`Source ${index}`, publication:'Journal', url:`https://example.com/${index}` })),
+  sources: [1,2,3].map(index => ({title:`Source ${index}`, authors:'Named Researcher', publication:'Journal', url:`https://example.com/${index}` })),
 };
 const count = validateArticle(article, article.sources, [], '2026-10-16');
 assert.ok(count >= 800);
 assert.equal(article.id, 'train-together-with-purpose-20261016');
 assert.equal(article.url, 'article.html?id=train-together-with-purpose-20261016');
+assert.throws(() => validateArticle({...article, sources:article.sources.map((source,index)=>index===0?{...source,authors:'Not specified in the research notes'}:source)}, article.sources, [], '2026-10-16'), /verified author or publishing-organization metadata/);
 assert.throws(() => validateArticle({...article, imageConcept:'A solitary athlete'}, article.sources, [], '2026-10-16'), /center companions/);
 assert.throws(() => validateArticle({...article, title:'Previously Used Story'}, article.sources, [{title:'Previously Used Story'}], '2026-10-16'), /Possible duplicate/);
 const living = {...article, category:'Living', title:'A Different Evening Practice', body:[...article.body.slice(0,-1), ['A practice for the walk home', longBody]]};
