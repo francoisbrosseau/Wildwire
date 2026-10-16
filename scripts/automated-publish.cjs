@@ -132,10 +132,11 @@ async function textCall(input, useSearch = false) {
   const response = await apiRequest({
     model: MODEL,
     input,
+    text: { format: { type: 'json_object' } },
     tools: useSearch ? [{ type: 'web_search' }] : [],
     tool_choice: useSearch ? 'required' : undefined,
     include: useSearch ? ['web_search_call.action.sources'] : undefined,
-    max_output_tokens: 6200,
+    max_output_tokens: 8000,
   }, useSearch ? 'Research / fact-check' : 'Article generation');
   const text = responseText(response);
   if (!text) fail('Responses API returned no text.');
