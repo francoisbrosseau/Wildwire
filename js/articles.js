@@ -119,7 +119,7 @@ window.WILDWIRE_ARTICLES = [
     "date": "2026-10-16",
     "read": 6,
     "author": "WILDWIRE Editorial",
-    "image": "images/edition-20261016-strength.webp?v=20261016-fixed",
+    "image": "images/edition-20261016-strength.webp",
     "imageAlt": "A focused woman sets up a deadlift while her male training partner watches attentively in a neighborhood gym.",
     "imageCredit": "AI-generated editorial image. The people and training scene are illustrative, not documentary.",
     "body": [
@@ -228,7 +228,7 @@ window.WILDWIRE_ARTICLES = [
     "date": "2026-10-16",
     "read": 5,
     "author": "WILDWIRE Editorial",
-    "image": "images/edition-20261016-living.webp?v=20261016-fixed",
+    "image": "images/edition-20261016-living.webp",
     "imageAlt": "A Middle Eastern woman and Black man share a thoughtful conversation at their kitchen table.",
     "imageCredit": "AI-generated editorial image. The people and home are illustrative, not documentary.",
     "body": [
@@ -322,6 +322,93 @@ window.WILDWIRE_ARTICLES = [
       }
     ],
     "url": "article.html?id=ambition-looks-better-shared"
+  },
+  {
+    "id": "ask-before-you-solve-it-20261016",
+    "category": "Living",
+    "title": "Ask Before You Solve It",
+    "subtitle": "A practical way for partners and close friends to meet a hard day with attention before advice.",
+    "date": "2026-10-16",
+    "editionDate": "2026-10-16",
+    "read": 5,
+    "author": "WILDWIRE Editorial",
+    "url": "article.html?id=ask-before-you-solve-it-20261016",
+    "dailyRead": true,
+    "image": "images/generated/ask-before-you-solve-it-20261016.webp",
+    "imageAlt": "A couple sits together at a kitchen table, listening carefully in late afternoon light.",
+    "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+    "imageConcept": "A couple having a thoughtful conversation across a modest kitchen table.",
+    "imagePrompt": "AI-generated WILDWIRE editorial image: a grounded couple listening to each other across a kitchen table, warm late-afternoon light, no text, landscape 3:2.",
+    "body": [
+      [
+        "The reflex to fix",
+        "Someone you love says, “I can’t keep up with all of this.” A capable person hears the pressure and reaches for a plan: cancel the thing, move the deadline, call someone, make a list. The intention is generous. But before the plan arrives, the other person may need to know that you understood what the day felt like from inside it.\n\nTry one question before you offer a solution: “Do you want me to listen, help you think it through, or take one thing off your hands?” It gives the person room to choose the kind of support that would actually help. If they say “I don’t know,” stay with the conversation instead of treating uncertainty as permission to take control."
+      ],
+      [
+        "Listen for the shape of the problem",
+        "Give the speaker a little uninterrupted space. You do not need to perform perfect empathy or repeat every sentence back. Listen for what is underneath the headline: exhaustion, embarrassment, fear of letting someone down, or the feeling that every decision has landed on one set of shoulders.\n\nThen check your understanding in plain language: “It sounds like the meeting itself is manageable; it’s the last-minute changes that are making the whole week feel unstable. Have I got that right?” The question matters. A summary that is wrong can be corrected; an assumption delivered as a diagnosis can make a person feel even less seen."
+      ],
+      [
+        "Offer help with edges",
+        "Once you understand, make support specific and bounded. “I can handle dinner tonight” is easier to accept than “Tell me anything you need,” which asks an already tired person to become the project manager of your help. A useful offer has an edge: one task, one time, one clear choice.\n\nTry: “Would it help if I picked up groceries, or would you rather I sit with you while you sort the schedule?” If neither fits, ask what would. The answer may be no. Respect it without making the refusal into a new emotional obligation. Care is still care when the form changes."
+      ],
+      [
+        "Keep the two lives in view",
+        "Supporting someone does not mean you must erase your own limits. If you are already stretched, say so honestly and offer what you can: “I can listen for ten minutes now, and I can take the school run tomorrow. I can’t solve the work issue for you.” Clear limits are kinder than a promise that turns into resentment.\n\nFor couples, a brief weekly check-in can give practical concerns a place to land before they become the only subject of every conversation. The Gottman Institute describes relationship check-ins as a way to make space for what is working, what needs attention, and the week ahead [1]. Treat that as a conversation structure, not a guarantee that a ritual will resolve every difficulty."
+      ],
+      [
+        "A small practice for tonight",
+        "The next time someone close to you brings a heavy thought, pause before the advice. Ask which kind of support they want. Let them finish. Reflect one thing you heard and ask if you understood. Offer one concrete action with a clear boundary. Then leave space for them to choose.\n\nIf the conversation becomes heated, either person can ask for a pause and name when they will return to it. A pause should be a real break, not a silent punishment or a way to avoid the issue indefinitely. If someone feels unsafe, intimidated, or controlled, a joint communication exercise is not the answer; seek trusted individual support. The goal here is simpler: meet the person in front of you before rushing to improve their situation."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "This Relationship Skill Is Essential: How to Have a Relationship Check-In",
+        "authors": "The Gottman Institute",
+        "publication": "The Gottman Institute, relationship education",
+        "url": "https://www.gottman.com/blog/this-relationship-skill-is-essential-how-to-have-a-relationship-check-in/"
+      }
+    ]
+  },
+  {
+    "id": "bean-greens-table-20261016",
+    "category": "Living",
+    "title": "The Bean-and-Greens Dinner That Makes Room at the Table",
+    "subtitle": "A flexible one-pan supper with crisp edges, bright greens, and enough structure for two people to cook side by side.",
+    "date": "2026-10-16",
+    "editionDate": "2026-10-16",
+    "read": 5,
+    "author": "WILDWIRE Editorial",
+    "url": "article.html?id=bean-greens-table-20261016",
+    "dailyRead": true,
+    "image": "images/generated/bean-greens-table-20261016.webp",
+    "imageAlt": "Two friends prepare a bean and tomato skillet together in a warm home kitchen.",
+    "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+    "imageConcept": "Two women friends prepare a simple bean and greens skillet in a lived-in kitchen.",
+    "imagePrompt": "AI-generated WILDWIRE editorial image: two women friends cooking beans, greens and tomato in a small home kitchen, warm natural light, landscape 3:2.",
+    "body": [
+      [
+        "Dinner with a little structure",
+        "This is a practical skillet for the evening when you want something substantial but do not want to negotiate a complicated menu. One person can chop and season while another gets the pan ready. The dish is forgiving: use kale, chard, spinach, or whatever sturdy greens are in reach; add bread, rice, or potatoes if you want more around it.\n\nThe aim is not to rescue a difficult day with a perfect meal. It is simply to make something good enough to share, with a few clear jobs and ingredients that can flex."
+      ],
+      [
+        "What you need",
+        "Serves 3–4.\n\n- 2 tablespoons olive oil\n- 1 medium yellow onion, thinly sliced\n- 3 garlic cloves, finely chopped\n- 1 teaspoon smoked paprika\n- ½ teaspoon ground cumin\n- 2 tablespoons tomato paste\n- 1 can (28 ounces / 796 mL) crushed tomatoes\n- 2 cans (15 ounces / 425 g each) white beans, drained and rinsed\n- 4 packed cups chopped kale or chard, or 5 cups baby spinach\n- ½ teaspoon fine salt, plus more to taste\n- Black pepper and lemon wedges\n- Optional: 4 eggs, crusty bread, chopped parsley, or chili flakes"
+      ],
+      [
+        "Cook it in order",
+        "1. **Set up together.** Rinse the beans. Slice the onion and chop the garlic. If using kale or chard, remove thick stems and cut the leaves into bite-size ribbons. Put the lemon and any extras on the table before the pan gets busy.\n2. **Build the base.** Warm the oil in a large skillet or shallow pot over medium heat. Add the onion and salt. Cook for 6–8 minutes, stirring now and then, until soft and lightly golden at the edges.\n3. **Wake up the spices.** Add garlic, smoked paprika, cumin, and tomato paste. Stir for about 60 seconds, scraping the pan so the paste darkens slightly but does not scorch.\n4. **Simmer the beans.** Pour in the crushed tomatoes and add the beans. Bring to a gentle simmer, then lower the heat and cook uncovered for 12–15 minutes. Stir occasionally. If the sauce thickens too much, add a splash of water.\n5. **Add the greens.** Fold in kale or chard and cook 4–6 minutes until tender. For spinach, stir it in at the end; it wilts in about 1–2 minutes. Taste and adjust salt, pepper, and lemon."
+      ],
+      [
+        "Choose a finish",
+        "For eggs, make four shallow wells in the simmering beans, crack one egg into each, cover the pan, and cook over low heat until the whites set and the yolks are as firm as you like. Check after 5 minutes, then continue in short intervals. If your pan cannot be covered, fry or poach the eggs separately and set them on top.\n\nFor a fully plant-based finish, scatter parsley and chili flakes over the skillet and squeeze lemon across the greens. Toast thick slices of bread, or serve the beans over rice. A spoonful of yogurt or crumbled feta is another option. Keep toppings separate so everyone at the table can make their own bowl."
+      ],
+      [
+        "Bring the pan to the table",
+        "Turn off the heat and let the skillet rest for 3 minutes. Put it in the center of the table with a serving spoon, bread, lemon wedges, and whatever toppings you chose. One person can portion; another can refill water or bring plates. No one needs to stage the meal or force a conversation.\n\nLeftovers keep in a covered container in the refrigerator for up to three days. Reheat gently in a small pan with a splash of water, stirring until hot throughout. If the greens darken or the sauce thickens overnight, that is normal; finish with fresh lemon. This recipe is meant to be repeated with what you have, adjusted by the people eating it, and put back into service on another ordinary evening."
+      ]
+    ],
+    "sources": []
   },
   {
     "id": "city-beyond-blue-dot",
@@ -530,6 +617,53 @@ window.WILDWIRE_ARTICLES = [
       }
     ],
     "url": "article.html?id=give-an-album-an-evening"
+  },
+  {
+    "id": "one-story-two-readings-20261016",
+    "category": "Culture",
+    "title": "One Story, Two Readings",
+    "subtitle": "A short shared reading ritual can make room for different interpretations, better questions, and an evening that feels lived rather than scrolled.",
+    "date": "2026-10-16",
+    "editionDate": "2026-10-16",
+    "read": 5,
+    "author": "WILDWIRE Editorial",
+    "url": "article.html?id=one-story-two-readings-20261016",
+    "dailyRead": true,
+    "image": "images/generated/one-story-two-readings-20261016.webp",
+    "imageAlt": "Two friends compare paperbacks in a neighborhood bookshop.",
+    "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+    "imageConcept": "Two adult friends in a neighborhood bookshop comparing books and talking about what caught their attention.",
+    "imagePrompt": "AI-generated WILDWIRE editorial image: two adult friends discuss paperbacks in a neighborhood bookshop, focused and curious, landscape 3:2, no legible text.",
+    "body": [
+      [
+        "Choose something you can finish",
+        "A shared reading habit does not need a grand syllabus or a matching stack of novels. Pick one short story, a long magazine feature, a few pages of a book, or a poem. The useful constraint is small enough that both people can arrive having actually read it. If one of you is in a busy season, agree on a page count before choosing the text.\n\nTake turns choosing. The person who picks can say why it caught their attention, but should not sell the other person on the “right” interpretation. A story works well as common ground precisely because each reader brings a different history to it."
+      ],
+      [
+        "Make the conversation about the reading",
+        "The American Library Association describes book discussion groups as spaces for readers to talk about books and the reading experience [1]. That is a useful distinction: the conversation does not have to become a test of literary knowledge. It can begin with the moment that stayed with you, the character you distrusted, or the line you could not stop thinking about.\n\nTry opening with three questions: What did you notice first? What changed for you as you read? What are you still unsure about? Each person answers without interruption. Then ask one follow-up question before adding your own interpretation. This leaves room for surprise instead of turning the exchange into a debate to win."
+      ],
+      [
+        "Let disagreement do its work",
+        "Two people may come away with opposite reactions. One reader may see a character’s silence as self-protection; the other may see it as a refusal to take responsibility. The interesting move is not to settle the disagreement too quickly. Ask which detail led each of you there.\n\nA concrete detail keeps the discussion generous: a sentence, a choice, an image, a change in tone. “I think you missed the point” closes the door. “I read that scene differently because of what she does just before it” opens one. You can disagree and still leave with a clearer sense of how the other person notices the world."
+      ],
+      [
+        "A simple forty-minute format",
+        "1. **Settle in (5 minutes).** Put the phones away and name one thing you are bringing into the room from the day.\n2. **Choose the passage (5 minutes).** Each person picks one moment worth returning to; read it aloud if you like.\n3. **Take turns (10 minutes).** Share what stayed with you without interruption.\n4. **Get curious (15 minutes).** Ask what the other noticed, what changed, and what remains unresolved.\n5. **Close (5 minutes).** Decide whether you want another reading next week, and let the answer be no if the ritual has started to feel like homework."
+      ],
+      [
+        "Leave room for a life beyond the page",
+        "The point is not to turn every evening into a book club or every relationship into a self-improvement project. Some weeks the text will be forgettable. Some weeks you will be tired and talk about something else. That is part of having a real practice rather than a performance.\n\nKeep a note of what you read and the question each of you carried away. After a month, look back together: Which conversation surprised you? Which text made you curious about a place, a time, or a perspective outside your routine? If a book or story touches something personal, you can decide how far to follow it. A shared reading habit offers a doorway; it does not require either person to walk through every room."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Giving Readers a Voice: Book Discussion Groups",
+        "authors": "American Library Association",
+        "publication": "Book Links, American Library Association",
+        "url": "https://www.ala.org/aboutala/offices/publishing/booklist/booklinks/resources/bookdiscussion"
+      }
+    ]
   },
   {
     "id": "read-something-that-changes-the-conversation-20261016",
