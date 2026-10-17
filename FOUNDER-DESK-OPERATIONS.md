@@ -2,18 +2,25 @@
 
 ## Current gate
 
-Implementation and a public **sample for review** are authorized. Recurring
-publication is OFF. `config/founders-desk.json` must remain `enabled: false`,
-`approvalStatus: awaiting-founder-review`, `approvedAt: null` until the founder
-explicitly approves both the presentation and sample. Do not infer approval
-from earlier praise for the magazine. This feature does not change the six
-pillars, three Daily Reads, fifteen daily images, or their publishing schedule.
+The founder explicitly approved the presentation and sample on October 17, 2026
+at 11:47:16 a.m. America/Toronto (15:47:16 UTC). Recurring publication is enabled:
+config/founders-desk.json records enabled true, approvalStatus approved and that
+approval timestamp. This does not change the six pillars, three Daily Reads,
+fifteen magazine images or existing publishing schedule.
 
-After approval, record the real approval time, set approvalStatus to approved and
-enabled to true through a reviewed change. Before activation, confirm the real
-API preview and site checks passed. After activation, observe an actual dated
-note generation, commit, Pages deployment and LIVE_NOTE_VERIFIED result. A
-workflow file or mocked test alone is not proof of unattended publishing.
+The owner-only real API preview passed on run 39046073527: one repetitive
+candidate was rejected and its replacement passed, with four text requests and
+a 187-word accepted note. No public content changed during that preview.
+https://github.com/francoisbrosseau/Wildwire/actions/runs/39046073527
+The sample and archive deployed successfully and returned LIVE_NOTE_VERIFIED on
+October 17 at 15:43:06 UTC. Existing magazine, account, comment and editorial
+tests plus notes integration and failure/recovery tests passed.
+
+The first new unattended note is targeted for October 18. The October 17 sample
+is already published; activation must not overwrite it or produce a second note
+for the same date. A local enabled-gate run confirmed ALREADY_PUBLISHED with zero
+API requests. A future unattended generation/commit/deployment is not yet
+observed; verify its actual outcome rather than treating activation as proof.
 
 Disable independently by setting enabled false. An emergency repository variable
 `WILDWIRE_FOUNDERS_PAUSED=yes` also prevents API calls and commits. Disabling the
