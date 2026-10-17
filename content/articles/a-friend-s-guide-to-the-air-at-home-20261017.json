@@ -1,0 +1,80 @@
+{
+  "category": "Living",
+  "title": "A Friend’s Guide to the Air at Home",
+  "subtitle": "Daily Read: A low-pressure walk-through of everyday sources, exhaust fans and filters can make indoor air easier to understand—and easier to improve.",
+  "imageAlt": "Two friends compare notes beside an open kitchen window, with a range hood and a home air filter visible nearby.",
+  "imageConcept": "Two friends in a lived-in apartment kitchen, calmly checking the range hood and a portable air cleaner together; natural daylight, everyday objects, no warning symbols or medical imagery.",
+  "body": [
+    [
+      "Start with what you can notice",
+      "Indoor air is easy to overlook because it is invisible, and “good air” can sound like a problem that requires expensive equipment. A more useful first step is simply to notice what enters the air at home and what helps move it out. Smoke, radon, mold, particulate matter and volatile organic compounds (VOCs) are among the pollutants the Environmental Protection Agency identifies as common indoor concerns. They have different sources and need different responses, so there is no single device or habit that solves every air-quality issue. [1]\n\nA friend can make this check-in feel less like an inspection. Walk through one another’s homes and look for ordinary clues: where cooking happens, which products have strong fumes, whether a bathroom stays damp, and where the heating or cooling system’s filter goes. The aim is not to diagnose a home by sight or smell. It is to learn the layout and identify manageable questions. That knowledge makes it easier to choose a sensible next step instead of buying something on impulse."
+    ],
+    [
+      "Follow the source before shopping",
+      "The most useful sequence is to reduce or remove a pollutant source first, improve ventilation when conditions allow, and then consider filtration as a supplement. That order matters: an air cleaner may reduce some airborne particles, but it cannot prevent a source from producing them, and it does not address every pollutant. The EPA presents source control, ventilation and filtration as complementary strategies—not interchangeable fixes. [1][3]\n\nMake a short source list together. Note whether anyone smokes indoors, whether cooking produces visible smoke, and whether paints, sprays, cleaning products or other materials are being used in a small, poorly ventilated room. Check for signs of persistent moisture, such as recurring condensation or a musty area, and deal with the moisture problem rather than trying to cover its smell. Store products according to their labels and use them as directed. If a concern involves a building system, possible contamination or a persistent problem you cannot identify, ask a qualified professional or the relevant local authority what assessment is appropriate."
+    ],
+    [
+      "Find out where the fans actually send air",
+      "A switch marked “fan” does not tell you whether the air goes outside. If available, the EPA advises using kitchen and bathroom fans that exhaust outdoors. On your walk-through, locate each fan, check its controls, and see whether a label or manual explains its function. If it is not clear where the air goes, do not assume: ask a landlord, building manager or qualified professional. Avoid opening ducts or changing mechanical equipment yourself.\n\nTry the controls during ordinary use. Turn on the kitchen exhaust when cooking and the bathroom fan during bathing, then follow the manufacturer’s instructions for operation. A fan can be present but unfamiliar, noisy or rarely used; making its purpose clear is a practical improvement in itself. Ventilation also matters beyond smells: the EPA says increasing fresh air indoors helps reduce pollutants, and kitchen and bathroom fans that exhaust outdoors can increase ventilation. [2]"
+    ],
+    [
+      "Choose ventilation with the day in mind",
+      "Opening a window can bring in outdoor air, but it is not automatically the right choice at every moment. Consider outdoor conditions: smoke, poor air quality, extreme temperatures or other local advisories may make opening windows unhelpful. When outdoor air is suitable, brief ventilation can complement exhaust fans and other source-control steps. When it is not, rely on the home’s appropriate mechanical ventilation and follow local guidance rather than treating an open window as a rule.\n\nMoisture and heat belong in the same conversation. The EPA notes that indoor humidity can affect concentrations of some pollutants and that high humidity increases the likelihood of mold. Its indoor-air guide gives a general indoor relative-humidity range of 30–50%. [2] A simple humidity reading can help you understand whether a room is often damp, but it is not a full assessment of air quality. If humidity is persistently outside a comfortable range or moisture keeps returning, look for the underlying cause and seek qualified help when needed. The goal is a healthier pattern, not perfect numbers in every room."
+    ],
+    [
+      "Give filters the job they can do",
+      "A portable air cleaner is designed for a room or area; a central HVAC filter works through the home’s heating or cooling system. Both can reduce indoor pollution, but neither removes all pollutants, and filtration works best alongside source control and ventilation. [3] If you already have a cleaner or central system, begin with its instructions rather than assuming that every filter fits or that a higher setting is always appropriate.\n\nFind the model information and check what the manufacturer says about filter type, replacement or cleaning schedule, and installation direction. Follow the package and equipment directions. A neglected or incorrectly installed filter cannot be counted on to perform as intended. If the system makes unusual noises, airflow changes, or the correct filter is unclear, ask the manufacturer, building manager or a qualified HVAC professional. For a portable unit, consider where it will serve people most—such as a frequently used room—and keep its air intake and outlet unobstructed. Treat a purchase as a targeted choice, not a substitute for fixing a source."
+    ],
+    [
+      "Make the check-in useful for renters and owners",
+      "People have different levels of control over their homes. A renter may be able to use an exhaust fan, store products carefully and report recurring moisture, but may not be authorized to alter ventilation or replace building equipment. An owner may have more choices, yet still need a qualified professional to evaluate a system. A practical checklist should distinguish what you can do today from what needs permission or expertise.\n\nWrite down the room, the observation and the question: “Bathroom stays damp after showers—does this fan exhaust outdoors?” is more useful than “The air feels bad.” Share that note with a landlord, building manager or professional, and keep a record of any response. Avoid turning a casual walk-through into a health diagnosis: symptoms can have many causes, and a friend cannot identify an invisible pollutant by looking around. If there is an immediate hazard or a serious health concern, use the appropriate emergency or medical service. Otherwise, clear observations help make the next conversation more specific."
+    ],
+    [
+      "Take the air route once, then keep the note",
+      "On your next visit with a friend, take ten minutes to trace one route through the home: name one everyday source, locate the nearest exhaust fan, and find the filter instructions for the relevant system. Jot down what you learned and one question that remains. If outdoor conditions are suitable, notice which window or door could help ventilate the space; if they are not, leave it closed and make a note of why. Do not dismantle equipment or promise that a purifier will fix a problem. The useful outcome is a clearer map of the home and a small, realistic next step—perhaps using the fan during cooking, replacing a filter according to its instructions, or asking the building manager what a switch controls."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Indoor Air Quality | US EPA",
+      "authors": "U.S. Environmental Protection Agency",
+      "publication": "U.S. Environmental Protection Agency, last updated May 1, 2026",
+      "url": "https://www.epa.gov/air-quality/indoor-air-quality",
+      "researchSourceId": "S22"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Care for Your Air: A Guide to Indoor Air Quality | US EPA",
+      "authors": "U.S. Environmental Protection Agency",
+      "publication": "U.S. Environmental Protection Agency, last updated August 17, 2026",
+      "url": "https://www.epa.gov/indoor-air-quality-iaq/care-your-air-guide-indoor-air-quality?trk=article-ssr-frontend-pulse_little-text-block",
+      "researchSourceId": "S26"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Air Cleaners and Air Filters in the Home | US EPA",
+      "authors": "U.S. Environmental Protection Agency",
+      "publication": "U.S. Environmental Protection Agency, last updated August 3, 2026",
+      "url": "https://www.epa.gov/indoor-air-quality-iaq/air-cleaners-and-air-filters-home",
+      "researchSourceId": "S20"
+    }
+  ],
+  "id": "a-friend-s-guide-to-the-air-at-home-20261017",
+  "date": "2026-10-17",
+  "editionDate": "2026-10-17",
+  "url": "article.html?id=a-friend-s-guide-to-the-air-at-home-20261017",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/a-friend-s-guide-to-the-air-at-home-20261017.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Friend’s Guide to the Air at Home. Daily Read: A low-pressure walk-through of everyday sources, exhaust fans and filters can make indoor air easier to understand—and easier to improve.\nPeople: two women friends with distinct personal style. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: Two friends in a lived-in apartment kitchen, calmly checking the range hood and a portable air cleaner together; natural daylight, everyday objects, no warning symbols or medical imagery.\nAvoid repeating these recent WILDWIRE image scenes: A woman and man sharing a thoughtful conversation across a candlelit dinner table | A couple sits together at a kitchen table, listening carefully in late afternoon light. | Two friends prepare a bean and tomato skillet together in a warm home kitchen. | A woman and man look across the lights of an old Mediterranean city toward the sea | Two partners share coffee in a sunlit kitchen | First light spreading over a quiet landscape at sunrise | Two people sit absorbed in a burgundy repertory cinema, surrounded by warm aisle lights | Two partners review household paperwork with a notebook and calculator at home. | Two friends compare paperbacks in a neighborhood bookshop. | Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Two travelers study a map together at a coastal rail station above a harbor. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | A woman and a man training in a bright community gym, each focused on a controlled dumbbell set while the other waits nearby. | Two friends compare the care labels inside a jacket and knit top beside a laundry basket. | Two women sit side by side on a blanket in a dark, open field, looking up at a wide night sky. | A couple sits with an older relative at a kitchen table, sharing a family story over tea. | Two friends sit at a kitchen table comparing separate hand-drawn home floor plans, with a clear doorway and window visible behind them. | Two friends at a kitchen table compare a handwritten trip budget with a map and separate savings notes. | Two friends on dry sand looking toward the surf while one points to a beach safety sign near a lifeguard stand.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

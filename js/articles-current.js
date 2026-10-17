@@ -1,5 +1,85 @@
 window.WILDWIRE_ARTICLES = [
   {
+    "category": "Living",
+    "title": "A Friend’s Guide to the Air at Home",
+    "subtitle": "Daily Read: A low-pressure walk-through of everyday sources, exhaust fans and filters can make indoor air easier to understand—and easier to improve.",
+    "imageAlt": "Two friends compare notes beside an open kitchen window, with a range hood and a home air filter visible nearby.",
+    "imageConcept": "Two friends in a lived-in apartment kitchen, calmly checking the range hood and a portable air cleaner together; natural daylight, everyday objects, no warning symbols or medical imagery.",
+    "body": [
+      [
+        "Start with what you can notice",
+        "Indoor air is easy to overlook because it is invisible, and “good air” can sound like a problem that requires expensive equipment. A more useful first step is simply to notice what enters the air at home and what helps move it out. Smoke, radon, mold, particulate matter and volatile organic compounds (VOCs) are among the pollutants the Environmental Protection Agency identifies as common indoor concerns. They have different sources and need different responses, so there is no single device or habit that solves every air-quality issue. [1]\n\nA friend can make this check-in feel less like an inspection. Walk through one another’s homes and look for ordinary clues: where cooking happens, which products have strong fumes, whether a bathroom stays damp, and where the heating or cooling system’s filter goes. The aim is not to diagnose a home by sight or smell. It is to learn the layout and identify manageable questions. That knowledge makes it easier to choose a sensible next step instead of buying something on impulse."
+      ],
+      [
+        "Follow the source before shopping",
+        "The most useful sequence is to reduce or remove a pollutant source first, improve ventilation when conditions allow, and then consider filtration as a supplement. That order matters: an air cleaner may reduce some airborne particles, but it cannot prevent a source from producing them, and it does not address every pollutant. The EPA presents source control, ventilation and filtration as complementary strategies—not interchangeable fixes. [1][3]\n\nMake a short source list together. Note whether anyone smokes indoors, whether cooking produces visible smoke, and whether paints, sprays, cleaning products or other materials are being used in a small, poorly ventilated room. Check for signs of persistent moisture, such as recurring condensation or a musty area, and deal with the moisture problem rather than trying to cover its smell. Store products according to their labels and use them as directed. If a concern involves a building system, possible contamination or a persistent problem you cannot identify, ask a qualified professional or the relevant local authority what assessment is appropriate."
+      ],
+      [
+        "Find out where the fans actually send air",
+        "A switch marked “fan” does not tell you whether the air goes outside. If available, the EPA advises using kitchen and bathroom fans that exhaust outdoors. On your walk-through, locate each fan, check its controls, and see whether a label or manual explains its function. If it is not clear where the air goes, do not assume: ask a landlord, building manager or qualified professional. Avoid opening ducts or changing mechanical equipment yourself.\n\nTry the controls during ordinary use. Turn on the kitchen exhaust when cooking and the bathroom fan during bathing, then follow the manufacturer’s instructions for operation. A fan can be present but unfamiliar, noisy or rarely used; making its purpose clear is a practical improvement in itself. Ventilation also matters beyond smells: the EPA says increasing fresh air indoors helps reduce pollutants, and kitchen and bathroom fans that exhaust outdoors can increase ventilation. [2]"
+      ],
+      [
+        "Choose ventilation with the day in mind",
+        "Opening a window can bring in outdoor air, but it is not automatically the right choice at every moment. Consider outdoor conditions: smoke, poor air quality, extreme temperatures or other local advisories may make opening windows unhelpful. When outdoor air is suitable, brief ventilation can complement exhaust fans and other source-control steps. When it is not, rely on the home’s appropriate mechanical ventilation and follow local guidance rather than treating an open window as a rule.\n\nMoisture and heat belong in the same conversation. The EPA notes that indoor humidity can affect concentrations of some pollutants and that high humidity increases the likelihood of mold. Its indoor-air guide gives a general indoor relative-humidity range of 30–50%. [2] A simple humidity reading can help you understand whether a room is often damp, but it is not a full assessment of air quality. If humidity is persistently outside a comfortable range or moisture keeps returning, look for the underlying cause and seek qualified help when needed. The goal is a healthier pattern, not perfect numbers in every room."
+      ],
+      [
+        "Give filters the job they can do",
+        "A portable air cleaner is designed for a room or area; a central HVAC filter works through the home’s heating or cooling system. Both can reduce indoor pollution, but neither removes all pollutants, and filtration works best alongside source control and ventilation. [3] If you already have a cleaner or central system, begin with its instructions rather than assuming that every filter fits or that a higher setting is always appropriate.\n\nFind the model information and check what the manufacturer says about filter type, replacement or cleaning schedule, and installation direction. Follow the package and equipment directions. A neglected or incorrectly installed filter cannot be counted on to perform as intended. If the system makes unusual noises, airflow changes, or the correct filter is unclear, ask the manufacturer, building manager or a qualified HVAC professional. For a portable unit, consider where it will serve people most—such as a frequently used room—and keep its air intake and outlet unobstructed. Treat a purchase as a targeted choice, not a substitute for fixing a source."
+      ],
+      [
+        "Make the check-in useful for renters and owners",
+        "People have different levels of control over their homes. A renter may be able to use an exhaust fan, store products carefully and report recurring moisture, but may not be authorized to alter ventilation or replace building equipment. An owner may have more choices, yet still need a qualified professional to evaluate a system. A practical checklist should distinguish what you can do today from what needs permission or expertise.\n\nWrite down the room, the observation and the question: “Bathroom stays damp after showers—does this fan exhaust outdoors?” is more useful than “The air feels bad.” Share that note with a landlord, building manager or professional, and keep a record of any response. Avoid turning a casual walk-through into a health diagnosis: symptoms can have many causes, and a friend cannot identify an invisible pollutant by looking around. If there is an immediate hazard or a serious health concern, use the appropriate emergency or medical service. Otherwise, clear observations help make the next conversation more specific."
+      ],
+      [
+        "Take the air route once, then keep the note",
+        "On your next visit with a friend, take ten minutes to trace one route through the home: name one everyday source, locate the nearest exhaust fan, and find the filter instructions for the relevant system. Jot down what you learned and one question that remains. If outdoor conditions are suitable, notice which window or door could help ventilate the space; if they are not, leave it closed and make a note of why. Do not dismantle equipment or promise that a purifier will fix a problem. The useful outcome is a clearer map of the home and a small, realistic next step—perhaps using the fan during cooking, replacing a filter according to its instructions, or asking the building manager what a switch controls."
+      ]
+    ],
+    "sources": [
+      {
+        "sourceId": "S1",
+        "title": "Indoor Air Quality | US EPA",
+        "authors": "U.S. Environmental Protection Agency",
+        "publication": "U.S. Environmental Protection Agency, last updated May 1, 2026",
+        "url": "https://www.epa.gov/air-quality/indoor-air-quality",
+        "researchSourceId": "S22"
+      },
+      {
+        "sourceId": "S2",
+        "title": "Care for Your Air: A Guide to Indoor Air Quality | US EPA",
+        "authors": "U.S. Environmental Protection Agency",
+        "publication": "U.S. Environmental Protection Agency, last updated August 17, 2026",
+        "url": "https://www.epa.gov/indoor-air-quality-iaq/care-your-air-guide-indoor-air-quality?trk=article-ssr-frontend-pulse_little-text-block",
+        "researchSourceId": "S26"
+      },
+      {
+        "sourceId": "S3",
+        "title": "Air Cleaners and Air Filters in the Home | US EPA",
+        "authors": "U.S. Environmental Protection Agency",
+        "publication": "U.S. Environmental Protection Agency, last updated August 3, 2026",
+        "url": "https://www.epa.gov/indoor-air-quality-iaq/air-cleaners-and-air-filters-home",
+        "researchSourceId": "S20"
+      }
+    ],
+    "id": "a-friend-s-guide-to-the-air-at-home-20261017",
+    "date": "2026-10-17",
+    "editionDate": "2026-10-17",
+    "url": "article.html?id=a-friend-s-guide-to-the-air-at-home-20261017",
+    "read": 6,
+    "author": "WILDWIRE Editorial",
+    "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+    "dailyRead": true,
+    "image": "images/generated/a-friend-s-guide-to-the-air-at-home-20261017.webp",
+    "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Friend’s Guide to the Air at Home. Daily Read: A low-pressure walk-through of everyday sources, exhaust fans and filters can make indoor air easier to understand—and easier to improve.\nPeople: two women friends with distinct personal style. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: Two friends in a lived-in apartment kitchen, calmly checking the range hood and a portable air cleaner together; natural daylight, everyday objects, no warning symbols or medical imagery.\nAvoid repeating these recent WILDWIRE image scenes: A woman and man sharing a thoughtful conversation across a candlelit dinner table | A couple sits together at a kitchen table, listening carefully in late afternoon light. | Two friends prepare a bean and tomato skillet together in a warm home kitchen. | A woman and man look across the lights of an old Mediterranean city toward the sea | Two partners share coffee in a sunlit kitchen | First light spreading over a quiet landscape at sunrise | Two people sit absorbed in a burgundy repertory cinema, surrounded by warm aisle lights | Two partners review household paperwork with a notebook and calculator at home. | Two friends compare paperbacks in a neighborhood bookshop. | Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Two travelers study a map together at a coastal rail station above a harbor. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | A woman and a man training in a bright community gym, each focused on a controlled dumbbell set while the other waits nearby. | Two friends compare the care labels inside a jacket and knit top beside a laundry basket. | Two women sit side by side on a blanket in a dark, open field, looking up at a wide night sky. | A couple sits with an older relative at a kitchen table, sharing a family story over tea. | Two friends sit at a kitchen table comparing separate hand-drawn home floor plans, with a clear doorway and window visible behind them. | Two friends at a kitchen table compare a handwritten trip budget with a map and separate savings notes. | Two friends on dry sand looking toward the surf while one points to a beach safety sign near a lifeguard stand.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+    "imageGenerator": "gpt-image-2.5-flare",
+    "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+    "imageVisualCheck": {
+      "passed": true,
+      "peopleCount": 2,
+      "issues": []
+    }
+  },
+  {
     "id": "a-meal-doesnt-have-to-fix-the-day",
     "category": "Living",
     "title": "A Meal Doesn’t Have to Fix the Day",
@@ -166,6 +246,86 @@ window.WILDWIRE_ARTICLES = [
     ],
     "url": "article.html?id=a-strong-session-together-20261016",
     "editionDate": "2026-10-16"
+  },
+  {
+    "category": "Culture",
+    "title": "A Tradition Isn’t a Time Capsule",
+    "subtitle": "Family customs survive not by staying untouched, but by being remembered, questioned and carried forward with care.",
+    "imageAlt": "A couple sits with an older relative at a kitchen table, sharing a family story over tea.",
+    "imageConcept": "A warm, candid kitchen-table scene: a couple listening to an older family member, with tea, a handwritten recipe, or another meaningful household object between them.",
+    "body": [
+      [
+        "What gets passed on",
+        "A family tradition can be a holiday meal, a song sung on a long drive, a greeting used at the door, or the way everyone makes room for one more guest. It may feel ordinary precisely because it has been repeated for years. Then someone asks where it came from, and the familiar custom opens into a story: who began it, what was happening at the time, and how it came to belong to the family.\n\nThat question matters because traditions are not sealed containers of the past. They travel through people, and people adapt. A dish changes when an ingredient is hard to find; a celebration shifts when relatives move apart; a song takes on new meaning in a different generation. The custom can remain recognizable even as its details change. Seeing that movement does not diminish a tradition. It helps show what the family has chosen to carry."
+      ],
+      [
+        "Memory is part of the tradition",
+        "A repeated practice and the story told about it are related, but they are not identical. One person may remember a holiday as joyful; another may recall the work, absence, or tension around it. Someone may know the words to a song but not its origin. Those differences do not automatically mean that one account is false. They can reveal how a tradition was experienced from different places within a family.\n\nOral history begins with people describing events they experienced, and family conversations can make room for those accounts without turning them into a test of perfect recall. The Library of Congress recommends asking older relatives for permission to record, then asking questions about their lives [1]. These prompts invite more than a date or a recipe: they ask what a custom meant to the person living it. Listening for feeling and context can be as useful as collecting a sequence of facts."
+      ],
+      [
+        "Ask about the changes, too",
+        "When someone describes a tradition, it is natural to ask how it began. But the history often becomes more revealing when the conversation moves forward: Who kept it going? When did it change? Was there a point when the family stopped doing it, or did it become something different? StoryCorps recommends asking how family traditions began and shaping questions around the particular family or community involved [2]. Specific questions tend to open more useful doors than a broad request to tell the whole story.\n\nTry asking, “What do you remember about the first time we did this?” or “What has changed since you were young?” A follow-up might be, “Which part matters most to you now?” Avoid treating one relative as the official spokesperson for everyone. Invite their account, and if appropriate, ask who else might remember it differently. The goal is not to settle a family history dispute in one sitting. It is to understand what the person knows, values and remembers."
+      ],
+      [
+        "Make it a conversation, not an interview exam",
+        "A little preparation can make a conversation easier without making it stiff. Choose one custom rather than trying to document an entire family history at once. Bring along an object, photo, recipe or song if it naturally belongs in the discussion; it can give both people something concrete to respond to. Write down a few open questions, but let the conversation wander when it reaches something meaningful. A pause is not a failure, and a person can decline any question.\n\nThe Smithsonian’s interviewing guide treats family and community members as important sources of history, culture and tradition, and offers guidance for interviewing and preserving what is learned [3]. One practical way to apply that spirit is to ask permission before shifting into recording or note-taking, and to explain what you hope to do with the material. You can say that the conversation is just for the two of you, or ask whether the person would be comfortable with a recording. Their answer should shape what happens next."
+      ],
+      [
+        "Let the narrator set the boundaries",
+        "Recording can preserve a voice, a rhythm of speech or the way a story is told, but it is not automatically better than listening without a device. If you want to record, ask first and make the choice clear: the person can agree to the conversation but not the recording, or agree to a recording that stays private. The Library of Congress advises asking an older relative before recording and notes that a smartphone or digital recorder can be used [1]. A simple setup is enough; clear sound and informed consent matter more than equipment.\n\nAgree on what happens afterward. Will you keep the file, share it with relatives, or make it public? If the person changes their mind about sharing, take that seriously. The Smithsonian guide advises interviewers to obtain permission, explain how recordings or notes may be used, and respect requests about their use [3]. That principle is useful even for a family conversation: a story is not yours to distribute simply because you helped capture it. Give the narrator a chance to correct a name, clarify a detail or decide that a particular passage should remain private."
+      ],
+      [
+        "Keep a record people can actually use",
+        "If the conversation is recorded, make a second copy and label the file with the speaker’s name, the date and a short description of the subject. Add a brief note about the setting or objects discussed while the details are still fresh. A transcript can help relatives find a specific recipe or story later, but it does not need to be polished into a formal document before it is useful. The Library of Congress suggests transcribing and sharing family stories; the narrator’s preferences should guide whether and how you do either [1].\n\nThink beyond the file itself. A recording on one phone may be difficult for anyone else to find, and devices can be lost or replaced. Store a copy somewhere secure, tell a trusted relative where it is, and include any limits on sharing alongside it. The Smithsonian guide recommends clearly labeling digital files, making notes while details are fresh, and organizing files so they remain accessible [3]. Even a short note—“private; share only with permission”—can prevent a meaningful story from being circulated in a way the speaker never intended."
+      ],
+      [
+        "Passing it on is a choice",
+        "A conversation about tradition does not have to end with a verdict about what the next generation must keep. Ask what the person hopes will continue, and what they would be comfortable seeing changed. Their answer may be a specific detail—the words of a blessing, the way a dish is served—or something less fixed, such as the welcome the custom created. A younger relative may value the gathering but need to adapt its timing, location or form. That adaptation can be part of the tradition’s history rather than evidence that it has been abandoned.\n\nThere is also room to decide that some customs should not be carried forward. A tradition can hold affection and difficult memories at the same time. Listening carefully does not require repeating everything unchanged, and remembering a practice does not obligate every family member to participate. What matters is making choices with enough context to understand what people are keeping, changing or setting down."
+      ],
+      [
+        "Start with one custom",
+        "Choose a tradition that someone in your family still remembers clearly. Ask when they first encountered it, who took part, and what has changed over time. Then ask what they would like a younger relative to understand about it. Listen without rushing to correct details or turn the answer into a family lesson. If a recording feels right, ask permission before you begin and agree on whether it will remain private or be shared. If the person would rather not record, give the conversation your full attention and write down what you remember afterward.\n\nThe useful result may be a story, a new question, or a clearer sense of why the custom matters to someone else. You do not need to resolve every disagreement or produce an archive in one afternoon. Begin with the person’s account, keep the boundaries they set, and leave space for the tradition to keep changing."
+      ]
+    ],
+    "sources": [
+      {
+        "sourceId": "S10",
+        "title": "Oral Histories - Family History for Kids - Research Guides at Library of Congress",
+        "authors": "Library of Congress",
+        "publication": "Research Guides at Library of Congress, last updated July 30, 2026",
+        "url": "https://guides.loc.gov/family-history-for-kids/interviews"
+      },
+      {
+        "sourceId": "S50",
+        "title": "Great Conversations Start with Great Questions",
+        "authors": "StoryCorps",
+        "publication": "StoryCorps, November 14, 2018",
+        "url": "https://storycorps.org/great-conversations-start-with-great-questions/"
+      },
+      {
+        "sourceId": "S2",
+        "title": "The Smithsonian Folklife and Oral History Interviewing Guide | Smithsonian Center for Folklife and Cultural Heritage",
+        "authors": "Smithsonian Center for Folklife and Cultural Heritage",
+        "publication": "Smithsonian Center for Folklife and Cultural Heritage, 2016",
+        "url": "https://folklife.si.edu/the-smithsonian-folklife-and-oral-history-interviewing-guide/smithsonian"
+      }
+    ],
+    "id": "a-tradition-isn-t-a-time-capsule-20261017",
+    "date": "2026-10-17",
+    "editionDate": "2026-10-17",
+    "url": "article.html?id=a-tradition-isn-t-a-time-capsule-20261017",
+    "read": 7,
+    "author": "WILDWIRE Editorial",
+    "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+    "image": "images/generated/a-tradition-isn-t-a-time-capsule-20261017.webp",
+    "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Tradition Isn’t a Time Capsule. Family customs survive not by staying untouched, but by being remembered, questioned and carried forward with care.\nPeople: an adult couple with one older family member. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: thoughtful companions paying attention, discussing or questioning something cultural.\nScene concept: A warm, candid kitchen-table scene: a couple listening to an older family member, with tea, a handwritten recipe, or another meaningful household object between them.\nAvoid repeating these recent WILDWIRE image scenes: Two male friends quietly discuss a large abstract painting in a contemporary gallery. | A focused woman sets up a deadlift while her male training partner watches attentively in a neighborhood gym. | Two stylish women friends walk with purpose along a rain-darkened city street. | A Middle Eastern woman and Black man share a thoughtful conversation at their kitchen table. | A woman and man sharing a thoughtful conversation across a candlelit dinner table | A couple sits together at a kitchen table, listening carefully in late afternoon light. | Two friends prepare a bean and tomato skillet together in a warm home kitchen. | A woman and man look across the lights of an old Mediterranean city toward the sea | Two partners share coffee in a sunlit kitchen | First light spreading over a quiet landscape at sunrise | Two people sit absorbed in a burgundy repertory cinema, surrounded by warm aisle lights | Two partners review household paperwork with a notebook and calculator at home. | Two friends compare paperbacks in a neighborhood bookshop. | Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Two travelers study a map together at a coastal rail station above a harbor. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | A woman and a man training in a bright community gym, each focused on a controlled dumbbell set while the other waits nearby. | Two friends compare the care labels inside a jacket and knit top beside a laundry basket. | Two women sit side by side on a blanket in a dark, open field, looking up at a wide night sky.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+    "imageGenerator": "gpt-image-2.5-flare",
+    "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+    "imageVisualCheck": {
+      "passed": true,
+      "peopleCount": 3,
+      "issues": []
+    }
   },
   {
     "id": "a-wardrobe-that-earns-its-place",
@@ -411,6 +571,90 @@ window.WILDWIRE_ARTICLES = [
     "sources": []
   },
   {
+    "category": "Explore",
+    "title": "Before the Water, Make a Two-Minute Beach Briefing",
+    "subtitle": "Additional Daily Read: A shared check of the forecast, local signs and a simple help plan can make a beach day feel less like guesswork.",
+    "imageAlt": "Two friends on dry sand looking toward the surf while one points to a beach safety sign near a lifeguard stand.",
+    "imageConcept": "A candid, grounded scene of two friends standing together on dry sand at the edge of a broad beach, one reading a posted safety sign while the other looks toward the water; a lifeguard stand is visible in the middle distance, with the shoreline and breaking waves clearly legible.",
+    "body": [
+      [
+        "Start together, before the water",
+        "The first beach decision does not have to be whether to swim. It can be a short conversation on dry sand: What are conditions today? Where is swimming allowed? If one of us needs help, what do we do? That small briefing gives everyone the same information before towels, music and the pull of the water divide the group.\n\nStart with the local surf-zone or beach-hazard forecast, then check the beach’s posted signs and flags. If a lifeguard is working, ask what conditions deserve attention and where they recommend swimming. The National Weather Service advises checking local forecasts, learning the local meaning of warning flags and asking lifeguards about hazards [1]. This is general preparation, not a live report: conditions can change, and official updates and lifeguard instructions take precedence."
+      ],
+      [
+        "Read this beach, not a remembered color key",
+        "A flag is useful only if you know what it means at the beach where you are standing. Warning systems are not identical everywhere, and even a familiar color can carry a different meaning in another place. Florida’s program, for example, explains that its flags provide general warnings about surf conditions; they do not specifically identify whether rip currents are present [2]. So don’t rely on a color remembered from a previous vacation or a graphic saved on your phone.\n\nFind the sign that explains the local system and read the words, not just the symbol. If the sign is difficult to understand, ask a lifeguard or beach staff member to clarify it. This is especially useful when traveling or when a beach uses unfamiliar terminology. The practical habit is simple: treat the sign as local instructions, and ask rather than guess."
+      ],
+      [
+        "Look from a safe, dry place",
+        "Before entering, take a moment to observe the water from shore. Notice where waves break, whether foam or floating material appears to move steadily seaward, and whether there are areas where waves are not breaking in the same way as nearby water. These observations can help you pay attention, but they cannot certify that a stretch is safe. Rip currents can be difficult to identify, and a calm-looking gap is not a reliable all-clear.\n\nNOAA’s beach-safety campaign encourages people to watch the water from a safe, dry place and cautions against assuming that comfort in a pool translates directly to the ocean [3]. The shoreline itself is dynamic: waves, currents and the shape of the bottom affect what happens close to shore. Keep this observation modest. It is a reason to ask a lifeguard or reconsider swimming—not a do-it-yourself diagnosis that overrides posted warnings."
+      ],
+      [
+        "Agree on the plan out loud",
+        "A useful briefing ends with a shared plan, not a long list of hazards. Point out the lifeguard stand or the place where help is available. Decide where the group will gather if someone steps away, and agree that anyone who feels unsure can come out without having to justify it. If children or less confident swimmers are with you, make the boundaries specific and understandable: which area is for swimming, who is staying with whom, and who will get an adult or lifeguard if help is needed.\n\nMake the plan audible to everyone who needs it. A quiet assumption—“someone will notice”—is not the same as knowing who will act. Keep the tone ordinary, not alarmist. The aim is to make it easy to speak up, change plans or stay on shore. A beach day can still be relaxed when the group has already agreed on what a cautious choice looks like."
+      ],
+      [
+        "If someone is in trouble, help from shore",
+        "If you see someone struggling in the water, get the lifeguard or call 911, and throw something that floats if it is available. Do not rush into the water without flotation: an untrained rescuer can become another person in danger. The National Weather Service’s guidance emphasizes getting professional help and using flotation rather than making an unsupported in-water rescue [1].\n\nThis is worth saying before anyone swims, because urgency can make people move before they think. Assigning a simple first action can help: one person alerts the lifeguard or calls emergency services; another keeps the person in view and throws flotation if it can be done safely. Follow instructions from lifeguards and emergency responders. The plan is not a substitute for them; it is a way to get them involved quickly."
+      ],
+      [
+        "If you are caught in a rip current",
+        "Try to stay calm, keep yourself afloat and signal for help. Do not try to swim directly against the current until exhausted. If you are able to do so safely, swimming parallel to shore may help you move out of the current; once clear, angle back toward land. If you cannot make progress, keep floating and continue signaling rather than spending all your strength fighting the water. These are the National Weather Service’s core recommendations for someone caught in a rip current [1].\n\nThe details matter: “swim parallel” is not a demand to keep swimming when you are tired, panicked or unable. Floating and signaling are active responses, not giving up. A companion on shore should summon the lifeguard or call for help rather than enter the water without flotation. Knowing these steps does not make a current predictable, but it replaces a dangerous instinct—fighting straight toward shore—with a clearer response."
+      ],
+      [
+        "Keep the briefing short—and update it",
+        "Two minutes is enough for the basic check, but the plan should change when the conditions or group change. A new flag, a lifeguard’s direction, worsening weather or a different swimming area calls for a fresh look. If someone arrives late, bring them into the conversation before they head toward the water. If the beach is closed or the instructions say not to swim, treat that as the decision, not an invitation to negotiate with the surf.\n\nA helpful sequence is forecast, posted information, lifeguard, group plan. One person can check the forecast while another reads the sign, then everyone agrees on the response if someone needs help. That division keeps the briefing practical without making one person responsible for every decision. The sources here offer general guidance, not real-time beach conditions; local forecasts, closures and lifeguard instructions are the authority for the day."
+      ],
+      [
+        "Make the water a shared decision",
+        "Before anyone walks in, ask one last question: does everyone understand the plan, and does anyone want to stay out? A beach visit is not a test of confidence. People may have different swimming ability, comfort with waves, mobility, energy or experience of the ocean. Making room for those differences means the group can choose a shallower area, stay near the lifeguard, take turns in the water or enjoy the shoreline instead.\n\nThe briefing is useful because it gives people permission to act on what they notice. It is not a promise that the sea will behave, and it should never become a reason to ignore a warning. Check current local information, follow posted instructions and ask the lifeguard when something is unclear. Then let the plan do its quiet work: less guessing, clearer communication and more attention left for the day you came to share."
+      ]
+    ],
+    "sources": [
+      {
+        "sourceId": "S1",
+        "title": "Rip current safety ahead of the Memorial Day weekend",
+        "authors": "National Weather Service",
+        "publication": "National Weather Service, May 22, 2024",
+        "url": "https://www.weather.gov/news/242205-rip-current-safety",
+        "researchSourceId": "S37"
+      },
+      {
+        "sourceId": "S2",
+        "title": "Beach Warning Flag Program | Florida Department of Environmental Protection",
+        "authors": "Florida Department of Environmental Protection",
+        "publication": "Florida Department of Environmental Protection, July 17, 2025",
+        "url": "https://floridadep.gov/rcp/fcmp/content/beach-warning-flag-program",
+        "researchSourceId": "S5"
+      },
+      {
+        "sourceId": "S3",
+        "title": "Know your Blue IQ? NOAA launches new beach safety campaign",
+        "authors": "National Oceanic and Atmospheric Administration",
+        "publication": "National Oceanic and Atmospheric Administration, June 25, 2025",
+        "url": "https://www.noaa.gov/news-release/know-your-blue-iq-noaa-launches-new-beach-safety-campaign",
+        "researchSourceId": "S50"
+      }
+    ],
+    "id": "before-the-water-make-a-two-minute-beach-briefing-20261017",
+    "date": "2026-10-17",
+    "editionDate": "2026-10-17",
+    "url": "article.html?id=before-the-water-make-a-two-minute-beach-briefing-20261017",
+    "read": 6,
+    "author": "WILDWIRE Editorial",
+    "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+    "dailyRead": true,
+    "image": "images/generated/before-the-water-make-a-two-minute-beach-briefing-20261017.webp",
+    "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Before the Water, Make a Two-Minute Beach Briefing. Additional Daily Read: A shared check of the forecast, local signs and a simple help plan can make a beach day feel less like guesswork.\nPeople: two adult siblings or close friends collaborating. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: A candid, grounded scene of two friends standing together on dry sand at the edge of a broad beach, one reading a posted safety sign while the other looks toward the water; a lifeguard stand is visible in the middle distance, with the shoreline and breaking waves clearly legible.\nAvoid repeating these recent WILDWIRE image scenes: A Middle Eastern woman and Black man share a thoughtful conversation at their kitchen table. | A woman and man sharing a thoughtful conversation across a candlelit dinner table | A couple sits together at a kitchen table, listening carefully in late afternoon light. | Two friends prepare a bean and tomato skillet together in a warm home kitchen. | A woman and man look across the lights of an old Mediterranean city toward the sea | Two partners share coffee in a sunlit kitchen | First light spreading over a quiet landscape at sunrise | Two people sit absorbed in a burgundy repertory cinema, surrounded by warm aisle lights | Two partners review household paperwork with a notebook and calculator at home. | Two friends compare paperbacks in a neighborhood bookshop. | Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Two travelers study a map together at a coastal rail station above a harbor. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | A woman and a man training in a bright community gym, each focused on a controlled dumbbell set while the other waits nearby. | Two friends compare the care labels inside a jacket and knit top beside a laundry basket. | Two women sit side by side on a blanket in a dark, open field, looking up at a wide night sky. | A couple sits with an older relative at a kitchen table, sharing a family story over tea. | Two friends sit at a kitchen table comparing separate hand-drawn home floor plans, with a clear doorway and window visible behind them. | Two friends at a kitchen table compare a handwritten trip budget with a map and separate savings notes.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+    "imageGenerator": "gpt-image-2.5-flare",
+    "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+    "imageVisualCheck": {
+      "passed": true,
+      "peopleCount": 2,
+      "issues": []
+    }
+  },
+  {
     "id": "city-beyond-blue-dot",
     "category": "Explore",
     "title": "The City Beyond the Blue Dot",
@@ -617,6 +861,165 @@ window.WILDWIRE_ARTICLES = [
       }
     ],
     "url": "article.html?id=give-an-album-an-evening"
+  },
+  {
+    "category": "Strength",
+    "title": "How Hard Is Hard Enough? A Better Way to Think About the Last Rep",
+    "subtitle": "Repetitions in reserve can help you judge effort without turning every set into a test of how much discomfort you can tolerate.",
+    "imageAlt": "A woman and a man training in a bright community gym, each focused on a controlled dumbbell set while the other waits nearby.",
+    "imageConcept": "A candid scene in a welcoming, light-filled gym: two friends of different ages and body types train independently at nearby benches, one completing a controlled dumbbell row while the other rests and watches their own form in a mirror. The emphasis is on attentive effort, not strain or competition.",
+    "body": [
+      [
+        "The question behind the final rep",
+        "A set ends, and the familiar question arrives: Could you have done one more? Two more? None? That judgment matters because training needs enough effort to challenge the body, but “hard” does not have to mean forcing every set until another repetition is impossible. A useful way to describe the distance from that point is repetitions in reserve, or RIR. If you finish a set believing you could have completed two more repetitions with sound technique, you would call it roughly 2 RIR.\n\nRIR is an estimate, not a hidden performance score. It gives you a shared language for effort and a way to adjust a workout to the day you are having. The central point is less dramatic than much gym advice suggests: the last possible rep is not the only rep that counts. Research supports challenging resistance training, but it has not identified one exact stopping point that is best for every person, exercise, or goal."
+      ],
+      [
+        "What counts as a rep in reserve?",
+        "Imagine doing a set of eight squats. At the end, ask how many additional repetitions you could perform while keeping the same basic movement quality—not how many you could grind out by changing your depth, losing balance, or turning the exercise into something else. If the honest estimate is two clean reps, that is about 2 RIR. If you feel certain you could continue for several more, the set was farther from your limit.\n\nThat “clean rep” condition matters. Failure is described in different ways across research and training settings, and people do not always mean the same thing when they say a set was taken to failure. For practical purposes, judge the set against the technique and range of motion you intended to use. RIR scales have been used as a feasible way to prescribe and adjust training intensity, but the evidence also highlights accuracy as a consideration [3]. Think of the number as a useful estimate, not a precise measurement."
+      ],
+      [
+        "What the evidence says—and does not say",
+        "The 2026 American College of Sports Medicine position stand synthesized 137 systematic reviews involving more than 30,000 participants. Its broad finding is reassuring: lifting to momentary fatigue was not consistently better and was not necessary for the outcomes reviewed. The stand describes near-failure work, including around 2–3 RIR, as ways to achieve sufficient effort, while cautioning that evidence does not establish one exact RIR target for everyone [1].\n\nA 2024 dose–response analysis found strength gains were similar across a wide range of estimated proximity to failure. Muscle-growth outcomes showed a different pattern: hypertrophy tended to increase as sets ended closer to failure, though the authors describe the analysis as exploratory and say the exact relationship remains unclear [2]. Taken together, these findings do not produce a universal rule. They suggest that chasing the final rep may be less important for strength than consistent, appropriately challenging training, while getting closer to failure may matter more when muscle growth is a priority. Even then, “closer” is not the same as “every set must end at failure.”"
+      ],
+      [
+        "Why your goal and exercise change the answer",
+        "If your priority is getting stronger, you need practice producing force and a training plan you can repeat. A set that leaves a little room can still be demanding, and stopping before technique deteriorates may help preserve good-quality work across the session. If your priority is muscle growth, working nearer to your limit may be useful, but that does not make maximal effort compulsory on every exercise or every set.\n\nExercise choice also changes the practical risk. A final hard repetition on a stable machine may be easier to manage than one on a heavy squat or bench press without appropriate safety arrangements. Your training history, equipment, sleep, stress, and how you feel that day can all shape what a given effort feels like. That is why RIR is better treated as a dial than a fixed setting: it helps you communicate and adjust, rather than ordering you to stop at precisely the same number every time."
+      ],
+      [
+        "A practical way to use RIR",
+        "For your next few sessions, try this simple process. First, choose a load you can lift with controlled technique for the planned repetition range. During the set, focus on the movement rather than trying to calculate RIR after every repetition. At the end, ask: “How many more repetitions like those could I have done?” Record your best estimate next to the exercise and load.\n\nStart by observing rather than forcing a target. If you repeatedly finish a set feeling you could have done many more clean reps, you might add a small amount of weight next time or continue for a few more reps, provided that fits your plan. If the final repetitions become unstable or painful, stop; do not count a compromised rep as proof that you reached the right effort. For a safer calibration, use a stable machine or a light-to-moderate load and occasionally compare your estimate with a few additional controlled repetitions. You do not need to test this on heavy free-weight lifts, and you do not need to turn a normal workout into a failure test."
+      ],
+      [
+        "Use the estimate, then adjust",
+        "RIR becomes more informative when you look for patterns over time. If a set you call 3 RIR consistently leaves you able to do five more repetitions, your estimate may be conservative. If you often expect two more but cannot complete even one without losing form, you may be underestimating how close you are. That is normal; people are not equally accurate on every exercise or at every load. A review of RIR research found the method workable, while also identifying assessment and accuracy as issues to consider [3].\n\nMake a brief note of the exercise, load, completed reps, and estimated RIR. After several sessions, use those records to make small adjustments rather than reacting to one unusually good or difficult day. If fatigue is accumulating or your form is slipping, reduce the load, stop the set earlier, or take more rest. If you are recovering well and the work feels too easy, gradually increase the challenge. The goal is not to become perfect at predicting your limit. It is to make training decisions a little more deliberate."
+      ],
+      [
+        "A better question than “Did I go all out?”",
+        "After a set, try asking: “Was that challenging enough for the goal, and could I repeat this quality of work?” That question leaves room for effort without glorifying exhaustion. For strength, the answer may be a demanding set that ends before a grind. For muscle growth, you may choose to work closer to your limit on some sets, while keeping technique and safe setup in view. On a day when energy is low, a sound set with more reps in reserve can be a sensible adjustment—not a failed workout.\n\nRIR offers structure without pretending the body is a spreadsheet. Start with an honest estimate, pay attention to the movement you can control, and let your training log teach you how your own effort feels. The last possible repetition can have a place in training, but it does not need to be the price of admission."
+      ]
+    ],
+    "sources": [
+      {
+        "sourceId": "S10",
+        "title": "American College of Sports Medicine Position Stand. Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews",
+        "authors": "Brad S. Currier; Alysha C. D’Souza; Maria A. Fiatarone Singh; Caroline V. Lowisz; Eric S. Rawson; Brad J. Schoenfeld; Abbie E. Smith-Ryan; Jeremy P. Steen; Gwendolyn A. Thomas; N. Travis Triplett; Tyrone A. Washington; Timothy J. Werner; Stuart M. Phillips",
+        "publication": "Medicine & Science in Sports & Exercise, published online March 5, 2026; April 2026 issue",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/"
+      },
+      {
+        "sourceId": "S85",
+        "title": "Exploring the Dose–Response Relationship Between Estimated Resistance Training Proximity to Failure, Strength Gain, and Muscle Hypertrophy: A Series of Meta-Regressions",
+        "authors": "Zac P. Robinson; Joshua C. Pelland; Jacob F. Remmert; Martin C. Refalo; Ivan Jukic; James Steele; Michael C. Zourdos",
+        "publication": "Sports Medicine, July 6, 2024",
+        "url": "https://link.springer.com/article/10.1007/s40279-024-02069-2"
+      },
+      {
+        "sourceId": "S45",
+        "title": "Feasibility and Usefulness of Repetitions-In-Reserve Scales for Selecting Exercise Intensity: A Scoping Review",
+        "authors": "Vasco Bastos; Sérgio Machado; Diogo S. Teixeira",
+        "publication": "Perceptual and Motor Skills, published online April 2, 2024; June 2024 issue",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38563729/"
+      }
+    ],
+    "id": "how-hard-is-hard-enough-a-better-way-to-think-about-the-last-rep-20261017",
+    "date": "2026-10-17",
+    "editionDate": "2026-10-17",
+    "url": "article.html?id=how-hard-is-hard-enough-a-better-way-to-think-about-the-last-rep-20261017",
+    "read": 6,
+    "author": "WILDWIRE Editorial",
+    "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+    "image": "images/generated/how-hard-is-hard-enough-a-better-way-to-think-about-the-last-rep-20261017.webp",
+    "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: How Hard Is Hard Enough? A Better Way to Think About the Last Rep. Repetitions in reserve can help you judge effort without turning every set into a test of how much discomfort you can tolerate.\nPeople: a woman and a man who are partners, with grounded attainable appearances. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: serious, focused partners training with controlled effort; no smiling while lifting.\nScene concept: A candid scene in a welcoming, light-filled gym: two friends of different ages and body types train independently at nearby benches, one completing a controlled dumbbell row while the other rests and watches their own form in a mirror. The emphasis is on attentive effort, not strain or competition.\nAvoid repeating these recent WILDWIRE image scenes: Three generations of a family prepare a simple dinner together in a lived-in kitchen. | Two male friends quietly discuss a large abstract painting in a contemporary gallery. | A focused woman sets up a deadlift while her male training partner watches attentively in a neighborhood gym. | Two stylish women friends walk with purpose along a rain-darkened city street. | A Middle Eastern woman and Black man share a thoughtful conversation at their kitchen table. | A woman and man sharing a thoughtful conversation across a candlelit dinner table | A couple sits together at a kitchen table, listening carefully in late afternoon light. | Two friends prepare a bean and tomato skillet together in a warm home kitchen. | A woman and man look across the lights of an old Mediterranean city toward the sea | Two partners share coffee in a sunlit kitchen | First light spreading over a quiet landscape at sunrise | Two people sit absorbed in a burgundy repertory cinema, surrounded by warm aisle lights | Two partners review household paperwork with a notebook and calculator at home. | Two friends compare paperbacks in a neighborhood bookshop. | Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Two travelers study a map together at a coastal rail station above a harbor. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+    "imageGenerator": "gpt-image-2.5-flare",
+    "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+    "imageVisualCheck": {
+      "passed": true,
+      "peopleCount": 2,
+      "issues": []
+    }
+  },
+  {
+    "category": "Living",
+    "title": "Know the Way Out: Make a Home Fire Plan With a Friend",
+    "subtitle": "A neighbor or friend can help turn an easy-to-postpone safety task into a clear, practiced plan—one made for the people and layout of each home.",
+    "imageAlt": "Two friends sit at a kitchen table comparing separate hand-drawn home floor plans, with a clear doorway and window visible behind them.",
+    "imageConcept": "Two male friends from different backgrounds sit together at a kitchen table, each marking exits on a separate simple floor plan; the mood is practical and companionable, with no emergency staged.",
+    "body": [
+      [
+        "Make room for a plan",
+        "A home fire escape plan is easy to put off because the work feels obvious: find a door, get outside. But smoke, confusion, a sleeping child or a route blocked by everyday clutter can make a familiar home feel different in an emergency. The U.S. Fire Administration says people may have less than two minutes to escape after a smoke alarm sounds. That is a reason to decide in advance, not to rush through a rehearsal or treat a sketch as a guarantee [1].\n\nA friend can make the task easier to begin. Set aside an hour, bring paper and a pen, and work through each home separately. The goal is not to inspect or judge someone else’s space. It is to help one another notice details that are easy to miss when you move through the same rooms every day."
+      ],
+      [
+        "Start with the people who live there",
+        "Before drawing, list who needs to get out and what assistance might be needed. Include children, older adults, people with disabilities, anyone who may not hear an alarm, and visitors who stay overnight. If someone uses a mobility device or needs hands-on help, ask what works for them rather than making assumptions. A pet may need a plan too, but no one should re-enter a burning building to retrieve a person, animal or possession.\n\nAgree on who will help whom, and on a backup if that person is away. For a child who stays between two homes, make a plan at both. For a roommate, be clear about who checks which room only if that can be done without delaying escape or entering danger. The plan should be understandable to everyone who needs to use it; add simple words or drawings if that helps."
+      ],
+      [
+        "Draw every room, then find the exits",
+        "Sketch the home’s rooms, hallways, doors and windows. The drawing does not need to be to scale; it needs to be legible. In each room, identify two ways out, as USFA recommends [1]. One may be a door and another a window, but only count a route that is actually usable and appropriate for that home. A window high above the ground, painted shut, or blocked by furniture is not a practical second way out just because it appears on paper.\n\nWalk the routes together in daylight. Check how doors and windows open, whether screens or locks could slow someone down, and whether the path leads to a safe place outside. Do not improvise a route that involves an unsafe jump or climbing. If an exit is difficult to use, or the home’s layout makes two routes unclear, ask the property manager or local fire department for guidance rather than guessing."
+      ],
+      [
+        "Clear the routes you have chosen",
+        "A plan only works if the route remains passable. Notice shoes, laundry baskets, toys, charging cables, furniture and anything else that narrows a doorway or hallway. Move obstacles now, then agree on a simple way to keep those routes clear. If a door is normally locked, make sure household members know how it opens from inside. Check that a window identified as an exit can be opened by the person expected to use it.\n\nFor renters and people in multi-unit buildings, make the plan fit the building’s own instructions. A shared hallway, stairwell or exit may have rules that a hand-drawn household plan cannot override. Confirm the designated route with building management and follow posted directions. Do not use an exit that is blocked, unsafe or contrary to the building’s emergency guidance. The friend’s role is to help ask the right questions, not to certify the building."
+      ],
+      [
+        "Choose a meeting place everyone can find",
+        "Pick one outdoor meeting place a safe distance from the home, such as a particular tree or a neighbor’s front gate. Be specific: “outside” is not a location, and a large yard may leave people searching for one another. Put the meeting place on the drawing and make sure everyone in the household can identify it. If the usual spot could be inaccessible, agree on a backup.\n\nOnce outside, stay outside. Call emergency services from a safe location and tell responders if someone may still be inside. Do not go back in to search. The American Red Cross also advises households to identify two ways out of each room, choose an outdoor meeting spot, practice the plan twice a year and get out and stay out during a fire [2]. A friend can help make those decisions concrete, but the meeting place and roles need to work for the people who live there."
+      ],
+      [
+        "Practice without turning it into a scare",
+        "Walk the route at a calm time, with the people who will need to use it. Talk through what the alarm means, which exit each person will take and where everyone will meet. Practice at different times of day if that helps household members understand how the plan changes when someone is asleep or away. Keep the exercise low-pressure: no smoke, blindfolds, blocked doors or surprise alarms. Do not make anyone run or use an exit that has not been confirmed as safe.\n\nAfterward, ask what felt confusing. Could everyone name the meeting point? Did a door stick? Was an instruction hard to hear or remember? Update the drawing and resolve practical problems. USFA recommends practicing with everyone in the home; practice is a chance to find a snag while there is time to fix it, not proof that every emergency will unfold as expected [1]. Repeat the walkthrough twice a year, and whenever the household or layout changes [2]."
+      ],
+      [
+        "Check the alarms while you are there",
+        "A route plan and working alarms serve different purposes; check both. Test smoke alarms monthly, as the Consumer Product Safety Commission advises, and make sure people in the home know what their alarms sound like [3]. If an alarm does not work or its placement is uncertain, consult the manufacturer’s instructions, property manager or local fire department for next steps. Do not assume that a phone alert or a neighbor will substitute for an alarm inside the home.\n\nThis is also a sensible moment to notice nearby hazards without letting the walkthrough sprawl into a full home inspection. CPSC advises keeping portable heaters at least three feet from things that can burn and never operating a portable generator inside a home or other enclosed space [3]. Write down any concern that needs follow-up and assign a person and date to handle it. A short list that gets acted on is more useful than a long one that stays on the table."
+      ],
+      [
+        "Make the next visit the reminder",
+        "Before your friend leaves, take a photo of each finished plan and decide where it will be kept so household members can find it. Share a copy only with people who need it and are trusted with details about the home. Put a reminder on the calendar for the next twice-yearly practice, but treat the plan as something to revisit sooner if someone moves in, a child becomes more independent, a mobility need changes, or furniture alters a route.\n\nOn your next visit, ask one useful question: “Has anything changed that would make this plan harder to use?” Then walk the relevant route, update the drawing and confirm the meeting place again. This is not a promise that you can protect another household from every danger. It is a practical way to pay attention together—to make the exits visible, the responsibilities clear and the next step less likely to be left for someday."
+      ]
+    ],
+    "sources": [
+      {
+        "sourceId": "S1",
+        "title": "Home Fire Escape Plans",
+        "authors": "U.S. Fire Administration",
+        "publication": "U.S. Fire Administration; last reviewed April 10, 2025",
+        "url": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/home-fire-escape-plans/",
+        "researchSourceId": "S19"
+      },
+      {
+        "sourceId": "S2",
+        "title": "Fire Prevention Week: 20 Ways to Help You Avoid a Home Fire",
+        "authors": "American Red Cross",
+        "publication": "American Red Cross; September 29, 2026",
+        "url": "https://www.redcross.org/about-us/news-and-events/news/2026/20-ways-to-prevent-a-home-fire.html",
+        "researchSourceId": "S95"
+      },
+      {
+        "sourceId": "S3",
+        "title": "CPSC Issues Winter Weather Safety Tips to Prevent Fires and Carbon Monoxide Poisoning",
+        "authors": "United States Consumer Product Safety Commission",
+        "publication": "U.S. Consumer Product Safety Commission; March 16, 2026",
+        "url": "https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Issues-Winter-Weather-Safety-Tips-to-Prevent-Fires-and-Carbon-Monoxide-Poisoning",
+        "researchSourceId": "S5"
+      }
+    ],
+    "id": "know-the-way-out-make-a-home-fire-plan-with-a-friend-20261017",
+    "date": "2026-10-17",
+    "editionDate": "2026-10-17",
+    "url": "article.html?id=know-the-way-out-make-a-home-fire-plan-with-a-friend-20261017",
+    "read": 6,
+    "author": "WILDWIRE Editorial",
+    "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+    "image": "images/generated/know-the-way-out-make-a-home-fire-plan-with-a-friend-20261017.webp",
+    "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Know the Way Out: Make a Home Fire Plan With a Friend. A neighbor or friend can help turn an easy-to-postpone safety task into a clear, practiced plan—one made for the people and layout of each home.\nPeople: two men friends with different backgrounds. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: Two male friends from different backgrounds sit together at a kitchen table, each marking exits on a separate simple floor plan; the mood is practical and companionable, with no emergency staged.\nAvoid repeating these recent WILDWIRE image scenes: A focused woman sets up a deadlift while her male training partner watches attentively in a neighborhood gym. | Two stylish women friends walk with purpose along a rain-darkened city street. | A Middle Eastern woman and Black man share a thoughtful conversation at their kitchen table. | A woman and man sharing a thoughtful conversation across a candlelit dinner table | A couple sits together at a kitchen table, listening carefully in late afternoon light. | Two friends prepare a bean and tomato skillet together in a warm home kitchen. | A woman and man look across the lights of an old Mediterranean city toward the sea | Two partners share coffee in a sunlit kitchen | First light spreading over a quiet landscape at sunrise | Two people sit absorbed in a burgundy repertory cinema, surrounded by warm aisle lights | Two partners review household paperwork with a notebook and calculator at home. | Two friends compare paperbacks in a neighborhood bookshop. | Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Two travelers study a map together at a coastal rail station above a harbor. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | A woman and a man training in a bright community gym, each focused on a controlled dumbbell set while the other waits nearby. | Two friends compare the care labels inside a jacket and knit top beside a laundry basket. | Two women sit side by side on a blanket in a dark, open field, looking up at a wide night sky. | A couple sits with an older relative at a kitchen table, sharing a family story over tea.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+    "imageGenerator": "gpt-image-2.5-flare",
+    "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+    "imageVisualCheck": {
+      "passed": true,
+      "peopleCount": 2,
+      "issues": []
+    }
   },
   {
     "id": "money-without-the-mystique-20261016",
@@ -938,6 +1341,246 @@ window.WILDWIRE_ARTICLES = [
     "editionDate": "2026-10-16"
   },
   {
+    "category": "Style",
+    "title": "The Mend Is the Detail",
+    "subtitle": "WILDWIRE Daily Read: A small tear or worn spot can become a considered design choice—and a useful skill to share.",
+    "imageAlt": "Three generations of a family seated around a table, comparing colorful thread and fabric patches beside a mended jacket.",
+    "imageConcept": "A close, natural-light scene of three generations of family or friends gathered around a kitchen table, with one sturdy garment, fabric scraps, needles, and contrasting thread between them. One person points out a repair idea while another tries a stitch; the moment feels collaborative rather than staged, with no suggestion that these are identifiable people or a documented family story.",
+    "body": [
+      [
+        "Repair can be part of the design",
+        "A tear in a sleeve or a thinning patch at the knee often arrives as a small disappointment: the garment still works, but it no longer looks the way it did. Visible mending offers another possibility. Instead of trying to make the damage vanish, you can use a patch, thread, or line of stitching that reads as an intentional detail. The repair can echo a color already in the fabric, introduce a deliberate contrast, or simply make the garment feel more like yours.\n\nThat does not mean every repair needs to be decorative, or that a mend must look polished to count. The useful shift is seeing the fix as part of the garment’s appearance rather than an apology for it. A beginner’s guide to visible mending treats color, thread, materials, and stitch choices as ways to incorporate a repair into personal style, alongside techniques such as darning, appliqué, and sashiko-style stitching [1]."
+      ],
+      [
+        "Choose a garment that can take a first try",
+        "Start with a sturdy, washable item you already wear: a cotton overshirt, a canvas tote, or jeans with a small tear away from a seam. A tiny repair is easier to control than a large hole, and a stable fabric is less likely to stretch or shift while you work. If the garment is delicate, valuable, lined, or damaged where fabric bears heavy tension—such as close to a waistband, pocket opening, or underarm—consider asking an experienced mender or tailor before experimenting.\n\nLook at the fabric around the damage, not only at the hole. If the surrounding area is thin, a patch needs to extend onto stronger material so the repair has something sound to hold. Check the garment’s care instructions and consider how it will be washed; a repair that cannot withstand ordinary use is not much of a repair. The goal is not to make a promise about how long the item will last, but to give a garment that still suits you a workable next chapter."
+      ],
+      [
+        "Make a small design decision before sewing",
+        "Before threading a needle, decide what you want the repair to do visually. A patch in a close shade can sit quietly against the garment; a contrasting patch can become a focal point. Thread can match the patch, match the garment, or add a second accent. Keep the choices simple at first: one patch color and one thread color are enough to make the mend feel intentional.\n\nThe shape matters, too. A rounded patch can soften a small tear; a square or rectangle can make the repair read clean and graphic. Those are design options, not rules. Place the patch over the damage and move it around before cutting or stitching. Check how it looks when the garment is worn, folded, and laid flat. If the repair is on a sleeve or knee, make sure the placement will not rub uncomfortably or interfere with movement. A few minutes of testing can prevent a decorative idea from becoming an awkward one."
+      ],
+      [
+        "Practice away from the garment",
+        "A scrap of similar fabric is a low-stakes place to test your plan. Try the thread, needle, patch material, and stitch together; then tug gently and see whether the fabric puckers or the stitches pull out. If the cloth bunches, loosen your tension or use a shorter section of thread so it is easier to manage. If the patch edge lifts, adjust the spacing or stitch closer to the edge. This is not wasted effort: it lets you learn what your materials do before the garment is involved.\n\n A reported Fashion Institute of Technology workshop also welcomed participants without prior darning experience, framing repair as something people can learn by doing [2]. You do not need a perfect sample. You need a quick, useful test that shows whether the stitch is secure and whether the result feels right to you."
+      ],
+      [
+        "A simple patch, step by step",
+        "For a small hole or thin spot, cut a patch large enough to cover the damage and reach beyond its weakened edges. If the patch fabric frays, turn under a narrow edge where practical, or choose a material that will not unravel quickly. Pin or baste the patch in place, then check that the garment lies naturally and the repair does not pull the fabric out of shape.\n\nThread a hand-sewing needle with a manageable length of thread and knot the end. Starting on the inside, bring the needle through near the patch edge. Work small, even stitches around the patch, catching both patch and garment fabric each time. Keep the stitches secure but avoid pulling so tightly that the cloth gathers. When you reach the start, secure the thread on the inside with a few small stitches and trim it. Turn the garment right side out, smooth it, and inspect the repair. If the fabric is under strain, if the tear grows as you work, or if the stitching does not hold, pause rather than forcing it."
+      ],
+      [
+        "A loose button is a friendly first repair",
+        "If a patch feels like too much for a first attempt, replace a loose button. First check the inside of the garment for a spare button, then choose a needle and thread suited to the fabric and the button’s use. A flat button and a shank button attach differently; the garment’s construction and the button’s shape matter. The UF/IFAS Extension guide distinguishes those types and describes hand-sewing two-hole, four-hole, and shank buttons [3].\n\nFor a flat button, position it over the original stitches or marks and bring the needle from the inside through one hole. Stitch through the holes in a consistent pattern, keeping the button aligned. Do not pull the thread so tight that the button sits flush against thick fabric: it needs a little room to fasten comfortably. A small spacer, such as a pin laid across the button while sewing, can help leave that slack; remove it before securing the thread. For a shank button, pass the needle through the shank rather than sewing through the button face. Finish with secure stitches on the inside and test the closure before trimming."
+      ],
+      [
+        "Make the contrast feel considered",
+        "A visible repair does not have to be loud to be expressive. One bright patch against a dark garment can be enough; so can a neat row of stitches in a color borrowed from a stripe, lining, or existing detail. Repetition can help a mend feel integrated: a second small stitch detail nearby, or the same thread used to reinforce another button, can make the choice look deliberate. But restraint is equally valid. The garment should still feel like something you want to wear, not a project that has taken over its original character.\n\nThink about comfort alongside appearance. Avoid bulky knots or rough patch edges where they will sit against skin. Try the garment on before calling the job done, bend and reach, and check that the repair does not restrict movement. Wash it according to the garment’s care instructions, then inspect the mend. If a stitch loosens, reinforce it early. Repair keeps a garment in use only when the result works for the person wearing it; one small fix should not be treated as a measurable environmental solution on its own."
+      ],
+      [
+        "Bring one garment and share the choices",
+        "Mending can be easier to begin when the task is small and the decisions are shared. One person can choose a patch, another can test thread colors, and someone who already knows a stitch can demonstrate it without taking over. You might offer to repair a friend or family member’s clothing—or ask someone to show you a stitch. The point is not to turn a garment into a lesson plan, but to make room for different levels of experience.\n\nChoose one repairable item, gather a needle, thread, scrap fabric, and scissors, then agree on a first step: test the colors, practice one stitch, or sew on a spare button. Let the wearer have the final say about how visible the repair should be. If the first attempt looks uneven, that is information for the next one, not a reason to hide the garment. A mend can hold a practical purpose and a personal choice at the same time."
+      ]
+    ],
+    "sources": [
+      {
+        "sourceId": "S1",
+        "title": "A Beginner's Guide to Visible Mending: With over 20 easy projects: Bring new life to old clothes with darning, appliqué, sashiko-style stitching, and more",
+        "authors": "Shelley Zetuni",
+        "publication": "CICO Books (October 6, 2026); distributed by Simon & Schuster",
+        "url": "https://www.simonandschuster.com/books/A-Beginners-Guide-to-Visible-Mending/Shelley-Zetuni/9781800656406",
+        "researchSourceId": "S39"
+      },
+      {
+        "sourceId": "S2",
+        "title": "The Radical Act of Repair: Artful, Visible Mending – FIT School of Art and Design",
+        "authors": "Rachel Ellner",
+        "publication": "FIT School of Art and Design, March 15, 2023",
+        "url": "https://blog.fitnyc.edu/artanddesign/2023/03/15/the-radical-act-of-repair-artful-visible-mending/",
+        "researchSourceId": "S46"
+      },
+      {
+        "sourceId": "S3",
+        "title": "Life Skills in a Minute: Sewing on a Button",
+        "authors": "Heather M. Futch",
+        "publication": "UF/IFAS Extension, August 2021",
+        "url": "https://ask.ifas.ufl.edu/publication/4H414.pdf",
+        "researchSourceId": "S1"
+      }
+    ],
+    "id": "the-mend-is-the-detail-20261017",
+    "date": "2026-10-17",
+    "editionDate": "2026-10-17",
+    "url": "article.html?id=the-mend-is-the-detail-20261017",
+    "read": 7,
+    "author": "WILDWIRE Editorial",
+    "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+    "dailyRead": true,
+    "image": "images/generated/the-mend-is-the-detail-20261017.webp",
+    "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Mend Is the Detail. WILDWIRE Daily Read: A small tear or worn spot can become a considered design choice—and a useful skill to share.\nPeople: three generations of one family working together. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: confident, well-dressed friends with runway energy grounded in attainable real life.\nScene concept: A close, natural-light scene of three generations of family or friends gathered around a kitchen table, with one sturdy garment, fabric scraps, needles, and contrasting thread between them. One person points out a repair idea while another tries a stitch; the moment feels collaborative rather than staged, with no suggestion that these are identifiable people or a documented family story.\nAvoid repeating these recent WILDWIRE image scenes: A couple sits together at a kitchen table, listening carefully in late afternoon light. | Two friends prepare a bean and tomato skillet together in a warm home kitchen. | A woman and man look across the lights of an old Mediterranean city toward the sea | Two partners share coffee in a sunlit kitchen | First light spreading over a quiet landscape at sunrise | Two people sit absorbed in a burgundy repertory cinema, surrounded by warm aisle lights | Two partners review household paperwork with a notebook and calculator at home. | Two friends compare paperbacks in a neighborhood bookshop. | Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Two travelers study a map together at a coastal rail station above a harbor. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | A woman and a man training in a bright community gym, each focused on a controlled dumbbell set while the other waits nearby. | Two friends compare the care labels inside a jacket and knit top beside a laundry basket. | Two women sit side by side on a blanket in a dark, open field, looking up at a wide night sky. | A couple sits with an older relative at a kitchen table, sharing a family story over tea. | Two friends sit at a kitchen table comparing separate hand-drawn home floor plans, with a clear doorway and window visible behind them. | Two friends at a kitchen table compare a handwritten trip budget with a map and separate savings notes. | Two friends on dry sand looking toward the surf while one points to a beach safety sign near a lifeguard stand. | Two friends compare notes beside an open kitchen window, with a range hood and a home air filter visible nearby.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+    "imageGenerator": "gpt-image-2.5-flare",
+    "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+    "imageVisualCheck": {
+      "passed": true,
+      "peopleCount": 3,
+      "issues": []
+    }
+  },
+  {
+    "category": "Explore",
+    "title": "The Sky Is the Plan: A No-Gear Night Out for the Orionids",
+    "subtitle": "The Orionids peak overnight October 21–22. A clear patch of sky, a safe place to sit and a little patience are all the equipment this outing asks of you.",
+    "imageAlt": "Two women sit side by side on a blanket in a dark, open field, looking up at a wide night sky.",
+    "imageConcept": "A quiet, wide-frame scene of two women friends sitting shoulder to shoulder on a blanket at a permitted open-air viewing spot, warm layers and a thermos beside them, a dim red flashlight turned down near their feet, with a broad starry sky overhead and no visible streaks implying a guaranteed meteor show.",
+    "body": [
+      [
+        "A shower, not a schedule",
+        "A meteor watch asks for a different kind of evening plan: choose a place, get comfortable, and let the sky set the pace. The Orionids are expected to peak overnight October 21–22, 2026. They happen when Earth passes through debris left by Halley’s Comet; as small pieces enter the atmosphere, they appear as brief streaks of light. The Moon will be bright around the peak and may wash out some fainter meteors. NASA says the hours before dawn, after moonset, may offer the better chance to see them [1]. That is a useful window, not a promise. Weather, local light and the ordinary variability of a meteor shower all matter. Make the night worthwhile on its own terms: time outside, a conversation without a screen between you, and a sky that does not need to perform."
+      ],
+      [
+        "Pick the hour your sky allows",
+        "There is no single best clock time for every town. Before choosing when to leave, check the local moonrise and moonset, the hourly cloud forecast and the forecast temperature. If your evening is flexible, compare the hours before dawn after the Moon has set with earlier options; if clouds are forecast through the whole window, consider another night near the peak rather than driving on hope alone. NASA’s October guidance favors the pre-dawn hours after moonset because the bright Moon can obscure fainter meteors [1]. Use local times rather than a general chart for another region, and check the forecast again before setting out. A partly cloudy sky can still open up, but moving cloud cover can make a long drive less rewarding. The goal is not to optimize every minute; it is to arrive when your chosen patch of sky has a reasonable chance of being visible."
+      ],
+      [
+        "Choose a place you are allowed to be",
+        "Darkness is only one part of a good viewing spot. Look for an open view with little direct light in your eyes, but also confirm that the location is open at night and that parking, walking and sitting are permitted. A park’s daytime access does not automatically mean its gates or trails stay open after dark. Check official site hours and rules, including whether overnight parking or roadside stopping is allowed. NASA recommends considering light pollution, weather, the Moon and an open horizon when choosing a place, and scouting unfamiliar locations in daylight [2]. That daylight visit is practical, not fussy: notice where to park, how the path feels underfoot, where the nearest facilities are and whether the spot is exposed to wind. If the location feels confusing or uncomfortable in daylight, it is unlikely to become easier to navigate at night."
+      ],
+      [
+        "Make a small plan before you go",
+        "Keep the logistics simple enough that the sky remains the main event. Tell someone where you are going and when you expect to return. Charge your phone, download any map you will need, and check whether you will have service; keep the phone away once you are settled so its bright screen does not become the most memorable light in the field. Bring a blanket or reclining chair, water, a warm drink if you like, and an extra layer beyond what feels necessary when you leave home. Nighttime temperatures and stillness can make waiting feel colder than a daytime forecast suggests. Pack a small flashlight for the path, ideally one with a dim red setting, and use it only when needed. The National Park Service notes that dim red light is less disruptive to night vision than white light [3]. Keep the beam low and pointed at the ground rather than across other people or the landscape."
+      ],
+      [
+        "Give your eyes—and the outing—time",
+        "You do not need binoculars or a telescope to watch meteors. In fact, a telescope’s narrow field of view is a poor match for streaks that can cross a wide area of sky. Once you arrive, settle somewhere safe and comfortable, let your eyes adjust, and look broadly rather than trying to stare at one small patch. NASA notes that Orionid meteors can appear anywhere in the sky, not only near the constellation Orion [1]. That matters because the constellation gives the shower its name, but it is not a target you must keep centered. Avoid repeatedly checking a bright phone screen; if you need a map to identify a few stars, use it briefly and dim the display as much as possible. Then put it away. A sky map can be a pleasant extra, but the naked eye is enough to begin."
+      ],
+      [
+        "Set expectations without shrinking the wonder",
+        "A meteor shower is not a timed fireworks display. You may see several streaks close together, then have a quiet stretch; you may see only a few, or none if clouds drift in. The Moon’s brightness at this peak makes modest expectations especially sensible, since its light can make faint meteors harder to pick out [1]. Try not to turn the evening into a tally sheet. If you are with someone, take turns noticing what is overhead; if you are alone, let the waiting be part of the plan rather than evidence that the night has failed. You can also look for familiar star patterns or simply watch how the sky changes as your eyes adjust. The point is not to claim a spectacular show in advance. It is to give yourself a chance to notice what is actually there."
+      ],
+      [
+        "Leave the night as you found it",
+        "A considerate outing keeps the viewing place good for the people and wildlife already there. Stay on established paths, take all rubbish with you and keep voices low, especially near homes or campsites. Avoid shining lights into the sky or across a shared viewing area. The National Park Service advises avoiding white lights to protect night vision and be considerate of others [3]. For this particular night, the simplest application is to use only the light you need to get around, direct it downward and turn it off when you are settled. Respect closures and local rules even if another spot looks darker. A place that is accessible and cared for is a better destination than a theoretically perfect location reached by trespassing or disturbing others."
+      ],
+      [
+        "A low-pressure plan for October 21–22",
+        "Before you leave, check three things: the local cloud forecast, moonset time and the viewing site’s night-access rules. Scout any unfamiliar place in daylight. Pack layers, something comfortable to sit or recline on, water and a dim light for the path. Aim for the pre-dawn period after moonset if that works for your schedule and the sky is clear, but give yourself permission to choose a safer or more convenient hour—or to stay home if conditions turn poor. Once there, let your eyes adjust, look across the whole sky and keep the phone dim and brief. You do not have to know the constellations, stay until sunrise or see a particular number of meteors for the night to count. Make room for the possibility that the best part is simply sharing the dark, open sky."
+      ]
+    ],
+    "sources": [
+      {
+        "sourceId": "S32",
+        "title": "What's Up: October 2026 Skywatching Tips from NASA - NASA Science",
+        "authors": "Raquel Villanueva",
+        "publication": "NASA Science; October 1, 2026 (updated October 2, 2026)",
+        "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/"
+      },
+      {
+        "sourceId": "S33",
+        "title": "How to Find Good Places to Stargaze - NASA Science",
+        "authors": "Preston Dyches",
+        "publication": "NASA Science; July 28, 2021 (updated November 4, 2024)",
+        "url": "https://science.nasa.gov/solar-system/how-to-find-good-places-to-stargaze/"
+      },
+      {
+        "sourceId": "S21",
+        "title": "I Didn't Know That!: Stargazing 101 (U.S. National Park Service)",
+        "authors": "National Park Service",
+        "publication": "U.S. National Park Service; last updated March 18, 2025",
+        "url": "https://www.nps.gov/articles/000/idkt_stargazing.htm"
+      }
+    ],
+    "id": "the-sky-is-the-plan-a-no-gear-night-out-for-the-orionids-20261017",
+    "date": "2026-10-17",
+    "editionDate": "2026-10-17",
+    "url": "article.html?id=the-sky-is-the-plan-a-no-gear-night-out-for-the-orionids-20261017",
+    "read": 6,
+    "author": "WILDWIRE Editorial",
+    "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+    "image": "images/generated/the-sky-is-the-plan-a-no-gear-night-out-for-the-orionids-20261017.webp",
+    "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Sky Is the Plan: A No-Gear Night Out for the Orionids. The Orionids peak overnight October 21–22. A clear patch of sky, a safe place to sit and a little patience are all the equipment this outing asks of you.\nPeople: two women partners with distinct builds and features. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: A quiet, wide-frame scene of two women friends sitting shoulder to shoulder on a blanket at a permitted open-air viewing spot, warm layers and a thermos beside them, a dim red flashlight turned down near their feet, with a broad starry sky overhead and no visible streaks implying a guaranteed meteor show.\nAvoid repeating these recent WILDWIRE image scenes: Three generations of a family prepare a simple dinner together in a lived-in kitchen. | Two male friends quietly discuss a large abstract painting in a contemporary gallery. | A focused woman sets up a deadlift while her male training partner watches attentively in a neighborhood gym. | Two stylish women friends walk with purpose along a rain-darkened city street. | A Middle Eastern woman and Black man share a thoughtful conversation at their kitchen table. | A woman and man sharing a thoughtful conversation across a candlelit dinner table | A couple sits together at a kitchen table, listening carefully in late afternoon light. | Two friends prepare a bean and tomato skillet together in a warm home kitchen. | A woman and man look across the lights of an old Mediterranean city toward the sea | Two partners share coffee in a sunlit kitchen | First light spreading over a quiet landscape at sunrise | Two people sit absorbed in a burgundy repertory cinema, surrounded by warm aisle lights | Two partners review household paperwork with a notebook and calculator at home. | Two friends compare paperbacks in a neighborhood bookshop. | Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Two travelers study a map together at a coastal rail station above a harbor. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | A woman and a man training in a bright community gym, each focused on a controlled dumbbell set while the other waits nearby. | Two friends compare the care labels inside a jacket and knit top beside a laundry basket.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+    "imageGenerator": "gpt-image-2.5-flare",
+    "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+    "imageVisualCheck": {
+      "passed": true,
+      "peopleCount": 2,
+      "issues": []
+    }
+  },
+  {
+    "category": "Style",
+    "title": "The Small Print Inside Your Clothes, Decoded",
+    "subtitle": "Fiber content and care instructions answer different questions. Here’s how to read both, choose a sensible wash, and avoid treating every laundry symbol chart as universal.",
+    "imageAlt": "Two friends compare the care labels inside a jacket and knit top beside a laundry basket.",
+    "imageConcept": "A close, warm domestic scene: two friends sit at a table with a jacket and knit top turned inside out, comparing their sewn-in labels while a laundry basket and folded towels sit nearby. The small print is visible as texture, not legible copy; the focus is on shared attention rather than one person teaching the other.",
+    "body": [
+      [
+        "A label is two kinds of information",
+        "The tag tucked into a side seam can look like one dense block of instructions. Read it as two separate conversations. Fiber content describes what a textile is made from; care instructions tell you how the garment is meant to be cleaned and finished. In the United States, these are distinct labeling requirements, even when the information shares one tag. Most covered textile and wool products also must identify their country of origin and the responsible business [1].\n\nThat distinction matters in practice. “Cotton” is not a wash setting, and “dry clean” is not a fiber. A garment’s construction, color, finish, lining, trims, and combination of materials can all influence its care. Start by finding the part of the label that answers the question you have, rather than treating every line as a single code."
+      ],
+      [
+        "Fiber content: what the fabric is made of",
+        "Fiber-content wording typically names the fibers and gives their proportions, such as a cotton-polyester blend. The percentages help you understand the material, but they do not independently determine the safest way to wash the finished garment. Two pieces with similar fiber content may behave differently because one is tightly woven, one is knitted, or one includes a lining or delicate embellishment.\n\nUse the fiber line as context, not permission to override the care line. It can help explain why a garment feels, drapes, or responds differently from another, and it can be useful when comparing similar items. But if a favorite top says to use a particular method, don’t replace that instruction with a rule you remember about its largest fiber percentage. The garment is more than its raw material."
+      ],
+      [
+        "Care instructions: what the maker recommends",
+        "Care labeling in the U.S. is intended to give instructions for regular care, and the instructions must have a reasonable basis. The Federal Trade Commission’s guide explains how the rule applies to care instructions and symbols [2]. That makes the label a useful starting point: it is the maker’s stated guidance for caring for that item, not a promise that every possible stain or repair is covered.\n\nBefore washing, scan for both the main instruction and any warning. A label may say to machine wash while also specifying a temperature or a gentler process; it may identify a drying method or caution against a particular treatment. If the tag is faded or cut out, check the product page or contact the brand if you can. If the information is unavailable, be conservative: avoid heat and aggressive agitation until you have a better sense of the fabric and construction."
+      ],
+      [
+        "Read the symbols as a sequence, not a puzzle",
+        "The FTC says care symbols may be used in place of words if they meet the requirements of the Care Labeling Rule [2]. Treat those as clues, then confirm the meaning against a reliable chart for the system on your garment.\n\nHere is the important U.S.-specific caveat: the care symbols commonly associated with the American ASTM system and the international ISO system are similar, but not identical [2]. A chart made for another market may explain a symbol differently or omit a distinction found on a U.S.-sold item. Don’t assume one infographic is a universal decoder. If the symbol remains unclear, look for accompanying words or consult the FTC’s U.S. care-label guidance."
+      ],
+      [
+        "Turn the label into a wash decision",
+        "Once you have read the care instructions, make the decision in a simple order. First, check whether the item can be washed at home or calls for professional care. Next, follow any stated temperature, cycle, or handling limits. Then check drying and ironing separately; a garment that can be washed may still have a restriction on how it should be dried or finished.\n\nIf machine washing is allowed, sort by color and by how much friction or care items are likely to need. Close zippers and fasten hooks that could catch on other fabrics. Use the cycle and temperature indicated on the label rather than choosing settings from the fiber name alone. If a piece is especially delicate, putting it in a mesh bag can reduce tangling, but that does not cancel a label’s warning or make an unsuitable process safe. When in doubt, pause before adding heat: drying and ironing are separate steps, and a wash instruction does not automatically authorize either one."
+      ],
+      [
+        "Why one setting cannot suit every garment",
+        "It is tempting to search for a single “best” laundry setting, but garment care involves trade-offs. Research on washing-machine settings discusses how temperature, agitation, cycle choice, detergents, and textile construction can affect clothing [3]. That is a reason to follow the item’s instructions and consider the garment as a whole—not a reason to assume a particular setting will work for everything.\n\nFabric variation matters beyond appearance. The Phys.org article reports that open fabric structures, such as knits with loose yarns, can lose more fibers during washing than tighter structures [3]. Those findings do not establish one best practice for every garment; they show why broad claims about all fabrics can mislead. For your own load, the practical approach is less dramatic: follow the label, avoid unnecessarily harsh treatment, and don’t use one item’s successful routine as proof that another can handle it."
+      ],
+      [
+        "A quick label check before laundry day",
+        "Keep the process small enough to repeat. Before a new garment’s first wash, locate the fiber and care information and note any instruction that changes your usual routine. If you remove a tag because it irritates your skin, photograph it first or save the care information with the garment. For a confusing symbol, compare it with a U.S.-specific reference rather than relying on an unlabeled chart shared online.\n\nThen make the care choice for the item in front of you: use the stated wash method, respect the stated limits, and check drying and ironing as their own decisions. That habit won’t make every fabric behave predictably, and it doesn’t replace professional help for a difficult stain or an unclear instruction. It does make the little print more useful. The label is not a style verdict or a test of expertise; it is one practical piece of information that can help you keep wearing what you already own."
+      ]
+    ],
+    "sources": [
+      {
+        "sourceId": "S57",
+        "title": "Threading Your Way Through the Labeling Requirements Under the Textile and Wool Acts",
+        "authors": "Federal Trade Commission",
+        "publication": "Federal Trade Commission, July 2014",
+        "url": "https://www.ftc.gov/business-guidance/resources/threading-your-way-through-labeling-requirements-under-textile-wool-acts"
+      },
+      {
+        "sourceId": "S56",
+        "title": "Clothes Captioning: Complying with the Care Labeling Rule",
+        "authors": "Federal Trade Commission",
+        "publication": "Federal Trade Commission, May 2014",
+        "url": "https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule"
+      },
+      {
+        "sourceId": "S41",
+        "title": "What washing machine settings can I use to make my clothes last longer?",
+        "authors": "Alessandra Sutti, Amol Patil, and Maryam Naebe",
+        "publication": "Phys.org, March 16, 2024",
+        "url": "https://phys.org/news/2024-03-machine-longer.html"
+      }
+    ],
+    "id": "the-small-print-inside-your-clothes-decoded-20261017",
+    "date": "2026-10-17",
+    "editionDate": "2026-10-17",
+    "url": "article.html?id=the-small-print-inside-your-clothes-decoded-20261017",
+    "read": 5,
+    "author": "WILDWIRE Editorial",
+    "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+    "image": "images/generated/the-small-print-inside-your-clothes-decoded-20261017.webp",
+    "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Small Print Inside Your Clothes, Decoded. Fiber content and care instructions answer different questions. Here’s how to read both, choose a sensible wash, and avoid treating every laundry symbol chart as universal.\nPeople: a couple with visibly different ages and life experience. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: confident, well-dressed friends with runway energy grounded in attainable real life.\nScene concept: A close, warm domestic scene: two friends sit at a table with a jacket and knit top turned inside out, comparing their sewn-in labels while a laundry basket and folded towels sit nearby. The small print is visible as texture, not legible copy; the focus is on shared attention rather than one person teaching the other.\nAvoid repeating these recent WILDWIRE image scenes: Three generations of a family prepare a simple dinner together in a lived-in kitchen. | Two male friends quietly discuss a large abstract painting in a contemporary gallery. | A focused woman sets up a deadlift while her male training partner watches attentively in a neighborhood gym. | Two stylish women friends walk with purpose along a rain-darkened city street. | A Middle Eastern woman and Black man share a thoughtful conversation at their kitchen table. | A woman and man sharing a thoughtful conversation across a candlelit dinner table | A couple sits together at a kitchen table, listening carefully in late afternoon light. | Two friends prepare a bean and tomato skillet together in a warm home kitchen. | A woman and man look across the lights of an old Mediterranean city toward the sea | Two partners share coffee in a sunlit kitchen | First light spreading over a quiet landscape at sunrise | Two people sit absorbed in a burgundy repertory cinema, surrounded by warm aisle lights | Two partners review household paperwork with a notebook and calculator at home. | Two friends compare paperbacks in a neighborhood bookshop. | Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Two travelers study a map together at a coastal rail station above a harbor. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | A woman and a man training in a bright community gym, each focused on a controlled dumbbell set while the other waits nearby.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+    "imageGenerator": "gpt-image-2.5-flare",
+    "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+    "imageVisualCheck": {
+      "passed": true,
+      "peopleCount": 2,
+      "issues": []
+    }
+  },
+  {
     "id": "the-trip-begins-between-stations",
     "category": "Explore",
     "title": "The Trip Begins Between Stations",
@@ -989,6 +1632,89 @@ window.WILDWIRE_ARTICLES = [
         "url": "https://www.viarail.ca/explore-our-destinations/trains/ontario-and-quebec"
       }
     ]
+  },
+  {
+    "category": "Finance",
+    "title": "The Trip Fund Is Not the Emergency Fund",
+    "subtitle": "A getaway can be a shared plan without becoming a shared pile of money. Set the number, agree on contributions and keep your safety cushion out of the itinerary.",
+    "imageAlt": "Two friends at a kitchen table compare a handwritten trip budget with a map and separate savings notes.",
+    "imageConcept": "Two friends sit at a sunlit kitchen table with a folded map, an open notebook listing travel costs, and two phones displaying separate savings balances; the scene feels collaborative without suggesting they have combined their money.",
+    "body": [
+      [
+        "Start with the number, not the booking",
+        "A trip often becomes expensive through a string of small decisions: a flight that seems manageable, a hotel chosen for convenience, then meals, local transport and one more activity. Before either traveler pays a deposit, agree on a total that feels workable for both. Start with the dates and destination, then list likely shared costs—lodging, rental car, groceries—and personal costs such as flights, meals or activities each person will choose independently. A vacation is a useful example of a savings goal: naming the target makes it possible to work backward into regular contributions [1]. This is not a demand that friends spend equally. One person may have more room in their budget; another may prefer a shorter stay or a less costly room. The useful agreement is an honest limit, not a performance of financial sameness."
+      ],
+      [
+        "Build a budget that can survive the real trip",
+        "Make a simple estimate before opening booking apps. For a hypothetical four-night trip, list lodging, transport, meals, tickets and any fees you can anticipate. Mark each item as shared or individual, and write down the payment deadline beside it. Add a modest amount for predictable variations—such as a transfer from the airport or a meal costing more than expected—so the plan is not balanced on perfect guesses. That planned wiggle room is still part of the trip budget; it is not the emergency fund. Check the total against what each traveler can actually afford without relying on a credit balance they cannot clear or money set aside for rent, bills or other priorities. If the number is too high, adjust the trip while changes are still easy: fewer nights, a different lodging option, or one paid activity instead of three. A budget is most useful when it can change before money is committed."
+      ],
+      [
+        "Agree on the split before anyone fronts the cost",
+        "Equal division is simple, but it is not automatically fair. If one friend takes the private room while the other uses a sofa bed, or one person rents a car they will use alone, the cost may make more sense divided by use. For each shared item, decide who will pay the provider and how the other person will contribute. Write down the amount or method—half, a specific share, or a different split—and the date payment is due. Separate personal purchases from shared ones instead of trying to reconstruct everything afterward. A note in a shared document can be enough: item, payer, each person’s share, due date, and whether it has been paid. This is practical bookkeeping, not a test of trust. Clarity protects the friendship from awkward assumptions, especially when one person has to book early or pay a deposit that cannot be refunded."
+      ],
+      [
+        "Turn the target into a calendar",
+        "Once you know the amount and the booking dates, divide the remaining goal into manageable contributions. If your share of the trip is $900 and you have six months, a straightforward plan is $150 a month; if that is too much, the answer may be a smaller trip, more time, or a different contribution schedule—not quietly drawing down money meant for something else. A goal-based savings plan can make the target visible and turn it into regular amounts rather than a last-minute scramble [1]. Agree with your friend on the dates when money needs to be available, not just the final total. One person might need to book lodging two months before departure, while flights are paid sooner. The timing matters: a contribution that arrives after a nonrefundable payment deadline does not solve the cash-flow problem. Revisit the plan if prices or circumstances change."
+      ],
+      [
+        "Keep the safety cushion out of the itinerary",
+        "A planned vacation and an unexpected expense are different financial jobs. Emergency savings are meant to help absorb costs that arrive without warning; without savings, a surprise expense can push someone toward borrowing at high interest [2]. That is why the emergency cushion should not be counted as available trip money, even if it is sitting in the same checking account. Give the two goals separate labels, balances or accounts, depending on what works for you. If an urgent car repair or medical bill comes up, the distinction makes it easier to see what money is available for the trip and what money is protecting day-to-day stability. It also gives both friends permission to change the plan without framing that choice as a failure. A trip can be postponed or made less expensive. An unexpected need still needs to be handled."
+      ],
+      [
+        "Automate only what your balance can support",
+        "A recurring transfer can help keep a trip goal moving: choose an amount and date, then arrange for money to move into the savings space you use for the trip. The CFPB describes automatic saving as a way to make contributions recurring, while advising people to monitor balances and consider timing, account terms and fees [3]. Set the transfer after income usually arrives, and check that regular bills clear first. A transfer that triggers an overdraft fee or leaves too little for essentials is not progress. Start with an amount you can sustain; you can increase it later if the plan is comfortable. If income varies, a fixed monthly transfer may not fit. You could instead make a contribution after each paid invoice or set a smaller baseline and add extra when possible. Automation should support the plan, not make it harder to see what is happening."
+      ],
+      [
+        "Choose an arrangement that fits your friendship",
+        "Friends do not need a joint account to plan together. One person can book and receive a transfer by an agreed date; each can pay their own share directly; or you can keep separate labeled savings and settle shared costs as they come due. Choose the least complicated arrangement that gives both people a clear view of commitments. Before setting up transfers, check how long they take, whether the account has fees or minimums, and what happens if a payment is returned. If you use a bank account, review its terms and the timing of access to deposited money; account services and possible overdraft fees vary [3]. Be cautious about treating an app balance as interchangeable with a bank deposit: understand where money is held and what protections apply. Keep records of who paid what, and do not share passwords as a shortcut to coordination."
+      ],
+      [
+        "Make the plan easy to revise",
+        "Before booking, agree on what happens if one person has to cancel, the price rises, or a deposit is not refundable. Decide whether each person pays their own cancellation cost, whether the group changes the plan, and when you will make that call. Put the agreement somewhere both can find it, alongside the budget and payment dates. Then check in once before the largest nonrefundable expense: compare the current total with the original limit and confirm that both contributions remain comfortable. If one person’s circumstances change, say so early, while the group still has options. The point is not to remove every uncertainty from travel. It is to make the financial expectations visible before uncertainty turns into resentment. Keep the trip fund for the trip, keep the emergency fund for surprises, and let either friend raise a concern without having to defend their whole financial life."
+      ]
+    ],
+    "sources": [
+      {
+        "sourceId": "S1",
+        "title": "You’ve got goals for your life—and some of them take money to achieve | Consumer Financial Protection Bureau",
+        "authors": "Laura Schlachtmeyer",
+        "publication": "Consumer Financial Protection Bureau, February 23, 2015",
+        "url": "https://www.consumerfinance.gov/archive/blog/youve-got-goals-for-your-life-and-some-of-them-take-money-to-achieve/",
+        "researchSourceId": "S36"
+      },
+      {
+        "sourceId": "S2",
+        "title": "How to save for emergencies and the future | Consumer Financial Protection Bureau",
+        "authors": "Courtney-Rose Dantus and Erica Kritt",
+        "publication": "Consumer Financial Protection Bureau, February 26, 2018",
+        "url": "https://www.consumerfinance.gov/archive/blog/how-save-emergencies-and-future/",
+        "researchSourceId": "S9"
+      },
+      {
+        "sourceId": "S3",
+        "title": "Looking for an easy way to save money? Make it automatic | Consumer Financial Protection Bureau",
+        "authors": "Liane Fiano",
+        "publication": "Consumer Financial Protection Bureau, August 26, 2019",
+        "url": "https://www.consumerfinance.gov/archive/blog/looking-easy-way-save-money-make-it-automatic/",
+        "researchSourceId": "S20"
+      }
+    ],
+    "id": "the-trip-fund-is-not-the-emergency-fund-20261017",
+    "date": "2026-10-17",
+    "editionDate": "2026-10-17",
+    "url": "article.html?id=the-trip-fund-is-not-the-emergency-fund-20261017",
+    "read": 6,
+    "author": "WILDWIRE Editorial",
+    "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+    "image": "images/generated/the-trip-fund-is-not-the-emergency-fund-20261017.webp",
+    "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Trip Fund Is Not the Emergency Fund. A getaway can be a shared plan without becoming a shared pile of money. Set the number, agree on contributions and keep your safety cushion out of the itinerary.\nPeople: two friends of different genders traveling together. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: Two friends sit at a sunlit kitchen table with a folded map, an open notebook listing travel costs, and two phones displaying separate savings balances; the scene feels collaborative without suggesting they have combined their money.\nAvoid repeating these recent WILDWIRE image scenes: Two stylish women friends walk with purpose along a rain-darkened city street. | A Middle Eastern woman and Black man share a thoughtful conversation at their kitchen table. | A woman and man sharing a thoughtful conversation across a candlelit dinner table | A couple sits together at a kitchen table, listening carefully in late afternoon light. | Two friends prepare a bean and tomato skillet together in a warm home kitchen. | A woman and man look across the lights of an old Mediterranean city toward the sea | Two partners share coffee in a sunlit kitchen | First light spreading over a quiet landscape at sunrise | Two people sit absorbed in a burgundy repertory cinema, surrounded by warm aisle lights | Two partners review household paperwork with a notebook and calculator at home. | Two friends compare paperbacks in a neighborhood bookshop. | Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Two travelers study a map together at a coastal rail station above a harbor. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | A woman and a man training in a bright community gym, each focused on a controlled dumbbell set while the other waits nearby. | Two friends compare the care labels inside a jacket and knit top beside a laundry basket. | Two women sit side by side on a blanket in a dark, open field, looking up at a wide night sky. | A couple sits with an older relative at a kitchen table, sharing a family story over tea. | Two friends sit at a kitchen table comparing separate hand-drawn home floor plans, with a clear doorway and window visible behind them.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+    "imageGenerator": "gpt-image-2.5-flare",
+    "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+    "imageVisualCheck": {
+      "passed": true,
+      "peopleCount": 2,
+      "issues": []
+    }
   },
   {
     "id": "tomato-bean-skillet",
@@ -1142,45 +1868,75 @@ window.WILDWIRE_ARTICLES = [
 ];
 window.WILDWIRE_PILLAR_IMAGES = {
   "Strength": {
-    "image": "images/pillar-strength-focus-20261016.webp",
-    "alt": "A woman and a man push weighted training sleds with focused effort in a gym.",
-    "provenance": "Existing image from the founder-approved October 16 manual edition; original asset retained.",
+    "image": "images/generated/pillar-strength-20261017.webp",
+    "alt": "Two training partners prepare for a focused strength session in a practical neighborhood gym.",
+    "prompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Take the wider view: Strength. Two training partners prepare for a focused strength session in a practical neighborhood gym.\nPeople: a couple with visibly different ages and life experience. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: serious, focused partners training with controlled effort; no smiling while lifting.\nScene concept: Two training partners prepare for a focused strength session in a practical neighborhood gym.\nAvoid repeating these recent WILDWIRE image scenes: Two friends prepare a bean and tomato skillet together in a warm home kitchen. | A woman and man look across the lights of an old Mediterranean city toward the sea | Two partners share coffee in a sunlit kitchen | First light spreading over a quiet landscape at sunrise | Two people sit absorbed in a burgundy repertory cinema, surrounded by warm aisle lights | Two partners review household paperwork with a notebook and calculator at home. | Two friends compare paperbacks in a neighborhood bookshop. | Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Two travelers study a map together at a coastal rail station above a harbor. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | A woman and a man training in a bright community gym, each focused on a controlled dumbbell set while the other waits nearby. | Two friends compare the care labels inside a jacket and knit top beside a laundry basket. | Two women sit side by side on a blanket in a dark, open field, looking up at a wide night sky. | A couple sits with an older relative at a kitchen table, sharing a family story over tea. | Two friends sit at a kitchen table comparing separate hand-drawn home floor plans, with a clear doorway and window visible behind them. | Two friends at a kitchen table compare a handwritten trip budget with a map and separate savings notes. | Two friends on dry sand looking toward the surf while one points to a beach safety sign near a lifeguard stand. | Two friends compare notes beside an open kitchen window, with a range hood and a home air filter visible nearby. | Three generations of a family seated around a table, comparing colorful thread and fabric patches beside a mended jacket.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+    "imageGenerator": "gpt-image-2.5-flare",
     "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
-    "sha256": "a105ebdefc451a646d0af02f7e0f9d0bb5cb81d2b9e2e7e4edcd1ad348590582"
+    "visualCheck": {
+      "passed": true,
+      "peopleCount": 2,
+      "issues": []
+    }
   },
   "Style": {
-    "image": "images/pillar-style-drive-20261016.webp",
-    "alt": "Two companions in tailored burgundy and ivory outfits walk with purpose through a city.",
-    "provenance": "Existing image from the founder-approved October 16 manual edition; original asset retained.",
+    "image": "images/generated/pillar-style-20261017.webp",
+    "alt": "Two sharply dressed friends walk with calm runway confidence through an urban street.",
+    "prompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Take the wider view: Style. Two sharply dressed friends walk with calm runway confidence through an urban street.\nPeople: two women partners with distinct builds and features. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: confident, well-dressed friends with runway energy grounded in attainable real life.\nScene concept: Two sharply dressed friends walk with calm runway confidence through an urban street.\nAvoid repeating these recent WILDWIRE image scenes: A woman and man look across the lights of an old Mediterranean city toward the sea | Two partners share coffee in a sunlit kitchen | First light spreading over a quiet landscape at sunrise | Two people sit absorbed in a burgundy repertory cinema, surrounded by warm aisle lights | Two partners review household paperwork with a notebook and calculator at home. | Two friends compare paperbacks in a neighborhood bookshop. | Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Two travelers study a map together at a coastal rail station above a harbor. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | A woman and a man training in a bright community gym, each focused on a controlled dumbbell set while the other waits nearby. | Two friends compare the care labels inside a jacket and knit top beside a laundry basket. | Two women sit side by side on a blanket in a dark, open field, looking up at a wide night sky. | A couple sits with an older relative at a kitchen table, sharing a family story over tea. | Two friends sit at a kitchen table comparing separate hand-drawn home floor plans, with a clear doorway and window visible behind them. | Two friends at a kitchen table compare a handwritten trip budget with a map and separate savings notes. | Two friends on dry sand looking toward the surf while one points to a beach safety sign near a lifeguard stand. | Two friends compare notes beside an open kitchen window, with a range hood and a home air filter visible nearby. | Three generations of a family seated around a table, comparing colorful thread and fabric patches beside a mended jacket. | Two training partners prepare for a focused strength session in a practical neighborhood gym.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+    "imageGenerator": "gpt-image-2.5-flare",
     "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
-    "sha256": "97deed9eca9e237db225bbfda1a14760ec0fcd1ff9093b078fd47478b68b9671"
+    "visualCheck": {
+      "passed": true,
+      "peopleCount": 2,
+      "issues": []
+    }
   },
   "Explore": {
-    "image": "images/pillar-explore-partners-20261016.webp",
-    "alt": "Two hiking partners climb a coastal trail above the sea.",
-    "provenance": "Existing image from the founder-approved October 16 manual edition; original asset retained.",
+    "image": "images/generated/pillar-explore-20261017.webp",
+    "alt": "Two travel partners study a city map at a vivid street corner, ready to explore.",
+    "prompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Take the wider view: Explore. Two travel partners study a city map at a vivid street corner, ready to explore.\nPeople: an adult couple with one older family member. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two travel partners study a city map at a vivid street corner, ready to explore.\nAvoid repeating these recent WILDWIRE image scenes: Two partners share coffee in a sunlit kitchen | First light spreading over a quiet landscape at sunrise | Two people sit absorbed in a burgundy repertory cinema, surrounded by warm aisle lights | Two partners review household paperwork with a notebook and calculator at home. | Two friends compare paperbacks in a neighborhood bookshop. | Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Two travelers study a map together at a coastal rail station above a harbor. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | A woman and a man training in a bright community gym, each focused on a controlled dumbbell set while the other waits nearby. | Two friends compare the care labels inside a jacket and knit top beside a laundry basket. | Two women sit side by side on a blanket in a dark, open field, looking up at a wide night sky. | A couple sits with an older relative at a kitchen table, sharing a family story over tea. | Two friends sit at a kitchen table comparing separate hand-drawn home floor plans, with a clear doorway and window visible behind them. | Two friends at a kitchen table compare a handwritten trip budget with a map and separate savings notes. | Two friends on dry sand looking toward the surf while one points to a beach safety sign near a lifeguard stand. | Two friends compare notes beside an open kitchen window, with a range hood and a home air filter visible nearby. | Three generations of a family seated around a table, comparing colorful thread and fabric patches beside a mended jacket. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+    "imageGenerator": "gpt-image-2.5-flare",
     "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
-    "sha256": "782c7b1fcab2eaa02e3762c0fe3e08581261000fc40baf25fa88ccfe4cd8c457"
+    "visualCheck": {
+      "passed": true,
+      "peopleCount": 3,
+      "issues": []
+    }
   },
   "Culture": {
-    "image": "images/pillar-culture-question-20261016.webp",
-    "alt": "Two companions discuss a photograph in a gallery.",
-    "provenance": "Existing image from the founder-approved October 16 manual edition; original asset retained.",
+    "image": "images/generated/pillar-culture-20261017.webp",
+    "alt": "Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious.",
+    "prompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Take the wider view: Culture. Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious.\nPeople: two men friends with different backgrounds. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: thoughtful companions paying attention, discussing or questioning something cultural.\nScene concept: Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious.\nAvoid repeating these recent WILDWIRE image scenes: First light spreading over a quiet landscape at sunrise | Two people sit absorbed in a burgundy repertory cinema, surrounded by warm aisle lights | Two partners review household paperwork with a notebook and calculator at home. | Two friends compare paperbacks in a neighborhood bookshop. | Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Two travelers study a map together at a coastal rail station above a harbor. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | A woman and a man training in a bright community gym, each focused on a controlled dumbbell set while the other waits nearby. | Two friends compare the care labels inside a jacket and knit top beside a laundry basket. | Two women sit side by side on a blanket in a dark, open field, looking up at a wide night sky. | A couple sits with an older relative at a kitchen table, sharing a family story over tea. | Two friends sit at a kitchen table comparing separate hand-drawn home floor plans, with a clear doorway and window visible behind them. | Two friends at a kitchen table compare a handwritten trip budget with a map and separate savings notes. | Two friends on dry sand looking toward the surf while one points to a beach safety sign near a lifeguard stand. | Two friends compare notes beside an open kitchen window, with a range hood and a home air filter visible nearby. | Three generations of a family seated around a table, comparing colorful thread and fabric patches beside a mended jacket. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+    "imageGenerator": "gpt-image-2.5-flare",
     "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
-    "sha256": "031830f49882727466d33cd766c87739822afd05acfcc856a4dd8fb4ac44ba5a"
+    "visualCheck": {
+      "passed": true,
+      "peopleCount": 2,
+      "issues": []
+    }
   },
   "Living": {
-    "image": "images/pillar-living-partners-20261016.webp",
-    "alt": "A couple share a drink and an open notebook on a leafy terrace.",
-    "provenance": "Existing image from the founder-approved October 16 manual edition; original asset retained.",
+    "image": "images/generated/pillar-living-20261017.webp",
+    "alt": "A couple and a family member prepare a simple meal together in a warm, lived-in kitchen.",
+    "prompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Take the wider view: Living. A couple and a family member prepare a simple meal together in a warm, lived-in kitchen.\nPeople: A couple and a family member prepare a simple meal together in a warm, lived-in kitchen.. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: A couple and a family member prepare a simple meal together in a warm, lived-in kitchen.\nAvoid repeating these recent WILDWIRE image scenes: Two people sit absorbed in a burgundy repertory cinema, surrounded by warm aisle lights | Two partners review household paperwork with a notebook and calculator at home. | Two friends compare paperbacks in a neighborhood bookshop. | Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Two travelers study a map together at a coastal rail station above a harbor. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | A woman and a man training in a bright community gym, each focused on a controlled dumbbell set while the other waits nearby. | Two friends compare the care labels inside a jacket and knit top beside a laundry basket. | Two women sit side by side on a blanket in a dark, open field, looking up at a wide night sky. | A couple sits with an older relative at a kitchen table, sharing a family story over tea. | Two friends sit at a kitchen table comparing separate hand-drawn home floor plans, with a clear doorway and window visible behind them. | Two friends at a kitchen table compare a handwritten trip budget with a map and separate savings notes. | Two friends on dry sand looking toward the surf while one points to a beach safety sign near a lifeguard stand. | Two friends compare notes beside an open kitchen window, with a range hood and a home air filter visible nearby. | Three generations of a family seated around a table, comparing colorful thread and fabric patches beside a mended jacket. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+    "imageGenerator": "gpt-image-2.5-flare",
     "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
-    "sha256": "8036b50d6b08614e55ace9fc151dacb09cf754c6d54bf3ad71ee25e3a89bf88f"
+    "visualCheck": {
+      "passed": true,
+      "peopleCount": 3,
+      "issues": []
+    }
   },
   "Finance": {
-    "image": "images/pillar-finance-20261016.webp",
-    "alt": "Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe.",
-    "provenance": "New image generated with built-in image generation for the approved Finance expansion on October 16, 2026.",
+    "image": "images/generated/pillar-finance-20261017.webp",
+    "alt": "Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting.",
+    "prompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Take the wider view: Finance. Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting.\nPeople: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting.. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting.\nAvoid repeating these recent WILDWIRE image scenes: Two partners review household paperwork with a notebook and calculator at home. | Two friends compare paperbacks in a neighborhood bookshop. | Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Two travelers study a map together at a coastal rail station above a harbor. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | A woman and a man training in a bright community gym, each focused on a controlled dumbbell set while the other waits nearby. | Two friends compare the care labels inside a jacket and knit top beside a laundry basket. | Two women sit side by side on a blanket in a dark, open field, looking up at a wide night sky. | A couple sits with an older relative at a kitchen table, sharing a family story over tea. | Two friends sit at a kitchen table comparing separate hand-drawn home floor plans, with a clear doorway and window visible behind them. | Two friends at a kitchen table compare a handwritten trip budget with a map and separate savings notes. | Two friends on dry sand looking toward the surf while one points to a beach safety sign near a lifeguard stand. | Two friends compare notes beside an open kitchen window, with a range hood and a home air filter visible nearby. | Three generations of a family seated around a table, comparing colorful thread and fabric patches beside a mended jacket. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+    "imageGenerator": "gpt-image-2.5-flare",
     "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
-    "sha256": "aefccc2e6c7ca59593c3e1c730bfa86e261e0cb86613ab7ac91533cf5cdc26fb"
+    "visualCheck": {
+      "passed": true,
+      "peopleCount": 2,
+      "issues": []
+    }
   }
 };

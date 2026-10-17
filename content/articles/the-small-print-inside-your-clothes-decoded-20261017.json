@@ -1,0 +1,76 @@
+{
+  "category": "Style",
+  "title": "The Small Print Inside Your Clothes, Decoded",
+  "subtitle": "Fiber content and care instructions answer different questions. Here’s how to read both, choose a sensible wash, and avoid treating every laundry symbol chart as universal.",
+  "imageAlt": "Two friends compare the care labels inside a jacket and knit top beside a laundry basket.",
+  "imageConcept": "A close, warm domestic scene: two friends sit at a table with a jacket and knit top turned inside out, comparing their sewn-in labels while a laundry basket and folded towels sit nearby. The small print is visible as texture, not legible copy; the focus is on shared attention rather than one person teaching the other.",
+  "body": [
+    [
+      "A label is two kinds of information",
+      "The tag tucked into a side seam can look like one dense block of instructions. Read it as two separate conversations. Fiber content describes what a textile is made from; care instructions tell you how the garment is meant to be cleaned and finished. In the United States, these are distinct labeling requirements, even when the information shares one tag. Most covered textile and wool products also must identify their country of origin and the responsible business [1].\n\nThat distinction matters in practice. “Cotton” is not a wash setting, and “dry clean” is not a fiber. A garment’s construction, color, finish, lining, trims, and combination of materials can all influence its care. Start by finding the part of the label that answers the question you have, rather than treating every line as a single code."
+    ],
+    [
+      "Fiber content: what the fabric is made of",
+      "Fiber-content wording typically names the fibers and gives their proportions, such as a cotton-polyester blend. The percentages help you understand the material, but they do not independently determine the safest way to wash the finished garment. Two pieces with similar fiber content may behave differently because one is tightly woven, one is knitted, or one includes a lining or delicate embellishment.\n\nUse the fiber line as context, not permission to override the care line. It can help explain why a garment feels, drapes, or responds differently from another, and it can be useful when comparing similar items. But if a favorite top says to use a particular method, don’t replace that instruction with a rule you remember about its largest fiber percentage. The garment is more than its raw material."
+    ],
+    [
+      "Care instructions: what the maker recommends",
+      "Care labeling in the U.S. is intended to give instructions for regular care, and the instructions must have a reasonable basis. The Federal Trade Commission’s guide explains how the rule applies to care instructions and symbols [2]. That makes the label a useful starting point: it is the maker’s stated guidance for caring for that item, not a promise that every possible stain or repair is covered.\n\nBefore washing, scan for both the main instruction and any warning. A label may say to machine wash while also specifying a temperature or a gentler process; it may identify a drying method or caution against a particular treatment. If the tag is faded or cut out, check the product page or contact the brand if you can. If the information is unavailable, be conservative: avoid heat and aggressive agitation until you have a better sense of the fabric and construction."
+    ],
+    [
+      "Read the symbols as a sequence, not a puzzle",
+      "The FTC says care symbols may be used in place of words if they meet the requirements of the Care Labeling Rule [2]. Treat those as clues, then confirm the meaning against a reliable chart for the system on your garment.\n\nHere is the important U.S.-specific caveat: the care symbols commonly associated with the American ASTM system and the international ISO system are similar, but not identical [2]. A chart made for another market may explain a symbol differently or omit a distinction found on a U.S.-sold item. Don’t assume one infographic is a universal decoder. If the symbol remains unclear, look for accompanying words or consult the FTC’s U.S. care-label guidance."
+    ],
+    [
+      "Turn the label into a wash decision",
+      "Once you have read the care instructions, make the decision in a simple order. First, check whether the item can be washed at home or calls for professional care. Next, follow any stated temperature, cycle, or handling limits. Then check drying and ironing separately; a garment that can be washed may still have a restriction on how it should be dried or finished.\n\nIf machine washing is allowed, sort by color and by how much friction or care items are likely to need. Close zippers and fasten hooks that could catch on other fabrics. Use the cycle and temperature indicated on the label rather than choosing settings from the fiber name alone. If a piece is especially delicate, putting it in a mesh bag can reduce tangling, but that does not cancel a label’s warning or make an unsuitable process safe. When in doubt, pause before adding heat: drying and ironing are separate steps, and a wash instruction does not automatically authorize either one."
+    ],
+    [
+      "Why one setting cannot suit every garment",
+      "It is tempting to search for a single “best” laundry setting, but garment care involves trade-offs. Research on washing-machine settings discusses how temperature, agitation, cycle choice, detergents, and textile construction can affect clothing [3]. That is a reason to follow the item’s instructions and consider the garment as a whole—not a reason to assume a particular setting will work for everything.\n\nFabric variation matters beyond appearance. The Phys.org article reports that open fabric structures, such as knits with loose yarns, can lose more fibers during washing than tighter structures [3]. Those findings do not establish one best practice for every garment; they show why broad claims about all fabrics can mislead. For your own load, the practical approach is less dramatic: follow the label, avoid unnecessarily harsh treatment, and don’t use one item’s successful routine as proof that another can handle it."
+    ],
+    [
+      "A quick label check before laundry day",
+      "Keep the process small enough to repeat. Before a new garment’s first wash, locate the fiber and care information and note any instruction that changes your usual routine. If you remove a tag because it irritates your skin, photograph it first or save the care information with the garment. For a confusing symbol, compare it with a U.S.-specific reference rather than relying on an unlabeled chart shared online.\n\nThen make the care choice for the item in front of you: use the stated wash method, respect the stated limits, and check drying and ironing as their own decisions. That habit won’t make every fabric behave predictably, and it doesn’t replace professional help for a difficult stain or an unclear instruction. It does make the little print more useful. The label is not a style verdict or a test of expertise; it is one practical piece of information that can help you keep wearing what you already own."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S57",
+      "title": "Threading Your Way Through the Labeling Requirements Under the Textile and Wool Acts",
+      "authors": "Federal Trade Commission",
+      "publication": "Federal Trade Commission, July 2014",
+      "url": "https://www.ftc.gov/business-guidance/resources/threading-your-way-through-labeling-requirements-under-textile-wool-acts"
+    },
+    {
+      "sourceId": "S56",
+      "title": "Clothes Captioning: Complying with the Care Labeling Rule",
+      "authors": "Federal Trade Commission",
+      "publication": "Federal Trade Commission, May 2014",
+      "url": "https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule"
+    },
+    {
+      "sourceId": "S41",
+      "title": "What washing machine settings can I use to make my clothes last longer?",
+      "authors": "Alessandra Sutti, Amol Patil, and Maryam Naebe",
+      "publication": "Phys.org, March 16, 2024",
+      "url": "https://phys.org/news/2024-03-machine-longer.html"
+    }
+  ],
+  "id": "the-small-print-inside-your-clothes-decoded-20261017",
+  "date": "2026-10-17",
+  "editionDate": "2026-10-17",
+  "url": "article.html?id=the-small-print-inside-your-clothes-decoded-20261017",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-small-print-inside-your-clothes-decoded-20261017.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Small Print Inside Your Clothes, Decoded. Fiber content and care instructions answer different questions. Here’s how to read both, choose a sensible wash, and avoid treating every laundry symbol chart as universal.\nPeople: a couple with visibly different ages and life experience. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: confident, well-dressed friends with runway energy grounded in attainable real life.\nScene concept: A close, warm domestic scene: two friends sit at a table with a jacket and knit top turned inside out, comparing their sewn-in labels while a laundry basket and folded towels sit nearby. The small print is visible as texture, not legible copy; the focus is on shared attention rather than one person teaching the other.\nAvoid repeating these recent WILDWIRE image scenes: Three generations of a family prepare a simple dinner together in a lived-in kitchen. | Two male friends quietly discuss a large abstract painting in a contemporary gallery. | A focused woman sets up a deadlift while her male training partner watches attentively in a neighborhood gym. | Two stylish women friends walk with purpose along a rain-darkened city street. | A Middle Eastern woman and Black man share a thoughtful conversation at their kitchen table. | A woman and man sharing a thoughtful conversation across a candlelit dinner table | A couple sits together at a kitchen table, listening carefully in late afternoon light. | Two friends prepare a bean and tomato skillet together in a warm home kitchen. | A woman and man look across the lights of an old Mediterranean city toward the sea | Two partners share coffee in a sunlit kitchen | First light spreading over a quiet landscape at sunrise | Two people sit absorbed in a burgundy repertory cinema, surrounded by warm aisle lights | Two partners review household paperwork with a notebook and calculator at home. | Two friends compare paperbacks in a neighborhood bookshop. | Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Two travelers study a map together at a coastal rail station above a harbor. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | A woman and a man training in a bright community gym, each focused on a controlled dumbbell set while the other waits nearby.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
