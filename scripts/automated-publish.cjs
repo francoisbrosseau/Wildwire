@@ -228,7 +228,14 @@ async function apiRequest(payload, label) {
       try { body = JSON.parse(raw); } catch { body = { error: { message: raw.slice(0, 400) } }; }
       if (response.ok) {
         if (body.status && body.status !== 'completed') {
-          retryable = false;
+          const truncated = body.status === 'incomplete' && body.incomplete_details?.reason === 'max_output_tokens';
+          const previousLimit = payload.max_output_tokens || 8000;
+          retryable = truncated && previousLimit < 32000;
+          if (retryable) payload = { ...payload, max_output_tokens: Math.min(previousLimit * 2, 32000) };
+          if (runReport) {
+            runReport.requests.push({ label, status: body.status, reason: body.incomplete_details?.reason, model: payload.model, usage: body.usage || null });
+            saveReport();
+          }
           fail(`${label}: API response ${body.status} (${body.incomplete_details?.reason || body.error?.message || 'no complete output'}).`);
         }
         log(`${label}: completed in ${Math.round((Date.now() - started) / 1000)}s.`);
@@ -262,7 +269,7 @@ async function textCall(input, useSearch = false, schema = null, label = '') {
     tools: useSearch ? [{ type: 'web_search' }] : [],
     tool_choice: useSearch ? 'required' : undefined,
     include: useSearch ? ['web_search_call.action.sources'] : undefined,
-    max_output_tokens: 8000,
+    max_output_tokens: useSearch ? 16000 : 8000,
   }, label || (useSearch ? 'Research / fact-check' : 'Article generation'));
   const text = responseText(response);
   if (!text) fail('Responses API returned no text.');

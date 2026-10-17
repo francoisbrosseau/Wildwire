@@ -121,9 +121,17 @@ try {
     await apiRequest({model:'test'},'Mock transient outage');
     assert.equal(calls,2,'A transient server failure is retried successfully');
     calls = 0;
+    const limits = [];
+    global.fetch = async (_url, options) => {
+      calls++; limits.push(JSON.parse(options.body).max_output_tokens);
+      return new Response(JSON.stringify(calls === 1 ? {status:'incomplete',incomplete_details:{reason:'max_output_tokens'}} : {status:'completed',output:[]}));
+    };
+    await apiRequest({model:'test',max_output_tokens:8000},'Mock truncation recovery');
+    assert.deepEqual(limits,[8000,16000],'A truncated response is discarded and retried with more output space');
+    calls = 0;
     global.fetch = async () => { calls++; return new Response(JSON.stringify({status:'incomplete',incomplete_details:{reason:'max_output_tokens'}})); };
-    await assert.rejects(apiRequest({model:'test'},'Mock truncation'),/incomplete/);
-    assert.equal(calls,1,'Truncated responses cannot silently become accepted articles');
+    await assert.rejects(apiRequest({model:'test',max_output_tokens:32000},'Mock truncation cap'),/incomplete/);
+    assert.equal(calls,1,'Responses still truncated at the cap cannot become accepted articles');
   } finally { global.fetch = originalFetch; }
   console.log('Editorial engine checks passed, including forged source URLs, invalid source IDs, permanent API failures, transient retries and incomplete output.');
 })().catch(error => { console.error(error); process.exitCode=1; });

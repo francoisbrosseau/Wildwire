@@ -172,3 +172,19 @@ complete production path is tested and enabled.
 ## Finance expansion — October 16, 2026
 
 The founder requested Finance as a sixth daily pillar. The current format is now nine stories (six pillars plus three Daily Reads) and fifteen unique images (nine covers plus six separate pillar tiles). Finance is included in generation, catalog building, homepage/category navigation and public verification. Existing stories and image bytes remain preserved. The original eight-story preview and cost sample above predate this expansion; they do not measure the expanded format. No API billing limit or schedule was changed.
+
+## October 17 morning failure and recovery
+
+The recorded scheduled run started at 07:40 Toronto, after the ready-by target.
+Strength passed; Style research exhausted max_output_tokens after its first
+candidate was rejected. No edition was committed or deployed. The exact cause
+of the absent early schedule events is not exposed by the available run logs.
+Research now has 16,000 output tokens; truncated responses are discarded and
+retried with bounded increases up to 32,000, never accepted as complete.
+Incomplete API usage is included in diagnostics.
+Scheduled starts now target 00:17, 02:17, 04:17 and 05:17 America/Toronto.
+This supersedes the earlier two-start schedule and hard 06:40 cutoff: a late
+complete validated edition is published with a warning instead of discarded.
+GitHub scheduling remains best-effort. No exact-time guarantee is implied.
+A date-limited push recovery trigger restores the October 17 run artifacts.
+Remove this temporary trigger and marker after today's publication is verified.
