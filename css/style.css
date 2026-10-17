@@ -247,3 +247,12 @@ body{background:var(--bg);color:var(--cream)}
 
 /* RITUWILD stacked identity preserves generous clear space. */
 .network-rituwild-wordmark{width:260px;max-width:100%;height:auto}.network-rituwild-lockup{min-height:110px}
+
+/* Three distinct peer brands, with room for their original artwork. */
+.network-footer{grid-template-columns:minmax(180px,1.1fr) repeat(3,minmax(0,1fr));gap:32px}
+.network-lunara-lockup{display:flex;align-items:center;width:250px;max-width:100%;min-height:110px}
+.network-lunara-lockup img{display:block;width:250px;max-width:100%;height:auto}
+.network-brand:focus-visible{outline:2px solid var(--gold);outline-offset:8px;border-radius:2px}
+@media(max-width:1100px){.network-footer{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}.network-intro{grid-column:1/-1}}
+@media(max-width:760px){.network-footer{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}}
+@media(max-width:600px){.network-footer{grid-template-columns:1fr}.network-intro{grid-column:auto}.network-lunara-lockup{min-height:85px;width:250px}}
