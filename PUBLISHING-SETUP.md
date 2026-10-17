@@ -188,3 +188,9 @@ complete validated edition is published with a warning instead of discarded.
 GitHub scheduling remains best-effort. No exact-time guarantee is implied.
 A date-limited push recovery trigger restores the October 17 run artifacts.
 Remove this temporary trigger and marker after today's publication is verified.
+
+The resumed run validated Strength, Style, Explore and Culture, then rejected a
+Living review that used an unrecognized research source ID. Reviews now receive
+three source IDs matching citation positions; original research IDs and all
+verified URLs remain preserved. Unknown corrections still fail, with one bounded
+fresh-topic fallback instead of terminating the entire edition immediately.
