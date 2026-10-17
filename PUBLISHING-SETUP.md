@@ -217,3 +217,13 @@ unchanged evidence URLs, consistent tile scenes, and four early scheduled starts
 Activity-bearing group identities no longer force travel into unrelated scenes.
 A late complete validated edition publishes with a warning. GitHub scheduling
 is still best-effort; the next unattended edition remains to be observed.
+
+## Optional Founder’s Desk — awaiting presentation approval
+
+A separate text-only note job follows successful magazine deployment and public
+verification in the existing workflow. The magazine’s schedule and its publish,
+deploy and verify jobs are unchanged. Recurring notes are explicitly disabled
+in config/founders-desk.json pending founder approval. The October 17 note is a
+labeled AI-assisted editorial sample, not personally authored copy. See
+FOUNDER-DESK-OPERATIONS.md for gates, preview evidence, bounded retries, cost
+reporting, failure recovery and independent pause controls.

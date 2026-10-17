@@ -15,3 +15,9 @@ must use a complete validated edition and explicit GitHub Pages deployment.
 Do not describe a preview or a prepared schedule as operational automation.
 
 Finance expansion approved October 16, 2026: six pillar features, three Daily Reads, fifteen unique images. Finance explains money, investing, mortgages and crypto using primary sources and explicit jurisdiction where relevant. Educational coverage only: no personalized financial recommendations, asset picks or return promises. Preserve the other five categories and all existing reader features.
+
+Founder’s Desk: an optional independent note component follows successful magazine
+deployment. Read FOUNDER-DESK-OPERATIONS.md and FOUNDER-DESK-EDITORIAL.md before
+changes. Recurring notes remain disabled until explicit approval of presentation
+and sample. Never disclose private founder biography or imply direct authorship.
+Never make a note failure block the nine-story magazine.

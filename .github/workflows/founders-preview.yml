@@ -1,0 +1,38 @@
+name: Preview Founder’s Desk generation (no publication)
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/*founder*.cjs'
+      - 'FOUNDER-DESK-EDITORIAL.md'
+      - '.github/workflows/founders-preview.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preview:
+    # Never expose repository secrets to a fork or an untrusted contributor.
+    if: github.event_name == 'workflow_dispatch' || (github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.user.login == github.repository_owner)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Exercise the real API without writing any public note
+        run: |
+          node -e "const fs=require('fs'),{generate}=require('./scripts/generate-founder-note.cjs');generate({preview:true,now:new Date(Date.now()+86400000)}).then(r=>{if(r.status!=='PREVIEW_PASSED')throw Error('Preview did not generate and review a new note');fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,'## Founder’s Desk preview passed\n\n'+r.note.title+'\n\n'+r.note.paragraphs.join('\n\n')+'\n\nPreview only: no public files changed, no commit, no deployment.\n');}).catch(e=>{console.error(e);process.exitCode=1;})"
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      - name: Confirm the preview did not change the publication
+        run: test -z "$(git status --porcelain --untracked-files=no)"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: founders-desk-api-preview
+          path: .wildwire-runs/founders-preview
+          retention-days: 14
+          include-hidden-files: true
