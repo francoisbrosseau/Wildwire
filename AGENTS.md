@@ -21,3 +21,8 @@ deployment. Read FOUNDER-DESK-OPERATIONS.md and FOUNDER-DESK-EDITORIAL.md before
 changes. Recurring notes remain disabled until explicit approval of presentation
 and sample. Never disclose private founder biography or imply direct authorship.
 Never make a note failure block the nine-story magazine.
+
+October 17 reader-facing label preference: omit public AI-generation/assistance
+notices and image-credit annotations, per the founder’s explicit request. Keep
+neutral WILDWIRE Editorial attribution, internal provenance, and all protections
+against fabricated founder biography or personal authorship claims.

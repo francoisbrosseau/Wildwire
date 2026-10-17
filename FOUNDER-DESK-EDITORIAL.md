@@ -37,7 +37,7 @@ curiosity; relationships and independence; perspective and uncertainty; humor
 and everyday contradictions. Rotate subject AND angle, mood, structure and ending.
 
 Attribution is fixed by the publisher: WILDWIRE Editorial — The Founder's Desk.
-Full disclosure is fixed by the publisher and appears on archive and note pages:
-The Founder's Desk is an automated editorial series shaped by WILDWIRE's founding
-philosophy. Its reflections are developed with AI assistance and are not
-individually written or approved by the founder.
+Public presentation uses neutral WILDWIRE Editorial attribution. At the founder's
+explicit October 17 request, do not add AI-generation notices or tool credits to
+reader-facing prose. Do not claim direct founder authorship or invent personal
+experience. Internal provenance and the same authenticity checks remain intact.
