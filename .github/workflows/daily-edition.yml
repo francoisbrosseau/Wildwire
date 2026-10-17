@@ -199,3 +199,107 @@ jobs:
           if [ "$count" = 0 ]; then
             gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "A complete edition was committed but deployment or public verification failed. Inspect Pages before deciding whether to redeploy or revert. Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           fi
+
+  founders:
+    # This component starts only AFTER the magazine has deployed and verified.
+    # A note failure cannot block, replace or roll back the main edition.
+    needs: [publish, deploy, verify]
+    if: always() && needs.verify.result == 'success' && needs.publish.outputs.live == 'true'
+    continue-on-error: true
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    permissions:
+      contents: write
+      actions: read
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+      revision: ${{ steps.commit.outputs.revision }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Check separate founder approval and pause controls
+        id: gate
+        run: |
+          node -e "const fs=require('fs'),{enabled}=require('./scripts/generate-founder-note.cjs');const on=enabled(require('./config/founders-desk.json'));const date=require('./scripts/founders-desk-core.cjs').torontoDate();fs.appendFileSync(process.env.GITHUB_OUTPUT,'enabled='+on+'\ndate='+date+'\n');console.log(on?'Founder’s Desk enabled':'Founder’s Desk disabled; no API call or note publication.')"
+        env:
+          WILDWIRE_FOUNDERS_PAUSED: ${{ vars.WILDWIRE_FOUNDERS_PAUSED }}
+      - name: Restore independently validated note work
+        if: steps.gate.outputs.enabled == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: .wildwire-runs/founders
+          key: founder-${{ steps.gate.outputs.date }}-${{ hashFiles('scripts/*founder*.cjs', 'FOUNDER-DESK-EDITORIAL.md') }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: founder-${{ steps.gate.outputs.date }}-${{ hashFiles('scripts/*founder*.cjs', 'FOUNDER-DESK-EDITORIAL.md') }}-
+      - name: Generate or recover one independently reviewed note
+        id: note
+        if: steps.gate.outputs.enabled == 'true'
+        run: node scripts/generate-founder-note.cjs
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          WILDWIRE_FOUNDERS_PAUSED: ${{ vars.WILDWIRE_FOUNDERS_PAUSED }}
+      - name: Validate the note and preserve the working magazine
+        if: steps.note.outputs.changed == 'true'
+        run: |
+          npm install --no-audit --no-fund
+          npm test
+          node scripts/check-content.cjs
+      - name: Preserve validated note recovery work
+        if: always() && steps.gate.outputs.enabled == 'true'
+        uses: actions/cache/save@v4
+        continue-on-error: true
+        with:
+          path: .wildwire-runs/founders
+          key: founder-${{ steps.gate.outputs.date }}-${{ hashFiles('scripts/*founder*.cjs', 'FOUNDER-DESK-EDITORIAL.md') }}-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Keep note usage and actionable editorial diagnostics
+        if: always() && steps.gate.outputs.enabled == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: founders-desk-${{ steps.gate.outputs.date }}-${{ github.run_attempt }}
+          path: .wildwire-runs/founders
+          retention-days: 14
+          include-hidden-files: true
+      - name: Commit a complete validated note without touching articles
+        id: commit
+        if: steps.note.outputs.changed == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/founders-notes js/founders-notes.js founders-desk.html founder-note-*.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish the daily Founder’s Desk note'
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "revision=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+            node -e "console.log('FOUNDER_NOTE_COMMITTED '+new Date().toISOString())"
+          fi
+      - name: Report isolated note failure
+        if: failure()
+        run: echo '::warning::Founder’s Desk failed; the main magazine is already live. Inspect this job and its saved report. Later daily attempts can recover the note.'
+
+  deploy_founders:
+    needs: founders
+    if: needs.founders.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
+    with:
+      revision: ${{ needs.founders.outputs.revision }}
+
+  verify_founders:
+    needs: [founders, deploy_founders]
+    if: needs.deploy_founders.result == 'success'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ needs.founders.outputs.revision }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node scripts/verify-founder-note.cjs

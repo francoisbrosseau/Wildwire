@@ -2,7 +2,7 @@
   "name": "wildwire",
   "private": true,
   "scripts": {
-    "test": "node tests/verify.cjs && node tests/accounts.cjs && node tests/editorial-engine.cjs && node tests/comments.cjs"
+    "test": "node tests/verify.cjs && node tests/accounts.cjs && node tests/editorial-engine.cjs && node tests/comments.cjs && node tests/founders-desk.cjs"
   },
   "devDependencies": {
     "jsdom": "30.1.3"
