@@ -228,10 +228,10 @@ body{background:var(--bg);color:var(--cream)}
 .network-brand:hover>span:last-child{color:var(--cream)}
 .network-hayvn-window{display:block;width:175px;max-width:100%;aspect-ratio:2.7;position:relative;overflow:hidden;background:#030303}
 .network-hayvn-window img{position:absolute;left:-50%;top:-38%;width:200%;max-width:none;height:auto}
-.network-rutiwild-lockup{display:flex;align-items:center;gap:10px;background:#f2ede4;padding:12px 14px;width:205px;max-width:100%;min-height:59px}
-.network-rutiwild-mark{width:29px;height:29px;flex:0 0 auto}
-.network-rutiwild-wordmark{width:135px;max-width:calc(100% - 39px);height:auto}
-@media(max-width:760px){.network-footer{gap:25px;grid-template-columns:1fr 1fr;margin-top:30px;padding-top:25px}.network-intro{grid-column:1/-1}.network-hayvn-window{width:160px}.network-rutiwild-lockup{width:185px;padding:11px 12px;gap:8px}.network-rutiwild-wordmark{width:121px}.network-brand>span:last-child{font-size:.61rem}}
+.network-rituwild-lockup{display:flex;align-items:center;gap:10px;background:#f2ede4;padding:12px 14px;width:205px;max-width:100%;min-height:59px}
+.network-rituwild-mark{width:29px;height:29px;flex:0 0 auto}
+.network-rituwild-wordmark{width:135px;max-width:calc(100% - 39px);height:auto}
+@media(max-width:760px){.network-footer{gap:25px;grid-template-columns:1fr 1fr;margin-top:30px;padding-top:25px}.network-intro{grid-column:1/-1}.network-hayvn-window{width:160px}.network-rituwild-lockup{width:185px;padding:11px 12px;gap:8px}.network-rituwild-wordmark{width:121px}.network-brand>span:last-child{font-size:.61rem}}
 @media(max-width:390px){.network-footer{grid-template-columns:1fr;gap:27px}.network-intro{grid-column:auto}}
 
 /* Larger, unboxed wordmarks; original HAYVN artwork and the VEXLUME serif identity. */
@@ -240,10 +240,10 @@ body{background:var(--bg);color:var(--cream)}
 .network-brand{gap:14px;align-self:stretch;justify-content:center;padding-block:4px;min-height:118px}
 .network-brand>span:last-child{font-size:.69rem;letter-spacing:.01em}
 .network-hayvn-window{width:270px;max-width:100%;background:transparent;mix-blend-mode:screen;aspect-ratio:2.7}
-.network-rutiwild-lockup{background:transparent;padding:0;min-height:100px;width:270px;max-width:100%;display:flex;align-items:center}
-.network-rutiwild-wordmark{width:260px;max-width:100%;height:auto}
+.network-rituwild-lockup{background:transparent;padding:0;min-height:100px;width:270px;max-width:100%;display:flex;align-items:center}
+.network-rituwild-wordmark{width:260px;max-width:100%;height:auto}
 @media(max-width:900px){.network-footer{grid-template-columns:1fr 1fr;gap:25px}.network-intro{grid-column:1/-1}.network-brand{min-height:118px}}
-@media(max-width:600px){.network-footer{grid-template-columns:1fr;gap:28px;padding-top:30px}.network-intro{grid-column:auto}.network-brand{min-height:0;gap:14px;padding:0}.network-hayvn-window{width:270px}.network-rutiwild-lockup{min-height:70px;width:270px}.network-brand>span:last-child{font-size:.7rem}}
+@media(max-width:600px){.network-footer{grid-template-columns:1fr;gap:28px;padding-top:30px}.network-intro{grid-column:auto}.network-brand{min-height:0;gap:14px;padding:0}.network-hayvn-window{width:270px}.network-rituwild-lockup{min-height:70px;width:270px}.network-brand>span:last-child{font-size:.7rem}}
 
-/* RUTIWILD stacked identity preserves generous clear space. */
-.network-rutiwild-wordmark{width:260px;max-width:100%;height:auto}.network-rutiwild-lockup{min-height:110px}
+/* RITUWILD stacked identity preserves generous clear space. */
+.network-rituwild-wordmark{width:260px;max-width:100%;height:auto}.network-rituwild-lockup{min-height:110px}
