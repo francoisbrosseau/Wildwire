@@ -91,7 +91,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           test "$(TZ=America/Toronto date +%F)" = 2026-10-17 || { echo 'Expired recovery request'; exit 1; }
-          gh run download 39041274153 --repo "$GITHUB_REPOSITORY" --pattern 'wildwire-edition-2026-10-17-*' --dir "$RUNNER_TEMP/morning-recovery"
+          gh run download 39042390005 --repo "$GITHUB_REPOSITORY" --pattern 'wildwire-edition-2026-10-17-*' --dir "$RUNNER_TEMP/morning-recovery"
           mkdir -p .wildwire-runs/2026-10-17
           source_dir=$(find "$RUNNER_TEMP/morning-recovery" -type d -path '*/.wildwire-runs/2026-10-17' -print -quit)
           test -n "$source_dir" || { find "$RUNNER_TEMP/morning-recovery" -type f; exit 1; }

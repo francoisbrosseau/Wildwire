@@ -194,3 +194,9 @@ Living review that used an unrecognized research source ID. Reviews now receive
 three source IDs matching citation positions; original research IDs and all
 verified URLs remain preserved. Unknown corrections still fail, with one bounded
 fresh-topic fallback instead of terminating the entire edition immediately.
+
+The next recovery validated all nine stories and their covers plus four category
+tiles. Living's category tile was rejected because a randomly selected article
+pairing requested traveling friends while the approved tile concept requested
+family cooking. Category tiles now use their own approved scene/group as both
+the generation and visual-review brief. Article pairing rotation is unchanged.

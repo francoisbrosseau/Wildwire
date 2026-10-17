@@ -512,7 +512,9 @@ async function main() {
     const concept = PILLAR_SCENES[category];
     const tileArticle = { category, title: `Take the wider view: ${category}`, subtitle: concept, imageAlt: concept, imageConcept: concept };
     const id = `pillar-${category.toLowerCase()}-${date.replaceAll('-', '')}`;
-    const pairing = pairings[(index + 1) % pairings.length];
+    // Category tiles have an approved specific group/scene. An unrelated
+    // activity-bearing article pairing can contradict it (travel vs cooking).
+    const pairing = concept;
     const image = await generateImage(tileArticle, pairing, id, [...existingWithTileHistory, ...results.map(item => item.article), ...pillarImages.map(item => ({ imageAlt: item.imageAlt }))]);
     pillarImages.push({ category, imageAlt: concept, image, imageConcept: concept });
     console.log(`Validated fresh ${category} pillar tile image: ${image.bytes.length} bytes.`);
