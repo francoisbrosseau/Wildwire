@@ -1,6 +1,6 @@
 {
-  "enabled": false,
-  "approvalStatus": "awaiting-founder-review",
-  "approvedAt": null,
+  "enabled": true,
+  "approvalStatus": "approved",
+  "approvedAt": "2026-10-17T15:47:16Z",
   "maxCandidates": 2
 }
