@@ -157,6 +157,14 @@ function bindSources(article, sourceCandidates) {
   return article;
 }
 
+function normalizeReviewSourceIds(article) {
+  // Research can select sparse IDs (S4, S8, S12). The review only sees the
+  // three cited pages, so give those pages IDs matching their citation order.
+  return { ...article, sources: article.sources.map((source, index) => ({
+    ...source, researchSourceId: source.researchSourceId || source.sourceId, sourceId: `S${index + 1}`,
+  })) };
+}
+
 function canonicalEvidenceUrl(value) {
   const url = new URL(value);
   if (url.protocol !== 'https:') fail('Evidence must use HTTPS.');
@@ -415,6 +423,7 @@ async function makeArticle(category, date, pairing, existing, dailyRead = false,
     article = bindSources(parseJson(repaired.text), sourceCandidates);
     if (article.category !== category) fail(`Expanded draft category mismatch for ${category}.`);
   }
+  article = normalizeReviewSourceIds(article);
   const checkedSources = [];
   const audit = [];
   let result;
@@ -476,7 +485,7 @@ async function main() {
           result = await makeArticle(category, date, pairings[index], [...existing, ...previousInEdition], dailyRead, rejectedTopics);
           break;
         } catch (error) {
-          if (topicAttempt || !/Fact check failed|Possible duplicate|Article length|Research returned fewer|inline citation|correction (?:did not match|must be grounded)|Replacement factual text/.test(error.message)) throw error;
+          if (topicAttempt || !/Fact check failed|Fact-check correction references an unknown source ID|Possible duplicate|Article length|Research returned fewer|inline citation|correction (?:did not match|must be grounded)|Replacement factual text/.test(error.message)) throw error;
           rejectedTopics.push(error.message);
           runReport.rejectedCandidates = [...(runReport.rejectedCandidates || []), { category, dailyRead, reason: error.message }];
           saveReport();
@@ -563,4 +572,4 @@ if (require.main === module) main().catch(error => {
   process.exitCode = 1;
 });
 
-module.exports = { torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle, articleSchema, bindSources, applyVerifiedCorrections, canonicalEvidenceUrl, countWords, assertFreshImages, apiRequest, DAILY_READ_COUNT, DAILY_READ_CATEGORIES };
+module.exports = { normalizeReviewSourceIds, torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle, articleSchema, bindSources, applyVerifiedCorrections, canonicalEvidenceUrl, countWords, assertFreshImages, apiRequest, DAILY_READ_COUNT, DAILY_READ_CATEGORIES };

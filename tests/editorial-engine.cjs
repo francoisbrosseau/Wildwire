@@ -1,5 +1,5 @@
 const assert = require('node:assert/strict');
-const { torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle, articleSchema, bindSources, applyVerifiedCorrections, canonicalEvidenceUrl, countWords, assertFreshImages, apiRequest, DAILY_READ_COUNT } = require('../scripts/automated-publish.cjs');
+const { normalizeReviewSourceIds, torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle, articleSchema, bindSources, applyVerifiedCorrections, canonicalEvidenceUrl, countWords, assertFreshImages, apiRequest, DAILY_READ_COUNT } = require('../scripts/automated-publish.cjs');
 
 assert.equal(torontoDate(new Date('2026-01-01T02:00:00Z')), '2025-12-31', 'Toronto date follows local midnight across UTC');
 assert.equal(torontoDate(new Date('2026-01-01T05:00:00Z')), '2026-01-01', 'Toronto calendar date is used after local midnight');
@@ -53,6 +53,10 @@ const living = {...article, category:'Living', title:'A Different Evening Practi
 assert.ok(validateArticle(living, living.sources, [], '2026-10-16') >= 800, 'Living stories finish with a substantial, story-specific practice');
 assert.throws(() => validateArticle({...living, body:[...living.body.slice(0,-1), ['A practice for the walk home', 'Too short.']]}, living.sources, [], '2026-10-16'), /substantial, specific practice/);
 assert.throws(() => validateArticle({...living, body:[...living.body.slice(0,-1), ['A practice for the walk home', longBody]]}, living.sources, [{category:'Living',body:[['Ending',''],['A practice for the walk home',longBody]]}], '2026-10-16'), /repeats an archived closing practice/);
+const sparseReview = normalizeReviewSourceIds({sources: article.sources.map((source,index)=>({...source,sourceId:['S4','S8','S12'][index]}))});
+assert.deepEqual(sparseReview.sources.map(source=>source.sourceId),['S1','S2','S3'],'Review IDs match citation positions even when research selected sparse IDs');
+assert.deepEqual(sparseReview.sources.map(source=>source.researchSourceId),['S4','S8','S12'],'Original research IDs remain in provenance');
+assert.deepEqual(sparseReview.sources.map(source=>source.url),article.sources.map(source=>source.url),'Review ID normalization never changes evidence URLs');
 const registry = article.sources.map((source, index) => ({ ...source, sourceId: `S${index + 1}` }));
 const bound = bindSources({sources: registry.map(source => ({...source, url:'https://fabricated.example/not-verified'}))}, registry);
 assert.deepEqual(bound.sources.map(source => source.url), registry.map(source => source.url), 'Generated URLs never override verified research URLs');
