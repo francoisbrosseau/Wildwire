@@ -38,9 +38,8 @@ The homepage never relabels an old note as today's.
 - Checks: npm test; node scripts/check-content.cjs.
 
 The October 17 sample is AI-assisted editorial copy for visual/voice review,
-not a claim that the founder wrote or individually approved it. All notes and
-the archive show the full disclosure, and the homepage shows a readable shorter
-one. The byline is WILDWIRE Editorial — The Founder's Desk. No private founder
+not a claim that the founder wrote or individually approved it. At the founder’s explicit October 17 request, reader-facing generation
+notices are removed. Notes and the archive retain neutral editorial attribution. The byline is WILDWIRE Editorial — The Founder's Desk. No private founder
 biography enters generation. Samples remain explicitly labeled in the archive.
 
 ## Isolation and retries
@@ -110,3 +109,13 @@ links, static metadata, schema attribution, disclosures, filters, search and
 retention of existing magazine cards. Native browser/viewport tooling is not
 available in this managed session, so no screenshot/browser QA is claimed.
 The founder reviews the deployed sample before the separate activation gate.
+
+## Public label preference — October 17
+
+The founder explicitly requested removal of public AI-assistance/generation
+notices across the website. This supersedes the earlier public-disclosure copy
+requirement. The homepage notice, note/archive disclosure panels and article
+image-credit annotations are removed from rendered pages. Note text, headlines,
+images, URLs, schedules and activation are unchanged. WILDWIRE Editorial remains
+the byline; nothing asserts personal founder or human-only authorship. Internal
+image provenance, generation records and biography/accuracy checks are retained.
