@@ -93,7 +93,10 @@ jobs:
           test "$(TZ=America/Toronto date +%F)" = 2026-10-17 || { echo 'Expired recovery request'; exit 1; }
           gh run download 39029584578 --repo "$GITHUB_REPOSITORY" --pattern 'wildwire-edition-2026-10-17-*' --dir "$RUNNER_TEMP/morning-recovery"
           mkdir -p .wildwire-runs/2026-10-17
-          cp -n "$RUNNER_TEMP/morning-recovery/.wildwire-runs/2026-10-17/"* .wildwire-runs/2026-10-17/
+          source_dir=$(find "$RUNNER_TEMP/morning-recovery" -type d -path '*/.wildwire-runs/2026-10-17' -print -quit)
+          test -n "$source_dir" || { find "$RUNNER_TEMP/morning-recovery" -type f; exit 1; }
+          cp --update=none "$source_dir/"* .wildwire-runs/2026-10-17/
+          test -f .wildwire-runs/2026-10-17/story-0.json
       - name: Research and generate nine stories and fifteen distinct images
         id: generate
         # A rejected PREVIEW is a diagnostic result, not a production failure email.
