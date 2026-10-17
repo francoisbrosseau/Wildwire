@@ -7,7 +7,7 @@ const ARTICLES=window.WILDWIRE_ARTICLES||[];const STORE='wildwire-favorites-v1';
  };
  const sections=(a.body||[]).map(([heading,text])=>'<h2>'+escapeHTML(heading)+'</h2>'+escapeHTML(text).split(/\n\n/).map(formatBlock).join('')).join('');
  const sources=(a.sources||[]).length?'<section class="article-sources" aria-labelledby="sources-title"><h2 id="sources-title">Sources &amp; further reading</h2><ol>'+a.sources.map((source,index)=>'<li id="source-'+(index+1)+'"><a href="'+escapeHTML(source.url)+'" target="_blank" rel="noopener noreferrer">'+escapeHTML(source.title)+'</a><span> '+escapeHTML(source.authors)+' · '+escapeHTML(source.publication)+'</span></li>').join('')+'</ol></section>':'';
- return '<img class="article-cover" src="'+a.image+'" alt="'+escapeHTML(a.imageAlt||a.title)+'">'+'<div class="article-content">'+sections+sources+'<p class="small">'+escapeHTML(a.author||'WILDWIRE Editorial')+' · Original WILDWIRE feature.</p></div>';
+ return '<img class="article-cover" src="'+a.image+'" alt="'+escapeHTML(a.imageAlt||a.title)+'">'+(a.imageCredit&&!/AI[- ](?:generated|assisted)/i.test(a.imageCredit)?'<p class="article-image-note">'+escapeHTML(a.imageCredit)+'</p>':'')+'<div class="article-content">'+sections+sources+'<p class="small">'+escapeHTML(a.author||'WILDWIRE Editorial')+' · Original WILDWIRE feature.</p></div>';
 }function renderHome(target){
  const categories=['Strength','Style','Explore','Culture','Living','Finance'];
  const ordered=[...ARTICLES].sort((a,b)=>b.date.localeCompare(a.date)||Number(b.editionDate===b.date)-Number(a.editionDate===a.date)||categories.indexOf(a.category)-categories.indexOf(b.category)||a.id.localeCompare(b.id));
