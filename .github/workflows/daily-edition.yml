@@ -1,9 +1,6 @@
 name: WILDWIRE daily edition
 
 on:
-  push:
-    branches: [main]
-    paths: ['.github/publication-recovery-20261017']
   schedule:
     - cron: '17 0,2,4,5 * * *'
       timezone: America/Toronto
@@ -35,7 +32,6 @@ concurrency:
 jobs:
   publish:
     if: >-
-      (github.event_name == 'push' && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes') ||
       (github.event_name == 'schedule' && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes') ||
       (github.event_name == 'workflow_dispatch' && (inputs.dry_run == true ||
       (inputs.dry_run == false && github.ref_name == github.event.repository.default_branch && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes')))
@@ -85,18 +81,6 @@ jobs:
               cp -n "$source_dir/"* ".wildwire-runs/$EDITION_DATE/"
             fi
           done
-      - name: Recover the validated October 17 work for the authorized morning rescue
-        if: github.event_name == 'push'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          test "$(TZ=America/Toronto date +%F)" = 2026-10-17 || { echo 'Expired recovery request'; exit 1; }
-          gh run download 39042390005 --repo "$GITHUB_REPOSITORY" --pattern 'wildwire-edition-2026-10-17-*' --dir "$RUNNER_TEMP/morning-recovery"
-          mkdir -p .wildwire-runs/2026-10-17
-          source_dir=$(find "$RUNNER_TEMP/morning-recovery" -type d -path '*/.wildwire-runs/2026-10-17' -print -quit)
-          test -n "$source_dir" || { find "$RUNNER_TEMP/morning-recovery" -type f; exit 1; }
-          cp --update=none "$source_dir/"* .wildwire-runs/2026-10-17/
-          test -f .wildwire-runs/2026-10-17/story-0.json
       - name: Research and generate nine stories and fifteen distinct images
         id: generate
         # A rejected PREVIEW is a diagnostic result, not a production failure email.

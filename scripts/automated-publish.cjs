@@ -33,7 +33,7 @@ const PAIRINGS = [
   'two men friends with different backgrounds',
   'a couple with visibly different ages and life experience',
   'three generations of one family working together',
-  'two friends of different genders traveling together',
+  'two adult friends of different genders',
   'two women partners with distinct builds and features',
   'a couple of different ethnic backgrounds sharing a thoughtful moment',
   'two adult siblings or close friends collaborating',

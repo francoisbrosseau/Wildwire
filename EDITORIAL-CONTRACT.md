@@ -77,7 +77,7 @@ passes. Report clearly whether it is actually live.
 ## Automation gates
 
 Target: ready by 7 a.m. **America/Toronto**, including daylight saving time.
-Prepare early and retry once; never silently publish a weak or partial edition.
+Start at 00:17 Toronto with recovery attempts at 02:17, 04:17 and 05:17; never silently publish a weak or partial edition.
 Keep recurring publication off until a complete API-generated preview AND the
 GitHub Pages/live verification path succeed. The founder has authorized repair
 and testing within the reported $50/month budget (updated by the founder on October 16). Do not assert billing balance,

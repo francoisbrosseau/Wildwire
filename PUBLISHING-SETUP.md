@@ -200,3 +200,20 @@ tiles. Living's category tile was rejected because a randomly selected article
 pairing requested traveling friends while the approved tile concept requested
 family cooking. Category tiles now use their own approved scene/group as both
 the generation and visual-review brief. Article pairing rotation is unchanged.
+
+## October 17 recovery — verified live
+
+Recovery run https://github.com/francoisbrosseau/Wildwire/actions/runs/39043818543
+published commit bd30b0c345280068ebb4ce9cc2ca31b6655666ee and returned
+LIVE_VERIFIED at 11:11 a.m. Toronto on October 17. All nine new articles and
+fifteen distinct images passed the production checks, explicit Pages deployment
+and public-domain verification. The archive grew from 22 to 31 articles; no
+existing article JSON was modified. This used recovered validated work across
+multiple repair attempts; it was not a clean unattended nine-story preview.
+
+The temporary date-limited recovery push trigger and marker were removed.
+Permanent repairs retain bounded truncation retries, sequential review IDs with
+unchanged evidence URLs, consistent tile scenes, and four early scheduled starts.
+Activity-bearing group identities no longer force travel into unrelated scenes.
+A late complete validated edition publishes with a warning. GitHub scheduling
+is still best-effort; the next unattended edition remains to be observed.
