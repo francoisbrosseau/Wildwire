@@ -83,3 +83,6 @@ and testing within the reported $50/month budget (updated by the founder on Octo
 actual charges or a hard spending limit have been verified without evidence.
 
 Finance expansion approved October 16, 2026: six pillar features, three Daily Reads, fifteen unique images. Finance explains money, investing, mortgages and crypto using primary sources and explicit jurisdiction where relevant. Educational coverage only: no personalized financial recommendations, asset picks or return promises. Preserve the other five categories and all existing reader features.
+
+## Issue 03 visual repair (2026-10-18)
+The independent Mind & Spirit feature uses its own newly generated photorealistic WebP cover, distinct from the six pillar covers and the three Daily Reads. Issue numbering is derived from dated edition manifests. Preserve these checks in subsequent daily editions.
