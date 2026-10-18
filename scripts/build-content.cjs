@@ -38,20 +38,20 @@ if (fs.existsSync(editionsDir)) {
   }
 }
 // The issue badge is derived from dated published edition manifests, never hardcoded.
-const issueManifests = fs.existsSync(editionsDir) ? fs.readdirSync(editionsDir).filter(name => /^\\d{4}-\\d{2}-\\d{2}\\.json$/.test(name)).sort() : [];
+const issueManifests = fs.existsSync(editionsDir) ? fs.readdirSync(editionsDir).filter(name => /^\d{4}-\d{2}-\d{2}\.json$/.test(name)).sort() : [];
 const homePath = path.join(root, 'index.html');
 if (fs.existsSync(homePath) && issueManifests.length) {
   const latestManifest = JSON.parse(fs.readFileSync(path.join(editionsDir, issueManifests.at(-1)), 'utf8'));
   const issueNumber = String(issueManifests.length).padStart(2, '0');
   let homepage = fs.readFileSync(homePath, 'utf8');
-  const issueBadge = /THE WILDWIRE JOURNAL · ISSUE \\d+/;
+  const issueBadge = /THE WILDWIRE JOURNAL · ISSUE \d+/;
   if (!issueBadge.test(homepage)) throw new Error('Homepage issue badge missing');
   homepage = homepage.replace(issueBadge, 'THE WILDWIRE JOURNAL · ISSUE ' + issueNumber);
   const spiritArticle = articles.find(article => article.spiritFeature === true && (article.editionDate || article.date) === latestManifest.date);
   if (spiritArticle) {
     homepage = homepage.replace(/(<img class="inner-practice-image" src=")[^"]*(")/, '$1' + spiritArticle.image + '$2');
     homepage = homepage.replace(/(<a class="inner-practice-link" href=")[^"]*(")/, '$1' + spiritArticle.url + '$2');
-    homepage = homepage.replace(/(<h2 id="inner-practice-title">)[^<]*(<\\/h2>)/, '$1' + spiritArticle.title + '$2');
+    homepage = homepage.replace(/(<h2 id="inner-practice-title">)[^<]*(<\/h2>)/, '$1' + spiritArticle.title + '$2');
   }
   fs.writeFileSync(homePath, homepage);
 }
