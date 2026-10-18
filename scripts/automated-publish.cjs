@@ -286,7 +286,7 @@ async function textCall(input, useSearch = false, schema = null, label = '') {
 
 function selectedPairings(date) {
   const seed = crypto.createHash('sha256').update(date).digest().readUInt32BE(0);
-  return Array.from({ length: CATEGORIES.length + DAILY_READ_COUNT }, (_, index) => PAIRINGS[(seed + index * 3) % PAIRINGS.length]);
+  return Array.from({ length: CATEGORIES.length + DAILY_READ_COUNT + 1 }, (_, index) => PAIRINGS[(seed + index * 3) % PAIRINGS.length]);
 }
 function imagePrompt(article, pairing, recentDescriptions = []) {
   const categoryDirection = {
@@ -398,18 +398,18 @@ function validateArticle(article, searchedSources, existing, date, pairing) {
   return count;
 }
 
-async function makeArticle(category, date, pairing, existing, dailyRead = false, rejectedTopics = []) {
+async function makeArticle(category, date, pairing, existing, dailyRead = false, rejectedTopics = [], spiritFeature = false) {
   const history = existing.map(item => `- ${item.title} (${item.category})`).join('\n');
   const oldLivingEndings = existing.filter(item => item.category === 'Living').map(item => `- ${item.body?.at(-1)?.[0] || 'untitled'}: ${(item.body?.at(-1)?.[1] || '').slice(0, 220)}`).join('\n');
   const researched = await textCall(
-    `Research a fresh, useful WILDWIRE ${dailyRead ? 'supplemental Daily Read' : 'pillar'} feature in the ${category} category. Find at least five credible current or primary sources; give exact URLs, publication names, publication dates, verified named author(s) from each source page, and factual notes. Never use placeholders such as “not specified,” “unknown,” or infer authors. If a source lists no individual author, identify its publishing organization as the author. Avoid repeating these archived stories:\n${history}\nRejected candidate topics that must NOT be repeated: ${JSON.stringify(rejectedTopics)}. If any candidate was rejected, choose a substantially different, simpler-to-verify angle and different sources, not a paraphrase of the rejected story.\nFor Finance, cover financial literacy such as saving, investing concepts, mortgage mechanics or cryptocurrency risks. Use official primary sources. State the relevant jurisdiction for laws, taxes, account rules and mortgage conventions. Explain concepts without personalized recommendations, asset picks, price forecasts, guaranteed returns or instructions to buy/sell. Add a brief educational-only scope note. The editorial image will feature ${pairing}. The story itself can focus on a meaningful subject in this pillar. Do not invent quotes, people, results or statistics.`,
+    `Research a fresh, useful WILDWIRE ${spiritFeature ? 'independent Mind & Spirit feature about meditation, mindful breathing, reflective rituals or emotional wellness (NOT the Living pillar or a Daily Read)' : dailyRead ? 'supplemental Daily Read' : 'pillar'} feature in the ${category} category. Find at least five credible current or primary sources; give exact URLs, publication names, publication dates, verified named author(s) from each source page, and factual notes. Never use placeholders such as “not specified,” “unknown,” or infer authors. If a source lists no individual author, identify its publishing organization as the author. Avoid repeating these archived stories:\n${history}\nRejected candidate topics that must NOT be repeated: ${JSON.stringify(rejectedTopics)}. If any candidate was rejected, choose a substantially different, simpler-to-verify angle and different sources, not a paraphrase of the rejected story.\n${spiritFeature ? 'For Mind & Spirit, choose a fresh, distinct grounded mindfulness, gentle breathing, meditation, reflection, spirituality or emotional-wellness practice. Explain steps and limitations without medical treatment claims, supernatural promises or forced breathing. Never reuse the Living pillar angle. ' : ''}For Finance, cover financial literacy such as saving, investing concepts, mortgage mechanics or cryptocurrency risks. Use official primary sources. State the relevant jurisdiction for laws, taxes, account rules and mortgage conventions. Explain concepts without personalized recommendations, asset picks, price forecasts, guaranteed returns or instructions to buy/sell. Add a brief educational-only scope note. The editorial image will feature ${pairing}. The story itself can focus on a meaningful subject in this pillar. Do not invent quotes, people, results or statistics.`,
     true, null, `${category}: research`,
   );
   if (researched.sources.length < 3) fail(`Research returned fewer than three source links for ${category}.`);
   const sourceCandidates = uniqueSources(researched.sources).map((source, index) => ({ ...source, sourceId: `S${index + 1}` }));
   const schema = articleSchema(sourceCandidates);
   const drafted = await textCall(
-    `Write one original, substantial WILDWIRE article in JSON only, based on the research notes below. Voice: intelligent, confident, warm, inclusive and human; no filler, alpha clichés or generic AI phrasing. Keep reporting distinct from commentary. Do not invent interviews, personal experience, statistics or quotations. Category must be ${category}; ${dailyRead ? 'mark this as an additional Daily Read story' : 'this is the main pillar story'}. Write 6–9 useful sections and target 1,000–1,200 words (never fewer than 900). Build each section with real explanation, examples or useful steps, not padding. Put inline [1], [2], [3] citations in the relevant prose. IMPORTANT: these numbers are positions in YOUR final sources array, not sourceId numbers or citation numbering from research notes. Use every selected source at least once; never output [4] or higher. Choose the sources array first, then assign the prose citations to its exact order. Include concrete steps when the topic is training, cooking or another practical guide. For Living, make the final section a grounded, story-specific practice or reflection of at least 70 words; make its heading distinct from all previous Living endings below. Do not repeat a generic daily ritual.\n\nArchived Living endings:\n${oldLivingEndings}\n\nResearch notes:\n${researched.text}\n\nFor each of the exactly three cited sources, copy the complete exact page title, publication name, date, and named author(s) from the linked source page; do not shorten or paraphrase titles. Never use placeholder author metadata or infer names; if no individual author is listed, use the publishing organization. Select exactly three distinct sourceId values from this verified registry. Never write or change URLs; the publisher attaches each URL from its sourceId:\n${JSON.stringify(sourceCandidates)}\n\nReturn: {"category":"${category}","title":"...","subtitle":"...","imageAlt":"...","imageConcept":"a specific, visual scene centered on a couple, family or friends","body":[["section heading","substantial prose"],...],"sources":[{"title":"...","sourceId":"S1","authors":"...","publication":"..."},...]}`,
+    `Write one original, substantial WILDWIRE article in JSON only, based on the research notes below. Voice: intelligent, confident, warm, inclusive and human; no filler, alpha clichés or generic AI phrasing. Keep reporting distinct from commentary. Do not invent interviews, personal experience, statistics or quotations. Category must be ${category}; ${spiritFeature ? 'this is the independent Mind & Spirit feature, not a pillar and not a Daily Read' : dailyRead ? 'mark this as an additional Daily Read story' : 'this is the main pillar story'}. Write 6–9 useful sections and target 1,000–1,200 words (never fewer than 900). Build each section with real explanation, examples or useful steps, not padding. Put inline [1], [2], [3] citations in the relevant prose. IMPORTANT: these numbers are positions in YOUR final sources array, not sourceId numbers or citation numbering from research notes. Use every selected source at least once; never output [4] or higher. Choose the sources array first, then assign the prose citations to its exact order. Include concrete steps when the topic is training, cooking or another practical guide. For Living, make the final section a grounded, story-specific practice or reflection of at least 70 words; make its heading distinct from all previous Living endings below. Do not repeat a generic daily ritual.\n\nArchived Living endings:\n${oldLivingEndings}\n\nResearch notes:\n${researched.text}\n\nFor each of the exactly three cited sources, copy the complete exact page title, publication name, date, and named author(s) from the linked source page; do not shorten or paraphrase titles. Never use placeholder author metadata or infer names; if no individual author is listed, use the publishing organization. Select exactly three distinct sourceId values from this verified registry. Never write or change URLs; the publisher attaches each URL from its sourceId:\n${JSON.stringify(sourceCandidates)}\n\nReturn: {"category":"${category}","title":"...","subtitle":"...","imageAlt":"...","imageConcept":"a specific, visual scene centered on a couple, family or friends","body":[["section heading","substantial prose"],...],"sources":[{"title":"...","sourceId":"S1","authors":"...","publication":"..."},...]}`,
     false, schema, `${category}: draft`,
   );
   let article = bindSources(parseJson(drafted.text), sourceCandidates);
@@ -444,6 +444,7 @@ async function makeArticle(category, date, pairing, existing, dailyRead = false,
   const allSources = uniqueSources([...researched.sources, ...checkedSources]);
   const wordCount = validateArticle(article, allSources, existing, date, pairing);
   if (dailyRead) article.dailyRead = true;
+  if (spiritFeature) article.spiritFeature = true;
   return { article, wordCount, sourcesChecked: result.checkedClaims.length, sourceResults: allSources, editorialAudit: audit };
 }
 
@@ -454,35 +455,35 @@ async function main() {
   fs.mkdirSync(runDirectory, { recursive: true });
   runReport = { date, dryRun: DRY_RUN, startedAt: new Date().toISOString(), status: 'GENERATING', requests: [], articles: [], images: [] };
   saveReport();
-  log(`Starting ${DRY_RUN ? 'isolated preview' : 'production candidate'} for ${date}: nine stories, fifteen images.`);
+  log(`Starting ${DRY_RUN ? 'isolated preview' : 'production candidate'} for ${date}: ten stories, sixteen images.`);
   const existing = readExisting();
   const priorTileDescriptions = readEditionManifests().slice(-30).flatMap(manifest => Object.values(manifest.pillarImages || {}).map(tile => tile.alt).filter(Boolean));
   const existingWithTileHistory = [...existing, ...priorTileDescriptions.map((imageAlt, index) => ({ id: `prior-pillar-tile-${index}`, imageAlt }))];
   const alreadyPublishedToday = editionArticles(existing, date);
-  if (CATEGORIES.every(category => alreadyPublishedToday.some(item => item.category === category && !item.dailyRead)) && alreadyPublishedToday.filter(item => item.dailyRead === true).length === DAILY_READ_COUNT) {
+  if (CATEGORIES.every(category => alreadyPublishedToday.some(item => item.category === category && !item.dailyRead && !item.spiritFeature)) && alreadyPublishedToday.filter(item => item.dailyRead === true).length === DAILY_READ_COUNT && alreadyPublishedToday.some(item => item.spiritFeature === true)) {
     console.log(JSON.stringify({ status: 'ALREADY_PUBLISHED', date, articles: alreadyPublishedToday.map(item => item.id) }, null, 2));
     return;
   }
   if (alreadyPublishedToday.length) fail(`Found a partial WILDWIRE edition dated ${date}; refusing to add stories to it.`);
   const pairings = selectedPairings(date);
   const results = [];
-  const assignments = [...CATEGORIES.map(category => ({ category, dailyRead: false })), ...Array.from({ length: DAILY_READ_COUNT }, (_, index) => ({ category: DAILY_READ_CATEGORIES[(new Date(date + 'T00:00:00Z').getUTCDate() + index) % DAILY_READ_CATEGORIES.length], dailyRead: true }))];
+  const assignments = [...CATEGORIES.map(category => ({ category, dailyRead: false })), ...Array.from({ length: DAILY_READ_COUNT }, (_, index) => ({ category: DAILY_READ_CATEGORIES[(new Date(date + 'T00:00:00Z').getUTCDate() + index) % DAILY_READ_CATEGORIES.length], dailyRead: true })), {category:'Living',dailyRead:false,spiritFeature:true}];
   for (let index = 0; index < assignments.length; index++) {
     const previousInEdition = results.map(item => item.article);
-    const { category, dailyRead } = assignments[index];
+    const { category, dailyRead, spiritFeature = false } = assignments[index];
     log(`Story ${index + 1}/${assignments.length}: ${category}${dailyRead ? ' Daily Read' : ''}.`);
     const checkpoint = path.join(runDirectory, `story-${index}.json`);
     let result;
     if (fs.existsSync(checkpoint)) {
       result = JSON.parse(fs.readFileSync(checkpoint, 'utf8'));
-      if (result.article.category !== category || Boolean(result.article.dailyRead) !== dailyRead) fail('Cached article assignment does not match this edition.');
+      if (result.article.category !== category || Boolean(result.article.dailyRead) !== dailyRead || Boolean(result.article.spiritFeature) !== spiritFeature) fail('Cached article assignment does not match this edition.');
       result.wordCount = validateArticle(result.article, result.sourceResults, [...existing, ...previousInEdition], date, pairings[index]);
       log(`${category}: recovered validated article "${result.article.title}".`);
     } else {
       const rejectedTopics = [];
       for (let topicAttempt = 0; topicAttempt < 2; topicAttempt++) {
         try {
-          result = await makeArticle(category, date, pairings[index], [...existing, ...previousInEdition], dailyRead, rejectedTopics);
+          result = await makeArticle(category, date, pairings[index], [...existing, ...previousInEdition], dailyRead, rejectedTopics, spiritFeature);
           break;
         } catch (error) {
           if (topicAttempt || !/Fact check failed|Fact-check correction references an unknown source ID|Possible duplicate|Article length|Research returned fewer|inline citation|correction (?:did not match|must be grounded)|Replacement factual text/.test(error.message)) throw error;
@@ -503,7 +504,7 @@ async function main() {
     result.article.imageUsage = 'AI-generated editorial illustration; no real people or documentary event.';
     result.article.imageVisualCheck = image.imageCheck;
     results.push({ ...result, image });
-    runReport.articles.push({ id: result.article.id, category, dailyRead, words: result.wordCount });
+    runReport.articles.push({ id: result.article.id, category, dailyRead, spiritFeature, words: result.wordCount });
     saveReport();
     console.log(`Validated ${dailyRead ? 'Daily Read' : category}: ${result.wordCount} words, ${result.article.sources.length} citations, image ${image.bytes.length} bytes.`);
   }
@@ -555,7 +556,7 @@ async function main() {
     runReport.status = DRY_RUN ? 'PREVIEW_STAGED' : 'CANDIDATE_STAGED';
     runReport.finishedAt = new Date().toISOString();
     saveReport();
-    console.log(`WILDWIRE edition ${date} staged: nine stories (six pillars and three Daily Reads), plus six unique pillar tile images; fifteen generated images total. Run all content and functional checks before committing.`);
+    console.log(`WILDWIRE edition ${date} staged: ten stories (six pillars, three Daily Reads and one Mind & Spirit feature), plus six unique pillar tile images; fifteen generated images total. Run all content and functional checks before committing.`);
   } catch (error) {
     for (const file of written.reverse()) fs.rmSync(file, { force: true });
     require('node:child_process').spawnSync(process.execPath, [path.join(__dirname, 'build-content.cjs')], { cwd: ROOT, encoding: 'utf8' });
