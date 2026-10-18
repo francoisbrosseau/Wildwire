@@ -11,7 +11,7 @@ const ARTICLES=window.WILDWIRE_ARTICLES||[];const STORE='wildwire-favorites-v1';
 }function renderHome(target){
  const categories=['Strength','Style','Explore','Culture','Living','Finance'];
  const ordered=[...ARTICLES].sort((a,b)=>b.date.localeCompare(a.date)||Number(b.editionDate===b.date)-Number(a.editionDate===a.date)||categories.indexOf(a.category)-categories.indexOf(b.category)||a.id.localeCompare(b.id));
- const latestByCategory=Object.fromEntries(categories.map(category=>[category,ordered.find(article=>article.category===category&&!article.dailyRead)]));
+ const latestByCategory=Object.fromEntries(categories.map(category=>[category,ordered.find(article=>article.category===category&&!article.dailyRead&&!article.spiritFeature)]));
  const newestDate=ordered.map(article=>article.editionDate||article.date).sort().at(-1);
  const current=categories.map(category=>latestByCategory[category]).filter(Boolean);
  const byCategory=Object.fromEntries(current.map(article=>[article.category,article]));
@@ -34,20 +34,19 @@ const ARTICLES=window.WILDWIRE_ARTICLES||[];const STORE='wildwire-favorites-v1';
   const tileImage=link.querySelector('img');
   if(tile&&tileImage){tileImage.src=tile.image;tileImage.alt=tile.alt||'';}
   const title=link.querySelector('.category-current-story');
-  if(title)title.textContent=article.title;
- });
- const living=byCategory.Living||latestByCategory.Living;
- if(living){
-  const practice=Array.isArray(living.body)?living.body[living.body.length-1]:null;
-  const copy=(practice?.[1]||living.subtitle).replace(/\s+/g,' ').split(' ').slice(0,42).join(' ');
+  if(title)title.textCont const spirit=ordered.find(a=>a.spiritFeature===true);
+ const practiceSection=document.querySelector('.inner-practice');
+ if(spirit){
   const practiceImage=document.querySelector('.inner-practice-image');
-  if(practiceImage){practiceImage.src=living.image;practiceImage.alt=living.imageAlt||living.title;}
-  document.querySelector('.inner-practice-label').textContent='LIVING · TODAY’S PRACTICE';
-  document.getElementById('inner-practice-title').textContent=practice?.[0]||living.title;
-  document.getElementById('inner-practice-copy').textContent=copy;
-  const practiceLink=document.querySelector('.inner-practice-link');
-  practiceLink.href='article.html?id='+encodeURIComponent(living.id);
-  practiceLink.innerHTML='Read the Living story <span aria-hidden="true">↗</span>';
+  if(practiceImage){practiceImage.src=spirit.image;practiceImage.alt=spirit.imageAlt||spirit.title;}
+  document.querySelector('.inner-practice-label').textContent='MIND & SPIRIT · TODAY’S PRACTICE';
+  document.getElementById('inner-practice-title').textContent=spirit.title;
+  document.getElementById('inner-practice-copy').textContent=spirit.subtitle;
+  const link=document.querySelector('.inner-practice-link');
+  link.href='article.html?id='+encodeURIComponent(spirit.id);
+  link.innerHTML='Read the reflection <span aria-hidden="true">↗</span>';
+ }else if(practiceSection){practiceSection.hidden=true;}
+en="true">↗</span>';
  }
  const dailyReads=ordered.filter(article=>article.editionDate===newestDate&&article.dailyRead===true).slice(0,3);
  target.innerHTML=dailyReads.length===3?dailyReads.map(card).join(''):'<p class="empty">Today’s reading list is being prepared. Browse the <a href="category.html"><u>full story archive</u></a>.</p>';
