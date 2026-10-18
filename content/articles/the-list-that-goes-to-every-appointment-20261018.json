@@ -1,0 +1,84 @@
+{
+  "category": "Living",
+  "title": "The List That Goes to Every Appointment",
+  "subtitle": "Daily Read — A trusted friend can help make a medication list easier to check and carry. The person who takes the medicines stays in charge.",
+  "imageAlt": "Two adult siblings sit at a kitchen table as one reads a medicine container and the other enters details on a paper list; the person taking the medicines leads the review.",
+  "imageConcept": "Two adult siblings or close friends at a kitchen table: one person, clearly in the lead, reads a medicine label while their companion helps record details on paper or a phone. Include a few everyday medicine containers and a calm, unhurried atmosphere.",
+  "body": [
+    [
+      "A small check with a useful destination",
+      "A medication list is easy to put off because it sounds like a project for a doctor’s office. It can be much simpler: two people sit down for a short check, gather the products one person actually uses, and make one current record to bring to appointments. The companion might be a sibling, friend, partner or another trusted person. Their job is practical support—not supervision. The person who takes the medicines chooses what to share, what help would be useful and what belongs on the list. The Food and Drug Administration recommends keeping a list that includes prescription medicines, over-the-counter products, vitamins and supplements, reviewing it when medicines change, and sharing it with someone trusted if that feels helpful [1]. A current list can give a pharmacist or health professional a clearer starting point for a conversation."
+    ],
+    [
+      "Why the list can drift out of date",
+      "A list records a particular moment; daily life keeps moving. A prescription may change, a nonprescription product may become part of a routine, or a supplement may be started or stopped. A printed list from an earlier visit can still be useful, but it may not reflect what a person takes now. AHRQ’s Medicine Review Handout recommends bringing prescription and over-the-counter medicines, herbs, vitamins and supplements—including creams, liquids, inhaled or injected medicines, and pills in their bottles or organizers—to an appointment for review [2]. That comparison is not a test of anyone’s memory or organization. It is a way to notice where the written record and the present-day routine differ, so the right professional can help clarify the details. The point is not to make a perfect document once; it is to have a record that can be checked and updated."
+    ],
+    [
+      "Gather the whole picture",
+      "Start with the products, not with what either person thinks should be on the list. Ask the list owner to gather their prescription medicines and over-the-counter products, along with vitamins, supplements and herbs. Include forms that are easy to overlook: creams, liquids, inhaled or injected medicines, and a pill organizer if one is used. AHRQ’s medicine-review handout recommends bringing these kinds of products to an appointment for review [2]. Keep original containers nearby when possible; their labels can help with spelling and instructions. If gathering everything at once feels like too much, work through the places where products are normally kept and note anything that still needs checking. Don’t discard something just because it is not a pill, or assume a product is irrelevant because it was bought without a prescription. The list should reflect actual use, not a judgment about it."
+    ],
+    [
+      "Make 15 minutes useful",
+      "Agree first on the kind of help wanted: reading labels aloud, writing, typing, or simply keeping the process moving. Then use this sequence. First, put the containers and any existing lists in one place. Next, go through each product the person says they take and record its name as it appears on the label. Add the amount and how often it is taken, using the label or the person’s existing instructions rather than guessing. For a prescribed medicine, note the prescriber and the reason it was prescribed if that information is available. Finally, compare the draft with the labels and mark anything that is missing, unclear or different. One person can read while the other records, then switch roles if that makes the check easier. A short session can end with a useful draft; it does not need to resolve every question."
+    ],
+    [
+      "Write for the next appointment",
+      "A list is most useful when someone else can follow it. Keep the medicine name, amount and schedule together, and include the prescriber and reason for prescribed medicines when known. Use plain wording and distinguish what is written on a label from what someone remembers. If a detail cannot be confirmed, mark it as a question instead of filling it in from memory. Choose a format the list owner can readily bring: a paper copy, a phone note or another accessible record. The FDA advises keeping the list current and sharing it with a trusted person when desired [1]. If the list is stored digitally, consider who can access the device or account before sharing it. The aim is one dependable version that travels with its owner—not a document copied widely or kept only by the companion."
+    ],
+    [
+      "A mismatch is a question, not a decision",
+      "The check may turn up a difference: the container says one thing, an old list says another, or a person is unsure whether a product is still part of their routine. Record the discrepancy and take it to a pharmacist or health professional. Don’t use a list-making session to change, skip or stop a medicine, or to decide that two instructions conflict in a particular way. Those decisions belong in a conversation with a qualified professional who can consider the person’s situation. AHRQ’s handout says a provider will go over the medicines brought to the appointment to find out what the person is taking and check that they are being used safely [2]. A practical note might say, “Please confirm the current schedule for this medicine,” or “This product is on the old list but not in the current routine.” Clear questions help direct attention without pretending the list itself can supply an answer."
+    ],
+    [
+      "Help that leaves the person in the lead",
+      "Before an appointment, ask the list owner what role they want their companion to play. They may want someone to carry the list, take notes, help remember questions or speak only if invited. The National Institute on Aging advises letting the person set the companion’s role; a friend or family member can help while leaving room for the person to speak with the clinician privately [3]. That boundary matters even in a close relationship. A companion can ask, “Would you like me to write that down?” or “Do you want me to bring up the question we marked?” rather than answering on the person’s behalf. If the person prefers to go alone or keep some information private, respect that. Support works best when it strengthens someone’s ability to manage their own care, not when it quietly transfers control."
+    ],
+    [
+      "Leave the list ready for its next use",
+      "At the end of the check, let the person whose medicines are listed choose where the finished copy will live: tucked into a wallet, saved on a phone, or kept with appointment papers. Together, circle any unresolved questions and decide whether they belong with a pharmacist or another health professional. The next time a medicine changes, update the record rather than relying on an old copy; bring the revised list to the next appointment. Before putting everything away, ask the list owner to look it over once without help. Is anything missing? Is the format easy to find and carry? This is a small piece of household coordination, not a promise that care will be simple. Its value is more modest and more real: useful information can arrive with the person it belongs to, ready for a conversation."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Create and Keep a Medication List for Your Health",
+      "authors": "U.S. Food and Drug Administration",
+      "publication": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/consumers/consumer-updates/create-and-keep-medication-list-your-health",
+      "researchSourceId": "S1"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Medicine Review Handout",
+      "authors": "Agency for Healthcare Research and Quality",
+      "publication": "Health Literacy Universal Precautions Toolkit, 3rd Edition; created February 2024, last reviewed March 2024",
+      "url": "https://www.ahrq.gov/health-literacy/improve/precautions/tool8a.html",
+      "researchSourceId": "S38"
+    },
+    {
+      "sourceId": "S3",
+      "title": "How To Prepare for a Doctor's Appointment",
+      "authors": "National Institute on Aging",
+      "publication": "National Institute on Aging; content reviewed February 3, 2020",
+      "url": "https://www.nia.nih.gov/health/how-family-and-friends-can-help-your-doctors-visit?utm_source=openai",
+      "researchSourceId": "S85"
+    }
+  ],
+  "id": "the-list-that-goes-to-every-appointment-20261018",
+  "date": "2026-10-18",
+  "editionDate": "2026-10-18",
+  "url": "article.html?id=the-list-that-goes-to-every-appointment-20261018",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-list-that-goes-to-every-appointment-20261018.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The List That Goes to Every Appointment. Daily Read — A trusted friend can help make a medication list easier to check and carry. The person who takes the medicines stays in charge.\nPeople: two adult siblings or close friends collaborating. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: Two adult siblings or close friends at a kitchen table: one person, clearly in the lead, reads a medicine label while their companion helps record details on paper or a phone. Include a few everyday medicine containers and a calm, unhurried atmosphere.\nAvoid repeating these recent WILDWIRE image scenes: A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Three generations of a family seated around a table, comparing colorful thread and fabric patches beside a mended jacket. | Two women sit side by side on a blanket in a dark, open field, looking up at a wide night sky. | Two friends compare the care labels inside a jacket and knit top beside a laundry basket. | Two travelers study a map together at a coastal rail station above a harbor. | Two friends at a kitchen table compare a handwritten trip budget with a map and separate savings notes. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Three generations of a family talking together beside a park bench, with one person standing and another seated. | Two friends walking together on a sunny city street, one in a loose pale shirt and trousers and the other in a breezy dress, with hats and a light layer tucked into a bag. | Two people sit together on a bench at a leafy viewpoint, watching birds in the branches without binoculars or other specialized gear. | Two friends sit at a kitchen table, each holding a small keepsake while they talk. | Two women partners with distinct builds compare notes beside a kitchen counter, with everyday items arranged within easy reach. | Two adult siblings and an older relative sit at a kitchen table, reviewing a folder of financial papers together. | Two friends organize bandages and other first-aid supplies in a clearly labeled box on a kitchen table. | Two adult friends compare contrasting sunglasses frames in a bright shop, one holding a pair up while the other checks the fit.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

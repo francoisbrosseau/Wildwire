@@ -1,0 +1,80 @@
+{
+  "category": "Living",
+  "title": "The First-Aid Kit You Can Actually Find",
+  "subtitle": "An additional Daily Read: a practical project for two friends to stock, tailor and keep a household kit usable.",
+  "imageAlt": "Two friends organize bandages and other first-aid supplies in a clearly labeled box on a kitchen table.",
+  "imageConcept": "Two friends sit at a kitchen table, sorting a small household first-aid kit into labeled pouches while one checks a written inventory and the other finds a practical storage spot nearby.",
+  "body": [
+    [
+      "Start with what you have",
+      "A first-aid kit is easy to imagine as a box bought once and forgotten. In real homes, supplies drift into bathroom drawers, a car console or the back of a cupboard. The useful first step is not shopping; it is a quick inventory. Ask a friend or housemate to help gather what is already on hand, then look for items that are missing, damaged, opened or past their expiration date. This turns an abstract preparedness task into a manageable household check. The American Red Cross recommends choosing contents that fit the setting and knowing what is in the kit and how to use it [1]. That is a better starting point than assuming every home needs the same collection. Set a short time limit, make a list of gaps, and resist the urge to buy duplicates before you know what is already there."
+    ],
+    [
+      "Choose a place people can name",
+      "A kit’s location is part of its usefulness. Pick a consistent spot that is easy for the people in the household to reach, rather than a clever hiding place that only one person remembers. It should be away from damp, heat or other conditions that could affect supplies, and not mixed into a cupboard so crowded that the box disappears. Once you choose the location, tell everyone who may need it and make the container visibly identifiable. If a person has limited reach, vision or dexterity, think through whether they can locate and open it; adjust the container or placement accordingly. CDC guidance on improving access emphasizes including trusted people in support networks and keeping key health information available [3]. For two friends sharing a home—or one friend who regularly visits—agree on the location together. A simple label on the shelf or cabinet can make the answer obvious without requiring anyone to remember a private system."
+    ],
+    [
+      "Use a checklist as a starting point, not a rule",
+      "A reference list can prevent the most basic omissions, but it cannot account for every household. The Red Cross’s kit guide offers a starting point for supplies [1]; use it alongside what the people in the home actually do and need. Consider where the kit will be used, how many people may rely on it, and whether children, older adults or frequent guests change the practical requirements. If one person spends time outdoors, for example, they may want to check that the kit suits those activities; someone with limited mobility may need supplies stored in packaging they can open. Make a written list of what you decide to include and why. This keeps future restocking focused and helps distinguish an intentional household choice from an item that simply got left out. Avoid treating a general checklist as medical advice: for questions about care or what supplies are appropriate, consult a health professional or take recognized first-aid training."
+    ],
+    [
+      "Keep personal medicine personal",
+      "A shared kit can make common supplies easier to locate, but it should not turn one person’s prescriptions into household supplies. Keep individual prescriptions and personal medical items separate, in their original packaging where applicable, and follow the storage instructions on the label. A person’s treatment needs are specific to them; a friend should not have to guess whether a medicine is suitable, how it is taken or whether it can be used. If it would help a trusted person assist in an emergency, keep a separate, current list of relevant prescriptions and known allergies in an agreed location, with the person’s permission. CDC guidance identifies prescription and allergy information as useful details to keep available [3]. Decide together who should know where that information is, and respect privacy: access should be limited to people the individual trusts. For questions about medicines, storage or disposal, use the product information and ask a pharmacist or other health professional."
+    ],
+    [
+      "Make the contents readable in a hurry",
+      "Organization does not need to be elaborate. Group related supplies in clear pouches or sections, label them in plain language, and keep the inventory where it can be seen when the kit opens. If labels need larger type, high contrast or another format to be usable, make that change now rather than assuming everyone will manage in the moment. Keep any instructions with the relevant supplies, and do not add treatment directions you are not qualified to give. The Red Cross stresses that knowing what a kit contains and how to use it matters alongside stocking it [1]. A short walk-through can confirm that both friends can open the box, identify its sections and locate the supplies listed on the inventory. This is not a test of anyone’s medical knowledge. It is a practical check that the system works as intended—and a chance to notice that a label is vague, a pouch is hard to open or a supply has been moved."
+    ],
+    [
+      "Put maintenance on the calendar",
+      "Supplies can become damaged, depleted or expired, so a kit needs occasional attention. The American Red Cross advises reviewing a first-aid kit annually and checking items for expiration or damage [2]. Choose a date that is easy to remember, such as the start of a season or the date you first assembled the kit. During the review, compare the contents with the inventory, inspect packaging, check expiration dates and replace items that have been used or are no longer in usable condition. Follow product labels and local guidance for disposing of medicines or other products; do not assume an expired item is still suitable. Record the date of the review and who handled it, then update the inventory if anything changed. A calendar reminder shared with the other person makes the task less dependent on one household member. If a supply raises a medical or safety question, pause and ask a qualified professional rather than relying on a guess."
+    ],
+    [
+      "A two-person handoff, not a ceremony",
+      "When the box is stocked, ask each other to find it without being prompted and name one thing that would make it easier to use. Then open it, scan the inventory together and decide who will set the next review reminder. Keep the conversation practical: this is not a promise that a kit can solve every emergency, and it is not a substitute for training or professional care. It is a small piece of shared household knowledge. Before you finish, each person can say where the kit is, how to find the personal health information they have permission to access, and whom to ask when a supply needs replacing. Write down any unanswered questions for a pharmacist, clinician or first-aid course. That final handoff is the point of the project: not a perfect box, but a useful one that both people can locate, understand and maintain."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "What to Include in a First Aid Kit",
+      "authors": "Janakiram Dirisina",
+      "publication": "American Red Cross North Texas Region",
+      "url": "https://www.redcross.org/local/texas/north-texas/about-us/news-and-events/news/what-to-include-in-a-first-aid-kit.html",
+      "researchSourceId": "S11"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Is Your First Aid Kit Expired?",
+      "authors": "American Red Cross",
+      "publication": "American Red Cross",
+      "url": "https://www.redcross.org/take-a-class/resources/articles/do-first-aid-kits-expire",
+      "researchSourceId": "S2"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Improve Access",
+      "authors": "Centers for Disease Control and Prevention",
+      "publication": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/prepare-your-health/create-community/improve-access.html",
+      "researchSourceId": "S22"
+    }
+  ],
+  "id": "the-first-aid-kit-you-can-actually-find-20261018",
+  "date": "2026-10-18",
+  "editionDate": "2026-10-18",
+  "url": "article.html?id=the-first-aid-kit-you-can-actually-find-20261018",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-first-aid-kit-you-can-actually-find-20261018.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The First-Aid Kit You Can Actually Find. An additional Daily Read: a practical project for two friends to stock, tailor and keep a household kit usable.\nPeople: two men friends with different backgrounds. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: Two friends sit at a kitchen table, sorting a small household first-aid kit into labeled pouches while one checks a written inventory and the other finds a practical storage spot nearby.\nAvoid repeating these recent WILDWIRE image scenes: Two older readers discuss open books in a warmly lit independent bookshop. | A stylish woman and man in distinct tailored looks walking through a rain-darkened European street | A focused woman lifts a barbell while her training partner watches with care in a warmly lit studio | A Latina woman and South Asian man pause over a paper map on an autumn Montreal street. | Three generations of a family seated around a table, comparing colorful thread and fabric patches beside a mended jacket. | Two women sit side by side on a blanket in a dark, open field, looking up at a wide night sky. | Two friends compare the care labels inside a jacket and knit top beside a laundry basket. | Two travelers study a map together at a coastal rail station above a harbor. | Two friends at a kitchen table compare a handwritten trip budget with a map and separate savings notes. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Three generations of a family talking together beside a park bench, with one person standing and another seated. | Two friends walking together on a sunny city street, one in a loose pale shirt and trousers and the other in a breezy dress, with hats and a light layer tucked into a bag. | Two people sit together on a bench at a leafy viewpoint, watching birds in the branches without binoculars or other specialized gear. | Two friends sit at a kitchen table, each holding a small keepsake while they talk. | Two women partners with distinct builds compare notes beside a kitchen counter, with everyday items arranged within easy reach. | Two adult siblings and an older relative sit at a kitchen table, reviewing a folder of financial papers together.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
