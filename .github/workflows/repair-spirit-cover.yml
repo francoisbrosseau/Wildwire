@@ -28,7 +28,7 @@ jobs:
         run: node scripts/repair-spirit-cover.cjs
       - name: Build and validate all edition pages
         run: |
-          npm ci --no-audit --no-fund
+          npm install --no-audit --no-fund
           node scripts/build-content.cjs
           npm test
           node scripts/check-content.cjs
