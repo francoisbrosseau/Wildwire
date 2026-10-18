@@ -3,7 +3,7 @@
   "spiritFeature": true,
   "title": "A Small Pause That Belongs to You",
   "subtitle": "A gentle, flexible mindfulness ritual for breathing naturally, noticing what matters and returning to your day.",
-  "imageAlt": "Two companions sit quietly together in a peaceful, softly lit space.",
+  "imageAlt": "A cinematic golden sunrise over a misty mountain valley, with an open journal, warm lantern and steaming cup on a rustic terrace.",
   "imageConcept": "Two companions sit quietly together in a peaceful, softly lit space.",
   "body": [
     [
@@ -53,6 +53,6 @@
   "url": "article.html?id=a-small-pause-that-belongs-to-you-20261018",
   "read": 4,
   "author": "WILDWIRE Editorial",
-  "image": "images/mind-spirit-20261018-original.svg",
-  "imageCredit": "Original WILDWIRE vector editorial illustration, created for this article; no stock or reused imagery."
+  "image": "images/generated/a-small-pause-that-belongs-to-you-20261018-exclusive.webp",
+  "imageCredit": "Original AI-generated WILDWIRE editorial photograph; no stock imagery or reused cover."
 }
