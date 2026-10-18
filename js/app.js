@@ -34,7 +34,9 @@ const ARTICLES=window.WILDWIRE_ARTICLES||[];const STORE='wildwire-favorites-v1';
   const tileImage=link.querySelector('img');
   if(tile&&tileImage){tileImage.src=tile.image;tileImage.alt=tile.alt||'';}
   const title=link.querySelector('.category-current-story');
-  if(title)title.textCont const spirit=ordered.find(a=>a.spiritFeature===true);
+  if(title)title.textContent=article.title;
+ });
+ const spirit=ordered.find(a=>a.spiritFeature===true);
  const practiceSection=document.querySelector('.inner-practice');
  if(spirit){
   const practiceImage=document.querySelector('.inner-practice-image');
@@ -46,8 +48,6 @@ const ARTICLES=window.WILDWIRE_ARTICLES||[];const STORE='wildwire-favorites-v1';
   link.href='article.html?id='+encodeURIComponent(spirit.id);
   link.innerHTML='Read the reflection <span aria-hidden="true">↗</span>';
  }else if(practiceSection){practiceSection.hidden=true;}
-en="true">↗</span>';
- }
  const dailyReads=ordered.filter(article=>article.editionDate===newestDate&&article.dailyRead===true).slice(0,3);
  target.innerHTML=dailyReads.length===3?dailyReads.map(card).join(''):'<p class="empty">Today’s reading list is being prepared. Browse the <a href="category.html"><u>full story archive</u></a>.</p>';
 }
