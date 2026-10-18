@@ -12,10 +12,10 @@ assert.equal(editionDate('', false, new Date('2026-01-01T02:00:00Z')), '2025-12-
 const earlierSameDayStories=[{date:'2026-10-16',id:'legacy-draft'},{editionDate:'2026-10-16',id:'today-a'},{editionDate:'2026-10-16',id:'today-b'}];
 assert.deepEqual(editionArticles(earlierSameDayStories,'2026-10-16').map(a=>a.id),['today-a','today-b'],'Only explicitly grouped edition articles count as today’s completed run');
 const first = selectedPairings('2026-10-16');
-assert.equal(first.length, 9);
+assert.equal(first.length, 10);
 assert.ok(!selectedPairings('2026-10-17').some(pairing => /traveling/i.test(pairing)), 'Rotating group identities must not require travel in unrelated category scenes');
 assert.equal(DAILY_READ_COUNT, 3);
-assert.equal(new Set(first).size, 9, 'Six pillar stories and three Daily Reads each get distinct partnerships');
+assert.equal(new Set(first).size, 10, 'Six pillar stories and three Daily Reads each get distinct partnerships');
 assert.notDeepEqual(first, selectedPairings('2026-10-17'), 'Pairing mix changes with the Toronto publication date');
 const image = imagePrompt({
   category: 'Strength',
