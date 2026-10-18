@@ -15,8 +15,7 @@ site instead of redesigning it. Motto: **DISCOVER. INSPIRE. EVOLVE.**
 - **Take the wider view** keeps its six category labels and layout, opens each
   pillar's new article, and uses six NEW separate tile images. Never reuse the
   hero or card cover as a pillar tile, or reuse a previous day's image.
-- The Living practice/spirituality feature uses the new Living story, title,
-  image and specific grounded practice; it must not retain yesterday's ending.
+- The existing Mind & Spirit card below the six pillars links to its own original full article, image, headline and permanent ID every day. It is not a seventh pillar or a Daily Read and must never reuse or link to the Living pillar story. Its article is categorized Living for archive compatibility but flagged `spiritFeature: true`, excluded from pillar selection. Rotate meditation, gentle breathing, reflection, mindfulness, grounded spiritual rituals and emotional well-being. No medical treatment claims or supernatural promises. Ten articles and sixteen unique images per day.
 - Preserve all previous stories and permanent IDs/URLs. Saved favorites must
   continue pointing to the same stories. Never replace old stories in place.
 
