@@ -60,6 +60,7 @@ jobs:
         if: steps.generate.outputs.changed == 'true'
         run: |
           npm install --no-audit --no-fund
+          node scripts/build-content.cjs
           npm test
           node scripts/check-content.cjs
       - name: Commit only Founder’s Desk changes
@@ -68,7 +69,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add content/founders-notes js/founders-notes.js founders-desk.html founder-note-*.html
+          git add content/founders-notes js/founders-notes.js founders-desk.html founder-note-*.html index.html js/articles-current.js js/articles.js
           if git diff --cached --quiet; then echo 'No new founder content to commit'; exit 0; fi
           git commit -m "Publish independent daily Founder's Desk note"
           git reset --hard HEAD
