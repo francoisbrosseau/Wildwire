@@ -1,0 +1,84 @@
+{
+  "category": "Living",
+  "title": "Date It Before the Fridge Door Closes",
+  "subtitle": "Daily Read | A simple leftover routine turns an uncertain container into a clear plan.",
+  "imageAlt": "Two adult friends at a kitchen counter writing food names and dates on reusable leftover-container labels.",
+  "imageConcept": "Two adult friends, of different genders, stand at a bright kitchen counter portioning cooked food into shallow containers and writing the contents and date on labels; the refrigerator is open nearby, with space on a shelf for the containers.",
+  "body": [
+    [
+      "The question a label can answer",
+      "A container of leftover rice, roast vegetables or soup can look perfectly ordinary a few days later—and still leave you asking the same thing: When did we make this? A brief routine at the end of cooking answers that question while the details are fresh. Portion the food, label it with the date, then choose whether it belongs in the refrigerator for the next few days or in the freezer for later. This is not a way to make food last indefinitely, and a label cannot guarantee safety. It is a way to make the next decision clearer. The CDC advises refrigerating perishable food within two hours, or within one hour when the temperature is above 90°F; its guidance also calls for a refrigerator at 40°F or below [1]."
+    ],
+    [
+      "Start the clock while you still remember",
+      "Before clearing the table, decide which food is meant to be saved. Move perishable leftovers into the refrigerator promptly rather than leaving them out while the kitchen is cleaned or the evening winds down. The CDC says to refrigerate leftovers within two hours of when food was prepared, or within one hour if it is in a warm environment such as a hot car or picnic [3]. That shorter window matters for food in a warm environment, such as a hot car or at a picnic [3]. If a meal has been sitting out longer than the recommended window, do not use a later date label to make it seem fresh again. The point is to build the routine around timely chilling, not to rely on memory or appearance after the fact. The CDC’s dining-out guidance gives the same two-hour rule, reduced to one hour in hot conditions [3]."
+    ],
+    [
+      "Give the food a shallow landing",
+      "Use shallow containers rather than putting a large, deep pot of hot food straight into the refrigerator. Dividing a big batch into smaller portions helps it cool, and makes it easier to take only what you plan to eat. The USDA recommends shallow containers for leftovers and a refrigerator temperature of 40°F or below [2]. If you are storing several dishes, portion each separately: a container of soup is easier to cool and reheat than a crowded mixed pot, and a small serving can be used without warming the whole batch. Keep the lids and containers clean, and put the food away promptly. If your refrigerator does not have a built-in thermometer, CDC recommends keeping an appliance thermometer inside it to check the temperature [1]."
+    ],
+    [
+      "Write a date that makes sense later",
+      "Label each container with the date it went into the refrigerator, plus a short description of what is inside. “Tuesday—lentil soup” is more useful than a bare date if several meals are stored at once. A removable label, masking tape or a marker on a reusable container can all work; choose a method that stays legible and comes off easily. If you share a fridge, include enough detail that someone else can identify the food without opening every container. When you freeze a portion, note that date and the contents as well. A label is not a test of whether food is safe, but it removes one avoidable guess and helps everyone make the same decision about what to eat first."
+    ],
+    [
+      "Choose the fridge or freezer on purpose",
+      "For cooked leftovers kept in the refrigerator, plan to eat them within three to four days. If that is unlikely, freeze the portion rather than letting it sit until the end of the week and hoping you will remember. The USDA recommends using refrigerated leftovers within three to four days or freezing them for longer storage [2]. Freeze food while it is still within that refrigerated window; do not wait for it to become a last-minute question. Package portions in sizes you are likely to use, and label them so the freezer does not become a collection of anonymous containers. Freezing gives you another option for planning, but it does not undo time spent sitting out before the food was chilled. When deciding what to keep, use the timing and handling guidance—not a sniff or a taste—as the basis for your choice."
+    ],
+    [
+      "Make reheating part of the plan",
+      "A leftover is not ready just because it feels warm on the outside. Reheat it to 165°F, the temperature the CDC recommends for leftovers [1]. After microwaving, let the food stand for a few minutes so cold spots can absorb heat from hotter areas, and use a food thermometer to confirm it reaches 165°F [1]. If you are reheating a large amount, warm only what you expect to eat rather than repeatedly heating and cooling the whole container. That makes the portion easier to manage and keeps the label’s date useful for what remains. For soups and sauces, stir during heating and check the temperature after the food is evenly hot. The aim is a repeatable step, not a judgment based on steam, bubbling at the edge or a warm container."
+    ],
+    [
+      "A small system that works in shared kitchens",
+      "The routine can take less time than trying to remember whose takeout is on which shelf. Before putting food away, set out a marker and labels. Portion the food into shallow containers, write the contents and storage date, then place refrigerated portions together where they are easy to see. If you share a household, agree on a simple convention—date first, name second, for example—so every person can read it. A friend helping after a meal can label the containers while someone else portions them; the practice does not depend on sharing a home or cooking every meal together. Once or twice a week, scan the labeled food and make a plan for what to eat or freeze before the three-to-four-day refrigerator window passes. Keep the check practical and nonjudgmental: the purpose is less waste and less uncertainty, not a perfect fridge."
+    ],
+    [
+      "Leave the next decision to your future self",
+      "Try the routine the next time you have more food than you will eat at one sitting. Set out two or three containers before you start portioning; label each with its contents and today’s date, then decide immediately which servings belong in the refrigerator and which should be frozen. If the food has been left out too long, do not let a label talk you into keeping it. If it is refrigerated, make a realistic plan to eat it within three to four days; if that plan feels unlikely, freeze it promptly. The useful outcome is modest but real: when you open the fridge later, you can see what the food is and when it was stored, rather than asking memory to do the work."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Preventing Food Poisoning | Food Safety | CDC",
+      "authors": "National Center for Emerging and Zoonotic Infectious Diseases (NCEZID)",
+      "publication": "CDC, November 24, 2025",
+      "url": "https://www.cdc.gov/food-safety/prevention/",
+      "researchSourceId": "S25"
+    },
+    {
+      "sourceId": "S2",
+      "title": "How do I handle leftovers safely?",
+      "authors": "USDA Food Safety and Inspection Service",
+      "publication": "USDA Food Safety and Inspection Service, December 20, 2024",
+      "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely?utm_source=openai",
+      "researchSourceId": "S82"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Food Safety Tips for Dining Out | Restaurant Food Safety | CDC",
+      "authors": "National Center for Environmental Health",
+      "publication": "CDC; published August 29, 2024; updated September 15, 2025; reviewed August 31, 2026",
+      "url": "https://www.cdc.gov/restaurant-food-safety/communication-resources/tips-for-dining-out.html?CDC_AAref_Val=https%3A%2F%2Fwww.cdc.gov%2Ffoodsafety%2Fcommunication%2Featingout.html",
+      "researchSourceId": "S21"
+    }
+  ],
+  "id": "date-it-before-the-fridge-door-closes-20261019",
+  "date": "2026-10-19",
+  "editionDate": "2026-10-19",
+  "url": "article.html?id=date-it-before-the-fridge-door-closes-20261019",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/date-it-before-the-fridge-door-closes-20261019.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Date It Before the Fridge Door Closes. Daily Read | A simple leftover routine turns an uncertain container into a clear plan.\nPeople: two adult friends of different genders. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: Two adult friends, of different genders, stand at a bright kitchen counter portioning cooked food into shallow containers and writing the contents and date on labels; the refrigerator is open nearby, with space on a shelf for the containers.\nAvoid repeating these recent WILDWIRE image scenes: Two travelers study a map together at a coastal rail station above a harbor. | Two friends at a kitchen table compare a handwritten trip budget with a map and separate savings notes. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Three adult family members share a strength-training space, each using a different level of support and resistance while a qualified trainer observes. | Two friends sit together on a fitting-room bench as one tries on a shoe and the other listens, with the matching pair and a few size options nearby. | Two partners pause at a trail junction to check a map and talk through their route. | Two people of different ages sit at a kitchen table, arranging hand-drawn pages and cut-paper images into a small zine. | Two partners crouch beside an open cabinet under a kitchen sink, using a flashlight to inspect the pipes while one writes notes on a phone. | A couple and an older relative sit at a kitchen table, sorting bank statements into piles labeled institution, product and ownership. | Two friends in a fitting room, one seated and the other reaching overhead in a jacket as they check how the clothes move.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

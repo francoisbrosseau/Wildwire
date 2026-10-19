@@ -1,0 +1,83 @@
+{
+  "category": "Style",
+  "title": "Your Shoe Size Is a Starting Point, Not a Verdict",
+  "subtitle": "Labels narrow the search. A short, repeatable try-on can tell you whether the shoe actually works for your feet.",
+  "imageAlt": "Two friends sit together on a fitting-room bench as one tries on a shoe and the other listens, with the matching pair and a few size options nearby.",
+  "imageConcept": "A warm, candid shoe-store scene: two friends on a fitting-room bench, one testing a shoe while the other gives them space to notice how it feels. Show several pairs in different sizes on the floor and a full-length mirror, with natural light and no emphasis on a particular brand.",
+  "body": [
+    [
+      "The number is a lead, not a promise",
+      "A shoe size looks precise: one number, sometimes a width, printed as if it settles the question. In practice, it is a place to begin trying, not a verdict about what your foot should wear. Feet themselves differ in length, width and shape. A large analysis of retail foot scans found variation across regions, between sexes and within customer groups; its authors argued that offering more width options could improve fit. The data came from retail settings, and the researchers noted that only limited customer information was available, so it cannot describe every shopper. Still, it helps explain why the same number can feel convincing in one pair and wrong in another [2]. Treat sizing as a useful filter. Let your feet, not the label, make the final call."
+    ],
+    [
+      "Why the fit deserves your attention",
+      "This is not a case for worrying over every shoe purchase. It is a reason to take discomfort seriously instead of assuming that an uncomfortable pair is the price of looking polished or getting the right size. A 2018 review of 18 studies reported that 63–72% of participants wore footwear that did not accommodate their feet in length or width. The studies also found associations between poorly fitting shoes and foot pain or disorders. Those results came from varied studies and samples; they are not a current estimate for every population, and an association does not establish that a particular shoe caused a particular problem [1]. The practical takeaway is modest: a fit check is worthwhile. If pressure, pinching or rubbing is obvious while you are still in the store, you do not need to dismiss that signal because the box matches your usual size."
+    ],
+    [
+      "Start with the conditions you’ll actually wear",
+      "Try shoes with the socks, tights or hosiery you expect to wear with them. A thin try-on sock can make a snug shoe seem comfortable; a thicker one may change the fit noticeably. If your feet tend to swell during the day, the NHS guidance from Guy’s and St Thomas’ recommends shopping later, when that change is more likely to be present [3]. If you are comparing sizes, try both shoes in each candidate pair rather than testing only one foot. Stand up before judging: the way a shoe feels while seated may not tell you how it will feel when your weight is on it. Take a moment to settle into the shoes, fasten them as intended and check that the fastening can be adjusted without creating a new pressure point. The aim is not to find a universally perfect measurement, but to assess the whole shoe on your own feet."
+    ],
+    [
+      "Check length, width and depth together",
+      "First, notice whether your toes can rest naturally rather than being pushed together, curled or pressed against the front. There is no single toe-gap measurement that works as a rule for every foot and every design. Instead, check whether the shoe leaves comfortable space when you stand and whether the front shape suits your toes. Then assess width: does the upper squeeze the sides, or does the foot feel held without being pinched? Depth matters too. A shoe can be long enough but still press down on the top of the foot or crowd the toes vertically. Look for a fit that accommodates your foot without making you grip with your toes to keep the shoe on. If one area feels wrong, try a different width, shape or model where available; simply going longer may trade one problem for another."
+    ],
+    [
+      "Walk, turn and notice what changes",
+      "Walk around the shop for a few minutes, including a turn or two. Pay attention to whether the heel lifts excessively, the shoe slips, or your foot moves forward as you step. A small amount of movement can depend on the shoe’s design and how it is secured, but repeated rubbing or a feeling that you must clench your toes to hold it in place is useful feedback. Check whether the shoe bends where your foot naturally flexes, rather than folding or resisting in a way that feels awkward. You can also pause and stand still: some pressure is easier to notice when you are no longer focused on walking. Try adjusting the laces or straps once, then walk again. If the fit only feels acceptable when fastened uncomfortably tight, or the same pressure remains, consider another model rather than trying to talk yourself into it."
+    ],
+    [
+      "Don’t make “breaking in” the plan",
+      "Some materials may soften with wear, and a new pair may feel different after a short period of use. But that possibility is not a reason to accept pain, numbness, pinching or rubbing during the try-on. Guy’s and St Thomas’ advises shoppers not to rely on a break-in period when a shoe feels wrong at the point of purchase [3]. That advice is especially useful when the discomfort is clear and specific: a toe pushed against the front, a side squeezed by the upper, or a heel that repeatedly rubs. Ask whether the shop has another width or shape, and check its return policy before buying if you are uncertain. A comfortable shoe does not have to feel like a slipper immediately, but you should be able to stand and walk without ignoring a strong warning signal. “Maybe it will improve” is not a fitting method."
+    ],
+    [
+      "Compare models, not just sizes",
+      "When a pair misses, change one variable at a time. Try the same model in a different size if the main issue is length; try another width or a different model if the sides, toe shape or depth feel wrong. A different size label does not automatically mean a better shoe, and a different model carrying the same label can fit differently. That variation is consistent with research using a very large set of foot scans, which documented differences among people and customer groups [2]. Keep track of what you notice: “more room across the forefoot” or “heel stays put when I turn” is more useful than simply “this feels bigger.” For online purchases, use the retailer’s measurement and return information as a starting point, then assess the delivered pair indoors according to the return conditions. If the fit cannot be tested comfortably, the label alone cannot resolve the uncertainty."
+    ],
+    [
+      "A simple fitting-room decision",
+      "Before you buy, run the sequence once: put on the socks you plan to wear; try both shoes; stand and check toe space, width and depth; fasten the shoes as intended; walk, turn and pause; then ask whether anything pinches, rubs or makes you grip. Compare another size or model when the answer is yes. You are not looking for a universal toe gap or a number that proves the fit. You are looking for a pair that feels stable and comfortable on your feet while you stand and move. If you have persistent foot pain or a known foot condition, a general shopping checklist cannot replace individualized advice; consider speaking with a qualified clinician. Otherwise, give yourself permission to leave without a purchase. The useful result of trying on shoes is not always a new pair. Sometimes it is a clearer sense of what your feet will—and will not—accept."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Incorrectly fitted footwear, foot pain and foot disorders: a systematic search and narrative review of the literature",
+      "authors": "Andrew K. Buldt and Hylton B. Menz",
+      "publication": "Journal of Foot and Ankle Research, July 28, 2018",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1186/s13047-018-0284-z",
+      "researchSourceId": "S68"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Analysis of 1.2 million foot scans from North America, Europe and Asia",
+      "authors": "Ales Jurca, Jure Žabkar, and Sašo Džeroski",
+      "publication": "Scientific Reports, December 16, 2019",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6914786/",
+      "researchSourceId": "S60"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Choosing shoes to reduce foot pain - Overview | Guy's and St Thomas' NHS Foundation Trust",
+      "authors": "Guy's and St Thomas' NHS Foundation Trust",
+      "publication": "Guy's and St Thomas' NHS Foundation Trust, last reviewed April 2025",
+      "url": "https://www.guysandstthomas.nhs.uk/health-information/choosing-shoes-reduce-foot-pain",
+      "researchSourceId": "S45"
+    }
+  ],
+  "id": "your-shoe-size-is-a-starting-point-not-a-verdict-20261019",
+  "date": "2026-10-19",
+  "editionDate": "2026-10-19",
+  "url": "article.html?id=your-shoe-size-is-a-starting-point-not-a-verdict-20261019",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/your-shoe-size-is-a-starting-point-not-a-verdict-20261019.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Your Shoe Size Is a Starting Point, Not a Verdict. Labels narrow the search. A short, repeatable try-on can tell you whether the shoe actually works for your feet.\nPeople: a couple of different ethnic backgrounds sharing a thoughtful moment. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: confident, well-dressed friends with runway energy grounded in attainable real life.\nScene concept: A warm, candid shoe-store scene: two friends on a fitting-room bench, one testing a shoe while the other gives them space to notice how it feels. Show several pairs in different sizes on the floor and a full-length mirror, with natural light and no emphasis on a particular brand.\nAvoid repeating these recent WILDWIRE image scenes: Two adult siblings sit at a kitchen table as one reads a medicine container and the other enters details on a paper list; the person taking the medicines leads the review. | Three generations of a family seated around a table, comparing colorful thread and fabric patches beside a mended jacket. | Two women sit side by side on a blanket in a dark, open field, looking up at a wide night sky. | Two friends compare the care labels inside a jacket and knit top beside a laundry basket. | Two friends sit at a kitchen table, each holding a small keepsake while they talk. | Two adult friends compare contrasting sunglasses frames in a bright shop, one holding a pair up while the other checks the fit. | Two travelers study a map together at a coastal rail station above a harbor. | Two friends at a kitchen table compare a handwritten trip budget with a map and separate savings notes. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Three adult family members share a strength-training space, each using a different level of support and resistance while a qualified trainer observes.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

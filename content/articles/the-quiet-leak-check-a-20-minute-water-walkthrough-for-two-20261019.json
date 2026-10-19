@@ -1,0 +1,79 @@
+{
+  "category": "Living",
+  "title": "The Quiet Leak Check: A 20-Minute Water Walkthrough for Two",
+  "subtitle": "A practical, low-drama way to spot trouble, locate the shutoff and agree on what happens next—without turning a household check into a plumbing project.",
+  "imageAlt": "Two partners crouch beside an open cabinet under a kitchen sink, using a flashlight to inspect the pipes while one writes notes on a phone.",
+  "imageConcept": "A lived-in kitchen with two partners doing a calm under-sink inspection: one holds a flashlight, the other records a short checklist, with a towel and small cup nearby but no tools suggesting a repair.",
+  "body": [
+    [
+      "Start with a shared map, not a toolbox",
+      "A slow drip can be easy to miss when it is tucked under a cabinet or behind an appliance. The useful response is not to search the whole home for a dramatic failure; it is to make a short, repeatable pass through the ordinary places water moves. Set aside about 20 minutes, bring a flashlight and a phone or notepad, and decide who will look while the other records what they notice. Swap roles as you go. The goal is shared knowledge, not a perfect inspection or a new household performance standard. EPA WaterSense recommends checking for leaks around the home, including under sinks, and notes that comparing water bills can help flag a change worth investigating [1]. Think of this walkthrough as a way to make an unfamiliar system more legible: what looks dry, what needs another look, and whom to contact if something is wrong."
+    ],
+    [
+      "Look where water connections meet daily life",
+      "Begin at bathroom and kitchen sinks. Open the cabinet doors and use the light to check the cabinet floor, the visible pipes and the connections beneath the faucet. Look for dampness, water marks, corrosion, mineral deposits or a musty smell. Then run the faucet briefly and watch the visible joints; check around the faucet base and handles for water that appears during use. Repeat the visual check around the toilet base and supply connection, and near accessible dishwasher, washing-machine and refrigerator water lines. EPA WaterSense specifically calls out faucet gaskets and pipe fittings as places to examine [2]. You are observing, not tightening or dismantling anything. Don’t pull out a heavy appliance, reach into an unsafe space or touch a connection that appears damaged. If a floor is wet, stay clear of electrical equipment and do not step into standing water to reach an electrical panel. Note the location and what you saw instead of trying to diagnose the cause."
+    ],
+    [
+      "Use a toilet dye check when the bowl is quiet",
+      "A toilet can leak from the tank into the bowl without leaving a puddle on the floor. To check, make sure the toilet has not just been flushed, then place a few drops of food coloring in the tank water. Wait about 10 minutes without flushing. If color appears in the bowl, water may be passing from tank to bowl; flush afterward to clear the dye. EPA WaterSense describes this as a simple way to detect a toilet leak and recommends contacting a plumber for some toilet problems [1]. Keep the result modest: the test indicates a possible leak, but it does not tell you which part is failing or whether a repair is straightforward. Record the toilet and the result, and arrange the next step with the person responsible for maintenance. If the color stays in the tank, that is useful information too, not proof that every part of the toilet or plumbing system is leak-free."
+    ],
+    [
+      "Try the meter check only if the home has one",
+      "A water meter can help identify flow that is not obvious in a visual inspection. First, choose a two-hour window when no one will use water. That means no taps, showers, toilets, laundry, dishwasher, ice-maker refill or irrigation during the test; agree on the window together so an ordinary use does not muddy the result. Read and record the meter before the window, then read it again afterward. EPA WaterSense describes this no-use comparison as a way to check for possible leaks [1][2]. If the reading changes, repeat the check when the home can reliably remain unused, and consider whether an automatic appliance or other water use was overlooked. A changed reading is a reason to follow up, not a diagnosis. If you cannot find a meter, cannot safely access it, or live in a building where the meter serves multiple units, skip this step and ask the property manager or utility how the system is monitored."
+    ],
+    [
+      "Find the shutoff—and learn who controls it",
+      "Locate the home’s main water shutoff while everything is calm. Depending on the property, it may be near where the water line enters, in a utility space, basement or another designated area. Do not force an unfamiliar, stuck or corroded valve. Instead, photograph its location and surroundings, and write down any label or access instructions. If you rent, live in a condo, or share a building, the relevant shutoff may be in a locked or common area; ask the landlord, building manager or maintenance team who is authorized to operate it and how to reach them after hours. The point is not to test equipment you do not understand. It is to reduce the time spent guessing about responsibility if a leak becomes urgent. EPA WaterSense explains that some monitoring products can detect moisture or track water flow, and some can shut off water automatically, but those devices are options—not prerequisites for knowing where to report a problem [3]."
+    ],
+    [
+      "Make a note that leads to a real next step",
+      "At the end of the walk, keep the record short enough that someone will use it. Make three headings: found, follow-up and contact. Under found, note the location and observation in plain language: “damp cabinet floor beneath kitchen sink,” not a confident guess about the cause. Under follow-up, write the next action and a date if one is needed: repeat the meter check, tell the landlord, or book a plumber. Under contact, record the appropriate person or service and the route for reaching them. EPA WaterSense advises contacting plumbing professionals for more complicated issues, and its guidance helps distinguish basic detection from work that should be handled by a qualified professional [2][3]. Persistent drips, damaged pipes, recurring dampness or a result you cannot interpret belong in the follow-up column. The record is not a repair manual; it is a handoff that makes the problem easier to explain and harder to forget."
+    ],
+    [
+      "Leave with one clear agreement",
+      "Before putting the flashlight away, choose one small action that belongs to each person: perhaps one person saves the shutoff photo while the other sends a maintenance request, or one contacts the landlord while the other notes the appointment details. If you live alone, the same note can help a trusted housemate, caretaker or repair professional understand what you found. Then agree on a sensible time to revisit any unresolved item; don’t keep rechecking a dry pipe just to feel certain. A water walkthrough cannot prevent every leak, and it should not become a test of who noticed more. Its value is practical: both people know the visible warning signs, the limits of the check and the next contact. On your next pass, start with the item still marked follow-up, not with a full inspection from scratch. That turns a brief household check into shared know-how rather than another chore that quietly belongs to one person."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Home Maintenance",
+      "authors": "U.S. EPA WaterSense",
+      "publication": "U.S. Environmental Protection Agency, WaterSense; last updated June 16, 2026",
+      "url": "https://www.epa.gov/watersense/home-maintenance",
+      "researchSourceId": "S4"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Fix a Leak Week",
+      "authors": "U.S. EPA WaterSense",
+      "publication": "U.S. Environmental Protection Agency, WaterSense; last updated March 13, 2026",
+      "url": "https://www.epa.gov/watersense/fix-leak-week?tc=ix",
+      "researchSourceId": "S3"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Know Your Flow and Curb Water Waste: A WaterSense Guide to Leak Detection and Flow Monitoring Devices",
+      "authors": "U.S. EPA WaterSense",
+      "publication": "U.S. Environmental Protection Agency, WaterSense; February 2026",
+      "url": "https://www.epa.gov/system/files/documents/2026-02/ws-products-leak-flow-guide.pdf",
+      "researchSourceId": "S1"
+    }
+  ],
+  "id": "the-quiet-leak-check-a-20-minute-water-walkthrough-for-two-20261019",
+  "date": "2026-10-19",
+  "editionDate": "2026-10-19",
+  "url": "article.html?id=the-quiet-leak-check-a-20-minute-water-walkthrough-for-two-20261019",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-quiet-leak-check-a-20-minute-water-walkthrough-for-two-20261019.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Quiet Leak Check: A 20-Minute Water Walkthrough for Two. A practical, low-drama way to spot trouble, locate the shutoff and agree on what happens next—without turning a household check into a plumbing project.\nPeople: two women partners with distinct builds and features. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: A lived-in kitchen with two partners doing a calm under-sink inspection: one holds a flashlight, the other records a short checklist, with a towel and small cup nearby but no tools suggesting a repair.\nAvoid repeating these recent WILDWIRE image scenes: Two friends compare the care labels inside a jacket and knit top beside a laundry basket. | Two friends sit at a kitchen table, each holding a small keepsake while they talk. | Two adult friends compare contrasting sunglasses frames in a bright shop, one holding a pair up while the other checks the fit. | Two travelers study a map together at a coastal rail station above a harbor. | Two friends at a kitchen table compare a handwritten trip budget with a map and separate savings notes. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Three adult family members share a strength-training space, each using a different level of support and resistance while a qualified trainer observes. | Two friends sit together on a fitting-room bench as one tries on a shoe and the other listens, with the matching pair and a few size options nearby. | Two partners pause at a trail junction to check a map and talk through their route. | Two people of different ages sit at a kitchen table, arranging hand-drawn pages and cut-paper images into a small zine.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

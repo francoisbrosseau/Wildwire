@@ -1,0 +1,80 @@
+{
+  "category": "Living",
+  "title": "One Feeling Word, No Fix Required",
+  "subtitle": "A brief way to notice what you feel without turning the moment into a problem to solve—or a promise to feel better.",
+  "imageAlt": "Two friends sit at a kitchen table; one pauses over a mug while the other listens, with no one reaching for a phone or offering advice.",
+  "imageConcept": "A candid, softly lit kitchen scene with two friends at a small table. One person is quietly considering a feeling, mug in hand; the other offers relaxed company without trying to fix the moment. Keep the mood natural and unposed, with attention on the pause rather than visible distress.",
+  "body": [
+    [
+      "Naming is not the same as fixing",
+      "Some moments arrive with a feeling that is real but hard to place: a meeting ends oddly, a message goes unanswered, or a plan changes at the last minute. It can be tempting to immediately explain the feeling, talk yourself out of it, or decide what to do next. A smaller option is to notice it and try one word. “Uneasy,” “disappointed,” “relieved,” or simply “unclear” may be enough. The point is not to make the emotion smaller or more reasonable. It is to give the moment a little definition without demanding a result. This is a low-pressure reflection, not a treatment or a reliable calming technique. Whether it feels useful will vary. You are allowed to name a feeling and leave it exactly where it is."
+    ],
+    [
+      "Choose a moment that can stay small",
+      "Start with a low-stakes slice of the day rather than its hardest event. Maybe the bus was late and you felt irritated; perhaps a colleague thanked you and you felt unexpectedly pleased. Keeping the example manageable makes this an experiment in noticing, not an invitation to reopen something overwhelming. Think of one moment and ask: what feeling might have been there? Use an ordinary word, not a verdict about yourself. “I felt left out” names an experience; “I’m too sensitive” judges the person having it. If the answer is “I don’t know,” keep that answer. You can also notice more than one feeling—relief and sadness can coexist—without having to rank them or decide which is the real one. There is no score for precision."
+    ],
+    [
+      "Add context, not a whole explanation",
+      "Once you have a word, attach a simple piece of context: “I noticed disappointment after the plans changed,” or “I felt eager when I saw the event announcement.” This is not a detective exercise. You do not need to identify the hidden cause, assign blame, find a lesson, or manufacture a silver lining. Context simply connects a feeling to a moment, so it does not become a sweeping statement about your life. Research on emotional granularity—the ability to describe feelings with more nuance—has found an association between people’s varied everyday experiences and more nuanced descriptions of negative emotions. The relationship was not consistent for positive emotions, and the findings do not show that a one-minute naming practice creates greater emotional granularity. They suggest a useful distinction: feelings happen in particular contexts, not in a vacuum [1]."
+    ],
+    [
+      "A word may help—or do nothing",
+      "The evidence on affect labeling, the research term for putting feelings into words, does not support a simple “name it and feel better” rule. In one experiment using aversive images, labeling increased distress in the low-intensity condition and reduced distress in the high-intensity condition; a separate experiment tested labeling timing. That is a reminder that the effect can depend on the task and the person’s response, rather than following a universal sequence [2]. Other experiments found that naming an emotion before trying to reappraise it—and, in one study, before mindful acceptance—could impede those strategies under the conditions tested [3]. These were controlled tasks, not ordinary daily-life rituals. Still, they make one practical point clear: do not treat naming as a required first step toward calm, acceptance, or a better perspective."
+    ],
+    [
+      "Try it without turning it into homework",
+      "If you want to test the practice, keep the format simple. First, pick a manageable moment from today. Second, name one possible feeling in plain language; “not sure” is a valid answer. Third, add a neutral context sentence: “I noticed this after ___.” Then pause only long enough to ask whether naming it feels useful, neutral, or more activating. That is the whole experiment. The one-minute framing is a convenient editorial limit, not a scientifically established dose. You do not have to write anything down, repeat the word, or make a plan. If the feeling shifts, that is information, not proof that you did the exercise correctly. If it does not shift, that is also information. The practice is about noticing what happens, not producing a preferred outcome."
+    ],
+    [
+      "Know when to leave the exercise",
+      "A short reflection is not the right tool for every moment. If a word makes you feel more distressed, stop. Turn toward an ordinary activity that helps you reorient—make a snack, step into another room, or return to a familiar task—or contact someone you trust. You do not need to keep examining a feeling to prove you are taking it seriously. Some experiences call for practical action or support rather than more introspection; persistent or overwhelming distress deserves more help than a brief naming exercise can offer. And if you find that labeling tends to intensify things, you can skip the label entirely. Noticing that a practice is unhelpful is a sound reason to leave it aside, not a failure of effort."
+    ],
+    [
+      "End with the moment, not a conclusion",
+      "At a quiet point today, choose something small that has already passed: a delayed reply, a changed plan, a task that went better than expected. Give the feeling one tentative word, then finish the sentence, “I noticed this after…” Do not add what the feeling says about you, what you should do, or why you ought to be grateful. Check whether the exercise feels useful, neutral, or activating, and let that answer guide whether you continue. If it feels like too much, close the reflection and do something ordinary. The aim is not to carry a new rule into the rest of your day; it is to see whether one honest word can sit beside an experience without being asked to repair it."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Emotional Granularity is Associated with Daily Experiential Diversity",
+      "authors": "Katie Hoemann, Yeasle Lee, Peter Kuppens, Maria Gendron, and Ryan L. Boyd",
+      "publication": "Affective Science, April 14, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37304562/",
+      "researchSourceId": "S4"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Affect labeling: The role of timing and intensity",
+      "authors": "Einat Levy-Gigi and Simone Shamay-Tsoory",
+      "publication": "PLOS ONE, December 29, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36580454/",
+      "researchSourceId": "S35"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Emotion Naming Impedes Both Cognitive Reappraisal and Mindful Acceptance Strategies of Emotion Regulation",
+      "authors": "Erik C. Nook, Ajay B. Satpute, and Kevin N. Ochsner",
+      "publication": "Affective Science, April 20, 2021",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9383041/",
+      "researchSourceId": "S47"
+    }
+  ],
+  "id": "one-feeling-word-no-fix-required-20261019",
+  "date": "2026-10-19",
+  "editionDate": "2026-10-19",
+  "url": "article.html?id=one-feeling-word-no-fix-required-20261019",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "spiritFeature": true,
+  "image": "images/generated/one-feeling-word-no-fix-required-20261019.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: One Feeling Word, No Fix Required. A brief way to notice what you feel without turning the moment into a problem to solve—or a promise to feel better.\nPeople: two women friends with distinct personal style. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: A candid, softly lit kitchen scene with two friends at a small table. One person is quietly considering a feeling, mug in hand; the other offers relaxed company without trying to fix the moment. Keep the mood natural and unposed, with attention on the pause rather than visible distress.\nAvoid repeating these recent WILDWIRE image scenes: Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Three adult family members share a strength-training space, each using a different level of support and resistance while a qualified trainer observes. | Two friends sit together on a fitting-room bench as one tries on a shoe and the other listens, with the matching pair and a few size options nearby. | Two partners pause at a trail junction to check a map and talk through their route. | Two people of different ages sit at a kitchen table, arranging hand-drawn pages and cut-paper images into a small zine. | Two partners crouch beside an open cabinet under a kitchen sink, using a flashlight to inspect the pipes while one writes notes on a phone. | A couple and an older relative sit at a kitchen table, sorting bank statements into piles labeled institution, product and ownership. | Two friends in a fitting room, one seated and the other reaching overhead in a jacket as they check how the clothes move. | Two adult friends at a kitchen counter writing food names and dates on reusable leftover-container labels. | Two friends sit across a kitchen table from a bike mechanic, recording a conversation about the work while a notebook and a repair tool rest nearby.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

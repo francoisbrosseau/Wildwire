@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "The $250,000 Rule Starts With Three Questions",
+  "subtitle": "For a family reviewing cash, deposit insurance depends on the institution, the product and how the account is owned—not simply the number of accounts.",
+  "imageAlt": "A couple and an older relative sit at a kitchen table, sorting bank statements into piles labeled institution, product and ownership.",
+  "imageConcept": "A warm, documentary-style kitchen-table scene: a couple and an older family member calmly compare statements and make a simple three-column checklist, with account numbers turned away and no visible bank branding.",
+  "body": [
+    [
+      "Start with the records, not the number",
+      "A family cash review can begin with a modest task: gather recent statements and list the institution, the kind of product and the ownership shown on each record. That could mean a checking account at one bank, a certificate of deposit at another, and a relative’s savings account at a credit union. The first goal is not to decide where money should go. It is to understand what the paperwork actually says.\n\nThe familiar $250,000 figure is often repeated as if it applied separately to every account. The federal rule is more specific: at an FDIC-insured bank, coverage is generally $250,000 per depositor, per insured bank, per ownership category. Each part of that formula matters. The institution must be insured, the product must qualify as a deposit, and the account’s ownership category affects how balances are counted. [1]"
+    ],
+    [
+      "Question one: Is the institution federally insured?",
+      "A name on a building, app or debit card may not tell you which legal institution holds the deposit. Start with the bank or credit union identified in the account documents, then verify its insurance status with the relevant federal agency. The FDIC provides BankFind for banks; the National Credit Union Administration provides a lookup for federally insured credit unions. Confirming the institution is a more reliable first step than assuming that familiar branding or a nearby branch answers the question.\n\nAt an FDIC-insured bank, deposit insurance is automatic for qualifying deposits; customers do not need to enroll or buy a separate policy. But a financial company that offers a banking service is not necessarily itself the insured bank. The account records should identify the institution holding the deposit. If the listing or arrangement is unclear, ask the institution which insured bank holds the funds and what documentation identifies the account. [1][2]"
+    ],
+    [
+      "Question two: Is it a deposit—or an investment?",
+      "Products that sound alike can receive different treatment. Checking and savings accounts, certificates of deposit and money market deposit accounts are examples of deposit products that may qualify for FDIC coverage at an insured bank. A money market mutual fund, by contrast, is an investment and is not an FDIC-insured deposit. The word “money market” by itself does not settle the issue; look at the product description and account documents.\n\nThe distinction matters when a bank offers both deposit accounts and investment services. An investment can appear in a bank’s office, on the same website or in the same overall financial picture as insured deposits without becoming a deposit. The FDIC does not insure stocks, bonds, mutual funds or other securities against loss in value. A family inventory should therefore record the product’s actual type, rather than grouping every balance displayed by one institution into a single “bank account” total. [1][2]"
+    ],
+    [
+      "Question three: How is the account owned?",
+      "At one insured bank, balances in the same ownership category are generally added together for insurance purposes. So a person’s checking and savings accounts, plus a CD held in that same ownership category, do not each receive a fresh $250,000 limit merely because they have different account numbers. Opening those accounts at separate branches of the same bank does not create separate coverage either. Accounts at separately chartered insured banks are treated separately. [2]\n\nOwnership categories are the reason the rule cannot be reduced to a quick account-by-account calculation. Federal rules recognize categories such as single-owner accounts, certain joint accounts and certain retirement accounts, among others. The requirements differ by category, and a label on a family spreadsheet is not enough to establish how an account qualifies. Record the ownership exactly as it appears on statements and account documents. If the title, beneficiaries or other details are complex, pause before drawing conclusions and use the agency’s guidance or ask the institution for clarification. [1]"
+    ],
+    [
+      "Credit unions have a separate federal system",
+      "Credit-union accounts are commonly called share accounts, but the basic consumer question is similar: is the credit union federally insured, and what kind of account is it? The NCUA administers the National Credit Union Share Insurance Fund, which provides federal insurance for qualifying share deposits at federally insured credit unions. Its coverage framework includes a $250,000 limit, applied under the relevant ownership rules. [3]\n\nNot every credit union necessarily has federal share insurance. Some state-chartered credit unions may have private insurance instead, so membership alone does not establish that the federal framework applies. Verify the institution’s status through the NCUA’s resources or ask the credit union directly which entity insures members’ accounts. As with bank deposits, insurance is not a guarantee against every financial loss or a shield for investment products. Check the product and the insurer together; do not assume that the word “credit union” answers both questions. [3]"
+    ],
+    [
+      "A useful family review, in four passes",
+      "First, gather statements and account agreements for the cash holdings you want to understand. Second, make a simple list with three columns: institution, product and ownership as documented. Avoid putting full account numbers on a shared working sheet unless there is a clear need; the purpose is to map the records, not create a new repository of sensitive information.\n\nThird, verify whether each bank is FDIC-insured or each credit union federally insured by the NCUA. Fourth, group qualifying deposits by institution and ownership category, taking care not to treat separate accounts or branches as separate limits by default. If the result is not straightforward, use the FDIC’s Electronic Deposit Insurance Estimator for bank deposits or the NCUA’s share-insurance tools for credit unions, and consult the agency or institution about unresolved details. These steps help identify questions; they do not require anyone to move money or alter ownership. [1][3]"
+    ],
+    [
+      "Understanding coverage is the point",
+      "A coverage review is most useful when it produces a clearer picture, not a rushed transaction. A family may discover that several accounts sit at one bank, that a product described casually as “cash” is actually an investment, or that a credit union’s insurance status needs confirmation. Each finding points to a different follow-up question. None, on its own, says what a person should do with their money.\n\nFederal deposit-insurance rules are general, while the outcome for a particular account depends on its institution, product and documented ownership. Use the agencies’ current explanations and calculators, and seek qualified help when account arrangements are complicated. This is educational information, not personalized financial, legal, tax or estate-planning advice. The practical win is knowing which facts to verify—and having the statements organized well enough to ask the right question."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Understanding Deposit Insurance | FDIC.gov",
+      "authors": "Federal Deposit Insurance Corporation",
+      "publication": "FDIC.gov, last updated April 1, 2024",
+      "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance?utm_source=openai",
+      "researchSourceId": "S73"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Your Insured Deposits | FDIC.gov",
+      "authors": "Federal Deposit Insurance Corporation",
+      "publication": "FDIC.gov, last updated May 14, 2024",
+      "url": "https://www.fdic.gov/resources/deposit-insurance/brochures/insured-deposits?utm_source=openai",
+      "researchSourceId": "S75"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Share Insurance Coverage | NCUA",
+      "authors": "National Credit Union Administration",
+      "publication": "NCUA.gov, last modified May 20, 2025",
+      "url": "https://ncua.gov/consumers/share-insurance-coverage?utm_source=openai",
+      "researchSourceId": "S77"
+    }
+  ],
+  "id": "the-250-000-rule-starts-with-three-questions-20261019",
+  "date": "2026-10-19",
+  "editionDate": "2026-10-19",
+  "url": "article.html?id=the-250-000-rule-starts-with-three-questions-20261019",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-250-000-rule-starts-with-three-questions-20261019.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The $250,000 Rule Starts With Three Questions. For a family reviewing cash, deposit insurance depends on the institution, the product and how the account is owned—not simply the number of accounts.\nPeople: an adult couple with one older family member. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: A warm, documentary-style kitchen-table scene: a couple and an older family member calmly compare statements and make a simple three-column checklist, with account numbers turned away and no visible bank branding.\nAvoid repeating these recent WILDWIRE image scenes: Two friends sit at a kitchen table, each holding a small keepsake while they talk. | Two adult friends compare contrasting sunglasses frames in a bright shop, one holding a pair up while the other checks the fit. | Two travelers study a map together at a coastal rail station above a harbor. | Two friends at a kitchen table compare a handwritten trip budget with a map and separate savings notes. | Blistered tomatoes and white beans in a dark skillet with yogurt, herbs and toasted bread | Two focused training partners prepare for a deadlift in a sunlit neighborhood gym. | A Black woman and East Asian man walk with quiet confidence in thoughtful city clothes after rain. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Three adult family members share a strength-training space, each using a different level of support and resistance while a qualified trainer observes. | Two friends sit together on a fitting-room bench as one tries on a shoe and the other listens, with the matching pair and a few size options nearby. | Two partners pause at a trail junction to check a map and talk through their route. | Two people of different ages sit at a kitchen table, arranging hand-drawn pages and cut-paper images into a small zine. | Two partners crouch beside an open cabinet under a kitchen sink, using a flashlight to inspect the pipes while one writes notes on a phone.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 3,
+    "issues": []
+  }
+}
