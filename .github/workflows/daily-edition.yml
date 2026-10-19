@@ -141,6 +141,11 @@ jobs:
           git add content/articles content/editions images/generated js/articles.js js/articles-current.js
           if ! git diff --cached --quiet; then
             git commit -m "Publish WILDWIRE daily edition"
+            # Editorial/repository maintenance can land during long generation.
+            # Rebase this validated edition onto the latest default branch before pushing.
+            # Never force-push: stop if the live edition changed or conflicts arise.
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
           echo "revision=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
