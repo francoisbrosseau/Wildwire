@@ -264,3 +264,11 @@ body{background:var(--bg);color:var(--cream)}
 @media(max-width:1150px){.network-footer{grid-template-columns:repeat(3,minmax(0,1fr))}.network-intro{grid-column:1/-1}}
 @media(max-width:760px){.network-footer{grid-template-columns:repeat(2,minmax(0,1fr))}.network-intro{grid-column:1/-1}}
 @media(max-width:600px){.network-footer{grid-template-columns:1fr}.network-intro{grid-column:auto}.network-sanctuary-lockup{min-height:85px}}
+
+/* RIFTBOUND joins the independent connected magazines. */
+.network-footer{grid-template-columns:minmax(150px,1.05fr) repeat(5,minmax(0,1fr));gap:18px}
+.network-riftbound{display:flex;align-items:center;width:220px;max-width:100%;min-height:100px}
+.network-riftbound img{width:100%;height:auto;max-height:115px;object-fit:contain}
+@media(max-width:1350px){.network-footer{grid-template-columns:repeat(3,minmax(0,1fr))}.network-intro{grid-column:1/-1}}
+@media(max-width:760px){.network-footer{grid-template-columns:repeat(2,minmax(0,1fr))}.network-intro{grid-column:1/-1}}
+@media(max-width:600px){.network-footer{grid-template-columns:1fr}.network-intro{grid-column:auto}}
