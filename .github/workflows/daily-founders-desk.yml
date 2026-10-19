@@ -1,0 +1,118 @@
+name: Publish daily WILDWIRE Founder's Desk
+
+on:
+  schedule:
+    - cron: '5 7,9,11,14 * * *'
+      timezone: America/Toronto
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/daily-founders-desk.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wildwire-founders-desk-daily
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      issues: write
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+      revision: ${{ steps.commit.outputs.revision }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Check for today's note and founder approval
+        id: gate
+        env:
+          WILDWIRE_FOUNDERS_PAUSED: ${{ vars.WILDWIRE_FOUNDERS_PAUSED }}
+        run: |
+          node - <<'NODE'
+          const fs=require('fs'),path=require('path');
+          const {enabled}=require('./scripts/generate-founder-note.cjs');
+          const {torontoDate}=require('./scripts/founders-desk-core.cjs');
+          const date=torontoDate();
+          const allowed=enabled(require('./config/founders-desk.json'));
+          const exists=fs.existsSync(path.join('content','founders-notes',date+'.json'));
+          fs.appendFileSync(process.env.GITHUB_OUTPUT,`publish=${allowed&&!exists}\ndate=${date}\n`);
+          console.log({date,allowed,exists});
+          NODE
+      - name: Generate and independently review today's reflection
+        id: generate
+        if: steps.gate.outputs.publish == 'true'
+        run: node scripts/generate-founder-note.cjs
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          WILDWIRE_FOUNDERS_PAUSED: ${{ vars.WILDWIRE_FOUNDERS_PAUSED }}
+      - name: Validate all new note and magazine content
+        if: steps.generate.outputs.changed == 'true'
+        run: |
+          npm install --no-audit --no-fund
+          npm test
+          node scripts/check-content.cjs
+      - name: Commit only Founder’s Desk changes
+        id: commit
+        if: steps.generate.outputs.changed == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/founders-notes js/founders-notes.js founders-desk.html founder-note-*.html
+          if git diff --cached --quiet; then echo 'No new founder content to commit'; exit 0; fi
+          git commit -m "Publish independent daily Founder's Desk note"
+          git reset --hard HEAD
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "revision=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Save editorial failure report for troubleshooting
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: founders-desk-daily-diagnostics-${{ github.run_id }}
+          path: .wildwire-runs/founders
+          if-no-files-found: ignore
+          retention-days: 7
+      - name: Report failed note after final daily recovery window
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Founder’s Desk daily publication failed: $(TZ=America/Toronto date +%F)"
+          gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "Independent Founder’s Desk automation failed. Check this run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" || true
+
+  deploy:
+    needs: publish
+    if: needs.publish.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
+    with:
+      revision: ${{ needs.publish.outputs.revision }}
+
+  verify:
+    needs: [publish, deploy]
+    if: needs.deploy.result == 'success'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ needs.publish.outputs.revision }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node scripts/verify-founder-note.cjs
