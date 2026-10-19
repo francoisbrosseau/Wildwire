@@ -145,6 +145,7 @@ jobs:
             # Rebase this validated edition onto the latest default branch before pushing.
             # Never force-push: stop if the live edition changed or conflicts arise.
             git fetch origin "${GITHUB_REF_NAME}"
+            git reset --hard HEAD
             git rebase "origin/${GITHUB_REF_NAME}"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
