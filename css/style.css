@@ -272,3 +272,8 @@ body{background:var(--bg);color:var(--cream)}
 @media(max-width:1350px){.network-footer{grid-template-columns:repeat(3,minmax(0,1fr))}.network-intro{grid-column:1/-1}}
 @media(max-width:760px){.network-footer{grid-template-columns:repeat(2,minmax(0,1fr))}.network-intro{grid-column:1/-1}}
 @media(max-width:600px){.network-footer{grid-template-columns:1fr}.network-intro{grid-column:auto}}
+
+/* Complete partner artwork at a readable scale on every page. */
+.network-footer{grid-template-columns:repeat(3,minmax(0,1fr));gap:35px 40px}.network-intro{grid-column:1/-1}.network-brand{align-items:center;text-align:center;min-height:220px;gap:18px}.network-hayvn-window,.network-rituwild-lockup,.network-lunara-lockup,.network-sanctuary-lockup,.network-riftbound{display:flex;align-items:center;justify-content:center;width:260px;max-width:100%;height:180px;min-height:180px;overflow:visible;background:transparent;padding:0}.network-brand img,.network-hayvn-window img,.network-rituwild-wordmark{position:static;inset:auto;transform:none;display:block;width:100%;max-width:100%;height:100%;max-height:180px;object-fit:contain}.network-brand>span:last-child{font-size:.78rem}.network-intro>p{max-width:none}
+@media(max-width:850px){.network-footer{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}.network-brand{min-height:210px}}
+@media(max-width:520px){.network-footer{grid-template-columns:1fr}.network-intro{grid-column:auto}.network-brand{min-height:220px}.network-brand>span:last-child{font-size:.8rem}}

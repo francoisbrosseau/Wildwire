@@ -228,3 +228,11 @@ new unattended note targeted for October 18. The October 17 note is a
 labeled AI-assisted editorial sample, not personally authored copy. See
 FOUNDER-DESK-OPERATIONS.md for gates, preview evidence, bounded retries, cost
 reporting, failure recovery and independent pause controls.
+
+## October 19 publication and verification repair
+
+The October 19 scheduled run generated and validated its complete content but its push was rejected because main advanced during generation. The edition was subsequently recovered and deployed. The current publisher fetches and rebases its validated edition before a normal non-force push; that repair was already present at inspection.
+
+The public verifier still expected nine stories and incorrectly treated the independent Mind & Spirit feature as a pillar. It now requires six true pillars, three Daily Reads and one distinct Mind & Spirit feature, verifying all ten covers and six separate tile images. The watchdog label now describes the same ten-story/sixteen-image edition. Local site/content checks passed, and the repaired verifier returned LIVE_VERIFIED for all October 19 articles and images. Both production gates remain enabled. No editorial format, logo, archived story or existing image bytes changed.
+
+The October 20 full future-edition preview passed in run 39352755320: ten newly researched full articles, sixteen distinct reviewed images, build and new-edition integration checks. Both generation and validation steps succeeded; production commit/deploy were skipped. The independent real Founder’s Desk API preview also passed (39352950817). These tests validate the current system, not a guarantee of future scheduler timing.
