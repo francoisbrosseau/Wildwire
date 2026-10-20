@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "Who Holds the Keys? A Plain-Language Guide to Crypto Custody",
+  "subtitle": "A wallet is less a container than a way to control access. Here’s how to understand who holds that control—and what couples can discuss without sharing secrets.",
+  "imageAlt": "Two partners sit at a kitchen table, comparing a simple custody diagram on a tablet while keeping their phones and account details private.",
+  "imageConcept": "A relaxed couple at a kitchen table, looking together at a tablet displaying a simple diagram labeled “keys,” “provider,” and “access”; their phones are face down, and no wallet addresses, passwords, or account screens are visible.",
+  "body": [
+    [
+      "A wallet is about access",
+      "The word wallet can suggest a place where something is kept. In crypto, the more useful comparison is a key ring: a wallet manages the cryptographic keys used to access and authorize transactions involving digital assets recorded on a blockchain. The assets themselves are not sitting inside the app or device. A public key, often represented by an address, can be used to receive assets; a private key is secret information that can authorize control over them. A recovery phrase, also called a seed phrase, can provide access to a wallet and must be protected accordingly. The Securities and Exchange Commission’s investor bulletin explains that losing access to private keys can mean losing access to assets, and that someone who obtains the keys may be able to move them. [1] This is why “Where is the crypto?” is often less revealing than “Who controls the keys?” The distinction matters whether a person uses an app, a hardware device, or a company’s service."
+    ],
+    [
+      "Two separate choices, not one",
+      "Crypto custody is easier to understand when split into two questions. First: who controls the private keys? With self-custody, the individual controls them. With third-party custody, a provider controls or safeguards keys on the customer’s behalf. Second: how is the wallet connected? A hot wallet is connected to the internet; a cold wallet keeps keys offline. These are separate dimensions, not competing labels. A person can use a hot wallet with self-custody, or a cold-storage arrangement through a provider; a provider may also offer online access. Each setup has trade-offs. Online access can be convenient, but internet-connected systems may face cyber threats. Offline storage can reduce some online exposure, but it does not remove the need to protect recovery information or plan for loss, damage, and access. The SEC bulletin describes these categories and cautions that custody arrangements bring different security and access risks. [1] The label alone does not tell you whether a setup is suitable or reliable."
+    ],
+    [
+      "What self-custody asks of you",
+      "Self-custody gives a person direct control over the keys, but that control comes with responsibility. If the private key or recovery phrase is lost, forgotten, destroyed, or made inaccessible, there may be no customer-support desk able to restore access. If the secret is exposed, another person may be able to take control. Secure backups, device security, and a realistic plan for illness, travel, or a damaged device all become part of the arrangement. Those plans should protect the secret rather than make it easier to share. The SEC advises investors not to share private keys or seed phrases, including with people they trust. [1] That includes partners: discussing how access is managed is sensible; copying, photographing, texting, or entering each other’s recovery words is not a safe substitute for planning. Someone considering self-custody should understand the wallet’s recovery process before relying on it and decide how to protect access information against both accidental loss and unauthorized access."
+    ],
+    [
+      "What a provider’s custody means",
+      "Third-party custody shifts some key management to a company, but it does not make the customer’s position identical to a bank deposit or eliminate risk. A provider may set the rules for account access, withdrawals, security procedures, and what happens if its systems fail or the business closes. The practical details depend on the provider and its terms. Before relying on a service, read what it says about who controls the keys, how assets are held, whether assets may be lent or otherwise used, how withdrawals work, and what happens in insolvency or a security incident. If the answers are vague, difficult to find, or inconsistent across documents, treat that as an unresolved question—not proof of protection. The SEC notes that a custodian can fail and that customers may face delays or losses in accessing assets. [1] Separately, the CFTC warns that virtual-currency markets can be volatile and that platforms may lack customer safeguards. [2] A familiar brand or smooth app experience is not a guarantee against these risks."
+    ],
+    [
+      "A conversation that protects privacy",
+      "Partners do not need to inspect each other’s accounts to make a useful custody map. Set aside a short conversation and keep it at the level of plans and questions. Each person can identify whether they use self-custody or a provider, whether the setup is hot or cold, and where they would independently verify the provider’s terms and security information. Ask what would happen if a phone were lost, a password stopped working, or the provider became unavailable. Note which questions remain unanswered and who will look them up. Do not exchange passwords, private keys, seed phrases, verification codes, or device access. Do not initiate a transfer as a test. If one person prefers not to discuss balances, respect that boundary: understanding the arrangement does not require knowing the amount held. The goal is not to combine accounts or assign one partner control over the other’s assets. It is to make sure each person can describe their own access plan and knows where reliable information can be checked."
+    ],
+    [
+      "Recognize the pressure around crypto",
+      "Custody questions are only one part of financial risk. Crypto prices can move sharply, and a platform’s apparent balance is not the same as a guarantee that funds can be withdrawn. Be especially cautious when an online contact—whether a new acquaintance or someone who has built trust over time—steers a conversation toward a particular crypto investment, trading site, or wallet. A joint SEC, CFTC, FINRA, and NASAA alert describes relationship investment scams that use trust to persuade people to invest; it warns that displayed balances and even early withdrawals can be faked. [3] A polished website or app does not establish that an investment is legitimate. Pressure to act quickly, keep the opportunity secret, send crypto to unlock supposed profits, or use a particular link are reasons to pause and verify independently. Do not rely on contact details or verification links supplied by the person promoting the opportunity. Look up the relevant company or agency through an independent official source, and talk to a trusted, qualified professional if you need help assessing the situation."
+    ],
+    [
+      "Make a custody map, not a shared key",
+      "A useful record can be simple and non-sensitive. For each person’s arrangement, write down: who controls the private keys; whether the setup is hot or cold; which provider or wallet documentation explains access and recovery; what happens if a device is lost; and which questions still need answers. Keep the map free of seed phrases, private keys, passwords, account numbers, and recovery codes. Store it somewhere appropriate for your household, with access limited to the people who should see it. Revisit the notes if a provider, device, or plan changes. If you are unsure whether a custody method or service is appropriate, seek independent advice rather than relying on a partner’s confidence, an online promoter, or a platform’s marketing. This is an educational framework, not a recommendation to buy, sell, or hold any digital asset. U.S. legal, tax, and property questions can depend on individual circumstances and state law; a custody conversation does not settle them."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Crypto Asset Custody Basics for Retail Investors – Investor Bulletin | Investor.gov",
+      "authors": "SEC Office of Investor Education and Assistance",
+      "publication": "Investor.gov, U.S. Securities and Exchange Commission, December 12, 2025",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/crypto-asset-custody-basics-retail-investors-investor-bulletin-0?trk=article-ssr-frontend-pulse_little-text-block",
+      "researchSourceId": "S35"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Customer Advisory: Understand the Risks of Virtual Currency Trading | CFTC",
+      "authors": "Commodity Futures Trading Commission",
+      "publication": "Commodity Futures Trading Commission, December 15, 2017",
+      "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/understand_risks_of_virtual_currency.html",
+      "researchSourceId": "S27"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Relationship Investment Scams – Investor Alert | Investor.gov",
+      "authors": "SEC Office of Investor Education and Advocacy; CFTC Office of Customer Education and Outreach; Financial Industry Regulatory Authority; North American Securities Administrators Association",
+      "publication": "Investor.gov, September 10, 2024",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/relationship-investment-scams-investor-alert",
+      "researchSourceId": "S10"
+    }
+  ],
+  "id": "who-holds-the-keys-a-plain-language-guide-to-crypto-custody-20261020",
+  "date": "2026-10-20",
+  "editionDate": "2026-10-20",
+  "url": "article.html?id=who-holds-the-keys-a-plain-language-guide-to-crypto-custody-20261020",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/who-holds-the-keys-a-plain-language-guide-to-crypto-custody-20261020.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Who Holds the Keys? A Plain-Language Guide to Crypto Custody. A wallet is less a container than a way to control access. Here’s how to understand who holds that control—and what couples can discuss without sharing secrets.\nPeople: two women partners with distinct builds and features. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: A relaxed couple at a kitchen table, looking together at a tablet displaying a simple diagram labeled “keys,” “provider,” and “access”; their phones are face down, and no wallet addresses, passwords, or account screens are visible.\nAvoid repeating these recent WILDWIRE image scenes: Two friends sit together on a fitting-room bench as one tries on a shoe and the other listens, with the matching pair and a few size options nearby. | A woman and a man push weighted training sleds with focused effort in a gym. | Two companions in tailored burgundy and ivory outfits walk with purpose through a city. | Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends in a bright community gym: one practices a supported step-up while the other prepares to lift a pair of light dumbbells. | Three generations of a family stand together outdoors in distinct sun-covering outfits: a loose overshirt and wide-brim hat, a long-sleeved shirt and cap, and a lightweight jacket with a brimmed hat. | Two friends pause on a marked path inside a cave, looking toward a broad chamber lit by their guide. | Two friends seated together in a theatre, one holding a printed access guide while a softly lit aisle leads toward the stage. | An age-diverse couple stands beside a softly lit bedroom hallway, looking together toward the bathroom and noticing the path between them.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

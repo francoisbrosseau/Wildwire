@@ -1,0 +1,84 @@
+{
+  "category": "Explore",
+  "title": "A Clear Surface Is Not a Water Test",
+  "subtitle": "An additional WILDWIRE Daily Read: a practical check for harmful algal blooms before a freshwater outing.",
+  "imageAlt": "Two friends at a lake shore: one checks a local water advisory on a phone while the other looks along the waterline.",
+  "imageConcept": "Two friends pause at a freshwater shoreline before swimming or launching a small boat. One checks an official local advisory on a phone; the other scans the water and nearby posted signs. Their towels and picnic bag remain on dry ground, leaving space in the scene for a decision to change plans.",
+  "body": [
+    [
+      "Start with the exact place",
+      "A lake can look inviting and still be the wrong place to swim that day. Before leaving home, look up current water-quality information for the specific lake, river, or access point you plan to visit. Search the name of the waterbody together with your state, county, or local health authority; check whether there is a current advisory, closure, or other notice. Make sure the notice applies to the location and date you have in mind, rather than a different section of a long river or a nearby beach. The Centers for Disease Control and Prevention (CDC) notes that not every waterbody is monitored, so a lack of an advisory is not a guarantee that no bloom is present [1]. Think of the online check as one useful piece of information—not a certificate of safety."
+    ],
+    [
+      "What a bloom may look like",
+      "Harmful algal blooms can change the appearance of water. Look for unusual discoloration, surface scum, foam, or a bad smell, especially along the shoreline and in sheltered areas. These signs are reasons to keep people and animals out and to consult local guidance. But the visual check has a firm limit: some blooms grow underwater or are otherwise difficult to see [1]. A clear surface cannot confirm that the water is safe. That distinction matters because it is easy to treat a familiar view—blue water, no obvious film—as reassuring evidence. It is not evidence of the kind a water test or public-health notice provides. If the conditions look unusual, do not wade in to investigate, touch or collect the material, or let a dog approach the waterline. Choose dry ground and seek current information instead."
+    ],
+    [
+      "Make the shoreline scan useful",
+      "A quick scan works best when it is deliberate, not a substitute for checking local information. From dry ground, look across the water and along the edge for discolored patches, streaks, foam, or a surface layer that resembles paint or spilled material. Notice whether there is an unusual odor. Check posted signs at the access point, too; a notice may describe a restriction that is not obvious from the view in front of you. If the water is discolored, scummy, foamy, or smells bad, skip contact. Avoid touching the water or material, and keep children and pets back. Do not assume that a small patch is harmless because most of the lake looks normal. The scan is a way to catch warning signs, not to clear the rest of the lake."
+    ],
+    [
+      "Know what ‘no advisory’ means",
+      "When a search turns up no current notice, pause before translating that into “safe.” Authorities do not monitor every body of water, and an advisory may not be available even where a bloom is present [1]. That does not mean every unmonitored lake is unsafe; it means the information is incomplete. If the water looks or smells unusual, stay out regardless of whether a warning appears online. If there are no warning signs but you cannot find reliable, location-specific information, choosing a dry alternative is a cautious option—especially when the outing includes young children or pets. Check the relevant local or state authority for advisories that apply to the specific waterbody you plan to visit. Do not assume an alert system for one kind of waterbody covers another. Save the right agency’s page before the next outing, so you are not trying to identify it at the shoreline."
+    ],
+    [
+      "Why caution is not alarm",
+      "A bloom is not always easy to identify by sight, and “harmful algal bloom” describes a concern that can involve different organisms and exposures. CDC guidance says signs and symptoms vary based on the toxin and exposure, and people can have skin contact with contaminated water while swimming or boating [2]. This is a reason to follow local notices and avoid suspicious water, not a reason to treat every lake visit as dangerous. The best response is specific to the place and conditions: check the current advisory, observe from shore, and change plans when a warning or visible sign calls for it. Historical surveillance also illustrates why appearances are an imperfect guide. In a CDC report covering 2016–2018, visible scum was recorded for fewer than half of reported bloom events—39 percent [3]. That historical figure is not a current national estimate of risk, but it reinforces the central point: what you can see is not a complete water test."
+    ],
+    [
+      "If someone or a pet has contact",
+      "If a person or pet has been in water under an advisory, or has touched material that looks like a bloom, move away from the water and follow instructions from the local health authority. Keep pets from drinking the water or grooming after contact, and contact a veterinarian if you are concerned about an animal’s exposure. Signs and symptoms vary based on the toxin and exposure [2]. If someone feels unwell after exposure, seek advice from a health professional and mention the water contact and where it happened. This article is general outdoor guidance, not a diagnosis; local health departments and clinicians can advise on specific circumstances. If an advisory is active, respect its instructions even if the water appears clear or other visitors are in it."
+    ],
+    [
+      "A two-minute plan before you go",
+      "Make the check part of deciding what the outing will be, not an awkward interruption after everyone has unpacked. First, identify the precise waterbody and access point. Second, check the current advisory with the relevant state or local authority. Third, look for posted notices when you arrive. Fourth, scan the shoreline from dry ground for discoloration, scum, foam, or an unpleasant smell. If any warning sign or advisory is present, avoid water contact and keep pets away. If the status is unclear, agree on a dry alternative before anyone is counting on a swim: a shoreline walk, a picnic farther from the water, or a visit to another place with current information. Carry drinking water for people and pets, and do not confuse it with water from the lake. A simple plan makes caution practical rather than dramatic."
+    ],
+    [
+      "Choose the outing with the information you have",
+      "Try this with the people you are going outdoors with: before the next freshwater trip, name the exact destination, find the relevant local or state information page, and decide who will check it on the day. When you arrive, take a moment to read posted signs and scan the shoreline together from dry ground. If an advisory is active or the water has warning signs, say so plainly and switch to the alternative you chose; do not debate the water’s appearance as though it were a test result. If reliable status information is unavailable, treat that uncertainty honestly and decide whether a dry visit makes more sense. This small shared check keeps the focus where it belongs: on enjoying the place without pretending that a clear view can answer questions it cannot."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "How to Recognize a Harmful Algal Bloom",
+      "authors": "Centers for Disease Control and Prevention (CDC)",
+      "publication": "Centers for Disease Control and Prevention (CDC), March 8, 2024",
+      "url": "https://www.cdc.gov/harmful-algal-blooms/about/how-to-recognize-a-harmful-algal-bloom.html?utm_source=openai",
+      "researchSourceId": "S82"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Clinical Signs and Symptoms Caused by Freshwater Harmful Algal Blooms",
+      "authors": "Centers for Disease Control and Prevention",
+      "publication": "CDC, Harmful Algal Bloom (HAB)-Associated Illness, February 24, 2025",
+      "url": "https://cdc.gov/harmful-algal-blooms/hcp/clinical-signs/symptoms-freshwater-harmful-algal-blooms.html?utm_source=openai",
+      "researchSourceId": "S83"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Surveillance for Harmful Algal Bloom Events and Associated Human and Animal Illnesses — One Health Harmful Algal Bloom System, United States, 2016–2018",
+      "authors": "Virginia A. Roberts, Marissa Vigar, Lorraine Backer, Gabriella E. Veytsel, Elizabeth D. Hilborn, Elizabeth I. Hamelin, Kayla L. Vanden Esschert, Joana Y. Lively, Jennifer R. Cope, Michele C. Hlavsa, and Jonathan S. Yoder",
+      "publication": "Morbidity and Mortality Weekly Report, December 18, 2020",
+      "url": "https://www.cdc.gov/mmwr/volumes/69/wr/mm6950a2.htm?utm_source=openai",
+      "researchSourceId": "S84"
+    }
+  ],
+  "id": "a-clear-surface-is-not-a-water-test-20261020",
+  "date": "2026-10-20",
+  "editionDate": "2026-10-20",
+  "url": "article.html?id=a-clear-surface-is-not-a-water-test-20261020",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/a-clear-surface-is-not-a-water-test-20261020.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Clear Surface Is Not a Water Test. An additional WILDWIRE Daily Read: a practical check for harmful algal blooms before a freshwater outing.\nPeople: two adult friends of different genders. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two friends pause at a freshwater shoreline before swimming or launching a small boat. One checks an official local advisory on a phone; the other scans the water and nearby posted signs. Their towels and picnic bag remain on dry ground, leaving space in the scene for a decision to change plans.\nAvoid repeating these recent WILDWIRE image scenes: Two hiking partners climb a coastal trail above the sea. | Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends in a bright community gym: one practices a supported step-up while the other prepares to lift a pair of light dumbbells. | Three generations of a family stand together outdoors in distinct sun-covering outfits: a loose overshirt and wide-brim hat, a long-sleeved shirt and cap, and a lightweight jacket with a brimmed hat. | Two friends pause on a marked path inside a cave, looking toward a broad chamber lit by their guide. | Two friends seated together in a theatre, one holding a printed access guide while a softly lit aisle leads toward the stage. | An age-diverse couple stands beside a softly lit bedroom hallway, looking together toward the bathroom and noticing the path between them. | Two partners sit at a kitchen table, comparing a simple custody diagram on a tablet while keeping their phones and account details private. | A couple and an older relative sit together at a kitchen table, writing trusted phone numbers on a family emergency-check plan. | Two friends on a public sidewalk compare notes while looking up at a neighborhood building with varied windows and a prominent entrance.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
