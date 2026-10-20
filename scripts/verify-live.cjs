@@ -16,11 +16,12 @@ async function get(url) {
 }
 
 async function verify() {
-  const pillars = stories.filter(article => !article.dailyRead);
+  const pillars = stories.filter(article => !article.dailyRead && !article.spiritFeature);
+  const spiritFeatures = stories.filter(article => article.spiritFeature === true);
   const dailyReads = stories.filter(article => article.dailyRead === true);
-  if (stories.length !== 9 || pillars.length !== 6 || dailyReads.length !== 3 || new Set(pillars.map(article => article.category)).size !== 6 ||
+  if (stories.length !== 10 || pillars.length !== 6 || dailyReads.length !== 3 || spiritFeatures.length !== 1 || new Set(pillars.map(article => article.category)).size !== 6 ||
       !required.every(category => pillars.some(article => article.category === category))) {
-    throw new Error(`Expected six pillar stories and three Daily Reads for ${date}; found ${stories.length}.`);
+    throw new Error(`Expected six pillar stories, three Daily Reads and one Mind & Spirit feature for ${date}; found ${stories.length}.`);
   }
   const editionPath = path.join(root, 'content', 'editions', `${date}.json`);
   if (!fs.existsSync(editionPath)) throw new Error(`Missing edition manifest for ${date}.`);

@@ -24,7 +24,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-      - name: Check today's nine stories and fifteen images on the real domain
+      - name: Check today's ten stories and sixteen images on the real domain
         run: node scripts/verify-live.cjs
       - name: Report a missing or inaccessible morning edition
         if: failure()
