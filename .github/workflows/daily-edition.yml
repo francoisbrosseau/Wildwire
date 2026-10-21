@@ -40,7 +40,7 @@ jobs:
       contents: write
       issues: write
       actions: read
-    timeout-minutes: 60
+    timeout-minutes: 120
     outputs:
       live: ${{ steps.publish.outputs.live }}
       revision: ${{ steps.publish.outputs.revision }}

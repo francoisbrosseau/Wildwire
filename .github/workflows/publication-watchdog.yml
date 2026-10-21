@@ -2,13 +2,14 @@ name: Check the morning WILDWIRE edition
 
 on:
   schedule:
-    - cron: '50 6 * * *'
+    - cron: '50 6,8,10,12 * * *'
       timezone: America/Toronto
   workflow_dispatch:
 
 permissions:
   contents: read
   issues: write
+  actions: write
 
 concurrency:
   group: wildwire-morning-watchdog
@@ -25,7 +26,20 @@ jobs:
         with:
           node-version: 24
       - name: Check today's ten stories and sixteen images on the real domain
+        id: live
         run: node scripts/verify-live.cjs
+      - name: Recover a missing edition or deployment
+        if: failure() && steps.live.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          active=$(gh run list --workflow daily-edition.yml --branch main --limit 30 --json status --jq '[.[] | select(.status == "queued" or .status == "in_progress" or .status == "waiting" or .status == "pending")] | length')
+          if [ "$active" != 0 ]; then
+            echo 'Publisher already active; leaving its date-protected run alone.'
+          else
+            gh workflow run daily-edition.yml --ref main -f dry_run=false
+            echo 'Requested recovery; existing editions skip generation and proceed to deployment verification.'
+          fi
       - name: Report a missing or inaccessible morning edition
         if: failure()
         env:

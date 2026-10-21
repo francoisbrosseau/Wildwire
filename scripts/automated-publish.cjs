@@ -216,7 +216,31 @@ async function reviewArticle(article, category, round) {
   return { review, sources: checked.sources };
 }
 
+async function pollResponse(body, payload, label, { sleep = ms => new Promise(resolve => setTimeout(resolve, ms)), now = Date.now, timeoutMs = 600000 } = {}) {
+  const deadline = now() + timeoutMs;
+  const id = body.id;
+  if (!id) fail(`${label}: background response has no ID.`);
+  const url = new URL(`https://api.openai.com/v1/responses/${encodeURIComponent(id)}`);
+  for (const field of payload.include || []) url.searchParams.append('include[]', field);
+  while (['queued', 'in_progress'].includes(body.status)) {
+    if (now() >= deadline) fail(`${label}: background response ${id} exceeded its polling deadline; no duplicate request submitted.`);
+    await sleep(2000);
+    let response;
+    try {
+      response = await fetch(url, { headers: { Authorization: `Bearer ${TOKEN}` }, signal: AbortSignal.timeout(30000) });
+    } catch (error) {
+      log(`${label}: retrieval interrupted; continuing to poll the same response.`);
+      continue;
+    }
+    if ([408, 409, 429, 500, 502, 503, 504].includes(response.status)) continue;
+    if (!response.ok) fail(`${label}: background retrieval failed with HTTP ${response.status}.`);
+    body = await response.json();
+  }
+  return body;
+}
+
 async function apiRequest(payload, label) {
+  if (payload.tools?.some(tool => ['web_search', 'web_search_preview'].includes(tool.type))) payload = { ...payload, background: true };
   let lastError;
   for (let attempt = 0; attempt < 3; attempt++) {
     const started = Date.now();
@@ -229,12 +253,18 @@ async function apiRequest(payload, label) {
         method: 'POST',
         headers: { Authorization: `Bearer ${TOKEN}`, 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
-        signal: AbortSignal.timeout(payload.tools?.some(tool => tool.type === 'image_generation') ? 240000 : 180000),
+        signal: AbortSignal.timeout(payload.background ? 60000 : 300000),
       });
       const raw = await response.text();
       let body;
       try { body = JSON.parse(raw); } catch { body = { error: { message: raw.slice(0, 400) } }; }
       if (response.ok) {
+        if (['queued', 'in_progress'].includes(body.status)) {
+          // Once accepted, retrieve this response; never restart paid research
+          // merely because a polling request or the bounded wait failed.
+          retryable = false;
+          body = await pollResponse(body, payload, label);
+        }
         if (body.status && body.status !== 'completed') {
           const truncated = body.status === 'incomplete' && body.incomplete_details?.reason === 'max_output_tokens';
           const previousLimit = payload.max_output_tokens || 8000;
@@ -575,4 +605,4 @@ if (require.main === module) main().catch(error => {
   process.exitCode = 1;
 });
 
-module.exports = { normalizeReviewSourceIds, torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle, articleSchema, bindSources, applyVerifiedCorrections, canonicalEvidenceUrl, countWords, assertFreshImages, apiRequest, DAILY_READ_COUNT, DAILY_READ_CATEGORIES };
+module.exports = { normalizeReviewSourceIds, torontoDate, editionDate, editionArticles, selectedPairings, imagePrompt, titleOverlap, contentOverlap, validateArticle, articleSchema, bindSources, applyVerifiedCorrections, canonicalEvidenceUrl, countWords, assertFreshImages, apiRequest, pollResponse, DAILY_READ_COUNT, DAILY_READ_CATEGORIES };

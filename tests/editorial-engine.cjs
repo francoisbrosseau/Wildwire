@@ -111,6 +111,21 @@ try {
   const originalFetch = global.fetch;
   let calls = 0;
   try {
+    const { pollResponse } = require('../scripts/automated-publish.cjs');
+    const statuses = [503, 'in_progress', 'completed'];
+    global.fetch = async (url, options) => {
+      assert.match(String(url), /responses\/resp_research/);
+      assert.equal(new URL(url).searchParams.get('include[]'), 'web_search_call.action.sources');
+      assert.equal(options.body, undefined, 'Recovery retrieves the accepted response instead of resubmitting research');
+      const next = statuses.shift();
+      return next === 503 ? new Response('{}', {status:503}) : new Response(JSON.stringify({id:'resp_research',status:next,output:[]}));
+    };
+    const completed = await pollResponse({id:'resp_research',status:'queued'}, {include:['web_search_call.action.sources']}, 'Mock background research', {sleep:async()=>{}});
+    assert.equal(completed.status, 'completed');
+    assert.equal(statuses.length, 0, 'A transient retrieval failure preserves the same research job');
+    let clock = 0;
+    global.fetch = async () => new Response(JSON.stringify({id:'resp_stuck',status:'in_progress'}));
+    await assert.rejects(pollResponse({id:'resp_stuck',status:'queued'}, {}, 'Mock stuck research', {sleep:async()=>{clock+=10;},now:()=>clock,timeoutMs:15}), /polling deadline/);
     global.fetch = async (_url, options) => {
       calls++;
       assert.ok(options.signal instanceof AbortSignal, 'Every API attempt has a bounded timeout');
