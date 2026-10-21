@@ -1,0 +1,83 @@
+{
+  "category": "Living",
+  "title": "The Medicine Cabinet Is Not a Filing System: A 20-Minute Reset for Two",
+  "subtitle": "A friend can help you notice dates, instructions and disposal questions—without handling or making decisions about your medicines.",
+  "imageAlt": "Two adult friends sit at a kitchen table, each checking their own medicine containers beside a notepad and a phone.",
+  "imageConcept": "Two adult friends at a bright kitchen table, with separate small groups of labeled medicine containers in front of them; one checks a label while the other keeps time, with a notepad and phone nearby and no pills loose on the table.",
+  "body": [
+    [
+      "A second set of eyes, not a second decision-maker",
+      "A medicine cabinet can quietly become a jumble of products with different labels, storage needs and disposal instructions. A short reset can make it easier to see what needs attention. Doing it with a friend adds company and a second pair of eyes—but the boundary matters: each person handles and makes decisions about their own medicines. Your friend is not there to identify a pill, assess whether a medicine is right for you, or decide what you should keep taking. Those questions belong with a pharmacist or other health professional. Set aside 20 minutes, a timer, a pen and a clear surface. The goal is not to reorganize someone else’s treatment. It is to leave with medicines stored as directed, uncertain items set aside for follow-up, and a safer plan for anything you no longer need."
+    ],
+    [
+      "Agree on the boundary before opening anything",
+      "Start by saying the rule plainly: “I’ll check mine; you’ll check yours.” Keep each person’s medicines in separate groups, and don’t combine, share or transfer products. One person can keep time while the other reads their own labels; then switch. If a label is hard to read, take a photo or note the product name for a pharmacist rather than guessing together. It is fine to pass on any item or question that feels private. A friend’s role is practical support—holding the notepad, helping spot an expiration date, or reminding you to check the package—not access to your medical decisions. This approach also makes the task easier to pause. If a conversation raises a medication question, write it down and return to the reset only if both people want to continue."
+    ],
+    [
+      "Read the package, not your memory",
+      "For each product, look at the package or container for its expiration date and any storage instructions. Write down what is unclear instead of relying on memory or assuming that all medicines belong in one place. The label is the starting point because storage directions can differ by product. If the original packaging or instructions are missing, or you cannot tell whether the product is still usable, keep it separate and ask a pharmacist or health professional. This is a sorting task, not a reason to change how you take a medicine. Do not stop, start, or alter a medicine because of this review; use a professional for questions about use. A useful note can be brief: product name, the question you have, and who you plan to ask. That turns a vague concern into something you can follow up on without making the friend the authority."
+    ],
+    [
+      "Choose a spot that matches the instructions",
+      "Once you have checked the labels, choose a storage location that follows each product’s directions. Do not assume that one cabinet, shelf or container suits everything. The practical test is simple: can you put the product away as instructed and keep it secured from children and other people for whom it was not prescribed? CDC advises putting medicines, vitamins and supplements away after use, keeping them out of children’s sight and reach, and relocking safety caps [2]. MedlinePlus also advises using and relocking child-resistant caps and keeping medicines out of children’s reach [3]. If children may visit, make “put away” part of the reset: return each product to its secure location, close the cap as directed, and check the nearby floor for any dropped pills. CDC advises putting medicines, vitamins and supplements away after every use and keeping them out of children's sight and reach [2]."
+    ],
+    [
+      "Make a disposal pile, then check the route",
+      "Set aside products you no longer need or that are expired, but do not put them straight in the trash or flush them by default. In the United States, FDA says take-back locations and prepaid mail-back envelopes are preferred for most unused or expired medicines [1]. Look up a current local take-back option or mail-back program, and check what that program accepts. If neither option is available, consult the FDA’s current instructions for the specific medicine. FDA guidance distinguishes medicines on its flush list from products that have separate household-trash instructions; some less common dosage forms also have product-specific directions [1]. The important step is matching the method to the product, not choosing the easiest-looking method for everything. Keep disposal items separate from medicines you are keeping while you verify instructions. If you cannot identify the product or find its directions, leave it aside and ask a pharmacist rather than improvising."
+    ],
+    [
+      "Use the timer to keep the reset modest",
+      "A 20-minute structure helps the task stay finite. Spend the first two minutes agreeing on boundaries and clearing a work surface. Use the next eight minutes for each person to check their own labels and storage instructions, one person at a time. Take five minutes to put medicines being kept back in their appropriate secure locations and to gather disposal questions. Use the final five minutes to write down what needs a pharmacist’s input and identify how you will check local take-back or mail-back options. These are guideposts, not a test: if you find an unclear item, stop at “set aside and ask.” Do not rush into a disposal decision to beat the timer. CDC advises relocking medicine-bottle safety caps and storing medicines out of children's sight and reach [2]. A quick review should preserve that distinction rather than turning every product into a new container."
+    ],
+    [
+      "Leave with questions you can actually ask",
+      "Before you finish, each person should have their own small list of unresolved questions. Be specific: “Where should I store this product?” or “What is the correct disposal option for this medicine?” Include the product name and take the package or a clear photo when asking a pharmacist, if appropriate. Do not ask your friend to infer a medicine’s identity from its appearance or to decide whether it is safe or suitable for you. If the instructions are already clear, there is no need to invent more work: put the item away as directed or follow the appropriate disposal route. The FDA’s disposal guidance is U.S.-specific, so people elsewhere should use their own local medicine-disposal instructions [1]. A successful reset is not a perfectly empty cabinet. It is a clearer separation between what you know, what you need to check, and what belongs to someone else to decide."
+    ],
+    [
+      "End with a handoff, not a verdict",
+      "When the timer ends, each person puts away their own medicines and keeps their own question list. Take a moment to point to the item you have set aside and name the next step: ask a pharmacist, check the current local take-back instructions, or find the storage directions. If you are the friend, offer to sit with them while they make that call or look up the official guidance—but do not take the product home or dispose of it on their behalf. Then close the cabinet or storage space and check the work surface and floor for anything left behind. The useful result is modest and concrete: fewer guesses, a secure place for medicines, and one clear route for the questions that remain. You have helped each other without taking over."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Disposal of Unused Medicines: What You Should Know | FDA",
+      "authors": "U.S. Food and Drug Administration",
+      "publication": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/drugs/safe-disposal-medicines/disposal-unused-medicines-what-you-should-know?os=io___",
+      "researchSourceId": "S20"
+    },
+    {
+      "sourceId": "S2",
+      "title": "About the PROTECT Initiative | Medication Safety | CDC",
+      "authors": "Centers for Disease Control and Prevention",
+      "publication": "Centers for Disease Control and Prevention; April 17, 2024",
+      "url": "https://www.cdc.gov/medication-safety/protect/index.html",
+      "researchSourceId": "S26"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Medicines and Children",
+      "authors": "Food and Drug Administration",
+      "publication": "MedlinePlus, U.S. National Library of Medicine; last updated July 18, 2024",
+      "url": "https://medlineplus.gov/medicinesandchildren.html",
+      "researchSourceId": "S59"
+    }
+  ],
+  "id": "the-medicine-cabinet-is-not-a-filing-system-a-20-minute-reset-fo-20261021",
+  "date": "2026-10-21",
+  "editionDate": "2026-10-21",
+  "url": "article.html?id=the-medicine-cabinet-is-not-a-filing-system-a-20-minute-reset-fo-20261021",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-medicine-cabinet-is-not-a-filing-system-a-20-minute-reset-fo-20261021.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Medicine Cabinet Is Not a Filing System: A 20-Minute Reset for Two. A friend can help you notice dates, instructions and disposal questions—without handling or making decisions about your medicines.\nPeople: two adult friends of different genders. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: Two adult friends at a bright kitchen table, with separate small groups of labeled medicine containers in front of them; one checks a label while the other keeps time, with a notepad and phone nearby and no pills loose on the table.. Correct these previous image errors: The phone screen visibly displays timer digits, conflicting with the no-text requirement.. Make the required companions unmistakable.\nAvoid repeating these recent WILDWIRE image scenes: A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends of different ages lifting dumbbells side by side in a bright gym, each focused on their own movement and breathing. | Two friends at a tailor’s fitting mirror, one wearing trousers with the shoes they plan to wear and the other holding a small notes card. | An adult couple and an older family member pause beside the same neighborhood tree, comparing notes on its changing leaves. | Two friends lean over a laptop displaying a scanned historical newspaper page, comparing a small advertisement with a headline.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

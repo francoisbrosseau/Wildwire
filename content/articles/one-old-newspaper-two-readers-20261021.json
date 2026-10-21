@@ -1,0 +1,79 @@
+{
+  "category": "Culture",
+  "title": "One Old Newspaper, Two Readers",
+  "subtitle": "A digitized page can open a window onto a place’s past. Read it together as evidence, not as the whole story.",
+  "imageAlt": "Two friends lean over a laptop displaying a scanned historical newspaper page, comparing a small advertisement with a headline.",
+  "imageConcept": "Two friends at a kitchen table, a laptop showing a digitized newspaper page between them, one pointing to a small advertisement while the other takes notes; warm daylight, uncluttered and quietly curious.",
+  "body": [
+    [
+      "A page is a starting point",
+      "An old newspaper can make history feel close: a street name, a shop advertisement, a meeting notice, a familiar place printed in type that has outlasted the people who read it. But the most useful way to approach a digitized page is not as a time capsule that explains everything. It is a record of what one publication chose to print, for the readers it hoped to reach, at a particular moment. That distinction makes a shared search more interesting—and more honest.\n\nThis is a small, free inquiry for two people. Choose a U.S. town or community that matters to either of you, find one historical newspaper page, and compare what you notice. The aim isn’t to produce a definitive account. It’s to practice asking what a source can show, what it leaves out, and what you might want to check next."
+    ],
+    [
+      "Start with a place, not a grand question",
+      "Pick somewhere with a personal or practical connection: a hometown, a place a relative lived, a community you have visited, or a town you’re curious about. You don’t need to know its history in advance. A manageable search question might be, “What kinds of businesses advertised here?” or “How did the paper describe a local celebration?” Keep it open enough that the page can surprise you, but specific enough to help you decide what to look for.\n\nOpen the Library of Congress’s Chronicling America collection and search by place, date, topic, or newspaper title. If you have a date in mind, use the date controls; if you have only a place, begin there and see which titles and years are available. The Library of Congress also provides topical guides with suggested search terms and strategies if you need a way into a subject. For a first try, though, a town name and a broad time period are plenty."
+    ],
+    [
+      "Treat search as a set of clues",
+      "A search result is a route to a page, not a verdict on what happened. Historical newspaper text is often produced through optical character recognition, or OCR: software reads the scanned image and turns printed letters into searchable text. That process can mistake letters, especially in narrow columns or small, damaged type. A name or phrase that returns nothing may still appear on the page. Library of Congress guidance recommends varying search terms and filters; when a search misses, try a broader word, an alternate spelling, or a period-specific term [1].\n\nOnce you have a promising result, open the page image rather than relying on the snippet. Check the newspaper title and publication date, then look at the surrounding material. Is the item a local report, an advertisement, an editorial, a notice, or something reprinted from elsewhere? These forms serve different purposes. An advertisement can show what a business wanted readers to buy; it does not by itself tell you how many people bought it. A notice can point to a public event without showing who was able to attend."
+    ],
+    [
+      "Give each reader a different job",
+      "Look at the full page together, but don’t begin by trying to agree on its meaning. Each person can choose one detail: a headline, a small notice, an illustration, a business name, or even the arrangement of stories. Take a minute to describe what is literally visible before interpreting it. One person might note that a shop advertised a particular service; the other might notice that the notice gives a street address. Those observations can lead to a useful question—where was the shop, and does the address match a place you can locate today?\n\nFor each detail, try two sentences: “This shows…” and “This doesn’t establish….” The second sentence is not a way to drain the page of meaning. It keeps curiosity connected to evidence. A printed account can reveal how an editor framed an event; it cannot automatically stand in for every resident’s view. A digitized page can bring a fragment within reach, while the choices behind that fragment—what was covered, printed, preserved, and scanned—still shape what you can see."
+    ],
+    [
+      "Compare what the page makes visible",
+      "After sharing your details, ask why each of you was drawn to a different part of the page. Perhaps one reader notices a personal connection, while the other notices a pattern in the language or layout. Neither response needs to win. The contrast is a reason to look again: did one detail change how you understood another? Did an image or advertisement make the page’s priorities clearer? Does the paper seem to address a particular audience?\n\nThen compare the title information, where available, and consider whether another publication or a community paper might offer a different view. A newspaper is not a neutral camera pointed at a town. Editors make choices, and publications can differ in audience and perspective. If the collection has more than one title for the place and period, even a second page may add context. If it doesn’t, record that limit rather than filling the gap with a guess. The point is not to collect papers until you have a perfect picture; it is to notice that a single source has a particular vantage."
+    ],
+    [
+      "Read the difficult parts with care",
+      "Historical pages may contain racist, demeaning, or otherwise harmful language and imagery. You can decide in advance that either person may pause, skip a page, or end the search without having to justify it. If you encounter harmful material, don’t treat it as a shocking discovery detached from its context, or ask the person most affected to explain it. Name what is present, consider how the publication uses it, and choose whether you want to continue.\n\nCare also means being cautious about what an absence proves. If a search produces no mention of a person, group, event, or language, that may reflect the limits of digitized coverage, the paper’s editorial choices, the search terms, or OCR errors—not proof that the subject was absent from community life. The Library of Congress notes that OCR is imperfect; deteriorated newsprint, microfilm quality, narrow columns, and tiny type can all make machine-readable text difficult [2]. When a detail matters, inspect the scan itself and, if possible, look for another source."
+    ],
+    [
+      "Save the page—and the question",
+      "Before you finish, use the image viewer to save a page or clip the detail you discussed. The Library of Congress image-viewer guidance covers viewing, rotating, downloading, clipping, and sharing newspaper images [3]. Add a short note with the newspaper title, date, page, and the question you still have. For example: “This ad names a street; was the business near the present-day station?” A small record makes it easier to return to the evidence instead of relying on memory.\n\nKeep the ending modest and specific. Each person can name one thing the page supports, one thing it cannot settle, and one next place to look—another issue, a second paper, a map, or a local archive. You may not answer the question that brought you in. That is still a worthwhile result: two readers have learned to distinguish the printed fragment from the larger community, and left a clear trail for whoever wants to investigate further."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Tips for Searching in Chronicling America",
+      "authors": "Robin Butterhof",
+      "publication": "Headlines & Heroes, Library of Congress, January 7, 2025",
+      "url": "https://blogs.loc.gov/headlinesandheroes/2025/01/tips-for-searching-in-chronicling-america/?loclr=blogtea",
+      "researchSourceId": "S9"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Improving Machine-Readable Text for Newspapers in Chronicling America",
+      "authors": "Nathan Yarasavage",
+      "publication": "Headlines & Heroes, Library of Congress, April 29, 2025",
+      "url": "https://blogs.loc.gov/headlinesandheroes/2025/04/ocr-reprocessing/?loclr=blogsig",
+      "researchSourceId": "S14"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Top Five Tips for Using the Image Viewer",
+      "authors": "Mike Saelee",
+      "publication": "Headlines & Heroes, Library of Congress, March 11, 2025",
+      "url": "https://blogs.loc.gov/headlinesandheroes/2025/03/using-the-image-viewer/",
+      "researchSourceId": "S21"
+    }
+  ],
+  "id": "one-old-newspaper-two-readers-20261021",
+  "date": "2026-10-21",
+  "editionDate": "2026-10-21",
+  "url": "article.html?id=one-old-newspaper-two-readers-20261021",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/one-old-newspaper-two-readers-20261021.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: One Old Newspaper, Two Readers. A digitized page can open a window onto a place’s past. Read it together as evidence, not as the whole story.\nPeople: two men friends with different backgrounds. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: thoughtful companions paying attention, discussing or questioning something cultural.\nScene concept: Two friends at a kitchen table, a laptop showing a digitized newspaper page between them, one pointing to a small advertisement while the other takes notes; warm daylight, uncluttered and quietly curious.\nAvoid repeating these recent WILDWIRE image scenes: Two companions discuss a photograph in a gallery. | A couple share a drink and an open notebook on a leafy terrace. | Two friends discuss everyday money with a notebook and calculator in a neighborhood cafe. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends of different ages lifting dumbbells side by side in a bright gym, each focused on their own movement and breathing. | Two friends at a tailor’s fitting mirror, one wearing trousers with the shoes they plan to wear and the other holding a small notes card. | An adult couple and an older family member pause beside the same neighborhood tree, comparing notes on its changing leaves.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
