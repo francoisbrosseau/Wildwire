@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "Your 401(k) Has Two Balances—and a Vesting Clock",
+  "subtitle": "The number on your retirement account page may include employer money you have not fully earned. Here is how to find the difference—and what it does and does not mean when you change jobs.",
+  "imageAlt": "Two partners at a kitchen table review a retirement account statement beside a laptop and a notepad.",
+  "imageConcept": "A warm, realistic scene of two partners sitting together at a kitchen table, one pointing to a 401(k) statement on a laptop while the other writes down questions about the vested balance; everyday papers and mugs nearby, no visible financial brand or legible personal information.",
+  "body": [
+    [
+      "The number on screen is not always the whole story",
+      "A 401(k) account page may show a single total, but that figure does not necessarily tell you how much of the employer-funded portion you have a nonforfeitable right to keep if you leave. The distinction is vesting: in plain language, a vested benefit is one you have earned under the plan and cannot lose simply because your employment ends. Your own contributions are generally vested immediately; employer contributions may become yours over time, depending on the plan’s terms. The account’s investment value can also rise or fall, so a balance is a snapshot, not a guaranteed future amount. [1]\n\nA hypothetical illustration makes the difference clear. If a statement displays $20,000 and the plan identifies $16,000 as vested, the remaining $4,000 is not automatically yours to take when you leave. The actual treatment depends on the plan and the source of those dollars. The useful first move is not to guess from the headline total, but to locate the vested balance and learn what it includes."
+    ],
+    [
+      "Your contributions and the employer’s match follow different rules",
+      "Money you defer from your paycheck is generally yours from the start, along with investment gains or losses associated with it. Employer money is a separate category. It might be a matching contribution linked to what you save, another employer contribution, or a combination. The plan can set a vesting schedule for eligible employer contributions, subject to applicable federal standards. Some plans vest those contributions immediately; others require service over time. There is no single schedule that applies to every 401(k). [1]\n\nThat is why a total balance can be misleading during a job transition. A person may have fully earned their own deferrals but only part—or none—of an employer contribution. Conversely, a long-serving worker may be fully vested in the employer-funded portion. The recordkeeper’s labels can help, but the plan’s rules determine what the labels mean. Do not assume that “match” is either immediately yours or always lost when you leave."
+    ],
+    [
+      "Find out how this plan measures the clock",
+      "Vesting schedules commonly depend on service, but “years of service” is a plan-defined term governed by the applicable rules. A plan document may describe how it counts hours or periods of employment, when the vesting year ends, and how breaks in service are treated. The date you started, the date a contribution appeared, and the date a plan credits service may not answer the question on their own.\n\nStart with the Summary Plan Description (SPD), the plan’s plain-language explanation of its rules, and check for later updates or amendments. Look for headings such as “vesting,” “employer contributions,” “eligibility,” and “distribution.” If the SPD is unclear, ask the plan administrator or human resources for the schedule that applies to each employer contribution type and a calculation of your credited service. IRS guidance describes federal vesting standards, but the participant’s plan documents show how a particular plan applies its terms. [1]"
+    ],
+    [
+      "Read the statement as a set of questions",
+      "On your latest statement or account portal, look for the total account balance, vested balance, employee contributions, employer contributions, and any displayed vesting percentage. Statements do not all organize this information the same way, and a percentage alone may not show the dollar amount you have vested. If the vested balance is missing, request it from the recordkeeper or plan administrator rather than treating the full account total as available.\n\nCompare the account information with the SPD and any separate notices about employer contributions. Then check that the contribution types and dates line up. If figures appear inconsistent, ask for a written explanation of the calculation and the date through which service was counted. Keep the response with the statement. This is especially helpful when a departure date, a vesting milestone, or a recent employer contribution is near; an estimate from a general account screen may not resolve how the plan applies its own terms."
+    ],
+    [
+      "Vested does not mean spendable",
+      "A vested balance describes ownership under the plan; it does not mean you can withdraw the money without limits or consequences. Distribution options depend on plan terms and the circumstances of separation. If a distribution is paid to you rather than moved through an eligible rollover, federal income tax may apply to the taxable amount, and withholding may occur. An early distribution can also face an additional tax unless an exception applies. The rules are specific enough that a displayed vested amount should not be mistaken for cash in hand. [2]\n\nA rollover is another possible route, not an automatic recommendation or a guarantee that every option is available in every situation. Before acting, confirm what the plan permits, which dollars are eligible, the destination account’s requirements, any deadlines, and the tax treatment. IRS Publication 575 explains federal treatment of pension and qualified-plan distributions and rollovers; it is educational guidance, not an individualized tax determination. State tax treatment can differ from federal treatment. [2]"
+    ],
+    [
+      "A job change is a good time to check costs, too",
+      "Vesting is only one part of understanding an account. If you are comparing what to do with a former employer’s plan, review any available fees and investment expenses as well as the plan’s distribution choices. Fees and expenses reduce the money in an investment account that remains available to earn returns. Retirement-plan participants may encounter plan-level expenses and expenses associated with underlying investments. [3]\n\nLook at the fee information and investment disclosures supplied with the plan, and compare like with like: what services or investments the costs relate to, how often charges are assessed, and whether a stated fee is a plan cost or an investment expense. This is not a reason to assume that moving an account is better, or that staying is better. It is a reminder that the vested balance answers an ownership question, while fees and investment choices answer different questions. [3]"
+    ],
+    [
+      "Five questions to take to the plan administrator",
+      "Before making a decision around a job change, write down the questions and ask for answers tied to your plan—not just a general explanation of how 401(k)s work:\n\n1. What is my vested balance as of a specific date, and how is it divided between my contributions and employer contributions?\n2. What vesting schedule applies to each type of employer contribution?\n3. How does the plan count my service, and are there breaks or dates that affect the calculation?\n4. What distribution or rollover options are available to me, and what deadlines, tax notices, or restrictions apply?\n5. Where can I review the plan’s fees and investment expenses?\n\nSave the SPD, recent statements, fee disclosures, and the administrator’s response together. If anything remains unclear, a qualified tax or financial professional can help assess the details of your situation. This is general financial education, not individualized investment, tax, legal, or employment advice."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Publication 560 (2025), Retirement Plans for Small Business",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service",
+      "url": "https://www.irs.gov/publications/p560?trk=article-ssr-frontend-pulse_little-text-block",
+      "researchSourceId": "S42"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Publication 575 (2025), Pension and Annuity Income",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service",
+      "url": "https://www.irs.gov/publications/p575",
+      "researchSourceId": "S81"
+    },
+    {
+      "sourceId": "S3",
+      "title": "How Fees and Expenses Affect Your Investment Portfolio – Investor Bulletin",
+      "authors": "SEC Office of Investor Education and Assistance",
+      "publication": "Investor.gov",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated",
+      "researchSourceId": "S25"
+    }
+  ],
+  "id": "your-401-k-has-two-balances-and-a-vesting-clock-20261022",
+  "date": "2026-10-22",
+  "editionDate": "2026-10-22",
+  "url": "article.html?id=your-401-k-has-two-balances-and-a-vesting-clock-20261022",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/your-401-k-has-two-balances-and-a-vesting-clock-20261022.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Your 401(k) Has Two Balances—and a Vesting Clock. The number on your retirement account page may include employer money you have not fully earned. Here is how to find the difference—and what it does and does not mean when you change jobs.\nPeople: two men friends with different backgrounds. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: A warm, realistic scene of two partners sitting together at a kitchen table, one pointing to a 401(k) statement on a laptop while the other writes down questions about the vested balance; everyday papers and mugs nearby, no visible financial brand or legible personal information.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | One person demonstrates a controlled wall sit while a friend watches attentively nearby. | Two friends at home compare a fuzzy fleece pullover with a smooth knit beside a basket of everyday laundry. | Two friends pause beside an exposed rock face on a marked trail, one pointing toward a fossil while the other studies the surrounding layers. | Two women seated together among spectators at a public powwow, listening as a gathering takes place in the arena; neither is depicted as a dancer or cultural authority. | An adult couple and an older family member compare a handwritten heat plan at a kitchen table, with a phone and car keys nearby.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

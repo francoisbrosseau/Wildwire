@@ -1,0 +1,79 @@
+{
+  "category": "Explore",
+  "title": "A Fossil Walk Is a Context Walk",
+  "subtitle": "Look closely, read the rock around you, and leave the evidence where it belongs.",
+  "imageAlt": "Two friends pause beside an exposed rock face on a marked trail, one pointing toward a fossil while the other studies the surrounding layers.",
+  "imageConcept": "Two friends on a clearly marked trail at a National Park Service fossil site, studying an exposed rock face together without touching it; the view includes the surrounding layers and landscape, not just a close-up of a fossil.",
+  "body": [
+    [
+      "Deep time isn’t a souvenir",
+      "A fossil walk asks for less gear and a different kind of attention. Instead of searching for something to take home, choose a place where fossils can be seen in place and give yourself time to notice what the rock is showing. A shell-like shape, a leaf impression, or a track may catch your eye; the wider scene may tell you why it matters. In paleontology, a fossil’s context includes where it lies, the kind of rock and layer around it, its orientation, and nearby fossils. Remove an object and some of that information disappears with it. The National Park Service describes fossils as evidence of past life preserved in geologic context: the setting is part of the evidence, not merely a backdrop [1]. That makes the outing less like a treasure hunt and more like a shared exercise in observation. You do not need to know what you are seeing to begin."
+    ],
+    [
+      "Choose a place to look, not a place to collect",
+      "Start with the National Park Service’s information about places where fossils can be viewed in place. These may include trails, outdoor exhibits, or visitor centers, and the opportunities differ from park to park [3]. Once you have a possible destination, check that park’s official page for the route, access details, closures, and current conditions. A fossil site is only a useful outing if the route is open and suits the people going. Consider distance, terrain, shade, water, mobility needs, and how much time you want to spend outside. Save the park’s directions before you leave, and bring water, sun protection, and footwear appropriate to the route. Do not rely on an old photo or an unofficial post to decide that a fossil is accessible; views and trail conditions can change. The goal is not to cover the most ground. It is to arrive with enough time to look carefully and follow the site’s guidance."
+    ],
+    [
+      "Give everyone a way to notice",
+      "A small division of attention can make the walk more engaging without turning it into a test. Before you start, invite each person to choose a lens. One might look for shapes that suggest leaves, shells, bones, or tracks; another might notice the rock’s color, layers, cracks, or the shapes around a possible fossil. Trade lenses halfway through, or simply compare what caught your eye. Questions work better than guesses presented as answers: What repeats? What seems raised or indented? Is there more than one mark? What is the rock doing around it? Evidence of past life can include remains and traces, while some patterns are made by nonliving processes. A visitor does not need to settle that distinction on the trail. Treat an identification as a possibility, and let interpretive signs, park staff, or museum examples add context later. Curiosity is enough; certainty is not the admission price."
+    ],
+    [
+      "Read the surrounding rock",
+      "When something draws your attention, resist the urge to narrow the whole experience to a close-up. First look at the larger surface. Notice whether the feature sits within a visible layer, whether other markings appear nearby, and how the rock’s texture changes around it. Then step back far enough to take in the setting: slope, exposed face, trail, and landscape. The sequence matters because a fossil’s scientific value can depend on its location and relationship to surrounding material, not just on its shape [1]. You can make a simple record in a notebook: where you were on the official route, what you noticed, and what remains uncertain. Keep the description plain—“curved mark in a pale layer” is more useful than a confident label that may be wrong. If photography is allowed, take one wider image and one closer view from the trail. Neither requires touching, moving, or climbing toward the feature."
+    ],
+    [
+      "Leave the scene intact",
+      "On National Park Service lands, recreational, commercial, and educational fossil collecting is prohibited. Scientific collection requires a park-approved permit [2]. That rule applies even when a fossil seems loose, common, or already partly exposed. Do not pick it up, dig around it, brush it, or move it into better light for a picture. Follow the park’s directions about where visitors may walk, and keep to appropriate surfaces rather than stepping off route to reach a feature. These choices protect more than an individual object: they help keep its location and relationship to the rock undisturbed. Rules vary among land managers and locations, so do not assume that a National Park Service rule describes every public land or private site. If your plans include another kind of land, check with the responsible manager before visiting and follow that location’s own guidance. For this walk, “leave no trace” is not a lesser version of collecting. It is how you preserve the scene you came to understand."
+    ],
+    [
+      "If you find something unexpected",
+      "A fossil you notice outside an exhibit may be scientifically important, or it may only resemble one. Either way, the useful response in a national park is straightforward: photograph it, record its location, leave it where it is, and tell a ranger [2]. Do not handle it to improve the photograph or test whether it is real. Make a note of the nearest trail or landmark, and share the location directly with park staff rather than broadcasting a precise location online; sensitive sites can be vulnerable to disturbance. If the feature is beside an unsafe edge or would require leaving the trail, do not approach it. Report only what you can observe safely. This is a practical way to contribute without claiming expertise: you preserve the setting and put the information in the hands of people responsible for the park. A ranger can explain what to do next or whether the site needs attention."
+    ],
+    [
+      "Let the visitor center extend the walk",
+      "Close the outing at a visitor center, outdoor exhibit, or museum with fossil displays, if one is available. Compare an interpreted example with what you noticed outside: Which details were visible in the rock? Which became clearer through a label, diagram, or explanation? You might find that a mark you thought was a leaf is identified differently, or that a familiar-looking shape matters because of the layer around it. There is no need to force a tidy discovery story. A useful walk can end with better questions, a more attentive sense of place, or a clearer understanding of why a fossil is left untouched. Before you go, check any exhibit information about nearby routes or ranger programs; offerings and access vary by park. The last thing to carry away is not a specimen but a way of looking: notice the feature, then widen your view until the rock and its setting come back into frame."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Significance - Fossils and Paleontology (U.S. National Park Service)",
+      "authors": "National Park Service",
+      "publication": "Fossils and Paleontology (U.S. National Park Service), September 30, 2024",
+      "url": "https://www.nps.gov/subjects/fossils/significance.htm?utm_source=openai",
+      "researchSourceId": "S35"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Leave No Trace—Protect Fossils for Science, Education, and Future Generations - Fossils and Paleontology (U.S. National Park Service)",
+      "authors": "National Park Service",
+      "publication": "Fossils and Paleontology (U.S. National Park Service), October 10, 2024",
+      "url": "https://www.nps.gov/subjects/fossils/leave-no-trace-fossil-conservation.htm",
+      "researchSourceId": "S2"
+    },
+    {
+      "sourceId": "S3",
+      "title": "See Park Fossils \"In Situ\" - Fossils and Paleontology (U.S. National Park Service)",
+      "authors": "National Park Service",
+      "publication": "Fossils and Paleontology (U.S. National Park Service), October 11, 2024",
+      "url": "https://www.nps.gov/subjects/fossils/see-fossils-in-situ.htm?utm_source=openai",
+      "researchSourceId": "S37"
+    }
+  ],
+  "id": "a-fossil-walk-is-a-context-walk-20261022",
+  "date": "2026-10-22",
+  "editionDate": "2026-10-22",
+  "url": "article.html?id=a-fossil-walk-is-a-context-walk-20261022",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/a-fossil-walk-is-a-context-walk-20261022.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Fossil Walk Is a Context Walk. Look closely, read the rock around you, and leave the evidence where it belongs.\nPeople: a couple with visibly different ages and life experience. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two friends on a clearly marked trail at a National Park Service fossil site, studying an exposed rock face together without touching it; the view includes the surrounding layers and landscape, not just a close-up of a fossil.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | One person demonstrates a controlled wall sit while a friend watches attentively nearby. | Two friends at home compare a fuzzy fleece pullover with a smooth knit beside a basket of everyday laundry.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

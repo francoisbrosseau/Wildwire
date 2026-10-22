@@ -1,0 +1,83 @@
+{
+  "category": "Living",
+  "title": "The Cool-Place Plan: A Heat Check-In Across Generations",
+  "subtitle": "A short family conversation can settle the destination, ride, backup contact and outage plan before a hot day makes decisions harder.",
+  "imageAlt": "An adult couple and an older family member compare a handwritten heat plan at a kitchen table, with a phone and car keys nearby.",
+  "imageConcept": "A warm, candid kitchen-table scene: an adult couple and an older relative looking together at a simple handwritten plan, a phone showing a local forecast and car keys resting within reach. The emphasis is on shared decision-making, not alarm.",
+  "body": [
+    [
+      "Make the plan while everyone is comfortable",
+      "Heat planning is easier when it happens before a forecast turns urgent. Older adults can be more prone to heat-related health problems, and practical needs such as access to air-conditioning and someone who checks in matter. The Centers for Disease Control and Prevention (CDC) advises checking on older friends and neighbors and considering whether they have water, cooling access and know signs of heat stress [1]. A useful family plan turns those broad concerns into a few decisions that fit one person’s life.\n\nSet aside 20 minutes with the older family member at the center of the conversation—not as the subject of a safety inspection, but as the person who knows what feels workable. Include a partner or other relative who may help with transportation or check-ins. The aim is not to predict every problem. It is to reduce the number of choices people must make when it is already hot."
+    ],
+    [
+      "Agree on what starts the plan",
+      "Choose a clear trigger for taking action. It might be a local heat advisory, a high-risk day shown in the weather service’s heat-risk information, or a forecast threshold the family agrees to use. Decide who will check the forecast and how the information will reach everyone: a group text, a phone call or a note on a shared calendar.\n\nKeep the trigger simple enough to remember, and check the local forecast rather than relying on a general rule that may not match local conditions. The person receiving the alert should not have to guess whether it applies. For example: “When the forecast reaches the level we agreed on, Maya texts Dad and confirms whether he wants to go to the library or stay with us.” The destination can vary; the point is to begin the conversation early, while there is time to arrange a ride."
+    ],
+    [
+      "Choose a cool destination that works in real life",
+      "Name one air-conditioned place the older family member would actually be willing and able to use: a relative’s home, a library, a community facility or a cooling center. Then verify details directly. Check the opening hours, whether it is open on the days it may be needed, how to enter, and whether the space is accessible and comfortable for the person using it. Keep the address and phone number in the plan.\n\nA destination is not a complete plan if the person cannot reach it or does not know it is available. In a CDC evaluation of cooling-center access in Maricopa County, Arizona, 31% of visitors who reported barriers cited transportation challenges; uncertainty about locations and lack of awareness were also reported. Those findings describe that local evaluation, not every community, but they underline why “there’s a cooling center nearby” is not enough [3]. Ask what would make the destination usable: a familiar companion, a place to sit near the entrance, or a stop along the way."
+    ],
+    [
+      "Make the ride and its backup explicit",
+      "Write down who can drive, how the older family member prefers to be picked up, and what happens if the first driver is unavailable. If the plan depends on transit, a ride service or a community program, confirm the service area, operating hours, booking process and any mobility requirements before relying on it. A backup may be another relative, a trusted neighbor or a different destination closer to home.\n\nAvoid leaving transportation as “we’ll figure it out.” Decide who makes the call and who confirms that the ride is arranged. If someone uses a walker, wheelchair or other mobility aid, include the space and assistance needed to travel safely. The older adult should be able to say no to a proposed option and help choose an alternative. A plan that respects preference is more likely to be used than one that exists only on paper."
+    ],
+    [
+      "Set a check-in with a no-answer step",
+      "Choose one person to make contact on a high-risk day and agree on a time or window. Specify the method—call, text or another accessible option—and what counts as a response. If there is no answer, write down the next step: try a second contact, call again after a short interval, or arrange an in-person check, depending on the circumstances and the person’s wishes.\n\nThe CDC’s heat-risk screening questionnaire includes cooling access, mobility, a person to check in and contingency planning among the issues for clinicians to assess [2]. This family exercise is not a clinical screening tool, but it can help relatives make the communication part concrete. Ask the older family member what kind of check-in feels reassuring rather than intrusive. Agree on when a missed response should prompt concern, and make sure the backup person knows they are part of the plan."
+    ],
+    [
+      "Discuss the outage scenario without guessing at medical needs",
+      "Ask what the plan is if air-conditioning stops working or the power goes out. Could the person stay with family, go to the named cool destination, or use another option? Decide who will check whether the destination is open and who will help with the move. Keep essential phone numbers and the address available somewhere other than a phone that may lose power.\n\nIf the person relies on powered medical equipment or takes medication that may need refrigeration, do not improvise instructions. The CDC questionnaire identifies those needs as part of contingency planning, but individual steps should come from the person’s clinician or pharmacist [2]. Ask those professionals what to do during an outage, how long a specific medicine can be kept under the relevant conditions, and whom to call with questions. Write down the guidance they give; do not assume one household’s answer fits another."
+    ],
+    [
+      "Keep warning signs and emergency action separate",
+      "A check-in plan is for coordination, not for diagnosing illness. Agree that a person who feels unwell can say so plainly and ask for help without having to justify leaving home or changing plans. The CDC lists muscle cramps, headaches, nausea or vomiting among symptoms of heat-related illness [1]. If someone seems seriously ill or may be experiencing heat stroke, call emergency services rather than waiting for the next scheduled check-in.\n\nDo not use this plan to prescribe how much anyone should drink or to change medication. Needs differ, and medical questions belong with the person’s care team. The family’s role is to notice, communicate, help the person reach a cooler place and get professional assistance when needed."
+    ],
+    [
+      "Write the plan in the older adult’s own words",
+      "Before ending the conversation, put the decisions on one page: the agreed forecast trigger, cool destination and address, primary and backup ride, check-in person and time, no-answer step, outage option, and any clinician or pharmacist question still to resolve. Let the older family member choose where the note will live and who receives a copy. A plan that is easy to find is more useful than a polished document saved somewhere no one remembers.\n\nTry a quick walk-through: ask each person what they would do if the trigger arrives tomorrow, the first driver is unavailable and the power is out. If an answer is uncertain, treat that as a useful discovery, not a failure. Make one revision together, then agree on when to revisit the plan—perhaps at the start of each hot-weather season or after a change in transportation, health needs or local cooling options. The plan should change as people’s lives do."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Heat and Older Adults (Aged 65+) | Heat Health | CDC",
+      "authors": "National Center for Environmental Health",
+      "publication": "Heat Health | CDC; June 25, 2024",
+      "url": "https://www.cdc.gov/extreme-heat/risk-factors/extreme-heat-and-older-adults-aged-65.html?CDC_AAref_Val=https%3A%2F%2Fwww.cdc.gov%2Fdisasters%2Fextremeheat%2Folder-adults-heat.html&utm_source=openai",
+      "researchSourceId": "S82"
+    },
+    {
+      "sourceId": "S2",
+      "title": "HEAT: A Heat and Health Risk Factor Screening Questionnaire | Heat Health | CDC",
+      "authors": "National Center for Environmental Health",
+      "publication": "Heat Health | CDC; June 18, 2024",
+      "url": "https://www.cdc.gov/heat-health/hcp/clinical-guidance/heat-screening-questionnaire.html",
+      "researchSourceId": "S40"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Notes from the Field: Assessment of Awareness, Use, and Access Barriers to Cooling Centers in Maricopa County, Arizona — August 1–September 15, 2023 | MMWR",
+      "authors": "Aaron Gettel, Meaghan Batchelor, Jessica Bell, Heather L. Walker, Kathryn G. Burr, June Vutrano, Angela Moreth, Jessica R. White, Rebecca Sunenshine, Ariella P. Dale, Jackie Ward, and Nicole M. Jarrett",
+      "publication": "Morbidity and Mortality Weekly Report (MMWR); April 24, 2025",
+      "url": "https://www.cdc.gov/mmwr/volumes/74/wr/mm7414a4.htm",
+      "researchSourceId": "S60"
+    }
+  ],
+  "id": "the-cool-place-plan-a-heat-check-in-across-generations-20261022",
+  "date": "2026-10-22",
+  "editionDate": "2026-10-22",
+  "url": "article.html?id=the-cool-place-plan-a-heat-check-in-across-generations-20261022",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-cool-place-plan-a-heat-check-in-across-generations-20261022.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Cool-Place Plan: A Heat Check-In Across Generations. A short family conversation can settle the destination, ride, backup contact and outage plan before a hot day makes decisions harder.\nPeople: an adult couple with one older family member. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: A warm, candid kitchen-table scene: an adult couple and an older relative looking together at a simple handwritten plan, a phone showing a local forecast and car keys resting within reach. The emphasis is on shared decision-making, not alarm.\nAvoid repeating these recent WILDWIRE image scenes: A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | One person demonstrates a controlled wall sit while a friend watches attentively nearby. | Two friends at home compare a fuzzy fleece pullover with a smooth knit beside a basket of everyday laundry. | Two friends pause beside an exposed rock face on a marked trail, one pointing toward a fossil while the other studies the surrounding layers. | Two women seated together among spectators at a public powwow, listening as a gathering takes place in the arena; neither is depicted as a dancer or cultural authority.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 3,
+    "issues": []
+  }
+}
