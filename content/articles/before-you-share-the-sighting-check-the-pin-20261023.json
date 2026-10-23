@@ -1,0 +1,79 @@
+{
+  "category": "Explore",
+  "title": "Before You Share the Sighting, Check the Pin",
+  "subtitle": "A quick post-outing review can protect wildlife and still let useful observations reach the people and projects that need them.",
+  "imageAlt": "Two friends sit at a trailhead bench, comparing a wildlife photo with its map and caption before posting it.",
+  "imageConcept": "Two adult friends at a trailhead bench after a nature walk: one holds a phone showing a wildlife photo, the other checks the map and caption on a second screen. The mood is collaborative and unhurried, with the landscape visible but no identifiable sensitive location or animal nest.",
+  "body": [
+    [
+      "The outing ends; the location question doesn’t",
+      "A wildlife photo can travel farther than the people who took it. A post may show a striking animal, but its map pin, image file, background landmarks, or caption can also point others toward a nest, roost, den, or fragile patch of habitat. That makes the moments after a walk part of responsible wildlife watching: before sharing, look at what the post reveals, not only what it celebrates.\n\nThis is not a case for keeping every observation to yourself. Wildlife records can contribute to research and conservation, and public enthusiasm can help people care about the natural world. The useful question is more precise: what information should be public, at what level of detail, and when? Treat the decision as a small review with a friend, family member, or fellow observer—not as a test of whether you are allowed to post."
+    ],
+    [
+      "Start with the place and the moment",
+      "Before opening the share button, ask what the sighting involves. Is the animal rare or known to be sensitive? Is it nesting, raising young, roosting, or using a site that is easy to disturb? Is access restricted, or is the habitat especially vulnerable? The answer can depend on local conditions and season, so don’t assume that every sighting of a species carries the same risk everywhere.\n\nCheck the relevant platform’s guidance and, when useful, the advice of the land manager or local conservation organization. eBird, for example, restricts public views of some sensitive-species records while retaining information for review and conservation uses. Its guidance also cautions users against publishing exact coordinates or directions for sensitive records; for some sightings it recommends delaying reports to keep them off eBird Alerts for at least eight days [1]. That is platform-specific guidance, not a universal waiting period. The larger point is to assess the context before choosing a location setting or posting time."
+    ],
+    [
+      "Look beyond the map pin",
+      "A visible pin is only one route to a place. Open the photo and scan its edges: a distinctive bridge, trail sign, shoreline, building, or mountain profile may identify a location even if the caption names only a park. Then read the caption as a stranger would. “Just past the north gate, by the old footbridge” can be a set of directions, even if it feels like a casual detail to the person who knows the route.\n\nImage files can carry location information in their metadata, depending on the device and settings. Audubon’s guidance for bird photographers highlights the possibility that photos contain location data and advises using a broader location description or delaying a post when a sensitive bird or habitat could draw unwanted attention [2]. Don’t rely on the assumption that a social platform will remove every detail. Check the original file’s sharing settings, review what the app displays, and avoid adding identifying clues in the caption. If you cannot tell what will be visible, share a copy with location access removed or choose a less revealing image."
+    ],
+    [
+      "Choose what the record needs to reveal",
+      "A useful observation does not always require a precise public pin. Some platforms provide location controls that can keep coordinates attached to a record while displaying a broader area—or obscuring the location from public view. The available choices and their consequences differ by platform, so check the specific settings before submitting. If you record the observation in more than one place, review each one: a privacy choice in one app does not automatically carry over to another.\n\nThere is a real balance here. The Global Biodiversity Information Facility’s guidance frames the aim as making as much biodiversity data available as possible without exposing sensitive species to harm. Generalizing a location where warranted can reduce public precision without treating the observation as worthless or requiring that all data disappear [3]. But settings are not interchangeable. For example, a platform may keep a record available to its own reviewers while not sharing a private record with other data services. Before choosing “private,” “obscured,” or an equivalent option, read what that platform says the choice means for public display and downstream use."
+    ],
+    [
+      "A two-person check that takes a minute",
+      "If you are out with someone, divide the review. One person checks the record and its location setting; the other checks the image, caption, and timing. Then compare notes. This makes it easier to notice what the person closest to the photo may overlook—especially a recognizable landmark or a place name tucked into a caption.\n\nUse four questions: Is this species, behavior, or site sensitive here and now? Does the record expose a precise location publicly? Does the photo or wording give away more than the pin does? Would a delay or broader description reduce disturbance? You do not need to answer these from memory. Consult platform guidance or a local land manager when the stakes or rules are unclear. If either person spots a concern, pause and adjust the post before publishing. The point is shared attention, not asking one person to police the other."
+    ],
+    [
+      "Keep the observation; change the exposure",
+      "When a post feels too revealing, there are options between publishing every detail and sharing nothing. Depending on the platform and the situation, you might choose a coarser location, remove a precise caption, crop a landmark, disable location data on the shared image, or wait until the animal has moved on and attention is less likely to affect it. You might also keep a detailed record in a platform or project whose protections you understand, while sharing a less specific version publicly.\n\nThese are not guarantees, and they do not work identically across services. A research program may collect precise coordinates for analysis while showing public results at a coarser scale; that is one possible design, not a promise about every app. Check the actual terms and settings rather than assuming your post will be handled in the same way. If the location is restricted or the local guidance says not to disclose it, follow that direction. If the information is already public, avoid amplifying it with new directions or a fresh, more precise pin."
+    ],
+    [
+      "Make the last look part of the memory",
+      "Before posting, preview the complete version as an unfamiliar viewer would see it: image, map, caption, tags, and timing. Ask whether someone could use any combination of those details to find the animal or enter a place they should not. If the answer is yes—or you are unsure—make the location broader, remove the clue, wait, or keep the image for a smaller audience. If the record can still be useful under a less precise public setting, choose that route rather than assuming precision is the price of participation.\n\nThis check need not dampen the pleasure of sharing a sighting. It can help keep the focus where it belongs: on the animal and the habitat, not on a crowd arriving at the coordinates. When friends review a post together, they can preserve the story of what they saw while making a deliberate choice about what the map, image, and words reveal. The best post is not always the one with the most detail; it is the one that shares the encounter without turning a living place into a set of directions."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Sensitive Species in eBird",
+      "authors": "eBird Help Center",
+      "publication": "eBird Help Center, modified May 15, 2026",
+      "url": "https://support.ebird.org/en/support/solutions/articles/48000803210",
+      "researchSourceId": "S45"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Tips for Being a Responsible Bird Photographer in the Social Media Age | Audubon",
+      "authors": "Melissa Groo",
+      "publication": "Audubon magazine, Spring 2021",
+      "url": "https://www.audubon.org/magazine/tips-being-responsible-bird-photographer-social-media-age",
+      "researchSourceId": "S53"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Current Best Practices for Generalizing Sensitive Species Occurrence Data",
+      "authors": "Arthur D. Chapman",
+      "publication": "Global Biodiversity Information Facility (GBIF) Secretariat, November 2020",
+      "url": "https://docs.gbif.org/sensitive-species-best-practices/master/en/current-best-practices-for-generalizing-sensitive-species-occurrence-data.en.pdf",
+      "researchSourceId": "S60"
+    }
+  ],
+  "id": "before-you-share-the-sighting-check-the-pin-20261023",
+  "date": "2026-10-23",
+  "editionDate": "2026-10-23",
+  "url": "article.html?id=before-you-share-the-sighting-check-the-pin-20261023",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/before-you-share-the-sighting-check-the-pin-20261023.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Before You Share the Sighting, Check the Pin. A quick post-outing review can protect wildlife and still let useful observations reach the people and projects that need them.\nPeople: two adult siblings or close friends collaborating. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two adult friends at a trailhead bench after a nature walk: one holds a phone showing a wildlife photo, the other checks the map and caption on a second screen. The mood is collaborative and unhurried, with the landscape visible but no identifiable sensitive location or animal nest.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends exercise side by side in a bright living room, one rising from a sturdy chair while the other rows a resistance band from a seated position. | Two friends at a sunlit table comparing earrings, rings and chains, tracing the parts that touch skin before choosing pieces to layer.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
