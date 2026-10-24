@@ -1,0 +1,83 @@
+{
+  "category": "Culture",
+  "title": "A Place You Can Hear",
+  "subtitle": "Make a two-person audio postcard: a brief recording of a shared place, accompanied by the context that gives it meaning.",
+  "imageAlt": "Two friends sit on a low wall in a public garden, listening to the sounds around them before recording a short audio postcard on a phone.",
+  "imageConcept": "Two friends at the edge of a neighborhood garden, one holding a phone loosely while both listen toward a fountain, distant footsteps and birds; an unposed, attentive scene with no visible recording equipment beyond the phone.",
+  "body": [
+    [
+      "A place is more than its picture",
+      "A familiar place can be recognized by details that rarely make it into a photograph: the rattle of a gate, the echo beneath a station canopy, a fountain that seems louder on a quiet morning. An audio postcard is a short recording of a place, made by two people who know it, with a note explaining when and where it was recorded and why it matters to them. The sound is the artifact; the context is part of it. A clip of birds and traffic could come from many places. A title, date and a few sentences tell a future listener what the makers chose to preserve and how they understood that moment. This is not a formal archive or a test of recording skill. It is a small cultural record shaped by attention and choice."
+    ],
+    [
+      "Choose a place you share",
+      "Start with somewhere accessible and appropriate to record: a public garden, a covered market during a quiet period, a familiar stretch of waterfront, or a courtyard where you are welcome. Choose a location both people can reach and stay comfortably. Consider whether the soundscape will be distinctive enough to hold a listener’s attention, but don’t assume a famous landmark is more meaningful than an ordinary corner. The useful question is: what could someone hear here that would help them picture this place? Check posted rules and respect requests from staff or other visitors. If the setting is private, managed or otherwise not clearly open to recording, ask permission first. The place should be shared in experience, not merely available to capture."
+    ],
+    [
+      "Listen before you record",
+      "When you arrive, put the phone away for a moment. Stand or sit where you can both hear comfortably, then take a minute to notice the sound around you. Each person names one detail the other might have missed: a bicycle bell behind the traffic, a pause between train arrivals, the way footsteps change on gravel. This is not a contest to identify the most unusual sound. It gives each maker a voice in deciding what the postcard is about. You may find that you are listening to the same scene differently, or that a sound you expected to include is drowned out. That conversation helps shape the recording without turning it into an interview or asking either person to perform a memory."
+    ],
+    [
+      "Make a short, simple recording",
+      "Use a phone or recorder you already have. Check that it has enough battery and storage, and make a brief test recording before committing to the moment. Hold the device steadily, with its microphone unobstructed; avoid handling it while recording, since rubbing and taps can overwhelm quieter sounds. A clip of roughly 30 to 60 seconds is plenty for a first postcard. Let the sound happen rather than narrating over it. If wind buffets the microphone, move to a sheltered spot or turn away from the wind. If a conversation becomes clearly audible, stop and try again from a different position. Smithsonian guidance recommends testing equipment and listening back, as well as identifying recordings with context such as date and location [1]. The practical point is simple: a quick check can reveal whether the file captured what you thought you heard."
+    ],
+    [
+      "Consent belongs in the plan",
+      "Public space is not a blank permission slip to record people. Avoid aiming the microphone at identifiable conversations, and do not include anyone’s voice as a feature without their informed permission. If speech intrudes, move, wait, or discard the take. Be especially careful around children and people who may have reason to expect privacy. Before you press record, agree together about what the clip is for, who may hear it, and whether it will be shared at all. The Oral History Association’s principles emphasize collaboration, respect, consent and attention to differences in expectations and power [2]. An ambient postcard is not the same as an oral-history interview, but the underlying care applies: both makers should be able to shape the project, and sharing should be an agreed choice, not an automatic next step."
+    ],
+    [
+      "Listen back, then add the missing context",
+      "Play the clip together before leaving, using headphones if that is practical and comfortable. Ask two questions: does it sound like the place we meant to record, and is there anything we should remove for privacy? If the result is mostly wind, handling noise or unintentionally captured speech, try once more—or decide the attempt is finished. Then give the file a clear title and write a few sentences. Include the date, a specific location and what each of you noticed. Add why you chose this place, but keep the note in your own words: “We came here after the market closed; we wanted the echo under the roof” is more revealing than a generic description of a busy public space. The note does not need to explain everything. It gives a listener a way into the recording and preserves the makers’ perspective alongside the sound."
+    ],
+    [
+      "Share the postcard on your terms",
+      "Decide together whether the recording stays between you, goes to someone who knows the place, or is shared more widely. A private message to a friend can be a fitting destination; public posting is not the default measure of success. If you share it, include the context note and consider whether location details could expose someone’s home, routine or other sensitive information. The National Endowment for the Arts summarized U.S. survey findings showing associations between arts participation and social participation or perceived support. Those findings do not show that a small activity like this causes stronger relationships [3]. There is no need to claim a larger benefit for the postcard. Its value can be specific: two people made a choice together, noticed a place, and left a record that someone else can hear."
+    ],
+    [
+      "Keep it findable, not complicated",
+      "Save the recording and its note together in a clearly named folder, with a filename that includes the place and date. Keep a second copy somewhere separate if the postcard matters to you; a file saved only on one device can disappear when the device does. You do not need specialist equipment, a particular audio format or a preservation system to make this worthwhile. If you return to the recording later, check that it still opens and that the note has not become detached from it. Most importantly, revisit the small artifact on its own terms. The sound may bring back a place, but the accompanying choices matter too: why you went, what each listener noticed, and what you decided could be shared. That is what makes an audio postcard more than a recording of background noise."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "The Smithsonian Folklife and Oral History Interviewing Guide",
+      "authors": "Marjorie Hunt",
+      "publication": "Smithsonian Center for Folklife and Cultural Heritage, 2016 (revised edition)",
+      "url": "https://folklife.si.edu/the-smithsonian-folklife-and-oral-history-interviewing-guide/smithsonian",
+      "researchSourceId": "S34"
+    },
+    {
+      "sourceId": "S2",
+      "title": "OHA Principles and Best Practices",
+      "authors": "Oral History Association",
+      "publication": "Oral History Association, adopted October 2018",
+      "url": "https://oralhistory.org/principles-and-best-practices-revised-2018/",
+      "researchSourceId": "S20"
+    },
+    {
+      "sourceId": "S3",
+      "title": "New Research Explores Arts Engagement and Social Connectedness",
+      "authors": "National Endowment for the Arts",
+      "publication": "National Endowment for the Arts, October 31, 2024",
+      "url": "https://www.arts.gov/news/press-releases/2024/new-research-explores-arts-engagement-and-social-connectedness",
+      "researchSourceId": "S2"
+    }
+  ],
+  "id": "a-place-you-can-hear-20261024",
+  "date": "2026-10-24",
+  "editionDate": "2026-10-24",
+  "url": "article.html?id=a-place-you-can-hear-20261024",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/a-place-you-can-hear-20261024.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Place You Can Hear. Make a two-person audio postcard: a brief recording of a shared place, accompanied by the context that gives it meaning.\nPeople: two women partners with distinct builds and features. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: thoughtful companions paying attention, discussing or questioning something cultural.\nScene concept: Two friends at the edge of a neighborhood garden, one holding a phone loosely while both listen toward a fountain, distant footsteps and birds; an unposed, attentive scene with no visible recording equipment beyond the phone.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends walk down a broad outdoor staircase together, one using the handrail while the other matches their pace. | Two partners in casual everyday clothes test the pockets of jackets and trousers at home, checking how their phones and keys sit as they walk and bend. | Two hiking companions at a trailhead take turns checking the soles and laces of their boots beside a boot-brush station.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

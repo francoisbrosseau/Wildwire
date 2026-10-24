@@ -1,0 +1,83 @@
+{
+  "category": "Finance",
+  "title": "The Cash Between Trades Has a Home",
+  "subtitle": "A brokerage account’s “cash” label can describe a bank deposit, a money market fund or money held at the brokerage. Find out which one you have before assuming what protects it.",
+  "imageAlt": "Two friends at a kitchen table compare the cash section of a sample brokerage statement with the account’s sweep-program terms.",
+  "imageConcept": "Two friends sit side by side at a bright kitchen table, looking over a clearly fictional brokerage statement and a laptop displaying a cash-sweep explanation. Their expressions are curious and focused; no account numbers, company logos or legible personal financial details appear.",
+  "body": [
+    [
+      "One label, different arrangements",
+      "In a brokerage account, “cash” can look like a simple number beside the value of investments. But that number does not, by itself, tell you where the money is held. A firm may automatically move uninvested funds into a deposit account at a bank, put them into shares of a money market mutual fund, or leave them as a cash balance at the brokerage. These are different arrangements, with different risks, protections and terms. The U.S. Securities and Exchange Commission describes all three as common destinations for uninvested brokerage cash [1]. The practical starting point is not deciding which one is best; it is identifying which one your account uses. A sample statement can make this a shared reading exercise: find the cash line, then look for the account agreement or cash-management disclosure that explains where it goes."
+    ],
+    [
+      "If it goes to a bank",
+      "In a bank sweep, a brokerage program moves eligible uninvested cash to one or more participating banks. The customer may see a cash balance in the brokerage interface even though the funds are held as bank deposits. If the destination is an FDIC-insured bank and the funds meet the requirements for coverage, eligible deposits may be insured within applicable limits. The standard limit is $250,000 per depositor, per insured bank, per ownership category. Deposits a person already has at that same bank in the same ownership category count toward the same limit; they do not become separate coverage simply because they arrived through a brokerage sweep [2]. Multiple-bank programs can involve several institutions, so the list of banks and how allocations work matter. FDIC insurance concerns qualifying bank deposits—not the brokerage account as a whole. Check the sweep disclosure for participating banks, how cash is allocated and what happens if the program or its bank list changes."
+    ],
+    [
+      "If it goes into a money market fund",
+      "A money market mutual fund is an investment, not a bank account with a similar-sounding name. The fund pools investors’ money to buy short-term securities, and the brokerage account holds fund shares. Those shares are not FDIC-insured or guaranteed by the government. Money market funds generally aim to maintain a stable share price, but they can lose value; their yields can also change as the fund’s investments and market conditions change [3]. A “money market deposit account,” by contrast, is a bank deposit product. The similar names can obscure the difference, so look for words such as “mutual fund,” “shares,” “dividend” or a fund ticker in the account materials. If cash is automatically swept into a fund, the arrangement may involve an investment choice made under the brokerage program’s terms. Read the fund information and the sweep disclosure together rather than treating the balance as interchangeable with an insured bank deposit."
+    ],
+    [
+      "If it stays at the brokerage",
+      "Some firms leave uninvested money as a brokerage cash balance, often described in account documents as a “free credit balance.” That is not the same as a bank deposit, and it is not a money market fund share. SIPC protection may be relevant if a SIPC-member brokerage fails and customer property is missing, subject to the rules and limits of that protection. It does not insure a cash balance against investment losses, guarantee a particular return or protect against every kind of loss. The SEC’s sweep guidance distinguishes cash left at the brokerage from bank and fund sweep arrangements [1]. This is where broad claims such as “my brokerage cash is insured” can mislead: the word “insured” needs a specific answer—insured by whom, against what event, and under which conditions? Ask the firm to identify the legal holding and the protection that applies to that holding, rather than relying on a label in an app."
+    ],
+    [
+      "The return is part of the arrangement",
+      "Cash programs can also differ in what they pay and how that payment is described. A bank sweep may pay interest; a money market fund may distribute dividends; a brokerage cash balance may earn interest under the firm’s terms. These rates and yields can change, and the headline number may not tell the whole story. Check whether the figure is current, how often it is updated, whether a minimum balance or account type affects eligibility, and whether fees or other conditions apply. The SEC advises investors to review account documents for available cash options, rates, fees and program terms [1]. A cash balance can sit between trades for days or much longer, so understanding the default matters even if you did not actively choose it. That does not mean a higher displayed rate is automatically the right choice: access, protections, restrictions and the purpose of the money are also part of the comparison."
+    ],
+    [
+      "A document check that takes ten minutes",
+      "Start with the latest brokerage statement and account agreement. Search the firm’s site or documents for “cash sweep,” “cash management,” “uninvested cash,” “free credit balance” and “money market.” Write down four answers: where the money is held; the current rate or dividend and how it can change; any fees, minimums or eligibility conditions; and what happens if the firm changes the program. For a bank sweep, note each participating bank and consider whether you also hold deposits there in the same ownership category. FDIC coverage is calculated across eligible deposits at the same insured bank and within the applicable category, not separately for each account statement or route the money took [2]. For a fund sweep, identify the fund and review its current information. If the documents do not make the arrangement clear, contact the brokerage and ask for a plain-language explanation. Save the response with the account records."
+    ],
+    [
+      "Why incentives deserve a question",
+      "A sweep program is also a business arrangement. The SEC advises investors to ask which cash sweep programs are available and whether there is a default option [1]. Still, it is a useful reminder to read beyond the label. Ask whether the firm offers more than one cash destination, whether you can choose among them, and whether a change to the program could affect the rate or terms. The SEC advises investors to compare available sweep options and rates and to consider the costs, risks, and benefits of each option [1]. For an individual account, the useful task is to understand the terms and ask direct questions—not to assume that a particular option is suitable for everyone."
+    ],
+    [
+      "Know what you are looking at",
+      "The word “cash” is a display convenience, not a complete description of ownership or protection. A bank sweep can place funds in eligible deposits at participating banks; a money market sweep holds mutual-fund shares; a free credit balance remains at the brokerage under its account terms. Each can be useful in different circumstances, but none should be mistaken for another simply because the account screen presents them in the same line. A friend comparing a fictional statement with you can help spot unfamiliar language, but the firm’s current documents are the authority on your own arrangement. Confirm the destination, protections, return and conditions—and revisit them if the brokerage announces a change. This article is educational and is not personalized financial, legal or tax advice."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Cash Sweep Programs for Uninvested Cash in Your Investment Accounts – Investor Bulletin",
+      "authors": "SEC Office of Investor Education and Assistance",
+      "publication": "Investor.gov / U.S. Securities and Exchange Commission, May 14, 2025",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/cash-sweep-programs-uninvested-cash-your-investment-accounts-investor-bulletin",
+      "researchSourceId": "S37"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Deposit Insurance FAQs",
+      "authors": "Federal Deposit Insurance Corporation",
+      "publication": "Federal Deposit Insurance Corporation, April 1, 2024",
+      "url": "https://www.fdic.gov/resources/deposit-insurance/faq",
+      "researchSourceId": "S6"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Money Market Funds: Investor Bulletin",
+      "authors": "SEC Office of Investor Education and Assistance",
+      "publication": "Investor.gov / U.S. Securities and Exchange Commission, November 4, 2024",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-12",
+      "researchSourceId": "S9"
+    }
+  ],
+  "id": "the-cash-between-trades-has-a-home-20261024",
+  "date": "2026-10-24",
+  "editionDate": "2026-10-24",
+  "url": "article.html?id=the-cash-between-trades-has-a-home-20261024",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-cash-between-trades-has-a-home-20261024.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Cash Between Trades Has a Home. A brokerage account’s “cash” label can describe a bank deposit, a money market fund or money held at the brokerage. Find out which one you have before assuming what protects it.\nPeople: two men friends with different backgrounds. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: Two friends sit side by side at a bright kitchen table, looking over a clearly fictional brokerage statement and a laptop displaying a cash-sweep explanation. Their expressions are curious and focused; no account numbers, company logos or legible personal financial details appear.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends walk down a broad outdoor staircase together, one using the handrail while the other matches their pace. | Two partners in casual everyday clothes test the pockets of jackets and trousers at home, checking how their phones and keys sit as they walk and bend. | Two hiking companions at a trailhead take turns checking the soles and laces of their boots beside a boot-brush station. | Two friends sit on a low wall in a public garden, listening to the sounds around them before recording a short audio postcard on a phone. | Two friends check a refrigerator thermometer and place a cooler beside the kitchen counter during a power outage.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
