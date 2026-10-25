@@ -1,0 +1,79 @@
+{
+  "category": "Explore",
+  "title": "The Flower Patch Is a Field Guide",
+  "subtitle": "A five-minute pollinator watch turns a familiar garden or park into a place to notice movement, detail and difference—no species expertise required.",
+  "imageAlt": "Two friends stand at the edge of a flower patch in a neighborhood park, quietly watching a butterfly and a small bee visit the blooms.",
+  "imageConcept": "A warm, close-to-the-ground scene of two friends at the edge of a mixed flower patch in a neighborhood park: one follows a small bee among the blooms while the other notes the weather in a pocket notebook, with space around the plants and no one touching or crowding them.",
+  "body": [
+    [
+      "Start at the edge",
+      "Choose a flowering patch where visitors are welcome to pause: a community garden, a park border, a courtyard planter or a friend’s yard. Stand or sit where you can see the flowers without stepping into the planting or blocking a path. Set a timer for five minutes. That duration is WILDWIRE’s invitation, not a formal scientific survey; the point is to look closely together, not to produce a count that represents the whole site.\n\nDeveloped places can still offer pollinators resources for foraging, nesting and overwintering. A guide from the Xerces Society describes yards, gardens and parks as potential pollinator habitat, so a small flower bed can be a useful place to pay attention—not because it tells the whole story, but because it makes a piece of local habitat visible. [1] Pick a spot that feels comfortable to both people, and agree that either person can stop or move away at any time."
+    ],
+    [
+      "Give the five minutes a shape",
+      "Before starting, decide who will watch the visitors and who will watch the setting. The first person follows movement: what lands, where it goes, whether it pauses, and when it leaves. The second keeps an eye on the flowers and conditions: which blooms draw attention, whether the wind is moving the stems, and whether the patch is in sun or shade. After about two and a half minutes, swap roles.\n\nYou do not need binoculars, a camera or a field guide. A scrap of paper and a pencil are enough; so is paying attention without recording anything. If you want a gentle prompt, each person can keep one question in mind: “What changed while I was looking?” or “Which part of the patch did I overlook at first?” The role swap helps prevent the outing from becoming a quiz in which one person supplies the right answers and the other tries to keep up."
+    ],
+    [
+      "Describe before you identify",
+      "Use ordinary, honest labels: bee, fly, butterfly, beetle, or “small flying insect.” If you are unsure, say so. Notice visible details without turning them into a guess about species: the visitor’s size relative to a flower, its color, whether it hovered or landed, and which part of a bloom it approached. A community-science guide to wild bees and floral visitors is designed to introduce observers to what they may see, rather than serve as a definitive identification guide. That is a useful standard for this outing too: describing carefully is worthwhile even when naming precisely is out of reach. [3]\n\nTry to keep one observation at a time. “A dark insect landed on the yellow flowers, then moved to the purple ones” is more useful—and more faithful to what you saw—than an uncertain species name. If the visitor vanishes before you can look closely, let it go. The aim is not to capture every moment, but to give each one a fair look."
+    ],
+    [
+      "Watch behavior, not just arrivals",
+      "A flower patch offers more to notice than how many insects appear. Does a visitor land and move across several blooms, or pause on one? Does it approach from above, disappear among petals, or circle without landing? Do different visitors seem to favor different flowers? Keep these observations tentative: a five-minute watch cannot establish why an insect behaved as it did, and a quiet stretch does not prove that a patch has no visitors.\n\nThat restraint matters because observation methods shape what gets recorded. A USDA Agricultural Research Service study comparing three collection methods for pollinating insects found that methods recorded some different groups. Its work was not a five-minute garden watch, but it reinforces a practical caution: a casual look is a shared observation, not a comprehensive count of pollinator abundance or diversity. [2] You can be curious without making the moment carry more evidence than it can."
+    ],
+    [
+      "Make room for the whole patch",
+      "During the second half, trade your focus. The person following insects can now look at the setting: the number of flower shapes or colors, whether the patch is exposed to wind, and what borders it. The person watching the flowers can follow one visitor’s route. You might also notice nearby leaves, bare soil, stems or other features without assuming their ecological role from a quick glance.\n\nThis wider view keeps the activity from treating flowers as a stage and insects as the only story. A habitat guide considers resources beyond blooms, including places for nesting and overwintering. [1] For your notes, separate what you saw from what you wondered about. “There were dry stems beside the path” is an observation; “they may be useful habitat” is a question to explore another time. That distinction makes a notebook more trustworthy and gives the next visit somewhere to begin."
+    ],
+    [
+      "Keep the visit gentle and accessible",
+      "Stay on paths or other permitted ground, leave flowers and insects undisturbed, and follow the site’s rules. Give visitors room; do not touch, catch or block them. Sudden movements are unnecessary, and there is no reason to lean into a planting for a closer view. If insects are active near where you are standing, shift to a more comfortable distance. The outing works just as well from a bench, path edge or accessible paved area.\n\nChoose the format that suits the people taking part. One person can keep time while another watches; both can observe silently; or you can leave the timer and notes at home. A phone is optional. If you later want to identify a visitor, use a reliable field guide or an identification resource, and keep your description separate from any proposed name."
+    ],
+    [
+      "Compare what you noticed",
+      "When the timer ends, take another minute to share one detail each. Start with what you actually saw: a visitor returning to the same flower, a bloom moving in the breeze, or a patch of sunlight shifting across the bed. Then compare where your attention went. One person may have followed motion; the other may have noticed the pattern of flowers or the weather. Neither account has to be the complete one.\n\nIf you wrote anything down, add the date and a general location such as “community garden” or “park entrance.” You can return another day and ask what seems different, but do not treat two brief visits as a formal trend. The value is smaller and more immediate: learning to look carefully, exchanging observations, and recognizing that even a familiar patch contains more activity than either person could notice alone. Leave it as you found it, with the next question ready for another visit."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Habitat Assessment Guide for Pollinators in Yards, Gardens, and Parks",
+      "authors": "Sarah Foltz Jordan, Jennifer Hopwood, Elaine Evans, Kelly Gill, Aimee Code, Stephanie Frischie, and Phyllis Stiles",
+      "publication": "The Xerces Society for Invertebrate Conservation, March 2024",
+      "url": "https://www.nrcs.usda.gov/sites/default/files/2024-04/19-038_02_HAG_Yard-Park-Garden.pdf",
+      "researchSourceId": "S17"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Comparing three collection methods for pollinating insects within electric transmission rights-of-ways",
+      "authors": "Joshua W. Campbell, Anthony Abbate, Natalie M. West, Lars Straub, and Geoffrey Williams",
+      "publication": "U.S. Department of Agriculture, Agricultural Research Service",
+      "url": "https://www.ars.usda.gov/research/publications/publication/?seqNo115=392129",
+      "researchSourceId": "S12"
+    },
+    {
+      "sourceId": "S3",
+      "title": "A citizen science guide to wild bees and floral visitors in Western Washington",
+      "authors": "Elias H. Bloom, Rachel L. Olsson and David W. Crowder",
+      "publication": "Washington State University Extension",
+      "url": "https://rex.libraries.wsu.edu/esploro/outputs/report/A-citizen-science-guide-to-wild/99900501516101842",
+      "researchSourceId": "S20"
+    }
+  ],
+  "id": "the-flower-patch-is-a-field-guide-20261025",
+  "date": "2026-10-25",
+  "editionDate": "2026-10-25",
+  "url": "article.html?id=the-flower-patch-is-a-field-guide-20261025",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-flower-patch-is-a-field-guide-20261025.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Flower Patch Is a Field Guide. A five-minute pollinator watch turns a familiar garden or park into a place to notice movement, detail and difference—no species expertise required.\nPeople: two women friends with distinct personal style. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: A warm, close-to-the-ground scene of two friends at the edge of a mixed flower patch in a neighborhood park: one follows a small bee among the blooms while the other notes the weather in a pocket notebook, with space around the plants and no one touching or crowding them.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends compare notes beside a weight bench, one holding a training log while the other demonstrates a controlled lift. | Two friends compare outfits beside a window, one holding a phone with a grayscale clothing photo while the other chooses between two jackets.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

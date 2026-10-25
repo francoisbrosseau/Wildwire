@@ -1,0 +1,80 @@
+{
+  "category": "Living",
+  "title": "The Household Product Roll Call: Keep the Label, Check the Route",
+  "subtitle": "An additional Daily Read: a calm, two-person way to inventory household products and find the right local disposal guidance.",
+  "imageAlt": "Two people of different generations sit beside an open storage shelf, reading the labels on household products while one writes a short inventory.",
+  "imageConcept": "A warm, practical scene in a home utility area: two friends or relatives of different generations sit at an open shelf, one holding a notepad and the other reading a product label. Containers remain closed and upright; the mood is focused and collaborative, not alarmed.",
+  "body": [
+    [
+      "Start with one shelf, not a purge",
+      "A cupboard full of half-used bottles can feel like a job that requires a free afternoon and perfect knowledge of what goes where. It doesn’t. Start with one shelf, one storage bin, or one small group of products. The goal is an inventory and a reliable next step—not a dramatic cleanout or an instant decision about every old container.\n\nThis works well as a short shared task. One person can read labels while the other writes, then switch. The arrangement makes room for different strengths: someone may be better at spotting tiny print, remembering where a product came from, or navigating a local website. No one needs to be the household expert. If either person is tired, uncomfortable, or unsure, pause and leave the question unresolved rather than forcing a decision."
+    ],
+    [
+      "Agree on the boundaries first",
+      "Before moving anything, choose a stable surface and make space for a notepad or phone. Work only with products that are closed and intact; don’t open a container to investigate it, sniff it, or test what remains inside. Don’t combine leftovers or transfer them into another bottle. EPA advises keeping these products in their original containers with their labels, not mixing leftovers, and following the label directions [1].\n\nIf you find a leaking container, residue, a damaged cap, or a container that looks corroded, don’t handle it as part of an ordinary sorting session. Keep people and pets away from it and seek instructions from the appropriate local authority. EPA specifically recommends contacting local hazardous-materials officials or the fire department about corroded containers [1]. If there is an active release or someone feels unwell, move away from the area and seek appropriate emergency or poison-control guidance; the inventory can wait."
+    ],
+    [
+      "Read the label; record what it actually says",
+      "For each product, write down its name or purpose and any storage or disposal directions on the label. You might record “drain cleaner—label says keep dry” or “garden product—disposal directions unclear.” Don’t try to reconstruct missing instructions from memory. If the product is in its original container but the print is difficult to read, note that; if it is not in its original container or the label is missing, put it on the questions list rather than guessing.\n\nThe label is also the right place to check how a product is intended to be used. For disinfectants and bleach, CDC advises following the product-label instructions. It also notes that routine home cleaning is different from disinfection, which is generally unnecessary unless someone is sick or at higher risk [3]. This is not a reason to discard a product that is still useful; it is a reminder that “stronger” or “more products at once” is not automatically better."
+    ],
+    [
+      "Keep the record simple and useful",
+      "A practical inventory needs only a few columns: product or purpose; label directions you want to retain; container condition; and next step. “Use as directed,” “label unreadable,” and “check city guidance” are perfectly useful entries. Add a location if you have more than one storage area. Avoid writing down details you don’t need, and keep the record somewhere household members can find it without making it public.\n\nAs you go, leave products closed, upright, and in their original containers. Don’t consolidate nearly empty bottles to save space. A familiar cleaner may seem easy to identify, but similar-looking containers can have different contents and directions. The CDC warns against mixing household cleaners; ammonia can release gas when mixed with certain cleaning products [2]. Keeping products separate and labeled is a straightforward safeguard, not an invitation to experiment with chemistry."
+    ],
+    [
+      "Make an “ask locally” list",
+      "Household hazardous waste is managed at state and local levels, and collection options differ by community, according to EPA [1]. That means a neighbor’s advice—or a search result for another city—may not answer the question for your address. Set aside uncertain items on a written “check locally” list. Include the product name, your town or county, and what you need to find out: whether a drop-off is available, whether an appointment is required, or what to do with a damaged or unlabeled container.\n\nUse your city, county, or state waste-management website, or contact the relevant local program directly. Follow the product label while you wait for an answer. If the label is missing, or the container is corroded, leaking, or otherwise compromised, say so when asking for guidance. Don’t put an unresolved product in household trash, recycling, a drain, or a collection box unless the local authority says that is the right route. The useful result of this step is not a universal disposal rule; it’s knowing who can give you the local one."
+    ],
+    [
+      "Keep safety questions separate from cleaning choices",
+      "An inventory can reveal that a cupboard contains several products for the same job, but this is not the moment to combine them, test them, or make a new cleaning mixture. CDC’s warning about household cleaners is a good reason to keep products separate, especially when one product contains ammonia and another may be incompatible [2]. If you’re cleaning a surface, use one product according to its own directions rather than layering products or improvising a recipe.\n\nLikewise, distinguish the question “Do we need this product?” from “How should it be disposed of?” If an intact product is still wanted, follow its label for storage and use. If it is no longer wanted, check local guidance before deciding what happens next. This small pause avoids turning an orderly shelf into a series of hurried guesses. It also keeps the two-person check within its proper limits: identify, record, and route questions—not diagnose an unknown substance."
+    ],
+    [
+      "Finish with a route, not a verdict",
+      "At the end, read the list together and choose one unresolved item to investigate first. Agree who will check the official local guidance and when; write that next step beside the item. Put the inventory somewhere both people can reach, and leave the products in their original containers with labels intact. If your local program gives instructions that differ from a general assumption, use the local instructions.\n\nThe next time you have ten unhurried minutes together, you could repeat the check on a different shelf. Before you start, decide what would make the task comfortable: better light, larger-print notes, a chair, or a shorter session. Read, record, and pause wherever information runs out. A useful household plan does not require every bottle to leave the cupboard today. It leaves you with a clearer picture of what is there, what remains uncertain, and the right place to take the next question."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Household Hazardous Waste (HHW) | US EPA",
+      "authors": "U.S. Environmental Protection Agency",
+      "publication": "U.S. Environmental Protection Agency; last updated June 1, 2026",
+      "url": "https://www.epa.gov/hw/household-hazardous-waste-hhw",
+      "researchSourceId": "S12"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Ammonia | Chemical Emergencies | CDC",
+      "authors": "Centers for Disease Control and Prevention, National Center for Environmental Health",
+      "publication": "Centers for Disease Control and Prevention; updated June 10, 2026",
+      "url": "https://www.cdc.gov/chemical-emergencies/chemical-fact-sheets/ammonia.html",
+      "researchSourceId": "S2"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Cleaning and Disinfecting | Water, Sanitation, and Environmentally Related Hygiene (WASH) | CDC",
+      "authors": "Centers for Disease Control and Prevention, National Center for Emerging and Zoonotic Infectious Diseases",
+      "publication": "Centers for Disease Control and Prevention; published and updated June 3, 2025",
+      "url": "https://www.cdc.gov/hygiene/cleaning-disinfecting/index.html?utm_source=openai",
+      "researchSourceId": "S101"
+    }
+  ],
+  "id": "the-household-product-roll-call-keep-the-label-check-the-route-20261025",
+  "date": "2026-10-25",
+  "editionDate": "2026-10-25",
+  "url": "article.html?id=the-household-product-roll-call-keep-the-label-check-the-route-20261025",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-household-product-roll-call-keep-the-label-check-the-route-20261025.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Household Product Roll Call: Keep the Label, Check the Route. An additional Daily Read: a calm, two-person way to inventory household products and find the right local disposal guidance.\nPeople: a couple with visibly different ages and life experience. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: A warm, practical scene in a home utility area: two friends or relatives of different generations sit at an open shelf, one holding a notepad and the other reading a product label. Containers remain closed and upright; the mood is focused and collaborative, not alarmed.\nAvoid repeating these recent WILDWIRE image scenes: Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends compare notes beside a weight bench, one holding a training log while the other demonstrates a controlled lift. | Two friends compare outfits beside a window, one holding a phone with a grayscale clothing photo while the other chooses between two jackets. | Two friends stand at the edge of a flower patch in a neighborhood park, quietly watching a butterfly and a small bee visit the blooms. | Three generations of a family making portraits in a bright living room, with a teenager holding a phone camera while an older relative chooses a chair and a child adjusts a vase. | Two housemates in a bright kitchen compare notes as one checks a cupboard and the other looks along the baseboard. | A woman and man in everyday clothes sit together at a kitchen table, reviewing an account statement on a laptop and a printed page.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
