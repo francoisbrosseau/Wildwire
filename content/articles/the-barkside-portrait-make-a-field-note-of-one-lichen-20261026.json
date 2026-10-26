@@ -1,0 +1,84 @@
+{
+  "category": "Explore",
+  "title": "The Barkside Portrait: Make a Field Note of One Lichen",
+  "subtitle": "An additional WILDWIRE Daily Read: a close-looking exercise for friends, families and anyone willing to pause beside a tree, rock or wall.",
+  "imageAlt": "Two friends pause beside a tree on a path, one sketching a pale patch of lichen while the other photographs it.",
+  "imageConcept": "Two friends on an established woodland path crouch beside a lichen-covered tree trunk without touching it; one holds a small sketchbook while the other frames a close-up photo, with textured bark and filtered afternoon light filling the scene.",
+  "body": [
+    [
+      "A destination measured in inches",
+      "A nature outing does not need a summit, a checklist or even a change of scenery. Choose one lichen-covered surface you can see from a permitted spot: a tree beside a familiar path, a rock in a public garden, or a wall where observation is allowed. Then stay with that small patch long enough to notice what a passing glance misses. Is it one color or several? Does it make a smooth crust, a ruffled edge, or little branching shapes? What is around it—rough bark, damp shade, sunlit stone? The point is not to name the species. It is to make a careful portrait of a living detail in its setting, together. Lichens are partnerships involving a fungus and a photosynthetic partner; they are not simply moss or a plant growing on a surface. [1]"
+    ],
+    [
+      "Start with what you can actually see",
+      "A close look works best when the description comes before the explanation. Try a plain inventory: “gray-green,” “flat,” “irregular edge,” “on the shaded side of a trunk.” Those words may sound modest, but they keep the observation anchored in evidence. Lichen guides often group familiar growth forms as crusty, leafy and shrubby. These are useful visual descriptions, not a promise that a quick look will settle an identification. A crustose lichen may appear closely attached to its surface; a foliose one can look leaf-like; a fruticose form may have branching or shrubby shapes. If a patch seems to blur those categories, write that down too. The uncertainty is part of an honest field note, not a failure to complete the activity. [2]"
+    ],
+    [
+      "Choose a spot that lets the place stay itself",
+      "Pick a patch visible without stepping off a trail, crossing a barrier or entering a planted bed. In parks and natural areas, posted rules and staff guidance come first. Some surfaces and ground communities are fragile; the National Park Service notes that in some habitats lichens help colonize areas and stabilize soils. [3] You do not need to touch, scrape, wet or collect anything to make a useful record. A phone camera, pencil and paper are enough. If the patch is high, awkward to reach or in a place where stopping would block others, choose another one. The best observation point is one that allows everyone to look comfortably while leaving the habitat undisturbed."
+    ],
+    [
+      "Make a field note in four passes",
+      "Begin with the setting: record the surface—tree bark, rock, soil or another material—and where the patch sits on it. Add the conditions you can observe without guessing: direct sun or shade, exposed or sheltered, dry or wet after recent rain. Next, describe color in ordinary language. “Olive, silver and rust” is more useful than a confident label you cannot support. Then note shape and texture from a respectful distance: crust-like, leaf-like, branching, smooth-looking, ridged, or something you cannot quite classify. Finally, make a quick sketch or take a photograph that includes both a close view and a little surrounding context. If you take a photo, keep a sense of scale by including a familiar object nearby without placing it against the lichen. Add the date and location in a way you are comfortable sharing; a general park or neighborhood name may be enough."
+    ],
+    [
+      "Let different eyes do different work",
+      "This activity suits a pair or a small group because looking is not a single skill. One person may notice a bright fleck; another may see that the patch follows a crack in the bark. Someone who enjoys drawing can outline the shape, while a child, older adult or friend who prefers talking can dictate the colors and setting. There is no need to make each person produce the same answer. Take turns naming one detail, then ask, “What did you see that I missed?” The question invites attention rather than a contest. If someone wants to use a magnifying glass, let them observe without pressing it against the surface. If a participant has limited mobility or vision, adapt the distance, lighting and role: describe the patch aloud, enlarge a photograph, or have another person make the sketch from their observations."
+    ],
+    [
+      "A vivid color is a clue, not a verdict",
+      "Lichen can look different when conditions change. At Devils Tower, the National Park Service notes that some lichen colors become more vivid when wet. [3] That makes a rain-darkened patch interesting to record, but not proof of a particular species. Note the circumstance—“after rain,” “surface looks damp”—and leave the interpretation open. The same restraint applies to bigger claims. A single patch cannot tell you when a rockfall happened, and a casual glance should not be treated as an air-quality test. Lichens are used in some scientific monitoring, but that work depends on suitable methods and interpretation; it is not the same as reading a local pollution report from one trunk. Curiosity does not require certainty. In fact, separating what you saw from what you think it means is a useful habit well beyond nature observation."
+    ],
+    [
+      "Turn the notes into a portrait",
+      "Once everyone has looked, combine the observations into a short caption. Keep it descriptive: “A pale, leafy-looking patch on the north-facing bark, with darker speckles along one edge,” for example. Then compare the caption with the image or sketch. Does it capture the patch’s shape? Did you record where it grew? Is there a detail one person noticed that the others missed? You can make a small keepsake from the note, or simply leave it in a notebook. If you later explore identification, use a reputable regional resource and treat any result as a lead rather than a final answer."
+    ],
+    [
+      "Leave the patch where you found it",
+      "Before moving on, check that the activity has stayed as light as it began: no specimen removed, no bark disturbed, no one pushed beyond a comfortable stopping place. Then each person can choose one detail to carry away—not as a grand lesson, just as a fact they might have missed while walking past. Perhaps the edge looked scalloped, the colors shifted across the surface, or the lichen occupied a narrow strip of shade. Keep the photograph or sketch if you like, and let the patch remain in place. The result is a small shared record: a few observed details, a little attention given to an overlooked surface, and a reason to notice the next one without needing to turn it into a test."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Lichens",
+      "authors": "Paula Flynn",
+      "publication": "Yard and Garden, Iowa State University Extension and Outreach; originally published August 31, 2016; last reviewed April 2024",
+      "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/lichens",
+      "researchSourceId": "S55"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Lichens",
+      "authors": "Clarissa Balbalian",
+      "publication": "Mississippi State University Extension Service, Publication 2946; May 2025",
+      "url": "https://www.extension.msstate.edu/publications/lichens",
+      "researchSourceId": "S59"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Lichens",
+      "authors": "Devils Tower National Monument",
+      "publication": "Devils Tower National Monument, National Park Service; last updated April 24, 2025",
+      "url": "https://home.nps.gov/deto/learn/nature/lichens.htm",
+      "researchSourceId": "S38"
+    }
+  ],
+  "id": "the-barkside-portrait-make-a-field-note-of-one-lichen-20261026",
+  "date": "2026-10-26",
+  "editionDate": "2026-10-26",
+  "url": "article.html?id=the-barkside-portrait-make-a-field-note-of-one-lichen-20261026",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-barkside-portrait-make-a-field-note-of-one-lichen-20261026.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Barkside Portrait: Make a Field Note of One Lichen. An additional WILDWIRE Daily Read: a close-looking exercise for friends, families and anyone willing to pause beside a tree, rock or wall.\nPeople: an adult couple with one older family member. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two friends on an established woodland path crouch beside a lichen-covered tree trunk without touching it; one holds a small sketchbook while the other frames a close-up photo, with textured bark and filtered afternoon light filling the scene.\nAvoid repeating these recent WILDWIRE image scenes: Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends practice standing from sturdy chairs in a bright community room, moving with focus while a coach observes nearby. | Two friends examine a secondhand jacket together in a bright thrift-store aisle, checking its seams and comparing it with a simple outfit. | Three friends of different generations compare a watershed map on a park bench before walking along a sloping neighborhood path. | Two friends sit together on a sofa, sharing an open graphic novel and tracing the sequence of panels across a page. | Two adults check a carbon-monoxide alarm and its manufacturer label in a hallway near bedroom doors, while a closed notebook rests on a nearby shelf. | An adult daughter and her mother compare a savings account statement with a handwritten compound-interest example at a kitchen table. | Two friends stand together in a museum gallery, reading a conservation account and discussing the object in front of them.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 3,
+    "issues": []
+  }
+}

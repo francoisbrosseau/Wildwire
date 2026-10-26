@@ -1,0 +1,79 @@
+{
+  "category": "Strength",
+  "title": "The Lift Has Two Speeds: Why Strength Can Include Moving Quickly",
+  "subtitle": "Power training adds a brisk effort to the strength toolkit—not a reason to rush. Here’s what that distinction means and how to explore it with care.",
+  "imageAlt": "Two friends practice standing from sturdy chairs in a bright community room, moving with focus while a coach observes nearby.",
+  "imageConcept": "A warm, candid scene of two friends practicing controlled chair rises in a bright community space, with a coach nearby and sturdy chairs visible. Emphasize calm concentration and purposeful movement rather than athletic strain or speed.",
+  "body": [
+    [
+      "Strength has more than one tempo",
+      "A repetition can be controlled and still have two different intentions. In a conventional strength exercise, you might rise from a chair steadily, then lower yourself with control. In a power-focused version, you would try to rise briskly—without losing balance or position—and still return to the chair slowly and deliberately. The difference is not frantic movement. It is an intention to produce force quickly during the effort phase.\n\nThat quality is called muscle power: broadly, the ability to produce force at speed. It sits alongside strength, which concerns how much force muscles can produce. They overlap, but they are not interchangeable. Lifting a challenging load slowly can build strength without asking for a fast effort; moving a lighter load with a quick, purposeful effort can emphasize power. Neither approach makes the other obsolete."
+    ],
+    [
+      "Why speed can matter outside the gym",
+      "Many everyday movements ask the body to respond promptly: standing when a bus arrives, stepping to meet a curb, or getting up to answer the door. Those tasks are not maximal lifts, and training power is not a guarantee of better performance in every daily situation. But they help explain why researchers study speed as a separate training variable.\n\nA systematic review and meta-analysis of 15 trials involving 583 older adults found that power training improved some measures of muscle power and activity-based function compared with strength training. The researchers also noted an important limitation: none of the included studies measured physical activity in daily life. That means the findings tell us about tested outcomes, not whether participants became more active in their everyday routines [1]. The distinction matters: promising results on a test should not be inflated into a promise about every person’s independence or mobility."
+    ],
+    [
+      "The evidence points to matching the method to the goal",
+      "There is no single winning tempo. A network meta-analysis covering 79 trials and 3,575 older adults found that high-velocity and traditional resistance training ranked differently depending on the functional test. High-velocity training ranked well for some timed tasks, while traditional resistance exercise ranked well for other outcomes, including the 30-second sit-to-stand and six-minute walk. The authors also reported low or very low certainty for several outcomes [2].\n\nA smaller five-week trial offers a similar reminder. Among 44 active older adults, both a low-load, high-velocity program and a high-load, low-velocity program improved strength and Timed Up and Go performance. The higher-load group also improved six-minute walking performance [3]. These studies do not establish a universal prescription. They show why the useful question is not “Which speed is best?” but “What quality am I trying to develop, and what can I perform safely and consistently?”"
+    ],
+    [
+      "Fast effort, controlled return",
+      "If you are new to power-style resistance exercise, begin with a familiar movement rather than a heavy weight. A chair rise is one option because it uses a recognizable action and can be adjusted to suit the person and setting. Choose a stable chair that does not slide, place it against a wall if appropriate, and make sure the surrounding area is clear. Wear secure footwear and use a support nearby if that is part of your usual safe setup.\n\nSit with your feet planted and your body in a position that feels comfortable. Stand with an intentional, brisk effort, but only as quickly as you can while remaining balanced and in control. Then take your time sitting back down; do not drop into the seat. Pause and reset before the next repetition. The return is not an afterthought: keeping it controlled helps distinguish a purposeful fast effort from a rushed, uncontrolled movement.\n\nUse a few unhurried practice repetitions to learn the movement before deciding whether to add any faster intent. You do not need to race a timer or make every repetition explosive. If you cannot keep the action smooth, or you find yourself rocking, swinging, or losing your footing, slow down or stop and reassess. The aim is quality, not a performance score."
+    ],
+    [
+      "Progress the decision, not just the speed",
+      "A practical progression can change one thing at a time. First become comfortable with the ordinary chair rise. Next, try standing with a slightly more decisive effort while preserving the same stable setup and controlled return. Only if that remains comfortable might you explore a modest change—such as a lower chair or a light external resistance—with suitable guidance. There is no need to add speed, load and repetition volume all at once.\n\nKeep the effort submaximal: leave room to repeat the movement without straining or losing form. Rest between short bouts, and stop if you feel pain, dizziness, unusual breathlessness, or unsteadiness. These are general safety-minded boundaries, not a personal exercise plan. Joint conditions, balance concerns, recent surgery, and other health factors can change what is appropriate. A physical therapist or qualified exercise professional can help adapt the movement and check technique, especially if faster efforts are unfamiliar."
+    ],
+    [
+      "Home training can work, but the details matter",
+      "If you try a chair rise, make sure the chair is stable and the path is clear. If you are unsure whether a fast effort is appropriate, choose controlled repetitions and ask a qualified professional for advice rather than testing your limits alone."
+    ],
+    [
+      "Keep both speeds in the toolkit",
+      "Power training is best understood as another option, not an upgrade that makes slower lifting outdated. Traditional strength work can target the ability to handle force; power work adds an emphasis on producing that force promptly. Depending on the goal, training history and individual circumstances, both qualities may deserve attention—and not every exercise needs a fast phase.\n\nFor a simple experiment, compare two comfortable versions of the same chair rise on different occasions: one at a steady, controlled pace, and one with a brisk but balanced stand and a slow return. Notice which version feels clear and repeatable, not which one seems more impressive. If the brisk version brings discomfort, instability or uncertainty, leave it out until you can get appropriate guidance. Moving quickly is a skill to practice with care, not a test of toughness."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Effectiveness of power training compared to strength training in older adults: a systematic review and meta-analysis",
+      "authors": "Mohamed el Hadouchi, Henri Kiers, Ralph de Vries, Cindy Veenhof, and Jaap van Dieën",
+      "publication": "Springer Nature",
+      "url": "https://link.springer.com/article/10.1186/s11556-022-00297-x",
+      "researchSourceId": "S61"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Does High-Velocity Resistance Exercise Elicit Greater Physical Function Benefits Than Traditional Resistance Exercise in Older Adults? A Systematic Review and Network Meta-Analysis of 79 Trials",
+      "authors": "Pedro Lopez, Anderson Rech, Maria Petropoulou, Robert U Newton, Dennis R Taaffe, Daniel A Galvão, Douglas J P Turella, Sandro R Freitas, and Régis Radaelli",
+      "publication": "Oxford University Press",
+      "url": "https://academic.oup.com/biomedgerontology/article/78/8/1471/6827989",
+      "researchSourceId": "S34"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Effect of Resistance Training Programs With Equated Power on Older Adults' Functionality and Strength: A Randomized Controlled Trial",
+      "authors": "Enrique Fraga-Germade, Eduardo Carballeira, and Eliseo Iglesias-Soler",
+      "publication": "National Library of Medicine (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38085625/",
+      "researchSourceId": "S62"
+    }
+  ],
+  "id": "the-lift-has-two-speeds-why-strength-can-include-moving-quickly-20261026",
+  "date": "2026-10-26",
+  "editionDate": "2026-10-26",
+  "url": "article.html?id=the-lift-has-two-speeds-why-strength-can-include-moving-quickly-20261026",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-lift-has-two-speeds-why-strength-can-include-moving-quickly-20261026.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Lift Has Two Speeds: Why Strength Can Include Moving Quickly. Power training adds a brisk effort to the strength toolkit—not a reason to rush. Here’s what that distinction means and how to explore it with care.\nPeople: two adult siblings or close friends collaborating. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: serious, focused partners training with controlled effort; no smiling while lifting.\nScene concept: A warm, candid scene of two friends practicing controlled chair rises in a bright community space, with a coach nearby and sturdy chairs visible. Emphasize calm concentration and purposeful movement rather than athletic strain or speed.\nAvoid repeating these recent WILDWIRE image scenes: Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 3,
+    "issues": []
+  }
+}

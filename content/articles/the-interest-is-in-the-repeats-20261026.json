@@ -1,0 +1,83 @@
+{
+  "category": "Finance",
+  "title": "The Interest Is in the Repeats",
+  "subtitle": "A two-generation guide to compound interest—and the account details that determine what the math means in real life.",
+  "imageAlt": "An adult daughter and her mother compare a savings account statement with a handwritten compound-interest example at a kitchen table.",
+  "imageConcept": "a couple with visibly different ages and life experience together, in a specific visual scene about “The Interest Is in the Repeats”: A warm, natural-light kitchen scene: an adult daughter and her mother sit side by side, reviewing a bank statement and a handwritten two-year savings calculation, with a calculator and two mugs on the table. The mood is collaborative and thoughtful, not celebratory or sales-driven.",
+  "body": [
+    [
+      "The quiet power of a repeated calculation",
+      "Imagine an adult daughter and her mother sitting down with a savings statement. One expects the balance to grow by the same amount each year; the other suspects the interest itself will start earning interest. They have identified the key distinction. Compound interest means earning interest not only on the original deposit, but also on interest previously added to the balance. That process is easy to describe and easy to overstate: the result depends on the account’s terms and what happens to its rate, deposits and withdrawals. The useful question is not whether compounding is magic. It is how the repeated calculation works, and which details make a real account behave differently from a clean example."
+    ],
+    [
+      "Two years, worked slowly",
+      "For a simple illustration—not a current rate or forecast—the Consumer Financial Protection Bureau uses $1,000 earning a fixed 5% annual rate. After one year, the balance is $1,050: the original $1,000 plus $50 in interest. In year two, the 5% calculation applies to $1,050, not just the original deposit. That adds $52.50, leaving $1,102.50. The extra $2.50 is interest earned on the first year’s interest. The amount may look small over two years, but the example makes the mechanism visible: once credited interest remains in the account, it becomes part of the balance from which later interest can be calculated [1]."
+    ],
+    [
+      "What “more often” actually means",
+      "Interest can be calculated or compounded at intervals specified by an account’s terms, while the schedule for crediting it to the account may also matter. More frequent compounding can produce a different result than annual compounding when other assumptions are held constant, because interest can be added to the calculation base sooner. But frequency alone does not tell you which account will leave you with more. The rate, fees, minimum-balance conditions and any withdrawals matter too. A changing rate can outweigh a small difference in compounding frequency. The example’s fixed 5% rate is deliberately simple; real savings accounts may have variable rates, so their future interest cannot be read off from that illustration as if it were a promise."
+    ],
+    [
+      "Read the APY alongside the rate",
+      "When comparing deposit accounts, look for both the stated interest rate and the annual percentage yield, or APY. The rate describes the interest rate applied under the account’s terms; APY reflects the effect of compounding over a year. For covered accounts, federal Truth in Savings rules address disclosures including the interest rate, APY and applicable minimum-balance information [2]. The APY is a useful way to compare annualized yield, but it is not a guarantee that the same return will continue if the rate can change or if the balance does not meet the stated conditions. Check the disclosure for how the account calculates the balance, when interest is credited, whether a minimum is required, and what fees or withdrawal limits may apply. The fine print is part of the calculation, not an afterthought."
+    ],
+    [
+      "The balance is a moving target",
+      "The two-year example assumes one deposit, no withdrawals and an unchanged rate. Most household savings has a more complicated story. A regular contribution increases the amount available to earn interest; a withdrawal reduces it. If a bank changes a variable rate, later interest calculations may be higher or lower. A fee can also reduce the balance that remains to compound. That is why an online calculator is only as useful as the assumptions entered into it. If you use one, try a conservative scenario as well as the advertised or current APY: ask what the result would look like if the rate fell, if a planned withdrawal happened, or if a contribution paused. These are not predictions. They are ways to see which assumptions carry the most weight."
+    ],
+    [
+      "A five-minute account check",
+      "The mother and daughter in our hypothetical can turn the statement into a practical review. First, find the current rate and APY on the account disclosure; do not assume an old statement shows today’s terms. Second, note whether the rate is fixed or variable and locate how often interest is credited. Third, check minimum-balance rules and fees, then compare them with the balance the household actually expects to keep there. Fourth, write down any likely deposits or withdrawals rather than treating the current balance as permanent. Finally, redo the example with those details—or ask the bank to explain a line that remains unclear. This is not about choosing an account for someone else. It is a shared way to make sure both people understand what the numbers do and do not say."
+    ],
+    [
+      "Interest can be income, too",
+      "A growing balance is not always the same as money kept after taxes. Under U.S. federal tax rules, interest received—or credited to an account and available to withdraw—is generally taxable income, with exceptions described by the IRS [3]. Tax treatment depends on the person’s circumstances, and state or local rules may differ. For a household using savings to plan for a future expense, that means the account statement’s interest figure and the amount ultimately available after tax may not be identical. Keep the bank’s year-end tax information with other tax records, and consult current IRS guidance or a qualified tax professional for questions about a particular situation. This feature explains a financial concept; it is not personal financial, tax or legal advice."
+    ],
+    [
+      "A useful mechanism, not a promise",
+      "Compound interest rewards time only when interest remains in the balance and the account continues to earn it. It does not erase fees, guarantee a particular rate, or make every product carrying an interest figure equivalent. Nor should a savings-account illustration be confused with investment growth: investments can rise or fall in value, and their outcomes are not represented by the fixed-rate example. A sensible takeaway is narrower and more useful. Understand what earns interest, when that interest joins the balance, and which account terms could change the result. Then revisit the disclosure when the rate or household plans change. The arithmetic is simple enough to share across generations; reading the assumptions carefully is what makes it relevant."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "How does compound interest work?",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau; last reviewed October 19, 2023",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/how-does-compound-interest-work-en-1683/",
+      "researchSourceId": "S3"
+    },
+    {
+      "sourceId": "S2",
+      "title": "12 CFR Part 1030 — Truth in Savings (Regulation DD)",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau; most recently amended April 19, 2023",
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/?utm_source=openai",
+      "researchSourceId": "S57"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Publication 550 (2025), Investment Income and Expenses (Including Capital Gains and Losses)",
+      "authors": "Internal Revenue Service, U.S. Department of the Treasury",
+      "publication": "Internal Revenue Service; March 5, 2026",
+      "url": "https://www.irs.gov/pub/irs-prior/p550--2025.pdf?utm_source=openai",
+      "researchSourceId": "S60"
+    }
+  ],
+  "id": "the-interest-is-in-the-repeats-20261026",
+  "date": "2026-10-26",
+  "editionDate": "2026-10-26",
+  "url": "article.html?id=the-interest-is-in-the-repeats-20261026",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-interest-is-in-the-repeats-20261026.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Interest Is in the Repeats. A two-generation guide to compound interest—and the account details that determine what the math means in real life.\nPeople: a couple with visibly different ages and life experience. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: a couple with visibly different ages and life experience together, in a specific visual scene about “The Interest Is in the Repeats”: A warm, natural-light kitchen scene: an adult daughter and her mother sit side by side, reviewing a bank statement and a handwritten two-year savings calculation, with a calculator and two mugs on the table. The mood is collaborative and thoughtful, not celebratory or sales-driven.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends practice standing from sturdy chairs in a bright community room, moving with focus while a coach observes nearby. | Two friends examine a secondhand jacket together in a bright thrift-store aisle, checking its seams and comparing it with a simple outfit. | Three friends of different generations compare a watershed map on a park bench before walking along a sloping neighborhood path. | Two friends sit together on a sofa, sharing an open graphic novel and tracing the sequence of panels across a page. | Two adults check a carbon-monoxide alarm and its manufacturer label in a hallway near bedroom doors, while a closed notebook rests on a nearby shelf.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

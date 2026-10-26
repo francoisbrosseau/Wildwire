@@ -1,0 +1,79 @@
+{
+  "category": "Explore",
+  "title": "The Rain Has an Address: A Neighborhood Watershed Walk",
+  "subtitle": "Use a map, a short route and a shared sketch to see how familiar streets fit into a larger landscape—without pretending you can trace every drop.",
+  "imageAlt": "Three friends of different generations compare a watershed map on a park bench before walking along a sloping neighborhood path.",
+  "imageConcept": "three generations of one family working together together, in a specific visual scene about “The Rain Has an Address: A Neighborhood Watershed Walk”: A multigenerational trio on a neighborhood park bench, one person holding a paper watershed map while another points toward a sloping path and a rain garden; nearby pavement, street trees and a small stream make the map feel connected to the everyday landscape.",
+  "body": [
+    [
+      "A bigger map for the block",
+      "Rain has a geography. A drop landing on one side of a low ridge may flow toward a different creek than a drop landing just a few streets away [3]. The land that drains to a particular stream, lake or river is called its watershed; watersheds fit inside larger watersheds, so the answer changes with the scale of the map [1]. That makes a neighborhood walk an invitation to see familiar ground differently: not just as streets and destinations, but as part of a larger path through the landscape.\n\nThe useful word is “generally.” A watershed map can help you understand which larger area drains toward which water body. It cannot, by itself, show the route of every drop from a curb to a creek. Treat the map as a starting point for observation, not a promise of exact directions."
+    ],
+    [
+      "Start with a place and a map",
+      "Choose a home, park or other public place as your starting point. Search for an official watershed map from a local or regional government, water agency, or the U.S. Geological Survey. Some tools let you enter an address; others show boundaries that you can locate by zooming and comparing recognizable roads or landmarks. If the first map is hard to read, try a municipal stormwater or watershed-program page, which may offer a more local view.\n\nBefore heading out, note the name of the watershed or receiving water shown for your starting area, and save or print the map. Check its legend, scale and date if provided. If the tool’s result is unclear, record the uncertainty rather than forcing a precise answer. You can still take a good walk with a map that gives you the larger picture."
+    ],
+    [
+      "Plan a short, comfortable route",
+      "Choose a loop or out-and-back route on public paths, ideally one that takes 20 to 40 minutes at the pace of the people coming along. Look for a few different kinds of ground: a rise or slope, a level area, and a place where pavement meets planted soil. A park path, quiet public street or accessible paved trail can all work. Check the route in advance for crossings, steep sections, construction and places to pause. There is no need to approach a stream edge or leave a path.\n\nShare the jobs. One person can keep the map oriented; another can notice changes in slope; someone else can sketch or mark observations. Children can look for where water might slow down, while a person who prefers to sit can lead the map-reading from a bench or choose the next observation point. Adapt the walk to mobility, weather and energy. The purpose is attention, not distance."
+    ],
+    [
+      "Read the ground, not just the screen",
+      "As you move, notice where land rises, falls or levels out. From a safe place, look for clues that rain might follow gravity: a sloping sidewalk, a shallow dip in a lawn, a curb opening, or a planted area lower than the surrounding pavement. Mark what you actually see. Then use a different mark for a guess about where rain might travel. Keeping observations and inferences separate makes the sketch more useful—and more honest.\n\nPaved surfaces matter because rain and snowmelt can run over them rather than soak into the ground. That runoff can carry pollutants into streams, lakes and groundwater. Rain gardens and other green-infrastructure features can slow or filter some runoff [2]. On your route, notice where pavement ends and planted soil begins, but don’t assume you know what lies beneath a grate or where a drain empties. In a built-up neighborhood, engineered systems can redirect water in ways a simple landform map cannot show."
+    ],
+    [
+      "Make a sketch with room for doubt",
+      "At a stopping point, draw a simple outline of your route: a few streets, the park, any stream or pond, and the high and low spots you noticed. Add arrows for possible surface flow, using dotted lines or a question mark where you are unsure. Mark rain gardens, curb cuts or other features you recognized, and label them as observations rather than proof of where water goes. A shared sketch does not need to be to scale; it needs to make clear what you saw and what you are wondering.\n\nUrban drainage is a major reason for caution. EPA’s watershed lesson notes that its Raindrop Tool does not account for storm drains, culverts or other built infrastructure [3]. That limitation is a useful guide for this walk, too: topography can suggest a general direction, but the underground and engineered route may be different. Keep the map’s boundary, the visible landscape and the drainage system as related—but not interchangeable—layers."
+    ],
+    [
+      "Turn one question into a next step",
+      "End by writing down one question that arose from the route. It might be: Where does this street’s stormwater go? Is the planted basin a rain garden? What is the name of the nearby stream? Is there a public plan for reducing runoff in this area? Choose a question that can be checked through public information, such as a city stormwater page, watershed organization, park department or local water agency. \n\nKeep the scope modest. A map and a walk cannot establish water quality, identify contaminants or show that a stream is safe for swimming. If the question is about health or recreation, look for current official advisories and relevant testing information from the responsible local authority. You are not conducting a water test; you are learning what the place invites you to investigate."
+    ],
+    [
+      "Bring the route back to the table",
+      "When you return, compare the sketch with the watershed map. Which parts of the walk matched what the map suggested? Which places raised new questions? Add a small key—“seen,” “inferred,” and “unknown”—so anyone looking at the drawing can tell the difference. If you walked with a group, let each person add one observation in their own words. A detail that seems minor to one person, such as a planted curb extension or a subtle change in slope, may be what helps another understand the landscape.\n\nKeep the sketch with the map or take a photo of both. Then choose one public source to consult for the question you wrote down, and note what it can and cannot answer. The point is not to finish with a complete account of every drop. It is to leave with a better mental map: the watershed boundary as a broad guide, the neighborhood as visible evidence, and the gaps between them as worthwhile questions."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Basic Information and Answers to Frequent Questions",
+      "authors": "U.S. Environmental Protection Agency",
+      "publication": "U.S. Environmental Protection Agency; last updated March 13, 2026",
+      "url": "https://www.epa.gov/hwp/basic-information-and-answers-frequent-questions",
+      "researchSourceId": "S20"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Urbanization and Stormwater Runoff",
+      "authors": "U.S. Environmental Protection Agency",
+      "publication": "U.S. Environmental Protection Agency; last updated January 8, 2026",
+      "url": "https://www.epa.gov/sourcewaterprotection/urbanization-and-stormwater-runoff",
+      "researchSourceId": "S15"
+    },
+    {
+      "sourceId": "S3",
+      "title": "EnviroAtlas Educational Curriculum Exploring Your Watershed Module Designed for K-6 Students",
+      "authors": "Jenna M. Hartley",
+      "publication": "U.S. Environmental Protection Agency, Report EPA/600/R-18/203; 2018",
+      "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100UUMU.TXT",
+      "researchSourceId": "S26"
+    }
+  ],
+  "id": "the-rain-has-an-address-a-neighborhood-watershed-walk-20261026",
+  "date": "2026-10-26",
+  "editionDate": "2026-10-26",
+  "url": "article.html?id=the-rain-has-an-address-a-neighborhood-watershed-walk-20261026",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-rain-has-an-address-a-neighborhood-watershed-walk-20261026.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Rain Has an Address: A Neighborhood Watershed Walk. Use a map, a short route and a shared sketch to see how familiar streets fit into a larger landscape—without pretending you can trace every drop.\nPeople: three generations of one family working together. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: three generations of one family working together together, in a specific visual scene about “The Rain Has an Address: A Neighborhood Watershed Walk”: A multigenerational trio on a neighborhood park bench, one person holding a paper watershed map while another points toward a sloping path and a rain garden; nearby pavement, street trees and a small stream make the map feel connected to the everyday landscape.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends practice standing from sturdy chairs in a bright community room, moving with focus while a coach observes nearby. | Two friends examine a secondhand jacket together in a bright thrift-store aisle, checking its seams and comparing it with a simple outfit.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 3,
+    "issues": []
+  }
+}
