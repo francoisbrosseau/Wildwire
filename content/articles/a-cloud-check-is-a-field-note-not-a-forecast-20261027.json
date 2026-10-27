@@ -1,0 +1,80 @@
+{
+  "category": "Explore",
+  "title": "A Cloud Check Is a Field Note, Not a Forecast",
+  "subtitle": "Daily Read · A ten-minute observation with a friend can turn an ordinary patch of sky into a small, repeatable field study.",
+  "imageAlt": "Two friends with different personal styles sit on a park bench, each writing in a small notebook while looking up at a partly cloudy daytime sky.",
+  "imageConcept": "Two women friends with distinct personal styles share a park bench in an open public space, each holding a small notebook and looking at the same daytime sky. The image emphasizes their separate observations and the sky itself, with no phone as the main prop.",
+  "body": [
+    [
+      "The sky as a place to look closely",
+      "Cloud watching is easy to mistake for a weather quiz: name the shape, guess what it means, move on. A more useful approach is quieter. Treat the sky as a place to practice noticing, and your notes as a record of what you saw—not a forecast of what will happen next.\n\nThat distinction makes this a good shared field exercise. It asks for no specialist equipment, and there is no need to agree on every description. Two people can look at the same sky and notice different things first: a thin veil overhead, a cluster of puffs near the horizon, or a broad patch of blue. Comparing those impressions is part of the observation, not a test either person can fail.\n\nGeoscience educators have used outdoor cloud observations and estimates of sky coverage as a repeatable field activity. The point is to look, record, and return to the evidence rather than relying on memory alone [1]."
+    ],
+    [
+      "Make a ten-minute appointment with the sky",
+      "Choose a safe, open place where you can comfortably see a broad area overhead: a park bench, a courtyard, a quiet street with a clear view, or a window with an unobstructed outlook. Sit or stand somewhere stable, away from traffic and other hazards. You do not need to stare at the sun; in fact, avoid looking directly at it. If the weather is uncomfortable or conditions feel unsafe, choose another time or observe from indoors.\n\nAgree on a short window—about ten minutes is enough to begin—and each take a small notebook or a sheet of paper. Before you compare, make your first notes independently. That small pause matters: if one person names a cloud first, it can steer what the other person thinks they see.\n\nWrite down the date and approximate time. Add a simple location description if you want to revisit the same spot, such as “north side of the park” or “back steps.” You are building a record you can understand later, not trying to create a formal weather station."
+    ],
+    [
+      "Record what is visible, not what you expect",
+      "Start with a rough estimate of how much of the visible sky is covered by cloud. You can use plain language—mostly clear, about half covered, nearly overcast—or make a simple percentage estimate if that feels helpful. Precision is not the goal; consistency between observations is more useful than pretending a quick estimate is exact.\n\nThen describe what you see in ordinary words. Are the clouds wispy, layered, puffy, or towering? Do they form a continuous sheet, appear in separate patches, or sit at different apparent heights? If you are unsure what type they are, say so. “Thin streaks, uncertain” is a stronger field note than a confident label unsupported by what you can see.\n\nKeep the description visual. “The clouds look darker underneath” records an observation; “rain is coming” makes a prediction. One may lead someone to wonder about the other, but they are not the same claim. A field note keeps that boundary visible."
+    ],
+    [
+      "Compare notes before comparing names",
+      "After a few minutes, put the notebooks side by side. First ask what each person noticed without trying to settle on a single correct answer. Did one of you focus on the amount of cloud cover while the other noticed its shape? Did you use different words for the same feature? Did your rough coverage estimates differ? Those differences can prompt a closer look: perhaps you were attending to different parts of the sky, or perhaps the cloud pattern changed while you were writing.\n\nLook up again and check. Has a patch become more or less distinct? Does the sky seem more covered from one direction than another? Record any change as a second entry, with its time. Don’t automatically interpret it as a trend in the weather. A short observation can show that the scene changed; it cannot, by itself, tell you what conditions will follow.\n\nThis is where the shared activity becomes more than a pleasant pause. You are practicing how to separate what you observe from the explanation you attach to it—and making room for another person’s attention to sharpen your own."
+    ],
+    [
+      "Why ground-level looking matters",
+      "People observing clouds from the ground can contribute information that complements satellite views. NASA describes citizen-science cloud observations gathered from the ground as one way to add a view of what is happening beneath the perspective of instruments in space [2]. That does not make a pair of casual notes equivalent to a scientific dataset. It does show that careful looking from an everyday location has a place in a wider practice of observing Earth.\n\nA research paper on the GLOBE cloud-observation challenge likewise documents how participants around the world collected ground-based observations and photographs [3]. The useful lesson is not that every observer needs to join a formal project. It is that simple observations become more meaningful when they are recorded clearly enough to compare, and when people understand what their notes can—and cannot—say.\n\nIf you want to explore a formal citizen-science option, look for current instructions from the program before submitting anything. Follow its observation method, use the requested categories, and keep your personal notes distinct from any data you report."
+    ],
+    [
+      "A small practice for two different observers",
+      "For a first attempt, use a simple shared template. Each person writes: date and time; where they are looking from; rough cloud coverage; three descriptive words; and one thing they are uncertain about. Set a timer for five minutes, write separately, then compare. Spend the remaining minutes looking again and add one sentence about what changed—or what did not.\n\nIf you return to the same spot on another day, keep the format consistent. Repeated observations are easier to compare when you record roughly the same details each time, a principle used in field activities designed around cloud observation [1]. You might notice that your vocabulary grows, or that one of you tends to look toward the horizon while the other scans overhead. Those are useful discoveries about how you observe, not proof of a weather pattern."
+    ],
+    [
+      "Keep the boundary clear",
+      "A cloud check is a reason to pay attention, not a substitute for weather information. If your plans depend on rain, heat, wind, storms, or another hazard, check an official local forecast and alerts. A cloud label from an informal observation cannot reliably establish what will happen at your location.\n\nThe point of this exercise is smaller and more durable: learn to describe a changing scene, notice how another person sees it, and leave with a record rather than a verdict. On your next walk or pause outdoors, take ten minutes, write separately, and compare. If all you learn is that the two of you saw the sky differently—and can now say exactly how—that is a successful field note."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Cloud Observation",
+      "authors": "Rebecca Teed",
+      "publication": "Starting Point: Teaching Entry Level Geoscience, Science Education Resource Center at Carleton College, April 1, 2004",
+      "url": "https://serc.carleton.edu/sp/library/field_lab/examples/clouds.html",
+      "researchSourceId": "S22"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Citizen Scientists Invited to Collect Data for NASA During Eclipse",
+      "authors": "James Riordon",
+      "publication": "NASA Science, April 1, 2024",
+      "url": "https://science.nasa.gov/solar-system/skywatching/citizen-scientists-invited-to-collect-data-for-nasa-during-eclipse/",
+      "researchSourceId": "S86"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Clouds around the World: How a Simple Citizen Science Data Challenge Became a Worldwide Success",
+      "authors": "Marilé Colón Robles, Helen M. Amos, J. Brant Dodson, Jeffrey Bouwman, Tina Rogerson, Annette Bombosch, Lauren Farmer, Autumn Burdick, Jessica Taylor, and Lin H. Chambers",
+      "publication": "Bulletin of the American Meteorological Society, July 1, 2020",
+      "url": "https://journals.ametsoc.org/view/journals/bams/101/7/BAMS-D-19-0295.1.xml?utm_source=openai",
+      "researchSourceId": "S101"
+    }
+  ],
+  "id": "a-cloud-check-is-a-field-note-not-a-forecast-20261027",
+  "date": "2026-10-27",
+  "editionDate": "2026-10-27",
+  "url": "article.html?id=a-cloud-check-is-a-field-note-not-a-forecast-20261027",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/a-cloud-check-is-a-field-note-not-a-forecast-20261027.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Cloud Check Is a Field Note, Not a Forecast. Daily Read · A ten-minute observation with a friend can turn an ordinary patch of sky into a small, repeatable field study.\nPeople: two women friends with distinct personal style. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two women friends with distinct personal styles share a park bench in an open public space, each holding a small notebook and looking at the same daytime sky. The image emphasizes their separate observations and the sky itself, with no phone as the main prop.\nAvoid repeating these recent WILDWIRE image scenes: Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends of different ages prepare for strength training side by side, each choosing a comfortable starting version of the same movement. | Two women friends stand together in individually styled outfits, one wearing a vivid jacket and the other a patterned dress, sharing a relaxed moment as they get ready. | Two friends pause on a wooden boardwalk beside a shallow seasonal pond, looking toward its damp, leaf-strewn edge. | Two friends sit at a kitchen table with a laptop open to a museum collection record, a notebook between them and a printed archival photograph nearby. | Two friends pause beside a staircase in a warmly lit home, one holding a notepad while the other points toward a light switch. | Two adult siblings sit at a kitchen table, comparing mortgage documents and marking questions on a notepad.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

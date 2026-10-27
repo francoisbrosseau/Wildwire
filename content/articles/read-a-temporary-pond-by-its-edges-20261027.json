@@ -1,0 +1,79 @@
+{
+  "category": "Explore",
+  "title": "Read a Temporary Pond by Its Edges",
+  "subtitle": "A public trail, a few minutes of close attention and a return visit can reveal how a seasonal wetland changes—without stepping into it or needing to identify every living thing.",
+  "imageAlt": "Two friends pause on a wooden boardwalk beside a shallow seasonal pond, looking toward its damp, leaf-strewn edge.",
+  "imageConcept": "Two friends at an authorized boardwalk overlook in a wooded area, seen from behind as they study the pond’s changing waterline and the plants at its edge; natural light, ordinary outdoor clothing, no one entering the water or handling wildlife.",
+  "body": [
+    [
+      "Begin at the boundary",
+      "A temporary pond is easy to overlook if you expect a fixed shoreline. After rain or snowmelt, water may cover a shallow forest hollow; later, the same place may shrink to scattered pools or appear dry. Those changes are not a failure of the pond. Periodic drying is one of the features used to describe seasonal pools, though definitions and ecological patterns vary by region. Researchers reviewing seasonal ponds in the Great Lakes region note that even identifying small, temporary ponds can be difficult, and that regional definitions differ [1]. For a visitor, that is a reason to stay curious rather than to label every wet patch a vernal pool. The simplest invitation is to notice the boundary: where water ends, where the ground remains damp, and what has changed since the last time you looked."
+    ],
+    [
+      "Choose a permitted viewpoint",
+      "Look for a public trail, boardwalk or marked viewing area, then check the site’s current access information before setting out. A fixed viewpoint can make it easier to pause without trampling the surrounding ground, but access, surfaces and seasonal closures vary from place to place. Do not assume a boardwalk is open, step-free or suitable for every visitor without checking. Bring shoes appropriate to the trail, a phone or notebook, and enough time to stop safely without blocking other people. You do not need specialist equipment: a view of the waterline and a few written observations are enough. If there is no clear public route or authorized place to view the pond, choose another site. The goal is to experience the habitat from its edge, not to get closer at any cost."
+    ],
+    [
+      "Let the waterline tell the first part",
+      "Once you have stopped, take in the whole scene before picking out details. Is the water spread across the hollow, gathered in one low spot or absent from the visible basin? Look for the boundary between standing water and damp ground, and notice whether fallen leaves, exposed soil or vegetation mark that edge. You are not measuring depth or judging water quality; you are making a simple record of what is visible from your permitted position. Write down the date and a few plain descriptions—“water at the east edge,” “mud visible beneath the trees,” or “only a small pool remains.” Avoid treating one visit as a complete account. Rain, temperature and the time of year can all affect what is visible, so a single snapshot cannot tell the whole seasonal story."
+    ],
+    [
+      "Notice the ground and plants around it",
+      "The pond’s edge is not just a line on the water. Look outward, too: Is the ground underfoot, from where you stand, leafy, bare or green? Do plants appear to grow in the damp margin, or farther back on higher ground? Are there low places that seem connected to the pool, or a slope that carries water toward it? Keep your descriptions specific and modest. “Several green shoots beside the water” records what you saw; naming a species you cannot confidently identify adds little. Seasonal ponds can be small and hard to map, and their surrounding habitat matters, which is one reason to avoid treating a quick look as a formal identification [1]. If you use a camera, photograph the wider setting as well as a detail. That wider frame can help you compare the same viewpoint later."
+    ],
+    [
+      "Wildlife signs are not a census",
+      "You might see an animal, hear a call or notice something that could be an egg mass. You might see nothing obvious. Either way, the visit can be worthwhile: a quiet or dry-looking pool can still be habitat, and some organisms persist through dry periods in forms such as seeds, eggs or cysts [2]. Resist the urge to search under leaves, move branches or handle anything. Formal monitoring is more systematic than a casual visit. In the Northeast, USGS researchers and partners look for wood frog and spotted salamander egg masses during spring surveys and return to sites later in the breeding season [3]. That illustrates how observations gain meaning through timing and repeated visits; it does not turn a visitor’s sighting into a survey result. If you want to share an observation, use a site’s requested reporting method and describe only what you actually saw."
+    ],
+    [
+      "Keep your presence on the path",
+      "Wet ground can be fragile even when it looks firm, and entering a pool can disturb the very margin you came to notice. Stay on the designated route, leave plants and animals where they are, and keep pets out of the water and surrounding habitat where site rules require it. Follow posted instructions, take rubbish with you, and let other visitors have room to stop and look."
+    ],
+    [
+      "Return to the same view",
+      "The most useful addition to this outing may be a second visit. If the site remains open, come back at a different point in the season and stand in the same place. Reuse a few simple prompts: Where is the waterline now? What looks wetter or drier? Has the visible vegetation changed? Did you notice wildlife this time, or not? Keep each entry short, with its date and the weather you can reasonably recall. You are not trying to prove what the pond is or establish a trend from two visits. You are making a personal record of a particular place, while leaving the habitat undisturbed. That small practice turns a walk into a closer encounter with seasonal change—and makes uncertainty part of the observation, rather than something you need to solve before you can enjoy it."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "The Identification, Mapping, and Management of Seasonal Ponds in Forests of the Great Lakes Region",
+      "authors": "Kathryn L. Hofmeister, Sue Eggert, Brian J. J. Palik, David Morley, Emily Creighton, Marty Rye, Randy Kolka",
+      "publication": "U.S. Forest Service Research & Development",
+      "url": "https://research.fs.usda.gov/treesearch/63887",
+      "researchSourceId": "S32"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Vernal Pools",
+      "authors": "U.S. Environmental Protection Agency",
+      "publication": "U.S. Environmental Protection Agency, last updated April 15, 2026",
+      "url": "https://www.epa.gov/wetlands/vernal-pools?referer=www.cuteslator.com",
+      "researchSourceId": "S38"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Monitoring Vernal Pool Amphibians in the Northeast",
+      "authors": "Eastern Ecological Science Center",
+      "publication": "U.S. Geological Survey, April 20, 2023",
+      "url": "https://www.usgs.gov/centers/eesc/science/monitoring-vernal-pool-amphibians-northeast",
+      "researchSourceId": "S30"
+    }
+  ],
+  "id": "read-a-temporary-pond-by-its-edges-20261027",
+  "date": "2026-10-27",
+  "editionDate": "2026-10-27",
+  "url": "article.html?id=read-a-temporary-pond-by-its-edges-20261027",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/read-a-temporary-pond-by-its-edges-20261027.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Read a Temporary Pond by Its Edges. A public trail, a few minutes of close attention and a return visit can reveal how a seasonal wetland changes—without stepping into it or needing to identify every living thing.\nPeople: an adult couple with one older family member. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two friends at an authorized boardwalk overlook in a wooded area, seen from behind as they study the pond’s changing waterline and the plants at its edge; natural light, ordinary outdoor clothing, no one entering the water or handling wildlife.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends of different ages prepare for strength training side by side, each choosing a comfortable starting version of the same movement. | Two women friends stand together in individually styled outfits, one wearing a vivid jacket and the other a patterned dress, sharing a relaxed moment as they get ready.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 3,
+    "issues": []
+  }
+}

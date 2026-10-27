@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "The Closing Disclosure Is a Reconciliation, Not a Receipt",
+  "subtitle": "A side-by-side review of your mortgage estimate and final disclosure can turn last-minute surprises into specific questions—before you sign.",
+  "imageAlt": "Two adult siblings sit at a kitchen table, comparing mortgage documents and marking questions on a notepad.",
+  "imageConcept": "Two adult siblings at a sunlit kitchen table, a Loan Estimate and Closing Disclosure arranged side by side, one person pointing to a changed figure while the other writes a question on a notepad; calm, focused, collaborative rather than celebratory.",
+  "body": [
+    [
+      "The comparison is the point",
+      "A mortgage closing comes with a stack of paperwork, and the final disclosure can look like one more form to sign and file away. It is more useful to treat it as a reconciliation: a chance to see what stayed consistent between the earlier estimate and the final terms, what changed, and what still needs an explanation. The aim is not to assume every difference is a mistake. It is to understand what you are agreeing to and what money is due.\n\nThe Loan Estimate is a standardized form showing estimated loan terms, payments, and costs. Receiving it does not mean the lender has approved or denied the application [1]. The Closing Disclosure sets out final loan terms, projected payments, and closing costs, and is meant to be compared with that estimate [2]. Put the latest version of each document next to the other. A trusted friend or family member can help you read carefully, but the borrower should decide what questions to ask and what information to share."
+    ],
+    [
+      "Start with the terms, not the total",
+      "Before scanning the closing-cost total, compare the core loan terms. Check the loan amount, interest rate, whether the rate is fixed or adjustable, and the loan term. If the figures or structure differ from what you expected, pause there. A lower total at closing does not make a changed interest rate or loan type unimportant; those terms can affect payments well beyond closing day.\n\nNext, compare projected payments. Look at principal and interest, any mortgage insurance, and estimated escrow for property taxes and homeowners insurance. A payment estimate can move because one component changed while another did not. Identify which line differs instead of relying on a single monthly total. If a figure is unfamiliar, write down its name and ask the lender or closing agent what it covers, whether it is part of the monthly payment, and how it was calculated. Do not fill in a reason based on guesswork."
+    ],
+    [
+      "Read the costs as categories",
+      "The Closing Disclosure includes fees and other costs to get your mortgage (closing costs) [2]. Compare the category and the individual line, not just the grand total. A fee may have a different label or appear in a different place, so check the description before deciding that two items are unlike.\n\nThen look at cash to close. If it changed, ask for a plain-language breakdown showing how the final figure was reached. Confirm the amount, payment method, recipient, and deadline using trusted contact information—not a last-minute message with unfamiliar instructions."
+    ],
+    [
+      "Make a three-column check",
+      "A short written comparison can keep the review grounded. On paper or in a secure note, make three columns: “same,” “changed,” and “needs an explanation.” Put each important term, payment, or cost in one of them. For example, the rate might be the same, an escrow estimate might have changed, and a service charge might need clarification. This is a way to organize questions, not a judgment about whether a change is permitted.\n\nFor every item in the last two columns, note the page and line, the Loan Estimate amount, the Closing Disclosure amount, and your question. Be specific: “What is included in this charge?” is easier to answer than “Why is this higher?” Ask whether the difference is due to updated information, a changed service, a credit, or another reason. If the explanation is verbal, write it down and ask for a corrected document if the paperwork itself is inaccurate. Keep copies of the forms and the responses together."
+    ],
+    [
+      "Use the review window",
+      "For mortgage transactions covered by the federal disclosure rules, the borrower must receive the Closing Disclosure at least three business days before closing [2]. That window is there to allow review, not to create a race to sign. Open the document promptly, check that you have all its pages, and begin the comparison as soon as you can. If a question is unresolved, send it to the lender or closing agent in writing and ask when you can expect an answer.\n\nIf the disclosure has not arrived when you expect it, contact the lender or closing agent and request it. The Consumer Financial Protection Bureau advises borrowers to review the disclosure, compare it with the Loan Estimate, and ask about errors or fee increases before signing [3]. If there is too little time to understand a change, say so clearly and ask what options are available. Do not treat a rushed explanation as a substitute for understanding the document."
+    ],
+    [
+      "A changed number is a question, not a verdict",
+      "Differences do not all mean the same thing. Some estimates can change as details are confirmed; some costs may be paid to a third party; and some numbers may reflect a different assumption or credit. At the same time, a final form deserves scrutiny precisely because it reflects what is being presented for closing. The useful response is neither automatic alarm nor automatic acceptance: identify the item, ask for the reason, and check that the answer matches the paperwork.\n\nThe standard Loan Estimate and Closing Disclosure do not apply to every kind of loan, and state and local closing practices and costs can vary. This article describes the federal U.S. process for transactions covered by those rules; it is educational information, not legal, tax, or personalized financial advice. If a material term remains unclear, ask the lender or closing professional to explain it in writing. Depending on the issue, you may also want independent legal or financial guidance."
+    ],
+    [
+      "Leave with the questions answered",
+      "Try the review with another person if that helps you stay organized. The borrower can lead while a sibling or friend reads each line aloud, records the questions, and checks that answers are reflected in the final paperwork. Agree beforehand what financial information may be shared. The helper’s role is not to decide whether the mortgage is right, but to make it easier to notice a mismatch or ask for a clearer explanation.\n\nBefore signing, return to the three columns. Confirm the key loan terms, understand the payment and cash-to-close figures, and make sure each question that mattered has an answer you can explain in your own words. If something still does not make sense, say so before proceeding and ask what the next step is. A careful comparison cannot eliminate every uncertainty in buying a home. It can replace a hurried signature with a more informed decision."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "What is a Loan Estimate?",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-loan-estimate-en-1995/",
+      "researchSourceId": "S19"
+    },
+    {
+      "sourceId": "S2",
+      "title": "What is a Closing Disclosure?",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-closing-disclosure-en-1983/",
+      "researchSourceId": "S4"
+    },
+    {
+      "sourceId": "S3",
+      "title": "What should I do if I do not get a Closing Disclosure three days before my mortgage closing?",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-i-do-not-get-a-closing-disclosure-three-days-before-my-mortgage-closing-en-1911/",
+      "researchSourceId": "S28"
+    }
+  ],
+  "id": "the-closing-disclosure-is-a-reconciliation-not-a-receipt-20261027",
+  "date": "2026-10-27",
+  "editionDate": "2026-10-27",
+  "url": "article.html?id=the-closing-disclosure-is-a-reconciliation-not-a-receipt-20261027",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-closing-disclosure-is-a-reconciliation-not-a-receipt-20261027.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Closing Disclosure Is a Reconciliation, Not a Receipt. A side-by-side review of your mortgage estimate and final disclosure can turn last-minute surprises into specific questions—before you sign.\nPeople: two adult siblings or close friends collaborating. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: Two adult siblings at a sunlit kitchen table, a Loan Estimate and Closing Disclosure arranged side by side, one person pointing to a changed figure while the other writes a question on a notepad; calm, focused, collaborative rather than celebratory.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends of different ages prepare for strength training side by side, each choosing a comfortable starting version of the same movement. | Two women friends stand together in individually styled outfits, one wearing a vivid jacket and the other a patterned dress, sharing a relaxed moment as they get ready. | Two friends pause on a wooden boardwalk beside a shallow seasonal pond, looking toward its damp, leaf-strewn edge. | Two friends sit at a kitchen table with a laptop open to a museum collection record, a notebook between them and a printed archival photograph nearby. | Two friends pause beside a staircase in a warmly lit home, one holding a notepad while the other points toward a light switch.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
