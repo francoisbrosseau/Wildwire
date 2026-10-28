@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "The Leftover 529 Has a Retirement Route—but Not a Shortcut",
+  "subtitle": "Federal rules let some unused education savings move into the beneficiary’s Roth IRA. The account’s age, the transfer method and several limits determine whether that route is open.",
+  "imageAlt": "A younger adult and an older family member sit together at a table, reviewing education savings paperwork and a retirement account statement.",
+  "imageConcept": "An age-diverse family pair at a bright kitchen table, quietly comparing a 529 statement with a Roth IRA document; papers and a laptop make the financial decision visible without suggesting a particular balance or outcome.",
+  "body": [
+    [
+      "A useful option, with narrow boundaries",
+      "A 529 plan is built to help pay qualified education costs. But if the beneficiary does not need all the savings for education, federal law provides a limited route to move some of it into a Roth IRA for that same beneficiary. This provision can keep eligible money invested for the beneficiary’s future rather than forcing a household to choose between education spending and an unused balance [2]. It is not, however, a general-purpose way for the account owner to reclaim money or make a large Roth contribution outside the usual limits. The transfer has to meet several conditions together: the 529 must have been open for more than 15 years, the money must move directly between trustees, and the receiving Roth IRA must belong to the 529 beneficiary. A lifetime cap and a five-year lookback further narrow what can move. The IRS describes the conditions in its education and IRA guidance [1] [2]."
+    ],
+    [
+      "First, separate the owner from the beneficiary",
+      "The distinction that matters most is who owns the 529 and who is named as its beneficiary. A parent or grandparent may own the education account, but the Roth IRA receiving a qualifying transfer must be the beneficiary’s—not the owner’s. If a parent owns a 529 for a child, for example, the rule does not turn the parent’s remaining education savings into a contribution to the parent’s own Roth IRA. The child or other beneficiary is the person whose retirement account could receive the transfer, if every requirement is met. That makes the option potentially relevant when education plans change, scholarships reduce expected costs, or the beneficiary simply does not use all the funds. It does not mean the transfer is automatically the best next step. Before considering it, identify the account owner, the current beneficiary, the intended Roth IRA holder and the likely remaining education expenses. Those are separate roles and decisions; mixing them up can produce an appealing plan that the federal rules do not allow."
+    ],
+    [
+      "The clock has two different jobs",
+      "The 529 account must have been open for more than 15 years before a qualifying transfer. That is an account-age test, not a promise that every dollar in the account is eligible. A separate five-year rule excludes contributions made to the 529 during the five years before the transfer, along with earnings attributable to those contributions. In practical terms, a long-established account may still contain recent contributions that cannot yet be moved through this route. The IRS guidance describes both the account holding period and the lookback on recent contributions and associated earnings [1] [2]. That makes recordkeeping important: the account’s opening date alone does not tell you how much is eligible. Gather statements or transaction histories showing when contributions went in, and ask the plan how it identifies the affected contributions and earnings. Do not assume that changing the beneficiary, moving assets between accounts or waiting until the account crosses the 15-year mark resolves every timing issue. If the account has a complicated history, seek advice before initiating a transfer."
+    ],
+    [
+      "Annual room is not the same as available balance",
+      "The transfer is constrained by the annual IRA contribution limit, with qualifying 529-to-Roth transfers counted within that limit and reduced by other IRA contributions made for the beneficiary that year. For 2026, the standard IRA limit is $7,500; people age 50 or older can generally have an additional $1,100 catch-up contribution, for a total limit of $8,600 [3]. Those figures provide annual-limit context, not a promise that the full amount can be transferred from a 529. A beneficiary who has already made other IRA contributions may have less room under the applicable calculation. Separately, no more than $35,000 can be transferred over the beneficiary’s lifetime under the current federal rule [2]. These are different ceilings: the annual limit controls the pace, while the lifetime cap limits the total across years. For example, a large eligible 529 balance cannot be moved all at once simply because it is available. Any transfer plan should account for the beneficiary’s other IRA contributions and the lifetime amount already used."
+    ],
+    [
+      "The transfer route matters",
+      "A qualifying movement must be made directly from the 529 trustee to the trustee of the beneficiary’s Roth IRA. It is not a cash-out for the account owner to deposit later, and it should not be treated as money to spend temporarily before replacing it. Before requesting anything, contact both financial institutions and confirm that they can process this specific transfer, what documentation they require, how they record the amount and which transactions will count toward the annual and lifetime limits. Then assemble the 529 opening date and contribution history, identify recent contributions subject to the five-year rule, and check the beneficiary’s IRA contributions for the year. Keep written confirmations and statements with the household’s tax records. A useful order of operations is: verify eligibility with the plan, calculate the tentative eligible amount, confirm available annual room, and only then request a direct trustee-to-trustee transfer. Plan procedures can differ, and this article covers U.S. federal tax rules rather than state tax treatment or individual plan processes. Ask the plan and a qualified tax professional about those details before acting."
+    ],
+    [
+      "A transfer is one option, not a default",
+      "The existence of the Roth route does not mean that every unused 529 balance should go there. The household may still have education costs to cover, another eligible education use to consider, or a reason to preserve flexibility. The transfer also benefits the named beneficiary’s retirement account, not the account owner’s immediate cash flow. That can be a meaningful long-term head start, but it is not the same as keeping the money available for the family’s other needs. If the balance is modest, the account is too new, recent contributions make much of it ineligible, or the beneficiary has little annual room, the timing may matter more than the headline lifetime cap. Consider the whole decision: what education costs remain, which funds meet the federal conditions, how much annual IRA room exists, and whether the beneficiary is comfortable directing assets toward retirement. Avoid making the decision based only on fear that unused education savings will otherwise be wasted."
+    ],
+    [
+      "A short eligibility check before any paperwork",
+      "Before contacting a provider, write down four facts: the 529’s opening date; the beneficiary’s name; the dates and amounts of contributions during the past five years; and the beneficiary’s IRA contributions for the current year. Then check whether the account has been open for more than 15 years, whether the intended receiving Roth IRA belongs to that beneficiary, and whether the plan can send funds directly to the IRA trustee. Ask the provider to explain how it calculates the eligible amount, including the recent-contribution restriction, and how it tracks the $35,000 lifetime cap. Save the response and confirm the current federal rules against IRS guidance before proceeding. This is an educational overview, not individualized tax advice; state treatment and plan procedures may require separate checks. The core lesson is simple: an unused 529 can have a retirement destination, but only for the right person, through the right channel, and within several limits that must all be checked."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Publication 970 (2025), Tax Benefits for Education",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service; January 27, 2026",
+      "url": "https://www.irs.gov/publications/p970",
+      "researchSourceId": "S4"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Publication 590-A (2025), Contributions to Individual Retirement Arrangements (IRAs)",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service; January 15, 2026",
+      "url": "https://www.irs.gov/publications/p590a",
+      "researchSourceId": "S2"
+    },
+    {
+      "sourceId": "S3",
+      "title": "401(k) limit increases to $24,500 for 2026, IRA limit increases to $7,500",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service; November 13, 2025",
+      "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500?utm_campaign=abundo-our-first-ever-client-survey&utm_medium=referral&utm_source=abundowealth.beehiiv.com",
+      "researchSourceId": "S37"
+    }
+  ],
+  "id": "the-leftover-529-has-a-retirement-route-but-not-a-shortcut-20261028",
+  "date": "2026-10-28",
+  "editionDate": "2026-10-28",
+  "url": "article.html?id=the-leftover-529-has-a-retirement-route-but-not-a-shortcut-20261028",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-leftover-529-has-a-retirement-route-but-not-a-shortcut-20261028.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Leftover 529 Has a Retirement Route—but Not a Shortcut. Federal rules let some unused education savings move into the beneficiary’s Roth IRA. The account’s age, the transfer method and several limits determine whether that route is open.\nPeople: a couple with visibly different ages and life experience. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: An age-diverse family pair at a bright kitchen table, quietly comparing a 529 statement with a Roth IRA document; papers and a laptop make the financial decision visible without suggesting a particular balance or outcome.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | A teenager and a trusted adult talk with a coach beside a rack of light training equipment in a bright community gym. | Two friends stand by a mirror trying different outfits, each choosing a look that reflects her personal style and comfort. | Three generations of a family compare a printed star chart beneath a neighborhood night sky. | Two friends stand together across the street from a colorful community mural, one studying its imagery while the other checks a museum page on a phone. | Two housemates sit at a kitchen table with a phone, tablet, cordless tool battery and e-bike battery, making a simple charging-location list while keeping the devices separated.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

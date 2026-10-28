@@ -1,0 +1,80 @@
+{
+  "category": "Living",
+  "title": "The Faucet-Side Check: Measure the Water, Not the Heater Dial",
+  "subtitle": "Additional Daily Read: A thermometer at a frequently used tap can start a useful safety conversation—without turning a household check into a do-it-yourself heater adjustment.",
+  "imageAlt": "Two male friends stand at a bathroom sink as one checks the running hot water with a thermometer and the other records the reading.",
+  "imageConcept": "A calm, collaborative bathroom or kitchen scene: two male friends with different backgrounds, one using a thermometer to check hot tap water while the other writes down the faucet and result. Neither touches the water; the focus is on careful observation, not alarm.",
+  "body": [
+    [
+      "A useful check begins at the tap",
+      "A water-heater dial can look reassuringly precise. But it doesn’t tell you exactly how hot the water is at the faucet someone uses to wash hands, fill a basin or help a child bathe. The temperature reaching that tap is the practical observation: it reflects the water at the point of use, not just a setting elsewhere in the home. The U.S. Consumer Product Safety Commission recommends checking tap water with a candy or meat thermometer, rather than relying on guesswork or a hand held under the stream [1]. That small distinction can make a conversation between friends or housemates more concrete. Instead of debating whether a heater dial “seems too high,” you can note which faucet you checked and what the thermometer showed. It is a starting point for a question, not a pass-or-fail test of the whole home’s plumbing or water safety."
+    ],
+    [
+      "Why this belongs in a household conversation",
+      "Hot tap water can cause scald injuries, and a child, older adult, or person who cannot quickly move away from the water may be especially vulnerable. The American Academy of Pediatrics advises that the hottest water at the faucet be no more than 120°F to help prevent tap-water scalds [2]. The CPSC also cautions that even water at 120°F can cause a serious burn if contact lasts long enough [1]. Those points make it worth discussing a concerning reading, but they do not mean every household has the same needs or the same plumbing. A useful conversation can include the people who use the faucet, whoever is responsible for maintenance, and—where relevant—a landlord or building manager. The goal is not to blame whoever last touched a control. It is to understand what the water is doing at a frequently used tap and identify who can safely assess the system."
+    ],
+    [
+      "What 120°F does—and does not—mean",
+      "The 120°F figure is useful context for reducing scald risk at the faucet. It is not an instruction to turn every water heater to that number. A faucet reading and a heater setting are different measurements, and changing a central setting can affect a whole plumbing system. The answer may also depend on building design, local requirements, and who maintains the equipment. The CPSC advises apartment residents to discuss tap-water temperature with their building manager [1]. That is a safer next step than opening a heater or adjusting an unfamiliar control. If you own the home, a qualified plumbing professional can help interpret a reading and explain which controls affect the system. The check itself is deliberately modest: observe and record. It cannot confirm that a heater is correctly installed, that every faucet behaves the same way, or that a home’s water is free of other hazards."
+    ],
+    [
+      "The other side of the temperature question",
+      "Scald prevention is important, but water systems also involve a separate concern: germs such as Legionella. The CDC explains that hotter water can help kill germs, while also increasing burn risk. For homes with water heaters set above 120°F, it says thermostatic mixing valves should be used to mix hot and cold water at the tap; it also recommends asking a healthcare provider about individual Legionella risk [3]. This is why a single household number should not be treated as a universal heater prescription. Temperature management may involve controls that reduce the risk at the faucet while maintaining different conditions elsewhere in a system. Building-water guidance and local rules matter, and a renter may not know how the system is managed. If a household has a particular health concern, bring that question to a healthcare provider; if a reading prompts concern about the plumbing, bring it to the building manager or a qualified professional. A tap-side check helps frame those questions—it cannot settle them."
+    ],
+    [
+      "How to make the check useful",
+      "Choose a faucet people use often, such as a bathroom or kitchen sink, and make sure the area is clear. Get a candy or meat thermometer and follow its instructions for measuring water. One person can operate the hot tap while another records the location and reading. Keep hands out of the stream; don’t test the water by touching it. Write down what you checked, when you checked it, and the result, so the information is clear if you need to share it. If the thermometer has a range or instructions that make the reading uncertain, note that rather than presenting the number as exact. You can repeat the observation at another frequently used faucet if there is a reason to compare locations, but don’t treat different readings as proof of a specific plumbing fault. The purpose is a simple record that makes a follow-up conversation more specific."
+    ],
+    [
+      "When a result raises questions",
+      "If the measured water seems hotter than is comfortable or you are concerned about the result, pause and take the record to the person responsible for the system. A renter can contact the landlord or building manager and ask who maintains the water heater and whether the tap temperature can be assessed. A homeowner can ask a qualified plumber what the reading means and whether the system has appropriate controls. Share the location and measurement, not a diagnosis: “We checked the bathroom sink and recorded this result” is more useful than “the heater is definitely set wrong.” Don’t open the heater, alter its setting, or assume that changing it is the right fix. If there are young children or someone at higher risk of burns in the home, mention that context when asking for help. For questions about Legionella or a person’s health risk, the CDC recommends consulting a healthcare provider [3]."
+    ],
+    [
+      "Leave the check with a clear handoff",
+      "Try this with a friend or housemate when neither of you is rushing. Agree on one frequently used tap, find a thermometer, and decide who will run the water and who will record the result. Keep hands away from the stream; follow the thermometer’s instructions and write down the sink, date and reading. Then ask one practical question together: does this result need to go to a landlord, building manager, plumber or healthcare provider? If no follow-up seems needed, keep the note only if it will help you remember what was checked. If the reading concerns you, don’t change the heater setting yourselves—share the observation with the person qualified to assess the system. The value of the exercise is not a number that certifies a home. It is a calm, specific handoff that turns “I wonder if the water is too hot” into a question someone can responsibly answer."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Avoiding Tap Water Scalds",
+      "authors": "U.S. Consumer Product Safety Commission",
+      "publication": "U.S. Consumer Product Safety Commission, Publication 5098, March 2012",
+      "url": "https://www.cpsc.gov/s3fs-public/5098.pdf",
+      "researchSourceId": "S3"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Burn Treatment & Prevention Tips for Families - HealthyChildren.org",
+      "authors": "American Academy of Pediatrics Council on Injury, Violence & Poison Prevention",
+      "publication": "HealthyChildren.org, American Academy of Pediatrics, July 26, 2023",
+      "url": "https://www.healthychildren.org/english/health-issues/injuries-emergencies/pages/Treating-and-Preventing-Burns.aspx?form=HealthyChildren",
+      "researchSourceId": "S30"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Preventing Waterborne Germs at Home | Drinking Water | CDC",
+      "authors": "CDC National Center for Emerging and Zoonotic Infectious Diseases",
+      "publication": "Centers for Disease Control and Prevention, Drinking Water, March 15, 2024",
+      "url": "https://www.cdc.gov/drinking-water/prevention/preventing-waterborne-germs-at-home.html",
+      "researchSourceId": "S7"
+    }
+  ],
+  "id": "the-faucet-side-check-measure-the-water-not-the-heater-dial-20261028",
+  "date": "2026-10-28",
+  "editionDate": "2026-10-28",
+  "url": "article.html?id=the-faucet-side-check-measure-the-water-not-the-heater-dial-20261028",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-faucet-side-check-measure-the-water-not-the-heater-dial-20261028.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Faucet-Side Check: Measure the Water, Not the Heater Dial. Additional Daily Read: A thermometer at a frequently used tap can start a useful safety conversation—without turning a household check into a do-it-yourself heater adjustment.\nPeople: two men friends with different backgrounds. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: A calm, collaborative bathroom or kitchen scene: two male friends with different backgrounds, one using a thermometer to check hot tap water while the other writes down the faucet and result. Neither touches the water; the focus is on careful observation, not alarm.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | A teenager and a trusted adult talk with a coach beside a rack of light training equipment in a bright community gym. | Two friends stand by a mirror trying different outfits, each choosing a look that reflects her personal style and comfort. | Three generations of a family compare a printed star chart beneath a neighborhood night sky. | Two friends stand together across the street from a colorful community mural, one studying its imagery while the other checks a museum page on a phone. | Two housemates sit at a kitchen table with a phone, tablet, cordless tool battery and e-bike battery, making a simple charging-location list while keeping the devices separated. | A younger adult and an older family member sit together at a table, reviewing education savings paperwork and a retirement account statement. | Two housemates checking a laundry rack beside a window, with a small humidity gauge on a shelf. | Two friends compare the labels on a jacket and a shirt at a bright kitchen table, with a phone open to a product page.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "category": "Living",
+  "title": "The Charging Spot Is a Household Habit",
+  "subtitle": "A short, shared reset can make everyday charging safer: identify the devices, follow their instructions, choose sensible locations and know what to do when a battery seems damaged.",
+  "imageAlt": "Two housemates sit at a kitchen table with a phone, tablet, cordless tool battery and e-bike battery, making a simple charging-location list while keeping the devices separated.",
+  "imageConcept": "A couple at a kitchen table sorting a phone, tablet, cordless-tool battery and e-bike battery into a handwritten home charging plan, with chargers visible and a clear path to the doorway in the background.",
+  "body": [
+    [
+      "The clutter is the clue",
+      "A phone charging beside the bed, headphones on a counter, a cordless vacuum docked in a hallway: rechargeable devices settle into a home wherever there is an outlet and a spare moment. That convenience can make charging feel too ordinary to plan. But a household habit need not mean installing a special charging station or turning the living room into a safety briefing. It can mean knowing which devices are in use, checking how each is meant to be charged and agreeing on a few sensible places and practices.\n\nLithium-ion batteries power a wide range of everyday products, and the U.S. Fire Administration (USFA) recommends using the charger supplied with a device or a certified replacement, and charging on a solid, flat surface [1]. The useful starting point is not alarm; it is visibility. If you share a home, a ten-minute inventory can replace assumptions with a plan that works for the people and devices actually there."
+    ],
+    [
+      "Make a list before making a station",
+      "Walk through the rooms together and note the rechargeable items you use: phones, tablets, laptops, earbuds, power tools, vacuum cleaners, mobility devices, e-bikes or scooters. Include devices that charge in a dock or have a removable battery. For each, record where its charging instructions are—on the device, in its manual, or on the manufacturer’s website—and whether the charger is original or an approved replacement.\n\nThis is a practical list, not a technical audit. You do not need to identify battery chemistry or open a device. The point is to make the household’s assumptions visible: perhaps one person believes a laptop should stay plugged in, while another routinely leaves a power-tool battery charging in a crowded cupboard. Check the product guidance rather than settling the disagreement by habit. When instructions are missing or unclear, look up the model through its manufacturer. A shared note can hold the model name, charging location and any question that still needs checking."
+    ],
+    [
+      "Choose locations for the device, not the décor",
+      "A charging place should suit the particular product and its instructions. As a general baseline, choose a firm, level surface with room around the device, and keep it away from things that can burn. USFA advises keeping larger devices away from flammable materials and exits; the Texas Department of Insurance likewise recommends a hard, nonflammable surface and distance from flammable materials [1][2]. A bed or sofa may be convenient, but Texas Department of Insurance advises keeping devices away from flammable materials such as beds and couches [2].\n\nLook at the real route through the room, too. A device or cord should not turn a doorway or hallway into an obstacle, particularly where people need that exit at night or use mobility aids. There is no single household “charging station” that suits every product. A kitchen counter might be clear for a phone but inappropriate for a larger battery or a device whose manual specifies something else. Agree on a few clear, device-appropriate locations rather than forcing every charger into one corner."
+    ],
+    [
+      "Match the charger to the product",
+      "Use the supplied charger or the replacement the manufacturer specifies. A connector that fits is not proof that a charger is suitable: the product’s instructions are the reference point. Texas Department of Insurance guidance also recommends manufacturer-approved chargers and unplugging after charging [2]. If a charger is damaged, unusually hot, or not clearly intended for that device, pause and check the manufacturer’s guidance instead of treating it as an interchangeable spare.\n\nMake this an easy household rule to follow. Keep each charger with its device when possible, or label chargers that are otherwise easy to confuse. If several people share a laptop or tool, put the model’s instructions or a link in the shared note. That avoids making the person who knows the most about electronics responsible for every charging decision—and helps someone new to the home follow the same plan."
+    ],
+    [
+      "Agree on timing without pretending every battery is alike",
+      "Charging routines should reflect the device instructions, not a universal rule invented for the household. Texas Department of Insurance recommends monitoring the device and unplugging it after charging [2]. FDNY’s guidance in New York City includes not charging overnight [3]. Treat that as the department’s advice, and check local guidance and the instructions for your own products; do not assume every product or jurisdiction gives identical directions.\n\nA useful shared decision is simply how you will notice that charging is finished. For a device with a visible indicator, one person can unplug it when it shows a full charge, if the manufacturer’s instructions support that practice. If charging is easy to forget, choose a place you naturally pass rather than one hidden behind furniture. Avoid leaving the decision to whoever wakes first or happens to notice a light. A clear plan is less about strict enforcement than making the safer action the convenient one."
+    ],
+    [
+      "Give larger batteries a separate conversation",
+      "An e-bike or scooter battery is not just another phone charger. Its size and use call for checking the exact product instructions and local fire-safety advice, especially for where to charge and store it. FDNY advises charging and storing micromobility batteries outdoors where possible and keeping exits clear [3]. “Where possible” matters: the advice is not a reason to improvise an exposed outdoor setup or ignore a manufacturer’s requirements. Ask the manufacturer or local fire authority what is appropriate for your building and product.\n\nFor a household that owns one, put the battery’s model and instructions on the inventory. Decide who will check them and where the battery can be kept without obstructing an exit or sitting near combustible material. If the household cannot find a location that fits both the product instructions and local guidance, that is a question to resolve before choosing a convenient corner. Separating this discussion from ordinary phone charging keeps the plan proportionate to the device."
+    ],
+    [
+      "Know when to stop and how to let go",
+      "A battery that is swollen, punctured, smoking or hissing should not be treated as a normal charging problem. USFA lists smoking, hissing, puncture and swelling among reasons to stop using a battery [1]. Texas Department of Insurance also identifies unusual heat, swelling and strange smells as warning signs [2]. If you notice a concerning change, do not keep charging or using the device. Follow the manufacturer’s directions and contact local fire or emergency services if there is smoke, fire or immediate danger; do not handle a smoking or actively burning battery as a routine household task.\n\nDisposal needs its own check. Texas Department of Insurance says batteries should not go in household trash or recycling [2]. Collection options and instructions vary by location, so look up the rules from your municipality or local waste authority and follow product-specific guidance. Add the correct drop-off route to the household note rather than leaving a damaged or unwanted battery beside a bin while someone figures it out later."
+    ],
+    [
+      "Make the charging map earn its place",
+      "Try the reset once with whoever shares the home. Put the inventory on the table, choose one device each, and find its charging instructions before deciding where it belongs. Walk those locations together: is the surface firm and clear, are flammable materials nearby, and does the cord or device interfere with a route out? Mark any unresolved question beside the model rather than guessing. Then agree who will check the manufacturer’s or local authority’s guidance and when. Keep the note where people actually look for household information, and revise it when a new device arrives or an old battery needs disposal. The point is a usable agreement, not a perfect charging corner."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Lithium-Ion Batteries: Everyday Convenience, Hidden Fire Risks",
+      "authors": "U.S. Fire Administration",
+      "publication": "U.S. Fire Administration Blog, October 13, 2026",
+      "url": "https://www.usfa.fema.gov/blog/lithium-ion-batteries/",
+      "researchSourceId": "S4"
+    },
+    {
+      "sourceId": "S2",
+      "title": "How to safely charge lithium-ion batteries",
+      "authors": "Texas Department of Insurance",
+      "publication": "Texas Department of Insurance, October 9, 2025",
+      "url": "https://www.tdi.texas.gov/podcast/lithium-ion-batteries.html",
+      "researchSourceId": "S48"
+    },
+    {
+      "sourceId": "S3",
+      "title": "FDNY shares lithium-ion battery safety tips following fatal Queens fire | City of New York",
+      "authors": "Fire Department of the City of New York (FDNY)",
+      "publication": "City of New York",
+      "url": "https://www.nyc.gov/site/fdny/news/PI4226/fdny-shares-lithium-ion-battery-safety-tips-following-fatal-queens-fire",
+      "researchSourceId": "S42"
+    }
+  ],
+  "id": "the-charging-spot-is-a-household-habit-20261028",
+  "date": "2026-10-28",
+  "editionDate": "2026-10-28",
+  "url": "article.html?id=the-charging-spot-is-a-household-habit-20261028",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-charging-spot-is-a-household-habit-20261028.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Charging Spot Is a Household Habit. A short, shared reset can make everyday charging safer: identify the devices, follow their instructions, choose sensible locations and know what to do when a battery seems damaged.\nPeople: a woman and a man who are partners, with grounded attainable appearances. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: A couple at a kitchen table sorting a phone, tablet, cordless-tool battery and e-bike battery into a handwritten home charging plan, with chargers visible and a clear path to the doorway in the background.\nAvoid repeating these recent WILDWIRE image scenes: A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | A teenager and a trusted adult talk with a coach beside a rack of light training equipment in a bright community gym. | Two friends stand by a mirror trying different outfits, each choosing a look that reflects her personal style and comfort. | Three generations of a family compare a printed star chart beneath a neighborhood night sky. | Two friends stand together across the street from a colorful community mural, one studying its imagery while the other checks a museum page on a phone.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

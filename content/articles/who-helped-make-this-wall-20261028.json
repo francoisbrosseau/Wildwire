@@ -1,0 +1,83 @@
+{
+  "category": "Culture",
+  "title": "Who Helped Make This Wall?",
+  "subtitle": "A mural can look like one image made by one artist. A closer look—shared with a friend—can reveal the decisions, contributions and unanswered questions behind it.",
+  "imageAlt": "Two friends stand together across the street from a colorful community mural, one studying its imagery while the other checks a museum page on a phone.",
+  "imageConcept": "Two friends pause opposite a large neighborhood mural in late-afternoon light. One follows the image with their gaze while the other reads a project page on a phone; the wall fills the background, with the people small enough to keep the artwork and the act of looking in focus.",
+  "body": [
+    [
+      "The wall is not the whole story",
+      "A mural meets you first as an image: a face, a pattern, a field of color, a scene that changes the walk to the bus or the view from a storefront. It is easy to treat that image as the finished story, especially when the wall carries one artist’s name. But a public artwork can also hold a record of choices: who proposed it, whose ideas informed the design, who helped make it, and what the people involved hoped it might do. Those details are not always visible from the sidewalk. Looking for them doesn’t mean turning an afternoon out into an exam. It means making room for both kinds of attention—the pleasure of looking and the curiosity to ask how the work came to be."
+    ],
+    [
+      "Look first; explain second",
+      "Choose a mural you can visit comfortably and safely, ideally one with a project page from a museum, arts organization, city, or other reliable local source. Before opening the page, take a slow look together. Give each person a minute or two to notice what draws the eye: a repeated shape, a figure’s position, a change in color, or something that seems to interrupt the composition. Say what you can actually see before saying what you think it means. “The figures are facing toward the center” is an observation; “the artist is showing everyone coming together” is an interpretation. Both can be interesting, but they are not the same kind of claim. Keeping that distinction helps a conversation stay open rather than settling too quickly on a single official-sounding meaning."
+    ],
+    [
+      "Trade the roles",
+      "Now let one person check the project record while the other keeps looking, then switch. Search for the artist’s name, the commissioning organization, a description of the process, and any named collaborators or participants. Ask what the source actually confirms: Did residents help select the subject? Did students contribute drawings? Were volunteers invited to paint? Is a particular symbol explained by the people who made the work? Write down facts separately from guesses. If the project page does not name participants, that absence is not permission to fill in the blanks. It is simply a limit on what you can responsibly say about this mural from the information you have found."
+    ],
+    [
+      "Participation has many shapes",
+      "The word “community” can make a project sound more unified than it was. In practice, participation might mean residents helped identify an issue, contributed images, discussed symbols, painted sections, or took part in a later conversation. Those roles are different, and a public record may document some but not others. A 2024 study of one mural project in *The Journal of Community Informatics* reports interviews with 19 people involved, including an artist, local officials, and residents. The researchers examine participants’ experiences and the project’s role in community identity and support networks. That is useful evidence about this particular project—not proof that every mural is made through the same process, or that one group’s experience stands for everyone who lives nearby [1]."
+    ],
+    [
+      "Read the credits as a map",
+      "Credits are a good starting point, not a complete inventory. Notice who is named and what their roles are: lead artist, youth board, organization, workshop participants, or volunteers. Then look for details about how the work developed. A project described as collaborative might include substantial resident decision-making, or it might involve a narrower contribution. The distinction matters because participation is not a decorative label; it tells us something about who had influence over the image and how the project took shape. The Albany Museum of Art’s account of a planned downtown mural offers one concrete example: its Teen Art Board led the project, elementary students’ drawings informed the design, and students and adults were invited to help paint [2]. That record gives a visitor more than a single muralist’s credit, while still leaving room to ask what each contribution involved."
+    ],
+    [
+      "Meaning is a conversation, not a key",
+      "The same image may carry different meanings for the artist, the people who worked on it, and passersby who encounter it later. A source that explains a symbol can anchor a conversation, but it does not have to close it. Artist Judy Baca has described a design of hers being rejected during a workshop and explained why she made *Uprising of the Mujeres* as a portable, panel-based work. Her account offers a specific example of how decisions about an artwork’s image and audience can be shaped through a process; it should not be treated as a template for every mural project [3]. When you and your companion disagree about what a wall suggests, the useful question may be not “Which of us is right?” but “What are we noticing, and what evidence would change our reading?”"
+    ],
+    [
+      "Keep the neighborhood bigger than the wall",
+      "A mural can matter deeply to particular participants without speaking for an entire neighborhood. Communities contain different histories, priorities, and views; no single artwork can be assumed to represent them all. Be especially careful with sweeping statements such as “the neighborhood wanted this” unless a reliable source documents whose views were gathered and how. Instead, be precise: the project page says students contributed drawings; the study reports what interviewees described; the two of you read the image in different ways. Precision is not a way to drain the feeling from art. It makes appreciation more generous, because it allows a work to have significance without assigning one shared response to people who may not share it."
+    ],
+    [
+      "Leave with one open question",
+      "Before you head on, compare your notes. What did the source confirm? What did you infer from looking? What remains unknown? Each person can name one detail they might have missed alone, then choose one question worth carrying: Who selected the subject? How were collaborators credited? Is there a fuller project record somewhere? If the question matters, check whether the artist, commissioning organization, or local arts group has published more information. If not, let it stay unanswered rather than inventing a tidy story. The point of this two-person visit is not to become an authority on a neighborhood from one wall. It is to notice that public art is made through choices and relationships as well as images—and to give those layers the attention they deserve."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Citizen Art: A Creative Mural Project for Community Building | The Journal of Community Informatics",
+      "authors": "Na Li, Jingyi Xie, Huy Anh Nguyen, Jie Cai, and John M. Carroll",
+      "publication": "The Journal of Community Informatics, August 9, 2024",
+      "url": "https://openjournals.uwaterloo.ca/index.php/JoCI/article/view/5566",
+      "researchSourceId": "S35"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Downtown Mural Project in Final Preparatory Stages – Albany Museum of Art",
+      "authors": "Jim Hendricks",
+      "publication": "Albany Museum of Art, AMA Art Notes, May 13, 2024",
+      "url": "https://www.albanymuseum.com/downtown-mural-project/",
+      "researchSourceId": "S37"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Judy Baca On Her Mural Uprising of the Mujeres",
+      "authors": "Wendy Rose and Claudia Zapata",
+      "publication": "Smithsonian American Art Museum, October 4, 2022",
+      "url": "https://americanart.si.edu/blog/judy-baca-interview",
+      "researchSourceId": "S25"
+    }
+  ],
+  "id": "who-helped-make-this-wall-20261028",
+  "date": "2026-10-28",
+  "editionDate": "2026-10-28",
+  "url": "article.html?id=who-helped-make-this-wall-20261028",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/who-helped-make-this-wall-20261028.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Who Helped Make This Wall?. A mural can look like one image made by one artist. A closer look—shared with a friend—can reveal the decisions, contributions and unanswered questions behind it.\nPeople: a couple of different ethnic backgrounds sharing a thoughtful moment. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: thoughtful companions paying attention, discussing or questioning something cultural.\nScene concept: Two friends pause opposite a large neighborhood mural in late-afternoon light. One follows the image with their gaze while the other reads a project page on a phone; the wall fills the background, with the people small enough to keep the artwork and the act of looking in focus.. Correct these previous image errors: The mural and two-person scene fit the story, but no phone or project-page reading is visible; both people appear to be looking at the wall.. Make the required companions unmistakable.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | A teenager and a trusted adult talk with a coach beside a rack of light training equipment in a bright community gym. | Two friends stand by a mirror trying different outfits, each choosing a look that reflects her personal style and comfort. | Three generations of a family compare a printed star chart beneath a neighborhood night sky.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

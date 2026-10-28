@@ -1,0 +1,79 @@
+{
+  "category": "Explore",
+  "title": "The Night Sky Is a Data Point: Take a Neighborhood Star Count",
+  "subtitle": "A chart, a few minutes outdoors and a careful note can turn looking up into a useful contribution to citizen science.",
+  "imageAlt": "Three generations of a family compare a printed star chart beneath a neighborhood night sky.",
+  "imageConcept": "three generations of one family working together together, in a specific visual scene about “The Night Sky Is a Data Point: Take a Neighborhood Star Count”: A grandparent, parent and school-age child stand together in a permitted neighborhood park, using a printed star chart and a small notebook beneath a modestly lit night sky; their expressions are curious and focused, not staged as if they have already discovered a result.",
+  "body": [
+    [
+      "Looking up, with a question in mind",
+      "A dark sky can feel like a destination: somewhere far from streetlights, perhaps, where the stars arrive in abundance. But a useful observation can begin much closer to home. Pick a familiar patch of sky, compare what you can see with a standard star chart, and record the result through Globe at Night, a citizen-science project that gathers observations of naked-eye sky visibility. The point is not to produce a perfect measurement. It is to make one careful observation that can sit alongside many others. [3]\n\nThat distinction matters. A family’s count cannot identify which lamp, building or road is responsible for the conditions overhead. It can describe what was visible from one place at one time, under particular conditions. The outing is both a small act of attention and a contribution with clear limits."
+    ],
+    [
+      "What the chart is asking you to notice",
+      "One way to describe the visibility of a night sky is limiting magnitude: the dimmest stars an observer can see. NASA’s chart-based guidance explains how to compare stars visible in a selected constellation with a chart, while allowing your eyes to adjust to the dark. A chart turns a vague impression—“the sky seems bright tonight”—into a more consistent observation. [1]\n\nIt is still an observation by a person, not an instrument reading. People differ in eyesight, experience and comfort in darkness. A chart does not remove those differences; it gives observers a shared reference. That is why following the project’s current instructions matters: use the designated chart and method for your Globe at Night report rather than substituting another chart or blending methods."
+    ],
+    [
+      "Choose a night and a place you can use safely",
+      "Before settling on a date, check the weather and Moon phase. Clouds, haze and moonlight can change which stars are visible, so they are part of the conditions to note—not inconvenient details to ignore. Nearby lighting can also affect the view. If the sky is overcast or the Moon is bright, you can still look, but recognize that the comparison may differ from one made under darker, clearer conditions. [2]\n\nChoose a place where you are allowed to be after dark, with a clear view of the selected patch of sky. If it is unfamiliar, scout it in daylight. Look for uneven ground, steps, traffic, water or other hazards, and plan how everyone will get there and back. NASA recommends checking access and conditions and scouting an unfamiliar observing location before nightfall. [2]\n\nThe best location is not automatically the darkest or most remote. A nearby yard, courtyard or public space may be a better choice if it is permitted, comfortable and safe for everyone taking part."
+    ],
+    [
+      "Pack lightly, and agree on the plan",
+      "You need the current Globe at Night instructions and chart, a way to record the observation, and enough light to move safely. A phone or printed copy can work for instructions; if a screen is bright, dim it or put it away between checks so it does not interfere with dark adaptation. Bring clothing suited to the forecast, and tell someone where you are going if that is appropriate for your plans.\n\nBefore leaving, decide who will handle each small task. One person can read the instructions, another can compare the sky with the chart, and someone else can note the conditions. Children can help spot chart features or write down observations; an adult should manage navigation and safety. These roles are invitations, not tests. Anyone who would rather observe from a window or skip the activity can still be part of the conversation."
+    ],
+    [
+      "Make the observation carefully",
+      "At the chosen spot, give your eyes time to adjust and avoid looking directly at bright lights. Find the part of the sky specified by the current campaign instructions. Match the stars you can see to the project’s chart as directed, taking care not to count stars outside the chart’s designated pattern. If you are uncertain between two chart choices, follow the campaign’s guidance for uncertainty rather than forcing a confident answer.\n\nRecord the requested details while you are there, including the observation’s location and time and any conditions the form asks about. Make a plain note of what may have affected visibility: clouds, haze, Moon, nearby lighting or an obstructed view. Do not fill gaps by guessing. A careful “not sure” is more useful than a tidy but invented result.\n\nIf people see different things, pause before deciding that one person is wrong. Compare where each person is looking and how they are using the chart. The disagreement may be a useful reminder that the report is an observation made under real human conditions, not a laboratory measurement."
+    ],
+    [
+      "Submit the record—and understand its scale",
+      "When you are ready, use Globe at Night’s current submission instructions to enter the observation. Check that the selected chart, time and location match your notes, and review the conditions before sending. \n\nThe value of a single entry is modest and specific. It contributes a report of naked-eye visibility at a particular place and time. It cannot tell you which light source caused the view, establish that your neighborhood has become brighter or darker, or stand in for a calibrated survey. The larger research value comes from comparing many observations across places and dates, while keeping the limits of those observations in view.\n\nA 2023 study in *Science* analyzed 51,351 naked-eye observations submitted through Globe at Night. That scale shows how individual comparisons can contribute to research when collected in a shared format. It does not make any one family’s report a verdict about local conditions. [3]"
+    ],
+    [
+      "Let the sky stay complicated",
+      "The result may be a chart match that seems ordinary, or a view where clouds and local lighting make the comparison difficult. Either way, the activity has done something useful: it has made the conditions visible as conditions. Instead of treating a bright sky as a personal failure to find stars—or a single clear night as proof that all is well—you have recorded a moment with its context attached.\n\nIf you repeat the observation, follow the project’s instructions again and keep the location and method consistent where possible. Compare reports cautiously; changes in weather, Moon phase, season, sightline and observer can all matter. A meaningful pattern takes more than two visits and more than one household’s impressions. For now, the contribution is straightforward: look carefully, record honestly, and let a small observation join a much larger picture."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Check Your Sky Quality with Orion!",
+      "authors": "Kat Troche",
+      "publication": "NASA Science, November 15, 2023",
+      "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/check-your-sky-quality-with-orion/",
+      "researchSourceId": "S24"
+    },
+    {
+      "sourceId": "S2",
+      "title": "How to Find Good Places to Stargaze",
+      "authors": "Preston Dyches",
+      "publication": "NASA Science, July 28, 2021",
+      "url": "https://science.nasa.gov/solar-system/how-to-find-good-places-to-stargaze/",
+      "researchSourceId": "S23"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Citizen scientists report global rapid reductions in the visibility of stars from 2011 to 2022",
+      "authors": "Christopher C. M. Kyba, Yiğit Öner Altıntaş, Constance E. Walker, and Mark Newhouse",
+      "publication": "Science, January 20, 2023",
+      "url": "https://doi.org/10.1126/science.abq7781?utm_source=openai",
+      "researchSourceId": "S96"
+    }
+  ],
+  "id": "the-night-sky-is-a-data-point-take-a-neighborhood-star-count-20261028",
+  "date": "2026-10-28",
+  "editionDate": "2026-10-28",
+  "url": "article.html?id=the-night-sky-is-a-data-point-take-a-neighborhood-star-count-20261028",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-night-sky-is-a-data-point-take-a-neighborhood-star-count-20261028.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Night Sky Is a Data Point: Take a Neighborhood Star Count. A chart, a few minutes outdoors and a careful note can turn looking up into a useful contribution to citizen science.\nPeople: three generations of one family working together. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: three generations of one family working together together, in a specific visual scene about “The Night Sky Is a Data Point: Take a Neighborhood Star Count”: A grandparent, parent and school-age child stand together in a permitted neighborhood park, using a printed star chart and a small notebook beneath a modestly lit night sky; their expressions are curious and focused, not staged as if they have already discovered a result.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | A teenager and a trusted adult talk with a coach beside a rack of light training equipment in a bright community gym. | Two friends stand by a mirror trying different outfits, each choosing a look that reflects her personal style and comfort.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 3,
+    "issues": []
+  }
+}
