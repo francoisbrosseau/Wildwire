@@ -334,7 +334,7 @@ function imagePrompt(article, pairing, recentDescriptions = []) {
     `Direction: ${categoryDirection}.`,
     `Scene concept: ${article.imageConcept}`,
     recentDescriptions.length ? `Avoid repeating these recent WILDWIRE image scenes: ${recentDescriptions.join(' | ')}` : '',
-    'No visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.',
+    'No visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.',
   ].join('\n');
 }
 async function generateImage(article, pairing, id, existing, attempt = 0) {
@@ -366,7 +366,7 @@ async function generateImage(article, pairing, id, existing, attempt = 0) {
   const reviewed = await apiRequest({
     model: MODEL,
     input: [{ role: 'user', content: [
-      { type: 'input_text', text: `Review this proposed WILDWIRE editorial cover for the ${article.category} story "${article.title}". Story concept: ${article.imageConcept}. Intended pairing: ${pairing}. Return JSON only: {"passed":boolean,"peopleCount":number,"issues":[string]}. Pass if it visibly centers at least two adult people together, fits the stated story concept and category, has no text, logo or watermark, and looks like a polished premium magazine editorial image. Accept either cinematic editorial photography or a clearly intentional editorial illustration; do not reject an image merely because it is photorealistic. Be conservative about subject count, relevance, and artifacts.` },
+      { type: 'input_text', text: `Review this proposed WILDWIRE editorial cover for the ${article.category} story "${article.title}". Story concept: ${article.imageConcept}. Intended pairing: ${pairing}. Return JSON only: {"passed":boolean,"peopleCount":number,"issues":[string]}. Pass if it visibly centers at least two adult people together, fits the stated story concept and category, has no text, logo or watermark, and looks like a polished premium magazine editorial image. Accept either cinematic editorial photography or a clearly intentional editorial illustration; do not reject an image merely because it is photorealistic. Written content mentioned in the story concept is thematic context only. Judge relevance through the people, activity, setting and props; do not require legible poetry, book titles, translator credits, labels or other writing. Indistinct book pages are acceptable. The no-readable-text rule takes priority over any conflicting concept detail. Be conservative about subject count, relevance, and artifacts.` },
       { type: 'input_image', image_url: `data:image/webp;base64,${bytes.toString('base64')}`, detail: 'low' },
     ] }],
     max_output_tokens: 350,

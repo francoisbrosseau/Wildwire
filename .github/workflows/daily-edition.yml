@@ -65,7 +65,10 @@ jobs:
         with:
           path: .wildwire-runs
           key: editorial-v2-${{ github.ref_name }}-${{ steps.edition.outputs.date }}-${{ hashFiles('scripts/automated-publish.cjs') }}-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: editorial-v2-${{ github.ref_name }}-${{ steps.edition.outputs.date }}-${{ hashFiles('scripts/automated-publish.cjs') }}-
+          # Compatible image-instruction repair: retain already validated same-day work.
+          restore-keys: |
+            editorial-v2-${{ github.ref_name }}-${{ steps.edition.outputs.date }}-${{ hashFiles('scripts/automated-publish.cjs') }}-
+            editorial-v2-${{ github.ref_name }}-${{ steps.edition.outputs.date }}-a931bc03d96987d8afc03b8b112bbae966ecf7475b9a6abe9964ffa2bd1c5526-
       - name: Recover an explicitly selected previous preview
         if: github.event_name == 'workflow_dispatch' && inputs.dry_run && inputs.resume_run != ''
         env:
