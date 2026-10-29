@@ -1,0 +1,84 @@
+{
+  "category": "Living",
+  "title": "The Lower-Level Check: Test the Room You Actually Use",
+  "subtitle": "Additional Daily Read: A practical, two-person way to find out whether radon is present in your home—and what to do with the result.",
+  "imageAlt": "A couple sits together at a basement table, reviewing a radon test kit and writing the start date on a notepad.",
+  "imageConcept": "a couple with visibly different ages and life experience together, in a specific visual scene about “The Lower-Level Check: Test the Room You Actually Use”: A warm, natural-light scene of two adults at a table in a lived-in lower-level room: one reads a radon test kit’s instructions while the other writes a date and reminder in a notebook. Keep the kit and instructions visible, with no alarmist styling.",
+  "body": [
+    [
+      "A home needs its own answer",
+      "Radon is invisible and odorless, so a room can’t tell you whether the gas is present just by how it looks or feels. It can build up in homes of any age, and levels are often higher in basements and other lower areas. Testing—not a neighbor’s experience, a home’s age, or a sense that everything seems fine—is how to learn what is happening in your own home. [1] [2] That makes this a useful shared task: not a reason to panic, but a straightforward way to replace guesswork with information. If a lower-level room is where you spend time, make sure the test plan reflects the rooms and conditions specified by the kit and local guidance, rather than assuming someone else’s result applies."
+    ],
+    [
+      "Begin with what you already know",
+      "Before buying anything, ask whether the home has ever been tested and whether anyone can find the report. Check a folder of home records, ask a landlord or property manager if relevant, or contact the person who handled a previous test. CDC advises testing if a home has never been tested or its radon level is unknown; a renovation or plans to use a lower level are also reasons to consider testing. [1] If there is a report, note when and where the test was done and whether any mitigation system has since been installed. If the history is unclear, treat the result as unknown rather than trying to reconstruct it from memory. A fresh test gives you a clear starting point."
+    ],
+    [
+      "Choose a method with local guidance",
+      "Home tests include short-term and long-term kits, and the right choice can depend on the question you want answered and local recommendations. CDC describes both types and emphasizes following the instructions supplied with the test. [1] EPA’s guide describes short-term tests as lasting from two to 90 days and long-term tests as lasting more than 90 days. [3] Those ranges aren’t a substitute for the directions on a specific kit: its required duration and conditions matter. Start with your state radon program or other official local guidance to learn what kits are available and whether there are local recommendations. Some states may offer free or discounted test kits. [1] If you’re unsure which option fits, check with the program before ordering rather than guessing from a product label."
+    ],
+    [
+      "Let the instructions decide where it goes",
+      "There is no single placement rule that safely covers every kit and every home. Use the kit’s directions for the location, height, distance from windows or vents, and test duration. CDC specifically directs people to follow the kit’s placement and timing instructions. [1] That precision is important: a test placed in the wrong spot or disturbed during the testing period may not give a useful reading. Before starting, read the directions all the way through. Check that the proposed location is allowed, make sure household members know not to move or interfere with the test, and note any conditions the instructions say to avoid. If a room doesn’t meet the kit’s requirements, choose an eligible location instead of adapting the directions to make the kit fit."
+    ],
+    [
+      "Make it a small handoff, not a project",
+      "Two people can share the work without turning it into a production. One person can check the state guidance and kit instructions; the other can record the start date, the test location, and the date it should be finished or mailed, if required. Read the key instructions together before opening the kit. Decide who will handle each next step—setting the test out, following any mailing instructions, and checking for the result—so that nothing depends on one person remembering everything. Keep the paperwork somewhere both people can find it. A phone reminder or note on the household calendar can help, but use whatever system you already rely on. The aim is a clear record and an agreed follow-up, not a perfect filing system."
+    ],
+    [
+      "Read the number in context",
+      "When the result arrives, compare it with the interpretation guidance that came with the kit and the current advice from your state program or EPA. Radon results are reported as a concentration, and the test’s method and duration affect how to interpret what it found. EPA recommends taking action to reduce radon when a test result is at or above 4 picocuries per liter. [3] That threshold is a practical guide for action, not a reason to treat every result as an emergency. If the reading is near the action level, if the instructions call for another test, or if you’re uncertain what the number means, check the official follow-up guidance before deciding what to do. Keep a copy of the result; it can help you ask a qualified local professional a specific question."
+    ],
+    [
+      "If the result is elevated, plan the next step",
+      "An elevated result is a prompt to follow up—not a diagnosis and not a reason to improvise a repair. CDC recommends qualified help for radon reduction. [2] Contact your state radon program for local information about qualified professionals and next steps. [3] Before arranging work, write down the test result, test dates, room location, and any relevant instructions or follow-up readings. Ask what assessment is recommended, what the proposed work is intended to do, and how the system will be checked afterward. CDC advises testing before and after renovations, especially after repairs to reduce radon levels. [1] Don’t rely on extra ventilation as a lasting fix: CDC cautions that ventilation is temporary, not radon mitigation. [2] Use qualified local advice to decide what applies to your home."
+    ],
+    [
+      "Give the test a clear place in the calendar",
+      "Choose a quiet moment to get the process started, not an evening when everyone is rushing. Sit together with the kit, instructions, and a phone or calendar. First confirm that the home’s testing history is unknown or that a new test is warranted; then check state guidance, select a kit, and follow its directions exactly. Write down the location and start date, and decide who will check the result and when. If the reading calls for follow-up, agree in advance to contact the state program or a qualified professional rather than leaving the next step open-ended. Keep the result with the home records. This is a modest shared act of care: learn what the room needs, then make the next decision from evidence."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Testing Your Home for Radon | Radon | CDC",
+      "authors": "National Center for Environmental Health",
+      "publication": "CDC, May 15, 2024; updated August 26, 2026",
+      "url": "https://www.cdc.gov/radon/testing/?CDC_AAref_Val=https%3A%2F%2Fwww.cdc.gov%2Fradon%2Fradon-test.html",
+      "researchSourceId": "S8"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Radon and Your Health | Radon | CDC",
+      "authors": "National Center for Environmental Health",
+      "publication": "CDC, June 18, 2026",
+      "url": "https://www.cdc.gov/radon/about/index.html",
+      "researchSourceId": "S16"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Home Buyer’s and Seller’s Guide to Radon",
+      "authors": "U.S. Environmental Protection Agency",
+      "publication": "U.S. EPA, March 2024 (revised)",
+      "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1019REH.txt",
+      "researchSourceId": "S4"
+    }
+  ],
+  "id": "the-lower-level-check-test-the-room-you-actually-use-20261029",
+  "date": "2026-10-29",
+  "editionDate": "2026-10-29",
+  "url": "article.html?id=the-lower-level-check-test-the-room-you-actually-use-20261029",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-lower-level-check-test-the-room-you-actually-use-20261029.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Lower-Level Check: Test the Room You Actually Use. Additional Daily Read: A practical, two-person way to find out whether radon is present in your home—and what to do with the result.\nPeople: a couple with visibly different ages and life experience. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: a couple with visibly different ages and life experience together, in a specific visual scene about “The Lower-Level Check: Test the Room You Actually Use”: A warm, natural-light scene of two adults at a table in a lived-in lower-level room: one reads a radon test kit’s instructions while the other writes a date and reminder in a notebook. Keep the kit and instructions visible, with no alarmist styling.\nAvoid repeating these recent WILDWIRE image scenes: Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends share a weight-room bench: one rests between sets while the other records the interval, then they switch roles. | Two friends prepare wool clothing for storage: one checks a sweater’s seams while the other readies a clean storage container. | Two friends sketch a stream crossing from a broad public trail overlook, with the road and a small bridge visible in the background. | Two friends seated across from each other at a kitchen table, trying a hand-clapping game with mismatched timing and amused expressions. | A grandparent and two younger relatives sit together at a kitchen table, learning to repot a plant and adjust a phone setting. | Two partners sit at a kitchen table reviewing separate health insurance cards, HSA statements and folders of medical receipts. | Two friends compare evening-walk outfits, checking reflective details on jacket cuffs and trouser hems.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
