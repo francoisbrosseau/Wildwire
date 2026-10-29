@@ -45,6 +45,9 @@ jobs:
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
+          name: github-pages-${{ github.run_attempt }}-${{ inputs.revision || github.sha }}
       - name: Deploy the artifact explicitly (bot commits do not trigger branch builds)
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}-${{ inputs.revision || github.sha }}
