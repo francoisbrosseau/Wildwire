@@ -97,6 +97,7 @@ jobs:
         if: steps.generate.outcome == 'success'
         continue-on-error: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
         run: |
+          node scripts/build-content.cjs
           node scripts/check-content.cjs
           npm test
           node scripts/package-pages.cjs
@@ -141,7 +142,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add content/articles content/editions images/generated js/articles.js js/articles-current.js
+          git add content/articles content/editions images/generated js/articles.js js/articles-current.js index.html
           if ! git diff --cached --quiet; then
             git commit -m "Publish WILDWIRE daily edition"
             # Editorial/repository maintenance can land during long generation.
@@ -254,6 +255,7 @@ jobs:
         if: steps.note.outputs.changed == 'true'
         run: |
           npm install --no-audit --no-fund
+          node scripts/build-content.cjs
           npm test
           node scripts/check-content.cjs
       - name: Preserve validated note recovery work
@@ -277,7 +279,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add content/founders-notes js/founders-notes.js founders-desk.html founder-note-*.html
+          git add content/founders-notes js/founders-notes.js founders-desk.html founder-note-*.html index.html
           if ! git diff --cached --quiet; then
             git commit -m 'Publish the daily Founder’s Desk note'
             git push origin "HEAD:${GITHUB_REF_NAME}"
