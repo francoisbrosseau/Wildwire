@@ -1,0 +1,84 @@
+{
+  "category": "Explore",
+  "title": "Follow the Spill: A Two-Friend Walk to See Where Outdoor Light Travels",
+  "subtitle": "Additional Daily Read: A short neighborhood walk turns familiar lights into a chance to notice purpose, direction and what lies beyond the beam.",
+  "imageAlt": "Two friends on a neighborhood sidewalk after dusk, pausing to notice light spilling from a downward-facing outdoor lamp onto a path and nearby leaves.",
+  "imageConcept": "A warm, observant nighttime sidewalk scene: two friends stand together on a familiar public path beneath a modest outdoor light, looking at the lit pavement and the edge of its beam on nearby branches; homes remain in the background, with no visible faces through windows.",
+  "body": [
+    [
+      "Start with the light, not the sky",
+      "A night walk can be more than a route from one lit place to another. With a friend, choose one outdoor light you can see from a public sidewalk or path and follow its spill: where does the beam land, and what might it be helping someone do? The answer may be straightforward—a doorway, a set of steps, a bus stop—or less obvious. Either way, the point is not to grade the fixture or guess what a stranger intended. It is to notice the relationship between a light’s purpose and the space its glow reaches. That small shift makes the familiar street newly legible. You are not conducting a wildlife survey, measuring brightness or deciding whether a place is safe. You are practicing careful observation together, then considering one change that is both considerate and within your control."
+    ],
+    [
+      "Choose a route that works for both of you",
+      "Keep the walk short and familiar: a block, a courtyard path open to the public, or the route between a transit stop and home. Before setting out, agree on a comfortable pace and a point where either person can turn back. Wear footwear suited to the surface and bring whatever visibility aids or mobility supports you normally use. If darkness, weather, traffic or the route itself makes the outing uncomfortable, choose a different time or skip it; the exercise does not require anyone to take a risk. Stay on public paths, obey signs and use crossings as you ordinarily would. Leave private yards and building entrances alone. Avoid photographing residents, windows or license plates. A phone note or a few spoken observations are enough; the goal is attention, not documentation."
+    ],
+    [
+      "Pick one light and ask what it serves",
+      "Look for a fixture that is easy to see from where you are allowed to stand: perhaps a porch light, a lamp over a business entrance, a path light or a streetlight. First describe what is observable without interpreting it: its approximate location, whether it points down or outward, and which surfaces appear lit. Then ask what task it may support. Someone might need to find a door, see a change in pavement level, or move through a shared space. You may not know the answer, and that uncertainty belongs in the exercise. A fixture’s purpose is not always apparent from the sidewalk. Resist treating brightness as proof that a light is wasteful, or darkness as proof that a space is poorly served. Curiosity starts with the setting and the people who use it."
+    ],
+    [
+      "Trace the edge of the beam",
+      "Now follow the light outward, as far as you can see from the public path. Does it mostly illuminate the doorway or pavement it appears to serve? Does some of it reach a nearby wall, tree canopy, garden, upper window or patch of sky? Notice whether the boundary is sharp or diffuse, and whether another source—traffic, signage or a second fixture—changes what you can see. There is no need to assign a number or decide that a particular amount of spill is harmful. Outdoor-lighting guidance emphasizes targeting light to minimize off-target spill and upward-directed light [1]. Your walk captures one moment, not a complete picture of how a place is lit through the night."
+    ],
+    [
+      "Balance usefulness with direction and timing",
+      "Responsible-lighting guidance offers a helpful set of questions: Is the light useful? Is it aimed where needed? Is it no brighter than necessary? Can its timing be controlled? Is its color appropriate to the task? [1] These questions are more constructive than a blanket rule to switch everything off. A light that helps someone navigate a step or reach an entrance may serve a real need. At the same time, shielding, a lower output, a timer or a motion control may sometimes keep light focused on that task. From the sidewalk, you may not know the fixture’s settings, ownership or access requirements. So treat the principles as prompts for a later conversation—not a verdict on a building or its residents. The most useful question may be: what would preserve the benefit while reducing light that serves no clear purpose?"
+    ],
+    [
+      "Keep the wildlife context in proportion",
+      "Artificial light at night can matter beyond human sightlines. A National Park Service synthesis describes a substantial body of research examining effects across different species and settings, while emphasizing that evidence is built from studies—not from one observer’s impression of a beam [2]. A separate review summarized by Park Science considered more than 1,300 publications, selected 120 for closer examination and covered 136 animal species; it reports that artificial light can mask natural light cycles important to some animals [3]. That context gives the walk a reason to look beyond the pavement, but it does not let you identify an ecological effect at a particular address. You may see a lit tree; you cannot conclude from that alone what a specific animal experiences. Keep the distinction clear: noticing spill is observation; establishing an effect requires evidence beyond this walk."
+    ],
+    [
+      "Turn an observation into a considerate next step",
+      "At the end of the walk, each friend can name one thing they noticed and one question they still have. Then choose a small action you actually control. At home, that might mean switching off an outdoor light when it is not needed, checking whether an existing fixture can be aimed down, or using a timer or motion sensor where appropriate. If the light belongs to a shared building, consider asking a manager whether its purpose, direction or schedule can be reviewed. Describe what you observed—light reaching a window or extending beyond a path—without accusing anyone of carelessness. Include the function you hope to preserve, such as visibility at an entrance. Do not ask someone to remove lighting that supports access or safety. A respectful inquiry makes room for practical constraints and for people who depend on the light."
+    ],
+    [
+      "A simple route for next time",
+      "Try the exercise in this order: choose a familiar public route; agree on a comfortable endpoint; select one visible outdoor light; describe what it appears to serve; trace where the beam falls; note one uncertainty; and decide whether there is a small, appropriate action to take. If no change is clearly useful, leave the light alone and keep the observation as a question. You can repeat the walk on another evening and notice whether traffic, weather or operating schedules alter what reaches the same spot. The lasting value is not a tally of bad fixtures. It is the habit of seeing lighting as a set of choices—about purpose, direction, level and timing—and considering both the people who use a place and the living world beyond the beam."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Next Steps: Five principles for responsible outdoor lighting",
+      "authors": "Morgan Pattison and Rick Utting",
+      "publication": "LD+A (Illuminating Engineering Society), hosted by the U.S. Department of Energy; August 2023",
+      "url": "https://www.energy.gov/cmei/ssl/articles/next-steps-five-principles-responsible-outdoor-lighting",
+      "researchSourceId": "S12"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Synthesis of Studies on the Effects of Artificial Light at Night",
+      "authors": "U.S. National Park Service",
+      "publication": "U.S. National Park Service",
+      "url": "https://www.nps.gov/articles/effectsoflight.htm",
+      "researchSourceId": "S5"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Perpetual \"Moonlight” May Be Disrupting Animals’ Life Cycles",
+      "authors": "the editorial staff of Park Science magazine",
+      "publication": "U.S. National Park Service; originally published in Park Science magazine, August 29, 2025",
+      "url": "https://www.nps.gov/articles/000/psv39n2rr_perpetual-moonlight-may-be-disrupting-animals-life-cycles.htm",
+      "researchSourceId": "S9"
+    }
+  ],
+  "id": "follow-the-spill-a-two-friend-walk-to-see-where-outdoor-light-tr-20261030",
+  "date": "2026-10-30",
+  "editionDate": "2026-10-30",
+  "url": "article.html?id=follow-the-spill-a-two-friend-walk-to-see-where-outdoor-light-tr-20261030",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/follow-the-spill-a-two-friend-walk-to-see-where-outdoor-light-tr-20261030.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Follow the Spill: A Two-Friend Walk to See Where Outdoor Light Travels. Additional Daily Read: A short neighborhood walk turns familiar lights into a chance to notice purpose, direction and what lies beyond the beam.\nPeople: two adult friends of different genders. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: A warm, observant nighttime sidewalk scene: two friends stand together on a familiar public path beneath a modest outdoor light, looking at the lit pavement and the edge of its beam on nearby branches; homes remain in the background, with no visible faces through windows.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | A pregnant person and a training partner pause beside a bench and light dumbbells to talk through a strength session. | Three generations of family members compare different activewear tops while doing comfortable, individual movements in a bright home studio. | A couple crouches on a broad, dry rock above a tidepool, looking closely while one writes in a small notebook. | Two friends at a community art class listen as an instructor demonstrates a technique at a shared worktable. | A couple in a basement room reviewing a radon test kit beside a notebook and an unfinished wall. | Two partners at a kitchen table comparing pay stubs beside a laptop and a filled-out tax form. | An adult couple sits with an older relative at a kitchen table, looking over a handwritten recipe card beside a bowl of prepared ingredients. | Two friends on a sofa replay a short film scene, pausing to compare what they heard.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
