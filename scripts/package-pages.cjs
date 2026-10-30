@@ -6,7 +6,7 @@ fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(out);
 for (const entry of fs.readdirSync(root, { withFileTypes: true })) {
   const publicDirectory = entry.isDirectory() && ['css', 'js', 'images', 'fonts', 'assets', 'content'].includes(entry.name);
-  const publicFile = entry.isFile() && (/\.html$/.test(entry.name) || ['CNAME', 'robots.txt', 'sitemap.xml', 'favicon.ico', 'manifest.webmanifest'].includes(entry.name));
+  const publicFile = entry.isFile() && (/\.html$/.test(entry.name) || ['CNAME', 'robots.txt', 'sitemap.xml', 'rss.xml', 'favicon.ico', 'manifest.webmanifest'].includes(entry.name));
   if (publicDirectory || publicFile) fs.cpSync(path.join(root, entry.name), path.join(out, entry.name), { recursive: true });
 }
 fs.writeFileSync(path.join(out, '.nojekyll'), '');

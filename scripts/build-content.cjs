@@ -60,3 +60,4 @@ const catalogWithPillars = catalog + `window.WILDWIRE_PILLAR_IMAGES = ${JSON.str
 fs.writeFileSync(output, catalogWithPillars);
 fs.writeFileSync(legacyOutput, catalogWithPillars);
 console.log(`Built article catalog: ${articles.length} stable IDs → js/articles-current.js and js/articles.js`);
+require('./build-newsletter-feed.cjs')(root, articles, issueManifests);
