@@ -1,0 +1,83 @@
+{
+  "category": "Living",
+  "title": "A Guest Network Is a Welcome Mat, Not the House Key",
+  "subtitle": "A calm, 15-minute check with a friend can make sharing home Wi-Fi more deliberate—without turning a visit into a tech audit.",
+  "imageAlt": "Two adult friends sit beside a home router, reviewing settings on a phone whose screen and credentials are turned away from view.",
+  "imageConcept": "Two adult friends of different genders at a kitchen table with a router nearby, talking through a phone together; the screen is angled away and no passwords or network names are visible.",
+  "body": [
+    [
+      "A more thoughtful way to share Wi-Fi",
+      "When a friend visits, sharing Wi-Fi is often a small act of hospitality: no one wants to dictate a password while a guest balances a phone, a cup and a conversation. But a home network can also connect work laptops, cameras, speakers, televisions and other devices. A separate guest login, when a router offers one and its instructions support it, gives visitors a different way to get online without handing out the main network password. The Federal Trade Commission describes guest networks as a way to reduce sharing of that primary password and help keep a guest’s malware from reaching devices on the main network [1]. That is a useful boundary, not a promise that every device or kind of access is isolated. Think of this as a brief, shared home check—not a test of anyone’s technical knowledge. The goal is to find out what your router can do, follow the right instructions, and leave the credentials private."
+    ],
+    [
+      "Start with the person who manages the connection",
+      "Set aside about 15 unhurried minutes with a friend, housemate or family member. Begin with a practical question: who manages the router or internet service here? That person may know whether the equipment belongs to the household, came from the internet provider, or is controlled through an app. If no one is sure, check a recent bill, the provider’s account or the router’s label rather than guessing. Do not share administrator credentials just to get started. The Wi-Fi password that lets a device connect and the administrator password used to change router settings are different things; the FTC advises protecting both and keeping the router updated [1]. Next, identify the router’s manufacturer and model from its label or official app. You do not need to read out or photograph the network name, password or account details. A connected-device list can be useful context, but this is not the moment to inventory every light bulb: the FTC notes that internet-connected devices typically access the internet through a router and recommends checking device lists and keeping device software updated [2]. Keep the scope small."
+    ],
+    [
+      "Find the instructions before changing anything",
+      "Use the router’s official support page or app to look for instructions for that exact model. Search for terms such as “guest network” or “guest Wi-Fi,” and check whether the documentation applies to the router’s current mode and software. Menu names and options vary. ASUS, for example, provides guest-network setup guidance for specified products, and its instructions make clear that availability and screens depend on model and firmware [3]. That is a reason to follow your own router’s documentation, not to copy a setup walkthrough for a different device. If the router is managed by an internet provider, start with the provider’s instructions or support; the controls may be in its app, and the manufacturer’s menu may not match what you see. Stop if the instructions do not fit the equipment in front of you. Avoid resetting the router or changing unrelated settings just to uncover a guest option. A short pause to verify the model is safer—and usually quicker—than troubleshooting a change made on the wrong screen."
+    ],
+    [
+      "Create a visitor login, if the router supports it",
+      "If the official instructions confirm that your router offers a guest network, follow those steps together. Choose a visitor login and password using the router’s own controls, and share them privately with the guest who needs access. Avoid putting credentials in a public post, a photo or a note visible to anyone passing through. Some systems let you set an access duration or other limits; use only options you understand and that the documentation explains. Before finishing, look for the router maker’s description of what the guest feature separates. A label saying “guest” does not, by itself, establish exactly what a guest device can reach. The FTC describes a separate login as a useful way to avoid disclosing the primary password and help limit a guest’s malware from reaching the main network [1], but that should not be inflated into a guarantee about every router or every connected device. If a visitor’s device cannot connect, check the official instructions rather than weakening unrelated security settings. You can always stop and ask the provider or manufacturer for help."
+    ],
+    [
+      "Treat the boundary as one layer",
+      "A guest login does not replace basic care for the router or for devices already connected at home. Keep router software current according to the provider or manufacturer’s guidance, and use a strong administrator password that is not the same as the Wi-Fi password. Those are separate controls, not chores to bundle into a complicated overhaul. The FTC’s home Wi-Fi guidance covers router updates and password protection alongside guest access [1]. Connected devices also need attention of their own: software updates and an occasional look at the router’s device list can help a household notice what is connected [2]. ASUS describes Guest Portal as a separate Wi-Fi connection from the main network; its instructions specify a firmware requirement and say the feature cannot be used in AP mode [3]. That does not mean a guest network makes a home “secure,” or that friends are a threat. It means access can be considered deliberately. A visitor may simply need internet access, while household devices and their settings remain the household’s responsibility."
+    ],
+    [
+      "If there is no guest option, keep the visit easy",
+      "Sometimes the answer is no: the router has no guest feature, the provider’s setup does not expose it, or the instructions are unclear. That is a reasonable place to stop. Do not improvise with administrator settings or hand over the main password automatically. The person who manages the connection can check with the internet provider or the router manufacturer about available options. In the meantime, decide together what is comfortable: perhaps do not share access, or share the primary password only with someone you trust and intend to give it to. If you do share it, remember that changing it later may mean reconnecting household devices, so consider the practical consequences before doing so. No single choice suits every home, and a visitor should not be made to feel suspect for asking to connect. The aim is to understand the available boundary and make a clear choice—not to promise protection the equipment cannot provide."
+    ],
+    [
+      "Leave a note that helps the next person",
+      "Before closing the app or putting the router back, write down a short, non-sensitive reference: the router model, where its official guest-network instructions live, and who manages the internet account. Do not put passwords, recovery codes or other private credentials on that note. If you made a guest login, agree on how the household will share it with visitors and who can change it if needed. If you did not make one, record the provider or manufacturer support route instead. Then ask the other person to find the instructions without being coached: can they locate the right page or app, and do they know whom to contact if it no longer matches the router? Keep the note where the people who manage the home can find it, not where visitors can read it. This small handoff makes the next connection less awkward and keeps the decision in the hands of the people responsible for the network."
+    ],
+    [
+      "Finish with one clear handoff",
+      "At the end of your 15 minutes, close any settings screen that shows private information and agree on one next step. It might be as simple as saving the official instructions in a household folder, or asking the internet provider whether its router supports guest Wi-Fi. If you changed a setting, confirm together where its instructions are and who will manage it later; do not leave a friend guessing about a password or a screen they did not choose to open. The useful result is not a perfect setup or a verdict on the household’s security. It is a small, shared understanding: who looks after the router, what visitor access is available, and where to turn when the instructions change. That is enough to make the next offer of Wi-Fi feel more considered—and still like a welcome."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "How To Secure Your Home Wi-Fi Network",
+      "authors": "Federal Trade Commission",
+      "publication": "Consumer Advice, December 2022",
+      "url": "https://consumer.ftc.gov/articles/how-secure-your-home-wi-fi-network",
+      "researchSourceId": "S7"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Securing Your Internet-Connected Devices at Home",
+      "authors": "Federal Trade Commission",
+      "publication": "Consumer Advice, August 2022",
+      "url": "https://consumer.ftc.gov/articles/securing-your-internet-connected-devices-home",
+      "researchSourceId": "S10"
+    },
+    {
+      "sourceId": "S3",
+      "title": "[Guest Network Pro] How to set up Guest Portal?",
+      "authors": "ASUS (ROG USA Support)",
+      "publication": "ROG USA Official Support FAQ, August 10, 2026",
+      "url": "https://rog.asus.com/us/support/faq/1053539/",
+      "researchSourceId": "S11"
+    }
+  ],
+  "id": "a-guest-network-is-a-welcome-mat-not-the-house-key-20261031",
+  "date": "2026-10-31",
+  "editionDate": "2026-10-31",
+  "url": "article.html?id=a-guest-network-is-a-welcome-mat-not-the-house-key-20261031",
+  "read": 7,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/a-guest-network-is-a-welcome-mat-not-the-house-key-20261031.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Guest Network Is a Welcome Mat, Not the House Key. A calm, 15-minute check with a friend can make sharing home Wi-Fi more deliberate—without turning a visit into a tech audit.\nPeople: two adult friends of different genders. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: Two adult friends of different genders at a kitchen table with a router nearby, talking through a phone together; the screen is angled away and no passwords or network names are visible.\nAvoid repeating these recent WILDWIRE image scenes: A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends practice standing up from sturdy chairs in a bright living room; one uses their hands for support while the other rises without them. | Two friends sort a small stack of clothes at a table: one checks a loose button while the other reads a textile collector’s acceptance guidelines on a phone. | Three family members sit together near a ground-level window, one noting the time, another studying the reflection and a third looking toward trees outside. | Two friends stand beside a craft demonstration, watching a maker shape material at a workbench.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

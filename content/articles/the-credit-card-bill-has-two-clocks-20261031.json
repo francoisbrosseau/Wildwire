@@ -1,0 +1,83 @@
+{
+  "category": "Finance",
+  "title": "The Credit-Card Bill Has Two Clocks",
+  "subtitle": "A statement’s due date and its grace period answer different questions. Learn to read both before deciding what a balance means for you.",
+  "imageAlt": "Two friends sit at a kitchen table, each marking the dates and balances on a sample credit-card statement while keeping their phones and personal account details out of view.",
+  "imageConcept": "Two adult friends at a bright kitchen table independently annotating a printed, fictional credit-card statement with colored pens. A notebook shows four labels—billing period, statement balance, minimum due, due date—while their real cards and phones remain tucked away.",
+  "body": [
+    [
+      "Two clocks, one statement",
+      "A credit-card statement can put several important numbers and dates close together, but they do not all measure the same thing. The due date tells you when the issuer must receive a required payment. The grace period, if your account offers one and you meet its conditions, concerns when interest may begin on eligible purchases. Confusing these clocks can make the statement feel more mysterious than it is.\n\nThe practical distinction is straightforward: paying at least the minimum by the due date addresses the payment deadline; paying the full statement balance by that date may be necessary to preserve a purchase grace period. Your agreement determines the details. This is an educational guide to U.S. credit-card statements, not a recommendation about which payment choice is right for you."
+    ],
+    [
+      "Start with the billing period",
+      "Find the statement’s opening and closing dates, sometimes labeled the billing period or billing cycle. The statement balance is generally the amount recorded at the end of that period. It reflects the account activity included in that statement—not necessarily everything that has happened since.\n\nA purchase made after the cycle closes may appear on the next statement. A payment or credit posted after the closing date may not be reflected in the balance shown, either. That is one reason the amount displayed in an account today can differ from the printed statement balance. Neither number is automatically an error; they may simply describe the account at different moments.\n\nMark the cycle dates first. They give the other figures a time frame, and make it easier to understand which charges the statement is asking you to review."
+    ],
+    [
+      "The due-date clock: what must arrive, and when",
+      "Locate the payment due date and the minimum payment due. The minimum is the amount the statement identifies as required by that deadline; it is not another name for the statement balance. Missing the deadline can have consequences under the card’s terms, so check both the amount and the date rather than relying on memory.\n\nPayment timing depends on when the issuer receives a payment, not simply when you send it. Generally, a payment received by 5 p.m. in the time zone stated on your billing statement is considered on time; if the due date is a Sunday or holiday, the next-business-day rule may apply, and issuers may set earlier cutoffs for online or in-person payments. [2] Allow for the method you use and verify the issuer’s instructions instead of assuming every payment channel works on the same schedule. [2]\n\nIf you use a scheduled payment, make sure you understand its timing and amount. A reminder or a scheduled transaction is not proof that the payment has been received and credited."
+    ],
+    [
+      "The interest clock: grace periods have conditions",
+      "A grace period is typically the span between the end of a billing cycle and the payment due date. But issuers are not required to offer one, and the terms vary. Grace-period rules commonly apply to purchases, not cash advances; the cardholder agreement explains what applies to your account. [1]\n\nIf your account offers a purchase grace period, paying the full statement balance by the due date is often the condition for avoiding interest on those purchases. Paying only the minimum may meet the payment requirement while still leaving a balance that can accrue interest. Those are different outcomes, not a contradiction. If you lose your grace period by not paying the balance in full, you may be charged interest on the unpaid portion and on new purchases from the date each purchase is made; check your agreement for the account’s specific rules. [1]\n\nTreat “grace period” as a term to verify, not a benefit to assume. Find the section of your agreement on interest charges and purchases, and check whether it describes a grace period and what you must do to keep it."
+    ],
+    [
+      "Statement balance, current balance, minimum: three different jobs",
+      "The statement balance is a snapshot at the cycle’s close. The current balance may include later purchases, payments, or credits. The minimum payment is the amount required by the due date under the statement’s instructions. Each figure answers a different question: what was owed at closing, what the account shows now, and what payment is required by the deadline.\n\nThat distinction can help when an online account page and a statement show different numbers. Compare the dates before concluding something is wrong. Then review the transaction list for unfamiliar charges, returns, or payments that may have posted after the statement closed.\n\nDo not treat the minimum as a payoff target, or assume the current balance is always the amount relevant to preserving a grace period. For that question, follow the statement and agreement’s wording. If the figures or instructions remain unclear, ask the issuer to explain how they apply to your account."
+    ],
+    [
+      "A ten-minute statement-reading exercise",
+      "Try this with a statement you can review privately, or use a fictional sample. On a blank page, write four labels: billing period, statement balance, minimum due, and due date. Find each item and copy only the amount or date you need. Then mark the agreement section that explains the grace period, eligible transactions, and payment cutoff.\n\nNext, answer three questions in plain language: What balance does this statement show at cycle end? What is the minimum payment and when must the issuer receive it? What does my agreement require if I want to retain a purchase grace period? If the statement has a repayment estimate or other explanatory box, do not confuse it with the minimum due; read its label and assumptions separately.\n\nIf you do this with a sibling, partner, or friend, use a sample statement or cover identifying details. Work independently, then compare what each person found—not what either person owes. Do not share account logins, full card numbers, or other sensitive information."
+    ],
+    [
+      "If a bill arrives late or not at all",
+      "A late-arriving statement does not automatically move the due date. Federal rules require procedures to ensure statements are sent at least 21 days before payment is due, but if your bill is delayed, contact the issuer rather than assuming you have extra time. Ask what amount is due, what payment options are available, and how the account’s deadline is being handled. Keep a note of the date and the instructions you receive. [3]\n\nIf a statement is missing, use the issuer’s official contact channel to ask how to access it and confirm the payment information. A missing bill is a reason to seek clarification, not to guess at the balance or deadline. Keep the statement and your agreement available when you call so you can refer to the same dates and terms."
+    ],
+    [
+      "Read the terms before making the call",
+      "The most useful habit is not memorizing a universal rule; it is knowing where your account’s rule lives. On each statement, mark the cycle end, statement balance, minimum due, and due date. In the agreement, locate the grace-period and payment-timing language. If a date, balance, or condition is unclear, ask the issuer a specific question—for example, whether a payment received by a particular time on a particular date counts for that deadline.\n\nA statement is not a verdict on your financial discipline. It is a record with a time frame, a required payment, and terms that can vary by account. Read those pieces separately, and the two clocks become easier to see: one sets the payment deadline; the other describes whether and when interest may apply to purchases. Use the document in front of you, and confirm anything the document does not make clear."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "What is a grace period for a credit card?",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau; last reviewed September 23, 2024; last modified September 25, 2024",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-grace-period-for-a-credit-card-en-47/?intcmp=NoOff_consumerfinance_blog_blog-post__text-content_ext",
+      "researchSourceId": "S17"
+    },
+    {
+      "sourceId": "S2",
+      "title": "When is my credit card payment considered late?",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau; last reviewed December 9, 2024; last modified December 10, 2024",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/when-is-my-credit-card-payment-considered-to-be-late-en-79/",
+      "researchSourceId": "S3"
+    },
+    {
+      "sourceId": "S3",
+      "title": "If my credit card bill comes late, can I get more time to pay?",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau; last reviewed September 23, 2022; last modified September 10, 2024",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/i-received-my-bill-this-month-and-the-payment-is-due-the-same-day-as-usual-but-the-bill-came-much-later-than-usual-can-i-get-more-time-to-pay-en-80/",
+      "researchSourceId": "S4"
+    }
+  ],
+  "id": "the-credit-card-bill-has-two-clocks-20261031",
+  "date": "2026-10-31",
+  "editionDate": "2026-10-31",
+  "url": "article.html?id=the-credit-card-bill-has-two-clocks-20261031",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-credit-card-bill-has-two-clocks-20261031.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Credit-Card Bill Has Two Clocks. A statement’s due date and its grace period answer different questions. Learn to read both before deciding what a balance means for you.\nPeople: two adult siblings or close friends collaborating. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: Two adult friends at a bright kitchen table independently annotating a printed, fictional credit-card statement with colored pens. A notebook shows four labels—billing period, statement balance, minimum due, due date—while their real cards and phones remain tucked away.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends practice standing up from sturdy chairs in a bright living room; one uses their hands for support while the other rises without them. | Two friends sort a small stack of clothes at a table: one checks a loose button while the other reads a textile collector’s acceptance guidelines on a phone. | Three family members sit together near a ground-level window, one noting the time, another studying the reflection and a third looking toward trees outside. | Two friends stand beside a craft demonstration, watching a maker shape material at a workbench. | Two adult friends sit beside a home router, reviewing settings on a phone whose screen and credentials are turned away from view.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
