@@ -1,0 +1,83 @@
+{
+  "category": "Explore",
+  "title": "The Fawn Isn’t a Rescue Request",
+  "subtitle": "A young deer lying alone may be doing exactly what it should. Here’s a calm, two-person plan for giving it space—and knowing when to call for help.",
+  "imageAlt": "Two friends keep their dog close on a path while watching a fawn from well across a meadow.",
+  "imageConcept": "A couple paused on a path at the edge of a meadow, one person holding a leashed dog close while the other checks a phone for local wildlife guidance; a small fawn rests far away in the grass, with no one approaching it.",
+  "body": [
+    [
+      "The scene that invites the wrong response",
+      "You spot a fawn tucked into grass or lying still beside a path. No doe is visible. The instinct to go closer, check for injury or carry the animal somewhere safer can feel like care. But a fawn alone is not, by itself, evidence that it has been abandoned. In its early days, staying still and relying on camouflage can help a fawn remain unnoticed while its mother forages nearby. A doe may return when people and other perceived threats have moved away. Massachusetts wildlife officials explain that this separation and stillness are normal parts of fawn behavior [1]. The useful first move is not closer inspection; it is to pause, create distance and keep the encounter brief."
+    ],
+    [
+      "Make a two-person plan before anyone moves",
+      "If you’re with a partner, friend or family member, agree on two simple roles. One person keeps children and pets back; the other checks the relevant local wildlife agency’s instructions or contact information from a distance. Neither person needs to approach the fawn to do this. If you’re alone, secure your dog, move people away and consult the local guidance once you’re clear. This small division of attention helps prevent a well-meaning group from clustering around the animal while everyone debates what to do. Maryland’s wildlife agency cautions people not to disturb, feed or handle fawns, noting that their stillness and camouflage can be part of how they avoid detection [2]."
+    ],
+    [
+      "Pause, give space, leave",
+      "Treat the encounter as a brief pass-through, not a stakeout. Stop where you are if you can do so safely, keep a generous distance, and take the route that lets you leave without passing close to the fawn. Do not touch it, feed it, move it or try to make it stand. Avoid gathering around it, calling to it or waiting nearby to see whether the doe appears. Repeated visits can keep people close to a place the fawn needs to remain quiet. Rhode Island’s environmental agency likewise advises leaving fawns alone and enjoying wildlife from afar [3]. The specific local rules and response instructions differ, but distance is a sensible starting point."
+    ],
+    [
+      "Keep the dog and the camera out of the encounter",
+      "A leashed dog can still pull toward a fawn, so shorten the lead and move away rather than letting the animal investigate. If a second person is present, they can guide children and other companions along the same route. Skip the close-up photo: getting a better angle can mean approaching, lingering or drawing others to the spot. A quick image from far away may still expose a location or encourage a return visit, so consider whether you need one at all. The goal is not to get proof that the fawn is safe. It is to avoid adding disturbance while its mother may be nearby. If you cannot leave without passing close, choose another route."
+    ],
+    [
+      "Don’t turn a glance into a diagnosis",
+      "A still fawn can look abandoned to someone who expects a young animal to move or call for its mother. But stillness alone cannot tell you whether it has been left, and a brief encounter cannot establish what is happening out of sight. Wildlife guidance is local, and agencies may set different instructions for particular situations. Resist the temptation to return repeatedly to check for the doe, or to interpret its absence during your visit as proof of a problem. The most responsible decision may be to leave without learning what happens next."
+    ],
+    [
+      "When there is an obvious concern",
+      "A visibly injured animal or an immediate hazard changes the next step, not the rule against handling it. From a safe distance, contact the wildlife agency or permitted wildlife rehabilitator identified by your local authorities, describe what you can see, and follow their directions. Be specific about the location and the nature of the concern; don’t approach to collect extra details. Guidance for hazardous situations can vary: one agency may direct a caller to monitor from afar, while another may provide different instructions. That is why moving or attempting to rescue the fawn on your own is not a safe universal recommendation. Rhode Island advises monitoring a fawn in immediate danger from a safe distance and calling DEM Environmental Police if it remains in a hazardous spot; for visibly injured fawns, it directs people to contact the Wildlife Clinic of Rhode Island [3]."
+    ],
+    [
+      "Find the right number before you need it",
+      "Wildlife response is organized locally, so a familiar national number or advice from another state may not be the right route. If you have a few quiet minutes later, save your state wildlife agency’s contact page and find its instructions for injured or young wildlife. Note whether it directs people to a department, a permitted rehabilitator or another local service. Do not assume that rules about possession, relocation or reporting are the same across state lines. The sources informing this guide illustrate why: agencies describe shared principles—leave fawns wild and avoid handling—alongside jurisdiction-specific contact pathways and legal guidance [1][2][3]. In an actual encounter, use the current local instructions rather than trying to resolve differences yourself."
+    ],
+    [
+      "Let a good encounter end quietly",
+      "Once you have moved away, keep moving. There is no need to circle back, recruit more observers or check whether the doe has returned. If you contacted officials, leave the decision to them and follow any instructions they gave you. The restraint can feel unsatisfying because it offers no visible rescue and no certainty about what happens next. But wild animals do not need our attention simply because we have noticed them. In this case, care means protecting the space around the fawn, keeping pets and people out of it, and calling local experts only when there is an observable reason. The quietest response is often the most useful one."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Fawn Phases: Why it’s normal to find fawns alone",
+      "authors": "Massachusetts Division of Fisheries and Wildlife (MassWildlife)",
+      "publication": "Mass.gov, June 1, 2026",
+      "url": "https://www.mass.gov/news/fawn-phases-why-its-normal-to-find-fawns-alone",
+      "researchSourceId": "S5"
+    },
+    {
+      "sourceId": "S2",
+      "title": "DNR Reminds Marylanders to Keep Deer Fawns Wild",
+      "authors": "Maryland Department of Natural Resources",
+      "publication": "Maryland Department of Natural Resources news, May 7, 2025",
+      "url": "https://news.maryland.gov/dnr/2025/05/07/dnr-reminds-marylanders-to-keep-deer-fawns-wild/",
+      "researchSourceId": "S6"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Keep Your Paws Off Wildlife",
+      "authors": "State of Rhode Island Department of Environmental Management",
+      "publication": "State of Rhode Island Department of Environmental Management press release, May 19, 2025",
+      "url": "https://dem.ri.gov/press-releases/keep-your-paws-wildlife",
+      "researchSourceId": "S7"
+    }
+  ],
+  "id": "the-fawn-isn-t-a-rescue-request-20261101",
+  "date": "2026-11-01",
+  "editionDate": "2026-11-01",
+  "url": "article.html?id=the-fawn-isn-t-a-rescue-request-20261101",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-fawn-isn-t-a-rescue-request-20261101.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Fawn Isn’t a Rescue Request. A young deer lying alone may be doing exactly what it should. Here’s a calm, two-person plan for giving it space—and knowing when to call for help.\nPeople: a woman and a man who are partners, with grounded attainable appearances. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: A couple paused on a path at the edge of a meadow, one person holding a leashed dog close while the other checks a phone for local wildlife guidance; a small fawn rests far away in the grass, with no one approaching it.. Correct these previous image errors: No fawn is visible in the meadow, a key element of the story concept.. Make the required companions unmistakable.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends of different ages practicing controlled strength exercises side by side, each using a resistance band suited to their own movement. | Two friends examining a rain jacket together, one holding the sleeve while the other looks closely at a darkened patch of fabric.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

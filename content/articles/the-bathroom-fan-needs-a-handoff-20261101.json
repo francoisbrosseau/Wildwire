@@ -1,0 +1,80 @@
+{
+  "category": "Living",
+  "title": "The Bathroom Fan Needs a Handoff",
+  "subtitle": "Additional Daily Read: A simple two-person routine can clarify which fan to use, when to run it, and what to do if moisture keeps lingering.",
+  "imageAlt": "Two friends stand in a bright bathroom doorway, one pointing to the fan timer while the other holds a small note card.",
+  "imageConcept": "Two friends sharing a home pause in the bathroom doorway after a shower: one points out the fan switch and timer, while the other writes down their agreed routine on a card. The scene feels ordinary and collaborative, with no visible mold or staged repair work.",
+  "body": [
+    [
+      "A small system, shared",
+      "Bathroom moisture is easy to treat as an individual habit: whoever showered last should remember the fan. But a fan is part of a household system, and its usefulness depends on more than remembering a switch. People need to know which control operates it, how long to run it, and whom to tell if moisture seems to linger. A short conversation can turn an unspoken expectation into a routine both people understand.\n\nThe aim is not to diagnose ventilation or guarantee that a fan prevents mold. It is to make a basic household handoff: agree on how to use the fan, pay attention to recurring signs of moisture, and know when to ask for help. That can be especially useful for friends, siblings, partners, or housemates who share a bathroom but have different schedules."
+    ],
+    [
+      "First, identify the right control",
+      "At an unhurried moment, stand together in the bathroom and identify the switch, pull cord, or timer that operates the exhaust fan. If there are several controls, avoid guessing. Check any labels or available instructions, or ask the landlord or property manager if you cannot tell which one is for the fan. Note whether the control is separate from the light and whether it has a timer; don’t assume a fan has shut off just because the light did.\n\nThis is a simple orientation, not a performance test. A fan’s motor making noise does not establish that it is moving enough air or sending it outdoors. The U.S. Environmental Protection Agency says proper bathroom exhaust needs to remove sufficient air and direct it outside, not into an attic or another indoor space [1]. A household conversation cannot confirm those conditions, but it can make the next question clear: “We know which switch to use; do we know whether the fan is doing its job?”"
+    ],
+    [
+      "Agree on when it runs",
+      "EPA guidance recommends using a bathroom fan that vents outdoors during and after a shower to exhaust moisture, and operating and maintaining mechanical ventilation according to its instructions [2]. For a shared home, turn that guidance into an agreement that fits the actual control. If there is a timer, decide together which setting or duration to use, following the manufacturer’s directions. If there is no timer, agree on a practical reminder for switching the fan off rather than leaving the duration to memory or guesswork.\n\nMake the routine easy to follow for everyone who uses the room. A note near the control can say, “Fan on during shower; follow timer instructions afterward.” If the light and fan share a switch, mention that in the note. If someone has mobility, sensory, or other access needs that affect using the control, account for that in the plan instead of treating missed steps as carelessness. The routine should be usable, not a test of who remembers best."
+    ],
+    [
+      "Notice what happens after a shower",
+      "For a week or two, simply notice whether condensation on the mirror, window, or other surfaces tends to clear, and whether dampness repeatedly remains. You do not need a chart or a precise measurement. A brief note such as “mirror stays fogged for a long time” or “water collects on the window most mornings” gives both people something specific to discuss. Compare like with like where possible: a long, hot shower may leave a different amount of moisture than a quick one, and conditions vary from day to day.\n\nEPA advises acting promptly when condensation or moisture collects on surfaces [3]. In this routine, lingering condensation is a cue to pay attention and consider the next step—not proof that the fan is defective, that mold is present, or that the fan fails a technical standard. Avoid turning an everyday observation into a home inspection. The useful question is whether the pattern repeats and whether someone responsible for the building should be told."
+    ],
+    [
+      "Know when the routine is not enough",
+      "If moisture keeps lingering despite using the fan as instructed, record what you have noticed and raise it with the landlord or property manager if you rent. Be direct and concrete: identify the bathroom, describe the recurring condensation or dampness, say which control you use and when, and ask for the ventilation concern to be checked. A dated photo of visible condensation may help explain the pattern, but it is not a substitute for an assessment.\n\nIf you own the home, or if a building manager advises it, a qualified professional can evaluate a suspected fan or duct problem. Do not treat the sound of the motor, a quick glance, or a household experiment as proof of adequate airflow or outdoor venting. EPA’s guidance makes clear that both the amount of air exhausted and where it goes matter [1]. If you cannot tell where the fan exhausts, that uncertainty belongs in the question for the landlord or professional—not on the residents to solve by opening equipment or entering an attic."
+    ],
+    [
+      "Make the handoff specific",
+      "A useful handoff includes three things: the routine, the observation, and the person to contact. Write down which control is the fan and the instruction for using it. Agree that the fan will run during and after showers as directed. Then decide what counts as a reason to follow up—for example, condensation that repeatedly remains—and who will report it. That person might be whoever manages household messages, not necessarily the person who showered last.\n\nKeep the record neutral. “Water has been collecting on the bathroom window after showers this week” is more actionable than “You never use the fan.” If one person has already contacted the landlord, note when and how; agree who will follow up if there is no response. In a home where both residents have a say, share the wording before sending it. The point is not to assign blame or promise a particular repair. It is to make sure a recurring concern does not disappear between one person noticing it and another assuming someone else has acted."
+    ],
+    [
+      "Leave the bathroom with a maintenance note",
+      "At your next calm moment together, write a short note with the fan control, the agreed use during and after showers, and the person to contact if moisture keeps lingering. Put it somewhere both residents can find it, such as a shared household note—not necessarily on display in the bathroom. If you rent, save the landlord’s contact details with it. After a week or two, check whether the routine was practical and whether the same moisture pattern continues. Keep what is useful, revise what is not, and pass along unresolved concerns rather than asking the routine to do the work of a repair."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Remodeling Your Home and Indoor Air Quality",
+      "authors": "U.S. Environmental Protection Agency",
+      "publication": "U.S. Environmental Protection Agency, last updated February 17, 2026",
+      "url": "https://www.epa.gov/indoor-air-quality-iaq/remodeling-your-home-and-indoor-air-quality",
+      "researchSourceId": "S7"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Biological Contaminants and Indoor Air Quality",
+      "authors": "U.S. Environmental Protection Agency",
+      "publication": "U.S. Environmental Protection Agency, last updated April 1, 2026",
+      "url": "https://www.epa.gov/indoor-air-quality-iaq/biological-contaminants-and-indoor-air-quality",
+      "researchSourceId": "S11"
+    },
+    {
+      "sourceId": "S3",
+      "title": "A Brief Guide to Mold, Moisture and Your Home",
+      "authors": "U.S. Environmental Protection Agency",
+      "publication": "U.S. Environmental Protection Agency, last updated February 18, 2026",
+      "url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+      "researchSourceId": "S18"
+    }
+  ],
+  "id": "the-bathroom-fan-needs-a-handoff-20261101",
+  "date": "2026-11-01",
+  "editionDate": "2026-11-01",
+  "url": "article.html?id=the-bathroom-fan-needs-a-handoff-20261101",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-bathroom-fan-needs-a-handoff-20261101.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Bathroom Fan Needs a Handoff. Additional Daily Read: A simple two-person routine can clarify which fan to use, when to run it, and what to do if moisture keeps lingering.\nPeople: two adult siblings or close friends collaborating. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: Two friends sharing a home pause in the bathroom doorway after a shower: one points out the fan switch and timer, while the other writes down their agreed routine on a card. The scene feels ordinary and collaborative, with no visible mold or staged repair work.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends of different ages practicing controlled strength exercises side by side, each using a resistance band suited to their own movement. | Two friends examining a rain jacket together, one holding the sleeve while the other looks closely at a darkened patch of fabric. | Two friends keep their dog close on a path while watching a fawn from well across a meadow. | Two friends on a sofa watch a film’s end credits on television while one writes a crew role in a notebook. | Two women in a shared kitchen check a local composting guide while one holds a small lidded food-scrap container. | An adult couple and an older relative sit together at a kitchen table, reviewing a short checklist beside a laptop and a notebook. | Two friends sit side by side in a small theater, watching a silent film as a pianist performs near the screen. | Two friends in work gloves listen to a park volunteer beside a woodland trail, with hand tools resting nearby.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

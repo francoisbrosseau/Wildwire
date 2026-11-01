@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "A Credit Freeze Has a Boundary: What It Stops—and What It Doesn’t",
+  "subtitle": "A freeze can make it harder for someone to open new credit in your name. It is not a universal identity-theft shield—and it works best when you know exactly where its limits are.",
+  "imageAlt": "An adult couple and an older relative sit together at a kitchen table, reviewing a short checklist beside a laptop and a notebook.",
+  "imageConcept": "A warm, natural kitchen-table scene: an adult couple and an older family member compare notes beside a closed laptop, with a simple three-bureau checklist and a pen in reach. The image suggests shared decision-making, not supervision or alarm.",
+  "body": [
+    [
+      "A barrier at one particular door",
+      "A credit freeze is a restriction on access to a credit report, not a shutdown of someone’s financial life. When a business checks a report to consider a new credit application, a freeze can make it harder for an identity thief to open an account using your information. The freeze is free, does not affect your credit score, and stays in place until you lift it. To freeze reports at all three nationwide credit bureaus, you must contact each bureau separately [1].\n\nThat boundary matters. A freeze is not a guarantee that nobody can misuse your identity, and it does not prevent every business or person from accessing information in every circumstance. Think of it as a useful gate around one important route—new credit applications—rather than a lock on your entire financial identity. That framing makes the decision clearer: it can reduce a specific risk, while other protections still have work to do."
+    ],
+    [
+      "What changes when you apply for credit",
+      "If you later apply for a credit card, loan, or other product that involves a credit-report check, the freeze may complicate the application. A lender generally needs access to a credit report to consider new credit, so you may need to lift the freeze temporarily or remove it. The Consumer Financial Protection Bureau explains that consumers can place or lift a freeze through each nationwide bureau; a freeze is not the same as a paid credit lock [2].\n\nBefore an application, ask the lender which bureau or bureaus it expects to check, and follow the bureau’s instructions to lift the freeze where needed. The FTC notes that you may be able to lift it at the bureau the lender will use [3]. If you are unsure, allow time to check the lender’s requirements rather than assuming one bureau’s change updates all three. After the application process, review your freeze status and restore it if you want the restriction back in place."
+    ],
+    [
+      "Three bureaus means three requests",
+      "A common source of confusion is treating “freeze my credit” as one national switch. It is not. A person who wants freezes with all three nationwide bureaus needs to make a separate request to each. The FTC describes freezes as free to place and lift, and says they remain until lifted [1]. A company that offers a paid credit lock may provide a different service; it should not be mistaken for the statutory security freeze described by the CFPB [2].\n\nA practical way to make the process manageable is to use a small checklist. Write down the three bureau names, mark each request only after it is completed, and keep any confirmation details in a secure place. Use the bureau’s official channels rather than links in unexpected messages or offers that charge a fee to “protect” a report. If you are helping a relative, ask what kind of support they want, let them stay in control of their accounts, and avoid sharing login credentials."
+    ],
+    [
+      "A fraud alert is a different tool",
+      "A fraud alert does not restrict access to your credit report in the same way. Instead, it asks businesses to take steps to verify your identity before granting new credit. The FTC says that contacting one bureau to place an alert can prompt that bureau to notify the other two; a freeze, by contrast, must be requested from each bureau separately [1].\n\nNeither option is a universal answer, and the right choice depends on the situation. Someone who wants to make new credit applications more difficult may consider a freeze. Someone who wants businesses to be alerted to verify identity may consider a fraud alert. The distinction is practical: one limits a route to a report, while the other signals that extra verification is warranted. Read the current instructions from the bureaus before choosing, especially if you are responding to suspected fraud or need credit soon."
+    ],
+    [
+      "What the freeze leaves exposed",
+      "A freeze does not protect existing accounts from takeover. If a thief obtains login details or other access to an account you already have, the freeze is not a barrier to that activity. The CFPB says that a freeze prevents prospective creditors from accessing your credit file, while creditors for accounts you already hold may still see it [2]. That is why a credit freeze should sit alongside—not replace—ordinary account security and attention to account activity.\n\nKeep using strong, unique passwords where available, turn on multifactor authentication when offered, and review account transactions and alerts. If you see an unfamiliar charge or learn that an existing account has been compromised, contact the financial institution through a trusted channel and ask what steps are needed to secure or close the account. A freeze may still be useful for limiting new-credit risk, but it cannot resolve a compromise on its own. This is the difference between adding a barrier and containing an incident that has already crossed it."
+    ],
+    [
+      "When someone else needs help",
+      "For an adult, placing a freeze is ordinarily a personal decision and a personal process. A couple or family can make it easier by discussing the trade-offs together: the protection is free, but a future credit application may require planning to lift the freeze. Support does not have to mean taking over. One person can help find official instructions or keep a checklist while the account holder makes the request and chooses where confirmation details are stored.\n\nThere are also special rules for certain protected consumers. Federal protections allow authorized adults to request freezes for children under 16 and for some people who are incapacitated; the requirements and process differ from a routine adult freeze [2]. If this applies, check the bureau and CFPB instructions carefully rather than assuming the standard online steps will work. This is general U.S. information, not personalized legal or financial advice; state protections and procedures may vary."
+    ],
+    [
+      "A useful decision, not a promise",
+      "The most reliable way to think about a freeze is as one layer of risk management. It can make it harder for someone to use your credit report to open new credit, and it is free to place and lift. It does not freeze your score, stop your existing cards from working, or prevent account takeover. A fraud alert is a separate option, with a different mechanism and process [1][2].\n\nIf you decide to freeze, contact each nationwide bureau, keep a secure record of the confirmations, and know how you will request a lift before you apply for credit. If you suspect identity theft, do not assume a freeze is enough: secure affected accounts and follow the appropriate recovery steps. For a family conversation, the useful question is not “Are we completely protected?” It is “Which risk does this step reduce, what remains outside its reach, and who wants to handle each next step?”"
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Credit Freezes and Fraud Alerts",
+      "authors": "Federal Trade Commission",
+      "publication": "Federal Trade Commission, Consumer Advice — August 2025",
+      "url": "https://consumer.ftc.gov/articles/credit-freezes-and-fraud-alerts?trk=article-ssr-frontend-pulse_little-text-block",
+      "researchSourceId": "S4"
+    },
+    {
+      "sourceId": "S2",
+      "title": "What is a credit freeze or security freeze on my credit report?",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau — Last reviewed September 5, 2025; page modified September 17, 2025",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-freeze-or-security-freeze-on-my-credit-report-en-1341/",
+      "researchSourceId": "S3"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Get a credit freeze to stop identity thieves",
+      "authors": "BCP Staff",
+      "publication": "Federal Trade Commission, Consumer Advice — September 10, 2025",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2025/09/get-credit-freeze-stop-identity-thieves",
+      "researchSourceId": "S11"
+    }
+  ],
+  "id": "a-credit-freeze-has-a-boundary-what-it-stops-and-what-it-doesn-t-20261101",
+  "date": "2026-11-01",
+  "editionDate": "2026-11-01",
+  "url": "article.html?id=a-credit-freeze-has-a-boundary-what-it-stops-and-what-it-doesn-t-20261101",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/a-credit-freeze-has-a-boundary-what-it-stops-and-what-it-doesn-t-20261101.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Credit Freeze Has a Boundary: What It Stops—and What It Doesn’t. A freeze can make it harder for someone to open new credit in your name. It is not a universal identity-theft shield—and it works best when you know exactly where its limits are.\nPeople: an adult couple with one older family member. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: A warm, natural kitchen-table scene: an adult couple and an older family member compare notes beside a closed laptop, with a simple three-bureau checklist and a pen in reach. The image suggests shared decision-making, not supervision or alarm.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends of different ages practicing controlled strength exercises side by side, each using a resistance band suited to their own movement. | Two friends examining a rain jacket together, one holding the sleeve while the other looks closely at a darkened patch of fabric. | Two friends keep their dog close on a path while watching a fawn from well across a meadow. | Two friends on a sofa watch a film’s end credits on television while one writes a crew role in a notebook. | Two women in a shared kitchen check a local composting guide while one holds a small lidded food-scrap container.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 3,
+    "issues": []
+  }
+}
