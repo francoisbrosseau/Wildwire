@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "The T-Bill Has Three Dates: Auction, Issue, and Maturity",
+  "subtitle": "A Treasury bill’s auction date is not the day it starts, and neither date tells you when the cash comes back. Follow one bill from announcement to maturity to see how its price, return, and tax timing fit together.",
+  "imageAlt": "Two adult friends sit at a table comparing Treasury bill documents, with auction, issue, and maturity dates marked on a simple timeline.",
+  "imageConcept": "Two adult friends of different genders sit side by side at a bright kitchen table, comparing a Treasury bill offering announcement and auction results page. A handwritten three-date timeline and calculator sit between them; the scene suggests shared learning, not financial advice.",
+  "body": [
+    [
+      "Start with the calendar, not the rate",
+      "A Treasury bill is easiest to understand as a sequence of dates. The auction is when bids determine the bill’s price and other terms. The issue date is when the security is issued and its term begins. The maturity date is when the bill comes due and the holder receives its face value. Those dates are related, but they do different jobs—and confusing them can make a short-term investment look more liquid or more immediate than it is.\n\nA 26-week bill announced by the U.S. Treasury on March 5, 2026, makes the sequence concrete: auction on March 9, issue on March 12, and maturity on September 10. The announcement sets out the schedule before the auction takes place. The three dates are not interchangeable; the bill does not begin accruing its term on announcement or auction day, but on its issue date [1]. This is a dated example, not a current offer or rate quote."
+    ],
+    [
+      "What happens at each date",
+      "The announcement is the invitation and timetable. It identifies the security being offered and tells potential bidders when the auction will occur, when bids close, and when the security will be issued. The auction is the price-setting event. Its results notice reports what bidders agreed to pay under the auction’s rules. The issue date is the start of the bill’s life as an outstanding security. At maturity, the Treasury pays the face value to the holder.\n\nThat distinction matters for planning. If someone has cash earmarked for a bill, the auction date is not automatically the day the cash is invested, and the maturity date—not the auction date—is the scheduled point when the bill comes due. The interval between auction and issue is part of the calendar, too. For the March example, the auction came three days before issuance. A reader checking an offer should use the specific announcement and results for that bill rather than assume every auction follows the same dates [1][2]."
+    ],
+    [
+      "The price is the return’s starting point",
+      "Treasury bills generally do not send periodic interest payments. Instead, the investor typically pays less than the bill’s face value and receives the full face value at maturity. The difference is the interest. In the March 9 auction, the published price was 98.212861 per $100 of face value [2]. In simple terms, a $100 face-value bill at that price costs about $98.21, before considering any account-specific details. If held to maturity, it pays $100; the gap is about $1.79 per $100 of face value.\n\nThat arithmetic is a useful first check, but it is not the same as a complete return calculation for every situation. The bill’s face value, purchase price, holding period, and the way a quoted rate is calculated all matter. The published auction price is stated per $100 of face value, so it should not be mistaken for a percentage yield paid out in cash on a schedule. Nor does the example establish what a later auction will offer. Prices and terms are specific to the particular auction."
+    ],
+    [
+      "Why the notice shows more than one rate",
+      "Auction results can include multiple rate labels. The March results notice reported a 3.535% “High Rate” and a 3.649% “Investment Rate” [2]. They describe the same auction, but they are not identical measures. The results notice’s footnote describes the investment rate as the equivalent coupon-issue yield [2]. Because the calculations use different conventions, the numbers need not match.\n\nThe practical reading habit is to keep a rate beside its label. A number copied from an auction notice without its name can be misleading, especially when comparing bills or comparing a bill with another kind of account. For understanding one bill, begin with the purchase price and face value, then note the term and the rate measure shown. Avoid treating either figure in this historical results notice as a current quote, a forecast, or a promise about what an investor would earn in a different transaction."
+    ],
+    [
+      "Maturity is a cash-flow date",
+      "A bill’s maturity date gives the scheduled endpoint: the holder receives the face value then. That makes maturity useful for matching a known future cash need, but it does not make a bill identical to a bank deposit or guarantee that an investor can access the money early on the same terms. Someone who sells a marketable security before maturity may receive a price different from what they paid. The three-date timeline helps distinguish a planned holding period from an assumption that cash is available whenever needed.\n\nFor the example bill, issuance on March 12 and maturity on September 10 define the period between the start and scheduled repayment. If a reader is evaluating any bill, the helpful questions are straightforward: When does it issue? When does it mature? Will the cash be needed before then? What might happen if it has to be sold early? These are questions about timing and flexibility, not predictions about market prices."
+    ],
+    [
+      "The tax calendar may be different again",
+      "For U.S. federal tax purposes, Treasury-bill interest is generally reported when the bill is paid at maturity. The IRS describes the interest as the difference between the amount paid and the amount received at maturity, subject to applicable reporting rules [3]. That means the tax reporting moment may not line up with the auction, the purchase, or the point when someone first sees a rate in a notice. Keep the maturity date and relevant tax documents together when organizing records.\n\nTreasury interest is subject to U.S. federal income tax, but is generally exempt from state and local income taxes [3]. Individual circumstances can affect tax treatment and reporting, so a general explanation cannot determine someone’s tax liability. The useful takeaway is that “interest” here does not necessarily mean periodic cash deposited during the bill’s term: it is generally embedded in the difference between purchase price and face value, with reporting tied to the bill being paid at maturity. For a personal filing question, consult current IRS guidance or a qualified tax professional."
+    ],
+    [
+      "A simple way to read the paperwork",
+      "Try reading a bill’s documents in order. First, open the offering announcement and locate the bill’s term, auction date, issue date, and maturity date. Write the three dates on one line. Next, find the auction results for that same security and note the price and the exact names of any rate measures. Check that the issue and maturity dates agree across the documents. Finally, calculate the approximate difference between the price paid and face value, and note when the bill is scheduled to mature.\n\nThis small document check separates facts that are often compressed into a single rate quote: when bidding occurs, when the investment begins, what price the auction established, and when the face value is due. It is financial literacy, not a recommendation to buy or sell. The example’s figures belong to one specific auction; another bill can have different dates, a different price, and different rate measures. For U.S. Treasury securities and U.S. federal tax information only, verify details in the current official materials and consider professional advice for decisions shaped by personal finances."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Treasury Offering Announcement",
+      "authors": "U.S. Department of the Treasury",
+      "publication": "U.S. Department of the Treasury, March 5, 2026",
+      "url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/A_20260305_5.pdf",
+      "researchSourceId": "S34"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Treasury Auction Results",
+      "authors": "U.S. Department of the Treasury",
+      "publication": "U.S. Department of the Treasury, March 9, 2026",
+      "url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20260309_2.pdf",
+      "researchSourceId": "S62"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Publication 550 (2025), Investment Income and Expenses (Including Capital Gains and Losses)",
+      "authors": "Department of the Treasury, Internal Revenue Service",
+      "publication": "Internal Revenue Service, March 5, 2026",
+      "url": "https://www.irs.gov/pub/irs-prior/p550--2025.pdf",
+      "researchSourceId": "S22"
+    }
+  ],
+  "id": "the-t-bill-has-three-dates-auction-issue-and-maturity-20261102",
+  "date": "2026-11-02",
+  "editionDate": "2026-11-02",
+  "url": "article.html?id=the-t-bill-has-three-dates-auction-issue-and-maturity-20261102",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-t-bill-has-three-dates-auction-issue-and-maturity-20261102.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The T-Bill Has Three Dates: Auction, Issue, and Maturity. A Treasury bill’s auction date is not the day it starts, and neither date tells you when the cash comes back. Follow one bill from announcement to maturity to see how its price, return, and tax timing fit together.\nPeople: two adult friends of different genders. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: Two adult friends of different genders sit side by side at a bright kitchen table, comparing a Treasury bill offering announcement and auction results page. A handwritten three-date timeline and calculator sit between them; the scene suggests shared learning, not financial advice.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends walk side by side along a clear indoor path, each carrying a comfortable weight: one holds a weight in each hand, the other carries one weight at their side. | Two friends compare a rented evening outfit with shoes and accessories before getting ready for an event. | Two women walking side by side along a sandy beach, pausing to observe a band of seaweed and seagrass at the water’s edge. | A couple and an older relative sit together at a table with a VHS cassette, a handwritten note and a laptop showing a paused family video. | Two friends sit beside a CPR training manikin in a bright classroom, with an instructor nearby and an AED trainer on the table.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
