@@ -1,0 +1,83 @@
+{
+  "category": "Finance",
+  "title": "Your Roth IRA Has a Withdrawal Order",
+  "subtitle": "A Roth IRA balance is not one undifferentiated pot. Federal rules sort withdrawals into categories—and knowing the sequence is only the first step in understanding the tax result.",
+  "imageAlt": "Two friends at a kitchen table compare a simple Roth IRA diagram labeled contributions, conversions and earnings.",
+  "imageConcept": "Two friends seated across from each other at a bright kitchen table, calmly reviewing a hand-drawn three-part diagram—contributions, conversions and earnings—beside a laptop and coffee mugs; approachable and informative, without suggesting a withdrawal recommendation.",
+  "body": [
+    [
+      "The balance is not the whole story",
+      "A Roth IRA statement gives you a balance, but that number does not tell you how a withdrawal is categorized for federal tax purposes. The rules treat money in an individual Roth IRA as coming from distinct layers, and they assign a sequence to those layers when money leaves the account. In general, regular contributions come out first, followed by conversion and rollover contributions, then investment earnings. The ordering rules generally aggregate distributions across an individual’s Roth IRAs, although rollover contributions from another Roth IRA are disregarded for this purpose [1].\n\nThat ordering can make a withdrawal different from what the account balance alone suggests. It also explains why two statements that sound similar—“I’m withdrawing contributions” and “my withdrawal is tax-free”—are not interchangeable. The first describes a category in the ordering rules; the second depends on the tax rules for the distribution as a whole."
+    ],
+    [
+      "First out: regular contributions",
+      "The first layer is regular contributions made to Roth IRAs. Because these amounts are treated as distributed before conversion amounts and earnings, a person’s contribution history can matter even when the money has been invested for years. The ordering is not a claim that particular dollars stayed untouched in the account: investments may have risen or fallen, but the tax rules still classify distributions according to the prescribed sequence [1].\n\nThis is one reason to keep a record of contributions rather than relying only on a current account screen. Contribution confirmations, account statements and prior tax records can help establish what went in and when. If there have been Roth IRAs at multiple institutions, records from all of them may be relevant to understanding the overall history. The goal is not to infer a tax result from a balance, but to know what information the rules may require."
+    ],
+    [
+      "Next: conversions and rollovers",
+      "After regular contributions, the ordering rules reach conversion and rollover contributions. These are generally treated on a first-in, first-out basis: amounts from earlier tax years are considered before amounts from later years. Within a conversion year, amounts that were taxable when converted are generally treated as distributed before amounts that were not taxable when converted [1].\n\nThis is where older tax paperwork can become important. A conversion is not simply another regular contribution: its history may include an amount that was included in income at the time and an amount that was not. Publication 590-A covers IRA contributions and conversions, while the distribution rules in Publication 590-B explain how conversion and rollover amounts fit into the ordering sequence [2] [1]. Keeping records by tax year can make it easier to distinguish these categories rather than trying to reconstruct them from memory."
+    ],
+    [
+      "Earnings come last—but that does not settle the tax",
+      "Investment earnings are treated as coming out after regular contributions and conversion or rollover amounts have been accounted for. That sequencing matters, but it does not mean that every earlier dollar is automatically free of tax in every situation, or that reaching the earnings layer automatically creates a particular tax bill. The tax treatment depends on whether the distribution meets the definition of a qualified distribution and, if not, on the composition of the amount distributed and any applicable exceptions [1].\n\nA useful way to keep the concepts separate is to ask two questions in order: What category does the distribution reach under the ordering rules? And does the distribution qualify for the tax treatment the account owner expects? The first question concerns the source layer. The second concerns requirements that may involve time, age or another qualifying condition."
+    ],
+    [
+      "The qualification test is separate",
+      "A Roth IRA distribution is generally qualified when the Roth IRA five-tax-year period has been met and the distribution occurs under a qualifying condition. Those conditions include reaching age 59½, disability, death, or a qualifying first-home distribution, subject to the applicable rules. The five-year period generally begins with the first tax year for which a contribution was made to any Roth IRA for the person [1] [3].\n\nThe first-home provision has its own requirements and a $10,000 lifetime limit. That provision should not be confused with a general permission to take any amount from a Roth IRA for any housing expense without tax consequences. Eligibility depends on the detailed rules, including the relevant five-year period and how the lifetime limit applies. The IRS instructions for Form 5329 explain the qualified-distribution test and additional-tax rules; Publication 590-B provides the broader treatment of Roth IRA distributions [3] [1]."
+    ],
+    [
+      "A 10% additional tax is another question",
+      "When a distribution is not qualified, its taxable portion may be subject to ordinary income tax. It may also face an additional 10% tax if taken before age 59½, unless an exception applies. The additional tax is separate from the question of whether an amount is included in income, so a person should not assume that avoiding one automatically avoids the other [1] [3].\n\nThere is also a separate five-tax-year rule relevant to taxable conversion amounts. In some circumstances, withdrawing a taxable conversion amount before the applicable five-year period has run can trigger the additional tax, even though that amount was previously included in income when converted. Exceptions may apply, and the details depend on the facts and the type of amount involved. Form 5329 instructions address these additional-tax rules; they are not a substitute for working out the ordering and income-tax treatment of the distribution itself [3]."
+    ],
+    [
+      "Build the record before drawing conclusions",
+      "If you are trying to understand a possible or past distribution, gather the history before interpreting a single tax form. A practical file might include: annual Roth IRA contribution records; conversion and rollover paperwork organized by tax year; records showing which conversion amounts were taxable or nontaxable; account statements from current and prior custodians; and distribution tax forms. Relevant prior returns and tax worksheets can help connect the documents, while IRS Publication 590-A and Publication 590-B explain the contribution, conversion and distribution rules [2] [1].\n\nThen make a simple timeline: when the first Roth IRA contribution occurred, which years included conversions or rollovers, and when distributions occurred. Do not treat the timeline as a final tax calculation. It is a way to see what information is missing and which questions to bring to a tax professional or the IRS guidance. If records are incomplete, identifying that gap is more useful than filling it with a guess."
+    ],
+    [
+      "Check the account type, too",
+      "These rules describe individual Roth IRAs. A Roth account inside an employer plan—often called a designated Roth account—is a different account type and has different distribution rules. The familiar label “Roth” does not, by itself, make the two arrangements interchangeable. Before applying an individual-IRA withdrawal sequence to a workplace account, confirm what kind of account holds the money [1].\n\nThis is an educational overview of U.S. federal rules, not individualized tax, investment or withdrawal advice; state tax treatment is outside its scope. The clearest takeaway is also the most practical: a Roth IRA’s balance is only one piece of the picture. The ordering rules, qualification test, possible additional tax and account history each answer a different question. Gather the records first, identify the account type, and avoid treating a familiar phrase—“Roth money”—as a complete description of the tax result."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Publication 590-B (2025), Distributions from Individual Retirement Arrangements (IRAs)",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service, January 22, 2026",
+      "url": "https://www.irs.gov/publications/p590b",
+      "researchSourceId": "S7"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Publication 590-A (2025), Contributions to Individual Retirement Arrangements (IRAs)",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service, January 15, 2026",
+      "url": "https://www.irs.gov/publications/p590a",
+      "researchSourceId": "S3"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Instructions for Form 5329 (2025), Additional Taxes on Qualified Plans (Including IRAs) and Other Tax-Favored Accounts",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service, December 4, 2025",
+      "url": "https://www.irs.gov/instructions/i5329",
+      "researchSourceId": "S2"
+    }
+  ],
+  "id": "your-roth-ira-has-a-withdrawal-order-20261103",
+  "date": "2026-11-03",
+  "editionDate": "2026-11-03",
+  "url": "article.html?id=your-roth-ira-has-a-withdrawal-order-20261103",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/your-roth-ira-has-a-withdrawal-order-20261103.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Your Roth IRA Has a Withdrawal Order. A Roth IRA balance is not one undifferentiated pot. Federal rules sort withdrawals into categories—and knowing the sequence is only the first step in understanding the tax result.\nPeople: two women friends with distinct personal style. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: Two friends seated across from each other at a bright kitchen table, calmly reviewing a hand-drawn three-part diagram—contributions, conversions and earnings—beside a laptop and coffee mugs; approachable and informative, without suggesting a withdrawal recommendation.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends doing separate resistance-band exercises in a bright living room, each using a different band setup and comparing notes in a small training log. | An older family member points to a preferred outfit pairing while a couple holds up two clothing options for comparison. | Two friends pause beside a large boulder on a public trail, comparing a field notebook with a regional geologic map. | Two friends at a library table compare a museum’s online collection record with its deaccession policy, taking notes beside an open laptop. | Two friends seated at a kitchen table reviewing an old home’s records and a renovation estimate before work begins.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

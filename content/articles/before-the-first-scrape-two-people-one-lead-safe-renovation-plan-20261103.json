@@ -1,0 +1,79 @@
+{
+  "category": "Living",
+  "title": "Before the First Scrape: Two People, One Lead-Safe Renovation Plan",
+  "subtitle": "A practical pause before painting, sanding or replacing windows can help turn an old-house question into a safer, clearer project brief.",
+  "imageAlt": "Two friends seated at a kitchen table reviewing an old home’s records and a renovation estimate before work begins.",
+  "imageConcept": "A warm, documentary-style scene of two adult siblings or friends at a kitchen table with a renovation estimate, a home-records folder and a notebook open between them; an older painted window is visible in the background, with no tools or active renovation.",
+  "body": [
+    [
+      "The safest first tool is a pause",
+      "A renovation can feel like a sequence of visible decisions: choose a color, book a contractor, clear the room. In an older home, there is one less visible question to settle first: could the work disturb lead-based paint? Homes built before 1978 may contain it, and CDC says common renovation activities such as sanding, cutting and replacing windows can create hazardous lead dust [1]. \n\nThis is a planning story, not a do-it-yourself testing or removal guide. The useful role for a sibling, friend or housemate is to help the homeowner gather facts, identify the right questions and keep the answers together. A second person can notice a missing detail, take notes with permission and help make sure a contractor’s explanation is understood before work starts. The homeowner remains the decision-maker."
+    ],
+    [
+      "Start with the building and the job",
+      "Write down what is known about the home’s age and where that information came from. Look for property records, tax assessments, closing documents or other reliable records; if the year remains uncertain, mark it as unknown rather than guessing. The distinction matters because EPA says the federal Renovation, Repair and Painting rule generally requires paid firms disturbing paint in pre-1978 housing to be certified, subject to exceptions [2].\n\nNext, describe the planned work in ordinary language: “replace the original windows,” “sand the painted railing,” or “open the wall around this door.” Add the rooms and surfaces involved, and note whether children or other residents will continue using nearby areas. This is not a technical assessment. It is a clear brief that helps a qualified professional respond to the actual project rather than a vague request to “make it safe.”"
+    ],
+    [
+      "Ask which question needs answering",
+      "“Is there lead paint?” and “Is there a lead hazard?” are related questions, but they are not interchangeable. CDC describes a lead-paint inspection as a way to identify lead-based paint on painted components. A risk assessment looks for lead hazards and helps determine what steps may be needed [1]. Which service is appropriate depends on the home and the decision the owner needs to make; the family should not infer that one result automatically answers every other question.\n\nBefore hiring someone to evaluate the home, write down the decision that prompted the inquiry. Is the owner trying to learn whether particular surfaces contain lead? Are they concerned about dust or deteriorating paint? Are they planning a specific renovation? Ask a qualified professional which service fits that purpose, what areas it covers, what the results can and cannot tell you, and whether the proposed work changes the recommendation. Keep the answers and any reports with the home’s records."
+    ],
+    [
+      "Verify the contractor and the local rules",
+      "For paid renovation work covered by the federal Renovation, Repair and Painting rule, the firm must follow applicable lead-safe requirements. EPA says the rule generally covers work in pre-1978 housing and child-occupied facilities, while setting out exceptions; where there is no documentation that paint is not lead-based, the rule’s requirements apply [2]. Window replacement and demolition have specific treatment under the rule, so do not assume that a project is too small to ask about. \n\nBefore agreeing to a start date, ask the firm for its relevant certification and confirm it through the appropriate official search or program. Ask whether the person overseeing the job is trained for the work and what lead-safe practices the project will use. EPA advises homeowners planning work in pre-1978 homes to hire a lead-safe contractor certified and trained in lead-safe practices [3]. A contractor’s assurance that they “do this all the time” is not a substitute for checking the credentials and rules that apply where the home is located."
+    ],
+    [
+      "Make the work plan specific enough to check",
+      "A useful plan should make clear who is responsible for the work area, how occupants and belongings will be protected, how dust and debris will be controlled, and how cleanup will be handled. Ask how the contractor will communicate if the work uncovers a condition that changes the scope. Find out what the household should do before work begins, whether anyone should stay away from the area, and what the contractor will use to determine when it can be used again.\n\nThese are questions to put to the qualified firm, not instructions for a homeowner to improvise containment or cleanup. Ask for the answers in writing, along with the planned work dates and the name of the person to contact. If the explanation is unclear, pause and ask for it to be restated in plain language. A responsible handoff gives the owner a chance to resolve uncertainty before painted material is disturbed."
+    ],
+    [
+      "Let two people share the paperwork, not the risk",
+      "The homeowner can invite another person to help organize the process without making that person responsible for technical judgments. One person might collect the home’s build-year records while the other lists the surfaces and work proposed. Together, they can prepare questions, attend a contractor meeting if the owner wants company, and record the answers. They can also check that the owner has copies of any inspection, assessment, certification details and written work plan.\n\nKeep personal information limited to what the work requires, and ask the homeowner before sharing documents. If the home is rented, jointly owned or subject to local rules, identify who has authority to approve work and which local housing or lead program can clarify obligations. If a contractor cannot answer a straightforward question about certification, protections or cleanup, the next step is not to debate technical details at the kitchen table. It is to contact the relevant program or seek another qualified professional."
+    ],
+    [
+      "Leave the first scrape off the calendar for now",
+      "At the next unhurried moment, sit with the homeowner and make a one-page project note: the home’s known or uncertain build year, the proposed work and rooms, records already found, the professional whose advice is needed, and the questions still open. Choose one person to contact the applicable state, Tribal or local program and one person to keep the written responses with the project papers. Before anyone books a start date, read the note back together and check that no question has been turned into an assumption. The aim is not to make an old home feel alarming; it is to make the next decision informed, documented and genuinely the homeowner’s."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "About Lead in Paint",
+      "authors": "National Center for Environmental Health",
+      "publication": "Centers for Disease Control and Prevention; published May 15, 2024; updated July 30, 2024; reviewed August 25, 2026",
+      "url": "https://www.cdc.gov/lead-prevention/prevention/paint.html",
+      "researchSourceId": "S84"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Renovation, Repair and Painting Program: Contractors | US EPA",
+      "authors": "U.S. Environmental Protection Agency",
+      "publication": "U.S. Environmental Protection Agency; last updated March 31, 2026",
+      "url": "https://www.epa.gov/lead/renovation-repair-and-painting-program-contractors",
+      "researchSourceId": "S56"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Renovation, Repair and Painting (RRP) Program: Consumers | US EPA",
+      "authors": "U.S. Environmental Protection Agency",
+      "publication": "U.S. Environmental Protection Agency; last updated May 27, 2026",
+      "url": "https://www.epa.gov/lead/renovation-repair-and-painting-rrp-program-consumers?trk=article-ssr-frontend-pulse_little-text-block",
+      "researchSourceId": "S62"
+    }
+  ],
+  "id": "before-the-first-scrape-two-people-one-lead-safe-renovation-plan-20261103",
+  "date": "2026-11-03",
+  "editionDate": "2026-11-03",
+  "url": "article.html?id=before-the-first-scrape-two-people-one-lead-safe-renovation-plan-20261103",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/before-the-first-scrape-two-people-one-lead-safe-renovation-plan-20261103.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Before the First Scrape: Two People, One Lead-Safe Renovation Plan. A practical pause before painting, sanding or replacing windows can help turn an old-house question into a safer, clearer project brief.\nPeople: two adult siblings or close friends collaborating. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: A warm, documentary-style scene of two adult siblings or friends at a kitchen table with a renovation estimate, a home-records folder and a notebook open between them; an older painted window is visible in the background, with no tools or active renovation.\nAvoid repeating these recent WILDWIRE image scenes: A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends doing separate resistance-band exercises in a bright living room, each using a different band setup and comparing notes in a small training log. | An older family member points to a preferred outfit pairing while a couple holds up two clothing options for comparison. | Two friends pause beside a large boulder on a public trail, comparing a field notebook with a regional geologic map. | Two friends at a library table compare a museum’s online collection record with its deaccession policy, taking notes beside an open laptop.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

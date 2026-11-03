@@ -1,0 +1,83 @@
+{
+  "category": "Culture",
+  "title": "The Collection Has an Exit Trail",
+  "subtitle": "When a museum object leaves a collection, its story may continue elsewhere. Here’s how to trace the decision, the destination and the record that remains.",
+  "imageAlt": "Two friends at a library table compare a museum’s online collection record with its deaccession policy, taking notes beside an open laptop.",
+  "imageConcept": "Two friends seated side by side at a library table, one viewing a museum collection page on a laptop while the other writes four questions—why, who approved, where next, what record remains—on a sheet of paper; quiet, thoughtful, documentary lighting.",
+  "body": [
+    [
+      "An object’s story doesn’t stop at the exit",
+      "A museum’s collection page can make an object feel settled: a name, a date, perhaps a photograph and a short history. But collections change. Sometimes an institution formally removes an object from its collection, and sometimes the object later leaves its ownership or control. Either way, the public record may hold clues to what happened next—and to what remains uncertain.\n\nThat makes deaccessioning a useful subject for curious museum-goers, not just specialists. Pick an object a museum has publicly identified as deaccessioned and follow four questions: Why did it leave? Who approved the decision? What happened to it afterward? What record survives? The exercise is less about reaching a verdict than learning to distinguish documented facts from assumptions."
+    ],
+    [
+      "First, separate the decision from the destination",
+      "“Deaccessioning” and “disposal” can describe different steps. The National Museum of Ireland defines de-accessioning as formal removal from its catalogued collection and disposal as physical removal. Its policy also notes that an object can leave the core collection yet remain at the museum, for instance in a handling collection. In other words, “deaccessioned” does not automatically mean sold, discarded or gone from the building. [1]\n\nThat distinction is a starting point, not a universal definition. Institutions use policies shaped by their own mandates and legal settings. Read the terms the museum itself uses, then check what it says happens after the collection status changes. If its public notice is brief, that may simply mean the next answer lives in a policy, report or collection record rather than in the announcement."
+    ],
+    [
+      "Choose an object with a public trail",
+      "Start with a museum website, not a rumour or a social-media post. Search its collection pages, news releases or published collection-review material for an object explicitly described as deaccessioned. Save the page title and date, and note the object’s name, maker or origin if provided, accession number, and any cited provenance. Those details help distinguish one object from another, especially when titles are broad or works belong to a series.\n\nThen find the museum’s current collections-management or deaccession policy. Read the relevant section closely, including its definitions and any limits on what information can be disclosed. A publicly accessible policy tells you what the institution says its process should be; it does not, by itself, prove every step taken in a particular case. Keep those two kinds of evidence separate as you work."
+    ],
+    [
+      "Ask why—without deciding too soon",
+      "Look for the institution’s stated reason. Policies may permit review for reasons such as a work being outside the museum’s mission, redundant, questionable in authenticity or attribution, or beyond the museum’s capacity to conserve responsibly. [2] These are examples of possible policy criteria, not explanations for any specific object. The reason for your chosen case should come from its own documentation.\n\nWrite the explanation in the museum’s terms before paraphrasing it. Is the stated issue that the object falls outside the collecting remit, that its attribution or ownership history is uncertain, or that it is unsuitable for the collection? These are not interchangeable claims. If the public explanation gives no reason, mark that gap as “not found in the sources checked”—not as evidence of a hidden motive. A careful trail leaves room for what the record does not tell you."
+    ],
+    [
+      "Follow the approval trail",
+      "Next, find out who was responsible for the decision and what review the policy describes. The Museum of Modern Art’s collections-management policy, for example, sets out a multi-step process involving curators, its Chief Curator and Director, a Trustee Committee and, in specified cases, the Board of Trustees. That is MoMA’s process, not a template every museum must follow. [2]\n\nFor your object, look for a board or committee record, a public notice, an annual report or another institutional document that names the approving body. Compare what you find with the museum’s policy, but avoid treating silence on a public webpage as proof that approval did not occur. Some records may not be published online, and an institution’s obligations depend on its context. Record the approving role or body exactly as stated; don’t turn a policy’s general process into a claim about the individual case."
+    ],
+    [
+      "Find out where the object went",
+      "The destination is a separate question from the reason for removal. An object might be retained elsewhere within the institution, transferred to another public collection, returned, sold or handled through another route allowed by that institution’s policy. The possibilities vary, and a policy listing them does not tell you which one occurred in your case.\n\nLook for a specific destination in the museum’s notice or a later record. If it says “transferred,” check whether it names the receiving institution. If it says “returned,” note to whom or to what community only when the source makes that clear. If a source does not identify a destination, write “not publicly specified in the material located.” That plain sentence is more useful than guessing. It also keeps the object’s path distinct from judgments about whether a particular outcome was appropriate."
+    ],
+    [
+      "Treat the record as part of the story",
+      "An object can leave a collection without vanishing from its history. The College Art Association’s guidance says information such as provenance, accession, display, publication, loans, preservation and disposition should continue to be preserved in collection records after deaccession. It also recommends announcing deaccessions. This is professional guidance, not automatically a legal requirement for every museum. [3]\n\nFor your trace, look for an accession number, catalogue entry, archived notice or collection-change report, and note whether the museum has changed the object’s status or left an earlier record available. A continuing record can help researchers understand how the object was collected, cared for and interpreted. It is also a practical check against a common misunderstanding: removal from a collection does not necessarily mean the institution has erased the object from its documentation."
+    ],
+    [
+      "A two-friend trace, in four questions",
+      "Try the exercise with a friend in about half an hour. Choose one publicly identified object and open its collection record and the museum’s policy. Divide the work: one person follows the object-specific material, while the other checks what the policy says. On one page, make four headings—reason, approval, destination, continuing record—and list the source beside every answer.\n\nUse three labels as you go: “stated by the museum,” “policy describes,” and “not found.” These keep a public claim, a general procedure and an unanswered question from blending together. Before you finish, compare notes and check that each conclusion is supported by the source named beside it. You do not need to settle whether the decision was right. The useful result is a clear map of what can be established, what the institution says its process is, and where the trail currently goes quiet."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "De-accession and Disposal Policy",
+      "authors": "National Museum of Ireland",
+      "publication": "National Museum of Ireland; approved June 19, 2025",
+      "url": "https://source.museum.ie/en-IE/About/Corporate-Information/Policies-Guidelines/Disposal-Policy",
+      "researchSourceId": "S39"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Collections Management Policy",
+      "authors": "The Museum of Modern Art",
+      "publication": "The Museum of Modern Art; approved June 4, 2024",
+      "url": "https://production-gcp.moma.org/docs/about/Collections-Management-2024-Policy-06-04-2024.pdf",
+      "researchSourceId": "S9"
+    },
+    {
+      "sourceId": "S3",
+      "title": "STATEMENT CONCERNING THE DEACCESSION OF WORKS OF ART",
+      "authors": "College Art Association",
+      "publication": "College Art Association",
+      "url": "https://www.collegeart.org/standards-and-guidelines/guidelines/deaccession",
+      "researchSourceId": "S14"
+    }
+  ],
+  "id": "the-collection-has-an-exit-trail-20261103",
+  "date": "2026-11-03",
+  "editionDate": "2026-11-03",
+  "url": "article.html?id=the-collection-has-an-exit-trail-20261103",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-collection-has-an-exit-trail-20261103.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Collection Has an Exit Trail. When a museum object leaves a collection, its story may continue elsewhere. Here’s how to trace the decision, the destination and the record that remains.\nPeople: two adult friends of different genders. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: thoughtful companions paying attention, discussing or questioning something cultural.\nScene concept: Two friends seated side by side at a library table, one viewing a museum collection page on a laptop while the other writes four questions—why, who approved, where next, what record remains—on a sheet of paper; quiet, thoughtful, documentary lighting.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends doing separate resistance-band exercises in a bright living room, each using a different band setup and comparing notes in a small training log. | An older family member points to a preferred outfit pairing while a couple holds up two clothing options for comparison. | Two friends pause beside a large boulder on a public trail, comparing a field notebook with a regional geologic map.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
