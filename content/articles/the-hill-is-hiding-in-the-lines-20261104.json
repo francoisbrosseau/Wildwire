@@ -1,0 +1,83 @@
+{
+  "category": "Explore",
+  "title": "The Hill Is Hiding in the Lines",
+  "subtitle": "A familiar trail can become a lesson in reading terrain. Bring a topographic map, choose one feature to find, and compare its lines with the land beneath your feet.",
+  "imageAlt": "Two friends pause on a marked park trail to compare a folded topographic map with the wooded ridge ahead.",
+  "imageConcept": "Two friends stand at a signed trail junction in a green park, one holding an open topographic map while the other looks toward a rounded ridge in the distance; the scene feels curious and unhurried, with the trail clearly visible.",
+  "body": [
+    [
+      "Start with a walk you already know",
+      "A topographic map turns elevation into a pattern of lines. That can make a familiar park walk feel newly legible: the rise you usually notice only in your legs now has a shape on paper, and the dip in the trail may belong to a larger valley. The point of this two-friend exercise is not to prove who can navigate or to find a shortcut. It is to pick one feature—a hill, ridge or valley—and see how a map represents it while staying on a familiar, signed route. A topographic map uses contour lines to connect places at the same elevation; the pattern helps show the shape and slope of the land [1]."
+    ],
+    [
+      "Find the right map before you go",
+      "Choose a route you both know, then find a topographic map that covers it. The National Park Service points readers to USGS topoView for historical maps and the National Map for the most current map version of an area [2]. Check the park or land manager’s own site as well for current access, closures and trail conditions. A map can be accurate about the terrain and still fail to reflect a newly closed trail or a changed route. Download or print what you need before leaving, and make sure both friends can identify the trail on the map. This is a learning walk, not a reason to rely on an unfamiliar map as your only navigation plan."
+    ],
+    [
+      "Read the small print together",
+      "Before heading out, find the scale and contour interval, usually in the map’s legend or near its scale. The scale relates distances on the map to distances on the ground; it helps you judge how much land a short stretch of paper represents. The contour interval is the vertical elevation difference between neighboring contour lines [3]. Read the units, too: feet and metres make a difference when you are trying to interpret a climb. If the interval is 20 feet, for example, each step from one contour line to the next represents 20 feet of elevation change. That does not mean the trail rises smoothly by that amount; the lines describe the land, not the exact path your feet will take."
+    ],
+    [
+      "Choose one feature, not the whole landscape",
+      "Spread the map somewhere comfortable and point to a single feature you can also recognize from the trail: perhaps a rounded high point, a long ridge or a low area between rises. Agree on what you think it will look like in the contour pattern before setting off. Contour lines show the shape of the Earth's surface, including mountains, valleys, and the steepness of slopes [1]. Treat these as clues to test, not a puzzle with one dramatic answer."
+    ],
+    [
+      "Make the map-land comparison",
+      "At the trailhead, orient the map enough to locate the marked route and the feature you chose. You do not need to turn this into a compass lesson: begin with the trail’s name, junctions or other recognizable landmarks, and use the map’s labels and north indicator as reference. As you walk, pause at a safe place where you can see the surrounding ground. Ask each other: Where does the land rise? Which way does the ridge seem to run? Is there a low point between the trail and the feature? Then look back at the contours. If you disagree, describe what each person sees before trying to reconcile it with the map. Keep the comparison from a stable spot beside the trail; don’t leave the marked route to get a better view."
+    ],
+    [
+      "Let the spacing do some of the talking",
+      "Contour spacing is an especially useful detail because it gives a visual impression of slope. Contour lines connect points of equal ground elevation, and studying them can show the general shape of the land [3]. Trace a small section with a finger, then look for the corresponding rise or descent from the trail. The map will not show every bump, tree, rock or change in trail surface, so it cannot tell you exactly how a slope will feel underfoot. Nor does a straight line between two points mean there is a straight, walkable route between them. The map helps you ask better questions about the land; it does not replace the trail itself."
+    ],
+    [
+      "Keep the lesson grounded in the route",
+      "A useful first walk needs little equipment: a current map for the area, a pen or finger to follow the lines, and enough time for a few pauses. Before leaving, check the land manager’s guidance and tell someone your plans if that is part of your usual outdoor routine. On the trail, stay together, follow posted rules and turn back if conditions or access make that the sensible choice. If the map and landscape seem not to match, first check that you are looking at the right trail segment and feature. Then consider the map’s date and level of detail. A discrepancy is not a challenge to push farther into unfamiliar terrain; it is a reminder that a map is a model, not the ground."
+    ],
+    [
+      "Bring one observation home",
+      "At the end, each friend can name one detail that became easier to notice: the way a ridge continues beyond the first rise, how a contour pattern gathers around a hill, or how a gentle-looking stretch of trail still climbs. Write the observation beside the feature on your map, or simply talk it through while you walk back. Next time, you might choose a different feature or compare the same route in another season, while checking current access and conditions again. The satisfying part is the exchange between page and place: one person points to a line, the other spots a shape, and the map gives both of you a reason to look a little longer."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "What is a topographic map? | U.S. Geological Survey",
+      "authors": "U.S. Geological Survey",
+      "publication": "U.S. Geological Survey; updated August 1, 2025",
+      "url": "https://www.usgs.gov/faqs/what-a-topographic-map?items_per_page=6&page=1",
+      "researchSourceId": "S3"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Maps - Alaska Public Lands (U.S. National Park Service)",
+      "authors": "National Park Service",
+      "publication": "National Park Service, Alaska Public Lands; last updated January 29, 2025",
+      "url": "https://www.nps.gov/anch/planyourvisit/maps.htm",
+      "researchSourceId": "S35"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Understanding Maps",
+      "authors": "USDA Forest Service",
+      "publication": "USDA Forest Service, Shasta-Trinity National Forest; revised April 2011",
+      "url": "https://www.fs.usda.gov/media/135021",
+      "researchSourceId": "S27"
+    }
+  ],
+  "id": "the-hill-is-hiding-in-the-lines-20261104",
+  "date": "2026-11-04",
+  "editionDate": "2026-11-04",
+  "url": "article.html?id=the-hill-is-hiding-in-the-lines-20261104",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-hill-is-hiding-in-the-lines-20261104.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Hill Is Hiding in the Lines. A familiar trail can become a lesson in reading terrain. Bring a topographic map, choose one feature to find, and compare its lines with the land beneath your feet.\nPeople: two men friends with different backgrounds. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two friends stand at a signed trail junction in a green park, one holding an open topographic map while the other looks toward a rounded ridge in the distance; the scene feels curious and unhurried, with the trail clearly visible.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends practice bodyweight squats side by side, each using a comfortable depth and checking their own balance. | Three generations of a family look over a travel itinerary and choose their own outfits at a bedroom table, with a light jacket, comfortable shoes and a notebook nearby.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

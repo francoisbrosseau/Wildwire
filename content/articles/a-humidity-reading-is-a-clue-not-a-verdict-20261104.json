@@ -1,0 +1,83 @@
+{
+  "category": "Living",
+  "title": "A Humidity Reading Is a Clue, Not a Verdict",
+  "subtitle": "A simple two-person home moisture map can help you notice patterns, check for visible signs and choose a sensible next step—without mistaking one number for a mold test.",
+  "imageAlt": "Two friends compare a small digital hygrometer reading with notes while checking a bright home interior for condensation near a window.",
+  "imageConcept": "Two friends in a lived-in home, one holding a digital hygrometer and the other noting the time and room on a small paper map; natural window light, with no visible mold or alarmist imagery.",
+  "body": [
+    [
+      "Start with a clue, not a conclusion",
+      "A small hygrometer can make indoor humidity easier to notice. It cannot tell you whether mold is present, whether a wall is damp inside, or why moisture might be collecting. Relative humidity describes moisture in the air at a particular place and moment; it is one piece of information about a home, not a verdict on the home itself. A single reading can be affected by where the device sits and what is happening nearby. Treat it as a prompt to compare, observe and ask better questions—not as a diagnosis. The useful practice is especially simple with a friend, sibling or housemate: take a few readings together, note what you can see, and decide whether anything deserves follow-up."
+    ],
+    [
+      "Make the comparison fair",
+      "Before walking around, choose one hygrometer and agree on a short, repeatable log. For each check, write the date and time, the room or location, the relative-humidity reading, and anything relevant happening there: a shower just finished, dinner is cooking, a window is open, or a humidifier is running. Keep the device in a similar position for each measurement rather than holding it beside a steamy pot or placing it directly against a window. Give it time to settle according to its instructions. You do not need a scientific survey or a perfect record. A handful of clearly labeled observations is more useful than a page of numbers with no context."
+    ],
+    [
+      "Walk the home in a few ordinary moments",
+      "Choose two or three places people actually use, such as a bedroom, the main living area and a bathroom or kitchen. Take a baseline reading in each, recording the location and time. If you want to understand what an everyday moisture-producing activity changes, repeat a check after cooking or showering and note when it happened. EPA guidance identifies cooking and showering as sources of indoor humidity, and explains that condensation can be a sign of high humidity [1]. That does not mean every brief reading after a shower signals a problem. The point is to see whether a change is local, temporary or repeated. Compare like with like where possible: the same room, a similar device position, and a note of what had just taken place."
+    ],
+    [
+      "Look around, not only down",
+      "At each stop, take a calm look for condensation on windows or other cold surfaces, damp patches, obvious leaks, or a persistent musty odor. Note what you observe in plain language: “water on lower window edge after shower,” for example, is more useful than “bad air.” Avoid opening walls or moving heavy items to investigate hidden areas. The National Institute for Occupational Safety and Health says excess moisture is generally the major cause of indoor mold growth, and that a thorough visual inspection or musty odors can be more reliable clues than short-term air sampling [3]. These clues are still not a home diagnosis. They help you decide whether there is a moisture source to address or a concern that merits professional advice."
+    ],
+    [
+      "Use the range as guidance, not a pass mark",
+      "The EPA says indoor relative humidity is ideally 30–50% if possible and recommends keeping it below 60% [1]. CDC guidance advises keeping home humidity at or below 50% [2]. Those figures are useful reference points, not a guarantee that mold will or will not grow. If a reading is above the guidance, repeat it under ordinary conditions and check for condensation or other moisture clues. If it is within range, that still does not rule out a leak or dampness inside a surface. A display reading is about the air where the device is; moisture conditions can be different on or inside building materials. Use the number to start a practical check, not to declare a room safe or unsafe."
+    ],
+    [
+      "Choose a next step that fits what you found",
+      "If the log suggests a repeatable rise in one area, ask what could be contributing: a humidifier setting, ventilation after bathing or cooking, or a visible plumbing or roof leak. EPA says indoor relative humidity should be kept below 60%—ideally 30–50%, if possible—and notes that condensation can be a sign of high humidity [1]. If you use one, check its instructions and make any adjustment within them. If you see a leak, record its location and when you noticed it, then contact the responsible person—such as a landlord, building manager or qualified professional. Agree who will make that call and when. One small, assigned follow-up is more useful than repeatedly checking a number without changing or investigating anything."
+    ],
+    [
+      "Know when a meter is the wrong tool",
+      "A humidity map cannot establish whether mold is present, especially in a concealed space. CDC does not recommend home mold testing [2]. NIOSH likewise does not recommend routine indoor-air mold sampling; it notes that visual inspection or musty odors may provide more useful information than short-term air sampling [3]. If there is visible mold, persistent dampness, significant water damage or a concern about health, seek appropriate professional or public-health guidance rather than trying to interpret a hygrometer as a test result. This is also a reason not to let the exercise become an argument about a single reading. The log can help you explain what you observed and where; it cannot replace an inspection or individualized advice."
+    ],
+    [
+      "Leave the map with one useful question",
+      "Try the walk once when neither of you is rushing. Pick three lived-in spots, take the readings in a consistent way, and write down the time, location and obvious conditions. Then compare notes: Did one place stand out? Was there visible condensation, a damp area or an odor that needs attention? Finish by choosing one next step, if any, and naming who will take it—perhaps checking a humidifier’s instructions or contacting the person responsible for a leak. Keep the record modest and factual. Its value is not in proving that the home is fine or failing; it is in making the next conversation clearer and the next action easier to take."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Mold Course Chapter 2: Why and Where Mold Grows",
+      "authors": "U.S. Environmental Protection Agency",
+      "publication": "U.S. Environmental Protection Agency; last updated December 1, 2025",
+      "url": "https://www.epa.gov/mold/mold-course-chapter-2",
+      "researchSourceId": "S3"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Mold",
+      "authors": "National Center for Environmental Health",
+      "publication": "Centers for Disease Control and Prevention; September 26, 2024",
+      "url": "https://www.cdc.gov/mold-health/about/",
+      "researchSourceId": "S4"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Mold, Testing, and Remediation",
+      "authors": "National Institute for Occupational Safety and Health",
+      "publication": "Centers for Disease Control and Prevention; published May 15, 2024; updated October 28, 2026",
+      "url": "https://www.cdc.gov/niosh/mold/testing-remediation/?CDC_AAref_Val=https%3A%2F%2Fwww.cdc.gov%2Fniosh%2Ftopics%2Findoorenv%2Fwhatismold.html",
+      "researchSourceId": "S10"
+    }
+  ],
+  "id": "a-humidity-reading-is-a-clue-not-a-verdict-20261104",
+  "date": "2026-11-04",
+  "editionDate": "2026-11-04",
+  "url": "article.html?id=a-humidity-reading-is-a-clue-not-a-verdict-20261104",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/a-humidity-reading-is-a-clue-not-a-verdict-20261104.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Humidity Reading Is a Clue, Not a Verdict. A simple two-person home moisture map can help you notice patterns, check for visible signs and choose a sensible next step—without mistaking one number for a mold test.\nPeople: two adult siblings or close friends collaborating. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: Two friends in a lived-in home, one holding a digital hygrometer and the other noting the time and room on a small paper map; natural window light, with no visible mold or alarmist imagery.\nAvoid repeating these recent WILDWIRE image scenes: A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends practice bodyweight squats side by side, each using a comfortable depth and checking their own balance. | Three generations of a family look over a travel itinerary and choose their own outfits at a bedroom table, with a light jacket, comfortable shoes and a notebook nearby. | Two friends pause on a marked park trail to compare a folded topographic map with the wooded ridge ahead. | Two friends sit at a kitchen table with a small box of family photographs, a notebook and a laptop open to a local archive’s donation information.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

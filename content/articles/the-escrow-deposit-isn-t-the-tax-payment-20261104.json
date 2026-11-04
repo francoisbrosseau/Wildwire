@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "The Escrow Deposit Isn’t the Tax Payment",
+  "subtitle": "Your monthly mortgage payment may include money for property taxes. Here’s how to check when that money actually reaches the tax authority—and what matters when you file a federal return.",
+  "imageAlt": "A couple at a kitchen table compares a mortgage escrow statement with a property-tax bill and a laptop showing a payment record.",
+  "imageConcept": "two women friends with distinct personal style together, in a specific visual scene about “The Escrow Deposit Isn’t the Tax Payment”: A warm, natural-light kitchen-table scene: two homeowners side by side, calmly tracing a line on an escrow statement while a local property-tax bill and laptop sit within reach. The focus is on the paperwork and their shared attention, not financial distress.",
+  "body": [
+    [
+      "Two different events",
+      "When a mortgage includes an escrow account, part of each monthly payment is set aside for property-related costs such as property taxes and homeowners insurance. That monthly contribution is a deposit into the account; it is not, by itself, a payment to the local tax authority. The servicer later uses money in escrow to pay a bill, according to its schedule and the account’s available funds. Those are two separate steps, and the distinction matters when you’re checking whether a tax bill was paid—or deciding what amount may qualify on a federal tax return. [1]\n\nThink of the account as a passage for the money, not as a receipt from the tax office. Your monthly mortgage statement can show that you paid into escrow, while the property-tax authority’s records show whether it received the tax payment. Neither record necessarily answers the other question. To follow the money, compare the servicer’s record of an actual disbursement with the tax bill and the authority’s payment history."
+    ],
+    [
+      "Start with the annual escrow statement",
+      "The annual escrow statement is the best starting point because it looks backward and forward. The CFPB says the statement includes account activity from the prior year and a projection for the next escrow year. The accompanying analysis is used to determine projected payments and whether the account has a shortage, surplus or deficiency. [1]\n\nFind the section listing payments or disbursements, then locate the entry for property taxes. Note the amount and date. Keep that separate from deposits, which may appear as monthly contributions, and from projected future payments, which are estimates rather than completed transactions. If the statement lists several disbursements, identify which one corresponds to the tax bill you’re checking. A year-end total may combine taxes and insurance, so don’t assume that the total amount paid out represents property taxes alone.\n\nThe projection can still be useful: it helps explain what the servicer expects to collect and pay in the coming year. But a projected payment is not proof that a particular bill has already been settled. Read the account history and the forecast as different parts of the document."
+    ],
+    [
+      "Match the disbursement to the tax record",
+      "Next, compare the statement entry with the bill or online account from your local taxing authority. Check the property address or parcel number, the tax period, the amount due, the amount received, and the date recorded. If the local authority offers a payment history or receipt, save it with the escrow statement. A match between the servicer’s reported disbursement and the tax authority’s record is stronger evidence of payment than an escrow deposit alone.\n\nAllow for differences in wording and timing. The servicer’s statement may describe a payment by tax year, while the authority organizes its records by installment or billing period. A payment can also appear in one system before it appears in another. If the dates or amounts don’t line up, check the bill’s due dates and payment instructions, then look for a confirmation number, receipt or posting date in the authority’s records. Don’t treat a mismatch as proof of a missed payment until you’ve checked those details—but don’t ignore an apparent unpaid balance either.\n\nSave the documents together, preferably with a short note about what each payment covers. That small record can make a later question easier to resolve."
+    ],
+    [
+      "Why the tax distinction matters at filing time",
+      "For U.S. federal income-tax purposes, the IRS says escrow deposits themselves may not be deductible. In general, a homeowner may deduct qualifying real-estate taxes that the lender actually paid from escrow to the taxing authority—not simply the amount the homeowner deposited into escrow. Whether any amount is deductible depends on the tax rules and the taxpayer’s circumstances. [2]\n\nThat means the monthly escrow contribution is not a reliable shortcut for calculating a federal deduction. The amount collected during one calendar year can differ from the amount the servicer sends to the authority during that year. For example, payments deposited into escrow in one year may help fund a tax bill paid later; the dates of the actual disbursement matter. Use the disbursement record and tax-authority documentation when reviewing the year, and consult the current IRS guidance or a qualified tax professional if you’re unsure how the rules apply to you.\n\nThis is a federal-tax point, not a statement about every state or local tax system. Keep the distinction clear: money held in escrow and qualifying tax paid to a government authority are not automatically the same thing."
+    ],
+    [
+      "If your monthly payment changed",
+      "A higher mortgage payment can prompt a closer look at escrow, but the change alone doesn’t show that a tax bill went unpaid. Property taxes or insurance costs may have changed, and the servicer may adjust the amount collected to reflect its updated analysis. The CFPB says a change in your total monthly payment without notice that your taxes or insurance premiums will change can be a sign of an escrow issue. [3]\n\nRead the payment-change notice alongside the annual escrow analysis. Look for the previous and projected tax or insurance costs, any shortage or surplus calculation, and the new monthly amount. If the tax estimate rose, compare it with the latest tax bill or assessment information available to you. If the monthly amount changed but the explanation is unclear, ask the servicer to identify which part of the payment changed and why. Keep the answer with the statement; it can help you distinguish a revised estimate from a concern about an actual disbursement.\n\nA shortage can mean the account’s available balance is below the amount the analysis says it needs. It does not, by itself, establish that the servicer failed to pay a bill. Check the account history and tax record before drawing that conclusion."
+    ],
+    [
+      "When the records don’t agree",
+      "If the local tax account shows an unpaid balance, or the annual statement doesn’t explain a payment you expected, contact the mortgage servicer. Have the account statement, tax bill, parcel details and any local payment record in front of you. Ask a specific question: Was the bill paid? On what date, for what amount, and to which tax account? If it was paid, ask for the payment details or confirmation the servicer can provide. If it wasn’t, ask what action is being taken and what you should do about any approaching deadline.\n\nThe CFPB advises homeowners with escrow problems to monitor mortgage statements as well as tax and insurance bills, and explains that contacting the servicer is a next step. Depending on the issue, an information request or notice of error may be appropriate. Keep a copy of anything you send and note when you sent it. [3]\n\nIf a tax deadline is near, contact the tax authority as well to understand the balance, due date and available options. Don’t assume either organization has already resolved the issue because the other one has been contacted. If the question remains unresolved, consider seeking help from a qualified housing counselor or legal professional."
+    ],
+    [
+      "A practical yearly check",
+      "Set aside the annual escrow statement when it arrives. First, mark the actual tax disbursement and its date. Second, compare it with the local authority’s record for the same property and tax period. Third, save both records together and note any difference that needs follow-up. Then read the next-year projection separately, so an estimate doesn’t get mistaken for a payment already made.\n\nThis check is useful even when everything matches: it gives you a clear record for your own files and for federal tax preparation. If the numbers don’t match, it gives you a focused question to take to the servicer or tax authority. The key is to follow the complete path—your escrow contribution, the servicer’s disbursement, and the authority’s record—rather than treating the first step as proof of the last. This is general information about U.S. mortgage servicing and federal tax treatment, not individualized tax, legal or mortgage advice."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Mortgage Servicing FAQs",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau; annual-statement guidance last updated June 2, 2021, and escrow-analysis guidance last updated April 12, 2023.",
+      "url": "https://www.consumerfinance.gov/compliance/compliance-resources/mortgage-resources/mortserv/mortgage-servicing-faqs/",
+      "researchSourceId": "S8"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Publication 530 (2025), Tax Information for Homeowners",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service; 2025 edition, posted January 29, 2026.",
+      "url": "https://www.irs.gov/publications/p530",
+      "researchSourceId": "S26"
+    },
+    {
+      "sourceId": "S3",
+      "title": "What should I do if I’m having problems with my escrow or impound account?",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau; last modified May 28, 2024.",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-im-having-problems-with-my-escrow-or-impound-account-en-2082/",
+      "researchSourceId": "S19"
+    }
+  ],
+  "id": "the-escrow-deposit-isn-t-the-tax-payment-20261104",
+  "date": "2026-11-04",
+  "editionDate": "2026-11-04",
+  "url": "article.html?id=the-escrow-deposit-isn-t-the-tax-payment-20261104",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-escrow-deposit-isn-t-the-tax-payment-20261104.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Escrow Deposit Isn’t the Tax Payment. Your monthly mortgage payment may include money for property taxes. Here’s how to check when that money actually reaches the tax authority—and what matters when you file a federal return.\nPeople: two women friends with distinct personal style. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: two women friends with distinct personal style together, in a specific visual scene about “The Escrow Deposit Isn’t the Tax Payment”: A warm, natural-light kitchen-table scene: two homeowners side by side, calmly tracing a line on an escrow statement while a local property-tax bill and laptop sit within reach. The focus is on the paperwork and their shared attention, not financial distress.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends practice bodyweight squats side by side, each using a comfortable depth and checking their own balance. | Three generations of a family look over a travel itinerary and choose their own outfits at a bedroom table, with a light jacket, comfortable shoes and a notebook nearby. | Two friends pause on a marked park trail to compare a folded topographic map with the wooded ridge ahead. | Two friends sit at a kitchen table with a small box of family photographs, a notebook and a laptop open to a local archive’s donation information. | Two friends compare a small digital hygrometer reading with notes while checking a bright home interior for condensation near a window.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
