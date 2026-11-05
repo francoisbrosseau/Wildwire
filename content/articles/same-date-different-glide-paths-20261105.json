@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "Same Date, Different Glide Paths",
+  "subtitle": "A target year is a useful starting clue, not a full description of a retirement fund. Here’s how to compare the investment mix, the plan after the date, and the costs behind the label.",
+  "imageAlt": "Two partners at a kitchen table compare retirement-fund documents on a laptop, with a notebook showing two differently shaped glide-path lines.",
+  "imageConcept": "A candid, warmly lit kitchen-table scene: two partners at different life stages look at separate retirement-plan pages on a laptop and paper, tracing two glide-path charts with a pen. The documents feel ordinary and readable without showing identifiable account information; the mood is collaborative, not anxious.",
+  "body": [
+    [
+      "The year is a label, not a promise",
+      "A target-date fund is designed around an approximate retirement year. Its name might include “2040” or “2055,” and its investments are generally adjusted over time as that date approaches. That can make the fund a convenient default or starting point, but the year does not tell you everything about what you own. It is not a forecast of when you will retire, a guarantee that your savings will be sufficient, or a promise that the fund will protect your balance from losses. The SEC’s investor bulletin stresses that target-date funds with the same year may still have different strategies, risks, glide paths and fees [1].\n\nThat distinction matters when a workplace plan offers several funds with seemingly interchangeable dates—or when two people compare their accounts and assume matching years mean matching investments. Think of the year as an index into the fund’s materials. The meaningful description is the strategy behind it: what it holds now, how that mix is expected to change, and what happens after the target date."
+    ],
+    [
+      "The glide path is the route",
+      "A glide path describes how a fund’s investment mix changes over time. Many target-date funds gradually shift toward a more conservative allocation as the target date nears, often by reducing exposure to stocks and increasing exposure to bonds or other investments. But “more conservative” is not a fixed formula, and it does not mean risk disappears. But “more conservative” does not mean risk disappears.\n\nLook for the fund’s glide-path chart in its prospectus or plan materials. Read the labels carefully: a chart may show the fund’s allocation at a particular age or number of years before and after the date. Ask what the broad categories mean in practice—such as domestic and international stocks, government and corporate bonds, or inflation-protected securities. The chart is a plan for the mix, not a prediction of returns. The SEC explains that target-date funds can lose money, including near or after the target date, and do not guarantee retirement income [1]."
+    ],
+    [
+      "“To” and “through” describe different endings",
+      "Two common approaches are described as “to” and “through.” A “to” fund generally reaches its intended most-conservative allocation around the target date. A “through” fund generally continues changing its mix after that date, often for a period of years. The terms are useful shorthand, not complete descriptions: funds using the same label can still have different allocations and different rates of change.\n\nWhy might the distinction matter? One person may expect to withdraw a substantial share of savings soon after retiring; another may plan to keep much of the account invested for decades. Those circumstances can make a fund’s post-date strategy worth understanding, but the label alone cannot determine which approach fits an individual. Find the fund’s explanation of what happens at the target date and afterward, then check the chart for the actual allocation trajectory. The SEC explains that “to” funds generally stop shifting their mix at the target date, while “through” funds continue shifting it afterward; funds with the same target date may also differ in investment strategy, glide path and fees [1]."
+    ],
+    [
+      "Same year, different portfolio",
+      "A target-date fund may invest in other funds, which in turn hold stocks, bonds or other assets. A 2017 Department of Labor-hosted study found large differences among funds with the same target year, including in risk-adjusted returns, and concluded that target year alone does not necessarily indicate risk tolerance [3]. A fund holding more stocks may have greater potential for growth and greater exposure to market declines; a larger bond allocation brings its own risks rather than a guarantee of stability.\n\nThe Government Accountability Office found variation in target-date fund mixes and risk in its analysis of Morningstar data from 2017 through 2021, with greater differences among funds closer to their target dates [2]. That is historical evidence, not a current ranking or a prediction about any particular fund. It does, however, reinforce a practical point: the date in a name is not enough to compare two options. Differences in performance over a period can reflect different allocations and markets, so past returns by themselves do not explain which fund is more suitable or what it may do next."
+    ],
+    [
+      "Fees need their own line of sight",
+      "A fund’s costs can be easy to overlook when the target year draws attention. Check the expense ratio and any other charges shown in the fund’s prospectus or your plan’s materials. If the target-date fund invests in underlying funds, look for the total operating expenses and how the disclosures present those underlying costs. Also note whether your plan lists administrative or recordkeeping charges separately; a fund expense ratio may not capture every fee you pay through the plan.\n\nCompare like with like. A lower-cost fund is not automatically the right choice, and a higher fee does not establish better results. Instead, identify what the fee covers and read it alongside the investment mix, glide path and post-date policy. Use the most current prospectus, summary prospectus, annual report or plan fact sheet available. If a document is unclear, ask the plan administrator where the complete fee information is shown. The SEC bulletin identifies fees as one of the meaningful differences that can exist among funds sharing a target date [1]."
+    ],
+    [
+      "A 20-minute, two-person document check",
+      "If you share finances with someone, compare your own funds side by side without assuming you should choose the same date or make the same investment decision. Start with the fund name and the account or plan where it is held. Then use each fund’s current materials to fill in five lines: (1) present stock, bond and other-asset mix; (2) the glide-path chart; (3) whether the approach is “to” or “through”; (4) the allocation and stated approach after the target date; and (5) expense ratio and other plan charges.\n\nWrite down questions rather than trying to settle them from a marketing page. For example: Does the chart show the allocation at the target date or years later? Are international investments included in the stock figure? Is the fee shown for the whole fund or only one layer? If the plan offers a collective investment trust rather than a mutual fund or ETF, note that the SEC bulletin’s stated scope is registered mutual funds and ETFs, not collective investment trusts [1]. Ask the plan administrator for the relevant trust or plan disclosures. Each person can then decide what needs follow-up, without turning the comparison into a joint vote."
+    ],
+    [
+      "Use the label to ask better questions",
+      "A target-date fund can simplify the work of maintaining an investment mix, but it does not remove the need to understand the fund’s design or to consider your broader situation. Retirement timing, other savings, expected withdrawals, comfort with risk and the possibility of working longer can all affect what questions deserve attention. The fund’s target year cannot account for every personal circumstance, and no general comparison can determine an individual’s best choice.\n\nThe useful takeaway is modest and concrete: look past the date. Read the current glide-path chart, learn how the mix changes at and after the target, identify the underlying investments and fees, and verify what type of fund your plan offers. If the materials leave important questions unanswered, contact the plan administrator or a qualified financial professional. This is educational information, not individualized investment, legal or tax advice; it does not predict returns or recommend buying, selling or changing an investment."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Target Date Funds – Investor Bulletin",
+      "authors": "SEC Office of Investor Education and Assistance",
+      "publication": "Investor.gov / U.S. Securities and Exchange Commission, March 25, 2025",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/target-date-funds-investor-bulletin",
+      "researchSourceId": "S31"
+    },
+    {
+      "sourceId": "S2",
+      "title": "401(k) Retirement Plans: Department of Labor Should Update Guidance on Target Date Funds",
+      "authors": "U.S. Government Accountability Office",
+      "publication": "U.S. Government Accountability Office; published March 28, 2024; publicly released April 29, 2024",
+      "url": "https://www.gao.gov/products/gao-24-105364",
+      "researchSourceId": "S55"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Characteristics and Performance of Target Date Funds in the United States",
+      "authors": "Constantijn W.A. Panis, PhD, and Michael J. Brien, PhD",
+      "publication": "U.S. Department of Labor, September 19, 2017",
+      "url": "https://www.dol.gov/sites/dolgov/files/EBSA/researchers/analysis/retirement/target-date-funds-characteristics-performance.pdf",
+      "researchSourceId": "S52"
+    }
+  ],
+  "id": "same-date-different-glide-paths-20261105",
+  "date": "2026-11-05",
+  "editionDate": "2026-11-05",
+  "url": "article.html?id=same-date-different-glide-paths-20261105",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/same-date-different-glide-paths-20261105.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Same Date, Different Glide Paths. A target year is a useful starting clue, not a full description of a retirement fund. Here’s how to compare the investment mix, the plan after the date, and the costs behind the label.\nPeople: a couple with visibly different ages and life experience. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: A candid, warmly lit kitchen-table scene: two partners at different life stages look at separate retirement-plan pages on a laptop and paper, tracing two glide-path charts with a pen. The documents feel ordinary and readable without showing identifiable account information; the mood is collaborative, not anxious.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two adult friends sit at a table after training, each reviewing a separate workout note and comparing what they noticed without judging one another. | Two friends compare everyday bags beside a bench, checking how each sits with their outfits and daily essentials. | Three family members of different generations sit at the edge of a meadow at dusk, looking toward fireflies while one holds an open notebook; no lights or insects are visible in their hands. | Two friends of different ethnic backgrounds sit side by side, studying a museum object page on a tablet, with the artwork and its rights information visible on screen. | Two partners sit at separate desks near a window, comparing monitor positions and adjusting their own screens.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

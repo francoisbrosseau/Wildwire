@@ -1,0 +1,83 @@
+{
+  "category": "Culture",
+  "title": "The Download Button Has Fine Print",
+  "subtitle": "A practical guide to reusing museum images: check the rights label, credit the people behind the image, and keep permission separate from judgment.",
+  "imageAlt": "Two friends of different ethnic backgrounds sit side by side, studying a museum object page on a tablet, with the artwork and its rights information visible on screen.",
+  "imageConcept": "A warm, candid scene of two friends from different ethnic backgrounds looking together at a museum collection page on a tablet. The image itself is visible alongside a clearly legible rights or object-information panel; neither person is positioned as the expert correcting the other.",
+  "body": [
+    [
+      "The image is not the whole story",
+      "A museum image can feel like a ready-made resource: it appears online, the download button is right there, and the artwork may be centuries old. But the visible picture is only one part of the record. There is the historical work, the photograph or digital file that represents it, and the terms attached to that particular file. Those layers do not always share the same rights status. A few minutes spent checking the museum’s object page can prevent a misleading credit, an avoidable permission problem, or a use that strips away important context. This is not a request to become a copyright specialist. It is a habit of cultural literacy: look at what you are sharing, where it comes from, and what the institution says about using it."
+    ],
+    [
+      "An old artwork and a new file are different things",
+      "In the United States, copyright protection generally applies to original works once they are fixed in a tangible form, and protection begins automatically rather than through a required registration process [1]. That broad principle is a starting point, not a shortcut for deciding the status of a particular image. An artwork might be out of copyright while a photograph, scan, or other digital representation has its own terms; the applicable rules can also differ by country and by the use being made. A museum’s online record helps identify the specific image and the institution’s stated position. Treating “it looks old” or “it was on a museum website” as a rights label skips the very information that makes a responsible decision possible."
+    ],
+    [
+      "Why one collection can have several answers",
+      "Open access is not a universal switch applied to every object in a collection. The Metropolitan Museum of Art’s 2017 announcement described making images of artworks it believed to be in the public domain available under a CC0 policy. The same announcement listed reasons other works might be excluded, including unresolved rights, privacy or publicity concerns, another owner, restrictions from an artist, donor or lender, or the absence of a suitable digital image [2]. The useful lesson is to check item by item. A museum’s overall open-access program can make a great deal available while leaving individual records with different conditions or no reusable image. Search results, image thumbnails and reposts may not show those distinctions; the object page is the better place to begin."
+    ],
+    [
+      "Read the label before you download",
+      "Open the museum’s own object page and find the rights, use, or image-credit information. Do not stop at a general statement such as “open access” if the object page offers a more specific label. Look for whether the image is identified as public domain, covered by a license, restricted, or available only by request. Read any linked terms, especially if the image will be used commercially, altered, or distributed widely. If the wording is unclear, do not guess: contact the institution or choose a different image whose terms are explicit. Save the page or record its link while you work. Rights information can be separated from an image when it is downloaded or copied, and a saved source record lets you return to the actual terms rather than relying on memory."
+    ],
+    [
+      "Know what a license lets you do",
+      "A public-domain statement and a Creative Commons license are not interchangeable labels. Public-domain tools are used to identify material that is free of copyright restrictions, while a Creative Commons license grants permission under specified conditions. Those conditions can include attribution, limits on commercial use, or restrictions on adaptations. The exact license matters, so open its terms rather than assuming every CC mark means “use however you like.” A museum’s own policy can also explain the scope of its offer: for example, a designation may apply to a particular digital image, not every object or every related file. The practical question is not simply whether the image is accessible. It is whether the stated terms cover your planned use and whether you can meet any conditions."
+    ],
+    [
+      "Make the credit travel with the image",
+      "When a Creative Commons license requires attribution, keep the credit useful wherever the image goes. Creative Commons’ guide for journalists recommends naming the creator, identifying the source or organization, and specifying the license; a credit that says only “Wiki” or “Creative Commons” leaves out the image’s creator and the terms that apply [3]. A clear note might include the maker or photographer as listed, the artwork’s title, the museum or collection, and the license or rights statement, with a link when practical. Follow the museum’s own attribution instructions if they provide them. If you crop, color-adjust, or otherwise adapt an image, describe that change where the license or context calls for it. The purpose is not decorative formality: attribution preserves provenance and gives the next person a route back to the source."
+    ],
+    [
+      "Permission does not settle every question",
+      "A rights label answers a particular question about reuse; it does not decide whether every possible use is thoughtful. A work may be legally available and still carry cultural, religious, personal, or political significance that deserves care. Consider what the image depicts, who made or is represented in it, and what your caption or surrounding design implies. A crop can alter meaning. A joke, advertisement, or promotional setting can put an image to work in a way that feels very different from a classroom presentation or a research newsletter. The Met’s announcement lists unresolved copyright status, privacy or publicity issues, another owner, restrictions, and lack of a suitable digital image among reasons some works were excluded from its initiative [2]. Permission is an important threshold, not a substitute for asking what the use communicates."
+    ],
+    [
+      "Try a two-person rights-label check",
+      "For your next presentation, newsletter, personal project, or public post, choose one image and open its museum object page before placing it in your layout. Write down the artwork’s title, maker if listed, institution, and the exact rights or license statement. Follow the terms and make the credit visible where the image appears; if the terms do not clearly cover your use, ask the museum or select another image. If you are working with someone else, take two minutes to compare what each of you understands the label to mean, then check the linked terms together. Save the object page alongside the finished file. This small handoff keeps the image connected to its source, makes your decision easier to explain, and leaves room for a second question beyond permission: whether this is the right image, presented in the right way."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Circular 1: Copyright Basics",
+      "authors": "U.S. Copyright Office",
+      "publication": "U.S. Copyright Office, Copyright Basics (Circular 1), revised September 2021",
+      "url": "https://www.copyright.gov/circs/circ01.pdf",
+      "researchSourceId": "S13"
+    },
+    {
+      "sourceId": "S2",
+      "title": "The Met Makes Its Images of Public-Domain Artworks Freely Available through New Open Access Policy",
+      "authors": "The Metropolitan Museum of Art",
+      "publication": "The Metropolitan Museum of Art press release, February 7, 2017",
+      "url": "https://www.metmuseum.org/press-releases/open-access-2017-news",
+      "researchSourceId": "S101"
+    },
+    {
+      "sourceId": "S3",
+      "title": "A Journalist’s Guide to Creative Commons 2023",
+      "authors": "Jennryn Wetzler and Zac Crellin; Open Journalism",
+      "publication": "Creative Commons, June 5, 2023",
+      "url": "https://creativecommons.org/2023/06/05/a-journalists-guide-to-creative-commons-2023/",
+      "researchSourceId": "S90"
+    }
+  ],
+  "id": "the-download-button-has-fine-print-20261105",
+  "date": "2026-11-05",
+  "editionDate": "2026-11-05",
+  "url": "article.html?id=the-download-button-has-fine-print-20261105",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-download-button-has-fine-print-20261105.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Download Button Has Fine Print. A practical guide to reusing museum images: check the rights label, credit the people behind the image, and keep permission separate from judgment.\nPeople: a couple of different ethnic backgrounds sharing a thoughtful moment. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: thoughtful companions paying attention, discussing or questioning something cultural.\nScene concept: A warm, candid scene of two friends from different ethnic backgrounds looking together at a museum collection page on a tablet. The image itself is visible alongside a clearly legible rights or object-information panel; neither person is positioned as the expert correcting the other.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two adult friends sit at a table after training, each reviewing a separate workout note and comparing what they noticed without judging one another. | Two friends compare everyday bags beside a bench, checking how each sits with their outfits and daily essentials. | Three family members of different generations sit at the edge of a meadow at dusk, looking toward fireflies while one holds an open notebook; no lights or insects are visible in their hands.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

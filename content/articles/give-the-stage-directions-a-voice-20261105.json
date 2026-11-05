@@ -1,0 +1,80 @@
+{
+  "category": "Culture",
+  "title": "Give the Stage Directions a Voice",
+  "subtitle": "Daily Read: A three-person play reading turns the script’s quiet instructions into a lively conversation.",
+  "imageAlt": "A couple and an older family member sit around a table with an open play script, taking turns reading and listening.",
+  "imageConcept": "An intimate, sunlit living-room scene: a couple and an older relative gather around a small table with a play script, one person reading while the others follow the page and listen.",
+  "body": [
+    [
+      "The lines around the dialogue",
+      "A play on the page is not only what its characters say. It also includes information about the setting, characters and action: the stage directions that tell readers where a scene takes place, how people move, or what happens between spoken lines. Those details can shape the scene we imagine, even when they are easy to skim past [1]. Try giving them their own reader. In a group of three, one person reads the character dialogue, a second reads every direction aloud, and a third listens for a moment that changes or complicates the scene they pictured. Then trade roles or revisit a few lines. This is a close-reading game, not a performance test: nobody needs theater experience, a confident speaking voice or a settled idea of what the scene “should” look like. The point is to notice how the page works—and how differently it can land with different people."
+    ],
+    [
+      "Choose a scene with room to listen",
+      "Pick a short scene from a play everyone can access, ideally one that can be read in five to ten minutes. A conversation with a clear change in mood, an entrance or exit, or a moment of silence gives the group something concrete to notice. Use a printed copy or a screen that lets all three people follow along. If you are reading from a book or online edition, check its notes and formatting before starting: editions may differ, and bracketed directions can sometimes be editorial additions rather than wording from the original text [1]. That does not make them useless; it simply gives the group another question to ask about where an instruction came from. Agree on a stopping point in advance so the reading stays manageable. If the scene is unfamiliar, resist the urge to look up a production first. Beginning with the page gives each person a chance to form an independent picture."
+    ],
+    [
+      "Give each reader a simple job",
+      "Before reading, assign the three roles: dialogue reader, direction reader and listener. The dialogue reader reads character names and spoken lines, without adding voices or acting unless they want to. The direction reader reads the rest of the printed instructions, including brief parenthetical notes attached to a line. The listener follows the text and chooses one moment to bring back to the group. A useful prompt is: “Which direction made you picture something different?” The listener does not have to solve the scene or identify a hidden message. Stage directions supplement dialogue, and they can communicate details the words alone leave out [1]. Reading them aloud makes those details easier to hear as part of the exchange rather than as setup to rush through. Keep the pace comfortable. Anyone can pass on a role, listen instead, or ask for a pause; the exercise works just as well with those adjustments."
+    ],
+    [
+      "Pause where the picture shifts",
+      "When a direction catches someone’s attention, stop after the sentence or short passage and ask three specific questions: What does the page actually say? What did you picture before hearing it? What changed, if anything? A direction might describe a character’s movement, a pause, a sound or the emotional texture of a moment. Those cues can influence how readers imagine an interaction, including the relationship between its speakers [3]. Separate what the script specifies from what you supplied. If the text says a character hesitates, for instance, the hesitation is specified; whether it signals doubt, discomfort, caution or something else may remain open. The group can offer different possibilities without ranking them. That distinction keeps the conversation grounded in the words while allowing for interpretation. It also makes room for a quieter reader: listening closely and pointing to a detail on the page is as valuable as explaining a full theory."
+    ],
+    [
+      "Let different readings stay different",
+      "A stage direction may shape more than the visible mechanics of a scene; it can affect how a moment feels, too. Bess Rowen’s study of stage directions and embodiment considers how readers interpret those cues through their own experiences [2]. In practice, that means two people can hear the same instruction and imagine different physical or emotional realities. One listener might picture a pause as tense; another might hear it as an ordinary beat in a conversation. Ask each person to point to the word or detail that led them there. Then try reading the passage again with both interpretations in mind. This is not a vote on which person is right. It is a way to notice what a text makes possible, what it leaves underspecified and how our own assumptions fill the space. If a disagreement gets personal, return to the page: “What detail supports that picture?” keeps the exchange curious rather than corrective."
+    ],
+    [
+      "Switch roles, then compare the page",
+      "After the first pass, trade roles so each person has a chance to read—or choose to stay in the role that feels comfortable. Revisit the moment that drew attention and try one small variation: read the direction more slowly, leave a longer pause where the text indicates one, or read it plainly without adding an emotion. Notice what shifts and what does not. Parenthetical directions can affect how readers understand a particular exchange and the wider dramatic text [3], but the group need not treat every note as a command to perform a single way. If you are curious, compare the scene with another edition, checking its publication details and notes first. Different wording or editorial choices can help explain why two copies invite different readings. A filmed or staged version can be interesting afterward, but it is not the answer key. The exercise is about interpreting the script, not grading a production against it."
+    ],
+    [
+      "End with one open question",
+      "Close by asking each person to name one thing the page settled and one thing it left open. Keep the answers specific: perhaps the text makes clear who enters, while leaving the reason for a pause uncertain. If the scene prompted a larger question—about a character’s choices, the setting or the play’s world—write it down rather than racing to resolve it. That small ending gives the reading a shape without forcing consensus. You can keep the same scene and change the roles next time, or choose a new one with a different kind of direction to notice. For a family group, this can be a modest way to spend time with a play together: a shared text, a few turns listening and several valid ways of picturing what happens. No theatrical polish required. The best outcome may be simply discovering that the quiet instructions on the page have more to say than they first appeared to."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Surface and Subtext: Literature, Research, Writing: 6.3--Key Components of a Dramatic Text",
+      "authors": "Nicole Hagstrom-Schmidt",
+      "publication": "Surface and Subtext: Literature, Research, Writing, 3rd ed., Manifold version; edited by Claire Carly-Miles, Sarah LeMire, Kathy Christie Anders, Nicole Hagstrom-Schmidt, R. Paul Cooper, Matt McKinney, and Kalani Pattison; College Station: Texas A&M University, 2025",
+      "url": "https://manifold.artsci.tamu.edu/read/surface-and-subtext-literature-research-writing/section/d7686100-d55c-4bc1-8082-02cddb0bc9a6",
+      "researchSourceId": "S20"
+    },
+    {
+      "sourceId": "S2",
+      "title": "The Lines Between the Lines: How Stage Directions Affect Embodiment",
+      "authors": "Bess Rowen",
+      "publication": "University of Michigan Press, October 2021",
+      "url": "https://press.umich.edu/Books/T/The-Lines-Between-the-Lines3",
+      "researchSourceId": "S27"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Caught on page! Micro and macro pragmatics of stage directions parentheticals in Tom Stoppard's Professional Foul",
+      "authors": "Ayman Khafaga",
+      "publication": "Journal of Pragmatics, vol. 193, May 2022",
+      "url": "https://psau.sa.elsevierpure.com/en/publications/caught-on-page-micro-and-macro-pragmatics-of-stage-directions-par/",
+      "researchSourceId": "S39"
+    }
+  ],
+  "id": "give-the-stage-directions-a-voice-20261105",
+  "date": "2026-11-05",
+  "editionDate": "2026-11-05",
+  "url": "article.html?id=give-the-stage-directions-a-voice-20261105",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/give-the-stage-directions-a-voice-20261105.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Give the Stage Directions a Voice. Daily Read: A three-person play reading turns the script’s quiet instructions into a lively conversation.\nPeople: an adult couple with one older family member. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: thoughtful companions paying attention, discussing or questioning something cultural.\nScene concept: An intimate, sunlit living-room scene: a couple and an older relative gather around a small table with a play script, one person reading while the others follow the page and listen.\nAvoid repeating these recent WILDWIRE image scenes: Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two adult friends sit at a table after training, each reviewing a separate workout note and comparing what they noticed without judging one another. | Two friends compare everyday bags beside a bench, checking how each sits with their outfits and daily essentials. | Three family members of different generations sit at the edge of a meadow at dusk, looking toward fireflies while one holds an open notebook; no lights or insects are visible in their hands. | Two friends of different ethnic backgrounds sit side by side, studying a museum object page on a tablet, with the artwork and its rights information visible on screen. | Two partners sit at separate desks near a window, comparing monitor positions and adjusting their own screens. | Two partners at a kitchen table compare retirement-fund documents on a laptop, with a notebook showing two differently shaped glide-path lines. | Two housemates checking a laundry-room lint screen while another observes the exterior dryer vent from a safe distance.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 3,
+    "issues": []
+  }
+}

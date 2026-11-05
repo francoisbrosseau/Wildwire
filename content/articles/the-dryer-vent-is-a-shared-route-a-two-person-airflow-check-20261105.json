@@ -1,0 +1,80 @@
+{
+  "category": "Living",
+  "title": "The Dryer Vent Is a Shared Route: A Two-Person Airflow Check",
+  "subtitle": "Daily Read | A short, observational check can help households notice a problem early—and know when to leave the work to a professional.",
+  "imageAlt": "Two housemates checking a laundry-room lint screen while another observes the exterior dryer vent from a safe distance.",
+  "imageConcept": "Two friends at home divide a simple dryer check: one stands beside the open lint-screen housing with the appliance off, while the other looks toward an exterior vent flap from a clear, safely accessible spot.",
+  "body": [
+    [
+      "A route worth noticing",
+      "A clothes dryer moves air along a route: into the machine, through the drum, and out through an exhaust path to the exterior. Lint can collect in the screen and vent, and buildup can affect airflow. That makes the vent a useful thing to notice during ordinary home maintenance—not an invitation to take the appliance apart. The U.S. Consumer Product Safety Commission recommends keeping the lint filter clean, checking that the exhaust vent pipe is not restricted and the outdoor vent flap opens during operation, and cleaning lint from the vent pipe at least once a year [1].\n\nA brief check works best when it has a clear boundary. You are looking for visible damage, an obvious blockage, or a change in how the dryer performs. You are not diagnosing a hidden fault or clearing ductwork yourself. If something looks wrong, the next step is to consult the owner’s manual and contact the landlord, building manager, or a qualified service professional."
+    ],
+    [
+      "Why make it a shared check?",
+      "Small household maintenance tasks often rely on one person remembering what happened last time. A two-person check can turn that vague memory into a useful observation: one person notes how the appliance is behaving, while the other checks the exterior flap only if it is safely accessible. Then both can decide what, if anything, needs follow-up.\n\nThe U.S. Fire Administration says that failure to clean was the leading factor in dryer-fire ignition in homes during 2018–2020 [2]. That is a historical finding, not a current annual statistic, and it does not mean every slow load signals danger. It does underline why routine care matters. The aim here is not alarm; it is to notice a change and pass along clear information rather than guess at a repair."
+    ],
+    [
+      "Before you start, set the limit",
+      "Choose a time when no one is rushing and make sure the dryer is in ordinary working condition. Read the owner’s manual if you are unsure where the lint screen is or how your model is meant to be used. Keep the check to parts you can observe without moving the appliance, reaching into it, disconnecting anything, or using tools.\n\nIf the dryer is in a shared laundry room, or the outside vent is on a roof, behind a locked gate, at height, or otherwise difficult to reach, skip the exterior observation. Do not climb, lean out of a window, or enter a restricted area to complete it. A renter can report the concern to the landlord or building manager; a resident in a managed building can use the building’s maintenance process. Safe access is a condition of the check, not a challenge to overcome."
+    ],
+    [
+      "Divide the work, then compare notes",
+      "With the dryer off, one person can remove the lint screen as the manual directs, clear the visible lint, and put the screen back in place before the next load. The U.S. Consumer Product Safety Commission advises keeping the lint filter in place and clean, and cleaning lint from the vent pipe at least once a year [1]. The after-each-load screen check is a simple routine; the vent-pipe guidance is a reason to arrange appropriate maintenance, not an instruction to dismantle the system.\n\nThe second person can look along any safely visible part of the exhaust route for obvious damage or blockage. During normal operation, and only from a safe position, they can observe whether the exterior flap opens. The CPSC includes that check in its dryer guidance [1]. Neither person needs to touch the vent or decide whether a hidden section is clear. Say what you actually saw: “The visible section looks damaged,” or “I couldn’t safely see the outlet.” Specific observations are more useful than an uncertain diagnosis."
+    ],
+    [
+      "Treat performance changes as information",
+      "Notice whether clothes are taking longer than usual to dry, whether performance has changed from the household’s normal experience, or whether there is an obvious airflow concern. These observations do not prove the vent is blocked; settings, load size, and other issues may matter. Still, a change is a good reason to check the manual and ask for qualified help rather than repeatedly running the dryer and hoping it improves.\n\nIf the visible vent looks damaged, the exterior flap does not appear to open during operation, or airflow seems restricted, stop short of a repair attempt. The National Park Service advises contacting a service technician if a residential dryer malfunctions [3]. For renters and people using shared equipment, report the observation promptly to whoever is responsible for maintenance. Include when it occurred and what you could see; avoid presenting a guess as a confirmed fault."
+    ],
+    [
+      "Keep the handoff useful",
+      "A good maintenance note is short: the date, the appliance or laundry-room location, what was observed, and who was contacted. For example: “Tuesday: clothes took longer than usual; exterior flap not checked because access is behind a locked gate; sent a maintenance request.” If the vent is safely visible, record that the flap did or did not appear to open, without claiming that this confirms the condition of the whole duct.\n\nFor households that own the dryer, the manual can help identify the appropriate maintenance route. For renters, a message to the landlord or building manager makes the responsibility clear. In a shared building, don’t assume another resident or an outside contractor has already dealt with a concern unless you have confirmation. A calm handoff prevents two common problems: no one acting because the concern feels uncertain, and someone attempting a repair beyond their access or expertise."
+    ],
+    [
+      "Close the loop with one clear next step",
+      "At your next unhurried moment, try the check with whoever shares responsibility for the laundry. Agree first on what is safe to observe, then clean the lint screen with the dryer off, note any change in performance, and look at the exterior flap only if the route is safely accessible. Write down one plain observation and choose who will contact the landlord, building manager, or qualified service professional if follow-up is needed. If access is unsafe, record that instead of improvising. The useful result is not a perfect inspection; it is a shared, accurate account of what you noticed—and a clear handoff to the person qualified to take it further."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Save Daylight, Save Lives; Replace Batteries in Smoke and Carbon Monoxide Alarms | CPSC.gov",
+      "authors": "U.S. Consumer Product Safety Commission",
+      "publication": "U.S. Consumer Product Safety Commission, March 8, 2023",
+      "url": "https://www.cpsc.gov/Newsroom/News-Releases/2023/Save-Daylight-Save-Lives-Replace-Batteries-in-Smoke-and-Carbon-Monoxide-Alarms",
+      "researchSourceId": "S4"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Appliance and Electrical Fire Safety",
+      "authors": "U.S. Fire Administration",
+      "publication": "U.S. Fire Administration, May 4, 2023",
+      "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/appliance-and-electrical/index.html",
+      "researchSourceId": "S10"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Fire Prevention 52: Dryer Fires",
+      "authors": "Eric Anderson, Structural Fire Training Specialist",
+      "publication": "National Park Service",
+      "url": "https://www.nps.gov/articles/p52-dryer-fires.htm",
+      "researchSourceId": "S23"
+    }
+  ],
+  "id": "the-dryer-vent-is-a-shared-route-a-two-person-airflow-check-20261105",
+  "date": "2026-11-05",
+  "editionDate": "2026-11-05",
+  "url": "article.html?id=the-dryer-vent-is-a-shared-route-a-two-person-airflow-check-20261105",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-dryer-vent-is-a-shared-route-a-two-person-airflow-check-20261105.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Dryer Vent Is a Shared Route: A Two-Person Airflow Check. Daily Read | A short, observational check can help households notice a problem early—and know when to leave the work to a professional.\nPeople: two women partners with distinct builds and features. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: Two friends at home divide a simple dryer check: one stands beside the open lint-screen housing with the appliance off, while the other looks toward an exterior vent flap from a clear, safely accessible spot.\nAvoid repeating these recent WILDWIRE image scenes: Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two adult friends sit at a table after training, each reviewing a separate workout note and comparing what they noticed without judging one another. | Two friends compare everyday bags beside a bench, checking how each sits with their outfits and daily essentials. | Three family members of different generations sit at the edge of a meadow at dusk, looking toward fireflies while one holds an open notebook; no lights or insects are visible in their hands. | Two friends of different ethnic backgrounds sit side by side, studying a museum object page on a tablet, with the artwork and its rights information visible on screen. | Two partners sit at separate desks near a window, comparing monitor positions and adjusting their own screens. | Two partners at a kitchen table compare retirement-fund documents on a laptop, with a notebook showing two differently shaped glide-path lines.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
