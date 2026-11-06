@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "Before Closing, Read the Rate-Lock Fine Print as a Timeline",
+  "subtitle": "A mortgage rate lock can steady one part of a home loan. It does not approve the loan, freeze every cost or make the closing date irrelevant.",
+  "imageAlt": "Two people sit together at a table, comparing a mortgage Loan Estimate with a handwritten timeline of closing dates.",
+  "imageConcept": "A couple with different ethnic backgrounds reviewing mortgage papers at a kitchen table, with a calendar and pen nearby; the mood is thoughtful and collaborative, not celebratory or stressful.",
+  "body": [
+    [
+      "A promise with a clock attached",
+      "A rate lock is best understood as a time-limited agreement, not a finish line. It generally holds the offered interest rate for a stated period, subject to the lender’s terms and to the details of the application staying within the conditions of the lock. If closing happens after the lock expires, the rate may no longer be protected. If information in the application changes, the rate may also be affected. The Consumer Financial Protection Bureau (CFPB) advises borrowers to check whether a rate is locked and the expiration date on page one of the Loan Estimate [1].\n\nThat clock matters because buying a home is a sequence of steps: an offer is accepted, documents are reviewed, the loan moves through underwriting, and the parties work toward closing. A delay at any point can push the closing date closer to—or past—the lock’s end. The practical question is not only “What rate did I get?” but “Until what date, under what conditions, and what happens if the schedule changes?”"
+    ],
+    [
+      "Put three dates side by side",
+      "Start with the written lock agreement and the Loan Estimate. Note the lock’s expiration date, the planned closing date, and any deadline or condition stated in the lock terms. Compare them rather than relying on memory or a verbal summary. The gap between the scheduled closing and expiration is useful context: if the two dates are close, ask early what the lender’s process is for handling a delay. A lock’s length and terms vary, so there is no universal buffer that guarantees enough time.\n\nThen ask the lender to confirm, in writing if possible: Is the rate currently locked? What exact date and time does the lock expire? Does the lock depend on any remaining application conditions? If closing moves, can it be extended, who approves that, and what would it cost? CFPB guidance specifically recommends asking when a lock expires and whether an extension is possible and what it would cost [2]. Clear answers turn an abstract promise into a timeline you can monitor."
+    ],
+    [
+      "A locked rate is not a loan approval",
+      "A Loan Estimate is a disclosure of estimated loan terms and costs—not a notice that the lender has approved the mortgage. A locked rate does not by itself establish that underwriting is complete, that every document has been accepted or that the transaction will close on schedule. Those are separate parts of the process. The application may still require verification and review, while the property, borrower information and other details are considered under the lender’s procedures.\n\nThat distinction helps explain why it is possible to have a rate lock and still receive questions or requests for information. It also means a borrower should not treat the rate box as a general guarantee about the whole loan. Keep responding to lender requests, check what remains outstanding, and ask which steps could affect the closing date."
+    ],
+    [
+      "Know what could change the rate",
+      "A lock is usually conditional. For example, a change in application information may alter the terms the lender can offer; a delay beyond the lock period may leave the original rate no longer available under the agreement. The exact consequences depend on the lock’s written terms and the lender’s policy. If something in the application changes—such as a detail the lender is evaluating—tell the loan officer promptly and ask whether it affects the lock or any other loan terms. Do not assume that a change is harmless, but do not assume that every change automatically changes the rate either.\n\nMarket movement is another source of confusion. If rates fall after a lock, the locked rate may not fall with them. The CFPB advises asking what happens if interest rates go down after a lock; check the written agreement and ask the lender what, if anything, would happen [1]. Treat explanations such as “you’re covered” as a cue to request specifics: covered against what, until when, and with what exceptions? The written agreement is the reference point."
+    ],
+    [
+      "Separate the rate from the rest of the bill",
+      "The interest rate and closing costs are connected parts of a mortgage, but they are not the same thing. A rate lock does not freeze every fee or other amount shown in the Loan Estimate. CFPB guidance explains that some closing costs can change under specified circumstances, while other changes are limited; the rules depend on the type of cost and what happened [3]. A revised figure therefore deserves an explanation, but a difference alone does not establish that something improper occurred.\n\nCompare the Loan Estimate with the Closing Disclosure line by line, paying attention to both the rate and the cash needed to close. If an amount has changed, ask which charge changed, why it changed, when the lender learned the relevant information, and whether a revised disclosure is available. Keep the explanation and documents together. This is especially useful when a schedule shift and a cost change appear at the same time: one may concern the lock’s duration, while another may involve a separate rule for closing costs. Avoid treating “the rate is locked” as an answer to every question about the final bill."
+    ],
+    [
+      "If closing starts to slip",
+      "Contact the loan officer as soon as a delay becomes plausible, not only after the closing date has passed. Ask what is holding up the timeline, whether the new date still falls within the lock period, and what choices the lender offers if it does not. If an extension is available, get its duration, price, approval process and any conditions in writing before deciding. Ask whether the extension preserves the existing terms or whether other parts of the offer could change. Policies differ, and the fee may matter to the overall cost of the loan.\n\nMake a simple record: the date you asked, the person who responded, the expected closing date, the lock expiration and any quoted extension terms. If the closing date changes again, update the record and reconfirm the lock status. This is not about predicting every delay; it is about making sure a changed calendar does not go unnoticed. When deadlines or costs remain unclear, ask the lender to explain them in plain language and point to the relevant written terms."
+    ],
+    [
+      "A short pre-closing review",
+      "Before closing, take ten minutes with the Loan Estimate, lock agreement, current closing timeline and—when available—the Closing Disclosure. Confirm the rate and lock status, circle the expiration date, and compare it with the planned signing date. Check whether any application detail has changed since the lock was issued. List unanswered questions about extensions, fees or changed costs, and ask the lender to respond before you rely on an assumption.\n\nA useful final prompt is: “What could still change between now and closing, and what should I do if it does?” The answer should distinguish the rate, loan approval, timing and closing costs rather than blending them into one reassurance. Save the response with the documents so everyone involved can refer to the same information. This is educational information, not personalized financial, legal or mortgage advice; loan terms and lender policies vary."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "What's a lock-in or a rate lock on a mortgage? | Consumer Financial Protection Bureau",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau; last reviewed May 2, 2023",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/whats-a-lock-in-or-a-rate-lock-en-143/",
+      "researchSourceId": "S2"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Review your Loan Estimates",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau; last modified Dec. 12, 2024",
+      "url": "https://www.consumerfinance.gov/owning-a-home/compare/review-loan-estimates/",
+      "researchSourceId": "S18"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Can my final mortgage costs increase from what was on my Loan Estimate? | Consumer Financial Protection Bureau",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau; last reviewed September 11, 2024; last modified September 13, 2024",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/can-my-final-mortgage-costs-increase-from-what-was-on-my-loan-estimate-en-172/",
+      "researchSourceId": "S22"
+    }
+  ],
+  "id": "before-closing-read-the-rate-lock-fine-print-as-a-timeline-20261106",
+  "date": "2026-11-06",
+  "editionDate": "2026-11-06",
+  "url": "article.html?id=before-closing-read-the-rate-lock-fine-print-as-a-timeline-20261106",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/before-closing-read-the-rate-lock-fine-print-as-a-timeline-20261106.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Before Closing, Read the Rate-Lock Fine Print as a Timeline. A mortgage rate lock can steady one part of a home loan. It does not approve the loan, freeze every cost or make the closing date irrelevant.\nPeople: a couple of different ethnic backgrounds sharing a thoughtful moment. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: A couple with different ethnic backgrounds reviewing mortgage papers at a kitchen table, with a calendar and pen nearby; the mood is thoughtful and collaborative, not celebratory or stressful.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends compare notes about everyday activities at a table before discussing exercise options with a clinician. | Two friends look together at a clothing product page on a tablet, comparing a virtual try-on preview with garment details while one points to the privacy information. | Two adult siblings sit at a public picnic table, comparing a wildlife-crossing map with a project diagram and marking habitat approaches, fencing and monitoring questions. | Two friends sit together in a museum gallery, one reading a land acknowledgment on a phone while the other looks at a nearby exhibit label. | Three generations of a family seated around a kitchen table, looking together at a simple handwritten caregiving plan.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

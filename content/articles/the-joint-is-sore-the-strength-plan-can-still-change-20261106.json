@@ -1,0 +1,83 @@
+{
+  "category": "Strength",
+  "title": "The Joint Is Sore. The Strength Plan Can Still Change.",
+  "subtitle": "Hip or knee osteoarthritis does not automatically rule out strength work. The useful question is how to choose, scale and adjust a plan that fits the person doing it.",
+  "imageAlt": "Two friends compare notes about everyday activities at a table before discussing exercise options with a clinician.",
+  "imageConcept": "Two friends sit side by side at a kitchen table, one writing down activities they want to keep doing while the other looks over a simple exercise-plan notebook; the mood is thoughtful and collaborative, not clinical or athletic.",
+  "body": [
+    [
+      "Pain is information, not a training verdict",
+      "When a hip or knee is sore, it is easy to reach one of two conclusions: stop moving until everything feels normal, or keep going because discomfort is supposed to be part of getting stronger. Neither is a reliable rule for every person. Osteoarthritis can make movement uncomfortable, and starting therapeutic exercise may temporarily increase joint pain. NICE recommends explaining this possibility while supporting regular, consistent exercise tailored to the person’s needs [1]. That is not a blanket instruction to ignore pain. It is a reason to make a plan that can respond to what happens, rather than treating every sensation as either harmless or dangerous. Strength work is one option to discuss with a qualified clinician—not a test of toughness, and not a substitute for individualized care."
+    ],
+    [
+      "Start with what you want movement to make possible",
+      "A useful plan begins with a life question, not an exercise list. Is the goal to make getting up from a chair feel more manageable, return to gardening, climb stairs with more confidence, or keep walking with a friend? Naming a specific activity helps a clinician understand what matters and lets the person judge whether a plan is relevant. It also makes room for different priorities: two people with similar diagnoses may want very different things from training. Write down one or two activities that matter, what currently makes them difficult, and any concerns about exercise. Bring that note to a physiotherapist, doctor or other qualified professional who can assess the situation and help choose an appropriate approach."
+    ],
+    [
+      "There is no single exercise recipe",
+      "Guidance supports exercise for hip and knee osteoarthritis, but does not point to one best format for everyone. NICE recommends therapeutic exercise that may include local muscle strengthening and general aerobic fitness [1]. Ontario Health’s quality standard also encourages muscle strengthening, aerobic exercise and progressive neuromuscular training, with choices and progression matched to a person’s abilities [2]. In practice, that means a plan might combine different kinds of activity, or focus on one area before adding another. Preference, physical function, access to services and the person’s response all matter. A plan someone can do consistently is more useful than an idealized routine that feels intimidating, inaccessible or irrelevant. Ask the clinician to explain why each element is included and how it connects to the chosen everyday goal."
+    ],
+    [
+      "Ask for a starting point you can describe",
+      "A first plan should be specific enough that the person knows what to do, but flexible enough to change. At an appointment, ask which movements or activities to begin with, how often to try them, what level of effort is appropriate, and when to pause or ask for help. Ask for a version that fits the equipment, space and time available. If a movement is difficult to understand, request a demonstration or an alternative. It can help to write down the starting instructions in plain language and note how the joint feels during the activity and afterward. Those observations are not a score, and they do not diagnose a problem; they give the clinician useful context for adjusting the plan. Avoid borrowing another person’s weights, repetitions or progression simply because their diagnosis sounds similar."
+    ],
+    [
+      "Make the response part of the plan",
+      "Some discomfort may happen when therapeutic exercise begins, according to NICE, but “some discomfort can occur” is not the same as “all pain is safe to push through” [1]. Before starting, ask the clinician what changes they want you to watch for and what response should prompt you to modify an activity, stop, or seek advice. If a particular movement repeatedly feels wrong, tell them which movement, when the discomfort appears and what happens afterward. A plan can be adjusted: the movement, range, effort, support or overall amount of work may need reconsideration. New, severe or escalating symptoms deserve individualized medical advice rather than an online rule. The point of tracking is not to micromanage every sensation. It is to notice a pattern early enough to have a useful conversation."
+    ],
+    [
+      "Progress means adapting, not proving",
+      "Progression is often imagined as adding more weight or repetitions. But a plan can move forward in other ways: a person may become more comfortable with a familiar task, learn a movement with better control, or build consistency before increasing the challenge. Ontario Health recommends individual progression and clinician involvement to help people exercise properly and safely [2]. Ask what progress should look like for this specific plan, how often to review it, and what to do if an increase in activity changes symptoms. Keep one variable at a time in view when making an agreed adjustment; changing several things together can make it harder to tell what helped. There is no prize for advancing quickly. A useful progression is one that supports the person’s goals and can be sustained."
+    ],
+    [
+      "Different routes can be reasonable",
+      "A 2024 multicenter trial compared progressive resistance training with neuromuscular exercise for people with hip osteoarthritis. The 160 participants took part in supervised group sessions twice a week for 12 weeks. The trial found that progressive resistance training was not superior to neuromuscular exercise on measured functional performance, hip pain or hip-related quality of life [3]. That finding is informative, but it does not show that the approaches are identical for every individual, nor does it establish one universally best program. It supports a broader, more practical point: a strength-focused route is not the only route worth discussing. A clinician can help weigh options against personal goals, preferences and access. If the first approach does not fit, that is a reason to review the plan—not evidence that exercise as a whole has failed."
+    ],
+    [
+      "Turn the appointment into a working agreement",
+      "Before the conversation ends, make sure the plan can be repeated back without guesswork. Write down the chosen activity, the agreed starting level, how to adjust it, what response to monitor, and when to check in. Include a practical backup for days when the usual setup is unavailable—such as a different movement the clinician has approved, rather than improvising under pressure. If you are supporting a friend or family member, ask what kind of help they want: company, a reminder, transport, or simply someone to listen after a session. The person doing the exercise stays in charge of their choices. This small handoff turns broad advice into something usable while keeping the decision-making where it belongs: with the individual and their care team."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Recommendations | Osteoarthritis in over 16s: diagnosis and management | Guidance | NICE",
+      "authors": "National Institute for Health and Care Excellence",
+      "publication": "NICE; October 19, 2022",
+      "url": "https://www.nice.org.uk/guidance/ng226/chapter/Recommendations",
+      "researchSourceId": "S10"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Osteoarthritis: Care for Adults With Osteoarthritis of the Knee, Hip, Hand, or Shoulder",
+      "authors": "Ontario Health",
+      "publication": "Ontario Health; November 1, 2024",
+      "url": "https://www.ontariohealth.ca/content/dam/ontariohealth/documents/filter-list/qs/qs-osteoarthritis-quality-standard-2024-en.pdf",
+      "researchSourceId": "S42"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Progressive Resistance Training or Neuromuscular Exercise for Hip Osteoarthritis : A Multicenter Cluster Randomized Controlled Trial",
+      "authors": "Troels Kjeldsen, Søren T Skou, Ulrik Dalgas, Lisa U Tønning, Kim G Ingwersen, Sara Birch, Pætur M Holm, Thomas Frydendal, Mette Garval, Claus Varnum, Bo M Bibby, Inger Mechlenburg",
+      "publication": "Annals of Internal Medicine; May 2024 (Epub April 9, 2024)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38588540/",
+      "researchSourceId": "S15"
+    }
+  ],
+  "id": "the-joint-is-sore-the-strength-plan-can-still-change-20261106",
+  "date": "2026-11-06",
+  "editionDate": "2026-11-06",
+  "url": "article.html?id=the-joint-is-sore-the-strength-plan-can-still-change-20261106",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-joint-is-sore-the-strength-plan-can-still-change-20261106.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Joint Is Sore. The Strength Plan Can Still Change.. Hip or knee osteoarthritis does not automatically rule out strength work. The useful question is how to choose, scale and adjust a plan that fits the person doing it.\nPeople: two men friends with different backgrounds. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: serious, focused partners training with controlled effort; no smiling while lifting.\nScene concept: Two friends sit side by side at a kitchen table, one writing down activities they want to keep doing while the other looks over a simple exercise-plan notebook; the mood is thoughtful and collaborative, not clinical or athletic.\nAvoid repeating these recent WILDWIRE image scenes: Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

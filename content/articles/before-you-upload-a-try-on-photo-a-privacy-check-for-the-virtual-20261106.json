@@ -1,0 +1,83 @@
+{
+  "category": "Style",
+  "title": "Before You Upload a Try-On Photo: A Privacy Check for the Virtual Fitting Room",
+  "subtitle": "A generated outfit view can help you imagine a look. Before sharing an image, find out what the tool asks for, where your input may go, and what the result can—and cannot—tell you.",
+  "imageAlt": "Two friends look together at a clothing product page on a tablet, comparing a virtual try-on preview with garment details while one points to the privacy information.",
+  "imageConcept": "A warm, natural-light scene of two friends at a kitchen table browsing a clothing page on a tablet: one studies the virtual try-on preview while the other points to the garment’s details and privacy link, with no visible personal photo or identifiable app branding.",
+  "body": [
+    [
+      "A preview is still a data decision",
+      "Virtual try-on can bring an online listing closer to the useful question: “Can I picture myself in this?” Depending on the retailer, the feature may show clothes on a model-like avatar, use measurements to suggest a size, or generate a visualization from an image you upload. Those options can look similar on a product page, but they do not necessarily ask for the same information or handle it in the same way.\n\nA quick check before tapping upload is not a reason to avoid the feature. It is a way to decide whether the convenience is worth the information requested. A photo may show more than the clothing: your face, surroundings, other people, or details in the image’s background. Measurements may feel less revealing to you, but they are still personal information. The right choice can be to use the tool, choose another option, or shop without either."
+    ],
+    [
+      "First, identify what the feature actually needs",
+      "Read the prompt rather than relying on the words “virtual try-on.” Is it asking you to select a size from a chart, enter measurements, choose a preloaded avatar, upload a full-body photo, or provide a face or body image? Is the request optional, or does the page make it a condition of seeing the product? If the wording is vague, look for a help link or explanation before continuing.\n\nThat distinction matters. A size recommendation based on measurements and an image-based visualization have different inputs. A retailer may also use a separate service provider to run the feature. Do not assume that an image is needed just because a button says “try on,” or that a tool stays on your device because it appears inside a shopping app. You can close the prompt and check the product page, size chart, or customer-service information instead."
+    ],
+    [
+      "Follow the image beyond the upload button",
+      "Before sharing a photo, look for a privacy notice linked from the feature—not just the retailer’s general policy. Search for plain answers to a few specific questions: Is the image processed on your device or sent to a server? Does the retailer or a service provider receive it? Is it stored, and for how long? Can it be used to improve a product or train a system? How do you request deletion, and does deletion cover copies held by providers?\n\nThe notice may describe different rules for the image, measurements, account details, and generated preview. Check which information each statement covers. Also look for what happens if you do not create an account, or if you use a feature embedded from another company. If the policy does not make these points clear, that uncertainty is itself useful information. You do not have to resolve it by uploading first."
+    ],
+    [
+      "Treat legal language as context, not a label",
+      "The U.S. Federal Trade Commission’s 2023 policy statement discusses how certain traits, measurements, or images connected to an identifiable person may count as biometric information, and highlights transparency, data security, and third-party practices. It does not mean every clothing measurement or photograph automatically has a particular legal classification. The statement is U.S. federal context, not a universal account of state or international law. For a shopper, its practical lesson is narrower: understand what is collected, what the company says it does with it, and who else may handle it [1].\n\nThat information can be difficult to find, and a privacy policy is not a guarantee that a system will behave exactly as a reader expects. Still, a clear explanation of purpose, retention, sharing, and deletion is more useful than a broad promise that your data is “secure.” If the page gives only general assurances and leaves the image-specific questions unanswered, consider using another route."
+    ],
+    [
+      "An audit offers a reason to check—not a reason to panic",
+      "A 2024 technical report from Concordia researchers examined 138 websites and 28 Android apps offering virtual try-on. In that audited sample, 65% of the websites sent user images to a server; researchers confirmed that 37% of the websites used providers that extracted facial geometry from images. These are findings about the sample the researchers tested, not a measure of every tool available now, or a prediction about any particular retailer [2].\n\nThe findings make one distinction especially important: an image used to render clothing may also be handled by systems doing other kinds of processing. That does not establish that every image is retained, misused, or used for identification. It does support checking the feature’s own disclosure rather than assuming that “try-on” describes the full data journey. If you cannot find a specific answer, you can decide that the preview is not worth the uncertainty."
+    ],
+    [
+      "Use the generated view for style, not certainty",
+      "A try-on image is a visualization. It may help you compare colors, proportions, or the general impression of a silhouette, but it cannot reliably settle how a specific garment will feel or fit. The rendering may not capture fabric stretch, drape, construction, ease, or how the item behaves as you move. Even a convincing image is not a substitute for product details.\n\nKeep the practical questions separate: check the garment’s measurements and size guidance, read reviews that describe fit when available, and review the return terms before ordering. Research on fashion product pages found that diverse body shapes improved fit evaluations, and fit reviews increased product fit diagnosticity; neither result increased purchase intentions in that study [3]. More information can help you assess a listing without guaranteeing a particular fit. A preview is one piece of context, not a verdict on your body or the garment."
+    ],
+    [
+      "Choose a lower-disclosure route if you prefer",
+      "If you would rather not upload an image, see whether the retailer offers a measurement-based recommendation, an avatar that does not use your photo, or a conventional size chart. Those alternatives may still involve sharing data, so check their prompts and notices too. You can also compare the garment’s listed measurements with a well-fitting item you own, taking care to compare the same points and account for differences in fabric and cut.\n\nIf you choose to use an image, select one deliberately. Follow the tool’s directions, avoid including other people or unnecessary background details, and do not upload an image you are not comfortable sharing under the stated terms. These steps cannot guarantee how a company processes a file; they simply limit what you choose to provide. If the terms change your mind, leave the feature and continue browsing without it."
+    ],
+    [
+      "A two-minute product-page check",
+      "Try this with one item, alone or with a friend. First, name the tool’s input: measurements, avatar, or photo. Second, open the linked privacy information and look for processing location, storage duration, sharing, reuse, and deletion. Third, decide whether those answers are clear enough for you. If not, skip the upload and check the size chart, garment measurements, reviews, and return policy instead.\n\nThen make a separate judgment about the clothing. What does the preview help you imagine? What can only the product details or a try-on in real life tell you? Keeping those questions apart makes the technology more useful: you can enjoy a styling aid without asking it to prove fit, and you can choose how much personal information belongs in an ordinary shopping decision."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Policy Statement of the Federal Trade Commission on Biometric Information and Section 5 of the Federal Trade Commission Act",
+      "authors": "Lina M. Khan; Rebecca Kelly Slaughter; Alvaro Bedoya",
+      "publication": "Federal Trade Commission",
+      "url": "https://www.ftc.gov/legal-library/browse/policy-statement-federal-trade-commission-biometric-information-section-5-federal-trade-commission",
+      "researchSourceId": "S122"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Privacy Analysis of VR/AR Online Shopping Applications",
+      "authors": "Mohammad Mannan and Amr Youssef",
+      "publication": "Concordia Institute for Information Systems Engineering, March 14, 2024",
+      "url": "https://madiba.encs.concordia.ca/reports/OPC-2023/public/pdf/VR_OPC_Report.pdf",
+      "researchSourceId": "S107"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Investigating how online fashion product page design affects the consumer's clothing fit appraisal",
+      "authors": "Courtney Chrimes, Rosy Boardman, Gianpaolo Vignali, and Helen McCormick",
+      "publication": "Journal of Consumer Behaviour, August 16, 2022",
+      "url": "https://doi.org/10.1002/cb.2100",
+      "researchSourceId": "S50"
+    }
+  ],
+  "id": "before-you-upload-a-try-on-photo-a-privacy-check-for-the-virtual-20261106",
+  "date": "2026-11-06",
+  "editionDate": "2026-11-06",
+  "url": "article.html?id=before-you-upload-a-try-on-photo-a-privacy-check-for-the-virtual-20261106",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/before-you-upload-a-try-on-photo-a-privacy-check-for-the-virtual-20261106.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Before You Upload a Try-On Photo: A Privacy Check for the Virtual Fitting Room. A generated outfit view can help you imagine a look. Before sharing an image, find out what the tool asks for, where your input may go, and what the result can—and cannot—tell you.\nPeople: two adult friends of different genders. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: confident, well-dressed friends with runway energy grounded in attainable real life.\nScene concept: A warm, natural-light scene of two friends at a kitchen table browsing a clothing page on a tablet: one studies the virtual try-on preview while the other points to the garment’s details and privacy link, with no visible personal photo or identifiable app branding.\nAvoid repeating these recent WILDWIRE image scenes: Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends compare notes about everyday activities at a table before discussing exercise options with a clinician.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

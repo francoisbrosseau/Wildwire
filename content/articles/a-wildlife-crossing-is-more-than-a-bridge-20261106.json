@@ -1,0 +1,83 @@
+{
+  "category": "Explore",
+  "title": "A Wildlife Crossing Is More Than a Bridge",
+  "subtitle": "Read the habitat, fencing and monitoring around a crossing—and learn what a camera image can tell you, and what it cannot.",
+  "imageAlt": "Two adult siblings sit at a public picnic table, comparing a wildlife-crossing map with a project diagram and marking habitat approaches, fencing and monitoring questions.",
+  "imageConcept": "Two adult siblings or close friends seated at a safe public picnic table, studying a transportation-agency map and a printed wildlife-crossing diagram. One traces the habitat on either side while the other marks a fence line and writes a monitoring question. Keep the scene away from traffic and out of restricted areas.",
+  "body": [
+    [
+      "The structure is only the beginning",
+      "A wildlife crossing can look self-explanatory: a green bridge over a highway, or a concrete tunnel beneath it. But a passage does not work in isolation. Its value depends on whether animals can reach it, whether the surrounding habitat remains connected, whether barriers guide wildlife toward the opening, and whether the design is maintained and monitored over time. The Federal Highway Administration’s Wildlife Crossings Pilot Program identifies reducing wildlife–vehicle collisions and improving habitat connectivity as goals; monitoring and research are among the considerations for selecting projects [1]. Those aims are related, but they are not identical. A passage might be used by animals without evidence that it has restored movement across a landscape or reduced collisions. Looking beyond the structure helps us ask a better question than “Did anything cross?”: what is the whole system intended to do, and how would we know if it is doing it?"
+    ],
+    [
+      "Start with the landscape, not the landmark",
+      "Choose a crossing described on a transportation department, park or other public agency website. A project map, site diagram or environmental document is enough; there is no need to visit the crossing itself. With a friend or sibling, locate the passage, then widen your view. What habitat lies on each side of the road? Are there streams, wetlands, wooded areas, open spaces or other features animals may use? Does the road cut across a route between them, or does the passage connect places that remain suitable beyond the immediate approach? Mark what the map shows and what it leaves uncertain. A line of green on a diagram is not proof of an uninterrupted habitat route. The exercise is to see the crossing as one link in a larger landscape, rather than to assume the structure alone repairs everything around it."
+    ],
+    [
+      "Ask who the passage is for",
+      "Different animals move through landscapes in different ways, so a design that suits one species may not serve another. The U.S. Geological Survey notes that many reptiles and amphibians depend on both aquatic and terrestrial habitat, and describes how underpasses and barrier fencing can help small animals cross roads safely [2]. That makes the placement of a passage important: a small tunnel may be useful only if it connects the habitats an animal needs and its route can be reached without being blocked or diverted. On your map, look for waterways and wet areas as well as dry cover, and check whether project materials name the species or animal groups the design is intended to help. If they do not, write that down as an open question. “Wildlife” is not one user with one set of needs."
+    ],
+    [
+      "Read the fence as part of the crossing",
+      "Fencing is often meant to keep animals off the road and guide them toward a safer passage. It is therefore part of the design, not a decorative border around it. Look at the project diagram for where fencing begins and ends, whether it appears continuous, and how it meets the crossing. Then ask what might happen at a gap, damaged section or place where an animal can get around the barrier. A 2025 study in North Carolina monitored three underpasses and 15 fence gaps from 2019 to 2021; gap use varied among wildlife groups [3]. The authors stress the importance of long-term monitoring and fence maintenance [3]. The practical lesson is not that every gap has the same effect, but that a crossing’s performance can change after construction. If public materials include maintenance plans or inspection schedules, note who is responsible and what they check."
+    ],
+    [
+      "Use is evidence, not the whole verdict",
+      "A photograph of an animal using a crossing is meaningful: it shows that the passage was used at that moment. It does not, by itself, establish how often animals use it, whether they can move between habitats on both sides, or whether collision risk has fallen. Those questions require different evidence. Camera records can show visits and patterns; monitoring around the road may help describe where animals travel; other research can examine movement or habitat connections. A 2025 North Carolina study found that wildlife groups differed in their use of fence gaps near underpasses [3]. That finding is a reminder to avoid treating one animal’s response as a stand-in for every species. When you read a project report, separate what was directly observed from what the observation is being used to infer. Both can matter, but they are not interchangeable."
+    ],
+    [
+      "Look for the follow-up plan",
+      "Monitoring is the part of a project that asks whether the intended benefits are showing up in the living landscape. When you read about another project, look for the same distinction: what has been built, what monitoring is planned, when it will happen, and what the measures can answer. If a page describes cameras but not how results will be interpreted, that is a useful limit to record."
+    ],
+    [
+      "Make a map-reading session together",
+      "Set aside 20 minutes with a public project page, a map or diagram, and a shared note. First, mark the road and the crossing. Next, trace habitat on either side and label any streams, cover or open areas shown. Then find the fencing and any other passages mentioned in the project materials; mark breaks or unclear connections as questions rather than filling them in from guesswork. Finally, make two columns: “What is measured?” and “What would we still want to know?” Put camera monitoring, collision records, habitat conditions or other measures in the first column only if the source actually says they are collected. In the second, consider questions such as whether the same animals return, whether different species use the passage, or whether barriers remain intact. Keep the source page or document beside your notes so you can check each claim. This is an observation exercise, not a test of who can identify the most species."
+    ],
+    [
+      "Leave with one useful question",
+      "End by comparing what each of you noticed. One person may focus on the habitat connection; the other may spot a gap in the information about maintenance or monitoring. Choose one question you would want researchers or project managers to answer next, and make it specific: “How often is the fence inspected?” is easier to investigate than “Does it work?” You can check whether the agency page links to reports, a monitoring plan or a contact for project information. Keep the conclusion modest. A crossing is a designed intervention in a changing landscape; maps show intentions, and monitoring can test them, but no single image or diagram tells the complete story. The useful skill is learning to read the whole system—approaches, barriers, passage and follow-up—before deciding what its evidence supports."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Wildlife Crossings Pilot Program",
+      "authors": "Federal Highway Administration",
+      "publication": "Federal Highway Administration; last updated January 28, 2026.",
+      "url": "https://highways.fhwa.dot.gov/iija/fact-sheets/wildlife-crossings-pilot-program",
+      "researchSourceId": "S20"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Reptile and Amphibian Road Ecology",
+      "authors": "Western Ecological Research Center (WERC)",
+      "publication": "U.S. Geological Survey",
+      "url": "https://www.usgs.gov/centers/werc/science/reptile-and-amphibian-road-ecology",
+      "researchSourceId": "S10"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Wildlife underpass use with gaps in exclusion fences along a 4-lane highway 15 years post-construction",
+      "authors": "Abby R. Weinshenker, Rachael E. Urbanek, Colleen Olfenbuttel, and Travis Wilson",
+      "publication": "Wildlife Society Bulletin, Wiley Online Library; first published June 16, 2025.",
+      "url": "https://wildlife.onlinelibrary.wiley.com/doi/10.1002/wsb.1602",
+      "researchSourceId": "S68"
+    }
+  ],
+  "id": "a-wildlife-crossing-is-more-than-a-bridge-20261106",
+  "date": "2026-11-06",
+  "editionDate": "2026-11-06",
+  "url": "article.html?id=a-wildlife-crossing-is-more-than-a-bridge-20261106",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/a-wildlife-crossing-is-more-than-a-bridge-20261106.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Wildlife Crossing Is More Than a Bridge. Read the habitat, fencing and monitoring around a crossing—and learn what a camera image can tell you, and what it cannot.\nPeople: two adult siblings or close friends collaborating. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two adult siblings or close friends seated at a safe public picnic table, studying a transportation-agency map and a printed wildlife-crossing diagram. One traces the habitat on either side while the other marks a fence line and writes a monitoring question. Keep the scene away from traffic and out of restricted areas.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends compare notes about everyday activities at a table before discussing exercise options with a clinician. | Two friends look together at a clothing product page on a tablet, comparing a virtual try-on preview with garment details while one points to the privacy information.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
