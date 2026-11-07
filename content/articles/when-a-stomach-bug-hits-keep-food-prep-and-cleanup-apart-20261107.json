@@ -1,0 +1,87 @@
+{
+  "category": "Living",
+  "title": "When a Stomach Bug Hits, Keep Food Prep and Cleanup Apart",
+  "subtitle": "A practical two-person plan for suspected norovirus: who steps back, who handles cleanup, and how to manage contaminated laundry.",
+  "imageAlt": "Two adults in a home kitchen review a cleanup plan while one places gloves and disinfectant beside the laundry area.",
+  "imageConcept": "A couple with different ages and life experience stands at a kitchen table, calmly reviewing a handwritten illness plan, with gloves, a sealed disinfectant bottle and a laundry basket visible nearby.",
+  "body": [
+    [
+      "Make the plan before anyone feels sick",
+      "Norovirus can spread through contaminated food, objects and surfaces [3]. People can still spread norovirus for 2 weeks or more after they feel better [1]. That makes a simple division of household tasks useful: the sick person steps away from food preparation and caregiving, while a healthy person takes responsibility for cleanup and practical support [1]. This is a household workflow, not a special protocol prescribed by public health officials. Its value is that it reduces improvising when someone is tired, uncomfortable or worried about another person. Agree in advance who can take on each role, where the cleaning supplies are kept, and who can be called if the person who usually handles household tasks becomes ill."
+    ],
+    [
+      "Give the sick person a clear boundary",
+      "Someone who is vomiting or has diarrhea should not prepare food or care for others. CDC advises keeping that pause in place until at least 48 hours after symptoms stop [1]. That means no cooking for the household, packing lunches, serving shared snacks or taking over another person’s personal care during that period. If possible, the person who is sick can rest in a separate room and use a separate bathroom. Not every home has that option; the plan should fit the space rather than make anyone feel at fault. If a bathroom is shared, the healthy person can take responsibility for cleaning frequently touched surfaces according to disinfectant directions, and household members should wash their hands with soap and water for at least 20 seconds."
+    ],
+    [
+      "Make the roles explicit, not heroic",
+      "The healthy cleaner is not expected to do everything alone. If another healthy person is available, they can keep others away from the area and bring supplies to the cleaner without entering the contaminated space. That division is an editorially useful household arrangement, not a CDC requirement. It can lower interruptions and keep the cleaner from searching for gloves or products mid-task. Decide who is doing what in plain language: “I’ll clean the bathroom; you keep the hallway clear and bring the laundry bag.” If only one healthy person is available, they can work through one task at a time, keeping other residents away as practical. No one needs to prove toughness by staying close to someone who is ill; useful support can mean bringing water, checking in, or arranging help."
+    ],
+    [
+      "Clean visible mess first; then disinfect",
+      "For vomit or diarrhea, CDC recommends putting on disposable gloves, promptly cleaning the area, and disinfecting it with a product effective against norovirus [1]. Follow the product’s directions for the surface, amount, and time it must remain wet. Start by wiping the area with paper towels and placing them in a plastic trash bag for disposal [1]. Then apply the disinfectant as directed; CDC advises cleaning the entire area again with soap and hot water afterward [1]. Keep children, pets and other household members away from the work area while you clean, and avoid touching your face or nearby objects with contaminated gloves. Remove gloves carefully when finished and wash hands with soap and water. Hand sanitizer alone does not work well against norovirus, so it is not a substitute for handwashing [1]."
+    ],
+    [
+      "Choose a product by its label, not its promise",
+      "A general-purpose cleaner is not automatically a norovirus disinfectant. EPA’s List G identifies products reviewed for effectiveness against norovirus, and its guidance says to check the product’s EPA registration number and confirm that the label includes norovirus disinfection directions [2]. Use the product only on the surfaces and in the way the label allows. Pay attention to contact time: the surface may need to stay visibly wet for a specified period for the product to work. A product that dries too soon may not meet its directions, so do not guess at timing or dilute it unless the label tells you to. If using bleach, follow its label instructions [1]."
+    ],
+    [
+      "Handle linens without shaking them",
+      "Soiled clothes, towels and bedding can carry contamination. Wear disposable gloves when handling them, and avoid shaking the items, which can spread material onto nearby surfaces. Place laundry directly into the washing machine or a laundry bag that can be emptied without touching the contents more than necessary. CDC advises washing with detergent and drying on the hottest settings available [1]. After handling laundry, remove gloves and wash your hands. If the person who is sick uses shared towels, set those aside for washing rather than returning them to the household towel supply. The aim is not to create a complicated laundry system; it is to keep potentially contaminated fabric from brushing against clean items, counters or clothing on its way to the wash."
+    ],
+    [
+      "Keep an eye on hydration and changing needs",
+      "Vomiting and diarrhea can lead to dehydration. Young children younger than 5, older adults and people with weakened immune systems are more likely to develop severe infections; people with other illnesses may also be at greater risk of dehydration [3]. The household plan should include a low-pressure way to check in: ask whether the person can keep fluids down, whether symptoms are worsening, and whether they need medical advice. This article is not a diagnosis or a substitute for care. If you are concerned about dehydration, symptoms are severe, or the person has a health condition that raises their risk, contact a health professional for guidance. The healthy person can make that call or help gather information, but should not assume that a cleaning plan addresses every medical need. Keep the sick person’s preferences and privacy in view while offering help."
+    ],
+    [
+      "Write a handoff that works in your home",
+      "At a calm moment, make a short note together and keep it where both people can find it. Include the name of the person who can step in for food preparation, where gloves and the disinfectant are stored, the product’s label contact time, and the laundry plan. Check the label now rather than during a cleanup; if the product does not include norovirus directions, look for one that does. Add the number for a trusted backup person or a healthcare contact if that would be useful. Then read the plan aloud and adjust anything that assumes a spare bathroom, a second helper or equipment your household does not have. A workable plan is specific, realistic and easy to change—not a test of how well anyone manages illness."
+    ],
+    [
+      "Leave the plan ready for the next pair of hands",
+      "Before putting the note away, ask the person who would be healthy in the next illness to walk through the sequence: where the gloves are, which product is intended for norovirus, how to check its label contact time, and where soiled laundry goes. Then let the other person explain what support they would want while sick—perhaps a check-in by phone, a drink left outside the room, or help contacting a clinician. Write down only the details that would actually help, and agree who will update the plan if supplies or roles change. This five-minute handoff makes the division of labor visible without turning care into a scorecard; it leaves room for people’s needs to differ from one illness to the next."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "How to Prevent Norovirus | Norovirus | CDC",
+      "authors": "Centers for Disease Control and Prevention",
+      "publication": "Centers for Disease Control and Prevention (CDC), January 13, 2025",
+      "url": "https://www.cdc.gov/norovirus/prevention/index.html",
+      "researchSourceId": "S3"
+    },
+    {
+      "sourceId": "S2",
+      "title": "EPA’s Registered Antimicrobial Products Effective Against Norovirus (feline calicivirus) [List G] | US EPA",
+      "authors": "U.S. Environmental Protection Agency",
+      "publication": "U.S. Environmental Protection Agency, June 3, 2026",
+      "url": "https://www.epa.gov/pesticide-registration/epas-registered-antimicrobial-products-effective-against-norovirus-feline",
+      "researchSourceId": "S2"
+    },
+    {
+      "sourceId": "S3",
+      "title": "About Norovirus | Norovirus | CDC",
+      "authors": "Centers for Disease Control and Prevention",
+      "publication": "Centers for Disease Control and Prevention (CDC), April 24, 2024",
+      "url": "https://www.cdc.gov/norovirus/about/",
+      "researchSourceId": "S6"
+    }
+  ],
+  "id": "when-a-stomach-bug-hits-keep-food-prep-and-cleanup-apart-20261107",
+  "date": "2026-11-07",
+  "editionDate": "2026-11-07",
+  "url": "article.html?id=when-a-stomach-bug-hits-keep-food-prep-and-cleanup-apart-20261107",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/when-a-stomach-bug-hits-keep-food-prep-and-cleanup-apart-20261107.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: When a Stomach Bug Hits, Keep Food Prep and Cleanup Apart. A practical two-person plan for suspected norovirus: who steps back, who handles cleanup, and how to manage contaminated laundry.\nPeople: a couple with visibly different ages and life experience. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: A couple with different ages and life experience stands at a kitchen table, calmly reviewing a handwritten illness plan, with gloves, a sealed disinfectant bottle and a laundry basket visible nearby.\nAvoid repeating these recent WILDWIRE image scenes: A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends lifting in a gym, one resting on a bench while the other checks a training notebook beside a visible timer. | Two family members compare a patterned garment near a bright window before choosing a shaded place to store it. | Two friends pause beside a flowering shrub, each writing a separate observation in a small notebook. | Two partners in everyday clothes review a neighborhood public-art notice and simple site map at a public-space table.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

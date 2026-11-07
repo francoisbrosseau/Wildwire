@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "The Call Date Isn’t the Maturity Date",
+  "subtitle": "A callable brokered CD gives the issuing bank an early-exit option. Before buying, make sure you know which dates belong to the bank—and which choices belong to you.",
+  "imageAlt": "A couple compares a brokered CD disclosure with a calendar at their kitchen table, marking the call date and maturity date separately.",
+  "imageConcept": "A warm, natural kitchen-table scene: two partners review a printed brokered CD disclosure beside an open calendar and laptop. One person circles an early call date; the other traces a line to the later maturity date. The document is generic and has no visible bank branding or invented rate.",
+  "body": [
+    [
+      "Two dates, two different meanings",
+      "A callable certificate of deposit can come with an early date that sounds like a withdrawal opportunity. It is not. The call date is when the issuing bank may have the right to redeem the CD under its contract. The maturity date is the scheduled end of the CD’s full term, assuming the bank does not exercise that call right. The holder does not get to choose the call date as a convenient exit point: the option belongs to the issuer, not the investor. [1]\n\nThat distinction matters when an offer highlights a period such as “non-callable for one year.” It means the issuer generally cannot call the CD during that specified period, subject to the contract’s terms. It does not, by itself, mean the CD matures in one year. A non-call period and a maturity date answer different questions, and a disclosure may list several dates that need to be read together. [1]"
+    ],
+    [
+      "What a call can change",
+      "If the bank calls the CD, the investment ends earlier than its scheduled maturity. The contract determines the terms for redemption and any interest owed. The investor then has funds to place elsewhere, but may not be able to find another option with the same rate, term, or features. That reinvestment uncertainty is one reason the headline rate cannot tell the whole story. [1]\n\nThe call option may be more useful to the issuer in some interest-rate environments than others: if the bank can replace its funding on more favorable terms, an early redemption may suit the bank. That is a way to understand the structure, not a forecast that a particular CD will be called. A bank may or may not use its option, and the written terms—not a reader’s expectation about rates—control what it can do. The practical question is whether an earlier end date would disrupt the purpose for which you set the money aside."
+    ],
+    [
+      "A call is not the same as selling early",
+      "A holder who wants to leave a brokered CD before maturity is dealing with a separate possibility: selling it in a secondary market. That is not the same as asking the bank to call the CD, and the call date does not promise that the investor can sell on that date. A sale may not be available when wanted. If it is available, the price can reflect market conditions and may be below the amount invested; a broker may also charge a fee. [1]\n\nThis is different from an ordinary bank CD that may have an early-withdrawal penalty under its terms. The mechanics vary by product, so do not assume that a brokered CD has the same withdrawal route—or the same consequences—as one opened directly with a bank. The SEC describes brokered CDs as investments that can be sold before maturity, but cautions that a secondary market may not exist and that a sale can result in a loss. [1]\n\nA useful test is to ask yourself whether you might need this money before the stated maturity. If the answer is yes, understand the actual sale arrangements and possible costs before buying. Do not treat “callable” as shorthand for “easy to cash out.”"
+    ],
+    [
+      "Read the disclosure in this order",
+      "Start with the full maturity date. Find the date the CD is scheduled to mature, not just the earliest date mentioned in a summary or sales description. Then locate every call date or call period and identify who holds the call right. Confirm whether the issuer can redeem the CD on one specified date or on multiple dates, and check whether the contract says anything about notice or the amount paid at redemption. The written terms matter more than a short label. [1]\n\nNext, read how interest is paid and what happens if the CD is called. Check whether interest is paid periodically or at another interval, and whether there are conditions tied to redemption. Compare the disclosed rate with the term and the call structure, rather than treating the rate as a stand-alone measure of value. Then look for any information about selling before maturity, including fees, how an order would be handled, and the possibility that no buyer is available. [1]\n\nFinally, ask for the complete disclosure if you have only seen a summary. Keep a copy with the dates marked. If the terms are unclear, ask the broker or financial professional to explain the difference between the bank’s call right and your ability to sell, and where each is described in the documents."
+    ],
+    [
+      "Keep renewal separate from a call",
+      "A CD that reaches its maturity date may have an automatic-renewal provision. That is a different mechanism from an issuer calling a CD early. With an automatic renewal, the deposit may roll into a new CD unless the account holder acts within the applicable window; the new rate may differ from the prior one. [3]\n\nThe FDIC also recommends checking whether a CD has a call feature and reviewing its renewal terms. Those are two separate items to find in the paperwork: one concerns what the bank may do before maturity, and the other concerns what happens at or after the scheduled end of the term. [2] Put the maturity date and any renewal deadline on your calendar, but do not assume that the call date is a deadline for you to withdraw or make a choice. The contract and account-specific notices determine the relevant steps."
+    ],
+    [
+      "Brokered does not mean uninsured—or automatically insured",
+      "A brokered CD is issued by a bank and offered through a brokerage, rather than necessarily being opened at a bank branch. Deposit insurance is tied to the issuing bank and the way deposits are owned and recorded, not simply to the name of the brokerage or the presence of a CD label. The SEC advises investors to verify the issuing bank and understand how coverage applies to their situation. [1]\n\nBefore relying on coverage, identify the bank that issued the CD, review how the account is titled and recorded, and consider other deposits you hold at that same bank in the same ownership category. Coverage rules can depend on those details. The broker’s account statement is useful, but it is not a substitute for checking the issuer and the relevant deposit-insurance records. If the arrangement is complex, use the FDIC’s official resources or ask the institution how the deposit is recorded."
+    ],
+    [
+      "A decision checklist, not a headline",
+      "Before committing, be able to answer five plain questions: What is the full maturity date? When may the issuer first call the CD, and can it call again later? What does the contract say happens to principal and interest if it does? If I need to exit first, can I sell, what fees or price risks apply, and could a market be unavailable? Which bank issued the CD, and have I checked how deposit insurance applies to my records? The SEC’s brokered-CD bulletin and the FDIC’s CD-shopping guidance both point readers toward the product terms rather than relying on a promotional description. [1] [2]\n\nThese questions do not tell anyone whether to buy. They make the trade-off visible: a callable CD may end early at the issuer’s choice, while the investor’s route out before maturity may involve a sale with uncertain availability and price. A clear understanding of dates and exit options is more useful than assuming that any early date on the page is yours to use. This is educational information, not individualized financial, legal, or tax advice."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Brokered CDs: Investor Bulletin | Investor.gov",
+      "authors": "SEC Office of Investor Education and Advocacy",
+      "publication": "Investor.gov, November 30, 2023",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/brokered-cds-investor-bulletin",
+      "researchSourceId": "S53"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Shopping for a Certificate of Deposit? | FDIC.gov",
+      "authors": "Federal Deposit Insurance Corporation",
+      "publication": "FDIC, November 2023; last updated November 3, 2023",
+      "url": "https://www.fdic.gov/consumer-resource-center/2023-11/shopping-certificate-deposit",
+      "researchSourceId": "S6"
+    },
+    {
+      "sourceId": "S3",
+      "title": "What is a certificate of deposit (CD) rollover or renewal? | Consumer Financial Protection Bureau",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau, last reviewed August 30, 2024; modified September 4, 2024",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-certificate-of-deposit-cd-rollover-or-renewal-en-923/",
+      "researchSourceId": "S2"
+    }
+  ],
+  "id": "the-call-date-isn-t-the-maturity-date-20261107",
+  "date": "2026-11-07",
+  "editionDate": "2026-11-07",
+  "url": "article.html?id=the-call-date-isn-t-the-maturity-date-20261107",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-call-date-isn-t-the-maturity-date-20261107.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Call Date Isn’t the Maturity Date. A callable brokered CD gives the issuing bank an early-exit option. Before buying, make sure you know which dates belong to the bank—and which choices belong to you.\nPeople: two women partners with distinct builds and features. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: A warm, natural kitchen-table scene: two partners review a printed brokered CD disclosure beside an open calendar and laptop. One person circles an early call date; the other traces a line to the later maturity date. The document is generic and has no visible bank branding or invented rate.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends lifting in a gym, one resting on a bench while the other checks a training notebook beside a visible timer. | Two family members compare a patterned garment near a bright window before choosing a shaded place to store it. | Two friends pause beside a flowering shrub, each writing a separate observation in a small notebook. | Two partners in everyday clothes review a neighborhood public-art notice and simple site map at a public-space table. | Two adults in a home kitchen review a cleanup plan while one places gloves and disinfectant beside the laundry area.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
