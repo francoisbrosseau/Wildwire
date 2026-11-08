@@ -1,0 +1,80 @@
+{
+  "category": "Style",
+  "title": "The Sole Check: Catch a Shoe Repair While It’s Still a Conversation",
+  "subtitle": "Daily Read — Bring one well-worn pair to the table, compare what you can see, and decide together whether a cobbler’s advice would help.",
+  "imageAlt": "Three generations sit together comparing the soles and heels of everyday shoes on a low table.",
+  "imageConcept": "A warm, natural-light scene of a multigenerational family seated around a low table, each person holding an everyday shoe and pointing out a visible detail on its sole or heel; the mood is curious and collaborative, not instructional or staged.",
+  "body": [
+    [
+      "A useful look, not a shoe exam",
+      "Shoes carry the evidence of ordinary life: the walk to work, the school run, a long shift, a familiar route to the shops. Looking at their wear can be a small way to share what we notice and decide what deserves attention. It doesn’t require a perfect eye, a repair kit or a promise to save every pair. The point is to catch a possible issue while there may still be choices—not to grade anyone’s footwear or guess what a repair will cost. Cobblers interviewed by Sarah Phillips describe a range of possible work, from small stitching or gluing jobs to replacement soles, and note that waiting until a heel or sole is badly worn can narrow the options [1]. That’s a reason to look, not a rule that every worn shoe needs fixing. A repair professional can help assess the specific pair."
+    ],
+    [
+      "Why this works across generations",
+      "A shoe check gives people of different ages something concrete to look at together, without assuming that one person is the expert. A teenager may notice that a trainer’s edge has started to lift; a grandparent may recognize where a familiar walking shoe tends to wear; someone else may simply know that this pair is still comfortable. Those observations can sit side by side. The AP has reported on shoe-repair businesses and on a customer who carried forward a shoe-shine routine he had watched his father practise [2]. That account is not a prescription for family tradition; it is a reminder that care around footwear can be learned and shared. Here, the useful inheritance might be a habit of asking before assuming: What do you see? Does the shoe still feel right? Would you like help finding out what a repair might involve?"
+    ],
+    [
+      "Start with one pair each",
+      "Choose a pair each person wears often, rather than a special-occasion shoe or an item someone feels pressured to discuss. Sit somewhere with good light and a surface where shoes can rest. Take turns looking at three areas: the sole, the heel, and the places where materials join, such as an edge or seam. Name one visible detail in plain language: “The heel looks more worn on this side,” “There’s a gap at the edge,” or “I can see a split in the stitching.” Keep the description to what is actually visible. Don’t turn it into a verdict about how the person walks, how carefully they look after things, or whether the shoe is fashionable. If someone doesn’t want to take part or show a particular pair, let them pass. The activity should make room for a conversation, not create a new standard of tidiness."
+    ],
+    [
+      "Notice; don’t diagnose",
+      "A household look is not a technical inspection. Uneven wear may be worth noticing, but it does not explain its cause or establish that a shoe needs repair. Likewise, a mark or a scuff is not automatically damage. The Washington Post’s reporting on shoe repair emphasizes that repairability varies with a shoe’s materials and condition, and cautions against treating a separating sole as a straightforward household-glue fix [3]. So keep the check modest. If something appears loose, split or unstable, take a clear photograph and ask a cobbler what they see. Avoid prying at a seam, pulling on a loose section or applying glue before you’ve asked. A short description and a photo are useful starting points, not a diagnosis."
+    ],
+    [
+      "Make the next step specific",
+      "If a detail gives you pause, turn it into one question rather than a sprawling repair project. For example: “The outer edge of the sole is separating—can this be repaired, and is there anything I should avoid doing first?” You can send a photo or take the shoe in, depending on what the repair shop offers. If the question is about a brand’s repair or warranty service, check the current instructions for that specific shoe; a service offered for one model or brand does not guarantee that another pair is eligible. Ask what the work would involve, what it would cost, how long it might take and whether the repair is likely to suit how the shoe is used. There is no obligation to proceed. Sometimes the next step is to repair it; sometimes it is to keep using it, set it aside, or replace it. The decision belongs to the person who wears the pair."
+    ],
+    [
+      "Repair is an option, not a moral test",
+      "It’s easy for sustainability talk to make repair sound like the only responsible choice. That can overlook real constraints: the shoe may not be repairable, a repair may not fit someone’s budget or timeline, or the person may need footwear that feels dependable now. Don’t make a family check into an argument about spending, waste or who should have taken better care of something. Ask about the pair in front of you. If repair is not practical, the useful outcome may still be learning what happened, checking whether the shoe is safe and comfortable to wear, and making a considered choice about what comes next."
+    ],
+    [
+      "Leave with one useful answer",
+      "Give the check ten unhurried minutes. Each person brings one frequently worn pair, names a visible sign of wear, and says whether they want help following up. If a seam, sole or heel seems loose or uneven, photograph it rather than trying a home fix. Choose one person to contact a cobbler, if the wearer wants that, and agree when you’ll share what you learn. Otherwise, write “check again” beside the pair and choose a date that makes sense; there’s no need to monitor it constantly. Close by asking the wearer what they want to do, not by deciding for them. The answer may be “I’ll ask,” “not now,” or “this pair has done its job.” A small shared check is useful when it leaves someone with more information and a clear choice—not a shopping list, a lecture or a promise that every shoe can be saved."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Save our soles! Cobblers on the 15 best ways to look after your shoes",
+      "authors": "Sarah Phillips",
+      "publication": "The Guardian",
+      "url": "https://www.theguardian.com/fashion/2026/mar/12/the-experts-cobblers-on-15-best-ways-to-look-after-shoes",
+      "researchSourceId": "S11"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Shoe polish stands begin to vanish, lose their shine",
+      "authors": "Mae Anderson and Ted Shaffrey",
+      "publication": "The Associated Press",
+      "url": "https://apnews.com/article/small-business-shoeshine-new-york-48f322dbce95a1408cc75b1d9f2b92e1",
+      "researchSourceId": "S97"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Your worn-out shoes are more valuable than you think",
+      "authors": "Allyson Chiu",
+      "publication": "The Washington Post",
+      "url": "https://www.washingtonpost.com/climate-solutions/2025/03/09/shoes-sustainable-repairs-leather/",
+      "researchSourceId": "S34"
+    }
+  ],
+  "id": "the-sole-check-catch-a-shoe-repair-while-it-s-still-a-conversati-20261108",
+  "date": "2026-11-08",
+  "editionDate": "2026-11-08",
+  "url": "article.html?id=the-sole-check-catch-a-shoe-repair-while-it-s-still-a-conversati-20261108",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-sole-check-catch-a-shoe-repair-while-it-s-still-a-conversati-20261108.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Sole Check: Catch a Shoe Repair While It’s Still a Conversation. Daily Read — Bring one well-worn pair to the table, compare what you can see, and decide together whether a cobbler’s advice would help.\nPeople: three generations of one family working together. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: confident, well-dressed friends with runway energy grounded in attainable real life.\nScene concept: A warm, natural-light scene of a multigenerational family seated around a low table, each person holding an everyday shoe and pointing out a visible detail on its sole or heel; the mood is curious and collaborative, not instructional or staged.\nAvoid repeating these recent WILDWIRE image scenes: Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends compare a seated weight machine and a pair of dumbbells in a bright, uncluttered gym. | Two women partners compare jackets in front of a mirror, each wearing a different silhouette and pointing out details that suit her own style. | A couple and an older family member pause on an open trail through a previously burned forest, looking at standing trees and low plants beside the path. | Two male friends compare a site guide and interpretive map in the garden of a historic house museum. | Two friends sit at a bathroom doorway with a notebook, discussing the route between the toilet and shower without touching the fixtures. | Two friends sit at a kitchen table reviewing a bank statement and account documents together. | Two friends sit at a sunlit kitchen table, talking over mugs with a notebook open between them.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 4,
+    "issues": []
+  }
+}
