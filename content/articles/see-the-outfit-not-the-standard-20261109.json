@@ -1,0 +1,83 @@
+{
+  "category": "Style",
+  "title": "See the Outfit, Not the Standard",
+  "subtitle": "A thoughtful way to read fashion photos, size tools and fit details online—alone or with someone you trust.",
+  "imageAlt": "Two partners sit together at a kitchen table, comparing an online clothing page with its garment details while discussing what each wants from a different outfit.",
+  "imageConcept": "An ordinary, sunlit home setting: two adult partners sit side by side at a table, each looking at a separate clothing page on a phone or laptop. One points to a garment detail while the other listens; their expressions are engaged, not evaluative. The composition emphasizes shared decision-making and the screens, not either person’s body as a comparison.",
+  "body": [
+    [
+      "A photo is a clue, not a promise",
+      "Shopping online asks a picture to do a complicated job. A model can show how a garment hangs, where a hem lands in that particular image, or how a color looks in the available light. But a photo cannot guarantee that the same item will fit or feel the same on another person. Pose, styling, fabric, camera angle and garment construction all shape what appears on screen. The useful question is not “Does my body look like the model’s?” but “What can I learn from this view, and what remains unknown?” That shift makes room for style as well as fit: the goal is not to reproduce someone else’s look, but to understand whether the garment might serve your own preferences."
+    ],
+    [
+      "Representation helps, but it is not a sizing system",
+      "Images of models whose bodies are closer in size to a shopper’s can reduce perceived fit risk and support purchase decisions, according to research spanning 11 studies. The researchers also describe conditions and limits, so the finding is a reason to welcome more useful representation—not to treat any one image as a fitting-room substitute.[1] A separate set of five studies found that varied female model sizes improved consumers’ impressions of brands’ values, while participants also reported that shopping those pages could feel less easy.[2] Both findings can be true: seeing a wider range of people matters, and a retailer still needs clear product information and an easy-to-follow page. A model is one reference point, not a verdict on your body or the garment."
+    ],
+    [
+      "Start with the garment, not the number",
+      "Before choosing a size, identify what the item is and what the page actually tells you about it. A structured jacket, a stretchy knit top and relaxed trousers do not provide the same kind of fit information. Look for the retailer’s fit description—such as slim, relaxed or oversized—and note whether it refers to the intended silhouette or simply to how a model is wearing it. Check the size chart for the garment category you’re shopping, rather than assuming one chart applies to every item. If garment measurements are provided, notice which parts are measured and whether the page explains how to compare them with a garment you already own. A size label is a starting point for navigating a retailer’s options, not a universal measurement."
+    ],
+    [
+      "Make the model images work harder",
+      "If a product page shows the same item on models with different body sizes, use the views to ask specific questions. Does the shoulder seam appear to sit differently? Does the hem fall at a different point? How does the garment drape when it is styled or posed in another way? These comparisons may help you picture possibilities, but avoid turning them into a scorecard about whose body wears the item “best.” Images are most useful when they add context to product details, not when they imply that a body is the standard the rest of us should match. If the page offers only one view, or the garment is partly obscured, treat that as a gap in the information. You do not have to fill it with assumptions."
+    ],
+    [
+      "Name the fit you want",
+      "“What size am I?” can feel like the only question a shopping page invites. Try adding a more useful one: “What do I want this garment to do?” That answer might be room to layer over a shirt, a close fit through the shoulder, enough length to tuck in, or a waistband that feels comfortable while seated. For jeans, you might care about a particular rise or room through the thigh; for a jacket, movement across the back or the option to wear a sweater underneath. These are preferences, not rules. Different people may want different amounts of ease in the same style, and your own preference can change from garment to garment. Specific goals make product details easier to assess without implying that there is one correct fit."
+    ],
+    [
+      "Use size tools by choice, not obligation",
+      "A size finder or recommendation widget can be one more source of information, but it is not a required step or an authority on what you should wear. Recent experimental research on online size-selection aids identifies personal-data disclosure, perceived complexity and perceived risk as relevant considerations for shoppers.[3] Before using a tool, check what it asks you to provide and whether you are comfortable sharing that information. If the process feels confusing, intrusive or simply unhelpful, you can leave it and use the product details instead. Some recommendation systems may offer a suggestion without explaining what it means for the garment’s shape or your preferences. Treat the result as a prompt to inspect, not a command. A suggestion that cannot explain itself may not answer the question you actually have."
+    ],
+    [
+      "A useful two-person read",
+      "If you shop with a partner or friend, make the conversation collaborative rather than turning it into a body assessment. Each person chooses an item they are considering and describes what they want from it. One might say, “I want room for a layer,” while the other says, “I’m looking for a shorter length.” Then read the page together: first the model image, next the fit notes and size chart, and finally any garment measurements or alternate views. The listener can ask, “What detail would help you decide?” rather than offering an unsolicited judgment about someone’s body or size. Each person should make the decision for their own outfit. Shopping alone? The same sequence works as a short checklist, written in a notes app or kept in mind while browsing."
+    ],
+    [
+      "When the page leaves questions",
+      "Sometimes the honest result of a careful read is uncertainty. A chart may be hard to interpret, the page may omit garment measurements, or the photos may not show the detail you need. If you decide to use a tape measure, follow the retailer’s instructions carefully and remember that a measurement is only as helpful as the guidance and garment information around it. You can also look for a clearer product page, ask the retailer a specific question, or choose not to buy. Your comfort with the available information is part of the decision."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "One size does not fit all: Optimizing size-inclusive model photography mitigates fit risk in online fashion retailing",
+      "authors": "Yerong Zhang, Iina Ikonen, Jiska Eelen, Francesca Sotgiu",
+      "publication": "Springer Nature",
+      "url": "https://link.springer.com/article/10.1007/s11747-024-01034-9",
+      "researchSourceId": "S44"
+    },
+    {
+      "sourceId": "S2",
+      "title": "The model-sizing dilemma: The use of varied female model sizes helps the impressions of brand values but hurts shopping ease",
+      "authors": "Jennifer K. D'Angelo, Gretchen R. Ross",
+      "publication": "Wiley",
+      "url": "https://myscp.onlinelibrary.wiley.com/doi/10.1002/jcpy.1443",
+      "researchSourceId": "S40"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Decision aids for online size selection: insights from experimental studies in apparel retailing",
+      "authors": "Jan-Lukas Selter, Julian Schmitz, Tobias Röding, Hanna Schramm-Klein",
+      "publication": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/doi/pdf/10.1080/09593969.2025.2606175",
+      "researchSourceId": "S43"
+    }
+  ],
+  "id": "see-the-outfit-not-the-standard-20261109",
+  "date": "2026-11-09",
+  "editionDate": "2026-11-09",
+  "url": "article.html?id=see-the-outfit-not-the-standard-20261109",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/see-the-outfit-not-the-standard-20261109.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: See the Outfit, Not the Standard. A thoughtful way to read fashion photos, size tools and fit details online—alone or with someone you trust.\nPeople: a woman and a man who are partners, with grounded attainable appearances. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: confident, well-dressed friends with runway energy grounded in attainable real life.\nScene concept: An ordinary, sunlit home setting: two adult partners sit side by side at a table, each looking at a separate clothing page on a phone or laptop. One points to a garment detail while the other listens; their expressions are engaged, not evaluative. The composition emphasizes shared decision-making and the screens, not either person’s body as a comparison.\nAvoid repeating these recent WILDWIRE image scenes: Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends in a bright home gym compare notes after each performs a comfortable dumbbell row, one lowering the weight smoothly while the other observes without coaching.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

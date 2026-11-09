@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "The 401(k) Loan Has a Job-Exit Clause",
+  "subtitle": "Leaving an employer can change how a retirement-plan loan is handled. If the plan offsets the unpaid balance, the account reduction may count as a taxable distribution—even when no cash reaches you.",
+  "imageAlt": "Two friends sit at a kitchen table reviewing a sample retirement-plan loan document, with personal details hidden and a section about leaving employment in view.",
+  "imageConcept": "Two male friends from different backgrounds sit side by side at a kitchen table, calmly reviewing a sample 401(k) loan document. One points to the job-separation terms while the other follows the section on account offsets. No personal information or real account statements are visible; the scene conveys practical support, not financial expertise.",
+  "body": [
+    [
+      "Start with the plan, not an assumption",
+      "A job change can turn a familiar payroll deduction into a time-sensitive financial question: What happens to the money still owed on a workplace retirement-plan loan? There is no single answer for every worker. The plan document and loan agreement set the terms, including whether payments can continue after employment ends, whether repayment is required, and how missed payments are handled. Leaving a job does not, by itself, mean every outstanding loan is immediately offset against the account. The Internal Revenue Service says plan terms matter when employment ends, so the first step is to get the rules for your specific plan rather than rely on a former colleague’s experience or a general online summary [1]."
+    ],
+    [
+      "What an offset actually means",
+      "A plan-loan offset is a reduction in a participant’s retirement-plan account used to repay some or all of an outstanding loan. In plain English, the plan records the unpaid balance as repaid by taking that value from the account. The important wrinkle is that federal tax rules treat an offset as a distribution, even though the participant may not receive a matching cash payment. That difference can make a job-exit loan more than an account-management issue: it can create a tax bill without money arriving in a bank account to cover it [1]. An offset is not the same thing as simply missing a payment. A missed payment or loan default can have its own consequences, and a deemed distribution may arise under different circumstances. Do not assume those terms describe the same event—or that every default means the plan has already reduced the account. Ask the plan administrator what has happened and what is scheduled to happen."
+    ],
+    [
+      "Why the label QPLO matters",
+      "Some plan-loan offsets qualify as qualified plan loan offsets, or QPLOs. That label matters because it can provide a longer period to roll over the offset amount to an eligible retirement plan. It is not a general extension for anyone who leaves a job with a loan. IRS guidance says a QPLO requires the loan to meet the applicable requirements immediately before plan termination or severance, and the offset to result solely from plan termination or a failure to meet repayment terms because of severance from employment [1]. For an offset related to severance, the timing rules also matter: the offset must occur within 12 months after the severance [1]. The precise circumstances determine whether the statutory definition is met. An offset that feels connected to leaving work may still fail a technical condition, so do not rely on the label appearing in casual conversation. Confirm the classification with the plan administrator and, if needed, a tax professional who can review the actual documents and dates."
+    ],
+    [
+      "Two rollover clocks, not one",
+      "For an eligible non-QPLO offset, the general rollover period is usually 60 days. For a qualifying QPLO, the deadline can extend to the due date, including extensions, for filing the federal income-tax return for the tax year in which the offset occurred [2]. That longer window can give someone more time to replace the offset amount with money from another source and complete a rollover—but it does not make the rollover automatic, and it does not apply to every offset. The amount generally must be rolled over to an eligible retirement plan within the applicable deadline. A rollover is a transfer of eligible funds; it is not the plan sending the missing loan balance back to you. The deadline runs from the rules applicable to the offset, not simply from the day you notice a smaller account balance. Because a missed deadline can change the tax result, establish the offset date and classification promptly, in writing."
+    ],
+    [
+      "The cash-flow problem behind the tax rule",
+      "Imagine someone leaves a job while a loan balance remains. The plan later reduces the account by that balance and reports an offset. The person may not have received cash at that point, but the offset can still be treated as a distribution for federal tax purposes. If an amount that is taxable is not rolled over by the applicable deadline, it may be included in taxable income; an additional tax may apply in some circumstances [3]. The practical risk is a mismatch: the tax obligation can arrive when the money once represented by the loan has already been spent or is unavailable. This is why it helps to plan for repayment or a possible rollover before separation where circumstances allow. That is not a promise that either option will be offered; the plan’s actual terms control. Nor should anyone borrow or move money without understanding the consequences for their budget and other accounts."
+    ],
+    [
+      "A document check that can prevent surprises",
+      "Before leaving, or as soon as you learn your employment will end, collect the plan’s summary plan description, the loan agreement, and any notices about repayment or default. Ask the plan administrator—in writing if possible—whether payments may continue, whether the unpaid balance must be repaid, what event would trigger an offset, and the expected date. If an offset occurs, ask whether the plan considers it a QPLO and what facts support that classification. Keep the response, the loan balance information, and any account statement showing the offset. When tax forms arrive, review Form 1099-R and compare its reported distribution information with the plan’s explanation. IRS Publication 575 explains how plan-loan offsets are treated and how rollover timing differs by offset type [2]. If the form, plan explanation, or dates do not line up, ask the plan administrator or a qualified tax professional before filing based on an assumption."
+    ],
+    [
+      "A calm sequence for a difficult transition",
+      "A job exit already brings decisions about income, benefits, and next steps. A retirement-plan loan deserves its own short checklist: identify the plan’s rule; confirm the balance and any payment options; ask whether an offset is expected; record the date and classification if one occurs; then verify the applicable rollover deadline and tax reporting. Keep separate what is known from what is still a question. For example, “the plan says an offset is scheduled” is not the same as “the offset has happened,” and neither statement alone establishes QPLO eligibility. Federal tax rules are the focus here; state tax treatment may differ. This is general financial education, not individualized tax, legal, or investment advice. The useful goal is not to predict a plan’s decision, but to get the terms and timing clearly enough that a surprise account reduction does not become a surprise filing problem."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Plan loan offsets | Internal Revenue Service",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service",
+      "url": "https://www.irs.gov/retirement-plans/plan-loan-offsets",
+      "researchSourceId": "S21"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Publication 575 (2025), Pension and Annuity Income | Internal Revenue Service",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service, 2025 edition",
+      "url": "https://www.irs.gov/publications/p575",
+      "researchSourceId": "S27"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Instructions for Form 5329 (2025) | Internal Revenue Service",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service, 2025 edition",
+      "url": "https://www.irs.gov/instructions/i5329",
+      "researchSourceId": "S72"
+    }
+  ],
+  "id": "the-401-k-loan-has-a-job-exit-clause-20261109",
+  "date": "2026-11-09",
+  "editionDate": "2026-11-09",
+  "url": "article.html?id=the-401-k-loan-has-a-job-exit-clause-20261109",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-401-k-loan-has-a-job-exit-clause-20261109.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The 401(k) Loan Has a Job-Exit Clause. Leaving an employer can change how a retirement-plan loan is handled. If the plan offsets the unpaid balance, the account reduction may count as a taxable distribution—even when no cash reaches you.\nPeople: two men friends with different backgrounds. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: Two male friends from different backgrounds sit side by side at a kitchen table, calmly reviewing a sample 401(k) loan document. One points to the job-separation terms while the other follows the section on account offsets. No personal information or real account statements are visible; the scene conveys practical support, not financial expertise.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends in a bright home gym compare notes after each performs a comfortable dumbbell row, one lowering the weight smoothly while the other observes without coaching. | Two partners sit together at a kitchen table, comparing an online clothing page with its garment details while discussing what each wants from a different outfit. | Two friends standing on a public wetland path, quietly watching insects visit flowers along a beaver-shaped pond margin. | Two friends at an opera, one glancing toward projected surtitles as the other watches the performers onstage. | An older woman and two adult family members sit together at a kitchen table, writing emergency contacts on a small card beside a phone.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

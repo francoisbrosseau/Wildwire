@@ -1,0 +1,79 @@
+{
+  "category": "Living",
+  "title": "The Fall Plan Starts Before the Fall",
+  "subtitle": "A family call-and-help card can make the first minutes after a fall less confusing—without taking decisions away from the person who may need help.",
+  "imageAlt": "An older woman and two adult family members sit together at a kitchen table, writing emergency contacts on a small card beside a phone.",
+  "imageConcept": "A warm, natural kitchen-table scene: an older family member leads a conversation with a couple, one writing on a small card while the other checks a phone. Keep the mood collaborative and ordinary, with no staged distress or medical equipment.",
+  "body": [
+    [
+      "Plan for the uncertain minutes",
+      "A fall can leave everyone unsure what to do first: call someone, try to help the person stand, or wait and see. A short plan made in advance cannot predict every situation, and it is not a substitute for emergency care. Its value is more modest and practical: it gives the person who has fallen a way to summon help and gives family members a shared starting point. The National Institute on Aging advises pausing after a fall, checking for injury and not rushing to get up; if someone is hurt or cannot get up, they should ask for help or call 911 [1]. Planning those first steps ahead of time can reduce confusion when it matters."
+    ],
+    [
+      "Let the person who may need help lead",
+      "Invite the older family member to shape the plan rather than presenting them with a finished checklist. Ask what would help them feel prepared, whom they would want contacted, and what kind of assistance they would welcome. They may want a nearby relative called before anyone else, or they may prefer that emergency services be called first if they are injured or unable to move. Those preferences belong in the plan, as long as they do not replace urgent medical care when it is needed.\n\nKeep the conversation specific and unhurried. If several relatives are involved, ask the person whose plan it is to decide who should know about it. A supportive plan protects choice; it does not turn a family member into a supervisor or assume that age alone means someone cannot make decisions."
+    ],
+    [
+      "Make the card easy to use",
+      "Use a small card, a phone note, or both. Keep it in a place the person chooses and can reach: beside a frequently used phone, in a wallet, or with other important contact information. A card is useful only if it can be found and read, so use large, clear writing and avoid crowding it with medical history.\n\nInclude the person’s preferred name; their emergency contact and that person’s phone number; how to summon help when alone, such as a charged phone or personal alert device; and the address where help should come. Add any agreed first steps, including when to call 911. The NHS likewise recommends planning access to a phone or personal alarm, though U.S. families should use 911 for emergencies, not UK emergency numbers [2]. If the person wants, include the name and number of their healthcare provider and a note to share relevant medication information with responders or clinicians."
+    ],
+    [
+      "Agree on the first response—not a lifting routine",
+      "The card should not teach relatives how to lift someone from the floor. Trying to raise a person without knowing whether they are hurt could make a difficult situation worse, and family members may injure themselves too. The NHS advises against trying to lift someone yourself after a fall [2]. Instead, agree that the first priority is to check whether the person is responsive and whether there may be an injury, then get appropriate help. If they are hurt or unable to get up, NIA guidance says to ask for help or call 911 [1].\n\nTalk with the person’s healthcare professional about what movement is safe for them and what to do in circumstances specific to their health. Do not rehearse a fall or practice getting up unless a clinician has recommended and guided that activity. A family planning conversation can identify questions; it should not invent medical instructions."
+    ],
+    [
+      "Make getting help possible when alone",
+      "A plan depends on being able to use it. Ask the person to show, if they are comfortable, how they would call for help from the places where they spend time. Is their phone usually nearby and charged? Can they reach it from a chair or bed? If they use a personal alert device, is it accessible and do they know how to activate it? NIA also recommends keeping a charged phone nearby and arranging regular contact with a family member or friend [1].\n\nChoose the setup with the person, not for them. A wearable alert, a phone kept within reach, or a regular check-in may suit different people and homes. Decide who will help maintain the arrangement—charging a device, for example—and what the backup is if that person is away. Keep the plan realistic: a simple arrangement everyone understands is more useful than a complicated one no one can reliably follow."
+    ],
+    [
+      "After the immediate moment, close the loop",
+      "A fall is worth reporting to a healthcare provider even when there is no obvious injury. The American Geriatrics Society Health in Aging Foundation advises contacting a provider after a fall and identifies loss of consciousness, confusion, or inability to bear weight without pain as reasons for immediate medical attention [3]. If the person hit their head, has troubling symptoms, or you are uncertain about the seriousness of the situation, seek urgent medical guidance rather than relying on the card as a diagnosis.\n\nOnce immediate needs are addressed, write down what the person remembers: when and where it happened, what they were doing, and any symptoms or changes afterward. Keep the account factual; it is not about assigning blame. Share it with their healthcare provider, who can advise whether follow-up is needed. Review the contact details and call steps together after any change in phone, residence, health or preference."
+    ],
+    [
+      "Finish with the person’s version of the plan",
+      "Set aside ten calm minutes with the older family member and one or two people they choose. Put a blank card and a phone on the table. Ask the person to name the first person they would want contacted, show where they would summon help if alone, and choose what the card should say about calling 911. Then ask what they do not want relatives to attempt, including any movement or lifting. Write only the decisions they approve; leave unresolved medical questions for their clinician. Before you put the card away, let them explain the plan in their own words and decide where it should live. The goal is not to make a frightening event feel controllable. It is to make one clear, respectful next step easier to find."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Falls and Fractures in Older Adults: Causes and Prevention | National Institute on Aging",
+      "authors": "National Institute on Aging",
+      "publication": "National Institute on Aging (updated September 12, 2022)",
+      "url": "https://www.nia.nih.gov/health/falls-and-falls-prevention/falls-and-fractures-older-adults-causes-and-prevention?hss_channel=fbp-1391941174443518&utm_source=openai",
+      "researchSourceId": "S67"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Falls - NHS",
+      "authors": "NHS",
+      "publication": "NHS (last reviewed March 6, 2025)",
+      "url": "https://www.nhs.uk/conditions/falls/",
+      "researchSourceId": "S3"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Tip Sheet: Preventing Falls | HealthInAging.org",
+      "authors": "American Geriatrics Society Health in Aging Foundation",
+      "publication": "HealthInAging.org (last updated July 2024)",
+      "url": "https://www.healthinaging.org/tools-and-tips/tip-sheet-preventing-falls",
+      "researchSourceId": "S58"
+    }
+  ],
+  "id": "the-fall-plan-starts-before-the-fall-20261109",
+  "date": "2026-11-09",
+  "editionDate": "2026-11-09",
+  "url": "article.html?id=the-fall-plan-starts-before-the-fall-20261109",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-fall-plan-starts-before-the-fall-20261109.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Fall Plan Starts Before the Fall. A family call-and-help card can make the first minutes after a fall less confusing—without taking decisions away from the person who may need help.\nPeople: an adult couple with one older family member. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: A warm, natural kitchen-table scene: an older family member leads a conversation with a couple, one writing on a small card while the other checks a phone. Keep the mood collaborative and ordinary, with no staged distress or medical equipment.\nAvoid repeating these recent WILDWIRE image scenes: A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends in a bright home gym compare notes after each performs a comfortable dumbbell row, one lowering the weight smoothly while the other observes without coaching. | Two partners sit together at a kitchen table, comparing an online clothing page with its garment details while discussing what each wants from a different outfit. | Two friends standing on a public wetland path, quietly watching insects visit flowers along a beaver-shaped pond margin. | Two friends at an opera, one glancing toward projected surtitles as the other watches the performers onstage.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 3,
+    "issues": []
+  }
+}

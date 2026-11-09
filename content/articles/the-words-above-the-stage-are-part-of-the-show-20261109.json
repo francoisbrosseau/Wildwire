@@ -1,0 +1,83 @@
+{
+  "category": "Culture",
+  "title": "The Words Above the Stage Are Part of the Show",
+  "subtitle": "A first opera in an unfamiliar language doesn’t require homework. A little venue-specific planning can help you follow the story while staying present for the music, movement and spectacle.",
+  "imageAlt": "Two friends at an opera, one glancing toward projected surtitles as the other watches the performers onstage.",
+  "imageConcept": "Two friends seated together in an opera house, the stage glowing below a discreet line of projected surtitles; one watches the words while the other follows the performers.",
+  "body": [
+    [
+      "You don’t have to understand every word",
+      "Opera can seem to come with an entry exam: learn the plot, recognize the famous tunes, know when to applaud, and somehow understand a language you may never have studied. In practice, a performance can meet you where you are. If the opera is sung in a language you don’t know, surtitles—brief translations displayed above or beside the stage—may help you follow what is happening. They are a guide, not a requirement to keep pace with every line. You can arrive without studying the score or memorizing the story. Curiosity is enough; so is letting a scene make an impression before you can explain it."
+    ],
+    [
+      "First, find out what your venue actually offers",
+      "Before booking, or while planning the evening, check the production page or contact the box office. Find out which language the singers will use, which language the titles will appear in, and where the text is displayed. Some houses project titles above the stage; others use individual seatback displays. Opera America’s account of the spread of supertitles in the United States notes that the Canadian Opera Company used them for Elektra in 1983, while the Metropolitan Opera later adopted seatback titles—an early reminder that the audience’s view of the words depends on the venue [1]. If seeing text comfortably matters to you, ask whether the seats you’re considering have a clear view of the display and whether any separate caption or access services are available."
+    ],
+    [
+      "Surtitles are not a complete transcript",
+      "A line of text has to work in the time and space a live performance allows. The source describes surtitles being condensed for screen display, timed during rehearsals, and cued live during performance [3]. The chapter considers how audiences access language through hearing and surtitles, and how textual display and spoken language combine in the experience of multilingual performance [2]. You might catch a character’s intention in a short phrase, then notice a pause, gesture or musical shift that adds something the phrase cannot contain. That is not a failure of translation or attention. It is one of the ways theatre communicates: through words, sound, bodies and timing together."
+    ],
+    [
+      "Plan for the particular production, not an imaginary standard",
+      "There is no single surtitles setup to expect everywhere. The text may be overhead, to one side, on a personal screen or, in some productions, available through another device. Reporting from the Avignon Festival describes titles cued live to performance, with projection locations varying; it also covers a Paris production using smart glasses for translation [3]. These examples show how much the experience can differ, not what your venue is guaranteed to provide. Check the production’s current information rather than assuming a device, language or service will be available. If you use a caption or access service, ask the venue directly what it provides and how to arrange it; surtitles are not automatically a substitute for captions or another access option."
+    ],
+    [
+      "Choose a seat with the whole experience in mind",
+      "If titles are projected above the stage, a seat that keeps both text and action comfortably within your view may suit you better than one that requires repeated, effortful shifts. If titles appear on a seatback screen, the display’s location and your preferred way of watching may matter more. Ask the venue what it recommends for that production, and consider whether you have a preference about proximity, sightlines or screen use. There is no universally right place to sit: a clear view of the words is useful, but so is a view that lets you enjoy the stage. If the seating map or listing is unclear, a quick call or email can spare you from having to guess."
+    ],
+    [
+      "Let your attention move naturally",
+      "During the performance, you do not need to choose once and for all between reading and watching. Follow a title when it helps, then let your attention return to the singer, orchestra, costumes or scenery. Some moments may make the story clearer; others may hold you through music or visual action even if you miss a phrase. The chapter considers how hearing and seeing language through surtitles shape the subjective experience of multilingual performance [2]. If the titles seem to lag, race ahead or disappear during an especially absorbing scene, you can simply rejoin at the next line. There is no penalty for losing your place."
+    ],
+    [
+      "Share the evening without turning it into a lesson",
+      "Going with someone else can make an unfamiliar art form feel more welcoming, but neither of you needs to become the designated explainer. If it sounds fun, try an optional division of attention: one person notices a line or story turn, while the other follows a musical or visual detail. Switch whenever you like, or abandon the idea entirely. This is a way to compare what you noticed, not a rule for how to watch. When the curtain falls, ask what stayed with each of you: a voice, a costume, a character’s choice, a moment of surprise. A difference in impressions can make the conversation richer than a joint attempt to reconstruct every plot detail."
+    ],
+    [
+      "A low-pressure way to get ready",
+      "You can make the practical decisions without turning the night into homework. Confirm the performance language, title language, display method and any separate access options. Check the seating view or ask the box office if the information is not clear. If you want a little context, read a short plot summary—not because you must, but because knowing the broad outline can make it easier to settle into the staging. Then leave room for the performance to surprise you. Opera’s words are part of its storytelling, but so are the voices carrying them, the orchestra shaping the mood and the people sharing the room. You are allowed to follow closely, drift toward the music, or discover your own balance as the evening unfolds."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Words, With Music: The Supertitles Revolution",
+      "authors": "Nicholas Lord",
+      "publication": "Opera America Magazine, January 4, 2020",
+      "url": "https://www.operaamerica.org/magazine/winter-2020/words-with-music-the-supertitles-revolution/",
+      "researchSourceId": "S21"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Chapter 3 - Experiments in Surtitling: Performing Multilingual Translation Live and Onscreen in the Contemporary Theatres of Singapore, Taiwan and Berlin",
+      "authors": "Alvin Eng Hui Lim",
+      "publication": "Cambridge University Press, published online August 10, 2023",
+      "url": "https://www.cambridge.org/core/books/abs/performance-and-translation-in-a-global-age/experiments-in-surtitling/965CE1CA73FD14BBCBB1BA74D58C14AC",
+      "researchSourceId": "S61"
+    },
+    {
+      "sourceId": "S3",
+      "title": "The challenge of surtitling at the Avignon Festival",
+      "authors": "Calypso Joyeux",
+      "publication": "Le Monde, July 20, 2025 (updated July 21, 2025)",
+      "url": "https://www.lemonde.fr/en/culture/article/2025/07/20/the-challenge-of-surtitling-at-the-avignon-festival_6743560_30.html",
+      "researchSourceId": "S47"
+    }
+  ],
+  "id": "the-words-above-the-stage-are-part-of-the-show-20261109",
+  "date": "2026-11-09",
+  "editionDate": "2026-11-09",
+  "url": "article.html?id=the-words-above-the-stage-are-part-of-the-show-20261109",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-words-above-the-stage-are-part-of-the-show-20261109.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Words Above the Stage Are Part of the Show. A first opera in an unfamiliar language doesn’t require homework. A little venue-specific planning can help you follow the story while staying present for the music, movement and spectacle.\nPeople: two women partners with distinct builds and features. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: thoughtful companions paying attention, discussing or questioning something cultural.\nScene concept: Two friends seated together in an opera house, the stage glowing below a discreet line of projected surtitles; one watches the words while the other follows the performers.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends in a bright home gym compare notes after each performs a comfortable dumbbell row, one lowering the weight smoothly while the other observes without coaching. | Two partners sit together at a kitchen table, comparing an online clothing page with its garment details while discussing what each wants from a different outfit. | Two friends standing on a public wetland path, quietly watching insects visit flowers along a beaver-shaped pond margin.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

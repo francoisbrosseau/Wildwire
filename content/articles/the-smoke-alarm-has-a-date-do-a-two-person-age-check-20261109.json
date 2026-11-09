@@ -1,0 +1,84 @@
+{
+  "category": "Living",
+  "title": "The Smoke Alarm Has a Date: Do a Two-Person Age Check",
+  "subtitle": "Daily Read: A test button can tell you whether an alarm sounds now. It cannot tell you how old the unit is. Make a simple record of what you have, then follow up on anything unclear.",
+  "imageAlt": "Two friends standing beneath a hallway smoke alarm, one reading its label while the other writes down its location and model.",
+  "imageConcept": "two adult siblings or close friends collaborating together, in a specific visual scene about “The Smoke Alarm Has a Date: Do a Two-Person Age Check”: A warm, lived-in hallway where two housemates pause beneath a smoke alarm: one uses a phone flashlight to read the unit’s label without touching its wiring, while the other records details on a small notepad. The scene feels practical and collaborative, not alarmist.",
+  "body": [
+    [
+      "The button answers one question",
+      "A smoke alarm can sound when you press its test button and still leave you unsure about its age, model, or replacement timing. Those are different checks. Testing asks whether the alarm responds as directed today; an age check asks what the manufacturer says about that particular unit and when it should be replaced. Treating the test as proof of everything can leave an important question unanswered.\n\nA short two-person review makes the distinction visible. One person can read labels and instructions while the other records what they find. There is no need to remove an alarm, disconnect wiring, or turn the task into a home inspection. The goal is a clear list of alarms, useful identifying details, and specific follow-up where information is missing."
+    ],
+    [
+      "Why the date belongs in the record",
+      "Smoke alarms have replacement guidance, and the manufacture date can matter. The U.S. Fire Administration recommends monthly testing and says smoke alarms should be replaced 10 years from their manufacture date; for alarms powered by a 10-year lithium-ion (“long-life”) battery, it says to follow the manufacturer’s instructions for replacement timing [1]. That qualification matters: a single rule should not be assumed to fit every model or power type.\n\nThe test button does not provide that date. Nor does a successful sound tell you whether the unit is beyond its stated service life. Keep the age question and the function check as separate entries in your notes. That way, “tested as directed” does not accidentally become “current,” and an unclear label does not get mistaken for a failed alarm."
+    ],
+    [
+      "Start with a calm, room-by-room list",
+      "Choose a time when neither person is rushing. Bring a notepad or phone, a pen or notes app, and—if useful—a flashlight. Walk through the home and list each alarm by location: for example, upstairs hall, bedroom, or basement landing. Record smoke alarms separately from carbon monoxide alarms or combination units, since their labels and instructions may differ.\n\nAs a coverage reminder, the U.S. Fire Administration’s guidance calls for smoke alarms in every sleeping room, outside each separate sleeping area, and on every level of the home, including the basement [1]. This walk-through can help you notice an area to ask about, but it is not a reason to install or relocate equipment on the spot. If placement is uncertain, keep it as a question for the manufacturer, landlord, or a qualified professional."
+    ],
+    [
+      "Read what you can—without taking the unit apart",
+      "Look for the model number and manufacture date on the alarm’s label or in its product information. Some units place identifying details on the back, which may not be visible during an ordinary check. First Alert’s support instructions explain how to find a smoke or carbon monoxide alarm’s model number or manufacture date [2]. If the information is not readily visible, use the manufacturer’s model-specific help rather than removing the alarm just to search for it.\n\nIn particular, do not disconnect a hardwired alarm or handle its wiring as part of this check. The U.S. Fire Administration says hardwired alarms should be installed by qualified electricians [1]. For this task, keep the boundary simple: read visible information, consult the instructions for the model, and leave any electrical work or uncertain equipment handling to the appropriate professional."
+    ],
+    [
+      "Make the notes useful to the next person",
+      "A record does not need to be elaborate. For each alarm, write down its location, manufacturer and model if available, manufacture or replacement date if known, power type if clear, and whether it passed the test performed according to its instructions. Add a final line: “follow-up needed” or “no question noted.” If a detail is unknown, write “unknown” rather than filling the gap with a guess.\n\nThe value of the list is practical. A future resident, landlord, family member, or service professional can see which alarm is being discussed without having to start from scratch. Keep the note somewhere the household can find it, and avoid recording private details that are not needed for maintenance. If one person does the writing, ask the other to read back the location and model before moving on; that small check can catch a swapped room name or a misread digit."
+    ],
+    [
+      "Handle batteries and testing by the instructions",
+      "Follow the instructions for each specific alarm when testing it or dealing with its power source. The Consumer Product Safety Commission recommends monthly testing and says to replace batteries annually unless the alarm has a sealed 10-year battery; it also advises following manufacturer instructions for alarm replacement [3]. A sealed battery is not an invitation to improvise or open the unit. If the battery type or procedure is unclear, identify the model and check its official instructions first.\n\nA test that does not work as directed deserves follow-up, but avoid troubleshooting by pulling down a hardwired alarm or guessing at a repair. Note what happened and contact the manufacturer, landlord, or a qualified professional as appropriate. If the alarm gives a warning sound or message you cannot interpret, use the model’s instructions to identify it rather than assuming it is only a low battery or an age signal."
+    ],
+    [
+      "Turn uncertainty into one clear next step",
+      "A date that appears older than the recommended interval, an unreadable label, a model you cannot identify, or a test that fails are all reasons to follow up—not reasons to guess. Check the manufacturer’s guidance for that model. If you rent, contact the landlord or property manager about responsibility and next steps. If the question involves wiring or installation, consult a qualified professional. Keep the original notes so you can give the person helping you the location and model rather than describing the alarm from memory.\n\nIf a replacement is indicated, use the model’s instructions and appropriate professional help for the work. This article is a check-and-record routine, not an installation guide. Once a question has a clear owner—household member, landlord, manufacturer, or professional—write down who will follow up and when. That turns a vague concern into a manageable maintenance item."
+    ],
+    [
+      "Leave the household with a usable record",
+      "For the next calm moment, walk the home together and make one entry for every smoke alarm you can identify. Read visible labels without disconnecting anything; record the location, model, date, power type, and test result only when you can confirm them. Mark unknown details plainly. Then choose one unresolved item and agree who will check the manufacturer’s instructions or contact the landlord or a qualified professional. Save the list where both people can find it. The win is not a perfect audit: it is a reliable starting point for the next person who needs to know what is installed and what still needs attention."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Smoke Alarms",
+      "authors": "U.S. Fire Administration",
+      "publication": "U.S. Fire Administration — last reviewed October 13, 2026",
+      "url": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/?trk=article-ssr-frontend-pulse_little-text-block",
+      "researchSourceId": "S2"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Find a Smoke / CO Alarm's Model Number or Date of Manufacture",
+      "authors": "First Alert Help Center",
+      "publication": "First Alert Help Center, December 17, 2024",
+      "url": "https://support.firstalert.com/s/article/Find-Alarm-Model-Number-or-Date-of-Manufacture",
+      "researchSourceId": "S55"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Save Daylight, Save Lives; Replace Batteries in Smoke and Carbon Monoxide Alarms | CPSC.gov",
+      "authors": "U.S. Consumer Product Safety Commission",
+      "publication": "U.S. Consumer Product Safety Commission, March 8, 2023",
+      "url": "https://www.cpsc.gov/Newsroom/News-Releases/2023/Save-Daylight-Save-Lives-Replace-Batteries-in-Smoke-and-Carbon-Monoxide-Alarms",
+      "researchSourceId": "S45"
+    }
+  ],
+  "id": "the-smoke-alarm-has-a-date-do-a-two-person-age-check-20261109",
+  "date": "2026-11-09",
+  "editionDate": "2026-11-09",
+  "url": "article.html?id=the-smoke-alarm-has-a-date-do-a-two-person-age-check-20261109",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-smoke-alarm-has-a-date-do-a-two-person-age-check-20261109.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Smoke Alarm Has a Date: Do a Two-Person Age Check. Daily Read: A test button can tell you whether an alarm sounds now. It cannot tell you how old the unit is. Make a simple record of what you have, then follow up on anything unclear.\nPeople: two adult siblings or close friends collaborating. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: two adult siblings or close friends collaborating together, in a specific visual scene about “The Smoke Alarm Has a Date: Do a Two-Person Age Check”: A warm, lived-in hallway where two housemates pause beneath a smoke alarm: one uses a phone flashlight to read the unit’s label without touching its wiring, while the other records details on a small notepad. The scene feels practical and collaborative, not alarmist.\nAvoid repeating these recent WILDWIRE image scenes: Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends in a bright home gym compare notes after each performs a comfortable dumbbell row, one lowering the weight smoothly while the other observes without coaching. | Two partners sit together at a kitchen table, comparing an online clothing page with its garment details while discussing what each wants from a different outfit. | Two friends standing on a public wetland path, quietly watching insects visit flowers along a beaver-shaped pond margin. | Two friends at an opera, one glancing toward projected surtitles as the other watches the performers onstage. | An older woman and two adult family members sit together at a kitchen table, writing emergency contacts on a small card beside a phone. | Two friends sit at a kitchen table reviewing a sample retirement-plan loan document, with personal details hidden and a section about leaving employment in view. | Two friends sit together comparing a wedding invitation with clothing options laid out beside them.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
