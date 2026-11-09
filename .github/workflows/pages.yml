@@ -3,6 +3,11 @@ name: Deploy WILDWIRE to GitHub Pages
 on:
   push:
     branches: [main]
+    # Recovery markers start the publisher, which deploys the completed issue.
+    # Do not race it with an old-site deployment from the same triggering SHA.
+    paths-ignore:
+      - '.github/**'
+      - '**/*.md'
   workflow_dispatch:
   workflow_call:
     inputs:
@@ -23,7 +28,7 @@ jobs:
   deploy:
     if: github.ref_name == github.event.repository.default_branch && vars.WILDWIRE_LIVE_APPROVED == 'yes'
     runs-on: ubuntu-24.04
-    timeout-minutes: 15
+    timeout-minutes: 35
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -51,3 +56,4 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           artifact_name: github-pages-${{ github.run_attempt }}-${{ inputs.revision || github.sha }}
+          timeout: '1800000'

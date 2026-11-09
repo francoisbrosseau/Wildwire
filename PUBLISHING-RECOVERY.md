@@ -19,6 +19,10 @@ change this marker. Use the connected GitHub app create_tree based on the fresh
 main tree, create_commit and update_ref(expected_sha, force=false). On a changed
 main refetch and reassess before retrying; never overwrite a published date.
 
+Standalone Pages pushes ignore `.github/**` and Markdown-only maintenance.
+The recovery publisher owns deployment of its completed issue. This prevents
+an old-site deployment and the new edition from sharing a triggering commit.
+
 The publisher retains its current date guard, editorial checks, cache recovery,
 concurrency lock, complete-edition validation and explicit Pages/live verification.
 Never publish a partial edition, relabel yesterday, replace archive records,
