@@ -1,0 +1,79 @@
+{
+  "category": "Culture",
+  "title": "The Mural Photo Has Two Layers: Who Made It, Who Can Reuse It?",
+  "subtitle": "A picture of public art can carry separate rights for the person behind the camera and the artist on the wall. Before turning a street-corner image into a poster, product or promotion, know which questions to ask.",
+  "imageAlt": "Two friends photograph a colorful mural from a public sidewalk, then look together at the image on a phone.",
+  "imageConcept": "Two friends stand on a lively neighborhood sidewalk facing a large, vividly painted mural. One holds a phone with the image visible while the other gestures toward a small artist credit on the wall; storefronts and pedestrians give the scene a grounded, everyday feel.",
+  "body": [
+    [
+      "A picture can hold more than one claim",
+      "A mural is in public view, so photographing it may feel like the simplest kind of cultural participation: stop, frame, share. The harder question arrives later, when someone wants to print the image on a tote, put it in a campaign, or use it to sell a product. Then the picture is not just a record of a place. It may reproduce the mural itself, and the photograph and artwork can involve different rights and different people. The U.S. Copyright Office says visual art can be protected once it is fixed in tangible form, regardless of style or artistic merit. Copyright can include rights to make and sell copies, create new works, and display the art [1]. A public wall is not automatically a rights-free wall. The useful starting point is to separate what you know about the photograph from what you know about the art inside it."
+    ],
+    [
+      "The photographer and the artist are not interchangeable",
+      "The person who made the photograph may have rights in that image; the mural’s creator may have rights in the artwork depicted [1]. Those interests do not collapse into one permission. A friend saying, “Sure, use my photo,” can address the friend’s contribution without necessarily answering whether the mural can be reproduced in that particular way. The American Bar Association’s overview notes that public art, including street art, can receive copyright protection like other fixed artwork, and distinguishes ownership of a physical work from rights in its copyright [2]. That distinction matters even when the building owner commissioned the mural, owns the wall, or paid for the paint. A wall’s owner, the artist, the photographer, a commissioning organization and a business using the image may all have different roles. Credit is a good practice, but naming an artist does not itself grant permission."
+    ],
+    [
+      "Publicly visible is not the same as universally reusable",
+      "U.S. law contains a provision allowing pictorial representations of a constructed architectural work when the building is in or ordinarily visible from a public place [3]. That is a specific rule about architectural works, not a blanket permission to reproduce every artwork painted on a building. The distinction can be easy to miss: an image might show a building’s design, a mural on its façade, or both. The legal outcome can depend on what is being used and how. That is a reason for care, not a universal yes or no. A photo taken from a public sidewalk can still raise a different question when it is reproduced commercially."
+    ],
+    [
+      "Start with the use, not the camera angle",
+      "Before asking whether a picture is “allowed,” describe what you actually plan to do with it. A personal post, a news story, a classroom handout, a gallery publication and an advertisement are not identical uses. Write down the intended audience, where it will appear, whether it will be sold or used to promote something, how much of the mural will be visible, and whether the image will be altered. These details help identify who to contact and what to ask; they do not, by themselves, settle the legal question. The Copyright Office says that using someone else’s artwork to make or sell copies, make new works from it, or display it publicly requires permission from the copyright owner [1]. When the stakes are significant, seek advice from a qualified lawyer."
+    ],
+    [
+      "A practical permission check",
+      "For a reuse beyond ordinary personal sharing, take a short, deliberate inventory before publishing. First, identify the photographer and ask what rights they can grant in the photograph. Second, record what you know about the mural: its title if known, location, creator, commissioning body and any visible credit or project sign. Third, describe your proposed use in plain language. If you cannot identify the artist, look for a mural project page, arts organization, business association or property owner who may help route the inquiry—but do not assume that any one of them owns the copyright. The Copyright Office says that using someone else’s artwork to make or sell copies, make new works from it, or display it publicly requires permission from the copyright owner [1]. Keep a record of requests, replies and any conditions. If permission is granted, confirm the scope: which image, where it will appear, for how long, and whether edits or paid promotion are included."
+    ],
+    [
+      "When credit helps—and what it cannot do",
+      "A clear credit can help audiences find the artist and recognize the work. It can also reduce confusion about authorship. But credit is not a substitute for authorization when authorization is needed. The Copyright Office says that using someone else’s artwork to make or sell copies, make new works from it, or display it publicly requires permission from the copyright owner [1]. Ask the artist or organization where permissions should be directed, and describe the actual reuse. A respectful note is specific and easy to answer: “We’d like to include this mural in a printed event program distributed locally; may we use this photograph, and what credit or fee applies?” No reply is not consent. If the answer is uncertain, pause or choose an image with clear reuse terms."
+    ],
+    [
+      "A two-friend field check",
+      "Try this with a friend at a mural you can see from a public place. Before posting or proposing any reuse, make four notes together: who took the photo; what you know about the artist or mural project; what the image will be used for; and whose permission or site rules might matter. Keep the original image and any credit information, and separate a casual personal share from a planned commercial or organizational use. If you want to print, sell, advertise with, or otherwise repurpose the image, contact the relevant rights holders and explain the use before committing to it. If the artist or owner is not identifiable, do not treat the search itself as permission. This is general information about U.S. copyright, not legal advice; rules and agreements can vary, and a lawyer can assess a specific use. The point is not to make public art feel off-limits. It is to let appreciation travel with care for the people who made the image and the work it contains."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Visual Art & Copyright",
+      "authors": "U.S. Copyright Office",
+      "publication": "U.S. Copyright Office, revised August 2019",
+      "url": "https://www.copyright.gov/engage/docs/visual_art.pdf",
+      "researchSourceId": "S7"
+    },
+    {
+      "sourceId": "S2",
+      "title": "In Brief: IP Rights In Art Law In USA",
+      "authors": "Gabrielle C Wilson, Howard N Spiegler, Lawrence Michael Kaye, and Yaél Weitz",
+      "publication": "American Bar Association, Real Property, Trust and Estate Law Section eReport (2024 Summer issue)",
+      "url": "https://www.americanbar.org/groups/real_property_trust_estate/resources/ereport/2024-summer/in-brief-ip-rights-art-law-usa/",
+      "researchSourceId": "S43"
+    },
+    {
+      "sourceId": "S3",
+      "title": "17 U.S.C. 120 - Scope of exclusive rights in architectural works",
+      "authors": "U.S. Government Publishing Office",
+      "publication": "United States Code, 2024 Edition, Title 17; in effect as of January 6, 2025",
+      "url": "https://www.govinfo.gov/app/details/USCODE-2024-title17/USCODE-2024-title17-chap1-sec120?utm_source=openai",
+      "researchSourceId": "S108"
+    }
+  ],
+  "id": "the-mural-photo-has-two-layers-who-made-it-who-can-reuse-it-20261110",
+  "date": "2026-11-10",
+  "editionDate": "2026-11-10",
+  "url": "article.html?id=the-mural-photo-has-two-layers-who-made-it-who-can-reuse-it-20261110",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-mural-photo-has-two-layers-who-made-it-who-can-reuse-it-20261110.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Mural Photo Has Two Layers: Who Made It, Who Can Reuse It?. A picture of public art can carry separate rights for the person behind the camera and the artist on the wall. Before turning a street-corner image into a poster, product or promotion, know which questions to ask.\nPeople: two women friends with distinct personal style. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: thoughtful companions paying attention, discussing or questioning something cultural.\nScene concept: Two friends stand on a lively neighborhood sidewalk facing a large, vividly painted mural. One holds a phone with the image visible while the other gestures toward a small artist credit on the wall; storefronts and pedestrians give the scene a grounded, everyday feel.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends at a gym bench, one writing a set and repetition count in a notebook while the other rests between sets. | Two friends sit together at a table, comparing a clothing listing on a phone with a well-loved jacket. | Two friends study a neighborhood drainage map at a kitchen table, comparing a marked route with notes from a winter sidewalk walk.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 5,
+    "issues": []
+  }
+}

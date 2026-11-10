@@ -1,0 +1,80 @@
+{
+  "category": "Explore",
+  "title": "A Gall Is More Than a Bump: A Two-Person Look at a Tiny Plant Community",
+  "subtitle": "Additional Daily Read: Slow down beside a plant and see what a small, strange growth can—and cannot—tell you.",
+  "imageAlt": "Two friends crouch beside a leafy shrub, taking turns noting a round plant gall without touching it.",
+  "imageConcept": "Two friends at the edge of a garden path, one pointing toward a small round gall on a leaf while the other writes careful observations in a pocket notebook; the plant remains undisturbed.",
+  "body": [
+    [
+      "A small growth, a bigger question",
+      "A gall can look like a bead, a blister, a folded pouch, a tuft or a woody knot. It is a change in a plant’s growth, often associated with another organism. That makes it an intriguing subject for a short, shared field observation: the plant is not just a backdrop, and the growth is not just a blemish. There is a relationship here, even if its exact story is not visible from the path.\n\nStart with a simple agreement between two observers: describe what you can see, and leave the diagnosis open. A gall’s shape alone does not prove what made it. Insects and mites are familiar causes, but bacteria and nematodes can also be involved [1]. And not every gall is necessarily harmful to its host. The value of this exercise is in noticing carefully—not in naming something before the evidence supports it."
+    ],
+    [
+      "Find a place where looking is enough",
+      "Choose a plant you can observe without stepping off a trail, entering a garden bed, or touching a branch. A shrub in a public park, a tree beside a path, or a plant in your own yard can work. Follow any posted site rules, and don’t collect, cut, peel or open the gall. If it is high up, partly hidden, or hard to see without disturbing the plant, choose another subject. A phone camera can help you look more closely, but it is optional.\n\nYou do not need a field guide, a particular season or a rare species. The goal is to make a small record that another person could understand: what plant part the growth is on, what it looks like, where it sits, and whether similar growths appear nearby. That modest brief helps keep the observation useful without turning it into a test of specialist knowledge."
+    ],
+    [
+      "Give each observer a different job",
+      "One person can begin with the host plant and the gall’s visible form. Note whether it appears on a leaf, bud, twig, stem or another part; whether it is rounded, elongated, flattened or irregular; and what colors you can actually see. Use plain descriptions such as “pale green, oval, on the underside of a leaf.” Avoid adding a cause or species name unless you have reliable evidence for it.\n\nThe other person can map the position. Is the gall near the leaf’s edge, along a vein, at a branch junction, or near the end of a shoot? How many similar growths are visible within the area you can inspect without moving the plant? If there are several, note whether they are clustered or spaced apart. Galls can occur on different plant parts and vary widely in appearance [1][2], so location is a useful observation in its own right."
+    ],
+    [
+      "Make the notes precise, not elaborate",
+      "A useful record can fit in a few lines. Write down the date, general location, host plant if you know it, plant part, visible shape and color, position, and approximate number. If you do not know the plant’s name, write “small-leaved shrub” or describe its leaves. Mark uncertainty plainly: “possibly a bud,” “two or three visible,” or “color hard to judge in shade.” Those caveats are not failures; they show where observation ends.\n\nTake a photograph only if it can be made without reaching, bending or moving the plant. Include a wider view that shows where the gall sits, then a closer image if your camera can focus. Keep a sense of scale without placing an object against the plant: a finger held nearby can change the scene and invite contact. The point is not to build a perfect identification file, but to make a record that is honest enough to compare later."
+    ],
+    [
+      "Switch roles and compare what you noticed",
+      "After a few minutes, trade jobs. The first observer can now describe position and number; the second can look at the plant part and visible form. Then compare notes. Did you agree on where the gall was attached? Did one person notice a second growth or a different color? Were you counting only what was easy to see, or everything on the plant? Differences can reveal how much an observation depends on angle, light and attention.\n\nKeep the discussion focused on evidence. “It is on the underside of a leaf” is an observation. “It was made by an insect” is a hypothesis. The distinction matters because gall-forming organisms are diverse, and some groups are not well studied or consistently named [2]. If you want to investigate further, treat identification as a new question for a credible field guide, local extension service or botanist—not as something the two-person exercise has already settled."
+    ],
+    [
+      "Think of the gall as a relationship, not a verdict",
+      "It is tempting to sort every gall into “good” or “bad.” The research picture is more complicated: the effects on a plant can vary, and a gall’s presence does not by itself tell you whether the plant is in trouble [3]. Some galls are of little practical consequence; others can matter for particular plants or circumstances [1]. If you are observing a plant you manage and notice widespread damage or declining health, seek advice that takes the plant and local conditions into account rather than treating every unusual growth as an emergency.\n\nA gall can also be part of a wider ecological story. That finding belongs to that study system; it does not mean every gall contains a crowd of different species. It does offer a useful reminder: a small structure can connect organisms in ways a quick glance cannot reveal. Stay curious without making the specific observation carry more certainty than it can."
+    ],
+    [
+      "Return to the same plant, if you like",
+      "A later visit turns a snapshot into a comparison. Come back to the same plant from a permitted path and note what has changed: the gall’s color or outline, the condition of the surrounding leaf or twig, or the number of similar growths you can see. Record what stayed the same, too. If the plant is no longer accessible, or the gall is gone, don’t search off-trail or disturb nearby plants to replace it. The record can simply end there.\n\nTwo people can keep the comparison easy: each describes what they see before reading the other’s notes, then you check the earlier record together. That reduces the temptation to remember only what you expected. Whether you return once or not at all, the useful habit is the same: notice the host plant, locate the growth, describe its visible form, and let the evidence stop where your eyes do. The gall remains intact; the question can remain open."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Insect and Mite Galls",
+      "authors": "Thoburn Freeman and Brian Kunkel",
+      "publication": "Cooperative Extension, University of Delaware; February 2025",
+      "url": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/insect-and-mite-galls/",
+      "researchSourceId": "S29"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Galls Made by Aphids, Adelgids, Phylloxerans, Psyllids, and Midges",
+      "authors": "Eric Day and Theresa A. Dellinger",
+      "publication": "VCE Publications, Virginia Tech; June 2, 2022",
+      "url": "https://www.pubs.ext.vt.edu/ENTO/ENTO-146/ENTO-146.html",
+      "researchSourceId": "S31"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Plants make galls to accommodate foreigners: some are friends, most are foes",
+      "authors": "Marion O. Harris and Andrea Pitzschke",
+      "publication": "New Phytologist; first published November 27, 2019",
+      "url": "https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.16340",
+      "researchSourceId": "S41"
+    }
+  ],
+  "id": "a-gall-is-more-than-a-bump-a-two-person-look-at-a-tiny-plant-com-20261110",
+  "date": "2026-11-10",
+  "editionDate": "2026-11-10",
+  "url": "article.html?id=a-gall-is-more-than-a-bump-a-two-person-look-at-a-tiny-plant-com-20261110",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/a-gall-is-more-than-a-bump-a-two-person-look-at-a-tiny-plant-com-20261110.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Gall Is More Than a Bump: A Two-Person Look at a Tiny Plant Community. Additional Daily Read: Slow down beside a plant and see what a small, strange growth can—and cannot—tell you.\nPeople: two women partners with distinct builds and features. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two friends at the edge of a garden path, one pointing toward a small round gall on a leaf while the other writes careful observations in a pocket notebook; the plant remains undisturbed.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends at a gym bench, one writing a set and repetition count in a notebook while the other rests between sets. | Two friends sit together at a table, comparing a clothing listing on a phone with a well-loved jacket. | Two friends study a neighborhood drainage map at a kitchen table, comparing a marked route with notes from a winter sidewalk walk. | Two friends photograph a colorful mural from a public sidewalk, then look together at the image on a phone. | Three generations of a family sit around a kitchen table, sharing a handwritten list of ways they like to stay in touch. | Two people at a kitchen table compare a generic ETF fact sheet with a laptop displaying market price, NAV and bid–ask spread labels. | Two partners pause by a kitchen window in morning light while a warm lamp glows in the next room. | Two friends sit together on a museum bench, listening to an audio description on a phone while facing a large painting.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "category": "Strength",
+  "title": "Your Strength Log Is a Map, Not a Scoreboard",
+  "subtitle": "A simple record of exercises, resistance and reps can help you choose a useful next step—without turning every session into a test.",
+  "imageAlt": "Two friends at a gym bench, one writing a set and repetition count in a notebook while the other rests between sets.",
+  "imageConcept": "A candid, welcoming gym scene: two friends of different builds share a quiet moment between sets. One writes the exercise, load and reps in a small notebook; the other sits comfortably nearby, focused on their own training rather than competing. Keep equipment ordinary and the mood collaborative, not intense.",
+  "body": [
+    [
+      "Progress you can actually use",
+      "A training log does not need to prove that you are stronger than someone else. Its job is more practical: to help you remember what you did, notice what is changing, and make a considered choice when you return. That choice might be to repeat the same work, add a repetition, or try a modest increase in resistance. Sometimes it may be to do less because your day, recovery or circumstances call for it.\n\nThis matters because strength training is not a weekly audition. The American College of Sports Medicine’s 2026 overview of 137 systematic reviews supports progressive resistance training for healthy adults, while noting that training choices should reflect the goal; heavier loads improved voluntary strength in the evidence it reviewed [1]. That finding is useful context, not a demand to lift heavy in every session. A log can keep the focus where it belongs: on your own work, over time."
+    ],
+    [
+      "What to write down",
+      "Start with enough detail to make the next session legible. For each exercise, record the name or variation, the weight or resistance, and the repetitions completed in each set. If it helps you distinguish sessions, add the date and a brief note such as “bench at home,” “short rest,” or “felt unusually tired.” You do not need a detailed diary of every sensation, and you do not need a special app. A notebook, phone note or simple spreadsheet can all do the job.\n\nFor example: “Goblet squat — 12 kg — 10, 10, 9.” That entry tells you more than “legs felt good,” but it does not label the session a success or failure. If you use bands, body weight or a machine, record the setup in a way you can repeat: band color and position, exercise variation, machine setting, or assistance level. The point is consistency of description, not a perfect measurement system."
+    ],
+    [
+      "A record makes room for more than one kind of progress",
+      "It is common to imagine progression as adding weight every time. But a training record can help you see other changes too: completing an additional repetition with the same resistance, performing the planned sets, or returning to a movement with steadier execution. Those changes are not interchangeable for every goal, but they can all be useful information.\n\nIn an eight-week study of 43 resistance-trained participants, researchers compared increasing load with increasing repetitions while holding the load constant. Both approaches appeared viable in the study’s lower-body program. The result does not show that the methods are identical for everyone, or that the same pattern applies to every exercise and training goal. It does support a more flexible idea of progression than “add weight or you are standing still” [2].\n\nThe practical takeaway is modest: if the same load feels appropriate, adding a rep may be one option. If you are already doing the planned work comfortably, a small load change may be another. A log helps you notice the choice; it does not make the choice for you."
+    ],
+    [
+      "Use the next-session check",
+      "After a session, take a minute to make the entry while the details are fresh. Before your next session, look at the previous record for that exercise. Then ask three questions: What did I plan to do? What did I actually complete? What feels like a reasonable next step today?\n\nA simple example: last time you recorded three sets of eight with a particular dumbbell. If that remains a suitable challenge and your technique felt controlled, you might repeat it. If you completed the sets and feel ready, you could try one extra repetition on one or more sets. At another point, you might consider a modest increase in resistance and return to fewer repetitions. There is no requirement to advance at every visit.\n\n This is an example, not a universal rule or a test you must pass. Smaller jumps, repeating a session, or seeking individualized advice may make more sense in your circumstances."
+    ],
+    [
+      "Make the log fit real life",
+      "A useful system survives missed sessions, changing schedules and imperfect memory. If you miss a week, you have not erased your previous work. Read the last entry and decide whether to resume at the same level, adjust, or take a gentler return. If your usual equipment is unavailable, record the alternative instead of pretending it was the same exercise. “Push-up, hands elevated on bench” is clearer than “push-up” if the variation matters to you.\n\nKeep the record private if that feels better. Numbers can be easy to compare and hard to interpret: different bodies, movement variations, equipment and training histories make a bare load an incomplete story. The U.S. Physical Activity Guidelines recommend muscle-strengthening activity involving all major muscle groups on at least two days a week, but they do not prescribe one log format or a particular progression schedule [3]. A tracking method should support the training you can sustain, rather than become another reason to feel behind."
+    ],
+    [
+      "A training partner can help without keeping score",
+      "If you train with a friend, they can write down your sets while you focus on the movement, or help you remember which setup you used last time. Agree on what kind of support is welcome: a quiet count, a reminder of the previous entry, or encouragement after a set. The log remains yours, and your next step remains yours too.\n\nAvoid turning a partner’s numbers into a prescription. If they lift more, that does not tell you what load is right for you; if they progress faster, it does not make your own record less meaningful. You can share a training space without sharing a target. When a movement feels unfamiliar or a safety concern comes up, pausing to get qualified guidance is more useful than letting a log—or a friend—push you past your judgment."
+    ],
+    [
+      "A small record, not a verdict",
+      "For your next few sessions, choose one exercise you already do and track just three things: its name or variation, the resistance, and the repetitions for each set. At the next session, look back before deciding whether to repeat, add a rep, make a modest adjustment, or keep the work steady. If you want, add one short note about context, such as equipment or energy, but leave out anything that makes the process feel burdensome.\n\nAfter several entries, look for a pattern rather than a dramatic breakthrough. Maybe you have returned consistently, found a setup you can reproduce, or discovered that a particular step feels manageable. Those are useful observations. A log is a map of your own training: it helps you see where you have been and consider a sensible route forward. It is not a scoreboard, and it does not owe you a new personal best each time you open it."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "American College of Sports Medicine Position Stand. Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews",
+      "authors": "Brad S Currier; Alysha C D'Souza; Maria A Fiatarone Singh; Caroline V Lowisz; Eric S Rawson; Brad J Schoenfeld; Abbie E Smith-Ryan; Jeremy P Steen; Gwendolyn A Thomas; N Travis Triplett; Tyrone A Washington; Timothy J Werner; Stuart M Phillips",
+      "publication": "Medicine and science in sports and exercise, 2026 Apr;58(4):851–872",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41843416/",
+      "researchSourceId": "S4"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Progressive overload without progressing load? The effects of load or repetition progression on muscular adaptations",
+      "authors": "Daniel Plotkin; Max Coleman; Derrick Van Every; Jaime Maldonado; Douglas Oberlin; Michael Israetel; Jared Feather; Andrew Alto; Andrew D. Vigotsky; Brad J. Schoenfeld",
+      "publication": "PeerJ, September 30, 2022",
+      "url": "https://peerj.com/articles/14142.pdf",
+      "researchSourceId": "S40"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Physical Activity Guidelines for Americans, 2nd edition",
+      "authors": "U.S. Department of Health and Human Services",
+      "publication": "U.S. Department of Health and Human Services, 2018",
+      "url": "https://odphp.health.gov/sites/default/files/2019-09/Physical_Activity_Guidelines_2nd_edition.pdf?time=1754758697955#page=1",
+      "researchSourceId": "S69"
+    }
+  ],
+  "id": "your-strength-log-is-a-map-not-a-scoreboard-20261110",
+  "date": "2026-11-10",
+  "editionDate": "2026-11-10",
+  "url": "article.html?id=your-strength-log-is-a-map-not-a-scoreboard-20261110",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/your-strength-log-is-a-map-not-a-scoreboard-20261110.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Your Strength Log Is a Map, Not a Scoreboard. A simple record of exercises, resistance and reps can help you choose a useful next step—without turning every session into a test.\nPeople: two men friends with different backgrounds. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: serious, focused partners training with controlled effort; no smiling while lifting.\nScene concept: A candid, welcoming gym scene: two friends of different builds share a quiet moment between sets. One writes the exercise, load and reps in a small notebook; the other sits comfortably nearby, focused on their own training rather than competing. Keep equipment ordinary and the mood collaborative, not intense.\nAvoid repeating these recent WILDWIRE image scenes: Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

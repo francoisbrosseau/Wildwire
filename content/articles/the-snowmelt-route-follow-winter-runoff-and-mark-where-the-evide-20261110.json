@@ -1,0 +1,83 @@
+{
+  "category": "Explore",
+  "title": "The Snowmelt Route: Follow Winter Runoff—and Mark Where the Evidence Ends",
+  "subtitle": "A safe neighborhood walk can reveal how meltwater moves. It cannot tell you what is dissolved in it. Here’s how to map the difference.",
+  "imageAlt": "Two friends study a neighborhood drainage map at a kitchen table, comparing a marked route with notes from a winter sidewalk walk.",
+  "imageConcept": "Two adult friends sit together at a kitchen table with a neighborhood drainage map, a notebook and a phone showing a public watershed map. One traces a route with a pencil while the other marks an uncertain connection, conveying collaboration rather than certainty.",
+  "body": [
+    [
+      "A route worth following",
+      "After a thaw, the neighborhood can briefly show its plumbing. Water slips off a snowbank, follows the shallow dip beside a sidewalk, gathers at a curb and disappears through a storm drain. Following that visible path—not the water itself—offers a practical way to notice how a winter landscape is connected.\n\nIt is also a lesson in limits. Meltwater can carry road salt, but a walk cannot establish whether chloride is present, how much there is, or where a particular drop will end up. A study of rivers across the Midwest and Northeast found that episodic winter salinization was associated with road-salt application, watershed land cover and groundwater characteristics [1]. The useful question for this field exercise is therefore not “Is this water polluted?” It is “What can we observe, what can a map suggest, and where does evidence run out?”"
+    ],
+    [
+      "Pick a safe, ordinary stretch",
+      "Choose a public sidewalk you already know, ideally one where you can see a curb or storm drain without approaching traffic. Go after a thaw when there is visible runoff, but skip the walk if the pavement is icy, the route is flooded, visibility is poor or you would need to step into a roadway. Keep well back from fast-moving water and steep or slippery banks. Do not enter a storm drain, touch or taste runoff, or collect a sample.\n\nBring a phone or printed neighborhood map, a pencil and a notebook. A second person makes the exercise more useful: one can record what is directly visible while the other looks for a public drainage, watershed or stormwater map. Agree that either person can call off the walk. You are observing from a safe public place, not conducting a water-quality survey or investigating a property."
+    ],
+    [
+      "Separate what you see from what you think",
+      "At the first visible flow, pause and describe only what is in front of you. For example: “Water runs from the edge of the snowbank along the curb toward a grate.” Note the date, approximate time, recent thaw or rainfall if known, and a location you can find again. A photo taken from the sidewalk may help, but avoid including people, private yards or identifying details you do not need.\n\nKeep interpretations in a separate column. “The grate may connect to a storm sewer” is a hypothesis, not an observation. So is “this water may have come from a salted road.” The distinction can feel fussy, but it protects the walk from turning an interesting clue into a confident-sounding conclusion. Switch roles after a few minutes: the person who made the map notes can describe the visible scene, and the observer can try to find the route on the map."
+    ],
+    [
+      "Let the map offer possibilities",
+      "Look for a map from a municipal stormwater department, county, watershed group or other local public agency. Depending on the area, it may show storm drains, sewer infrastructure, watershed boundaries, streams or outfalls. Check the map’s legend, date and scope: a watershed boundary is not a street-by-street pipe diagram, and a map that omits a feature does not prove the feature is absent.\n\nMark the drain or low point you observed, then trace only what the map actually supports. If the map indicates a possible connection toward a creek or river, draw that as a possible route and label it as map-based. If you cannot find a relevant map, write “connection unknown” rather than filling the gap with guesswork. Maps can help you ask a better question about where runoff might go; they do not track individual water or reveal what it carries."
+    ],
+    [
+      "Why the route can outlast the thaw",
+      "The water visible at the curb is only one part of a larger system. Some runoff may move through stormwater infrastructure toward surface water; some may soak into soil or enter groundwater. The timing and destination depend on local drainage, geology, weather and deicing practices. A USGS investigation comparing three highway reaches in Essex County, New York, found elevated chloride downstream and described groundwater affected by earlier deicing as a possible additional source to surface water [3]. That is a reminder that winter salt does not necessarily arrive in a stream only during the moment you can see snow melting.\n\nA separate USGS summary of monitoring at 30 sites on 19 streams reported increasing chloride during non-deicing seasons at some sites, consistent with delayed movement through shallow groundwater [2]. These findings are not a prediction about your block. They explain why a short walk can reveal a visible pathway while leaving important parts of the story hidden."
+    ],
+    [
+      "Appearance is not a water test",
+      "Clear water is not proof of clean water, and cloudy water is not a measurement of chloride. Salt dissolves; its presence and concentration cannot be reliably judged by looking at a puddle, a snowbank or a stream. Nor does seeing a storm drain establish that runoff reaches a particular waterway. Those are separate questions that require appropriate data and, for water quality, measurement.\n\nThat difference matters because scientific monitoring can produce conclusions a neighborhood walk cannot. The field note should stop at “possible route”; it should not become a verdict about water safety, ecological harm or a neighbor’s salting practices."
+    ],
+    [
+      "Make a small, honest field record",
+      "Use a simple three-part note: “Observed,” “Map suggests,” and “Unknown.” Under “Observed,” write the direction the visible flow follows and where it disappears from view. Under “Map suggests,” note the map layer or feature you consulted and any possible connection it indicates. Under “Unknown,” list the missing evidence: whether chloride is present, its concentration, the exact pipe route, or whether groundwater contributes.\n\nIf you want to share the result, show the distinction clearly. A caption such as “Runoff followed this curb to a drain; the public map suggests a possible connection toward the creek, but we did not test the water” is more informative than “Salt is flowing into the river.” Avoid naming a household or assigning blame. The aim is to make a local system easier to notice without claiming more than the observation supports."
+    ],
+    [
+      "End at the edge of what you know",
+      "Before you put the map away, compare the two records. Can you point to one fact both people saw? Can you identify the step that came from a map rather than direct observation? Mark the exact point where the trail becomes uncertain: perhaps the water disappears into a grate, the public map does not show the pipe, or the mapped route reaches a boundary but no receiving stream is identified.\n\nThat boundary is not a failure of the exercise. It is its most useful finding. If you want to learn more, look for local watershed monitoring or stormwater information from a relevant public agency or community science group, and check what methods and permissions they require. Keep the walk itself simple and safe: watch from public ground, leave the water untouched, and treat every inferred connection as provisional. A careful map can make a neighborhood more legible without pretending to make the invisible visible."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Episodic Salinization of Midwestern and Northeastern US Rivers by Road Salt",
+      "authors": "Lindsay R. C. Platt and Hilary A. Dugan",
+      "publication": "Water Resources Research, November 16, 2025",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024WR039496",
+      "researchSourceId": "S21"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Evaluating chloride trends due to road-salt use and its impacts on water quality and aquatic organisms",
+      "authors": "Upper Midwest Water Science Center",
+      "publication": "U.S. Geological Survey, March 20, 2019",
+      "url": "https://www.usgs.gov/centers/upper-midwest-water-science-center/science/evaluating-chloride-trends-due-road-salt-use-and?qt-science_center_objects=0",
+      "researchSourceId": "S36"
+    },
+    {
+      "sourceId": "S3",
+      "title": "An evaluation of the effects of different deicing salt application rates on three watersheds in Essex County, New York",
+      "authors": "Kristina Gutchess, Natasha Scavotto, Amanda Dondero, Joshua C. Woda, Neil C. Terry, Kirk P. Smith, and John H. Williams",
+      "publication": "U.S. Geological Survey, Scientific Investigations Report 2025–5062, November 25, 2025",
+      "url": "https://www.usgs.gov/publications/evaluation-effects-different-deicing-salt-application-rates-three-watersheds-essex",
+      "researchSourceId": "S64"
+    }
+  ],
+  "id": "the-snowmelt-route-follow-winter-runoff-and-mark-where-the-evide-20261110",
+  "date": "2026-11-10",
+  "editionDate": "2026-11-10",
+  "url": "article.html?id=the-snowmelt-route-follow-winter-runoff-and-mark-where-the-evide-20261110",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-snowmelt-route-follow-winter-runoff-and-mark-where-the-evide-20261110.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Snowmelt Route: Follow Winter Runoff—and Mark Where the Evidence Ends. A safe neighborhood walk can reveal how meltwater moves. It cannot tell you what is dissolved in it. Here’s how to map the difference.\nPeople: two adult siblings or close friends collaborating. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two adult friends sit together at a kitchen table with a neighborhood drainage map, a notebook and a phone showing a public watershed map. One traces a route with a pencil while the other marks an uncertain connection, conveying collaboration rather than certainty.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends at a gym bench, one writing a set and repetition count in a notebook while the other rests between sets. | Two friends sit together at a table, comparing a clothing listing on a phone with a well-loved jacket.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

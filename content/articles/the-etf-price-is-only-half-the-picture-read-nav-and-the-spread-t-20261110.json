@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "The ETF Price Is Only Half the Picture: Read NAV and the Spread Together",
+  "subtitle": "An exchange-traded fund has a market price, an underlying value and a trading gap. Knowing what each number tells you—and what it doesn’t—makes fund disclosures more useful.",
+  "imageAlt": "Two people at a kitchen table compare a generic ETF fact sheet with a laptop displaying market price, NAV and bid–ask spread labels.",
+  "imageConcept": "A couple sharing a calm, practical moment at a kitchen table, looking at a generic fund document and a laptop with simple, clearly labeled price, NAV and bid–ask spread graphics; no identifiable fund, account balance or financial outcome.",
+  "body": [
+    [
+      "Three numbers, three different jobs",
+      "An exchange-traded fund (ETF) has a price on the market, a net asset value (NAV), and a bid–ask spread. They are related, but they do not measure the same thing. Confusing them can make a fund’s trading information look simpler—or more conclusive—than it is.\n\nThe market price is what buyers and sellers are offering and accepting on an exchange during the trading day. NAV is the value of the fund’s assets, minus its liabilities, per share; for ETFs, it is generally calculated once each business day. The spread is the difference between the best displayed price a buyer is offering (the bid) and the lowest price a seller is asking (the ask). SEC investor guidance explains these measures and notes that ETF market prices can be above or below NAV [1].\n\nTogether, the numbers help describe how an ETF is valued and traded. None, by itself, tells you whether a fund is right for you or what a future trade will cost."
+    ],
+    [
+      "Why the exchange price can differ from NAV",
+      "An ETF share trades in the market throughout the day, while its NAV is calculated daily. That timing difference matters: a live market price is being compared with a value that may reflect the fund’s assets at a different calculation point. The two figures can therefore diverge without either one being a simple error.\n\nWhen the market price is above NAV, the ETF is said to trade at a premium. When it is below NAV, it trades at a discount. These terms describe a relationship at a particular time, not a verdict on quality, a prediction of where the price will go, or proof that the shares are mispriced. The SEC’s explanation of ETF pricing emphasizes that the exchange price may differ from NAV [1].\n\nA comparison is most informative when you know what dates and times the figures represent. A previous business day’s NAV and a current intraday quote are not perfectly synchronized observations. Treating them as if they were simultaneous can make an ordinary timing difference look like a precise real-time valuation signal."
+    ],
+    [
+      "The spread is a separate trading cost",
+      "Suppose a hypothetical ETF has a bid of $49.98 and an ask of $50.02. The spread is four cents per share. A buyer looking to trade immediately may encounter the ask; a seller may encounter the bid. The difference is not an annual fund fee, and it is not the same as a premium or discount to NAV. It is a feature of the prices available to trade at that moment.\n\nSpreads can change over time and may differ across funds. A wider spread means a larger gap between displayed buying and selling prices; that gap can matter when a trade is made. But a single quote is only a snapshot. SEC guidance points investors to ETF websites for information including historical premiums and discounts and the median bid–ask spread [1].\n\nThat median is useful context, not a guaranteed quote for your order. It summarizes past observations over a specified period. The spread at a later moment can be narrower or wider, and the price at which a trade actually executes can depend on market conditions and the order itself."
+    ],
+    [
+      "A practical website fact-check",
+      "Before comparing ETFs, look for the fund’s own website disclosures. For ETFs relying on Rule 6c-11, SEC staff describes website posting requirements that include prior-business-day NAV and market price, premium or discount information, historical premium-and-discount data, and a rolling 30-day median bid–ask spread [2]. Some ETFs may follow different requirements, so do not assume every fund presents identical information in the same way.\n\nA useful check takes a few steps. First, find the date attached to NAV and the market-price figure; note whether they refer to the same period. Next, compare market price with NAV and identify whether the reported relationship is a premium or discount. Then review the historical record rather than treating one day as the whole story. Finally, find the median spread and its measurement period, and compare it with the same measure for another fund only if the figures are reported on a comparable basis.\n\nIf a disclosure is hard to locate or its timing is unclear, that is a reason to pause and seek clarification—not to fill in missing details with assumptions. The SEC’s staff guidance discusses website disclosure requirements and issues of clarity and accessibility [2]."
+    ],
+    [
+      "Keep the comparison in proportion",
+      "A premium or discount and a spread describe trading and valuation context, not the full cost or quality of an investment. They do not tell you what the ETF owns, whether it is diversified, whether its strategy suits your goals, or how it may perform. The SEC notes that ETFs vary in diversification, so the fund’s holdings and investment approach need their own review [3].\n\nOngoing fees and expenses belong in a separate part of the comparison. The SEC says fees and expenses reduce investment returns and may include management fees, other expenses, and transaction costs [3]. A fund can have a low expense ratio and still have a spread worth understanding, or show a small spread while carrying other costs and risks. Each measure answers a different question.\n\nFor a fuller review, pair price and trading disclosures with the prospectus, holdings, strategy, risks and expenses. The aim is not to find one magic number. It is to know which question each number answers and where the remaining questions are addressed."
+    ],
+    [
+      "A short checklist before drawing conclusions",
+      "When you open an ETF’s website, write down four things: the market-price figure and its date or time; the NAV and its date; the reported premium or discount history; and the median bid–ask spread with its period. This simple record makes it easier to notice when you are comparing numbers drawn from different windows or formats.\n\nIf you are comparing funds, make the comparison like-for-like: check that the spread statistics cover the same duration and that NAV and price dates are understood. Then look beyond the trading measures to the fund’s investment objective, holdings, risks and expenses. If a number’s meaning or timing is not clear, consult the fund’s official documents or ask a qualified professional to explain it in light of your circumstances.\n\nThis is general financial education, not a recommendation to buy or sell any fund. A disclosed historical spread or premium/discount can help you understand past trading conditions. It cannot promise the price or cost of a future trade."
+    ],
+    [
+      "The useful question is what each number can tell you",
+      "An ETF’s market price tells you where shares are trading; NAV provides a daily per-share measure of the fund’s net assets; the spread shows the gap between displayed buying and selling prices. Reading them together gives a more complete picture than relying on the headline quote alone. Reading them alongside disclosures about holdings, strategy, risks and fees adds further context.\n\nThe distinction is modest but practical: price versus NAV is not the same comparison as bid versus ask, and neither replaces a review of the fund itself. With dates, definitions and periods in view, investors can use ETF disclosures as evidence about what has been reported—without mistaking a historical measure for a promise about what happens next."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Updated Investor Bulletin: Exchange-Traded Funds (ETFs)",
+      "authors": "SEC Office of Investor Education and Assistance",
+      "publication": "Investor.gov, U.S. Securities and Exchange Commission; February 23, 2023",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24",
+      "researchSourceId": "S19"
+    },
+    {
+      "sourceId": "S2",
+      "title": "SEC.gov | ADI 2025-15 – Website posting requirements",
+      "authors": "SEC Division of Investment Management, Disclosure Review and Accounting Office",
+      "publication": "U.S. Securities and Exchange Commission; January 16, 2025",
+      "url": "https://www.sec.gov/about/divisions-offices/division-investment-management/accounting-disclosure-information/adi-2025-15-website-posting-requirements",
+      "researchSourceId": "S22"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Characteristics of Mutual Funds and Exchange-Traded Funds (ETFs) – Investor Bulletin",
+      "authors": "SEC Office of Investor Education and Assistance",
+      "publication": "Investor.gov, U.S. Securities and Exchange Commission; April 29, 2025",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/characteristics-mutual-funds-exchange-traded-funds",
+      "researchSourceId": "S20"
+    }
+  ],
+  "id": "the-etf-price-is-only-half-the-picture-read-nav-and-the-spread-t-20261110",
+  "date": "2026-11-10",
+  "editionDate": "2026-11-10",
+  "url": "article.html?id=the-etf-price-is-only-half-the-picture-read-nav-and-the-spread-t-20261110",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-etf-price-is-only-half-the-picture-read-nav-and-the-spread-t-20261110.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The ETF Price Is Only Half the Picture: Read NAV and the Spread Together. An exchange-traded fund has a market price, an underlying value and a trading gap. Knowing what each number tells you—and what it doesn’t—makes fund disclosures more useful.\nPeople: a couple of different ethnic backgrounds sharing a thoughtful moment. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: A couple sharing a calm, practical moment at a kitchen table, looking at a generic fund document and a laptop with simple, clearly labeled price, NAV and bid–ask spread graphics; no identifiable fund, account balance or financial outcome.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends at a gym bench, one writing a set and repetition count in a notebook while the other rests between sets. | Two friends sit together at a table, comparing a clothing listing on a phone with a well-loved jacket. | Two friends study a neighborhood drainage map at a kitchen table, comparing a marked route with notes from a winter sidewalk walk. | Two friends photograph a colorful mural from a public sidewalk, then look together at the image on a phone. | Three generations of a family sit around a kitchen table, sharing a handwritten list of ways they like to stay in touch.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
