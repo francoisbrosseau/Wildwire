@@ -7,8 +7,11 @@ on:
     branches: [main]
     paths: ['.github/recover-daily-edition']
   schedule:
-    - cron: '17 0,2,4,5,8,11 * * *'
-      timezone: America/Toronto
+    - cron: '17 0,2,4,5,11 * * *'
+      timezone: America/Cancun
+    # Daily 08:00 Cancun readiness/recovery checkpoint.
+    - cron: '0 8 * * *'
+      timezone: America/Cancun
   workflow_dispatch:
     inputs:
       dry_run:
@@ -138,7 +141,7 @@ jobs:
           fi
       - name: Report a late scheduled edition without discarding validated work
         if: github.event_name == 'schedule'
-        run: node -e "const p=new Intl.DateTimeFormat('en-GB',{timeZone:'America/Toronto',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date()).split(':').map(Number);if(p[0]>6||(p[0]===6&&p[1]>=40))console.log('::warning::Edition is late for the 7 a.m. target; publishing the complete validated edition now.')"
+        run: node -e "const p=new Intl.DateTimeFormat('en-GB',{timeZone:'America/Cancun',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date()).split(':').map(Number);if(p[0]>=8)console.log('::warning::Edition is late for the 8 a.m. Cancun target; publishing the complete validated edition now.')"
       - name: Commit the complete validated edition
         id: publish
         if: >-
