@@ -3,7 +3,7 @@
 Approved by the owner on November 9, 2026 after missed scheduled starts.
 
 The normal GitHub schedules remain enabled. A separate recurring ChatGPT task
-checks early enough to recover before the 07:00 America/Cancun reading target.
+checks early enough to recover before the 08:00 America/Cancun reading target.
 GitHub scheduled events can be delayed or dropped; a green run from yesterday
 is not evidence that today's edition exists.
 
@@ -34,3 +34,5 @@ Keep the independent recovery task enabled after every occurrence, including
 successful and already-published checks. This is continuing daily maintenance,
 not a one-time reminder. HAYVN generation and its newsletter freshness guard
 remain separately managed and must not depend on either magazine succeeding.
+
+Owner update November 10, 2026: target daily public readiness by 08:00 America/Cancun. Retain overnight preparation and recovery windows, with an exact 08:00 scheduled readiness/recovery attempt. Keep recurring tasks enabled after every occurrence. External scheduler and provider timing remain best effort.
