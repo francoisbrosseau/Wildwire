@@ -61,3 +61,11 @@ fs.writeFileSync(output, catalogWithPillars);
 fs.writeFileSync(legacyOutput, catalogWithPillars);
 console.log(`Built article catalog: ${articles.length} stable IDs → js/articles-current.js and js/articles.js`);
 require('./build-newsletter-feed.cjs')(root, articles, issueManifests);
+
+// Keep search discovery current as the permanent archive grows.
+const xmlEscape = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+const discoveryUrls = ['https://wildwiremag.com/', 'https://wildwiremag.com/explore-on-foot.html',
+  ...[...allowed].map(name => 'https://wildwiremag.com/category.html?name=' + encodeURIComponent(name)),
+  ...articles.map(article => 'https://wildwiremag.com/' + article.url)];
+fs.writeFileSync(path.join(root, 'sitemap.xml'), '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+  discoveryUrls.map(url => '<url><loc>' + xmlEscape(url) + '</loc></url>').join('\n') + '\n</urlset>\n');
