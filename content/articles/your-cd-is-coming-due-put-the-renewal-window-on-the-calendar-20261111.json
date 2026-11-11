@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "Your CD Is Coming Due. Put the Renewal Window on the Calendar",
+  "subtitle": "Maturity doesn’t always mean your money moves to checking. A few minutes with your account terms can show what happens next—and when you can change it.",
+  "imageAlt": "Two friends compare separate certificate-of-deposit statements and mark maturity dates on their own calendars at a kitchen table.",
+  "imageConcept": "Two friends at a sunlit kitchen table, each reviewing their own CD statement and noting a maturity date on separate calendars; their documents are visible but private account details are not.",
+  "body": [
+    [
+      "Maturity is a decision point, not always a payout",
+      "A certificate of deposit has a term, an interest rate and a maturity date. But reaching that date does not necessarily mean the balance will appear in a checking account or become available without conditions. Depending on the account agreement, a CD may renew automatically unless the depositor gives instructions within a stated period. That period, if offered, is often called a grace period.\n\nThe practical task is not to decide in advance whether to renew or withdraw. It is to find out what the account is set to do, how long there is to respond and what changing course could cost. The Federal Deposit Insurance Corporation (FDIC) identifies automatic renewal and early-redemption terms among the details to understand when reviewing a CD [1]. Treat the maturity date as a prompt to read the terms—not as a promise that the money will move somewhere on its own."
+    ],
+    [
+      "Start with the date, then find the account’s rules",
+      "Look for the maturity date in the latest statement, online account details or original agreement. If it is not clear, ask the bank to confirm the date and where the governing renewal terms are located. Save or print the relevant disclosure if that makes it easier to review later.\n\nFor accounts covered by Regulation DD, the required disclosures include whether a time account will renew automatically and, if so, whether there is a grace period and how long it lasts. For automatically renewing time accounts with terms longer than one month, the regulation generally requires certain renewal information before maturity; it also provides an alternative timing rule in circumstances involving a qualifying grace period [2]. These disclosure rules help set expectations, but the account’s own terms tell you the specific dates and process to follow.\n\nDo not assume every CD has a grace period, or that every institution uses the same number of days. If the documents are unclear, ask the institution to identify the final day to give instructions and how it must receive them."
+    ],
+    [
+      "Make a three-line calendar note",
+      "Once you have the account terms, put three facts somewhere you will see them: the maturity date; the last day of any grace period; and the exact instruction process for changing what happens next. Include how to make the change—such as through a secure message, a phone call or a form—only if the account documents or bank confirm that method. Note any required cutoff time or confirmation step.\n\nSet a reminder well before the maturity date, not just on it. A second reminder a few days before the end of the grace period can serve as a backstop, but it should not replace checking the institution’s actual deadline. Keep the confirmation if you submit instructions, and verify afterward that the account reflects what you asked for.\n\nThis is especially useful when a CD belongs to someone who travels, shares household responsibilities or prefers paper records. A trusted friend can help locate the clauses or add dates to a calendar, while each account holder keeps their own login private and gives their own instructions."
+    ],
+    [
+      "Compare the new offer with the old one",
+      "The rate on the CD you opened is not necessarily the rate that will apply if it renews. Read what the agreement says about the renewal term and the interest rate or annual percentage yield (APY) that would apply. Check whether the bank will provide new terms before renewal and whether the new term differs from the original one. If the renewal rate is not yet stated, ask when and where it will be available rather than assuming it will match the old rate.\n\nCompare like with like: term length, APY, access to funds and any special conditions. An appealing rate is only one part of the arrangement. The FDIC also advises consumers to understand features such as callable or market-linked terms, which may work differently from a straightforward fixed-rate CD [1]. If you do not understand a feature, request an explanation in writing before relying on it.\n\nThis comparison is not a forecast or a recommendation to chase a particular rate. It is a way to see whether the renewal terms are different from what you originally agreed to—and to leave enough time to consider your own priorities."
+    ],
+    [
+      "Know the cost of changing course",
+      "A CD is not generally the same as an account that lets you withdraw funds whenever you like. Many CDs charge an early-withdrawal penalty, and the amount or method for calculating it is set by the account’s terms [1][3]. Find that clause before maturity, even if you expect to leave the money in place. It tells you what access may cost if circumstances change after a renewal.\n\nLook for the penalty amount, how it is calculated, and whether it could reduce interest or affect principal. Do not infer that a particular penalty will apply to every institution or account type. If the language is hard to interpret, ask the bank for a plain-language explanation and, if possible, an example based on the balance and term. A question about a penalty is not a commitment to withdraw.\n\nIf you are weighing access to the money, consider when you might need it and whether other funds are available, without treating a CD as a substitute for advice tailored to your circumstances. The point is to understand the trade-off before a deadline makes the choice feel rushed."
+    ],
+    [
+      "Keep tax questions on a separate track",
+      "CD interest can have federal income-tax consequences, and the timing rules are not always as simple as waiting until the money reaches a checking account. IRS Publication 550 says CD interest generally is included in income when received or when you are entitled to receive it without paying a substantial penalty; if interest is deferred for more than one year, it directs readers to the original-issue-discount rules [3]. Your account statement and tax documents may be useful records, but they do not answer every individual tax question.\n\nIf the CD is renewing or interest is credited in a way you do not understand, keep the relevant statements and ask a qualified tax professional or consult current IRS guidance. This is a prompt to check the applicable rules, not a calculation of what you owe. Tax treatment can depend on details that a general article cannot assess."
+    ],
+    [
+      "A five-minute review before the deadline",
+      "Use this short sequence for a U.S. CD at an FDIC-insured bank: find and record the maturity date; confirm whether renewal is automatic; write down whether a grace period exists and its length; identify the deadline and method for giving instructions; compare the renewal term and rate with the existing terms; and locate the early-withdrawal provision. If any line remains uncertain, contact the bank and record the answer, date and representative or department you spoke with.\n\nCheck that the product is actually a bank deposit. The FDIC’s consumer guidance distinguishes insured bank CDs from products that may use similar language but are not insured deposits [1]. This feature concerns U.S. bank CDs; credit-union share certificates have a different regulatory framework and need their own account terms and applicable guidance.\n\nA maturity calendar cannot choose for you. It can prevent an avoidable surprise by making the deadlines and consequences visible while there is still time to ask questions. For financial education only; this article is not personalized tax, legal or investment advice."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Shopping for a Certificate of Deposit?",
+      "authors": "Federal Deposit Insurance Corporation",
+      "publication": "FDIC.gov, Federal Deposit Insurance Corporation",
+      "url": "https://www.fdic.gov/consumer-resource-center/2023-11/shopping-certificate-deposit?utm_source=openai",
+      "researchSourceId": "S70"
+    },
+    {
+      "sourceId": "S2",
+      "title": "12 CFR Part 1030—Truth in Savings (Regulation DD)",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Code of Federal Regulations, Title 12, Chapter X, 2026 edition; January 1, 2026",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2026-title12-vol9/pdf/CFR-2026-title12-vol9-part1030.pdf",
+      "researchSourceId": "S48"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Publication 550 (2025), Investment Income and Expenses | Internal Revenue Service",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service; March 5, 2026",
+      "url": "https://www.irs.gov/publications/p550",
+      "researchSourceId": "S31"
+    }
+  ],
+  "id": "your-cd-is-coming-due-put-the-renewal-window-on-the-calendar-20261111",
+  "date": "2026-11-11",
+  "editionDate": "2026-11-11",
+  "url": "article.html?id=your-cd-is-coming-due-put-the-renewal-window-on-the-calendar-20261111",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/your-cd-is-coming-due-put-the-renewal-window-on-the-calendar-20261111.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Your CD Is Coming Due. Put the Renewal Window on the Calendar. Maturity doesn’t always mean your money moves to checking. A few minutes with your account terms can show what happens next—and when you can change it.\nPeople: two men friends with different backgrounds. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: Two friends at a sunlit kitchen table, each reviewing their own CD statement and noting a maturity date on separate calendars; their documents are visible but private account details are not.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends review a pregnancy training plan together beside a set of light dumbbells and resistance bands. | Two friends at a poolside bench compare swimsuits and talk through fit before swimming, with towels and goggles beside them. | Two friends observe a snow fence and a broad drift from a cleared public viewpoint after a winter storm. | Two friends sit at a kitchen table with a small radio between them, comparing handwritten listening notes as the afternoon light falls across the room. | An older woman talking with her adult daughter and son-in-law at a kitchen table, with a notebook open between them.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
