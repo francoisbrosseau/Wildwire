@@ -1,0 +1,41 @@
+name: Recover transient publisher failures
+on:
+  workflow_run:
+    workflows: [WILDWIRE daily edition]
+    types: [completed]
+permissions:
+  actions: write
+  contents: read
+concurrency:
+  group: publisher-transient-recovery
+  cancel-in-progress: false
+jobs:
+  recover:
+    if: github.event.workflow_run.conclusion == 'failure' && github.event.workflow_run.head_branch == 'main' && github.event.workflow_run.run_attempt == 1
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Retry one transient failure with saved progress
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh run view "$RUN_ID" --log-failed > failed.log
+          if rg -qi 'insufficient_quota|billing_hard_limit|invalid_api_key|authentication failed|401 Unauthorized|403 Forbidden' failed.log; then
+            echo 'Authentication, permission or quota failure requires intervention.'
+            exit 0
+          fi
+          if ! rg -qi 'ETIMEDOUT|ECONNRESET|ECONNREFUSED|EAI_AGAIN|socket hang up|502 Bad Gateway|503 Service Unavailable|504 Gateway|syncing_files|deployment.*timed out|main changed during generation' failed.log; then
+            echo 'No recognized transient error. Preserve editorial failure for investigation.'
+            exit 0
+          fi
+          active=$(gh run list --workflow daily-edition.yml --branch main --limit 30 --json status --jq '[.[] | select(.status == "queued" or .status == "in_progress" or .status == "waiting" or .status == "pending")] | length')
+          if [ "$active" != 0 ]; then
+            echo 'Publisher already active.'
+            exit 0
+          fi
+          gh run rerun "$RUN_ID" --failed
+          echo 'Requested one retry. Publication still requires validation, deployment and live verification.'
