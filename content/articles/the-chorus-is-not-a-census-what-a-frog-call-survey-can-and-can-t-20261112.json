@@ -1,0 +1,84 @@
+{
+  "category": "Explore",
+  "title": "The Chorus Is Not a Census: What a Frog-Call Survey Can—and Can’t—Tell You",
+  "subtitle": "Additional Daily Read · A spring wetland outing becomes more useful when you listen carefully, record conditions and resist turning sound into a headcount.",
+  "imageAlt": "Two friends pause on a permitted wetland path at dusk, one checking a notebook while the other listens toward the reeds.",
+  "imageConcept": "Two friends standing together on a marked wetland path at dusk, a small notebook and pen in one person’s hand as they listen toward reeds and shallow water from a respectful distance.",
+  "body": [
+    [
+      "Start by listening, not counting",
+      "On a spring evening, a wetland can seem to announce itself: peeps, trills and rattling calls overlap until the air feels full. It is tempting to hear that abundance as a number—as evidence that a particular pond holds many frogs, or that a loud night means a healthy population. But a chorus is not a census. A sound-based survey records what callers were detected under particular conditions, at a particular time, by particular listeners. That can be valuable evidence, but it does not directly reveal how many animals are present. The useful question is not simply “How many frogs are here?” It is “What did we hear, where and when, and how was the observation made?”"
+    ],
+    [
+      "Choose a protocol before you choose a pond",
+      "If you want your observations to contribute to science, start with a local monitoring program rather than designing a survey from memory. Programs may require training, assigned sites, particular visit windows or specific ways of recording calls. FrogWatch USA, for example, is a public monitoring project whose training and survey guidance help participants make observations in a consistent way. The approach described by the National Science Teaching Association includes site visits, weather notes and recording call intensity—not just writing down a species name [1]. Check the program’s current instructions before going: season dates and methods vary by place, and a protocol from one state should not be assumed to apply elsewhere. A casual outing is still worthwhile, but label it as casual observation rather than submitting it as standardized survey data."
+    ],
+    [
+      "Make the outing accessible and low-impact",
+      "Choose a wetland where public access is permitted, and check local rules, opening hours and any program-specific site directions. Do not cross closed areas or leave a marked route to get closer to a sound. Wet ground, steep banks and low light can make a short detour risky; you do not need to reach the water’s edge to listen. Bring a charged phone or watch for timing, a notebook or the program’s recording tool, a pen, and clothing suited to the weather. A light can help you move safely, but use it to see the path rather than sweeping it across the wetland. Agree beforehand that either person can turn back. The aim is to observe without disturbing habitat or making the outing harder than it needs to be."
+    ],
+    [
+      "Give two people two clear jobs",
+      "A simple shared structure can make the listening easier. One person can keep time and note the conditions requested by the program; the other can focus on the calls. Before the survey starts, take a moment to settle, identify the assigned location and follow the program’s directions about where to stand and how long to listen. Keep conversation and movement to a minimum during the listening period—not because silence makes the outing solemn, but because it gives both people a fair chance to notice what is there. If you hear something you cannot identify, describe it plainly or use the program’s uncertainty options. Naming every caller is not a test of expertise. Some recordings with multiple species are difficult for people to identify accurately, even when they are engaged listeners."
+    ],
+    [
+      "Record the conditions that shape the sound",
+      "A useful record includes more than a list of calls. Follow the program’s directions for noting conditions such as date, time, location and weather, and use its categories for call intensity if it provides them. Those details help someone interpret the observation later: a result from one kind of night is not automatically comparable with a result from another. Avoid adding details you did not observe or filling gaps with guesses. If traffic, wind or another sound makes listening difficult, note that when the form allows it. Do not improvise a numeric estimate of animals based on how loud the chorus seems. The signal reaching your ears is shaped by overlapping callers, distance, vegetation and other conditions. A careful description of the listening conditions preserves that context instead of hiding it behind a confident-sounding count."
+    ],
+    [
+      "A quiet visit is not proof of absence",
+      "Not hearing a frog on one visit does not establish that frogs are absent. Calling activity can vary with timing and conditions, and a survey only samples a portion of what may be happening. In a study of listener-based surveys in Maine wetlands, automated recordings detected some calling species later than the standard survey window used in the program studied. The researchers also warned that survey timing could lead to missed detections or to chorus-size misclassification [3]. That result is a reason to respect the limits of a survey, not a reason to discard one. Repeated observations made under a consistent protocol can help reveal patterns across visits or seasons; a single quiet evening is one observation with boundaries. Write down what happened, and let the record remain incomplete where the evidence is incomplete."
+    ],
+    [
+      "What a repeatable record can show",
+      "When many people follow a shared method, their observations can form a useful record without pretending to be a headcount. Iowa offers a local example: its 2025 report describes volunteers surveying 893 wetland sites and uses a standard five-minute listening period in that state’s program [2]. That figure belongs to Iowa’s survey and should not be generalized to other regions or treated as a universal method. The broader lesson is that repeatability matters: returning to a site, recording the requested conditions and applying the same local rules makes comparisons more meaningful. Even then, a change in detections is not automatically proof of a change in population. A strong record can show what observers heard, and it can help direct further questions. It cannot answer every ecological question by itself."
+    ],
+    [
+      "Leave with the observation intact",
+      "After the listening period, compare notes before deciding what you think you heard. Where did your impressions match? Which sound remains uncertain? Check names against the program’s approved materials, and submit data only in the format and timeframe it requests. If your outing was not part of a trained or assigned survey, keep the record for your own observation rather than presenting it as a standardized count. A season’s worth of careful listening may help build a picture that one evening cannot provide. The most honest field note might be modest: “Calls heard; species uncertain; wind noticeable.” That is not a failed survey. It is a clear account of what the moment allowed you to know—and a good reason to listen again, using the same method."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Surveying Sounds of the Season",
+      "authors": "Jill Nugent",
+      "publication": "Science Scope, May/June 2023",
+      "url": "https://www.nsta.org/science-scope/science-scope-mayjune-2023/surveying-sounds-season",
+      "researchSourceId": "S7"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Frog and Toad Call Survey Results for Iowa, 2025",
+      "authors": "Stephanie Shepherd",
+      "publication": "Iowa Department of Natural Resources, 2025",
+      "url": "https://www.iowadnr.gov/media/9064/download?inline=",
+      "researchSourceId": "S4"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Evaluation of Listener-Based Anuran Surveys with Automated Audio Recording Devices",
+      "authors": "A. F. Shearin, A. J. K. Calhoun, and C. S. Loftin",
+      "publication": "Wetlands, April 26, 2012",
+      "url": "https://pubs.usgs.gov/publication/70173627?utm_source=openai",
+      "researchSourceId": "S66"
+    }
+  ],
+  "id": "the-chorus-is-not-a-census-what-a-frog-call-survey-can-and-can-t-20261112",
+  "date": "2026-11-12",
+  "editionDate": "2026-11-12",
+  "url": "article.html?id=the-chorus-is-not-a-census-what-a-frog-call-survey-can-and-can-t-20261112",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-chorus-is-not-a-census-what-a-frog-call-survey-can-and-can-t-20261112.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Chorus Is Not a Census: What a Frog-Call Survey Can—and Can’t—Tell You. Additional Daily Read · A spring wetland outing becomes more useful when you listen carefully, record conditions and resist turning sound into a headcount.\nPeople: two women partners with distinct builds and features. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two friends standing together on a marked wetland path at dusk, a small notebook and pen in one person’s hand as they listen toward reeds and shallow water from a respectful distance.\nAvoid repeating these recent WILDWIRE image scenes: Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends at a kitchen table compare the different hand movements involved in holding a mug, turning a small object and picking up a coin. | Two friends in a bright eyewear shop try on distinct eyeglass frames, comparing a playful translucent pair with a quiet, dark pair. | A parent and child crouch beside a garden path, watching ants cross a crack while another family member writes notes. | Two friends sit beside one another at a table, comparing a digitized handwritten page on a laptop with its transcription on screen. | Two partners sit at a kitchen table in everyday clothes, each checking alert settings on their own phone beside a notepad and a cup of tea. | A couple at a kitchen table compares old employment papers with two separate notebooks and a laptop open to an official retirement-benefit search page.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

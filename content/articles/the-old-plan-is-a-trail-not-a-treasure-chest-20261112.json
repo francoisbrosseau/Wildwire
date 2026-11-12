@@ -1,0 +1,83 @@
+{
+  "category": "Finance",
+  "title": "The Old Plan Is a Trail, Not a Treasure Chest",
+  "subtitle": "A calm, two-person search can help you find past workplace retirement plans—and learn who can confirm whether a benefit is still yours.",
+  "imageAlt": "A couple at a kitchen table compares old employment papers with two separate notebooks and a laptop open to an official retirement-benefit search page.",
+  "imageConcept": "A warm, lived-in kitchen table with a couple working side by side but keeping separate notebooks; an old envelope, a laptop showing an official search page, and a short list of questions suggest a practical first step rather than a windfall.",
+  "body": [
+    [
+      "A job change can leave a paper trail",
+      "A retirement account from an earlier job can slip out of view without anyone making a dramatic mistake. An old address, a company that changed names, or a stack of papers filed during a move may be enough. A couple’s work histories can make the search more complicated: one person may have changed employers several times, while the other stayed with one organization or worked in different kinds of jobs. The useful first goal is modest: identify possible past plans and find the right administrator to ask about them. It is not to move money, choose investments, or assume a search result is a windfall. GAO reported that workers can face challenges tracking 401(k) accounts after changing jobs, and that two-thirds of surveyed participants considered a comprehensive pension dashboard useful [1]."
+    ],
+    [
+      "Make two inventories, not one shared account",
+      "Set aside a short, unhurried session. Each person should make their own list of former employers, approximate years worked, known company name changes, and any remembered plan type. Add details that may help distinguish one employer from another: a former city, a union, or a division name. Old statements, tax forms, benefits booklets, and emails can help, but do not delay the search until every document is found. Keep uncertain details marked as uncertain rather than filling gaps with guesses. This is a useful couple’s project precisely because you can help each other remember; it should not become a shared-login exercise. Each person searches for their own records and handles their own identifying information. The DOL fact sheet describes an identity-authenticated database intended to help participants and beneficiaries locate administrators of job-based plans that may owe benefits [2]."
+    ],
+    [
+      "Use the federal search as a lead",
+      "For eligible U.S. workplace plans, begin with the Department of Labor’s Retirement Savings Lost and Found. The tool is designed to help workers and beneficiaries find information about past private-sector employer and union plans and identify whom to contact. The DOL fact sheet describes the database as covering retirement plans subject to ERISA [2]. A result is a lead, not a decision that money remains in the plan or is owed to you. The plan administrator is the party that can verify your identity and explain your benefit status. The DOL fact sheet says the database is intended to help participants and beneficiaries locate administrators of job-based plans that may owe benefits [2]. Use the official government site, and do not enter personal information into an unfamiliar service that promises to find lost money."
+    ],
+    [
+      "Treat an empty result as an incomplete answer",
+      "No match does not prove that a plan never existed. The Department of Labor’s 2024 fact sheet says that plan administrators’ submissions to populate the database were voluntary [2]. Company mergers, name changes, old addresses, and incomplete memories can also make a search harder. If the first pass comes up empty, return to the inventory: try a former employer’s earlier name, check a union or division that may have sponsored a plan, and look for old correspondence that identifies a plan or administrator. Keep a simple record of what you searched and when. If your partner has a result and you do not, that difference is not a reason to borrow their login or assume your history is settled. It simply means your next route may be different."
+    ],
+    [
+      "Ask the administrator to confirm the facts",
+      "When a search points to a plan, contact the administrator using contact details you can verify independently. Ask whether the plan has a record of your participation, whether it holds a benefit for you, and what documents or steps are needed to establish your identity and status. Have the former employer’s name and approximate employment dates ready; provide only the personal information the verified administrator needs through a secure process. Write down the date, the person or office contacted, and any reference number or next step. A plan name alone is not proof of a payable benefit. Nor does this first conversation require you to decide what to do with any money. The immediate task is to replace a search lead with an authoritative answer from the plan."
+    ],
+    [
+      "If a plan ended, try the separate PBGC route",
+      "Some workplace plans have ended, which can make the Pension Benefit Guaranty Corporation’s Missing Participants Program relevant. PBGC maintains a separate route for certain terminated plans; it is not a universal search for every retirement account. Use its official guidance to check whether the plan falls within the program and what follow-up is appropriate. As with a Department of Labor search result, finding a plan name in a PBGC search does not establish that a benefit is owed. PBGC explains how to follow up when a plan appears and notes that the listing itself is not a guarantee of benefits [3]. If you are unsure whether a plan was terminated or which agency is relevant, ask the former employer or plan administrator where records are held, and keep a note of the answer."
+    ],
+    [
+      "Keep the first project deliberately small",
+      "It can be tempting to turn a discovered account into an immediate rollover or investment decision. Resist making that the first assignment. A search does not tell you what tax consequences a transaction could have, whether a rollover is suitable, or how a plan’s rules apply to your situation. First establish what the plan is, whether it records a benefit, and which options and deadlines—if any—the administrator says apply. Then you can gather the plan documents and seek qualified tax, legal, or financial guidance if the decision calls for it. This boundary matters because locating an old plan and deciding what to do with a confirmed benefit are different jobs. The first is a records-and-contacts task; the second may require advice tailored to the person, the plan, and the relevant rules."
+    ],
+    [
+      "End with a useful handoff",
+      "At the end of your first session, each person can keep a private, practical record: former employer names and dates, searches completed, possible plan names, verified contact details, and the next question to ask. Agree only on the support you each want—perhaps a second pair of eyes on an old letter, or a reminder to call the administrator. Do not share Social Security numbers, passwords, or account documents more widely than necessary. The search may uncover a plan, a dead end, or a reason to follow another route. All three are information, not a verdict on anyone’s financial past. The aim is to make the next contact clearer and more secure, then let the administrator establish whether there is a benefit to discuss."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "401(k) Plans: Additional Federal Actions Would Help Participants Track and Consolidate Their Retirement Savings",
+      "authors": "U.S. Government Accountability Office",
+      "publication": "U.S. Government Accountability Office",
+      "url": "https://www.gao.gov/products/gao-24-103577",
+      "researchSourceId": "S68"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Fact Sheet: Retirement Savings Lost and Found Information Collection Request",
+      "authors": "U.S. Department of Labor, Employee Benefits Security Administration",
+      "publication": "U.S. Department of Labor",
+      "url": "https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/retirement-savings-lost-and-found-information-collection-request?utm_source=openai",
+      "researchSourceId": "S111"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Find your retirement benefits - Missing Participants Program",
+      "authors": "Pension Benefit Guaranty Corporation",
+      "publication": "Pension Benefit Guaranty Corporation",
+      "url": "https://www.pbgc.gov/workers-retirees/learn/find-your-retirement-benefits",
+      "researchSourceId": "S64"
+    }
+  ],
+  "id": "the-old-plan-is-a-trail-not-a-treasure-chest-20261112",
+  "date": "2026-11-12",
+  "editionDate": "2026-11-12",
+  "url": "article.html?id=the-old-plan-is-a-trail-not-a-treasure-chest-20261112",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-old-plan-is-a-trail-not-a-treasure-chest-20261112.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Old Plan Is a Trail, Not a Treasure Chest. A calm, two-person search can help you find past workplace retirement plans—and learn who can confirm whether a benefit is still yours.\nPeople: a couple with visibly different ages and life experience. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: A warm, lived-in kitchen table with a couple working side by side but keeping separate notebooks; an old envelope, a laptop showing an official search page, and a short list of questions suggest a practical first step rather than a windfall.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends at a kitchen table compare the different hand movements involved in holding a mug, turning a small object and picking up a coin. | Two friends in a bright eyewear shop try on distinct eyeglass frames, comparing a playful translucent pair with a quiet, dark pair. | A parent and child crouch beside a garden path, watching ants cross a crack while another family member writes notes. | Two friends sit beside one another at a table, comparing a digitized handwritten page on a laptop with its transcription on screen. | Two partners sit at a kitchen table in everyday clothes, each checking alert settings on their own phone beside a notepad and a cup of tea.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
