@@ -1,0 +1,84 @@
+{
+  "category": "Living",
+  "title": "Before the Menu, Make the Handoff",
+  "subtitle": "An additional Daily Read: a two-person plan for navigating a restaurant meal with a food allergy.",
+  "imageAlt": "Two friends at a restaurant table reviewing a menu while one prepares to speak with a server.",
+  "imageConcept": "Two friends at a warmly lit restaurant table, a menu open between them; one diner leads the conversation while the other listens, with a server nearby and no food yet on the table.",
+  "body": [
+    [
+      "A meal begins before the menu",
+      "Dining out with a food allergy can involve a string of small decisions: where to go, what to ask, how much uncertainty is acceptable, and when to change the plan. A companion can make those decisions easier to navigate, but should not take them over. The person with the allergy remains the authority on their own needs and on whether a restaurant’s answers are enough for them to proceed.\n\nThink of the outing as a handoff, not a safety test. The goal is not to prove that a meal is risk-free; a menu description or verbal assurance cannot guarantee that. It is to make the request clear, give staff a fair chance to explain their process, and leave the final choice with the diner. Food-allergy guidance for restaurants emphasizes ingredient information and steps to reduce cross-contact where feasible [1]."
+    ],
+    [
+      "Agree on roles before you go",
+      "A short conversation beforehand can prevent a companion from guessing what help is wanted. Ask: “Would you like me to call with you, help explain the request at the table, or just be there?” The answer may depend on the person, the restaurant, or the day. Someone may want a friend to handle the phone call but prefer to speak directly to the server; another may want to lead every part of the exchange.\n\nIf the diner welcomes help, divide the task plainly. One person can ask to speak with a manager when calling; the diner can describe the allergy and decide what information they need. At the restaurant, the companion might listen for whether the request is being passed along, while the diner asks follow-up questions. Agreeing on this in advance keeps support from becoming an uninvited negotiation on someone else’s behalf."
+    ],
+    [
+      "Call ahead for a conversation, not a promise",
+      "Before choosing or booking, call the restaurant at a time when staff may have room to talk. Ask to speak with a manager or another person who can discuss ingredients and kitchen procedures. State the specific food allergy clearly, then ask what the restaurant can tell you about the proposed dish and how it handles cross-contact—for example, whether separate equipment or preparation areas are available for the request. Restaurant-allergy guidance recommends clear communication, including checking that information reaches the kitchen [3].\n\nListen for the substance of the answer, not just a reassuring tone. Does the person understand which ingredient is at issue? Can they explain how they would handle the request, or do they need to check with someone else? If they are unsure, it is reasonable to ask whether they can find out and when to call back. A phone conversation is useful information, not a guarantee that every ingredient or kitchen condition has been verified."
+    ],
+    [
+      "Treat uncertainty as useful information",
+      "Restaurants differ in their menus, equipment, staffing and procedures. A CDC study of 278 restaurants at six selected U.S. sites collected staff interviews in 2014–2015; at that time, fewer than half of surveyed managers, food workers and servers reported food-allergy training [2]. Those findings are historical and limited to the sites studied. They do not describe current practices everywhere. They do underline why a diner may need to ask specific questions rather than assume every employee has the same knowledge.\n\nA vague answer is not a challenge to overcome or a reason to keep pressing until someone says yes. It tells you something about what the restaurant can confirm in that moment. If staff cannot answer clearly, cannot check, or describe a process that does not meet the diner’s needs, the diner can decide not to order, choose another dish only if they are comfortable doing so, or go elsewhere. There is no obligation to make the original plan work."
+    ],
+    [
+      "At the table, repeat the request",
+      "Even after calling ahead, state the allergy again when ordering. The person with the allergy can use direct, specific language: “I have an allergy to [food]. Can you confirm whether this dish contains it, and whether the kitchen can prepare it while reducing cross-contact?” The exact questions depend on the person’s allergy and their own guidance from a health professional. If a companion is helping, they can add a brief reminder, but should avoid translating a clear request into something softer or less specific.\n\nAsk who will receive the information and whether it will be communicated to the kitchen. If the answer is unclear, pause and ask for clarification before ordering. When the food arrives, the diner may want to confirm that the order matches what was discussed. That check is another chance to identify a mix-up, not proof that the meal is free of an allergen. If something seems inconsistent, stop and ask rather than feeling obliged to eat it."
+    ],
+    [
+      "Make room for a change of plan",
+      "A useful conversation includes an exit. Before going, agree that either person can suggest pausing, asking again or leaving without treating the change as a failure. The diner might say, “I don’t have enough information to feel comfortable ordering here,” or “Let’s choose another place.” A companion can make that easier by responding without debate: “Of course—where would you like to go?”\n\nThat support matters because the decision can be socially awkward: other people may be hungry, a reservation may have been made, or the group may already be seated. None of those pressures makes an uncertain answer clearer. The restaurant’s willingness to discuss its process is helpful, but it does not transfer responsibility for the decision away from the person with the allergy. A companion can help gather information and respect the choice; they cannot verify safety on someone else’s behalf."
+    ],
+    [
+      "Keep the personal plan personal",
+      "Restaurant planning is one part of managing an allergy, not a replacement for a person’s established medical advice. The person with the allergy should follow their own action plan and keep any prescribed emergency medication available as directed. A friend can ask what support would be useful and know what role the person wants them to take, but should not improvise medical instructions or assume that ordering a particular dish removes the need for the person’s usual preparations.\n\nThe restaurant work-group report discusses calling ahead and communicating with staff, but it is background rather than a current standard or a promise about a particular meal [3]. For personal medical questions, the appropriate source is the individual’s health care professional. For the outing itself, the most practical measure is a clear, respectful exchange that leaves space for the diner to say yes, ask more, or stop."
+    ],
+    [
+      "Practice the handoff before the reservation",
+      "For your next meal out, choose one restaurant you are considering and ask the person with the allergy what kind of help they want. Together, write down the questions that matter to them; one person can make the call while the other listens, or the diner can lead the whole conversation. At the table, let the diner repeat the request and decide whether the answer is sufficient. If it is not, use the exit plan you agreed on—without asking them to defend it. Afterward, take a minute to check in: Was the support welcome? Did the information arrive clearly? Keep only the part of the plan that made the next decision easier."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Food Allergy Reactions",
+      "authors": "Centers for Disease Control and Prevention",
+      "publication": "CDC, May 15, 2024",
+      "url": "https://www.cdc.gov/restaurant-food-safety/php/practices/food-allergy-reactions.html",
+      "researchSourceId": "S2"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Restaurant Food Allergy Practices—Six Selected Sites, United States, 2014",
+      "authors": "Taylor J. Radke, Laura G. Brown, Brenda Faw, Nicole Hedeen, Bailey Matis, Priscela Perez, Brendalee Viveiros, and Danny Ripley",
+      "publication": "Morbidity and Mortality Weekly Report, April 21, 2017",
+      "url": "https://www.cdc.gov/mmwr/volumes/66/wr/mm6615a2.htm",
+      "researchSourceId": "S4"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Food Allergy in Restaurants Work Group Report",
+      "authors": "Cristina A. Carter, Michael Pistiner, Julie Wang, and Hemant P. Sharma",
+      "publication": "Journal of Allergy and Clinical Immunology: In Practice, January 2020",
+      "url": "https://www.aaaai.org/Aaaai/media/MediaLibrary/PDF%20Documents/Practice%20and%20Parameters/Jan-2020-Food-Allergy-in-Restaurants.pdf",
+      "researchSourceId": "S29"
+    }
+  ],
+  "id": "before-the-menu-make-the-handoff-20261113",
+  "date": "2026-11-13",
+  "editionDate": "2026-11-13",
+  "url": "article.html?id=before-the-menu-make-the-handoff-20261113",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/before-the-menu-make-the-handoff-20261113.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Before the Menu, Make the Handoff. An additional Daily Read: a two-person plan for navigating a restaurant meal with a food allergy.\nPeople: a couple of different ethnic backgrounds sharing a thoughtful moment. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: Two friends at a warmly lit restaurant table, a menu open between them; one diner leads the conversation while the other listens, with a server nearby and no food yet on the table.\nAvoid repeating these recent WILDWIRE image scenes: Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends sit beside a strength-training station, discussing an adjustable setup before a workout. | Two friends sit at a sunlit table comparing labeled fragrance strips and handwritten scent notes. | Two friends stand together at a public fishway viewing window, looking into the water beside interpretive signs. | Two friends sit side by side on a couch, one holding a game controller while the other points toward a detail on the screen. | Two women friends sit at a kitchen table comparing the Drug Facts panels on over-the-counter medicine boxes, with the active ingredient sections turned toward them. | Three generations of a family sit around a table, looking together at a savings bond record and writing down who purchased it, who owns it and who is named as beneficiary.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 4,
+    "issues": []
+  }
+}

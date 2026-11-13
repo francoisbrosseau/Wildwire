@@ -1,0 +1,79 @@
+{
+  "category": "Explore",
+  "title": "A Fishway Is More Than a Ladder",
+  "subtitle": "Visit a public fish-passage site with a friend, follow the route the facility is designed to provide, and learn what a brief glimpse can—and cannot—tell you.",
+  "imageAlt": "Two friends stand together at a public fishway viewing window, looking into the water beside interpretive signs.",
+  "imageConcept": "Two friends at a clearly marked public fish-passage viewing window, one reading the site map while the other looks into the water; the fishway structure and a seasonal information sign are visible, with no suggestion that the pair is entering a restricted area.",
+  "body": [
+    [
+      "A route with a purpose",
+      "A fishway visit can look, at first, like a simple wildlife stop: find a viewing spot, wait, and hope a fish appears. But the more useful way to see the site is as both a route and a managed system. Fish passage structures are built to help particular fish move past an obstacle, and their design reflects the species, water conditions, and place. Some facilities use a ladder of pools; others may use a lift or another arrangement. A ladder is not just steps underwater: NOAA’s salmonid design manual describes pools and changes in level that give fish opportunities to hold, rest, and continue upstream. That guidance is specific to anadromous salmonids, not a universal recipe for every fishway [1]. A visit becomes more interesting when you ask not only “Can I see fish?” but also “Which fish is this route meant to serve, and how would anyone know whether it is working?”"
+    ],
+    [
+      "Choose a public site before you go",
+      "Start with a facility that explicitly welcomes visitors or provides a designated public viewing area. Check the current hours, seasonal access, directions, accessibility information, and any rules about photography, pets, or staying on marked paths. A viewing window may be closed, a count display may be offline, and public access can change; do not assume that a site is open just because the structure is visible from a road or trail. Look for the agency’s explanation of the fishway’s purpose and the species it is intended to help. If the information is not online, the facility’s contact page may point you to a useful source. This small bit of preparation keeps the outing on the public side of the boundary and gives you something specific to look for besides movement in the water."
+    ],
+    [
+      "Give the fishway a first read",
+      "At the site, take a few minutes to orient yourselves before searching the water. Find the map or interpretive sign and trace the route from the downstream approach to the upstream side. Depending on the facility, visible features might include an entrance, pools, slots, a viewing window, a lift, or a sign describing where fish are counted. These details are not interchangeable: a structure designed for one set of fish may not serve others equally well. USGS describes research on a fish-ladder design intended to address limitations for migratory species such as shad and river herring, whose needs can differ from those accommodated by standard designs [2]. That is a useful reason to read the site’s own species information rather than deciding that a ladder is a generic passageway for every fish in the river."
+    ],
+    [
+      "Make the visit a shared field note",
+      "A notebook or phone note can turn a short stop into a better conversation. Each person can write down one visible detail and one question. Keep the detail concrete: “The sign shows three pools before the upper channel,” or “The window is clear, but I can’t see the entrance.” Then make the question answerable from the site’s map, posted information, or monitoring page: “Which species are counted here?” “What months does the report cover?” “Does the display show a daily count or a season total?” Compare notes before looking up the answers. You may have noticed different parts of the same system, and a question that seemed obvious to one person may be missing from the signage. If there is no public information, record that as a gap in what you could find—not as proof that monitoring does not happen."
+    ],
+    [
+      "Seeing a fish is not measuring passage",
+      "A fish in a viewing window is a real observation, and it can make the facility’s purpose vivid. It is not, by itself, a measure of how many fish pass, what proportion of the population makes it through, or how the structure affects the wider river. Fish may move at different times, use different parts of a route, or simply be out of view during your visit. The reverse is also true: an empty window during a short stop does not establish that no fish are passing. A US Army Engineer Research and Development Center review describes a range of ways to forecast and monitor passage rates across different structures and settings; the appropriate method depends on the question and the site [3]. A careful visitor can report what they saw and when. Assessing a passage rate requires a defined method and enough relevant evidence."
+    ],
+    [
+      "Follow the numbers back to their source",
+      "If the facility provides a count or report, look for the time period, species, and method before treating a number as a verdict. A count may describe fish observed at one point, within a particular season, or through a specific monitoring process. Ask whether the information is current and whether it covers the route you just viewed. If a display gives a daily number, it is still worth checking what the number represents and when it was last updated. If no monitoring data are available to the public, you can still learn from the site’s design and posted purpose, while being honest that you cannot judge performance from observation alone."
+    ],
+    [
+      "Leave with a better question",
+      "Before heading out, compare your notes and choose one question to carry forward. Maybe the sign names a target species but does not explain how the route accommodates it. Maybe the count is available online, but the display does not say whether it is a daily or seasonal total. Or perhaps what stood out was the scale of the structure and how much of the route is hidden from view. A useful next step is to check the relevant agency page later, using the exact facility name, and look for its current access details, species information, and monitoring reports. Keep the conclusion proportional to the visit: “We saw two fish at the window” is a solid field note; “the fishway is successful” is a much bigger claim. The point is not to turn a riverside outing into an inspection. It is to leave with a clearer sense of the route, the fish it serves, and the evidence needed to understand the system."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Anadromous Salmonid Passage Facility Design Manual | NOAA Fisheries",
+      "authors": "NOAA Fisheries",
+      "publication": "NOAA Fisheries, February 22, 2023",
+      "url": "https://www.fisheries.noaa.gov/resource/document/anadromous-salmonid-passage-facility-design-manual",
+      "researchSourceId": "S11"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Development and Evaluation of the Novel East Coast Fish Ladder | U.S. Geological Survey",
+      "authors": "Eastern Ecological Science Center",
+      "publication": "U.S. Geological Survey, November 18, 2024",
+      "url": "https://www.usgs.gov/centers/eesc/science/development-and-evaluation-novel-east-coast-fish-ladder",
+      "researchSourceId": "S25"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Assessing Fish-Passage Rates",
+      "authors": "S. Kyle McKay, Jock N. Conyngham, K. Jack Killgore, David Smith, Sara Tripp, James Garvey, Danny Ward, R. Andrew Goodwin, Y. Lai, John M. Nestler, William T. Slack, Bradley R. Lewis, Alan W. Katzenmeyer, Jay A. Collins, Steven G. George, and J. Craig Fischenich",
+      "publication": "US Army Engineer Research and Development Center, December 8, 2025",
+      "url": "https://www.erdc.usace.army.mil/Media/Publication-Notices/Article/4354426/assessing-fish-passage-rates/?utm_source=openai",
+      "researchSourceId": "S50"
+    }
+  ],
+  "id": "a-fishway-is-more-than-a-ladder-20261113",
+  "date": "2026-11-13",
+  "editionDate": "2026-11-13",
+  "url": "article.html?id=a-fishway-is-more-than-a-ladder-20261113",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/a-fishway-is-more-than-a-ladder-20261113.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Fishway Is More Than a Ladder. Visit a public fish-passage site with a friend, follow the route the facility is designed to provide, and learn what a brief glimpse can—and cannot—tell you.\nPeople: two adult friends of different genders. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two friends at a clearly marked public fish-passage viewing window, one reading the site map while the other looks into the water; the fishway structure and a seasonal information sign are visible, with no suggestion that the pair is entering a restricted area.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends sit beside a strength-training station, discussing an adjustable setup before a workout. | Two friends sit at a sunlit table comparing labeled fragrance strips and handwritten scent notes.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
