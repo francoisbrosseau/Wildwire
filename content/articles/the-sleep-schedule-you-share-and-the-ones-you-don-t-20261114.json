@@ -1,0 +1,83 @@
+{
+  "category": "Living",
+  "title": "The Sleep Schedule You Share—and the Ones You Don’t",
+  "subtitle": "A low-pressure, seven-day map can show where two people’s sleep timing diverges, without turning bedtime into a competition or a correction project.",
+  "imageAlt": "Two partners sit at a kitchen table comparing handwritten sleep notes beside a weekly calendar, with morning light coming through a window.",
+  "imageConcept": "An intimate, natural-light kitchen scene: two partners sit side by side at a small table, each with a simple handwritten weekly sleep map; a calendar and two mugs suggest shared planning without making either person the subject of scrutiny.",
+  "body": [
+    [
+      "Two routines, one household",
+      "When two people share a home, it is easy to assume they share a schedule. In practice, one may be ready for bed while the other is finishing a late shift; one wakes early for caregiving, while the other can sleep later. The difference can feel like a relationship problem when it may simply be a pattern no one has named. A short sleep-timing map offers a way to look together, without asking either person to defend their choices. The aim is not identical bedtimes. It is to notice what is happening across ordinary days, then decide whether a small adjustment would make life easier for both. This is observation, not a diagnosis, sleep challenge or test of commitment."
+    ],
+    [
+      "Regularity matters, but it is not the whole story",
+      "Sleep timing is one part of sleep health, alongside getting enough sleep and being able to sleep well. The CDC recommends that adults ages 18–60 get at least seven hours, and advises keeping bedtimes and wake times consistent; it also recommends talking with a health-care provider about regular sleep problems [1]. Those points belong together: a more regular schedule is not a win if it leaves someone chronically short on sleep. The National Heart, Lung, and Blood Institute suggests that keeping weekend and weekday times close—within about an hour—may help limit disruption to the sleep-wake rhythm, while recognizing that shift work calls for different planning [2]. Treat that as guidance to consider, not a rule every household can or should follow."
+    ],
+    [
+      "Why map a week instead of guessing",
+      "People often remember the hardest night, the late weekend or the morning they felt especially rested. A week of brief notes can reveal whether those moments are exceptions or part of a repeated rhythm. A 2025 systematic review included 59 studies and found associations between irregular sleep timing and several health outcomes, but differences in how studies measured regularity and outcomes prevented the researchers from combining the results in a meta-analysis [3]. That evidence makes regularity worth noticing, not a reason to claim that tracking will improve health. A seven-day map is a practical snapshot, not a validated score. It can help a couple talk about timing more precisely, while leaving medical interpretation to qualified professionals."
+    ],
+    [
+      "Make the map in under two minutes a day",
+      "Choose a shared seven-day stretch that includes the usual workdays and days off. Each person keeps their own note, on paper or in a private phone note. Record three things: an approximate time you went to bed intending to sleep, an approximate time you got up for the day, and whether the day was a workday, day off, or something less typical. If a night was disrupted by a child, illness, noise or an overnight shift, add a short note if you want. Exact minutes are unnecessary; rough times are enough to see broad patterns. Don’t use a wearable score as a verdict, and don’t wake each other to collect data. If one person would rather not share their notes, the map can still be useful individually."
+    ],
+    [
+      "Compare patterns, not performance",
+      "At the end of the week, look at each person’s notes separately before comparing them. Ask: Which times stayed fairly steady? Where did they shift? Did the later bedtime coincide with a later wake time, or did it cut into sleep? What was happening on the days that looked different? Then compare schedules as a household: Do the differences affect quiet, light, shared mornings or time together? Keep the conversation descriptive. “My bedtime moved later on both days off” is more useful than “You’re always up too late.” Neither person needs to prove that their schedule is more sensible. The aim is to understand the shape of the week and what, if anything, the two of you want to change."
+    ],
+    [
+      "Try one adjustment only if it protects sleep",
+      "If both people see a manageable opportunity, choose one small experiment for the next week. That might mean agreeing on a quiet period after one person goes to bed, shifting a shared morning task, or moving a bedtime or wake time slightly toward the rest of the week. Talk through the trade-offs first: Does the change preserve enough time to sleep? Does it fit work, caregiving, health needs and the person’s own preferences? NHLBI’s suggestion to keep times close is a possible reference point, not a demand to force a shared schedule [2]. For shift workers or people with changing hours, consistency may need to be planned around their actual work pattern rather than conventional weekdays. If the adjustment reduces sleep or creates strain, stop and rethink it."
+    ],
+    [
+      "Keep the conversation collaborative",
+      "A sleep map can slide into monitoring if one person becomes the keeper of the other’s bedtime. Avoid reminders, rankings or assigning blame for a late night. Each person should control their own notes and decide what they want to disclose. Ask before offering a suggestion: “Would you like to look for a change together, or just compare what we noticed?” Some schedules cannot be made alike because of jobs, disability, caregiving or other constraints. In that case, practical coordination may matter more than shifting the clock: use a quieter route to bed, agree on when lights can be on, or protect a short period of shared time that does not depend on matching sleep hours. The best outcome may be greater understanding, not a new schedule."
+    ],
+    [
+      "Close the map with a decision, not a score",
+      "After a week, write one sentence together that captures what you learned: “Our wake times match more than we thought,” “Days off bring a later bedtime for both of us,” or “Our schedules differ because of work, and we want to protect quiet after 10.” If a change seems worthwhile, name the one you will test and when you will review it. If nothing should change, say that too. Put the notes away or delete them if keeping them feels intrusive. Persistent difficulty sleeping, daytime impairment or concern about a sleep disorder is a reason to speak with a health professional; a household map cannot diagnose or treat a problem [1]. For a first try, make the map about understanding one another—not fixing one another."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "About Sleep | Sleep | CDC",
+      "authors": "Centers for Disease Control and Prevention",
+      "publication": "CDC, May 15, 2024",
+      "url": "https://www.cdc.gov/sleep/about/index.html",
+      "researchSourceId": "S44"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Sleep Deprivation and Deficiency - Healthy Sleep Habits | NHLBI, NIH",
+      "authors": "National Heart, Lung, and Blood Institute",
+      "publication": "NHLBI, NIH, March 24, 2022",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits?trk=article-ssr-frontend-pulse_little-text-block",
+      "researchSourceId": "S5"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Sleep regularity as an important component of sleep hygiene: a systematic review",
+      "authors": "Alexandros Kalkanis, Dierik Lenkens, Paschalis Steiropoulos, and Dries Testelmans",
+      "publication": "Sleep Medicine Reviews, November 17, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41259946/",
+      "researchSourceId": "S6"
+    }
+  ],
+  "id": "the-sleep-schedule-you-share-and-the-ones-you-don-t-20261114",
+  "date": "2026-11-14",
+  "editionDate": "2026-11-14",
+  "url": "article.html?id=the-sleep-schedule-you-share-and-the-ones-you-don-t-20261114",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-sleep-schedule-you-share-and-the-ones-you-don-t-20261114.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Sleep Schedule You Share—and the Ones You Don’t. A low-pressure, seven-day map can show where two people’s sleep timing diverges, without turning bedtime into a competition or a correction project.\nPeople: a woman and a man who are partners, with grounded attainable appearances. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: An intimate, natural-light kitchen scene: two partners sit side by side at a small table, each with a simple handwritten weekly sleep map; a calendar and two mugs suggest shared planning without making either person the subject of scrutiny.\nAvoid repeating these recent WILDWIRE image scenes: A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends at a kitchen table review a short list of questions about strength, mobility and exercise support during cancer care. | Two friends with distinct hairstyles talk together in front of a mirror; one gestures toward her own braid while the other listens, without touching her hair. | Three family members pause on a tree-lined path at dusk: one looks toward the sky, one holds a small bat detector, and another writes in a notebook. | Two friends stand beside a cemetery map, quietly comparing it with the paths and trees around them.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

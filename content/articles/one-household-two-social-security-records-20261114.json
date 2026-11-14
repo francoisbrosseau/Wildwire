@@ -1,0 +1,83 @@
+{
+  "category": "Finance",
+  "title": "One Household, Two Social Security Records",
+  "subtitle": "Retirement, spousal and survivor benefits are connected—but they are not the same check. A simple map can help couples see what to verify before making decisions.",
+  "imageAlt": "A couple at a kitchen table comparing Social Security statements and writing questions in a shared notebook.",
+  "imageConcept": "A warm, natural-light kitchen scene: two partners sit side by side at a table, each with a Social Security Statement and a pen, mapping three labeled rows in an open notebook. Their expressions are focused and collaborative, with no visible account numbers or personal information.",
+  "body": [
+    [
+      "Two records, one household picture",
+      "A couple can share rent, savings goals and retirement plans while having very different Social Security histories. One person may have earned more, worked longer or claimed at a different age; the other may have gaps in covered work or a smaller benefit based on their own record. Those differences matter, but they do not reduce to a single question such as “What will our Social Security be?” Each person’s retirement benefit, possible spousal benefit and possible survivor benefit follows its own rules. The useful first step is to map those paths separately, then consider how they fit together. This is an organizing exercise, not a recommendation about when either person should claim. Eligibility and amounts depend on individual circumstances, so the map should lead to questions for the Social Security Administration (SSA), not a confident guess."
+    ],
+    [
+      "Start with each person’s own estimate",
+      "Ask each partner to access their Social Security Statement and record the retirement estimates shown for their own earnings record. Note the ages or dates associated with each estimate, and keep the figures attached to the person they describe. SSA says retirement benefits are based on lifetime earnings and the age at which a person starts benefits; a Statement can provide personal estimates [1]. The numbers are estimates, not a promise that a particular amount will arrive in every future circumstance. For a household map, the point is to establish a clear baseline: what does each person’s own record show, and what assumptions sit behind the estimate? If a figure is unclear, mark it for follow-up rather than filling the gap with an online calculator or a partner’s number."
+    ],
+    [
+      "Row two: a spousal benefit is a supplement, not a second full check",
+      "A spousal benefit is tied to a living spouse’s record and has requirements that should be checked with SSA. A full spousal benefit can be up to half of the worker’s benefit at full retirement age, while claiming earlier can reduce it [3]. That does not mean the lower-earning spouse simply adds half of the other person’s payment to their own. SSA first pays the person’s own retirement benefit; if the eligible spousal amount is higher, it adds the difference to bring the total to the applicable higher amount [1]. In the notebook, list a potential spousal benefit as a separate path and label it “verify eligibility and amount.” Do not add it to the own-record estimate as though both figures will be paid in full. The distinction can make a household projection more realistic and prevent a common misunderstanding."
+    ],
+    [
+      "Check how the rules may apply to both partners",
+      "A spousal benefit is not an automatic bonus available to every couple. Eligibility depends on the circumstances, including the relationship and each person’s benefit situation. One point to ask about is deemed filing: for many people who qualify for both their own retirement benefit and a spousal benefit, applying for one is treated as applying for both, and the payment is adjusted under the applicable rules [3]. Rules and exceptions can make a person’s individual history important, so avoid treating a general explanation as a decision about a specific claim. Write down questions such as: Does either person qualify on the other’s record? How does the worker’s claiming status affect the possible benefit? Does deemed filing apply to this person? A direct answer from SSA is more useful than assuming the same strategy works for every couple."
+    ],
+    [
+      "Row three: survivor benefits belong on a different path",
+      "A survivor benefit is not simply the spousal benefit continuing unchanged. It may be based on the deceased worker’s earnings record, and potential eligibility and amount can depend on factors including the surviving spouse’s age and relationship to the worker [2]. A surviving spouse already receiving a benefit on their own record may qualify for a higher survivor benefit, but the interaction is not two full checks added together. SSA describes situations in which a person may receive survivor benefits while delaying their own retirement benefit, or may take a reduced retirement benefit and apply for a higher survivor benefit later [2]. These possibilities are reasons to map survivor benefits separately—not reasons to assume a particular sequence is best. Mark the row “potential survivor benefit,” note what SSA needs to confirm, and remember that circumstances can change the answer."
+    ],
+    [
+      "Make the map without pretending to know the future",
+      "A useful household worksheet has three rows for each person: own retirement estimate; possible spousal benefit; possible survivor benefit. Add columns for “record it is based on,” “age or timing shown,” and “questions for SSA.” Use the Statement for the estimates it provides, then distinguish clearly between a number SSA displays and a benefit you have only identified as a possibility. For example, if one partner’s Statement shows a retirement estimate and a survivor estimate, write which person’s record each relates to. Do not combine two people’s estimates into one monthly total until you understand what each figure represents and whether the benefits could be payable together. This kind of labeling is simple, but it protects the conversation from false precision—and gives both partners a shared document they can update when they get clearer information."
+    ],
+    [
+      "A practical 30-minute review for two",
+      "Set aside a calm half hour and bring both Social Security Statements, a notebook and a list of questions. First, each person writes down their own retirement estimates and the ages or dates shown. Second, identify any spousal and survivor estimates on the Statements, labeling whose earnings record each one uses. Third, circle anything that is unclear rather than guessing. Then prepare questions for SSA: What benefits might each of us qualify for? Which amounts are estimates based on our own records, and which depend on a spouse’s record? What application rules apply to our circumstances? Could one person’s timing affect the other benefit we are asking about? Keep account credentials and sensitive numbers private; the shared worksheet needs the relevant labels and questions, not a copy of every personal detail. Each partner can keep their own Statement and choose what to share."
+    ],
+    [
+      "Use the map to ask better questions—not to pick an age",
+      "The value of the exercise is not a verdict about the best claiming age. A choice can involve different benefit paths, eligibility details and household priorities, and the general rules cannot tell a couple what is right for them. Bring the worksheet to SSA or use it to prepare for a conversation with a qualified adviser who understands Social Security. Ask for explanations of the specific figures and rules that apply, and record the answer beside the question. If the answer changes the map, update it rather than relying on memory. The household picture is clearest when each person’s own record stays visible, possible spousal benefits are treated as supplements under applicable rules, and survivor benefits are considered on their own terms. That is a more useful starting point than treating Social Security as one shared account."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Retirement Benefits",
+      "authors": "Social Security Administration",
+      "publication": "Publication No. 05-10035, January 2026",
+      "url": "https://www.ssa.gov/pubs/EN-05-10035.pdf?apiversion=v2&batchservertelemetry=1&domshim=1&noservercache=1&noservertelemetry=1&renderwebcomponents=1&wcseo=1",
+      "researchSourceId": "S19"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Survivors Benefits",
+      "authors": "Social Security Administration",
+      "publication": "Publication No. 05-10084, April 2026",
+      "url": "https://www.ssa.gov/pubs/EN-05-10084.pdf?source=post_page---------------------------",
+      "researchSourceId": "S2"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Do You Qualify for Social Security Spouse's Benefits? | Social Security Blog | SSA",
+      "authors": "Dawn Bystry",
+      "publication": "Social Security Blog, July 11, 2024",
+      "url": "https://www.ssa.gov/blog/en/posts/2024-07-11.html",
+      "researchSourceId": "S15"
+    }
+  ],
+  "id": "one-household-two-social-security-records-20261114",
+  "date": "2026-11-14",
+  "editionDate": "2026-11-14",
+  "url": "article.html?id=one-household-two-social-security-records-20261114",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/one-household-two-social-security-records-20261114.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: One Household, Two Social Security Records. Retirement, spousal and survivor benefits are connected—but they are not the same check. A simple map can help couples see what to verify before making decisions.\nPeople: a couple with visibly different ages and life experience. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: A warm, natural-light kitchen scene: two partners sit side by side at a table, each with a Social Security Statement and a pen, mapping three labeled rows in an open notebook. Their expressions are focused and collaborative, with no visible account numbers or personal information.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends at a kitchen table review a short list of questions about strength, mobility and exercise support during cancer care. | Two friends with distinct hairstyles talk together in front of a mirror; one gestures toward her own braid while the other listens, without touching her hair. | Three family members pause on a tree-lined path at dusk: one looks toward the sky, one holds a small bat detector, and another writes in a notebook. | Two friends stand beside a cemetery map, quietly comparing it with the paths and trees around them. | Two partners sit at a kitchen table comparing handwritten sleep notes beside a weekly calendar, with morning light coming through a window.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "category": "Explore",
+  "title": "The Calls Above the Path",
+  "subtitle": "A bat detector can make an unseen nighttime world audible. Take it on a dusk walk as a family field-note tool—not a shortcut to naming every bat overhead.",
+  "imageAlt": "Three family members pause on a tree-lined path at dusk: one looks toward the sky, one holds a small bat detector, and another writes in a notebook.",
+  "imageConcept": "three generations of one family working together together, in a specific visual scene about “The Calls Above the Path”: A warm, documentary-style dusk scene on a quiet neighborhood path: three generations walking together beneath an open evening sky, with one person holding a compact ultrasonic bat detector and another writing in a small field notebook. Keep the mood curious and grounded, with bats distant or suggested only as silhouettes.",
+  "body": [
+    [
+      "A walk with a different kind of soundtrack",
+      "At dusk, the sky may look quiet while bats are already moving through it. Their calls are generally beyond ordinary human hearing, but an ultrasonic bat detector can translate some of that activity into sounds we can notice. The result is not a magic species-recognition device. It is a way to listen more closely to a place that usually passes without an audible trace.\n\nThat distinction makes a detector walk especially good for a family or group. One person can watch the sky, another can handle the device, and someone else can keep a short record. The point is not to compete over who can name the most bats. It is to compare what each person notices, and to leave room for the answer “we can’t tell.”"
+    ],
+    [
+      "Borrow the gear; keep the outing simple",
+      "If you are new to bat detectors, look first for a naturalist-led walk, a local nature center, or a library or conservation group that lends equipment. A guided outing can introduce the controls without making the device the whole event. A 2025 participatory study along the Colorado River in the Grand Canyon involved commercial river guides using two kinds of ultrasonic detector at dusk. The researchers found a trade-off between detector data quality and how engaging the equipment was for users—an important reminder that the easiest device to use is not automatically the one that provides the most useful data, and vice versa [2].\n\nFor a casual walk, follow the device’s own instructions rather than trying to tune it from online guesses. Before you leave, check how it turns on, how it signals or plays detected calls, and whether it stores recordings. Bring a notebook or use a notes app, a small light for writing, and clothing suited to the evening. You do not need to buy specialist equipment to make a worthwhile observation."
+    ],
+    [
+      "Choose a route for comfort, not a promised species",
+      "Pick a familiar, accessible route where your group can pause without blocking other people. A park path, the edge of a community green, or a quiet stretch near water may work, but no location guarantees a particular bat or a busy evening. Local naturalists can suggest places and timing that suit your area. \n\nCheck local rules before visiting protected areas, and stay on open paths. Avoid entering caves, approaching known roosts, shining lights into openings, or trying to attract or handle bats. Keep pets close and give other visitors room. If weather or access makes the route uncomfortable, choose another evening; this is an observation walk, not a survey that must happen on schedule."
+    ],
+    [
+      "Give everyone a job",
+      "Before setting out, agree on three simple roles: listener, sky-watcher, and note-keeper. The listener uses the detector as directed. The sky-watcher looks for movement without sweeping a bright light across the trees. The note-keeper records the time and general location, plus what the group actually noticed. Switch roles partway through so the person holding the equipment is not the only one participating.\n\nKeep the notes modest. For each pause, write down the time, the place in plain language, whether the detector registered a sound, and what was visible. Add relevant conditions you can observe—such as wind, passing traffic, or nearby water—without treating them as explanations. Record “detector registered activity; no bat seen” when that is what happened. The difference between a sound and a sighting is useful information, not a gap to fill with a guess."
+    ],
+    [
+      "Listen first; interpret later",
+      "At each stop, give the group a quiet minute before anyone tries to identify what they hear. Notice whether there is a brief burst, several sounds close together, or no signal at all. If the device offers playback or a visual display, read its manual and treat those features as clues about the recording, not as proof of a species. Different people may hear or notice different things, especially when the path is noisy or the detector settings change.\n\nThen compare observations: Did anyone see a moving shape? Did the detector register something while the sky-watcher saw nothing? Did the sound change when the group moved? These questions make the walk engaging without turning it into a quiz. An empty stretch is also worth recording. A detector’s silence could have several explanations, including no call in range or a call the equipment did not register; it does not establish that bats are absent."
+    ],
+    [
+      "Why a confident label can still be wrong",
+      "Acoustic monitoring is valuable, but recorded sounds are not self-interpreting. The U.S. Geological Survey’s North American Bat Monitoring Program brings together acoustic monitoring contributed by many partners, and its data documentation notes that errors occur in acoustic species classifications [1]. A sound file may be assigned a likely label, yet a label is not the same thing as direct confirmation of an animal’s identity.\n\nResearch teams have to account for uncertainty at a scale a family walk does not. A 2024 study using mobile acoustic-monitoring records discussed both missed detections and species misclassification when estimating bat abundance and population trends [3]. Those are methodological challenges, not reasons to dismiss acoustic evidence. They do explain why one detector’s output on one evening cannot tell you how many bats live nearby, whether a population is increasing, or which species was definitely overhead."
+    ],
+    [
+      "A walk is not a wildlife survey",
+      "There is a meaningful difference between recording an interesting evening and collecting data under a standardized monitoring protocol. Formal programs depend on consistent methods, defined routes or sites, appropriate timing, equipment choices, and careful handling of uncertain detections. A family walk is not designed to meet those requirements, even when it uses similar technology.\n\nThat boundary can make the outing more satisfying, not less. If a detector app supplies a species name, write it as “app suggestion” rather than turning it into a confirmed sighting. If you share observations online, include that distinction and avoid posting the location of a sensitive roost. The broader monitoring effort matters because coordinated observations over time can help track bat status and trends; a single outing contributes curiosity and attention, not a population estimate [1]."
+    ],
+    [
+      "Leave with one honest field note",
+      "At the end of the walk, each person can choose one detail to add to a shared record: a time the detector registered a call, a shape crossing the open sky, or a moment when the group heard something but could not identify it. Write the date, general route, and who handled the detector, then keep the note somewhere you can find it. If you repeat the walk, compare the observations without expecting the nights to match. The useful question is not “Which species did we prove?” but “What did we notice, what remains uncertain, and what would we like to listen for next time?”"
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "North American Bat Monitoring Program (NABat) acoustic data release",
+      "authors": "Bennett T. Lohre, Joseph P Chabarek, Andrea N Schuhmann, Teague Neschke, Harrison A Pickett, Jackson R Cockrum, Bethany R Straw, Brian E Reichert",
+      "publication": "U.S. Geological Survey",
+      "url": "https://www.usgs.gov/data/north-american-bat-monitoring-program-nabat-acoustic-data-release",
+      "researchSourceId": "S3"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Trade-offs in designing a participatory acoustic study of bats: Comparison of user engagement and data quality between two ultrasonic detectors",
+      "authors": "Anya Metcalfe, Theodore J. Weller, Carol Fritzinger, Brandon P. Holton, Theodore Kennedy",
+      "publication": "U.S. Geological Survey",
+      "url": "https://www.usgs.gov/publications/trade-offs-designing-a-participatory-acoustic-study-bats-comparison-user-engagement",
+      "researchSourceId": "S44"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Using mobile acoustic monitoring and false-positive N-mixture models to estimate bat abundance and population trends",
+      "authors": "Bradley J. Udell, Bethany Rose Straw, Susan C. Loeb, Kathryn M. Irvine, Wayne E. Thogmartin, Cori L. Lausen, Jonathan D. Reichard, Jeremy T. H. Coleman, Paul M. Cryan, Winifred F. Frick, Brian E. Reichert",
+      "publication": "Ecological Monographs (Wiley Periodicals LLC on behalf of the Ecological Society of America)",
+      "url": "https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecm.1617",
+      "researchSourceId": "S77"
+    }
+  ],
+  "id": "the-calls-above-the-path-20261114",
+  "date": "2026-11-14",
+  "editionDate": "2026-11-14",
+  "url": "article.html?id=the-calls-above-the-path-20261114",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-calls-above-the-path-20261114.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Calls Above the Path. A bat detector can make an unseen nighttime world audible. Take it on a dusk walk as a family field-note tool—not a shortcut to naming every bat overhead.\nPeople: three generations of one family working together. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: three generations of one family working together together, in a specific visual scene about “The Calls Above the Path”: A warm, documentary-style dusk scene on a quiet neighborhood path: three generations walking together beneath an open evening sky, with one person holding a compact ultrasonic bat detector and another writing in a small field notebook. Keep the mood curious and grounded, with bats distant or suggested only as silhouettes.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends at a kitchen table review a short list of questions about strength, mobility and exercise support during cancer care. | Two friends with distinct hairstyles talk together in front of a mirror; one gestures toward her own braid while the other listens, without touching her hair.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 3,
+    "issues": []
+  }
+}

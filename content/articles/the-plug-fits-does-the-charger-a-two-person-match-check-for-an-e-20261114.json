@@ -1,0 +1,84 @@
+{
+  "category": "Living",
+  "title": "The Plug Fits. Does the Charger? A Two-Person Match Check for an E-Bike Battery",
+  "subtitle": "Additional Daily Read: A connector that slides into place is not proof that a charger is right for a battery. Here’s how to confirm the pairing and leave a clear record for the next rider.",
+  "imageAlt": "Two friends compare the labels on an e-bike battery and its charger at a workbench, with the bike nearby.",
+  "imageConcept": "an adult couple with one older family member together, in a specific visual scene about “The Plug Fits. Does the Charger? A Two-Person Match Check for an E-Bike Battery”: Two household members at a tidy entryway workbench, one reading the model label on an e-bike battery while the other checks the charger label and writes their confirmed pairing on a small card.",
+  "body": [
+    [
+      "A matching plug can still be the wrong match",
+      "A charger connector that fits an e-bike battery can make the pairing look settled. It isn’t. The Consumer Product Safety Commission warns that some chargers marketed as “universal” may physically connect to a micromobility product while still being incompatible. Its advice is to use the charger supplied with the product or contact the manufacturer to confirm a replacement. [1]\n\nThat distinction matters in a home where more than one bike, battery or charger is kept together. A family member may see a familiar connector and assume the chargers are interchangeable. The safer question is not simply “Does it plug in?” but “Has the manufacturer confirmed this charger for this battery?” This is a small check with a useful household payoff: it turns a guess into a pairing that everyone can follow."
+    ],
+    [
+      "Why the extra check is worth the time",
+      "A CPSC staff report reviewed 145 completed e-bike investigation reports and identified fire hazards in 106; 62 of those reports described fires beginning while the e-bike was charging. Those are findings from investigation reports, not a measure of the likelihood that any particular bike or household will experience a fire. They do, however, underline why charging deserves care rather than improvisation. [2]\n\nCharger compatibility is one part of battery safety, not a guarantee against every hazard. A correct charger cannot make a damaged battery safe, and a well-kept record does not replace the instructions for a specific bike. The useful aim is narrower: make it harder for someone to accidentally substitute a charger based on brand familiarity, appearance or connector shape alone."
+    ],
+    [
+      "Gather the labels before you compare",
+      "Set aside a few unhurried minutes and bring together the bike, its battery, the charger and any manuals or purchase records you still have. If the battery is removable, follow the manufacturer’s directions for removing and handling it. Don’t force a plug, open a battery case or take electrical components apart to find information.\n\nRead the identification labels on the bike, battery and charger. Record the exact model names and numbers as printed, including any letters or suffixes. A product family name may cover multiple versions, so a partial match is less useful than the full model identifier. If a label is hard to read, look for the model in the product manual or ask the manufacturer how to identify it. Keep the original labels visible; don’t cover charging or warning information with a note or sticker."
+    ],
+    [
+      "Make a record two people can use",
+      "One person can read each label aloud while the other writes it down, then switch roles and check the entries. Include the bike or battery model, the charger model, and the source of confirmation—for example, the bike manual or a manufacturer’s response. If the manufacturer identifies a specific charger as compatible, record that exact model rather than writing “same brand” or “fits.”\n\nThis is not a request to interpret electrical specifications at home. A person may notice figures or symbols on two labels, but shouldn’t treat a partial match—or a connector that looks right—as sufficient proof. The manufacturer’s compatibility guidance is the deciding reference. If it doesn’t clearly cover the exact battery and charger, pause the pairing and ask. A short written record helps a second rider follow the same answer instead of repeating the guess."
+    ],
+    [
+      "If the original charger is missing",
+      "Don’t borrow the nearest charger while waiting for a replacement, even if it came with another bike from the same maker. Contact the device manufacturer, provide the exact bike and battery model information, and ask which replacement charger is compatible. If the company points you to a retailer or an approved replacement, confirm the specific model before buying or using it. Keep the reply or product reference with the household’s pairing note.\n\nIf you can’t get a clear answer, leave that battery uncharged until you can. The inconvenience of waiting is preferable to relying on an assumption the manufacturer hasn’t confirmed. Avoid listings that make broad claims such as “fits most e-bikes” unless the manufacturer has explicitly confirmed that exact charger for the exact battery. The CPSC’s warning is specifically about the gap between physical fit and electrical compatibility. [1]"
+    ],
+    [
+      "Make the safe choice easy to repeat",
+      "Once a pairing is confirmed, keep the charger and its battery together when practical, or mark their storage locations with a plain note. The note should identify the exact battery and charger models and say where to find the manufacturer’s instructions. It should not block a label, alter the charger or suggest that other batteries are compatible. If the household owns several bikes, make a separate entry for each confirmed pairing.\n\nWhen charging, follow the bike and battery instructions, use the confirmed charger and avoid charging while asleep; the CPSC includes that precaution in its micromobility guidance. [1] A charging spot should make it straightforward to see which battery is connected to which charger and to notice anything that looks damaged. If an instruction is unclear or two manuals appear to conflict, ask the manufacturer rather than resolving the difference by trial and error."
+    ],
+    [
+      "Know when to stop and get help",
+      "Before connecting a charger, look for obvious damage to the battery or charger. If the battery is swollen, leaking, unusually hot, smoking or making odd noises, don’t charge it or keep using it. Follow the manufacturer’s safety guidance; if there is smoke, fire or an immediate danger, move away and contact emergency services. Don’t try to carry a smoking or burning battery through the home.\n\nA charger match record is useful for ordinary handoffs, but it cannot diagnose a battery problem. Nor does a proposed standard change what a household should do today: in June 2026, the acting CPSC chair issued a statement about a proposed lithium-ion battery safety standard for micromobility products. A proposal is not an enacted consumer requirement. For a particular bike, the manufacturer’s current compatibility and safety instructions remain the practical reference. [3]"
+    ],
+    [
+      "Put the pairing where the next rider will see it",
+      "At the next calm moment, ask the person who most often charges the bike to lead a short check, with another household member reading back the record. Together, locate the bike, battery, charger and manual; confirm the exact models and the manufacturer’s compatibility guidance. Write the confirmed pairing on a small card or save it where other riders can find it, without covering any product label. If a model is uncertain or the original charger is gone, write that down too—and agree not to substitute another charger while you seek confirmation. The point isn’t to create a perfect filing system. It’s to leave the next person a clear answer, or a clear reason to pause."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "CPSC Urges Consumers to Not Buy or Use “Universal” Chargers with Micromobility Products Due to Fire Hazard | CPSC.gov",
+      "authors": "U.S. Consumer Product Safety Commission",
+      "publication": "U.S. Consumer Product Safety Commission, September 5, 2024",
+      "url": "https://www.cpsc.gov/Newsroom/News-Releases/2024/CPSC-Urges-Consumers-to-Not-Buy-or-Use-Universal-Chargers-with-Micromobility-Products-Due-to-Fire-Hazard?bu=44276858902&mkcid=29&mkdid=4&mkevt=1&trkId=169496349007",
+      "researchSourceId": "S40"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Micromobility Products-Related Deaths, Injuries, and Hazard Patterns: 2017–2024",
+      "authors": "James Tark",
+      "publication": "U.S. Consumer Product Safety Commission, April 2026",
+      "url": "https://www.cpsc.gov/s3fs-public/Micromobility_Products-Related_Deaths_Injuries_and_Hazard_Patterns_2017-2024.pdf?VersionId=_o6Rt3ngZwdozkPz.PJ7ipggnsBMwBxi",
+      "researchSourceId": "S34"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Statement of Acting Chairman Peter A. Feldman on CPSC's Proposed Lithium-ion Battery Safety Standard for Micromobility Products | CPSC.gov",
+      "authors": "Peter A. Feldman",
+      "publication": "U.S. Consumer Product Safety Commission, June 22, 2026",
+      "url": "https://www.cpsc.gov/About-CPSC/Chairman/Peter-A-Feldman/Statement/Statement-of-Acting-Chairman-Peter-A-Feldman-on-CPSCs-Proposed-Lithium-ion-Battery-Safety-Standard-for-Micromobility-Products",
+      "researchSourceId": "S2"
+    }
+  ],
+  "id": "the-plug-fits-does-the-charger-a-two-person-match-check-for-an-e-20261114",
+  "date": "2026-11-14",
+  "editionDate": "2026-11-14",
+  "url": "article.html?id=the-plug-fits-does-the-charger-a-two-person-match-check-for-an-e-20261114",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-plug-fits-does-the-charger-a-two-person-match-check-for-an-e-20261114.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Plug Fits. Does the Charger? A Two-Person Match Check for an E-Bike Battery. Additional Daily Read: A connector that slides into place is not proof that a charger is right for a battery. Here’s how to confirm the pairing and leave a clear record for the next rider.\nPeople: an adult couple with one older family member. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: an adult couple with one older family member together, in a specific visual scene about “The Plug Fits. Does the Charger? A Two-Person Match Check for an E-Bike Battery”: Two household members at a tidy entryway workbench, one reading the model label on an e-bike battery while the other checks the charger label and writes their confirmed pairing on a small card.\nAvoid repeating these recent WILDWIRE image scenes: Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends at a kitchen table review a short list of questions about strength, mobility and exercise support during cancer care. | Two friends with distinct hairstyles talk together in front of a mirror; one gestures toward her own braid while the other listens, without touching her hair. | Three family members pause on a tree-lined path at dusk: one looks toward the sky, one holds a small bat detector, and another writes in a notebook. | Two friends stand beside a cemetery map, quietly comparing it with the paths and trees around them. | Two partners sit at a kitchen table comparing handwritten sleep notes beside a weekly calendar, with morning light coming through a window. | A couple at a kitchen table comparing Social Security statements and writing questions in a shared notebook. | Two women partners sit together in soft daylight; one chooses whether to show the hairline of her carefully styled hair while the other listens.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 3,
+    "issues": []
+  }
+}

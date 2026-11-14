@@ -1,0 +1,83 @@
+{
+  "category": "Culture",
+  "title": "A Cemetery Is a Community Record, Not a Symbol Quiz",
+  "subtitle": "A thoughtful visit can reveal how a place remembers—if observation stays separate from assumption, and the people buried there remain more than clues.",
+  "imageAlt": "Two friends stand beside a cemetery map, quietly comparing it with the paths and trees around them.",
+  "imageConcept": "Two friends consult a cemetery map together near an interpretive sign, with a tree-lined path and memorial landscape visible behind them; the scene feels attentive and respectful, away from active gravesites.",
+  "body": [
+    [
+      "Start with the place, not a puzzle",
+      "A cemetery visit can be a way to learn how a community has marked belonging, grief and memory across time. It is not an invitation to decode strangers from the shape of a stone or to treat graves as a collection of symbols. A marker may tell you a name and dates; it cannot, by itself, establish a person’s beliefs, relationships or place in local history. The more useful question is often broader: What does this landscape make visible, and what would we need to learn before drawing conclusions? Go with a friend, choose a cemetery that explicitly welcomes visitors or offers tours, and check its current access, hours and rules first. The aim is to pay attention while remembering that the site is, before anything else, a burial place."
+    ],
+    [
+      "Read the landscape as a whole",
+      "Before focusing on individual memorials, notice how the site is arranged. Where do paths lead? Are there distinct sections, walls, trees or open spaces? What does the layout invite a visitor to see, and what does it leave at the edge of view? The National Park Service describes national cemeteries as designed landscapes in which paths, walls, trees, markers and monuments contribute to the character of the place [1]. That perspective shifts attention from a single striking stone to the choices that shape an entire setting. Layout can suggest that a cemetery developed in stages or has different areas, but observation is only a starting point. A path’s direction or a section’s appearance does not tell you who made a decision or why. Write down what you can directly see, then look for site interpretation or reliable local history to establish context."
+    ],
+    [
+      "Look for institutions as well as individuals",
+      "A burial ground can record the structures through which people gathered and cared for one another—not only the lives of those named on markers. At Stones River, the National Park Service describes a Freedmen’s settlement known as Cemetery, built by some Black veterans and formerly enslaved people. Its history includes community institutions, displacement and continuing work with Black and African American community partners [2]. That account makes clear why a cemetery’s story may extend beyond the boundaries of the grounds and beyond a list of graves. On a visit elsewhere, look for a cemetery’s own history, interpretive signs, tour materials or records from local historical organizations. Ask what kinds of community life the site connects to, while resisting the urge to transfer one place’s history onto another. Similar-looking grounds can have very different histories."
+    ],
+    [
+      "Notice what the visible record cannot tell you",
+      "A cemetery’s surface is not a complete archive. In some African American cemeteries, segregation, displacement, development, neglect and missing or damaged markers complicate what can be read from the grounds today. Nadia K. Orton’s National Trust for Historic Preservation account describes these conditions and emphasizes the importance of cemeteries as community institutions [3]. The practical lesson is not to turn absence into a confident story. An unmarked area does not tell a visitor, on its own, who is buried there or why a marker is missing. A surviving monument does not prove that its subject’s story was widely remembered. When histories are difficult to find, record that as a limit of your visit, not as evidence that no history exists. Community knowledge, archives and preservation work may offer context that a casual visitor cannot supply."
+    ],
+    [
+      "Try a two-person observation method",
+      "A simple division of attention can make a visit more useful without making it feel like a research assignment. Before setting out, agree that one person will notice the site’s layout and memorial forms while the other looks for the cemetery’s own interpretive materials or trustworthy local-history sources. Take a map or visitor handout if one is available. At a comfortable stopping point, compare notes in two columns: “What we saw” and “What we can verify.” “There are several paths meeting near this section” belongs in the first. A claim about who established the section belongs in the second only if a reliable source supports it. Switch roles partway through so neither person becomes the expert or tour guide by default. If your accounts differ, keep the difference visible and identify what you would need to check rather than smoothing it into a shared conclusion."
+    ],
+    [
+      "Treat memorial details as evidence, not a universal code",
+      "Visitors may encounter inscriptions, dates, emblems, materials and varied forms of memorial. Those details can prompt questions, but they do not operate as a reliable universal key to an individual’s identity or convictions. A familiar motif may have carried different meanings in different settings, and a marker may reflect choices made by someone other than the person buried there. Start with the plain information that is actually present: what is written, what material or form you can describe, and where the marker sits in relation to the wider landscape. Then ask whether the cemetery or a credible local source explains it. If it does not, leave the question open. This is not a failure to read the site; it is careful reading. The goal is not to produce the most dramatic interpretation, but to make claims in proportion to the evidence."
+    ],
+    [
+      "Keep care and privacy in the plan",
+      "The rules of the particular cemetery come first. Stay on permitted paths, follow posted guidance, and give mourners space; a visitor cannot know whether someone nearby is attending a recent loss or visiting a loved one. Do not touch, clean, lean on or make rubbings from markers. A visit should not add wear in the name of learning. Photography deserves the same thoughtfulness: a wide view of a landscape or interpretive sign may be appropriate where permitted, while photographing mourners or using a grave as a prop is not. If a site offers a tour, follow the guide’s instructions and ask questions at suitable moments rather than interrupting private acts of remembrance."
+    ],
+    [
+      "Leave with a question, not a verdict",
+      "Before you go, take a few minutes together to review what you noted. Choose one observation that feels well supported, one interpretation that remains uncertain and one question you might pursue through the site’s official history or a local historical organization. Keep those categories distinct if you share the visit with others. You could say, “We noticed this section has a different layout,” then add, “We haven’t established when it was created.” Avoid publishing identifiable images or claims about people buried there without a clear reason and reliable context. A cemetery can offer a powerful encounter with public memory, but it is only one part of a community’s record—and the record may be partial, contested or maintained through ongoing community work. The most respectful outcome may be a better question and a clearer sense of what you do not yet know."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Design History of National Cemeteries",
+      "authors": "National Park Service",
+      "publication": "National Park Service (last updated July 12, 2023)",
+      "url": "https://www.nps.gov/articles/000/national-cemeteries-design.htm",
+      "researchSourceId": "S7"
+    },
+    {
+      "sourceId": "S2",
+      "title": "The Cemetery Community",
+      "authors": "National Park Service",
+      "publication": "National Park Service, Stones River National Battlefield, July 31, 2024 (last updated)",
+      "url": "https://www.nps.gov/stri/learn/historyculture/cemeterycommunity.htm",
+      "researchSourceId": "S46"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Recovering and Preserving African American Cemeteries",
+      "authors": "Nadia K. Orton",
+      "publication": "National Trust for Historic Preservation, June 2, 2016",
+      "url": "https://savingplaces.org/stories/recovering-and-preserving-african-american-cemeteries",
+      "researchSourceId": "S48"
+    }
+  ],
+  "id": "a-cemetery-is-a-community-record-not-a-symbol-quiz-20261114",
+  "date": "2026-11-14",
+  "editionDate": "2026-11-14",
+  "url": "article.html?id=a-cemetery-is-a-community-record-not-a-symbol-quiz-20261114",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/a-cemetery-is-a-community-record-not-a-symbol-quiz-20261114.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Cemetery Is a Community Record, Not a Symbol Quiz. A thoughtful visit can reveal how a place remembers—if observation stays separate from assumption, and the people buried there remain more than clues.\nPeople: a couple of different ethnic backgrounds sharing a thoughtful moment. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: thoughtful companions paying attention, discussing or questioning something cultural.\nScene concept: Two friends consult a cemetery map together near an interpretive sign, with a tree-lined path and memorial landscape visible behind them; the scene feels attentive and respectful, away from active gravesites.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends at a kitchen table review a short list of questions about strength, mobility and exercise support during cancer care. | Two friends with distinct hairstyles talk together in front of a mirror; one gestures toward her own braid while the other listens, without touching her hair. | Three family members pause on a tree-lined path at dusk: one looks toward the sky, one holds a small bat detector, and another writes in a notebook.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
