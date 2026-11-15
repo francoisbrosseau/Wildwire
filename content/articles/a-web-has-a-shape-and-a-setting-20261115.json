@@ -1,0 +1,80 @@
+{
+  "category": "Explore",
+  "title": "A Web Has a Shape—and a Setting",
+  "subtitle": "An additional Daily Read: Take a short walk with a friend and discover what spider webs reveal about the spaces they occupy.",
+  "imageAlt": "Two friends pause on a garden path to sketch a web suspended between low branches, keeping their hands and distance clear of it.",
+  "imageConcept": "Two friends on a leafy neighborhood path, one holding a small notebook while the other points toward a delicate web between shrubs; the web is visible in soft morning light, with both people observing from a respectful distance.",
+  "body": [
+    [
+      "Begin with the place, not the spider",
+      "A spider web is easy to treat as a clue to solve: identify the spider, name its species, move on. A more rewarding walk starts with a simpler question: what shape is this structure, and where has it been made? A web occupies real space—between branches, across an opening, close to the ground, or beneath shelter. Noticing those details turns an ordinary path into a small field study, without needing a guidebook or special equipment.\n\nThis is an observation exercise, not a species-identification test. Web-building spiders make webs of diverse geometries, including two-dimensional orbs and three-dimensional tangles or sheet-and-tangles. Researchers compare web forms because those differences matter, but for a casual observer the useful first step is to describe what is visible rather than decide what it means [1]."
+    ],
+    [
+      "Three broad shapes to look for",
+      "Start with three easy-to-compare forms. An orb web is a flat, roughly wheel-like arrangement of radiating lines and crosswise threads. A sheet web looks like a horizontal or sloping platform, sometimes with additional threads above it. A tangle is a less regular three-dimensional web, a loose-looking network that fills a small volume rather than a single flat plane. Some webs combine features, so “not sure” is a perfectly good field note.\n\nThese are broad descriptions, not a complete catalogue. Research comparing web geometries examines distinct forms—including two-dimensional orbs and three-dimensional tangles and sheet-and-tangles—rather than treating all webs as interchangeable [1]. That variety is what makes a short comparison interesting: two webs on the same block may differ in overall shape, orientation, height, and how much open space surrounds them. You do not need to find all three types for the walk to work."
+    ],
+    [
+      "A ten-minute paired walk",
+      "Choose a familiar outdoor route with safe footing and enough room to stop: a garden path, a park edge, or a quiet stretch of sidewalk with shrubs. You can do this with a friend, a child, or on your own. Bring a notebook or use a phone for written notes; neither is essential. Agree that you will look without touching, sweeping away, or trying to coax a spider out of its web.\n\nFor ten minutes, notice webs you can see from where you stand. For each one, record four things: its broad shape; its approximate height (ankle, waist, or head level is plenty); whether it faces across an opening or sits among vegetation; and whether it seems exposed or partly sheltered. Add a quick sketch if useful. Do not reach into plants, lean over railings, or step off a path to get a better view. The goal is a clear observation, not a close-up."
+    ],
+    [
+      "Compare notes before making guesses",
+      "If you are walking with someone, have each person sketch or describe one web independently before comparing. One person may notice that a web is tilted; the other may see that it spans a gap between two plants. Those are complementary observations, not a contest over who spotted the “right” detail. Compare the descriptions and ask: What did we both see? What did only one of us notice? What remains uncertain?\n\nThen look at the setting. Is the web near a doorway, between stems, below a branch, or in an open patch? Is it close to a wall or surrounded by leaves? Stay with what you can directly observe. A research study of orb-weaver spiders found that web height, size, number of radii, and the spiders’ activity periods were among factors associated with the mass of insects intercepted in that study [2]. That does not mean a passerby can estimate a web’s catch by looking at it; it does show why recording visible features is more useful than treating every web as the same."
+    ],
+    [
+      "What the structure can—and cannot—tell you",
+      "A web is both a structure and part of its surroundings. In a study comparing orb, tangle, and sheet-and-tangle webs along a rainfall gradient in Ecuador, web damage increased with rainfall intensity, and web types differed in damage and microhabitat use [3]. This supports paying attention to exposure and shelter as part of a description. It does not let us infer the story of one particular web: a broken strand might have many causes, and a sheltered web is not necessarily undamaged.\n\nResearch comparing orb, tangle, and sheet-and-tangle webs found that prey-capture surface area per unit spider mass scaled differently with spider body size across the three geometries [1]. The distinction matters, but it is not a reason to inspect a web for remains or guess what it caught. A brief outdoor glance cannot establish prey, species, age, or purpose with confidence. Treat the web as evidence of a structure in a particular place—not as a report card on the spider or a puzzle that must be solved."
+    ],
+    [
+      "Leave the web as you found it",
+      "Looking closely does not require getting close. Keep a comfortable distance, especially around dense vegetation, fences, and building corners. Do not touch the web or its anchor threads, move branches, or try to photograph a spider by putting your face near it. If a web crosses the route, choose another way around rather than disturbing it. A photograph taken from a path can help you compare shapes later, but it is optional; a few words in a notebook are often enough.\n\nThese boundaries make the activity more welcoming, too. Anyone who feels uneasy around spiders can take the role of recorder, focus on the web’s position, or simply skip a particular observation. No one needs to handle an animal or prove that they are comfortable. The walk is about practicing attention together, and each person gets to set their own distance."
+    ],
+    [
+      "A field note worth keeping",
+      "At the end, choose one web that made you pause and write a single compact record: “Sheet-like, about knee-high, across two stems, partly sheltered by leaves.” Add the date and general location if you want to revisit the route. Then add one question rather than a verdict: Would we notice more webs after rain? Does the same spot look different next week? What makes this web easier to see than the others?\n\nOn another walk, compare notes without expecting the web to remain unchanged. It may be gone, altered, or simply hard to spot from a different angle. That is part of observing living surroundings: the record captures what you could see at one moment, not a permanent label. Close the notebook, leave the web undisturbed, and carry forward the habit of describing the setting before deciding what a small piece of nature means."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Scaling of the extended phenotype: convergent energetics from diverse spider web geometries",
+      "authors": "Gabriel Greenberg-Pines, Samantha Straus, Robb Bennett, and Leticia Avilés",
+      "publication": "Proceedings of the Royal Society B: Biological Sciences, December 4, 2024",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11614543/",
+      "researchSourceId": "S110"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Influence of web traits, height, and daily periods of exposition on prey captured by orb-weaver spiders",
+      "authors": "Gabriel Máximo Xavier, Adilson Quero, Rafael Rios Moura, Camila Vieira, Felipe André Meira, and Marcelo Oliveira Gonzaga",
+      "publication": "Behavioural Processes. 2021 Dec;193:104536.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34728314/",
+      "researchSourceId": "S2"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Spider Web Architecture and Rainfall Damage: Observational and Manipulative Studies Along a Precipitation Gradient on the Tropical Andes",
+      "authors": "Yu‐Heng Lin, Antonio Domingos Brescovit, and Leticia Avilés",
+      "publication": "Ecology and Evolution. 2026 Apr 7;16(4):e73432. Published by British Ecological Society and John Wiley & Sons Ltd.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13054244/",
+      "researchSourceId": "S50"
+    }
+  ],
+  "id": "a-web-has-a-shape-and-a-setting-20261115",
+  "date": "2026-11-15",
+  "editionDate": "2026-11-15",
+  "url": "article.html?id=a-web-has-a-shape-and-a-setting-20261115",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/a-web-has-a-shape-and-a-setting-20261115.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Web Has a Shape—and a Setting. An additional Daily Read: Take a short walk with a friend and discover what spider webs reveal about the spaces they occupy.\nPeople: a woman and a man who are partners, with grounded attainable appearances. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two friends on a leafy neighborhood path, one holding a small notebook while the other points toward a delicate web between shrubs; the web is visible in soft morning light, with both people observing from a respectful distance.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two women with different builds take turns doing one-arm dumbbell rows, each using a load that suits her. | Two friends comparing the way a fluid skirt and a structured jacket hang as they walk across a bright room. | Two male friends stand on a public dune boardwalk, looking toward the beach and inland vegetation as one points out a change in plant cover and the other makes a quick sketch. | Two friends lean over a colorful U.S. dialect map at a kitchen table, tracing a shaded region while checking the map legend and notes on a tablet. | Two friends at a kitchen table checking a water-storage label and writing a household plan on a card beside several clean water containers. | Two friends at a kitchen table compare a mutual-fund distribution notice with a sample tax form, keeping personal account papers out of view. | Three adult family members sit around a kitchen table, each checking an account-recovery setting on their own phone. | Two friends sit at a kitchen table with a notebook between them, sharing a word and listening closely.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

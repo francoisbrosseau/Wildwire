@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "The Fund Sold It. Your Tax Form Found You.",
+  "subtitle": "A mutual fund can distribute gains even when you never sell your shares. Here’s how to read the notice, understand the tax form and know which questions to ask.",
+  "imageAlt": "Two friends at a kitchen table compare a mutual-fund distribution notice with a sample tax form, keeping personal account papers out of view.",
+  "imageConcept": "Two friends sit at a bright kitchen table, tracing a sample fund distribution notice to a blank Form 1099-DIV with a pen; a laptop is closed nearby, and no personal financial documents are visible.",
+  "body": [
+    [
+      "The surprising form in the mailbox",
+      "A tax form can arrive even in a year when you never sold a single mutual-fund share. The explanation is often a capital-gain distribution: the fund sold securities it owned at a profit and passed some realized gains through to shareholders. In a U.S. federal-taxable brokerage account, that distribution can be taxable to you whether you take it in cash or automatically reinvest it in more fund shares. [1]\n\nThat can feel counterintuitive. Investors often think of a taxable gain as something that happens when they sell an investment themselves. But a mutual fund is a pool of assets, and its own buying and selling can create tax consequences for people who own shares in the pool. The tax event belongs to the fund’s activity; it does not require a sale initiated by each shareholder."
+    ],
+    [
+      "What a distribution is—and isn’t",
+      "A mutual fund may distribute more than one kind of income. Its payouts can include dividends, interest, capital gains, or return of capital, and those categories do not all receive the same tax treatment. A capital-gain distribution generally reflects gains the fund realized by selling securities that increased in value; an SEC-regulated fund must explain its distribution policy in its prospectus. [1]\n\nA distribution is not automatically extra profit layered on top of the value of the fund. It is a payment of value from the fund to shareholders, and reinvesting it uses that payment to buy additional shares. Your total position afterward reflects both your remaining fund shares and any new shares bought with the distribution. That accounting distinction matters: reinvestment changes what you hold, but it does not by itself erase a taxable distribution in a taxable account.\n\nThe fund may also have a distribution even if you personally bought your shares recently. For federal tax purposes, a capital-gain distribution reported in Form 1099-DIV, box 2a, is treated as long-term capital gain regardless of how long you held the fund shares. [2] The tax character follows the distribution rules, not simply the length of your own ownership."
+    ],
+    [
+      "Read the boxes before drawing conclusions",
+      "Form 1099-DIV separates several types of payments. Box 1a reports total ordinary dividends; box 2a reports total capital-gain distributions; and box 3 reports nondividend distributions. Those labels are a useful starting point, not interchangeable names for “income.” [2]\n\nFor a capital-gain distribution, the IRS generally directs taxpayers to report the box 2a amount as a long-term capital gain. A fund’s net short-term gains, by contrast, are generally included with ordinary dividends rather than treated as long-term capital-gain distributions. [2] The Schedule D instructions explain how those amounts fit into the reporting process; whether a taxpayer needs Schedule D can depend on the full return and the instructions for the relevant tax year. [3]\n\nA nondividend distribution—often described as return of capital—works differently again. It generally reduces the tax basis of the shares, up to the amount of that basis, rather than being treated as dividend income at the time of payment. Basis is the tax record used to measure gain or loss when shares are eventually sold. If the adjustment is missed, a later sale could be calculated using an inaccurate basis. Keep the distribution statement and update records as appropriate; consult the current IRS instructions or a tax professional if the amount or reporting is unclear."
+    ],
+    [
+      "Why reinvesting doesn’t settle the tax question",
+      "Suppose a fund distributes a capital gain and your brokerage account automatically buys more shares with the cash. You may not see money leave the account, and you may end the day with more shares, but the distribution can still be reportable in a taxable brokerage account. The IRS describes capital-gain distributions as reportable even when reinvested. [1]\n\nThe key qualifier is the account. This article describes U.S. federal income-tax concepts for taxable brokerage accounts, not an individualized conclusion about a particular person’s account. Tax treatment can differ for accounts such as employer retirement plans or IRAs, and state or local rules may differ from federal treatment. Fund structure and an investor’s circumstances also matter. A tax form is evidence to reconcile with the rest of a return, not a complete answer about the tax bill by itself.\n\nNor does a distribution notice tell you, on its own, whether a fund is suitable, whether to sell, or whether to buy before or after a payout. Those are investment decisions with broader considerations. Trying to time a distribution can create its own complications; the basic task here is to understand what the fund reported and make sure the information is handled accurately."
+    ],
+    [
+      "A useful three-document check",
+      "A low-pressure way to learn the mechanics is to follow a sample distribution through three documents—without sharing account statements or anyone’s personal tax details. First, find a fund’s prospectus or distribution notice and locate the section describing distributions and tax treatment. The prospectus can show how that particular fund explains its policy, but it is not a substitute for IRS guidance. [1]\n\nNext, look at a blank or sample Form 1099-DIV and find box 2a. Compare it with boxes 1a and 3 so the categories stay distinct. Finally, open the IRS material for the tax year in question: Publication 550 explains investment-income treatment, while the Schedule D instructions describe reporting. The documents answer different questions—what the fund says it may distribute, what the payer reports, and how federal forms handle the amount. [2] [3]\n\nIf you do this with a friend, use public documents or made-up figures. One person can read the fund disclosure, another can point to the matching tax-form box, and then you can check the IRS guidance together. The aim is a shared vocabulary, not a review of either person’s finances."
+    ],
+    [
+      "Before you file, make the record match",
+      "When a real 1099-DIV arrives, compare it with the brokerage tax statement and other year-end documents, and use the form for the correct tax year. If the distribution was reinvested, do not assume that makes it irrelevant. If a return-of-capital amount appears, note its possible effect on basis and retain records that help track the adjustment. If forms are corrected or revised, use the updated information rather than treating an earlier copy as final.\n\nA practical question list can keep the next step focused: Is the account taxable or tax-advantaged? Which box contains the reported amount? Does the fund’s notice identify the distribution type? Do the current IRS instructions call for Schedule D or another reporting step in this situation? If you cannot answer those questions confidently, ask a qualified tax preparer or consult the current IRS materials. For a personal filing decision, the details matter more than a general explainer can cover."
+    ],
+    [
+      "The central distinction",
+      "The most useful takeaway is simple: owning shares in a fund is not the same as owning every security the fund holds directly. When the fund sells an investment at a gain and distributes that gain, its shareholders may receive a tax-reportable amount even though they did not sell their own fund shares. Reinvestment changes what happens to the cash, not necessarily the tax character of the distribution. [1] [2]\n\nRead the categories separately, keep the account type in view, and follow the current-year instructions. That turns a puzzling form into a traceable sequence: fund activity, distribution, tax reporting. It is a clearer place to begin than assuming the form must be an error—or assuming every distribution means the same thing."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Fund Distributions – Investor Bulletin",
+      "authors": "SEC Office of Investor Education and Assistance",
+      "publication": "Investor.gov, August 19, 2026",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/fund-distributions-investor-bulletin",
+      "researchSourceId": "S4"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Publication 550 (2025), Investment Income and Expenses",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service, March 5, 2026",
+      "url": "https://www.irs.gov/publications/p550",
+      "researchSourceId": "S2"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Instructions for Schedule D (Form 1040) (2025)",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service, December 17, 2025",
+      "url": "https://www.irs.gov/instructions/i1040sd",
+      "researchSourceId": "S19"
+    }
+  ],
+  "id": "the-fund-sold-it-your-tax-form-found-you-20261115",
+  "date": "2026-11-15",
+  "editionDate": "2026-11-15",
+  "url": "article.html?id=the-fund-sold-it-your-tax-form-found-you-20261115",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-fund-sold-it-your-tax-form-found-you-20261115.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Fund Sold It. Your Tax Form Found You.. A mutual fund can distribute gains even when you never sell your shares. Here’s how to read the notice, understand the tax form and know which questions to ask.\nPeople: two women friends with distinct personal style. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: Two friends sit at a bright kitchen table, tracing a sample fund distribution notice to a blank Form 1099-DIV with a pen; a laptop is closed nearby, and no personal financial documents are visible.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two women with different builds take turns doing one-arm dumbbell rows, each using a load that suits her. | Two friends comparing the way a fluid skirt and a structured jacket hang as they walk across a bright room. | Two male friends stand on a public dune boardwalk, looking toward the beach and inland vegetation as one points out a change in plant cover and the other makes a quick sketch. | Two friends lean over a colorful U.S. dialect map at a kitchen table, tracing a shaded region while checking the map legend and notes on a tablet. | Two friends at a kitchen table checking a water-storage label and writing a household plan on a card beside several clean water containers.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

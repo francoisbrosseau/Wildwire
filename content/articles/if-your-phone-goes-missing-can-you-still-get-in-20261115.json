@@ -1,0 +1,80 @@
+{
+  "category": "Living",
+  "title": "If Your Phone Goes Missing, Can You Still Get In?",
+  "subtitle": "Additional Daily Read: A family account-recovery check that protects each person’s privacy while making the next step easier to find.",
+  "imageAlt": "Three adult family members sit around a kitchen table, each checking an account-recovery setting on their own phone.",
+  "imageConcept": "three generations of one family working together together, in a specific visual scene about “If Your Phone Goes Missing, Can You Still Get In?”: A warm, everyday kitchen-table scene: three generations of adults sit together with their own phones and a single blank checklist, helping one another find account settings without sharing screens or credentials.",
+  "body": [
+    [
+      "The access question hiding in plain sight",
+      "A phone can be the place where an account’s recovery messages arrive, the device that approves a sign-in, and the tool needed to look up the provider’s help instructions. If that phone is lost, damaged or unavailable, a person may discover that the backup route is outdated too. That is not a reason to panic or to hand a relative the keys to every account. It is a reason to check, while everyone has their usual devices, how they would regain access to one important account.\n\nFor a family, the useful version is small and consent-based: each person chooses an account, checks its recovery options, and records where to find the official recovery process. The account holder stays in charge. The goal is not to share passwords or create a family master login; it is to make a stressful situation less dependent on memory."
+    ],
+    [
+      "Start with the account that can unlock others",
+      "Email is often a sensible first choice because people use it to receive account notices and password-reset messages. It may also be the address attached to banking, shopping, health or social accounts. That makes a current recovery route especially worth checking. The Federal Trade Commission advises people responding to a hacked email or social-media account to verify that the recovery email address and phone number are correct [1]. The same check is useful before anything goes wrong.\n\nEach person should choose an account they own and feel comfortable reviewing. One person might begin with personal email; another might prefer an account they use regularly for communication. Do not assume that everyone wants the same arrangement. Someone may want help finding a setting but prefer to make the decision alone, or may choose not to add a recovery contact at all. That choice is part of a good plan, not a failure to participate."
+    ],
+    [
+      "A ten-minute check, with the owner leading",
+      "Set aside a calm ten minutes and ask each person to have their own device nearby. Keep the task to one account per person. The account holder opens the service’s official settings or help page; a helper can read directions aloud or point to a menu only if invited. Avoid search-result ads or messages that arrive unexpectedly. The point is to find the provider’s own route, not to follow a link supplied by someone who happens to be asking for access.\n\nThen check three things. First, is the recovery email or phone number current? Second, can the owner still access that backup method—for example, is the recovery email itself reachable? Third, where does the provider explain account recovery if the usual sign-in method is unavailable? Write down the service name and the route to those instructions, such as “official account help page,” rather than copying private account details onto a shared sheet. If a setting is unclear, stop and consult the provider’s current instructions instead of guessing."
+    ],
+    [
+      "A recovery contact is help, not ownership",
+      "Some services offer a way to designate a trusted person who can help with account recovery. Apple’s recovery-contact instructions describe a contact who can provide a code during the recovery process but does not get access to the account itself [3]. That is a specific provider’s arrangement, not a universal rule: other services may offer different options or none at all. Check the service’s current requirements before deciding whether the feature fits.\n\nA trusted contact should be someone the account holder freely chooses and can comfortably ask for help. Being a spouse, adult child or close friend does not automatically make someone the right choice. A contact role is also not permission to browse messages, change settings, or take over an account. Discuss what help would actually mean: perhaps being available to follow the provider’s instructions together, while the owner enters their own information and makes the final decisions."
+    ],
+    [
+      "Keep verification codes out of the conversation",
+      "A recovery code can look like a harmless string of numbers, especially when someone is troubleshooting with a relative. Treat it as a key. The FTC warns that a person who gets a verification code may be able to use it to access an account, and says not to give codes to other people [2]. A family helper should not ask someone to read out or forward a one-time code, even when the request sounds urgent or familiar.\n\nInstead, stay beside the account holder while they follow the provider’s official process. Let them read the screen, enter their own code and decide what to do next. If a message or caller pressures them to share a code, pause; do not continue through that contact. Find the provider’s instructions independently. The same boundary applies to passwords and recovery links: don’t put them in a family group chat, shared checklist or casual note. Trust is a reason to be careful with one another’s access, not a reason to blur it."
+    ],
+    [
+      "Make the record useful—and deliberately incomplete",
+      "A short household note can preserve the next step without becoming a catalogue of secrets. For each person who wants to take part, it might say which service they checked, whether the recovery details were current, and where to find the provider’s official recovery instructions. Leave out passwords, verification codes, security answers and full account details. Keep the note somewhere the household can locate without making it broadly visible; the account holder should decide who may see it and whether it belongs on paper or in a private digital location.\n\nThis is also a chance to notice one manageable follow-up. If a recovery address is old, the owner can update it through the service’s settings. If they can’t access the backup email or phone, they can consult the provider’s official recovery route before making other changes. A useful household takeaway is to identify which accounts matter and where to find their official recovery instructions."
+    ],
+    [
+      "Finish with the owner’s next step",
+      "Try the check once at a table when nobody is rushing. Each person chooses one account, opens the official settings on their own device, and confirms whether the recovery methods are both current and reachable. Write only the service name, where its official recovery instructions can be found, and any follow-up the owner wants to remember. Do not record passwords or codes. Before you put the note away, ask each account holder what they want shared, if anything, and who should be able to see it. A useful check ends with the person who owns the account still holding the device, the decision and the next move."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Email or social media hacked? Here’s what to do | Consumer Advice",
+      "authors": "Alvaro Puig",
+      "publication": "FTC Consumer Advice, October 29, 2024",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2024/10/email-or-social-media-hacked-heres-what-do",
+      "researchSourceId": "S18"
+    },
+    {
+      "sourceId": "S2",
+      "title": "What’s a verification code and why would someone ask me for it? | Consumer Advice",
+      "authors": "Alvaro Puig",
+      "publication": "FTC Consumer Advice, March 7, 2024",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2024/03/whats-verification-code-why-would-someone-ask-me-it",
+      "researchSourceId": "S67"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Set up a recovery contact for your Apple Account - Apple Support",
+      "authors": "Apple Support",
+      "publication": "Apple Support, September 14, 2026",
+      "url": "https://support.apple.com/en-us/102641",
+      "researchSourceId": "S114"
+    }
+  ],
+  "id": "if-your-phone-goes-missing-can-you-still-get-in-20261115",
+  "date": "2026-11-15",
+  "editionDate": "2026-11-15",
+  "url": "article.html?id=if-your-phone-goes-missing-can-you-still-get-in-20261115",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/if-your-phone-goes-missing-can-you-still-get-in-20261115.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: If Your Phone Goes Missing, Can You Still Get In?. Additional Daily Read: A family account-recovery check that protects each person’s privacy while making the next step easier to find.\nPeople: three generations of one family working together. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: three generations of one family working together together, in a specific visual scene about “If Your Phone Goes Missing, Can You Still Get In?”: A warm, everyday kitchen-table scene: three generations of adults sit together with their own phones and a single blank checklist, helping one another find account settings without sharing screens or credentials.\nAvoid repeating these recent WILDWIRE image scenes: Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two women with different builds take turns doing one-arm dumbbell rows, each using a load that suits her. | Two friends comparing the way a fluid skirt and a structured jacket hang as they walk across a bright room. | Two male friends stand on a public dune boardwalk, looking toward the beach and inland vegetation as one points out a change in plant cover and the other makes a quick sketch. | Two friends lean over a colorful U.S. dialect map at a kitchen table, tracing a shaded region while checking the map legend and notes on a tablet. | Two friends at a kitchen table checking a water-storage label and writing a household plan on a card beside several clean water containers. | Two friends at a kitchen table compare a mutual-fund distribution notice with a sample tax form, keeping personal account papers out of view.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 3,
+    "issues": []
+  }
+}

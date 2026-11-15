@@ -1,0 +1,79 @@
+{
+  "category": "Explore",
+  "title": "Windward, Leeward, and the Line Between",
+  "subtitle": "A dune is more than a mound between beach and town. From a boardwalk, two people can watch plants and sand shape a landscape that is always in motion.",
+  "imageAlt": "Two male friends stand on a public dune boardwalk, looking toward the beach and inland vegetation as one points out a change in plant cover and the other makes a quick sketch.",
+  "imageConcept": "Two friends with different backgrounds share a view from a public boardwalk or designated overlook. One points toward a visible change in plant height or density; the other sketches or takes notes. Both remain on the boardwalk, with dune vegetation and the shore-to-inland landscape visible beyond them.",
+  "body": [
+    [
+      "A landscape with a living edge",
+      "From a beach, a dune can look like a single rise of sand. Look from a designated boardwalk or viewing area, though, and it may resolve into a sequence: open beach, scattered plants, denser vegetation, then a landward side with a different feel. The transition is the story. Plants slow moving air near the ground, helping windblown sand collect around them; the shape of the land and the pattern of vegetation develop together. [1]\n\nThat makes a dune a poor candidate for a quick climb and a good one for close observation from a distance. Its contours and plant cover are not decoration on a fixed barrier. They are part of a dynamic beach–dune system, responding to wind, weather, waves, and human activity. A paired walk can help make those relationships visible without stepping onto or disturbing the landscape."
+    ],
+    [
+      "Start with the right place—and the right terms",
+      "Choose a public boardwalk or signed viewing area, and check posted notices before setting out. Stay on the route, keep out of fenced or closed areas, and follow local guidance. Walking on dunes can damage vegetation and destabilize the system, so this is an activity for looking, not crossing. [2]\n\nThe words in the title are useful, but they are not interchangeable with “beach side” and “landward side.” Windward means facing the wind; leeward means sheltered from it. A beach-facing slope may be exposed to the prevailing wind at one site and not another. During the walk, you do not need to decide which direction the wind usually comes from. Note what you can see, and describe locations plainly: “near the beach,” “behind the first rise,” or “farther inland.” That keeps a field note honest even when the wind is changing."
+    ],
+    [
+      "A two-person field note, not a plant quiz",
+      "Before you start, agree that neither person needs to identify every species or decide whether a dune is healthy. Each of you can take a minute to notice three things from the same viewpoint: Where does visible plant cover begin? How does its height or density change toward land? Where does sand seem to gather around plants?\n\nWrite or sketch your observations separately before comparing them. One person might notice a band of low plants near the beach; the other might see that a few taller clumps interrupt an otherwise open stretch. Those differences are useful: attention is selective, and a second observer can reveal a detail the first missed. If the view is hard to describe, use landmarks in the scene—a fence, boardwalk post, sign, or obvious change in slope—rather than guessing distances or naming a plant you do not know."
+    ],
+    [
+      "Look for relationships, not a perfect pattern",
+      "The most interesting question is often not “What plant is that?” but “What seems to change alongside it?” Look for whether sand is piled against the beach-facing side of a plant, gathered around a clump, or spread more evenly across an open patch. Notice whether vegetation appears in isolated groups or a connected band. Then ask what you can actually infer: the view may suggest that plants and sand are interacting, but it cannot establish what caused a particular shape.\n\nThere is no universal template to match. A National Park Service description of Gulf Islands National Seashore, for example, distinguishes exposed foredunes from secondary dunes farther inland, where plant communities differ. [2] A study mapping vegetation at Island Beach State Park, New Jersey, found that heath communities lost 80%–97% of their habitat through conversion to woody thicket between 1957 and 2020. [3] A local landscape may look unlike a picture from another coast and still be entirely worth observing."
+    ],
+    [
+      "Why one visit cannot tell the whole story",
+      "A dune’s appearance is a snapshot, not a forecast. A single walk cannot tell you when a dune formed, how quickly it is eroding, or how much protection it will provide in a storm. Even a familiar view may change over time in ways that are hard to recognize without records. Researchers comparing vegetation maps from 1956–57 with a 2020 remapping of 5.4 kilometres of New Jersey’s Island Beach State Park documented substantial shifts in some plant communities. [3]\n\nThat longer view is a reason for curiosity, not alarm about every bare patch. A gap may have more than one explanation, and an observer without a formal survey cannot diagnose it. Try replacing a verdict—“this dune is damaged”—with a specific description: “there is a break in the visible plant cover beside the boardwalk.” Precision makes the walk more interesting and avoids claiming more than the view can show."
+    ],
+    [
+      "Keep the walk light on the landscape",
+      "This activity needs no collecting, digging, measuring, or special equipment. A notebook or phone note is enough; a camera can help you remember the scene, provided you stay on the public route and respect any site rules. If you bring binoculars, use them from the same safe viewing area. Leave plants, shells, drift material, and sand where they are, and do not climb a slope for a better angle.\n\nConditions matter, too. Wind can make a quiet observation difficult, and heat, surf, or a closed access point may change the plan. Check local advisories and choose a different time or location if the route does not feel safe or is not open. If you are with someone who has different mobility needs, look for an accessible overlook or a route that works for both of you; there is no extra credit for getting closer."
+    ],
+    [
+      "End with a question you can carry inland",
+      "Before leaving the viewpoint, compare your notes and choose one question to take away. Did both of you notice the same place where plant cover began? Did one person see a pattern in the sand that the other missed? Is there a sign explaining restoration or access rules that adds context to what you observed? You can check an official local source later rather than settling an uncertain answer on the spot.\n\nA dune walk is rewarding precisely because it does not need to end in a diagnosis. The visible shore-to-inland gradient gives two people something concrete to share: an observation, a difference in perspective, and a landscape whose shape is made and remade by living growth and moving sand. Stay on the path, keep the conclusions modest, and let the next visit—not a guess—show whether the view has changed."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Restoration and Management of Coastal Dune Vegetation",
+      "authors": "Stephen Broome",
+      "publication": "NC State Extension Publications, March 17, 2015; reviewed/revised November 19, 2025",
+      "url": "https://content.ces.ncsu.edu/restoration-and-management-of-coastal-dune-vegetation",
+      "researchSourceId": "S7"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Dune Communities",
+      "authors": "National Park Service",
+      "publication": "Gulf Islands National Seashore, National Park Service, April 16, 2020",
+      "url": "https://www.nps.gov/guis/learn/nature/dune-communities.htm",
+      "researchSourceId": "S9"
+    },
+    {
+      "sourceId": "S3",
+      "title": "The persistence and conversion of coastal foredune and swale vegetation community distributions 63 years later",
+      "authors": "Bianca R. Charbonneau, Todd M. Swannack, and Candice D. Piercy",
+      "publication": "Ecosphere, January 17, 2023",
+      "url": "https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.4329",
+      "researchSourceId": "S50"
+    }
+  ],
+  "id": "windward-leeward-and-the-line-between-20261115",
+  "date": "2026-11-15",
+  "editionDate": "2026-11-15",
+  "url": "article.html?id=windward-leeward-and-the-line-between-20261115",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/windward-leeward-and-the-line-between-20261115.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Windward, Leeward, and the Line Between. A dune is more than a mound between beach and town. From a boardwalk, two people can watch plants and sand shape a landscape that is always in motion.\nPeople: two men friends with different backgrounds. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two friends with different backgrounds share a view from a public boardwalk or designated overlook. One points toward a visible change in plant height or density; the other sketches or takes notes. Both remain on the boardwalk, with dune vegetation and the shore-to-inland landscape visible beyond them.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two women with different builds take turns doing one-arm dumbbell rows, each using a load that suits her. | Two friends comparing the way a fluid skirt and a structured jacket hang as they walk across a bright room.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
