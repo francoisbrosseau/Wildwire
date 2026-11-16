@@ -1,0 +1,84 @@
+{
+  "category": "Explore",
+  "title": "The Nest Is Not the Destination",
+  "subtitle": "Daily Read | A two-person bird walk built around noticing nesting-season behavior—and knowing when to give a bird more room.",
+  "imageAlt": "Two friends pause on a public trail to watch a bird fly past, keeping to the path and looking toward the trees rather than approaching them.",
+  "imageConcept": "Two friends standing side by side on a familiar public path, quietly watching a bird carry a twig across an open stretch of park; the trees remain at a respectful distance, with no nest visible.",
+  "body": [
+    [
+      "Make the walk about what happens, not where it leads",
+      "A bird crossing a path with a twig in its bill can make an ordinary walk feel like a story beginning. The tempting next move is to follow and find out where it is going. For this outing, try stopping the story there. Choose a familiar public route and notice the bird’s behavior from the path you were already using; don’t search for a nest or track a bird to its destination. Carrying material, carrying food, or making repeated trips to one area can be clues to nesting activity, but they do not prove where a nest is—or even that the observers can interpret what they see correctly [1]. The aim is not to solve a mystery. It is to share a few minutes of attention without making the bird’s work harder."
+    ],
+    [
+      "Read clues as clues, not a map",
+      "During nesting season, birds may collect material for a nest or food for young. A bird making repeated trips toward the same general area may also draw attention. These are useful things to notice, and they are deliberately incomplete: the route may be obscured, the bird may be doing something else, and the nest itself may be hidden. McFarland describes birds carrying nesting material or insects as clues that may point toward nearby nests [2]. Make that distinction part of the fun. Instead of asking, “Where is it?” ask, “What did the bird do?” A brief, careful observation is still a real encounter, even when it ends with uncertainty."
+    ],
+    [
+      "Choose the route before you choose the bird",
+      "Pick a route you can use without leaving its established path: a local park loop, a public trail, or a path through a familiar green space. Check posted signs and seasonal closures, and avoid choosing a route because someone has reported a nest there. Bring a notebook or use a notes app, but leave the binoculars and camera at home if they would make either person want to move closer for a better view. Agree on a simple boundary before you start: stay on the route, don’t follow a bird, and don’t approach vegetation or structures to inspect them. A pair can take turns watching and noting, or simply walk together and compare what each person noticed. The boundary is not a test of expertise; it is what makes the outing respectful and repeatable."
+    ],
+    [
+      "Try a small, shared field note",
+      "When a bird catches your attention, pause where you are and record only what you can see from there. A useful note can be as plain as: “Small bird carried a dry stem across the path; we watched briefly, then continued.” Add the broad setting—such as “north end of the park loop”—and the time if it helps you remember the walk. Separate observation from interpretation: “carried a stem” is an observation; “building a nest behind the fence” is a guess that may also invite someone to investigate. Two people can compare notes afterward. One may remember the direction of flight; the other may have noticed that the bird returned once. Neither needs to turn those details into a location hunt. The point is to keep a record of attention, not intelligence about a nest."
+    ],
+    [
+      "Let the bird set the stopping point",
+      "Your own behavior is part of the observation. If a bird starts giving repeated warning calls, displaying distress, or changing its behavior in response to you, step back and end that observation. Audubon’s guidance on disturbed shorebirds describes warning calls, dive-bombing, and broken-wing displays as possible signs of disturbance, and recommends staying outside posted nesting areas [3]. Those examples and any distance guidance for shorebirds should not be treated as a universal measuring rule for every bird or setting. There is no one viewing distance that makes every situation safe. Instead, follow local signs, stay on the path, and take a bird’s apparent reaction seriously. If you cannot tell whether you are affecting it, more distance and a shorter stop are the prudent choice."
+    ],
+    [
+      "A good view is not worth a closer approach",
+      "Photography can quietly change the shape of a walk: one person frames a picture, then shifts a few steps for a clearer angle, while the other follows. Decide in advance whether photographs belong in this outing at all. If you do take one, stay where you are, never use a flash near a bird, and be willing to put the camera away when the view is poor. Don’t look for a nest through branches, move vegetation, block a bird’s route, or wait nearby for a parent to return. Audubon warns that even a single disturbance can cause adult shorebirds to leave nests, exposing eggs and chicks to predators and overheating [3]. The photograph you leave untaken may be the most useful choice the pair makes."
+    ],
+    [
+      "Keep the record broad, and the conversation generous",
+      "After the walk, describe what happened without publishing a pinpoint location, a nest image, or a set of directions that could draw others to the spot. A general note such as “a bird carried food along the east side of the park” can preserve the memory without turning it into a destination. If the conversation becomes a guessing game about species or nesting sites, let “we don’t know” be a complete answer. You can look up a bird later using a reputable guide, but don’t use identification as a reason to return and search. The shared value here is not who spotted the most or got the sharpest picture. It is that both people paid attention and left the bird with room to continue."
+    ],
+    [
+      "Take the walk, then leave the bird to its day",
+      "For a first try, choose a familiar public route and agree to stay on it before you set out. Give yourselves a modest window—perhaps one loop or twenty minutes—and bring a notebook if you like. When a bird catches your eye, record one behavior and one broad location; don’t follow it or approach the place it seems to be heading. If it calls repeatedly, displays distress, or changes behavior in response to you, step back and move on. At the end, each person can share one detail they noticed and one thing they are unsure about. Keep any notes or photos free of precise nest locations. The outing succeeds not when you find a nest, but when curiosity and care travel together."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Top 5 Tips for Finding Birds Nesting Near You",
+      "authors": "Robyn Bailey",
+      "publication": "Living Bird / All About Birds, April 10, 2024",
+      "url": "https://www.allaboutbirds.org/news/top-three-signs-that-birds-are-nesting-near-you/",
+      "researchSourceId": "S40"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Bird Nests Tell Extraordinary Stories, If You Learn How to Read Them",
+      "authors": "Casey McFarland",
+      "publication": "Audubon, Spring 2023",
+      "url": "https://www.audubon.org/magazine/bird-nests-tell-extraordinary-stories-if-you-learn-how-read-them",
+      "researchSourceId": "S37"
+    },
+    {
+      "sourceId": "S3",
+      "title": "How to Know If a Shorebird Is Being Disturbed",
+      "authors": "Audubon New York",
+      "publication": "Audubon New York, June 27, 2022",
+      "url": "https://www.audubon.org/new-york/news/how-know-if-shorebird-being-disturbed",
+      "researchSourceId": "S24"
+    }
+  ],
+  "id": "the-nest-is-not-the-destination-20261116",
+  "date": "2026-11-16",
+  "editionDate": "2026-11-16",
+  "url": "article.html?id=the-nest-is-not-the-destination-20261116",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-nest-is-not-the-destination-20261116.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Nest Is Not the Destination. Daily Read | A two-person bird walk built around noticing nesting-season behavior—and knowing when to give a bird more room.\nPeople: a woman and a man who are partners, with grounded attainable appearances. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two friends standing side by side on a familiar public path, quietly watching a bird carry a twig across an open stretch of park; the trees remain at a respectful distance, with no nest visible.\nAvoid repeating these recent WILDWIRE image scenes: Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends at a community gym reviewing a simple strength-training plan beside a resistance-band station. | Two friends consider clothing options together in a bright bedroom, with one choosing a jacket from an open wardrobe. | Two friends stand on a path beside a tree, photographing buds on a low branch and comparing notes in a pocket notebook. | Two friends in the bleachers follow a flat-track roller-derby bout as skaters race around the track and an announcer speaks into a microphone. | Two adult friends sit at a kitchen table, sketching a simple family tree and writing questions on separate sheets of paper. | Two family members sit at a kitchen table, reviewing a student-loan statement and marking a payment timeline on paper. | Two friends sit at a kitchen table with a local radio schedule open on a laptop, listening together to a small radio.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
