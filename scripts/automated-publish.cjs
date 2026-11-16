@@ -484,7 +484,10 @@ async function main() {
   const date = editionDate(process.env.WILDWIRE_TEST_DATE || '', DRY_RUN);
   runDirectory = path.join(ROOT, '.wildwire-runs', date);
   fs.mkdirSync(runDirectory, { recursive: true });
-  runReport = { date, dryRun: DRY_RUN, startedAt: new Date().toISOString(), status: 'GENERATING', requests: [], articles: [], images: [] };
+  const previousReportPath = path.join(runDirectory, 'report.json');
+  const previousReport = fs.existsSync(previousReportPath) ? JSON.parse(fs.readFileSync(previousReportPath, 'utf8')) : {};
+  if (previousReport.date && previousReport.date !== date) fail('Saved editorial report date does not match this edition.');
+  runReport = { rejectedCandidates: previousReport.rejectedCandidates || [], date, dryRun: DRY_RUN, startedAt: new Date().toISOString(), status: 'GENERATING', requests: [], articles: [], images: [] };
   saveReport();
   log(`Starting ${DRY_RUN ? 'isolated preview' : 'production candidate'} for ${date}: ten stories, sixteen images.`);
   const existing = readExisting();
@@ -511,16 +514,20 @@ async function main() {
       result.wordCount = validateArticle(result.article, result.sourceResults, [...existing, ...previousInEdition], date, pairings[index]);
       log(`${category}: recovered validated article "${result.article.title}".`);
     } else {
-      const rejectedTopics = [];
+      const rejectedTopics = runReport.rejectedCandidates
+        .filter(item => item.category === category && Boolean(item.dailyRead) === dailyRead && Boolean(item.spiritFeature) === spiritFeature)
+        .map(item => item.reason);
+      if (previousReport.error && previousReport.error.includes('for ' + category + ':')) rejectedTopics.push(previousReport.error);
       for (let topicAttempt = 0; topicAttempt < 2; topicAttempt++) {
         try {
           result = await makeArticle(category, date, pairings[index], [...existing, ...previousInEdition], dailyRead, rejectedTopics, spiritFeature);
           break;
         } catch (error) {
-          if (topicAttempt || !/Fact check failed|Fact-check correction references an unknown source ID|Possible duplicate|Article length|Research returned fewer|inline citation|correction (?:did not match|must be grounded)|Replacement factual text/.test(error.message)) throw error;
+          if (!/Fact check failed|Fact-check correction references an unknown source ID|Possible duplicate|Article length|Research returned fewer|inline citation|correction (?:did not match|must be grounded)|Replacement factual text/.test(error.message)) throw error;
           rejectedTopics.push(error.message);
-          runReport.rejectedCandidates = [...(runReport.rejectedCandidates || []), { category, dailyRead, reason: error.message }];
+          runReport.rejectedCandidates = [...(runReport.rejectedCandidates || []), { category, dailyRead, spiritFeature, reason: error.message }];
           saveReport();
+          if (topicAttempt) throw error;
           log(`${category}: candidate rejected; making one fresh-topic attempt instead of recycling an unreliable draft.`);
         }
       }
