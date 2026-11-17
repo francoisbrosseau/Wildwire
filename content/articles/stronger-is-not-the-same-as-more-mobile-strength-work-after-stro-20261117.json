@@ -1,0 +1,79 @@
+{
+  "category": "Strength",
+  "title": "Stronger Is Not the Same as More Mobile: Strength Work After Stroke",
+  "subtitle": "Resistance training can help rebuild strength, but what that change means for walking or daily life depends on the person, the goal and the way progress is measured.",
+  "imageAlt": "Two friends sit together at a rehabilitation clinic table, reviewing a simple strength and mobility plan with a therapist.",
+  "imageConcept": "two adult friends of different genders together, in a specific visual scene about “Stronger Is Not the Same as More Mobile: Strength Work After Stroke”: A warm, realistic rehabilitation scene: a stroke survivor and a friend sit beside a therapist, looking at a clearly written plan and a simple progress chart. The focus is on shared attention and the survivor’s agency, not on dramatic exertion or a before-and-after transformation.",
+  "body": [
+    [
+      "Strength is one outcome, not the whole story",
+      "After a stroke, an exercise can make a muscle stronger without automatically making every related movement easier. A person may gain force in a leg, for example, while still needing support to stand, walk across a room or manage a step. Those activities call on more than muscle strength: coordination, balance, sensation, endurance, confidence and the surroundings can all matter. This distinction is not a reason to discount strength work. It is a reason to be precise about what it is intended to change. A rehabilitation plan works best when its goals match what the person wants or needs to do, rather than treating a stronger test result as proof that a daily task has improved. The useful question is not simply whether an exercise is hard enough. It is what capacity it is meant to build, and how the person and care team will recognize progress."
+    ],
+    [
+      "What the research can—and cannot—promise",
+      "A 2025 Cochrane review found that resistance training probably increases arm and leg strength for people after stroke. In the studies it included, however, it found little or no effect on comfortable walking speed. The authors also noted limitations in the evidence, including imprecision and concerns about risk of bias; the review does not establish one optimal training prescription [1]. Another 2025 review of 42 randomized trials reported improvements in several outcomes, including walking capacity, balance and functional ability. Its certainty ratings ranged from very low to moderate, and risk of bias was high for most outcomes [2]. These findings are not necessarily contradictory: reviews can include different studies, outcomes and methods, and an improvement in walking capacity is not identical to a change in comfortable walking speed. Taken together, the evidence supports a careful conclusion: strength training may be valuable, but no single result guarantees a particular mobility change for every person."
+    ],
+    [
+      "Start with the activity that matters to the person",
+      "A rehabilitation conversation can begin with a concrete goal: getting up from a chair with less help, walking to the mailbox, carrying a light item, or feeling steadier while turning. The goal belongs to the person recovering, and it may change over time. The therapist or rehabilitation clinician can then help identify which parts of that activity are limiting progress and whether resistance exercise belongs in the plan. A leg-strengthening exercise might address one relevant capacity, while practice of the actual task may be needed to work on its timing and coordination. The 2026 American Heart Association and American Stroke Association guideline emphasizes multidisciplinary rehabilitation, periodic reassessment to inform therapy targets, and standardized outcome measures across body function, activity and participation [3]. That is a framework for discussion, not a universal program. Stroke effects vary, and the right starting point, support and next step should be assessed for the individual."
+    ],
+    [
+      "Ask what the exercise is supposed to improve",
+      "Before beginning or changing an exercise, ask the rehabilitation team to name its primary purpose. Is it meant to improve muscle strength, walking endurance, balance, or a particular daily activity? Some exercises may support more than one aim, but saying which outcome takes priority makes the plan easier to understand and evaluate. Ask what a successful change would look like in practical terms. It might be a change in how much assistance is needed, how long a task takes, or how safely it can be completed—not necessarily a dramatic or immediate difference."
+    ],
+    [
+      "Make progress visible without turning it into a test",
+      "A plan should include a way to check whether it is helping with the chosen goal. The measure might be a strength assessment by a clinician, a repeat observation of a daily task, or a record of how much support that task requires. Ask when the team expects to review the measure and what they might adjust if it is unchanged. One useful approach is to keep the measure consistent: compare the same task under similar conditions, rather than relying on a vague impression of a good or bad day. The point is not to score recovery or demand a steady upward line. Progress can vary, and a change in one outcome may not show up in another. If strength improves but the activity does not, that information can help the team reconsider the goal, the exercise or the need for more task-specific practice. If an activity improves, the record can help identify what is worth continuing."
+    ],
+    [
+      "Safety and support are part of the prescription",
+      "A safe plan accounts for more than the weight or resistance being used. The person’s current movement, balance, health conditions, fatigue, equipment and need for supervision can all affect how an exercise should be done. Ask the clinician to explain what support is needed, which adjustments are appropriate and what signs mean the activity should pause or be reviewed. Do not borrow another person’s routine or add resistance because an exercise looks manageable; the same movement can carry different demands for different people after stroke. A friend or family member can be helpful without taking over the plan. With the person’s agreement, they can listen during an appointment, write down questions, help remember the clinician’s instructions or support the agreed way of tracking a goal. They should not decide the load or push someone to continue through a concern. The person recovering remains the decision-maker in how they take part and what they want to work toward."
+    ],
+    [
+      "Take three questions to the next appointment",
+      "A short conversation can make a rehabilitation plan clearer and more collaborative. Bring the goal the person cares about, then ask: What is this exercise intended to improve—strength, walking, balance or a daily activity? How will we tell whether that outcome is changing? What supervision, support or adjustment makes the plan appropriate for my abilities right now? If the answer is unclear, ask for a plain-language explanation or a demonstration of the agreed setup. It can also help to ask when the plan will be reviewed and how to contact the team with a concern between visits. Write down the answer in the person’s own terms, along with the next check-in point. This is practical, not bureaucratic: it links the exercise to the life it is meant to support. Stronger may be an important step. The person and care team should decide together what that step is for."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Resistance training for people with stroke",
+      "authors": "Saunders DH, Baker G, Cheyne JD, Cooper K, Fini NA, Kilgour AHM, Swinton PA, Williams G, Mead GE",
+      "publication": "Cochrane Database of Systematic Reviews 2025, Issue 9. Art. No.: CD016001.",
+      "url": "https://doi.org/10.1002/14651858.CD016001",
+      "researchSourceId": "S11"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Prescribing strength training for stroke recovery: a systematic review and meta-analysis of randomised controlled trials",
+      "authors": "Kenneth S Noguchi, Kevin Moncion, Elise Wiley, Ashley Morgan, Eric Huynh, Guilherme Moraes Balbim, Brad Elliott, Carlene Harris-Blake, Brent Krysa, Barb Koetsier, Karolyn Pinili, Marla K Beauchamp, Stuart M Phillips, Lehana Thabane, Ada Tang",
+      "publication": "British Journal of Sports Medicine. 2025 Feb 3;59(3):185-197.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39406459/",
+      "researchSourceId": "S27"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Top Things to Know: 2026 Guideline for Adult Stroke Rehabilitation and Recovery",
+      "authors": "Richards LG, Ifejika NL, Stein J, Bahouth MN, Abshire-Saylor M, Barrett AM, Chen P, Deutsch AF, Dusenbury W, Ellis C Jr, Eng J, Fleet J, Ford HR, Grattan ES, Harvey RL, Jones CA, Krishnan C, Kutzle S, Matthews D, Mazwi N, Minga J, Nilsen DM, Noser E, Porter HR, Raghavan P, Rose DK, Skidmore ER, St-Onge M-P, Stoykov ME, Schettini AT, Terrill AL, Tirschwell DL, Vilar P, Whitaker-Hilbig A, Zorowitz R",
+      "publication": "Professional Heart Daily, American Heart Association",
+      "url": "https://professional.heart.org/en/science-news/2026-guideline-for-adult-stroke-rehabilitation-and-recovery/top-things-to-know",
+      "researchSourceId": "S4"
+    }
+  ],
+  "id": "stronger-is-not-the-same-as-more-mobile-strength-work-after-stro-20261117",
+  "date": "2026-11-17",
+  "editionDate": "2026-11-17",
+  "url": "article.html?id=stronger-is-not-the-same-as-more-mobile-strength-work-after-stro-20261117",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/stronger-is-not-the-same-as-more-mobile-strength-work-after-stro-20261117.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Stronger Is Not the Same as More Mobile: Strength Work After Stroke. Resistance training can help rebuild strength, but what that change means for walking or daily life depends on the person, the goal and the way progress is measured.\nPeople: two adult friends of different genders. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: serious, focused partners training with controlled effort; no smiling while lifting.\nScene concept: two adult friends of different genders together, in a specific visual scene about “Stronger Is Not the Same as More Mobile: Strength Work After Stroke”: A warm, realistic rehabilitation scene: a stroke survivor and a friend sit beside a therapist, looking at a clearly written plan and a simple progress chart. The focus is on shared attention and the survivor’s agency, not on dramatic exertion or a before-and-after transformation.\nAvoid repeating these recent WILDWIRE image scenes: Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 3,
+    "issues": []
+  }
+}

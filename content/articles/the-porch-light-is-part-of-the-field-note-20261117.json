@@ -1,0 +1,83 @@
+{
+  "category": "Explore",
+  "title": "The Porch Light Is Part of the Field Note",
+  "subtitle": "A two-person moth watch can reveal a surprising amount about one small patch of night—if you remember that a crowd at a lamp is not a census of the neighborhood.",
+  "imageAlt": "Two friends quietly observing moths gathered near an existing porch light, one writing notes while the other takes a photograph without flash.",
+  "imageConcept": "At dusk, two friends sit a comfortable distance from an already-lit porch lamp: one keeps a small notebook open on their knee while the other photographs a moth resting on the nearby wall, with the dark garden and unlit windows around them.",
+  "body": [
+    [
+      "One lamp, one night, one useful question",
+      "A porch light can turn an ordinary evening into a close-up view of nocturnal life. A pale shape settles near the doorframe; another flickers past; a third is easy to mistake for a leaf until it moves. The pleasure is immediate, but so is the temptation to draw a big conclusion: there are lots of moths here, or hardly any. A gathering at a light tells you what appeared near that light during your watch. It does not tell you how many moths live across the surrounding area.\n\nThat distinction makes the observation more interesting, not less. A lamp is part of the scene being observed. Its location and brightness influence what you can see, while the darkness beyond it makes the rest of the landscape difficult to compare. The aim is not to produce a neighborhood census. It is to notice carefully, record the conditions, and share the work with another person."
+    ],
+    [
+      "Why the light changes the picture",
+      "Research at matched lit and unlit sites found fewer moths and lower species richness at ground level in lit areas, while flight activity was greater at the lights themselves. Those results describe the study sites, not every street, garden, or porch. They do make one point especially useful for a casual observer: activity concentrated at a lamp can coexist with a different pattern in the surrounding habitat. What looks like abundance at the light cannot, by itself, stand in for abundance across a landscape [2].\n\nA 2020 review found evidence that artificial light can affect moth behavior and physiology, but said direct evidence connecting those effects to population-level impacts remained limited. So one evening’s observations should not be treated as proof that local moth numbers are rising or falling [3]. Keep the scale of the claim matched to the scale of the experience: these are the moths we noticed, at this place, under these conditions, for this long."
+    ],
+    [
+      "Make the existing scene your boundary",
+      "Choose an outdoor light that is already on and a spot where both people can watch without blocking a doorway or disturbing neighbors. Do not add a brighter bulb, set up a lamp, or leave a light on longer just to attract more insects. Avoid touching, catching, or moving moths. The watch can be as simple as two chairs and a notebook; a phone camera is optional.\n\nAgree on a short window before you begin—perhaps 15 or 20 minutes—so the plan does not quietly become an all-night vigil. Check that the area is safe to sit in, and keep the route to the door clear. If either person is uncomfortable outdoors after dark, watch from inside through a window, noting that glass may affect what you can see or photograph. The purpose is attentive company, not getting closer at any cost."
+    ],
+    [
+      "Share the work, then switch",
+      "One person can keep the field note: start and end time, location, whether the light is steady or sensor-activated, and a few visible conditions such as cloud cover or wind. If you have a suitable thermometer, you may record its reading; if not, leave temperature out rather than guessing. The other person can watch for arrivals, departures, resting, or movement around the lamp and take photographs without flash. After several minutes, trade roles. Switching helps both people look closely and makes the record less dependent on one person’s attention.\n\nDescribe what you can actually see: “small brown moth on the wall” is more dependable than a species name you are unsure of. Note whether the insect was in flight or resting, and roughly where it appeared in relation to the light. You do not need to count every passing blur. A few well-described observations can be more useful than a precise-looking total gathered in a rush."
+    ],
+    [
+      "Photograph for evidence, not a perfect portrait",
+      "If you take pictures, steady your hands against a safe surface and use the light that is already there. Avoid flash, which can startle or disrupt insects and may create a washed-out image. Take a wider frame that shows where the moth was, then a closer one if you can do so without approaching or disturbing it. Do not move an insect to improve the angle. A photograph that is imperfect but preserves the context is still a record of what you saw.\n\nExtension guides describe photography and recording observations as practical ways to begin mothing and contribute sightings through iNaturalist [1]. An identification app or community can help you investigate later, but an identification is not compulsory. If you share a record, include only details you can support, and mark an uncertain identification as uncertain. Local examples and species can vary, so do not assume that a guide’s regional examples apply where you live."
+    ],
+    [
+      "What insect scientists are still learning",
+      "For a porch watch, that is a reason to describe behavior rather than explain it too confidently. Record “circled near the lamp for about a minute” if that is what you observed. Avoid turning the moment into a diagnosis of why it happened. Careful noticing leaves room for what researchers know, what they are investigating, and what a single observer cannot determine."
+    ],
+    [
+      "Turn the notes into a modest record",
+      "At the end, compare notes before putting them away. Did both people notice the same arrivals? Did one person see more movement while the other focused on insects resting on a surface? Record the watch’s duration and the conditions that might shape what was visible. If nothing appeared, write that down too: “No moths noticed during 20 minutes” is a valid account of that watch, not evidence that moths are absent from the area.\n\nIf you want to repeat the observation, use the same light and a similar length of time, and note any changes in conditions. Even repeated casual watches do not become a formal population survey simply because they produce a list. Their value is more grounded: they help you compare what you personally saw across a few visits, while keeping the limits visible. That is a good habit for citizen science and for everyday attention alike."
+    ],
+    [
+      "Leave the lamp out of the experiment",
+      "A final practical choice is to end the watch without creating more attraction. When you are ready to go inside, follow the household’s usual lighting routine; do not add a special light for a better count. If the lamp is yours to control, consider whether it needs to stay on after people are safely inside. The observation itself does not prove what lighting choice is best for every home, but it can prompt a useful question about when and where outdoor light is needed.\n\nBefore you part, choose one note to keep: perhaps a photograph with its date and location, a short description of the weather, or a sketch of where the moths gathered. Put the record somewhere you can find it if you watch again. The best result is not a dramatic number or a confident species list. It is a shared, honest account of a small piece of night—and a clearer understanding that the porch light helped shape what came into view."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Magnificent Moths: A Guide to Begin ‘Mothing’ and Contributing Your Observations to iNaturalist",
+      "authors": "Corey T. Callaghan, Brittany M. Mason, and Joe Montes de Oca",
+      "publication": "UF/IFAS Extension, EDIS; May 5, 2024",
+      "url": "https://ask.ifas.ufl.edu/publication/UW518",
+      "researchSourceId": "S2"
+    },
+    {
+      "sourceId": "S2",
+      "title": "The dark side of street lighting: impacts on moths and evidence for the disruption of nocturnal pollen transport",
+      "authors": "Callum J. Macgregor, Darren M. Evans, Richard Fox, and Michael J. O. Pocock",
+      "publication": "Global Change Biology; June 1, 2016",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.13371",
+      "researchSourceId": "S8"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Is light pollution driving moth population declines? A review of causal mechanisms across the life cycle",
+      "authors": "Douglas H. Boyes, Darren M. Evans, Richard Fox, Mark S. Parsons, and Michael J. O. Pocock",
+      "publication": "Insect Conservation and Diversity; first published September 13, 2020; volume 14, issue 2 (2021)",
+      "url": "https://resjournals.onlinelibrary.wiley.com/doi/abs/10.1111/icad.12447",
+      "researchSourceId": "S49"
+    }
+  ],
+  "id": "the-porch-light-is-part-of-the-field-note-20261117",
+  "date": "2026-11-17",
+  "editionDate": "2026-11-17",
+  "url": "article.html?id=the-porch-light-is-part-of-the-field-note-20261117",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-porch-light-is-part-of-the-field-note-20261117.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Porch Light Is Part of the Field Note. A two-person moth watch can reveal a surprising amount about one small patch of night—if you remember that a crowd at a lamp is not a census of the neighborhood.\nPeople: two women friends with distinct personal style. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: At dusk, two friends sit a comfortable distance from an already-lit porch lamp: one keeps a small notebook open on their knee while the other photographs a moth resting on the nearby wall, with the dark garden and unlit windows around them.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends sit together at a rehabilitation clinic table, reviewing a simple strength and mobility plan with a therapist. | Two friends sit at a bright table, each sorting their own makeup beside a small notebook and a magnifying glass.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

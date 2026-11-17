@@ -1,0 +1,79 @@
+{
+  "category": "Culture",
+  "title": "The Solo Has a Shape",
+  "subtitle": "A three-pass way into jazz improvisation: listen for what returns, what changes, and how the music makes room.",
+  "imageAlt": "Two friends leaning toward a speaker as a jazz record plays, one following the music with a finger on the table.",
+  "imageConcept": "A warm, lived-in listening room with two friends beside a turntable or small speaker. One follows the rhythm with a fingertip while the other listens with eyes closed; the scene feels curious and companionable, not like a lesson.",
+  "body": [
+    [
+      "Spontaneous is not the same as shapeless",
+      "A jazz solo can sound as if it is being invented in the moment—and it is—but that does not mean the music has no design. A familiar tune may begin with a clear melody, move into improvised passages, and return to that melody later. That pattern is common, not a rule for every performance. It gives a listener a useful first question: what stays recognizable while the players change the route? Smithsonian Magazine describes the main melody, often called the “head,” as a possible point of departure and return, and notes that improvisers may reshape a melody or build from a shorter musical idea [1]. You do not need to know chords, name instruments, or decide whether a solo is “good.” You can listen for a thread and notice where it leads."
+    ],
+    [
+      "Choose one recording, not a whole genre",
+      "For a first close listen, pick a single recording that you can replay—perhaps a track you already enjoy, or a performance recommended by someone whose taste you trust. Choose a version short enough that repeating it feels inviting rather than like homework. If the music is unfamiliar, let that be part of the point: there is no required amount of background knowledge before you are allowed to listen closely. You might use Jelly Roll Morton’s “Black Bottom Stomp” as a historical example. A Library of Congress essay describes recurring and varied musical ideas in the recording, changes in texture across its choruses, and Morton’s compositional shaping alongside improvisation [2]. That makes it a useful case for hearing how a performance can have both freedom and an overall plan. It is an example, not a template every jazz recording must follow."
+    ],
+    [
+      "Pass one: find the tune’s recognizable thread",
+      "Listen once without pausing or trying to catch everything. Give your attention to the main melody: the tune’s most recognizable line or shape. You might hear it at the beginning, or find that it is not immediately obvious. Notice whether it seems to return later. If you cannot tell, that is a perfectly good first observation; some recordings make the melody easier to locate than others. The aim is not to label the form correctly but to get a broad sense of the music’s landmarks. When a melody does return, notice what feels familiar and what has changed around it. The rhythm, volume, instruments, or mood may make the same tune feel newly lit. If you are listening with a friend, compare impressions afterward rather than stopping to agree. One person may hear a line as the main theme; another may be drawn to a repeated rhythm. Both are ways into the music."
+    ],
+    [
+      "Pass two: follow one small idea",
+      "Replay the recording and choose just one detail to follow. It could be a rising phrase, a repeated note, a rhythmic figure, or a sound that catches your ear. Stay with that single idea long enough to hear whether it comes back, stretches out, changes direction, or gives way to something else. If you lose track, simply pick it up again when you notice it. Improvisation does not have to mean a sequence of unrelated inventions. In a 2025 National Endowment for the Arts feature, pianist Marilyn Crispell describes improvisation in terms of developing musical logic rather than stringing together disconnected ideas [3]. That perspective can turn listening from “What is the player doing?” into “Where might this thought be going?” The answer need not be technical. You might hear a phrase become more insistent, more spacious, or different enough that the first version seems to have opened a door."
+    ],
+    [
+      "Pass three: listen to the space around the solo",
+      "On the third pass, shift your attention away from the person taking the solo and toward the surrounding musicians. What seems to support the soloist? What answers them, marks a change, or leaves a pocket of quiet? Try listening to the accompaniment as active rather than background: it may hold a steady pulse, add a brief accent, or alter its energy as the solo develops. In a solo performance, the same question can apply to contrasts within one player’s sound—between a strong beat and a pause, for example. You do not have to identify who played what. Just notice how one musical choice seems to make room for, or respond to, another. Treat this pass as a way to widen the picture, not as a demand to hear everything at once."
+    ],
+    [
+      "Keep the map flexible",
+      "These three passes are invitations, not a universal explanation of jazz. A performance may not present a melody in an obvious opening statement, or may not return to it in the way you expect. Some music puts greater emphasis on texture, rhythmic interplay, or a changing tonal center. Even the idea of a solo can feel different when the voice is central or the ensemble’s sound is rooted in traditions beyond the small-group pattern many listeners first encounter. That is a reminder to stay curious about the particular artist and musical context rather than treating one listening route as the definition of the whole genre. If your attention lands on something other than the melody—a voice, a percussion pattern, a change in intensity—follow it. Listening closely should make the field of attention larger, not narrower."
+    ],
+    [
+      "Let the last note be a question",
+      "After the third pass, take a moment to name what you noticed, without grading your performance as a listener. Perhaps the melody returned but felt different; perhaps a small phrase kept resurfacing; perhaps the accompaniment made the solo feel more conversational. You may also have no neat conclusion, only a sound or moment you want to hear again. That is enough. If you are listening with someone else, ask what they followed and what surprised them. Different answers can reveal how much is happening at once, without turning the exchange into a test of expertise. For another listen, you could reverse the route: begin with the rhythm, follow a different instrument, or choose a new recording by an artist whose approach you have just discovered. The point is not to solve the music. It is to build a little familiarity, so that the next time a solo unfolds, you can hear not only that it is changing, but how it makes its changes matter."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "What to Listen to and Watch for When Enjoying Jazz",
+      "authors": "Li Zhou",
+      "publication": "Smithsonian Magazine, March 31, 2015",
+      "url": "https://www.smithsonianmag.com/smithsonian-institution/what-to-listen-to-and-watch-for-when-enjoying-jazz-180954723/",
+      "researchSourceId": "S41"
+    },
+    {
+      "sourceId": "S2",
+      "title": "From the Recording Registry: “Black Bottom Stomp” (1926)",
+      "authors": "Cary O’Dell",
+      "publication": "Library of Congress, Now See Hear!, August 17, 2021",
+      "url": "https://blogs.loc.gov/now-see-hear/2021/08/from-the-recording-registry-black-bottom-stomp-1926/",
+      "researchSourceId": "S40"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Notable Quotable: 2025 NEA Jazz Master Marilyn Crispell",
+      "authors": "Carolyn Coons",
+      "publication": "National Endowment for the Arts, March 27, 2025",
+      "url": "https://www.arts.gov/stories/blog/2025/notable-quotable-2025-nea-jazz-master-marilyn-crispell",
+      "researchSourceId": "S14"
+    }
+  ],
+  "id": "the-solo-has-a-shape-20261117",
+  "date": "2026-11-17",
+  "editionDate": "2026-11-17",
+  "url": "article.html?id=the-solo-has-a-shape-20261117",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-solo-has-a-shape-20261117.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Solo Has a Shape. A three-pass way into jazz improvisation: listen for what returns, what changes, and how the music makes room.\nPeople: three generations of one family working together. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: thoughtful companions paying attention, discussing or questioning something cultural.\nScene concept: A warm, lived-in listening room with two friends beside a turntable or small speaker. One follows the rhythm with a fingertip while the other listens with eyes closed; the scene feels curious and companionable, not like a lesson.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends sit together at a rehabilitation clinic table, reviewing a simple strength and mobility plan with a therapist. | Two friends sit at a bright table, each sorting their own makeup beside a small notebook and a magnifying glass. | Two friends quietly observing moths gathered near an existing porch light, one writing notes while the other takes a photograph without flash.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

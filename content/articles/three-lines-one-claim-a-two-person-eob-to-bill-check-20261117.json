@@ -1,0 +1,83 @@
+{
+  "category": "Living",
+  "title": "Three Lines, One Claim: A Two-Person EOB-to-Bill Check",
+  "subtitle": "An explanation of benefits is not a bill. A calm, shared review can help you understand what the insurer processed, what the provider is asking for, and what to clarify next.",
+  "imageAlt": "Two friends sit at a kitchen table comparing an insurance statement with a medical bill, with a notebook and pen beside them.",
+  "imageConcept": "A warm, lived-in kitchen table with two friends seated side by side, reviewing separate health-insurance papers and writing a question in a notebook; no legible personal information appears on the documents.",
+  "body": [
+    [
+      "Start with what the EOB is—and isn’t",
+      "An Explanation of Benefits, or EOB, can resemble an invoice, especially when it includes a prominent patient balance. But it is a record of how an insurer processed a claim, not a request for payment. It commonly lists the provider’s charge, the amount the plan recognizes as allowed, what the insurer paid, and what it says may be the patient’s responsibility. Those figures describe the claim from the plan’s perspective; they do not necessarily show payments already made to the provider. The provider’s bill is the document that asks for payment. CMS says an EOB explains what the health plan covers and what you’ll pay when you get a bill from your provider; it also says the bill should not be higher than the EOB’s Patient Balance. A difference deserves a question, not an instant conclusion that someone made a mistake. [1]"
+    ],
+    [
+      "Make it a task for two, with permission",
+      "This check works best as a small, bounded piece of household admin—not a verdict on the care, the coverage, or the person who handled the paperwork. If you are reviewing another person’s records, ask first whether they want help and make sure they have authorized access. Health documents can reveal sensitive information, and a relationship does not automatically grant permission to see them. Agree on the task before opening anything: match one EOB to one provider bill, note any questions, and stop there. One person can read the EOB while the other follows the bill; switch roles if that makes the figures easier to track. Keep the papers or screens visible only to the people the patient has chosen to include."
+    ],
+    [
+      "Gather the matching papers before comparing amounts",
+      "Find the EOB for the same patient and the bill from the provider who submitted the claim. If the insurer’s account has more than one statement for the same period, look for the claim number or service details rather than assuming that documents with nearby dates belong together. Put the EOB and bill side by side, and keep a notebook or blank page for questions. Avoid writing full account numbers or other sensitive identifiers into a shared note unless there is a clear reason and a secure place to keep it. If the bill is missing, delayed, or hard to read, contact the provider through contact information on a trusted statement or its official materials. A quick search for a matching number is useful; a guess based on a date alone is not."
+    ],
+    [
+      "First line: match the visit",
+      "Compare the patient name, provider, service date, and description of the service. A description may be abbreviated or use a billing term that differs from the words a patient remembers, so a wording difference by itself does not establish an error. Look for whether the bill appears to cover the same visit or service as the claim on the EOB. If it does not, note exactly what differs: perhaps the date, provider name, or service description. If the EOB includes several services, compare the relevant lines rather than treating the statement as one undivided total. This is a matching exercise, not an attempt to interpret clinical coding from scratch. When the description is unclear, add it to the question list for the provider or insurer instead of filling in the meaning yourselves."
+    ],
+    [
+      "Second line: separate the amounts",
+      "The figures on an EOB can refer to different stages of the claim. The provider charge is what was submitted; the allowed amount is the amount the plan recognizes under its rules; the insurer payment is what the plan paid; and the patient-responsibility figure is what the plan says may be owed by the patient. Do not assume the provider charge is the amount due, or that the insurer’s patient-responsibility number reflects money already paid directly to the provider. CMS notes that an EOB may not account for amounts already paid, and advises that the provider bill should not be higher than the EOB’s patient balance. Compare corresponding figures and write down any unexplained difference. [1]"
+    ],
+    [
+      "Third line: turn a mismatch into a question",
+      "Keep the question precise and neutral. For example: Does this bill include a payment we already made? Was the claim processed for the service date shown here? How did the plan calculate the patient-responsibility amount? If the bill’s services or amount do not appear to match, ask the provider for clarification; if the concern is how the plan processed the claim, contact the insurer using the number on the relevant EOB or plan materials. The CFPB recommends checking that a medical bill is owed, reviewing charges for possible errors, asking for itemized charges when needed, and checking whether insurance was applied correctly. If affordability is part of the problem, that is also a reason to contact the provider and ask what options or assistance may be available. [3]"
+    ],
+    [
+      "If the plan denied a claim, check the notice and deadline",
+      "A denial is not resolved by comparing totals alone. Read the denial notice and the plan’s instructions to learn what decision was made, what information the plan considered, and how to challenge it. Appeal procedures and deadlines depend on the plan and the notice; avoid relying on a deadline remembered from someone else’s case. CMS explains that people may have appeal rights, and that plan documents describe the process. Some job-based plans may require another internal appeal before external review. If you decide to appeal, follow the instructions in the notice, keep a copy of what you submit, and record when it was sent. This article is general U.S. information, not individualized insurance or legal advice; coverage rules and state protections can vary. [2]"
+    ],
+    [
+      "Close the folder with one named next step",
+      "At the end of a 15-minute check, write down the claim or service date, the question that remains, who will contact the provider or insurer, and when you will check back. Keep the EOB, bill, and call notes together in a private place. During a call, note the date, the number called, the representative’s name or identification if offered, what they said, and any promised follow-up. If the matter is already clear, record that too and put the papers away. For your next review, try the same three lines—match the visit, compare the amounts, make a question list—with the person whose care and records they concern leading the process. The useful outcome is not a perfect explanation on the spot; it is a clear, agreed next move."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "How to read a health insurance explanation of benefits | CMS",
+      "authors": "Centers for Medicare & Medicaid Services",
+      "publication": "Centers for Medicare & Medicaid Services; last modified October 5, 2026.",
+      "url": "https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights/get-help/guides-resources/read-explanation-benefits",
+      "researchSourceId": "S2"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Appealing Denials | CMS",
+      "authors": "Centers for Medicare & Medicaid Services",
+      "publication": "Centers for Medicare & Medicaid Services; last modified September 10, 2024.",
+      "url": "https://www.cms.gov/CCIIO/Resources/Fact-Sheets-and-FAQs/IndexAppealingDenials",
+      "researchSourceId": "S9"
+    },
+    {
+      "sourceId": "S3",
+      "title": "What should I do if I can’t pay a medical bill? | Consumer Financial Protection Bureau",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau; last modified October 29, 2026.",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-i-cant-pay-a-medical-bill-en-2125/",
+      "researchSourceId": "S15"
+    }
+  ],
+  "id": "three-lines-one-claim-a-two-person-eob-to-bill-check-20261117",
+  "date": "2026-11-17",
+  "editionDate": "2026-11-17",
+  "url": "article.html?id=three-lines-one-claim-a-two-person-eob-to-bill-check-20261117",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/three-lines-one-claim-a-two-person-eob-to-bill-check-20261117.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Three Lines, One Claim: A Two-Person EOB-to-Bill Check. An explanation of benefits is not a bill. A calm, shared review can help you understand what the insurer processed, what the provider is asking for, and what to clarify next.\nPeople: a couple of different ethnic backgrounds sharing a thoughtful moment. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: A warm, lived-in kitchen table with two friends seated side by side, reviewing separate health-insurance papers and writing a question in a notebook; no legible personal information appears on the documents.\nAvoid repeating these recent WILDWIRE image scenes: A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends sit together at a rehabilitation clinic table, reviewing a simple strength and mobility plan with a therapist. | Two friends sit at a bright table, each sorting their own makeup beside a small notebook and a magnifying glass. | Two friends quietly observing moths gathered near an existing porch light, one writing notes while the other takes a photograph without flash. | Two friends leaning toward a speaker as a jazz record plays, one following the music with a finger on the table.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

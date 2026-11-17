@@ -1,0 +1,80 @@
+{
+  "category": "Explore",
+  "title": "The Tide Gauge Reads Water Against Land",
+  "subtitle": "Daily Read: A two-person data walk that turns a coastal record into a careful local observation—not a forecast.",
+  "imageAlt": "Two friends at a kitchen table compare a coastal tide-gauge chart on a laptop with notes in a notebook.",
+  "imageConcept": "Two friends sit side by side at a kitchen table, one pointing to a coastal tide-gauge chart on a laptop while the other writes the station name and record dates in a notebook; a window shows a distant, understated shoreline.",
+  "body": [
+    [
+      "A coast, read from a table",
+      "You do not need to be standing at the water to explore a coastline. A tide-gauge record offers another kind of view: a long-running series of measurements that can show how the relationship between water and land has changed at one particular place. Open NOAA’s Sea Level Trends and Extremes explorer with a friend, housemate or family member, choose a coastal station, and spend a little time reading its record together. The useful outcome is not a dramatic conclusion. It is a precise one: what place the gauge represents, what period its record covers, and what the displayed data do—and do not—tell you.\n\nThis is a data walk rather than a shoreline survey. You can do it at a kitchen table, library or community space, with one person navigating and the other keeping notes. Swap roles as you go. A shared reading gives you a chance to notice how much interpretation lives in small details: a station’s location, the years included, or whether a graph describes observed levels or a longer-term trend."
+    ],
+    [
+      "First, understand what is being measured",
+      "A tide gauge measures water level relative to a defined reference point, or datum. The measurement is relative to that height reference, rather than an absolute sea-level height. NOAA describes tide gauges as instruments for measuring sea level against a reference, and notes that modern stations collect water-level observations at regular intervals [1].\n\nThat distinction is the foundation for reading the chart well. A local trend is not interchangeable with a global measure of sea-level change. Nor does one station necessarily describe every beach, inlet or neighborhood nearby. The gauge is a useful witness to conditions at its location, with a record shaped by both water and land. Keep that in mind before comparing stations or connecting a graph to a particular place you care about."
+    ],
+    [
+      "Choose a station with context",
+      "Start by finding a coastal station in the explorer. If you have a connection to a particular harbor or region, begin there; otherwise, choose a station whose location you can identify on the map. Write down its name and location before looking at the line. Then note the record span shown. A station with a long record and one with a shorter record may offer different windows onto change, so the years matter as much as the visual direction of the graph.\n\nNOAA’s National Water Level Observation Network provides present and historical water-level information, and historical observations are used to compute local relative sea-level trends [2]. That network context is helpful, but a station’s record is still a record from one site. If you are working with someone else, ask each person to describe the location in their own words before moving on. It is an easy check against quietly treating a point on a map as if it stood for an entire coast."
+    ],
+    [
+      "Read the graph in more than one timescale",
+      "Look first at the broad shape, then at the axes and labels. Does the display show observed water levels, a trend, or another view? What dates are covered? Are there seasonal or year-to-year rises and falls around the longer pattern? Let the graph answer only the question its labels support. A line that moves up and down over a short interval does not, by itself, settle what the long-term trend is; a long-term trend does not describe the water level on a particular day.\n\nSome NOAA trend analyses compare different time segments. A NOAA technical memorandum describes a split-trend approach that joins two trend segments at 1993, allowing comparison of more recent relative sea-level change with the longer record [3]. The point is not to turn the exercise into a statistical audit. It is to notice that scientists may examine different portions of a record to ask different questions. When the explorer offers several views, name which one you are looking at instead of blending them into a single, vague impression."
+    ],
+    [
+      "A 15-minute two-person data walk",
+      "Set a timer if that helps keep the exercise light. One person navigates while the other records; then switch. First, choose a station and write its name, location and record dates. Second, identify what view you are reading—observed water level, a trend or a regional view—and note any labels that clarify the units or timeframe. Third, each person independently writes one sentence about what stands out. Compare sentences and revise them together to keep the claim tied to the evidence.\n\nA useful sentence might be: “At this station, the displayed record shows a long-term relative sea-level trend over the years shown, with shorter-term variation around it.” Make it more specific only when the chart supports that specificity. If you compare with a nearby station, write down both names and record spans. Ask whether the time periods match before interpreting differences. You are not trying to rank coastlines or find the most alarming curve; you are practicing the habit of carrying place and timeframe along with a data point."
+    ],
+    [
+      "What a comparison can—and cannot—show",
+      "A second station can add perspective, especially when it is close enough to raise a meaningful local question. But proximity alone does not make two records directly comparable. Their observation periods may differ, and the land beneath each gauge may move differently. A careful comparison keeps the station names, locations and years attached to every observation. If the graphs look different, note that as a question to investigate—not proof of a single cause.\n\nIt is also worth separating a historical record from a projection. A gauge shows observations from its past record; it is not, by itself, a forecast of future water levels or a flood-risk assessment for a home, road or beach. NOAA’s data are valuable for understanding observed change, but one historical station trend should not be used alone to plan for future risk. If a practical decision is at stake, look for current local planning guidance and the relevant official sources rather than asking a station graph to answer a question it was not designed to settle."
+    ],
+    [
+      "Leave with a sentence, not a verdict",
+      "Before you close the explorer, read your notes back to each other. Can someone who did not do the activity tell which station you chose, what years you examined and what kind of view you described? If not, add the missing detail. Then mark one question the record leaves open: perhaps how nearby stations compare, what affects local land motion, or how a regional assessment treats future conditions. Keeping the question is part of good data reading; it shows where observation ends and interpretation needs more evidence.\n\nThe finished exercise can fit on a few lines: station and location; record span; view examined; one evidence-based sentence; one unanswered question. That small record makes the outing repeatable without turning it into a test. The coast is still there beyond the screen, but the gauge offers a different way to pay attention: not by guessing at what a line means, but by learning to read the place, measurement and limits together."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "What is a tide gauge?",
+      "authors": "NOAA",
+      "publication": "NOAA National Ocean Service; last updated September 23, 2026",
+      "url": "https://oceanservice.noaa.gov/facts/tide-gauge.html",
+      "researchSourceId": "S20"
+    },
+    {
+      "sourceId": "S2",
+      "title": "How does NOAA monitor water levels around the nation?",
+      "authors": "NOAA",
+      "publication": "NOAA National Ocean Service; last updated October 5, 2026",
+      "url": "https://oceanservice.noaa.gov/facts/nwlon.html",
+      "researchSourceId": "S23"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Linear split trends of relative mean sea level at CO-OPS tide gauges",
+      "authors": "Chris Zervas, David Wolcott, John Callahan, Bailey Armos, and Greg Dusek",
+      "publication": "NOAA technical memorandum NOS CO-OPS; 115; 2025",
+      "url": "https://repository.library.noaa.gov/view/noaa/71361",
+      "researchSourceId": "S52"
+    }
+  ],
+  "id": "the-tide-gauge-reads-water-against-land-20261117",
+  "date": "2026-11-17",
+  "editionDate": "2026-11-17",
+  "url": "article.html?id=the-tide-gauge-reads-water-against-land-20261117",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-tide-gauge-reads-water-against-land-20261117.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Tide Gauge Reads Water Against Land. Daily Read: A two-person data walk that turns a coastal record into a careful local observation—not a forecast.\nPeople: a couple with visibly different ages and life experience. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two friends sit side by side at a kitchen table, one pointing to a coastal tide-gauge chart on a laptop while the other writes the station name and record dates in a notebook; a window shows a distant, understated shoreline.\nAvoid repeating these recent WILDWIRE image scenes: Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends sit together at a rehabilitation clinic table, reviewing a simple strength and mobility plan with a therapist. | Two friends sit at a bright table, each sorting their own makeup beside a small notebook and a magnifying glass. | Two friends quietly observing moths gathered near an existing porch light, one writing notes while the other takes a photograph without flash. | Two friends leaning toward a speaker as a jazz record plays, one following the music with a finger on the table. | Two friends sit at a kitchen table comparing an insurance statement with a medical bill, with a notebook and pen beside them. | Two partners sit at a kitchen table reviewing a brokerage agreement, with account numbers and balances obscured.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
