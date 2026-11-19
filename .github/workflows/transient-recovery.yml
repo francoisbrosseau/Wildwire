@@ -28,7 +28,7 @@ jobs:
             echo 'Authentication, permission or quota failure requires intervention.'
             exit 0
           fi
-          if ! rg -qi 'ETIMEDOUT|ECONNRESET|ECONNREFUSED|EAI_AGAIN|socket hang up|502 Bad Gateway|503 Service Unavailable|504 Gateway|syncing_files|deployment.*timed out|main changed during generation' failed.log; then
+          if ! rg -qi 'currently overloaded|ETIMEDOUT|ECONNRESET|ECONNREFUSED|EAI_AGAIN|socket hang up|502 Bad Gateway|503 Service Unavailable|504 Gateway|syncing_files|deployment.*timed out|main changed during generation' failed.log; then
             echo 'No recognized transient error. Preserve editorial failure for investigation.'
             exit 0
           fi

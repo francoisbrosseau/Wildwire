@@ -152,6 +152,20 @@ try {
     global.fetch = async () => { calls++; return new Response(JSON.stringify({status:'incomplete',incomplete_details:{reason:'max_output_tokens'}})); };
     await assert.rejects(apiRequest({model:'test',max_output_tokens:32000},'Mock truncation cap'),/incomplete/);
     assert.equal(calls,1,'Responses still truncated at the cap cannot become accepted articles');
+    calls = 0;
+    global.fetch = async () => {
+      calls++;
+      return new Response(JSON.stringify(calls === 1 ? {status:'failed',error:{code:'server_error',message:'Our servers are currently overloaded. Please try again later.'}} : {status:'completed',output:[]}));
+    };
+    await apiRequest({model:'test'}, 'Mock terminal provider overload');
+    assert.equal(calls, 2, 'A terminal overloaded response can safely retry within the existing request cap.');
+    calls = 0;
+    global.fetch = async () => {
+      calls++;
+      return new Response(JSON.stringify({status:'failed',error:{code:'insufficient_quota',message:'Quota exceeded'}}));
+    };
+    await assert.rejects(apiRequest({model:'test'}, 'Mock terminal quota'), /Quota exceeded/);
+    assert.equal(calls, 1, 'Quota failures stop immediately.');
   } finally { global.fetch = originalFetch; }
   console.log('Editorial engine checks passed, including forged source URLs, invalid source IDs, permanent API failures, transient retries and incomplete output.');
 })().catch(error => { console.error(error); process.exitCode=1; });
