@@ -1,0 +1,84 @@
+{
+  "category": "Living",
+  "title": "The Volume Slider Is Not a Dose Meter: A Family Headphone Check",
+  "subtitle": "Additional Daily Read: A low-pressure way for three generations to compare listening settings, habits and choices—without turning a family check-in into device policing.",
+  "imageAlt": "Three family members from different generations sit around a kitchen table, each checking listening settings on a personal device.",
+  "imageConcept": "three generations of one family working together together, in a specific visual scene about “The Volume Slider Is Not a Dose Meter: A Family Headphone Check”: A grandparent, parent and teenager at a kitchen table with their own phones and headphones, comparing screens and notes in a relaxed, collaborative scene.",
+  "body": [
+    [
+      "Make it a comparison, not a checkup",
+      "Headphones are personal: one person listens to podcasts on a commute, another takes calls while walking, and a teenager may switch between music and games. A useful family conversation can make room for those differences without appointing anyone the household volume police. Invite each person to choose one device they actually use and look together at what it can tell them about listening exposure, volume limits or breaks.\n\nThe aim is practical, not diagnostic. No one has to hand over a phone, explain every listening choice or adopt another person’s setting. Each participant can share only what they want to share, and can pass. That makes the activity more useful across generations: people compare options and decide what fits their own lives, rather than treating age or device ownership as authority."
+    ],
+    [
+      "Why the slider tells only part of the story",
+      "Hearing risk depends not just on the volume setting but also on how long and how often someone listens. The World Health Organization recommends keeping device volume at no more than 60% of maximum as a broad cue, alongside monitoring exposure where possible and taking breaks. WHO recommends monitoring sound levels, including with apps or built-in safe-listening features where available [1].\n\nThat distinction changes the conversation. Instead of asking, “Is your volume below 60%?” try asking, “What does your device show, and what do you usually do when you’ve been listening for a while?” A lower setting, shorter listening stretches and quiet breaks can all be relevant choices. The point is not to find a magic number that guarantees safety; it is to notice both intensity and time."
+    ],
+    [
+      "Set up a short, fair review",
+      "Choose a calm moment when nobody is in a hurry. Each person brings a device they use for audio and, if convenient, the headphones they usually pair with it. Agree first that everyone controls their own device and decides what to show. A parent can offer help navigating menus, but the device owner should make the choices wherever possible—including a child or older adult who wants to explore independently.\n\nSet a loose limit, such as ten minutes, and take turns. Ask each person to find any listening-health, headphone-safety or sound-exposure settings. Names and menus differ, and some devices may not offer these tools. If a setting is missing or hard to locate, write down “not found” rather than assuming the person missed it. This is a look at available options, not a test of anyone’s technical skill."
+    ],
+    [
+      "Look for features, not a perfect score",
+      "The WHO-ITU safe-listening standard describes features such as tracking sound exposure over time, personalized listening information, automatic volume reduction and parental volume controls. It is a framework for device features, not a promise that every phone or headphone has them [2]. On each device, look for an exposure summary, a way to set a limit, an alert or a break reminder. Read what the control actually does before changing it.\n\nIf there is an exposure summary, note the period it covers and how the device describes its information. If there is a volume limit, ask the owner whether it would work with their usual listening. A person who needs to hear a call clearly may want a different approach from someone listening to an album at home. Parental controls can support a child’s listening, but they should be discussed openly and set in a way that respects the child’s age, needs and growing independence."
+    ],
+    [
+      "Choose one change each person can live with",
+      "After the review, invite each person to choose one small experiment—or none. One might try a lower volume for a familiar playlist; another might set a reminder to pause between episodes; someone else might turn on an exposure summary and simply observe it for a week before deciding what to change. A person who listens in noisy surroundings might consider whether a quieter place or a different way of hearing audio is workable. Keep the choice specific enough to revisit, but modest enough not to become a family rule.\n\nThe research supports treating listening habits as a public-health concern, particularly for young people, while being precise about what the numbers mean. A 2022 systematic review and meta-analysis included 33 studies covering 19,046 people ages 12–34. Its estimate of 0.67 to 1.35 billion young people potentially at risk worldwide was a modeled estimate based on unsafe listening practices—not a count of people diagnosed with hearing loss [3]. That finding is a reason to make safer options easier to discuss, not to frighten or blame a young listener."
+    ],
+    [
+      "Keep the conversation inclusive and private",
+      "A family check works best when it is not a surprise inspection. Ask before opening a device menu or adjusting a setting, and let each person decide whether to share a screen. Avoid comparing people’s exposure summaries as if they were grades: different devices, listening patterns and reporting periods can make the numbers hard to compare. If someone prefers not to take part, the family can still review its own habits without demanding an explanation.\n\nBe alert to access as well as preferences. A setting that helps one person may not suit another person’s communication needs or daily routine. Anyone who relies on headphones for calls, language access or other important purposes should be able to choose changes that work for them. If a family member wants technical help, find the device maker’s current instructions together; do not guess at what a control measures or promises."
+    ],
+    [
+      "Know when the activity should stop",
+      "This exercise can help people notice settings and habits, but it cannot assess hearing. The WHO advises seeking a hearing professional’s advice for persistent ringing in the ears or difficulty hearing [1]. If someone describes either concern, listen without trying to diagnose it or settle it by changing a device setting. They can decide whether and when to seek professional guidance; offer practical help only if it is welcome.\n\nThat boundary matters because a volume display is not a hearing test, and a family conversation cannot establish whether someone has hearing loss. The same goes for an app or a single loud listening session: neither should be treated as a definitive measure of a person’s hearing. Keep the focus on everyday choices, and leave health questions with qualified professionals."
+    ],
+    [
+      "Leave with one choice per person",
+      "Before putting the devices away, give each person a chance to name what they want to keep, change or learn more about. Write down only what they choose to share: perhaps “try the built-in break reminder,” “check the exposure summary next week,” or “leave this setting as it is.” The useful outcome may simply be learning that devices differ and that nobody has to use the same approach.\n\nIf you revisit the check, make it a new conversation rather than an inspection of whether people complied. Ask whether the chosen experiment suited the person’s actual listening, and let them change or drop it. A good family plan leaves room for individual judgment: safer listening is worth making easier, but the settings—and the decision to use them—belong to the person listening."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Deafness and hearing loss: Safe listening",
+      "authors": "World Health Organization",
+      "publication": "World Health Organization, March 6, 2026",
+      "url": "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening",
+      "researchSourceId": "S22"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Safe listening devices and systems: a WHO-ITU standard",
+      "authors": "World Health Organization",
+      "publication": "World Health Organization, September 18, 2019",
+      "url": "https://www.who.int/publications/i/item/9789241515276",
+      "researchSourceId": "S39"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Prevalence and global estimates of unsafe listening practices in adolescents and young adults: a systematic review and meta-analysis",
+      "authors": "Lauren K. Dillard, Malachi Ochieng Arunda, Lucero Lopez-Perez, Ricardo X. Martinez, Lucía Jiménez, and Shelly Chadha",
+      "publication": "BMJ Global Health, November 15, 2022",
+      "url": "https://gh.bmj.com/content/bmjgh/7/11/e010501.full.pdf?utm_source=openai",
+      "researchSourceId": "S52"
+    }
+  ],
+  "id": "the-volume-slider-is-not-a-dose-meter-a-family-headphone-check-20261119",
+  "date": "2026-11-19",
+  "editionDate": "2026-11-19",
+  "url": "article.html?id=the-volume-slider-is-not-a-dose-meter-a-family-headphone-check-20261119",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-volume-slider-is-not-a-dose-meter-a-family-headphone-check-20261119.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Volume Slider Is Not a Dose Meter: A Family Headphone Check. Additional Daily Read: A low-pressure way for three generations to compare listening settings, habits and choices—without turning a family check-in into device policing.\nPeople: three generations of one family working together. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: three generations of one family working together together, in a specific visual scene about “The Volume Slider Is Not a Dose Meter: A Family Headphone Check”: A grandparent, parent and teenager at a kitchen table with their own phones and headphones, comparing screens and notes in a relaxed, collaborative scene.\nAvoid repeating these recent WILDWIRE image scenes: Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends in a bright community gym take turns setting up a light dumbbell exercise, focusing on comfortable movement rather than comparing weights. | Two friends at a table use a small magnifier to read the stamps inside a gold ring and compare them with a product description on a phone. | An adult couple and an older family member sit together in a canoe near a quiet, sheltered shoreline, wearing life jackets and holding paddles at rest. | Two friends sit across from each other at a kitchen table, trying a borrowed ukulele and keyboard with a library case and instruction sheet nearby. | Two adult friends sit at a kitchen table, calmly reviewing a naloxone package and a short emergency plan. | Two adult siblings at a kitchen table comparing a mortgage statement with a home-loan document on a laptop | Two friends compare the same scarf worn at the neck, over the shoulders, and at the waist.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 3,
+    "issues": []
+  }
+}

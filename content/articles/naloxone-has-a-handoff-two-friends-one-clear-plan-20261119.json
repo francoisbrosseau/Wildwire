@@ -1,0 +1,83 @@
+{
+  "category": "Living",
+  "title": "Naloxone Has a Handoff: Two Friends, One Clear Plan",
+  "subtitle": "A calm, practical check of the medicine, its instructions and who does what can make an urgent moment easier to navigate.",
+  "imageAlt": "Two adult friends sit at a kitchen table, calmly reviewing a naloxone package and a short emergency plan.",
+  "imageConcept": "Two adult friends of different genders at a bright kitchen table, reading the directions on a naloxone nasal-spray package beside a phone and a simple handwritten plan; composed, everyday preparedness rather than an emergency scene.",
+  "body": [
+    [
+      "Preparedness is a conversation, not a prediction",
+      "Naloxone is often discussed in the language of emergencies. But preparing to use it can be an ordinary act of care between friends: checking what is in the package, agreeing where it will be kept and deciding how to get emergency help. That conversation does not require anyone to disclose a history, explain a private choice or be treated as a problem to solve. It is a practical plan for a medicine that may reverse an opioid overdose. The Centers for Disease Control and Prevention says anyone can carry naloxone, and describes it as one part of a response that also includes calling 911 and staying with the person [1]. The handoff matters because an urgent moment can make even familiar steps harder to remember. A short, shared plan can leave fewer decisions to improvise."
+    ],
+    [
+      "Know what naloxone can—and cannot—do",
+      "Naloxone can temporarily reverse an opioid overdose. It does not replace emergency medical care, and its effect may wear off before the opioids have left the person’s body. SAMHSA’s response toolkit notes that overdose requires immediate medical attention and that symptoms can return as naloxone wears off [2]. That is why the plan should never end at “we have a spray.” It should include calling 911, following the dispatcher’s instructions and staying with the person until help arrives. These points are not meant to turn friends into clinicians. They clarify the limits of the medicine and the importance of getting professional help. A useful plan makes room for both: act promptly with the naloxone available, and treat the situation as an emergency that needs more than the medicine alone."
+    ],
+    [
+      "Make the check specific to the package",
+      "Different products can have different directions, so do not rely on memory from a demonstration, an online video or another package. At a calm moment, put the actual product on a table and read its instructions together. Check the expiration date, confirm that the package is intact and make sure both people can locate the directions quickly. CDC advises people to understand how to use the naloxone they have; its FAQ also explains that another dose may be considered after waiting two to three minutes if the person has not responded [1]. Treat that as a prompt to read and follow the instructions for your product—not as a reason to guess at steps or timing. If anything is unclear, ask a pharmacist or a local naloxone training provider before an emergency. The aim is familiarity, not a test."
+    ],
+    [
+      "Choose a location that works in real life",
+      "A medicine that is technically in the home but hard to find is not well handed off. Together, choose a place that is accessible to the people who may need it and that fits the package’s storage directions. Avoid a hiding place known only to one person. If the product travels between home, a bag and a car, agree where it is now and where it normally returns. Make the location easy to describe aloud: “top drawer by the front door” is more useful under pressure than “somewhere in my room.” Check the date as part of an ordinary household review, and replace the product according to its labeling or local guidance when needed. Keep the package with its own directions. A plan should reflect the actual item available, not an idealized version of it."
+    ],
+    [
+      "Give each person a simple role",
+      "A two-person plan can reduce the chance that both people reach for the same task—or assume the other has done it. Agree in advance that one person will call 911 and give the location while the other retrieves and uses the naloxone, following that package’s instructions. If only one person is present, the priority is still to call emergency services and follow the dispatcher’s directions while using the medicine as directed. Make the address easy to find, especially in a building with an apartment number, a rear entrance or a confusing driveway. You can also agree on a backup: if the first person is unable to act, the other takes over without waiting for permission. This is not about assigning authority. It is a small division of work that leaves fewer questions when the situation is moving quickly."
+    ],
+    [
+      "Recognize concern and call for help",
+      "A suspected overdose may involve a person who cannot be woken or who is breathing slowly or shallowly. CDC lists these among possible signs and stresses that naloxone belongs within a broader emergency response [3]. If you suspect an overdose, call 911. Tell the dispatcher what you see, where you are and that naloxone is available; follow their instructions. Use the product according to its directions, stay with the person and keep communicating with emergency responders. If there is no response, the specific package instructions and dispatcher can guide what to do next, including whether another dose is appropriate. The details of an emergency can differ, so this article is not a substitute for hands-on training, product directions or professional guidance. It is a reason to make those resources familiar before you need them."
+    ],
+    [
+      "Keep the conversation low-pressure and repeatable",
+      "The most useful check is one that people are willing to have. A friend can start with a straightforward invitation: “Would you be comfortable looking over the naloxone plan with me?” If the answer is no, do not turn preparedness into interrogation. If the person is open to it, ask what they want shared, who should know the location and what role would feel helpful. Someone may want another person to know where the medicine is without wanting to discuss why it is present. That boundary can be respected. Revisit the plan when the product changes, its location changes or its date needs checking. If either person wants more confidence, look for local instruction from a qualified training provider. CDC’s guidance emphasizes that carrying naloxone can be part of overdose prevention for anyone; it need not serve as a label on the person carrying it [1]."
+    ],
+    [
+      "Leave the table with a plan you can say aloud",
+      "Try this once with a friend or housemate when neither of you is rushing. Put the actual package on the table, read its directions together and check its date. Agree where it will live and make sure both of you can point to that place. Then practice the handoff in one sentence: “I’ll call 911 and give the address; you’ll get the naloxone and follow its instructions.” Name what you would tell the dispatcher and agree to stay with the person while help is coming. If a detail is uncertain, write down the question and ask a pharmacist or training provider rather than filling the gap with a guess. Put the plan somewhere both people can find it, without exposing private information unnecessarily. The point is not to rehearse fear; it is to make care easier to share."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Naloxone Frequently Asked Questions",
+      "authors": "National Center for Injury Prevention and Control",
+      "publication": "Stop Overdose, April 2, 2024",
+      "url": "https://www.cdc.gov/stop-overdose/naloxone-faq/",
+      "researchSourceId": "S18"
+    },
+    {
+      "sourceId": "S2",
+      "title": "SAMHSA Overdose Prevention and Response Toolkit",
+      "authors": "Substance Abuse and Mental Health Services Administration",
+      "publication": "Substance Abuse and Mental Health Services Administration, 2023",
+      "url": "https://www.cdc.gov/overdose-prevention/media/pdfs/2024/04/SAMHSA-overdose-prevention-response-toolkit.pdf",
+      "researchSourceId": "S20"
+    },
+    {
+      "sourceId": "S3",
+      "title": "5 Things to Know About Naloxone",
+      "authors": "National Center for Injury Prevention and Control",
+      "publication": "Overdose Prevention, May 2, 2024",
+      "url": "https://www.cdc.gov/overdose-prevention/reversing-overdose/about-naloxone.html",
+      "researchSourceId": "S19"
+    }
+  ],
+  "id": "naloxone-has-a-handoff-two-friends-one-clear-plan-20261119",
+  "date": "2026-11-19",
+  "editionDate": "2026-11-19",
+  "url": "article.html?id=naloxone-has-a-handoff-two-friends-one-clear-plan-20261119",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/naloxone-has-a-handoff-two-friends-one-clear-plan-20261119.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Naloxone Has a Handoff: Two Friends, One Clear Plan. A calm, practical check of the medicine, its instructions and who does what can make an urgent moment easier to navigate.\nPeople: two adult friends of different genders. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: Two adult friends of different genders at a bright kitchen table, reading the directions on a naloxone nasal-spray package beside a phone and a simple handwritten plan; composed, everyday preparedness rather than an emergency scene.\nAvoid repeating these recent WILDWIRE image scenes: A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends in a bright community gym take turns setting up a light dumbbell exercise, focusing on comfortable movement rather than comparing weights. | Two friends at a table use a small magnifier to read the stamps inside a gold ring and compare them with a product description on a phone. | An adult couple and an older family member sit together in a canoe near a quiet, sheltered shoreline, wearing life jackets and holding paddles at rest. | Two friends sit across from each other at a kitchen table, trying a borrowed ukulele and keyboard with a library case and instruction sheet nearby.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

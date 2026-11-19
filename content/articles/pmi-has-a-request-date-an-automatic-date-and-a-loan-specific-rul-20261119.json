@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "PMI Has a Request Date, an Automatic Date—and a Loan-Specific Rulebook",
+  "subtitle": "For many conventional mortgages, asking to end private mortgage insurance and having it end automatically are different milestones. Here’s how to find the dates that matter on your own loan.",
+  "imageAlt": "Two adult siblings at a kitchen table comparing a mortgage statement with a home-loan document on a laptop",
+  "imageConcept": "A warm, realistic kitchen-table scene: two adult siblings or close friends review a mortgage statement and loan paperwork beside an open laptop, with a pen and a simple handwritten timeline marked 80%, 78%, and midpoint. The mood is collaborative and calm, not celebratory or sales-driven.",
+  "body": [
+    [
+      "The charge that can outlast its purpose",
+      "A mortgage payment can contain several different costs, and private mortgage insurance is easy to overlook among them. PMI generally applies to some conventional loans when the down payment was below 20%. It protects the lender—not the borrower—if the loan defaults. That makes it worth understanding what must happen for the charge to end, rather than assuming it disappears when the home has gained value or the loan feels well established. [1]"
+    ],
+    [
+      "Three dates, not one",
+      "For many loans covered by federal borrower-paid PMI rules, three milestones matter: the point when a borrower may request cancellation, the point when the servicer generally must terminate PMI automatically, and a midpoint backstop. The first is commonly tied to a loan balance of 80% of the home’s original value; the second to 78%; the third to the midpoint of the loan’s amortization period. Each operates differently, and none is a universal promise for every kind of mortgage insurance. [2]"
+    ],
+    [
+      "The 80% point is a request—not an automatic switch",
+      "A borrower can generally submit a written request to cancel PMI when the principal balance is scheduled to reach 80% of the home’s original value. The relevant figure is not simply what a current online estimate says the home could sell for. Check the value and cancellation terms recorded for your loan, then ask the servicer how it calculates the threshold and which date it has on file. Extra principal payments may affect when a balance reaches a threshold, but ask how your servicer treats them before relying on a date from a general calculator. [2]\n\nA request also has conditions. The borrower must be current and have a good payment history, certify that there are no junior liens, and provide evidence that the property’s value has not fallen below its original value if the servicer requires it. A request is a process to begin, not a guarantee that the charge will stop that day. Ask what documents are needed, where to send the request, and whether any property or loan-specific conditions apply. [2]"
+    ],
+    [
+      "The 78% point works differently",
+      "For covered loans, PMI generally must terminate automatically when the principal balance is scheduled to reach 78% of the home’s original value, provided the borrower is current. Unlike the 80% route, this is not ordinarily triggered by the borrower sending a cancellation request. The distinction matters: if a servicer’s records show the loan is approaching 78%, a borrower should still check the account and contact the servicer if PMI remains after the relevant date. [2][3]\n\n“Scheduled” is important. The automatic-termination date is generally based on the original amortization schedule, not on a homeowner’s estimate of present market value or an informal calculation of equity. Making extra payments may change the actual balance sooner without necessarily changing the scheduled date used for automatic termination. If the dates appear inconsistent, ask the servicer to explain its calculation in writing."
+    ],
+    [
+      "The midpoint backstop—and the exceptions",
+      "If PMI has not ended earlier, federal law provides a further termination rule at the midpoint of the loan’s amortization period, generally when the borrower is current. This backstop can matter when a loan’s balance is not on track to reach 78% by that point. It is not the same as a calendar midpoint in the time a person has owned the home: it refers to the amortization period for the loan. The legal framework also contains exceptions, so the loan documents and servicer’s explanation matter. [3]\n\nThese milestones concern covered borrower-paid private mortgage insurance, not every product people call “mortgage insurance.” FHA and VA mortgage insurance have different requirements, and different rules apply when a lender pays for the mortgage insurance. If a statement or closing paperwork uses unfamiliar terms, ask the servicer what type of coverage the loan has and which cancellation rule applies. [2]"
+    ],
+    [
+      "When rising home value enters the conversation",
+      "A homeowner may ask whether PMI can be removed under lender or servicer standards beyond the baseline legal milestones. CFPB says some lenders and servicers may allow removal under their own standards, and loan investors including Fannie Mae and Freddie Mac often have their own guidelines, which cannot be less favorable to borrowers than the legal requirements. [2]\n\nAsk the servicer to identify the rule it is applying, whether a new valuation is required, who arranges it, and who pays. A recent sale nearby, a tax assessment, or a homeowner’s own estimate may not satisfy the servicer’s requirements. Get the answer and any next steps in writing, and compare them with the mortgage documents rather than treating a general online rule as a decision on your loan."
+    ],
+    [
+      "A practical review for two people",
+      "Set aside 15 calm minutes with the mortgage statement, closing or PMI disclosure paperwork, payment history, and access to the servicer’s official contact channel. Start by identifying whether the charge is borrower-paid PMI or another form of mortgage insurance. Then find the original value and the loan’s scheduled 80%, 78%, and midpoint dates if they are disclosed. If they are not, ask the servicer to provide the applicable dates and explain how they were calculated. [2]\n\nNext, check whether payments are current and whether there are other liens or conditions that could affect a request. Write down the servicer’s exact instructions for making a written cancellation request, including the address or secure portal, required documents, and expected review process. One person can ask the questions while the other records the answers, then switch roles and read the next step back. The goal is not to predict approval from a balance alone; it is to leave with the right rule, the relevant date, and a clear route to verify what happens next."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "What is private mortgage insurance?",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau; last reviewed November 9, 2026",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-private-mortgage-insurance-en-122/?mf_ct_campaign=msn-feed",
+      "researchSourceId": "S16"
+    },
+    {
+      "sourceId": "S2",
+      "title": "When can I remove private mortgage insurance (PMI) from my loan?",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau; last reviewed August 28, 2026",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/when-can-i-remove-private-mortgage-insurance-pmi-from-my-loan-en-202/?mod=article_inline",
+      "researchSourceId": "S2"
+    },
+    {
+      "sourceId": "S3",
+      "title": "CFPB Supervision and Examination Manual",
+      "authors": "Consumer Financial Protection Bureau",
+      "publication": "Consumer Financial Protection Bureau; the PDF compilation includes November 2025 material; the Homeowners Protection Act section is marked Manual V.2 (October 2012)",
+      "url": "https://files.consumerfinance.gov/f/documents/cfpb_supervision-and-examination-manual_2025-11.pdf",
+      "researchSourceId": "S4"
+    }
+  ],
+  "id": "pmi-has-a-request-date-an-automatic-date-and-a-loan-specific-rul-20261119",
+  "date": "2026-11-19",
+  "editionDate": "2026-11-19",
+  "url": "article.html?id=pmi-has-a-request-date-an-automatic-date-and-a-loan-specific-rul-20261119",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/pmi-has-a-request-date-an-automatic-date-and-a-loan-specific-rul-20261119.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: PMI Has a Request Date, an Automatic Date—and a Loan-Specific Rulebook. For many conventional mortgages, asking to end private mortgage insurance and having it end automatically are different milestones. Here’s how to find the dates that matter on your own loan.\nPeople: two adult siblings or close friends collaborating. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: A warm, realistic kitchen-table scene: two adult siblings or close friends review a mortgage statement and loan paperwork beside an open laptop, with a pen and a simple handwritten timeline marked 80%, 78%, and midpoint. The mood is collaborative and calm, not celebratory or sales-driven.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends in a bright community gym take turns setting up a light dumbbell exercise, focusing on comfortable movement rather than comparing weights. | Two friends at a table use a small magnifier to read the stamps inside a gold ring and compare them with a product description on a phone. | An adult couple and an older family member sit together in a canoe near a quiet, sheltered shoreline, wearing life jackets and holding paddles at rest. | Two friends sit across from each other at a kitchen table, trying a borrowed ukulele and keyboard with a library case and instruction sheet nearby. | Two adult friends sit at a kitchen table, calmly reviewing a naloxone package and a short emergency plan.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
