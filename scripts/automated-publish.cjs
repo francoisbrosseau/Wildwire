@@ -430,7 +430,7 @@ function validateArticle(article, searchedSources, existing, date, pairing) {
   return count;
 }
 
-async function factCheckArticle(article, category, reviewer = reviewArticle) {
+async function factCheckArticle(article, category, { dailyRead = false, reviewer = reviewArticle, directory = runDirectory } = {}) {
   const checkedSources = [];
   const audit = [];
   let result;
@@ -441,7 +441,7 @@ async function factCheckArticle(article, category, reviewer = reviewArticle) {
     result = checked.review;
     checkedSources.push(...checked.sources);
     audit.push({ round, review: result });
-    if (runDirectory) fs.writeFileSync(path.join(runDirectory, `${category.toLowerCase()}-${dailyRead ? 'read' : 'lead'}-${slugify(article.title)}.review.json`), JSON.stringify({ article, audit }, null, 2) + '\n');
+    if (directory) fs.writeFileSync(path.join(directory, `${category.toLowerCase()}-${dailyRead ? 'read' : 'lead'}-${slugify(article.title)}.review.json`), JSON.stringify({ article, audit }, null, 2) + '\n');
     if (result.passed === true && result.checkedClaims.length >= 3) break;
     if (round === 3) break;
     const corrected = applyVerifiedCorrections(article, result);
@@ -484,7 +484,7 @@ async function makeArticle(category, date, pairing, existing, dailyRead = false,
     if (article.category !== category) fail(`Expanded draft category mismatch for ${category}.`);
   }
   article = normalizeReviewSourceIds(article);
-  const checked = await factCheckArticle(article, category);
+  const checked = await factCheckArticle(article, category, { dailyRead });
   article = checked.article;
   const allSources = uniqueSources([...researched.sources, ...checked.checkedSources]);
   const wordCount = validateArticle(article, allSources, existing, date, pairing);
