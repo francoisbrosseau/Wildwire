@@ -77,6 +77,7 @@ jobs:
           # Compatible image-instruction repair: retain already validated same-day work.
           restore-keys: |
             editorial-v2-${{ github.ref_name }}-${{ steps.edition.outputs.date }}-${{ hashFiles('scripts/automated-publish.cjs') }}-
+            editorial-v2-${{ github.ref_name }}-${{ steps.edition.outputs.date }}-5e19d576f0fa7dcb9a095f7a48c8dbd9b1b552f24e6edade0ba0e014b12da8f2-
             editorial-v2-${{ github.ref_name }}-${{ steps.edition.outputs.date }}-41c8bab1094529b61fb2cfc4b8ff8f9cf824842dbf1a4ead1f0c12cfae61830b-
             editorial-v2-${{ github.ref_name }}-${{ steps.edition.outputs.date }}-bfbf5068f3c7aa7787beeb0cae8067ba6d79b8ee877e5cf11b7a8abf8d63a1b3-
             editorial-v2-${{ github.ref_name }}-${{ steps.edition.outputs.date }}-d09b1e504fbf8c8daa828c6e976b68229ef0a042c0e6e25eb16406e3eb9b879b-
