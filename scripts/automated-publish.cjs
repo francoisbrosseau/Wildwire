@@ -268,8 +268,9 @@ async function apiRequest(payload, label) {
         if (body.status && body.status !== 'completed') {
           const truncated = body.status === 'incomplete' && body.incomplete_details?.reason === 'max_output_tokens';
           const previousLimit = payload.max_output_tokens || 8000;
-          retryable = truncated && previousLimit < 32000;
-          if (retryable) payload = { ...payload, max_output_tokens: Math.min(previousLimit * 2, 32000) };
+          const terminalTransient = body.status === 'failed' && (['server_error', 'rate_limit_exceeded'].includes(body.error?.code) || /currently overloaded/i.test(body.error?.message || ''));
+          retryable = terminalTransient || (truncated && previousLimit < 32000);
+          if (truncated && retryable) payload = { ...payload, max_output_tokens: Math.min(previousLimit * 2, 32000) };
           if (runReport) {
             runReport.requests.push({ label, status: body.status, reason: body.incomplete_details?.reason, model: payload.model, usage: body.usage || null });
             saveReport();
