@@ -1,0 +1,79 @@
+{
+  "category": "Strength",
+  "title": "When the Scale Moves, Keep Strength in the Picture",
+  "subtitle": "A randomized trial adds direct evidence that resistance training and weight change can tell different stories during tirzepatide treatment. The useful question is not only what someone weighs, but what they can do.",
+  "imageAlt": "Two friends in a bright community gym compare notes beside a chair and a pair of light dumbbells before a supervised strength session.",
+  "imageConcept": "A warm, candid scene of two adult friends in an accessible community gym, one holding a notebook while the other adjusts a light dumbbell beside a sturdy chair; welcoming rather than athleticized, with varied bodies and no visible medication branding.",
+  "body": [
+    [
+      "A different measure of progress",
+      "Weight is easy to record. Strength is more personal: carrying groceries, climbing stairs, standing from a low seat, or doing a job that matters to you. During weight loss, those outcomes do not necessarily move together. A randomized trial published in Nature Medicine offers a timely example. Over 40 weeks, 120 adults aged 50 to 70 receiving tirzepatide were assigned either to medication alone or to medication alongside three supervised resistance-training sessions each week. Average weight loss was similar in the two groups. Yet measured strength increased in the exercise group and declined in the medication-only group; the exercise group also lost less lean soft tissue, a body-composition measure that is not identical to muscle [1]. The distinction matters: the scale recorded a similar change, while other measures did not."
+    ],
+    [
+      "What one trial can—and cannot—say",
+      "The trial is direct evidence about resistance exercise alongside tirzepatide, but it is not a universal template. Participants were initially sedentary, the study took place at one center, and people with diabetes or cardiovascular disease were excluded. Its supervised schedule should not be treated as a required dose, and the result does not establish that training prevents all muscle loss or that every medication user will experience the same changes [1]. It also cannot settle what happens over longer periods or in people with different health conditions, training histories, or access to support. A useful reading is narrower: in this particular group, weight change alone did not capture the difference in strength outcomes. That is a reason to keep function in the conversation, not to turn a trial protocol into an individual prescription."
+    ],
+    [
+      "The broader pattern, with uncertainty intact",
+      "Evidence from weight loss through dietary interventions points in a similar direction, though it does not specifically test weight-loss medication. A 2025 systematic review and meta-analysis found no meaningful difference in body-weight change between groups who did and did not add resistance exercise. The exercise groups showed better preservation of fat-free mass and greater muscle strength on average [2]. The authors also reported limitations: relatively few studies, variation among them, and uncertainty in some outcomes. Taken together, the review and tirzepatide trial support a careful distinction—not a guarantee. Resistance training can be relevant to strength and body composition even when it does not make the scale fall further."
+    ],
+    [
+      "Function is more than a body-composition number",
+      "A separate 12-week trial helps widen the frame. It involved adults aged 60 and older with obesity and mobility limitations who were losing weight through dietary change, not medication treatment. Participants in supervised resistance-and-impact training improved gait speed more than those following self-directed aerobic training, while both groups lost similar amounts of body mass [3]. The study was small, and its population and intervention differ from the tirzepatide trial. Still, gait speed illustrates why practical function belongs alongside weight and body-composition measures: it describes a capacity used in everyday life. For one person, the meaningful target may be getting up from the floor; for another, it may be carrying a child or returning to a valued activity. These goals are not interchangeable, and none is a moral score."
+    ],
+    [
+      "Make a goal concrete before choosing a plan",
+      "If strength is part of your priorities, start by naming a task rather than copying a workout from a study. Try this brief planning sequence with a clinician or qualified exercise professional: first, identify one activity you would like to maintain or make easier. Next, describe what currently makes it difficult—effort, balance, discomfort, fatigue, or something else. Then ask what kind of movement and support might be appropriate for your health, experience, and circumstances. Include practical constraints: equipment, transport, cost, available time, and whether you prefer to train alone or with someone. A chair, wall, resistance band, or gym machine may each suit different people, but the right starting point depends on the person and the task. The aim is a plan you can discuss and adapt, not a test of willpower."
+    ],
+    [
+      "Build a conversation, not a prescription",
+      "Medication decisions and exercise decisions belong in a broader care conversation; this story is not a reason to start, stop, or change treatment. Before an appointment, write down what you want to preserve or do more comfortably, any current movement routine, and questions about symptoms or limitations. You might ask: Is there a type of strength work that fits my health situation? Should I work with a physical therapist or another qualified professional? What should prompt me to pause and check in? If training is considered, agree how progress will be judged—perhaps by a task, a professional assessment, or a measure selected together—rather than assuming body weight tells the whole story. The 2026 trial’s close supervision is a reminder that support and oversight were part of the study conditions, not optional details to erase when applying its findings [1]."
+    ],
+    [
+      "A small shared experiment",
+      "A friend, sibling, or partner can help make a goal easier to discuss without becoming a coach or monitor. Set aside ten unhurried minutes and ask the person whose body and treatment are involved what they want to focus on. Write down one everyday task they choose, one question they want to take to a clinician or exercise professional, and one practical barrier they would like help solving. The helper can offer a ride, accompany them to an appointment, or simply listen—only if that support is welcome. Keep the record private unless the person chooses to share it. Later, revisit the same task and ask whether it feels different, without grading the answer or treating change as proof of success or failure. Strength is not a substitute for weight-related health goals; it is another meaningful part of the picture."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Resistance exercise to attenuate lean mass loss during tirzepatide therapy for obesity: a randomized controlled trial",
+      "authors": "Daniel J. Green, Andrew Haynes, Destiny R. Underwood, Evangeline R. Winterton, Abbey A. Green, Robin M. Daly, Elena S. George, Leanne Lester, Louise H. Naylor, Graham S. Hillis, P. Gerry Fegan, and Bu B. Yeap",
+      "publication": "Nature Medicine, November 9, 2026",
+      "url": "https://www.nature.com/articles/s41591-026-04752-5?utm_source=openai",
+      "researchSourceId": "S132"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Effect of resistance exercise on body composition, muscle strength and cardiometabolic health during dietary weight loss in people living with overweight or obesity: a systematic review and meta-analysis",
+      "authors": "Ahmad Binmahfoz, Anas Dighriri, Cindy Gray, and Stuart R. Gray",
+      "publication": "BMJ Open Sport & Exercise Medicine, September 2, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40909191/?utm_source=openai",
+      "researchSourceId": "S133"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Resistance and Impact Training During Weight Loss Improves Physical Function and Body Composition in Older Adults With Obesity",
+      "authors": "Jakub Mesinovic, Anoohya Gandham, Mavil May Cervo, Paul Jansons, Costas Glavas, Michael Braude, Juan Pena Rodriguez, Barbora De Courten, Ayse Zengin, Belinda R. Beck, Peter R. Ebeling, and David Scott",
+      "publication": "Journal of Cachexia, Sarcopenia and Muscle, April 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40205689/",
+      "researchSourceId": "S15"
+    }
+  ],
+  "id": "when-the-scale-moves-keep-strength-in-the-picture-20261120",
+  "date": "2026-11-20",
+  "editionDate": "2026-11-20",
+  "url": "article.html?id=when-the-scale-moves-keep-strength-in-the-picture-20261120",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/when-the-scale-moves-keep-strength-in-the-picture-20261120.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: When the Scale Moves, Keep Strength in the Picture. A randomized trial adds direct evidence that resistance training and weight change can tell different stories during tirzepatide treatment. The useful question is not only what someone weighs, but what they can do.\nPeople: two adult siblings or close friends collaborating. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: serious, focused partners training with controlled effort; no smiling while lifting.\nScene concept: A warm, candid scene of two adult friends in an accessible community gym, one holding a notebook while the other adjusts a light dumbbell beside a sturdy chair; welcoming rather than athleticized, with varied bodies and no visible medication branding.\nAvoid repeating these recent WILDWIRE image scenes: Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "category": "Living",
+  "title": "A Borrowed Crib Needs a Paper Trail",
+  "subtitle": "Before a secondhand crib becomes part of a baby’s sleep space, check its identity, recall status, instructions, parts and mattress together.",
+  "imageAlt": "Two women partners compare a crib’s product label with information on a phone while checking the crib together.",
+  "imageConcept": "Two women partners with distinct builds and features stand beside an unassembled secondhand crib, one reading its product label while the other checks a phone and a paper manual; both are visibly involved in the inspection.",
+  "body": [
+    [
+      "A familiar-looking crib is still an unknown product",
+      "A crib passed along by family or friends can arrive with a reassuring history: it was used by someone you trust, it looks sturdy, and it may have served another baby well. But appearance and a previous owner’s experience do not establish which model it is, whether it has been recalled, or whether all its parts and instructions are present. The American Academy of Pediatrics says it recommends new cribs because used ones may not meet current standards, may be missing parts or may have been assembled incorrectly. It also advises using a mattress designed for the specific product [2]. That does not mean every secondhand crib is automatically unsafe. It means a hand-me-down deserves a check based on its exact identity and condition—not its reputation, age guessed from appearance, or the fact that it once worked for another family."
+    ],
+    [
+      "Start with the label, not the Allen key",
+      "Before assembly, ask the person offering the crib to leave it unassembled, with any paperwork and loose parts. Find the product label, usually attached to the crib itself, and record the manufacturer, model number and manufacture date. Photograph the label so the details remain legible, and take pictures of the crib and any included mattress. If the label is absent, damaged or impossible to read, pause: without a dependable model identity, it is difficult to check the right recall information or find the correct assembly instructions. Do not substitute a retailer listing or a similar-looking model as proof. Keep the photos and notes together in a shared message or household folder. That small record gives both caregivers the same starting point and makes later questions easier to resolve."
+    ],
+    [
+      "Search by model, then follow the manufacturer’s trail",
+      "Use the manufacturer and model information to search the U.S. Consumer Product Safety Commission’s crib recall notices. Compare the model and other identifying details carefully; a brand name alone can cover products with different designs. If a notice matches, follow the recall instructions and do not use the crib unless the stated remedy has been completed. If no result appears, that is one useful check—not a guarantee about the crib’s history or condition. Next, look for the manufacturer’s instructions for that exact model. If the instructions cannot be found, contact the manufacturer if it is still operating and ask whether it can identify the product and supply the correct guide. The aim is not to assemble first and investigate later: you want reliable instructions and a clear answer about the product before a baby sleeps in it."
+    ],
+    [
+      "Inventory the parts before assembly",
+      "Spread the components out in a clear space and compare them with the model’s instructions. Check that the listed hardware and structural pieces are present, and inspect for cracks, bends, splintering, damaged fasteners, improvised repairs or parts that do not match the guide. Do not use a replacement screw or a piece borrowed from another crib just because it seems to fit. If anything is missing or damaged, ask the manufacturer whether the exact replacement is available and approved for that model. If you cannot verify a part or its proper placement, stop rather than trying to solve the gap by guesswork. Once assembly begins, follow the instructions in sequence; a crib that looks complete can still be put together incorrectly. Keep the guide, label photos and any replacement-part details for future reference."
+    ],
+    [
+      "Treat the mattress as part of the crib",
+      "A mattress is not a universal add-on. The AAP evidence review says to use the mattress designed for the specific sleep product [2]. Check whether the crib’s instructions identify a particular mattress, and verify that the mattress being offered matches those requirements and is in good condition. Do not assume a mattress is suitable because it fits roughly, came with the crib, or is advertised for a similar model. If its identity or compatibility cannot be established, ask the manufacturer or choose a mattress confirmed for that crib. Once the sleep space is ready, CDC guidance supports a firm, flat surface with a fitted sheet and no soft bedding [3]."
+    ],
+    [
+      "Know what the new standard does—and does not say",
+      "The Consumer Product Safety Commission’s direct final rule states that ASTM F1169–25 would become the mandatory standard for full-size cribs on August 1, 2026, unless the Commission received a significant adverse comment and withdrew the rule. The rule includes revised requirements addressing fabric- or mesh-sided designs and entrapment risks [1]. Its effective date applies to products manufactured after that date. It does not, by itself, certify every crib made earlier, nor does it automatically establish that every older crib is disqualified. For a secondhand crib, the practical questions remain specific: What is its model and manufacture date? Is there a recall? Are the correct parts and instructions available? Does the mattress match? If an answer is uncertain, ask the manufacturer or CPSC for guidance instead of treating the date as a shortcut to a verdict."
+    ],
+    [
+      "Set up the sleep space after the checks",
+      "When the crib has passed the identity, recall, parts and mattress checks and has been assembled according to its manual, keep the sleep setup simple. CDC supports placing babies on their backs on a firm, flat surface in a safety-approved crib, with a fitted sheet and no soft bedding [3]. Blankets, pillows, stuffed toys and other loose items do not belong in the crib’s sleep space. Follow the crib’s own instructions for use and placement, and ask a pediatrician about questions specific to a baby’s health or sleep. The crib check and the sleep setup answer different questions: one concerns whether the product is identifiable and assembled as intended; the other concerns how the baby is placed to sleep. Neither should be replaced by confidence in a hand-me-down’s appearance."
+    ],
+    [
+      "Make the handoff a two-person check",
+      "Set aside ten unhurried minutes before anyone assembles the crib. One person can read the label aloud while the other records the manufacturer, model and date; switch roles for the recall search and manual lookup so both people can see what has—and has not—been confirmed. Together, inspect the parts and mattress against the instructions. Write down any open question and who will contact the manufacturer or check the official guidance. If the label, parts, assembly or mattress cannot be verified, leave the crib unused while you look for an answer; if no reliable answer is available, choose another sleep space. The useful outcome is not a passing grade for a hand-me-down. It is a shared record that makes the next decision clear, including the decision to pause."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Safety Standard for Full-Size Baby Cribs",
+      "authors": "U.S. Consumer Product Safety Commission",
+      "publication": "Federal Register, May 4, 2026",
+      "url": "https://public-inspection.federalregister.gov/2026-08632.pdf",
+      "researchSourceId": "S37"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Evidence Base for 2022 Updated Recommendations for a Safe Infant Sleeping Environment to Reduce the Risk of Sleep-Related Infant Deaths",
+      "authors": "Rachel Y. Moon, MD, FAAP; Rebecca F. Carlin, MD, FAAP; Ivan Hand, MD, FAAP; THE TASK FORCE ON SUDDEN INFANT DEATH SYNDROME; THE COMMITTEE ON FETUS AND NEWBORN",
+      "publication": "Pediatrics (2022) 150(1): e2022057991; Technical Report, June 21, 2022",
+      "url": "https://publications.aap.org/pediatrics/article/150/1/e2022057991/188305/Evidence-Base-for-2022-Updated-Recommendations-for?utm_source=openai",
+      "researchSourceId": "S72"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Providing Care for Babies to Sleep Safely | SUID and SIDS | CDC",
+      "authors": "Centers for Disease Control and Prevention",
+      "publication": "Centers for Disease Control and Prevention, updated September 17, 2024",
+      "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/",
+      "researchSourceId": "S4"
+    }
+  ],
+  "id": "a-borrowed-crib-needs-a-paper-trail-20261120",
+  "date": "2026-11-20",
+  "editionDate": "2026-11-20",
+  "url": "article.html?id=a-borrowed-crib-needs-a-paper-trail-20261120",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/a-borrowed-crib-needs-a-paper-trail-20261120.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Borrowed Crib Needs a Paper Trail. Before a secondhand crib becomes part of a baby’s sleep space, check its identity, recall status, instructions, parts and mattress together.\nPeople: two women partners with distinct builds and features. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: Two women partners with distinct builds and features stand beside an unassembled secondhand crib, one reading its product label while the other checks a phone and a paper manual; both are visibly involved in the inspection.\nAvoid repeating these recent WILDWIRE image scenes: Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends in a bright community gym compare notes beside a chair and a pair of light dumbbells before a supervised strength session. | Two friends compare the sewn-in labels of garments laid out on a table beside a phone showing a clothing brand’s product information. | Three family members beside a pond take turns spotting, photographing and recording a small shed insect skin on a waterside stem. | Two friends explore a public library makerspace, one reading a tool guide while the other looks at a display of community projects. | Two partners sit at a kitchen table in daylight, listening to each other during a calm conversation about sleep. | A couple at a kitchen table reviewing separate retirement-plan documents, with account details turned away and a pen marking a fee chart.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

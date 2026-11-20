@@ -1,0 +1,83 @@
+{
+  "category": "Finance",
+  "title": "The 401(k) Fee You May Not See on Your Statement",
+  "subtitle": "Workplace retirement costs can appear in two different places. Knowing where to look makes the comparison clearer—and gives you better questions to ask.",
+  "imageAlt": "A couple at a kitchen table reviewing separate retirement-plan documents, with account details turned away and a pen marking a fee chart.",
+  "imageConcept": "a couple with visibly different ages and life experience together, in a specific visual scene about “The 401(k) Fee You May Not See on Your Statement”: A warm, natural-light kitchen-table scene: two adults sit side by side but review their own retirement-plan materials, each with a printed comparison chart and statement. A notebook holds a short list of questions; account balances and identifying details are not visible.",
+  "body": [
+    [
+      "The charge that isn’t a charge",
+      "A retirement-plan statement can show a balance, transactions and fees deducted during the quarter—and still leave out an important part of what investing costs. Some expenses are taken directly from an account. Others are paid from a fund’s assets, reducing the returns reflected in its value rather than appearing as a separate debit on your statement. That difference is easy to miss if you look in only one place. The Department of Labor describes both investment expenses and plan-administration or individual-service fees, and notes that investment expenses may not be separately visible on an account statement [1]. The practical takeaway is simple: check your plan’s investment information and your account statement. They answer different questions."
+    ],
+    [
+      "Two kinds of cost, two places to look",
+      "Investment-related costs pay for the operation of an investment option and are generally reflected in the option’s returns. A fund’s annual operating expense, for example, is commonly stated as a percentage of assets. If a fund lists an annual expense of 0.25%, that means about $2.50 a year for each $1,000 invested, before considering changes in the value of the investment. It is an illustration of the stated rate, not a prediction of what your account will earn or lose. Other costs may apply in particular circumstances, such as a fee for a transaction or service. Separately, plan-administration expenses cover running the plan, and individual-service fees may apply when a participant uses a particular service. Depending on the plan, costs may be paid by the employer, participants, or a combination; don’t assume every disclosed cost comes out of your account [1]."
+    ],
+    [
+      "Start with the comparison chart",
+      "Look for the plan’s annual fee-and-investment comparison information. It may arrive as a separate notice or be available through the plan website or benefits portal. In plans subject to the federal disclosure rule, investment information is presented in a comparative format, intended to help participants review the available options side by side [3]. Find the annual operating expense for each option and note how it is expressed: often as a percentage and as a dollar amount per $1,000 invested. Check the time period and whether the figure refers to ongoing expenses or a separate transaction or service fee. If the disclosure points you to a prospectus or other fund document, that may provide more detail about fund expenses. SEC guidance notes that ETFs may have additional transaction fees and costs not identified in the fund’s prospectus; ask the plan administrator what additional charges could apply in your plan [2]."
+    ],
+    [
+      "Then read the quarterly statement",
+      "Next, review your account statement for charges actually deducted from your account. For covered participant-directed individual-account plans, the rule requires quarterly statements of certain administrative and individual-service charges deducted from a participant’s account, including a description of the services for which the charges were made [3]. Look for line items with labels such as administrative, account, loan, or transaction fee—but don’t rely on those examples as a complete list or assume every plan uses the same wording. Match a listed charge to the statement’s explanatory notes or the plan’s fee materials. The key distinction: a statement can show a direct deduction while not displaying the investment operating expenses already reflected in a fund’s returns. A quiet statement does not, by itself, mean there are no investment costs."
+    ],
+    [
+      "Compare costs without turning them into a verdict",
+      "A lower expense is relevant, but it does not settle whether an investment is appropriate for a particular person. Options can differ in investment approach, risk, historical performance, and the services they provide. The Department of Labor’s educational guidance urges participants to consider fees alongside factors such as risk, returns, and services—not in isolation [1]. SEC guidance similarly explains that fees reduce the money in a portfolio available to earn returns [2]. That is a reason to understand the costs, not a forecast that one option will outperform another or a recommendation to switch. For a useful comparison, make a small table: investment option; stated annual operating expense; any separately listed transaction or service charge; and questions about what the charge covers. Keep the categories distinct so a disclosed percentage is not confused with an account debit."
+    ],
+    [
+      "A focused 20-minute review",
+      "Gather the latest comparison chart, quarterly statement and any linked fund information. First, locate each investment option’s annual operating expense and record the unit—percentage, dollars per $1,000, or both. Second, circle statement entries that appear to be deductions and note the date and description. Third, look for language explaining which costs are paid by the plan, by the employer, or from participant accounts. Don’t calculate a single “total cost” by adding figures that use different time periods or apply to different services; ask the plan administrator to clarify how they relate. Finally, write down the questions that remain. Examples: “Is this fee charged to every participant or only when a service is used?” “Is this operating expense already reflected in the investment’s returns?” “Where can I find the current explanation of this charge?” Save the documents securely; a fee review does not require sharing account access."
+    ],
+    [
+      "Ask for clarity, not a sales pitch",
+      "If a number is hard to interpret, contact the plan administrator or the benefits team and refer to the exact document, line or investment option. Ask for the current fee disclosure and an explanation in plain language. If an answer describes a service fee, find out whether it is ongoing, one-time, or triggered by a particular use. If a statement appears to conflict with the comparison chart, ask which document governs that charge and whether there is an updated version. Keep a brief record of the response and the date. These disclosures are designed to make plan costs and investment information available, but the documents can still require translation into everyday terms. The aim is to understand what is charged, how it is paid, and where it appears—not to infer that a fee is improper or that a particular investment should be chosen."
+    ],
+    [
+      "Different plans, same useful habit",
+      "The federal disclosure framework discussed here applies to covered participant-directed individual-account plans under ERISA [3]. If you are unsure whether your plan is covered, ask the plan administrator. If you are unsure what kind of plan you have, ask the plan administrator rather than assuming the same requirements apply. Couples or family members can still make the review collaborative without combining finances: each person can look at their own plan materials, compare what was easy or difficult to find, and share questions—not passwords, balances or investment choices. The important discovery may be less dramatic than a new number: sometimes the clearest view of cost comes from reading two documents together."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "A Look at 401(k) Plan Fees",
+      "authors": "Employee Benefits Security Administration, U.S. Department of Labor",
+      "publication": "U.S. Department of Labor, September 2019",
+      "url": "https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/publications/401k-plan-fees.pdf?ftag=YHF4eb9d17&utm_source=openai",
+      "researchSourceId": "S119"
+    },
+    {
+      "sourceId": "S2",
+      "title": "How Fees and Expenses Affect Your Investment Portfolio – Investor Bulletin",
+      "authors": "SEC Office of Investor Education and Assistance",
+      "publication": "Investor.gov, U.S. Securities and Exchange Commission, July 23, 2025",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated",
+      "researchSourceId": "S52"
+    },
+    {
+      "sourceId": "S3",
+      "title": "eCFR :: 29 CFR 2550.404a-5 -- Fiduciary requirements for disclosure in participant-directed individual account plans",
+      "authors": "Office of the Federal Register",
+      "publication": "Electronic Code of Federal Regulations (eCFR), Office of the Federal Register; current text up to date as of November 18, 2026",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XXV/subchapter-F/part-2550/section-2550.404a-5",
+      "researchSourceId": "S114"
+    }
+  ],
+  "id": "the-401-k-fee-you-may-not-see-on-your-statement-20261120",
+  "date": "2026-11-20",
+  "editionDate": "2026-11-20",
+  "url": "article.html?id=the-401-k-fee-you-may-not-see-on-your-statement-20261120",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-401-k-fee-you-may-not-see-on-your-statement-20261120.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The 401(k) Fee You May Not See on Your Statement. Workplace retirement costs can appear in two different places. Knowing where to look makes the comparison clearer—and gives you better questions to ask.\nPeople: a couple with visibly different ages and life experience. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: a couple with visibly different ages and life experience together, in a specific visual scene about “The 401(k) Fee You May Not See on Your Statement”: A warm, natural-light kitchen-table scene: two adults sit side by side but review their own retirement-plan materials, each with a printed comparison chart and statement. A notebook holds a short list of questions; account balances and identifying details are not visible.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends in a bright community gym compare notes beside a chair and a pair of light dumbbells before a supervised strength session. | Two friends compare the sewn-in labels of garments laid out on a table beside a phone showing a clothing brand’s product information. | Three family members beside a pond take turns spotting, photographing and recording a small shed insect skin on a waterside stem. | Two friends explore a public library makerspace, one reading a tool guide while the other looks at a display of community projects. | Two partners sit at a kitchen table in daylight, listening to each other during a calm conversation about sleep.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
