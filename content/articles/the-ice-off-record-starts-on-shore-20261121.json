@@ -1,0 +1,83 @@
+{
+  "category": "Explore",
+  "title": "The Ice-Off Record Starts on Shore",
+  "subtitle": "A two-person lake observation project turns seasonal change into a useful local record—with one firm boundary: watch from shore, never use appearance to judge whether ice is safe.",
+  "imageAlt": "Two women stand at a permitted lakeshore viewpoint in winter; one frames a photograph of patchy lake ice while the other writes the date and conditions in a notebook.",
+  "imageConcept": "A documentary-style scene of two women partners with distinct builds and features at a legal, accessible shoreline viewpoint. One holds a phone steady toward the lake from the same visible landmark; the other writes in a small field notebook. Both remain clearly on shore, well back from the water, with ice and open water in the background. Natural winter light, practical clothing, no implication that they are testing the ice.",
+  "body": [
+    [
+      "A season, seen from one place",
+      "A lake can look different from one visit to the next: a dark band of water opens beside the shore, a skim of ice gathers, snow hides the surface, or wind breaks a frozen expanse into moving pieces. You do not need specialist equipment to notice that change. Choose one safe, permitted viewpoint, return to it, and keep a simple record of what is visible. Over time, the photographs and notes become a small history of one place—not a verdict about the lake as a whole.\n\nThat distinction matters. Lake scientists use defined events such as “ice-on,” the first observation of complete ice cover, and “ice-off,” the last breakup before the summer open-water phase. The definitions used by different observing programs can vary, so consistency at a particular site is more important than pretending every observer means precisely the same thing [1]. Your record can be useful without claiming more than it shows."
+    ],
+    [
+      "Decide what your words mean",
+      "Before the first visit, agree on a short vocabulary. For example: “open water” means no visible ice from your viewpoint; “patchy ice” means visible ice and open water; “continuous-looking cover” means ice appears to cover the visible surface. Add “uncertain” when snow, fog, glare, distance or another obstruction makes a confident description impossible. These are plain-language labels for what you can see, not technical measurements.\n\nIf you want to mark the apparent seasonal transitions, decide in advance how you will do so. You might record the first visit when the lake looks completely covered as your observed ice-on date, and the visit when breakup appears to have finished as your observed ice-off date. Write “observed” because you may not visit on the exact day a change happens. A record with an honest uncertainty note is better than a falsely precise date."
+    ],
+    [
+      "Choose a repeatable viewpoint",
+      "Find a legal, accessible spot on shore where you can stand comfortably and return without trespassing or approaching unstable ground. A fixed landmark—a bench, a sign or a distinctive tree—can help you frame each image in roughly the same way. Use the same general direction and, if possible, the same camera position. You are creating comparable observations, not trying to make every photograph identical.\n\nCheck practical conditions before setting out: local access rules, the weather, daylight and the route underfoot. Keep a safe distance from the water’s edge, especially where snow, slush, steep banks or changing levels make the shoreline uncertain. If the intended spot is closed or feels unsafe, skip the visit or choose another established viewpoint and note the change. Do not step onto ice to improve a photograph, take a measurement or complete the record."
+    ],
+    [
+      "Make the visit a two-person handoff",
+      "Bring a phone or camera, a notebook or shared digital note, and a way to record the date and time. At each visit, one person takes a photograph from the chosen viewpoint; the other writes the observation. Record the location, date, approximate time, your agreed ice description and anything that affects visibility—such as fresh snow, rain, fog, strong glare or an obstructed view. Switch roles next time so the record does not depend on one person’s interpretation.\n\nKeep the picture and its note together, with a simple file name or entry such as “North-shore viewpoint, 12 February, patchy ice.” Avoid altering the image in ways that could change its appearance. If you cannot visit for a stretch, leave the gap in the record. Do not fill it with a guess based on a later photograph or a weather app. The project is about what you observed, when you observed it."
+    ],
+    [
+      "Notice the transition without chasing it",
+      "Ice changes through a sequence, not a switch. One visit may show what looks like full cover; another may show open water around the edges. During breakup, a broad surface can become a shifting pattern of floes and channels. The Minnesota Department of Natural Resources describes melting from below followed by wind-driven breakup, a reminder that what looks stable from one angle can be part of a changing process [2]. Your notes can capture the visible sequence without trying to explain every cause.\n\nA useful seasonal log might include regular visits when they are convenient, plus occasional observations around the apparent transition. There is no need to visit in hazardous weather or make the schedule burdensome. A note that says “no visit this week” can explain a gap; a note that says “windy, surface difficult to read” can explain why a description is tentative. You are not responsible for catching the exact moment of freeze-up or breakup."
+    ],
+    [
+      "Keep observation separate from safety",
+      "This project is not an ice-safety assessment. A photograph cannot show thickness, hidden weak spots or how conditions vary across a lake. Maryland’s Department of Natural Resources warns that ice strength cannot be determined just by appearance and that conditions can vary across a waterbody [3]. Treat that as a hard boundary: observe from shore; do not go onto the ice for this activity, and do not use your record to advise anyone that it is safe to walk, skate, fish or travel there.\n\nThat boundary also makes the project more accessible. It can be done from a public path, a park overlook or another suitable shore location, and it does not require specialized knowledge or physical contact with the water. If you see someone in immediate danger, do not go out onto the ice after them; contact local emergency services and follow their instructions."
+    ],
+    [
+      "Compare carefully, and keep the scale local",
+      "After a few visits, look through the images in date order. What changed in the part of the lake you can see? When did open water first appear in your frame? Was snow cover making the surface hard to interpret? Those are grounded questions about your observation point. A single shoreline view cannot tell you how much of the entire lake is frozen, and a handful of visits cannot establish a long-term climate trend.\n\nLarge-scale ice records use different methods and cover defined regions and time periods; a local photograph is not interchangeable with that kind of measurement. The NSIDC database provides long-term freeze and thaw/breakup records for lakes and rivers across the Northern Hemisphere, intended to support analyses of broad spatial and long-term temporal patterns [1]. Keep your own claim modest: “From this viewpoint, the lake looked mostly open on this date.” That sentence is clear, useful and faithful to the evidence."
+    ],
+    [
+      "Leave the record ready for its next visit",
+      "For your first outing, choose one permitted shore viewpoint and agree on a simple three-part entry: date and time, visible condition, and anything that made the view uncertain. Take one photograph from a comfortable, repeatable position, then save the note with it. Before you leave, make sure both people can find the entry and know where the next one will go. On a later visit, switch photographer and note-taker; compare the new view with the old one only after recording what you see.\n\nKeep the routine small enough to repeat and easy to skip when access or weather is poor. Do not add a measurement that requires approaching or touching the ice. If you change locations, say so plainly. The value is not a perfect timeline or a dramatic conclusion. It is a careful, shared record of one lakeshore, made from solid ground."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Global Lake and River Ice Phenology Database, Version 1 USER GUIDE",
+      "authors": "NSIDC Writers",
+      "publication": "National Snow and Ice Data Center; January 2001; last updated April 2022",
+      "url": "https://nsidc.org/sites/default/files/g01377-v001-userguide_1_1.pdf",
+      "researchSourceId": "S11"
+    },
+    {
+      "sourceId": "S2",
+      "title": "How Lake Ice Melts",
+      "authors": "Minnesota Department of Natural Resources",
+      "publication": "Minnesota Department of Natural Resources, January 29, 2025",
+      "url": "https://www.dnr.state.mn.us/climate/summaries_and_publications/ice_out_description.html",
+      "researchSourceId": "S34"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Marylanders Should Practice Ice Safety Awareness As Temperatures Drop",
+      "authors": "Maryland Department of Natural Resources",
+      "publication": "Maryland Department of Natural Resources, January 23, 2026",
+      "url": "https://news.maryland.gov/dnr/2026/01/23/marylanders-should-practice-ice-safety-awareness-as-temperatures-drop/",
+      "researchSourceId": "S65"
+    }
+  ],
+  "id": "the-ice-off-record-starts-on-shore-20261121",
+  "date": "2026-11-21",
+  "editionDate": "2026-11-21",
+  "url": "article.html?id=the-ice-off-record-starts-on-shore-20261121",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-ice-off-record-starts-on-shore-20261121.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Ice-Off Record Starts on Shore. A two-person lake observation project turns seasonal change into a useful local record—with one firm boundary: watch from shore, never use appearance to judge whether ice is safe.\nPeople: two women partners with distinct builds and features. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: A documentary-style scene of two women partners with distinct builds and features at a legal, accessible shoreline viewpoint. One holds a phone steady toward the lake from the same visible landmark; the other writes in a small field notebook. Both remain clearly on shore, well back from the water, with ice and open water in the background. Natural winter light, practical clothing, no implication that they are testing the ice.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two adults encourage a child trying a climbing structure in a neighborhood playground, with space for other children to play nearby. | Two friends at a table compare a hair-color reference image with swatches while one leads the conversation and the other listens.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
