@@ -1,0 +1,84 @@
+{
+  "category": "Explore",
+  "title": "The River Has a Wider Footprint",
+  "subtitle": "Additional Daily Read · A two-person map walk for noticing the landscape beyond the visible channel",
+  "imageAlt": "Two friends pause at a permitted riverside overlook, comparing a park map with the broad, low ground beside the river.",
+  "imageConcept": "Two friends at a marked public-trail overlook beside a meandering river, one holding a folded park map while the other writes in a small notebook; the river, a curving side channel, and a broad vegetated lowland are visible, with no one near the water’s edge.",
+  "body": [
+    [
+      "Start with the ground beyond the water",
+      "A river can look like a line on a map and a channel from a bridge. But the land that matters to it may extend well beyond the banks visible on an ordinary day. A floodplain is generally a relatively flat area beside a river or stream where floodwater can spread and deposit sediment; river landscapes may also include features such as oxbows, natural levees, point bars and terraces [1]. These are clues to a moving system, not a field test for whether a particular place will flood. A short walk can make the river’s larger shape easier to notice, provided you keep the difference clear between what you see and what you can conclude."
+    ],
+    [
+      "Why a map helps you see more",
+      "Choose a public park, reserve or other river corridor with a designated trail and a map that shows land contours, water features or aerial imagery. Before setting out, check the park’s access rules and current conditions. On the map, look for a broad low area beside the channel, a curved waterbody, or a former channel shape that no longer appears to connect directly to the river. These shapes can suggest how water has moved or might move under some conditions, but a map alone cannot confirm their history or present-day connection. Floodplain connections are not necessarily constant: a Willamette River review distinguishes a broader historical floodplain from a narrower functional floodplain shaped by modern flow and sediment conditions [2]. The lesson is to read the map as a starting question, not a verdict."
+    ],
+    [
+      "Make the walk a two-person investigation",
+      "Give each person a different job. One carries the map and notes what it suggests: “The low ground appears to continue behind the bend.” The other records what is actually visible from the trail: “There is a shallow, vegetated depression beyond the trees.” Keep those statements separate. If you are walking alone, make two columns in a notebook and switch between them. Choose two or three stops along the same permitted route rather than trying to cover the whole river corridor. At each stop, note the location, the time and the view’s limits: perhaps trees block the far edge, or the trail sits too high to see a dip in the land. That small discipline protects the pleasure of discovery from turning a plausible clue into an unsupported claim."
+    ],
+    [
+      "Look for shape, not a single telltale sign",
+      "From a safe viewpoint, scan the land beside the channel. Does it appear broad and relatively level before rising? Does a curved depression echo the bend of the river? Is there a low area with wetland plants, standing water or a small side channel? These observations may help you ask better questions about the river’s footprint. None proves that the feature is an oxbow, that it connects to the river, or that it floods. Vegetation can reflect many conditions, and visible water can change with season and weather. A floodplain is also more than a collection of landforms: water, sediment, nutrients and organisms can move across it at different scales and times. Research on floodplains describes these connections as varied processes, not a fixed line that can be read from one visit [2]."
+    ],
+    [
+      "Notice what a flood can leave behind",
+      "Floodwater may carry sediment out of the channel and deposit it across adjoining land. That process helps shape a floodplain over time, although the evidence may be subtle or obscured by vegetation, roads and other changes. A U.S. Geological Survey study of a reconnected area along the Maquoketa River in Iowa examined sediment and nutrient retention from 2013 to 2018. The report concluded that even a small river–floodplain connection could improve water quality in the Upper Mississippi River [3]. It is a specific result from a particular site, not a guarantee about every floodplain. For a walker, it offers a useful perspective: land beside a river may participate in river processes even when it is dry and quiet during the visit. The landscape’s value is not limited to the water you can see."
+    ],
+    [
+      "Keep clues separate from flood-risk advice",
+      "A curved channel, low ground or lush strip of vegetation is not a flood-risk assessment. Flooding depends on conditions and local factors that a casual walk cannot measure, and a visible landscape feature cannot tell you whether a home, road or campsite is safe. If your purpose is to understand a property’s or route’s flood hazard, use the relevant official flood information and local guidance, or consult an appropriate professional. For this walk, avoid interpreting the map as a prediction and do not use the outing to test a crossing. Stay on designated routes, obey closures and turn back if weather or trail conditions change. Never enter floodwater or approach a swollen river to get a better view; water can be dangerous even when it looks shallow or still."
+    ],
+    [
+      "A simple route for your first visit",
+      "Before leaving, save or print the park map and agree on a short loop or out-and-back route that stays on open, marked paths. Bring water, a pencil and a notebook or phone for notes; a camera is optional. At the first stop, sketch the river’s visible bend and mark where you are standing. At the next, compare the map’s low areas or curved features with what you can see, recording each as either a map clue or a direct observation. At the final stop, read your notes aloud to one another. Add question marks where the evidence is incomplete: Is that depression connected? Could the trees be hiding a channel? What would an aerial image or park interpreter help clarify? Finish by checking that the route back remains open and safe."
+    ],
+    [
+      "Let the map keep its question marks",
+      "After the walk, choose one observation you can describe without interpretation—“the ground beyond the bend looks flatter,” for instance—and one question you would need better evidence to answer. Compare your notes with the map, then leave unresolved features unresolved. If the park offers interpretive signs, visitor-center materials or guided walks, those can add local context; a hydrologic map or expert assessment may be needed for more technical questions. The point is not to identify every landform correctly. It is to leave with a wider picture of the river: a channel within a landscape, shaped by movement that may be visible only in certain places or at certain times."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "River Systems and Fluvial Landforms",
+      "authors": "National Park Service",
+      "publication": "National Park Service, Geology; February 16, 2022",
+      "url": "https://home.nps.gov/subjects/geology/fluvial-landforms.htm",
+      "researchSourceId": "S10"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Geomorphic and Vegetation Processes of the Willamette River Floodplain, Oregon—Current Understanding and Unanswered Questions",
+      "authors": "J. Rose Wallick, Krista L. Jones, Jim E. O’Connor, Mackenzie K. Keith, David Hulse, and Stanley V. Gregory",
+      "publication": "U.S. Geological Survey, Open-File Report 2013–1246; December 5, 2013",
+      "url": "https://pubs.usgs.gov/of/2013/1246/",
+      "researchSourceId": "S33"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Sediment and Nutrient Retention on a Reconnected Floodplain of an Upper Mississippi River Tributary, 2013–2018",
+      "authors": "Lynn A. Bartsch, Rebecca M. Kreiling, Lance R. Gruhn, Jessica D. Garrett, William B. Richardson, and Greg M. Nalley",
+      "publication": "U.S. Geological Survey, Scientific Investigations Report 2022–5030; August 4, 2022",
+      "url": "https://pubs.usgs.gov/publication/sir20225030",
+      "researchSourceId": "S38"
+    }
+  ],
+  "id": "the-river-has-a-wider-footprint-20261122",
+  "date": "2026-11-22",
+  "editionDate": "2026-11-22",
+  "url": "article.html?id=the-river-has-a-wider-footprint-20261122",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-river-has-a-wider-footprint-20261122.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The River Has a Wider Footprint. Additional Daily Read · A two-person map walk for noticing the landscape beyond the visible channel\nPeople: two men friends with different backgrounds. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: Two friends at a marked public-trail overlook beside a meandering river, one holding a folded park map while the other writes in a small notebook; the river, a curving side channel, and a broad vegetated lowland are visible, with no one near the water’s edge.\nAvoid repeating these recent WILDWIRE image scenes: Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | A woman with Parkinson’s and a friend review a simple strength-training plan at home, with a sturdy chair and light weights nearby. | Two friends browse contemporary garments together, looking closely at a jacket’s cut and fabric on a clothing rack. | Two friends stand together on a marked dune boardwalk, comparing a small sketchbook to the grasses and low sand mounds visible beyond the railing. | Two friends pause at a museum entrance to read an admission sign and check details on a phone before going inside. | Two women partners sit together at a kitchen table, each holding a phone as they save a poison-help contact and check a shared note. | Two friends sit at a kitchen table, comparing a credit report with a folder of account records and a notebook.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "category": "Explore",
+  "title": "A Dune Is Built in Small Patches",
+  "subtitle": "From a boardwalk, follow the quiet exchange between coastal plants and moving sand—and learn why one visit can show a pattern, but not deliver a verdict.",
+  "imageAlt": "Two friends stand together on a marked dune boardwalk, comparing a small sketchbook to the grasses and low sand mounds visible beyond the railing.",
+  "imageConcept": "a woman and a man who are partners, with grounded attainable appearances together, in a specific visual scene about “A Dune Is Built in Small Patches”: A woman and man in ordinary outdoor clothes pause together on a public dune boardwalk or viewing platform, one holding a shared sketchbook as they look toward patches of grass and small sand mounds. Keep the marked route visible and the landscape central; no technical gear, staged restoration work, or footprints in protected vegetation.",
+  "body": [
+    [
+      "The landscape at your feet",
+      "A coastal dune can look like a single broad landform from a distance. From a boardwalk, it resolves into smaller features: a tuft of grass, a shallow hollow, a low mound, a strip of bare sand. Those details invite a different kind of looking. Instead of asking whether a dune is stable or healthy, ask where plants and small changes in the sand appear together—and where they do not.\n\nThat is a modest question, but it opens onto a real ecological process. Dune shape emerges from relationships among vegetation, wind, available sand and local conditions. A plant may influence the movement of sand around it, while the sand and conditions around the plant affect whether it establishes and grows. The visible landscape is not a simple diagram with one cause and one result."
+    ],
+    [
+      "How a small patch can matter",
+      "Where vegetation grows, stems and leaves can interrupt wind near the surface and affect how sand moves. Sand may accumulate around or among plants, producing small differences in height and shape. Those differences can, in turn, alter the conditions nearby. The process is not necessarily uniform: a dune’s surface can contain many patches with different amounts of vegetation and exposed sand.\n\nResearch on American beachgrass examined early foredune formation in both a wind tunnel and a field setting, looking at plant-and-sand relationships at different levels of ecological complexity [1]. The study gives a basis for paying attention to small mounds and vegetation patterns, not a universal rule for interpreting every mound you see. A particular feature may have more than one explanation, and a single visit cannot reveal how it formed."
+    ],
+    [
+      "The setting changes the story",
+      "A grass clump does not build a dune by itself. Wind exposure, the amount of sand available, beach shape and the species present all help shape what can happen. Along North Carolina’s Outer Banks, researchers found relationships between foredune shape, sand supply and dune-grass species density [2]. The point is not that one factor wins everywhere; it is that vegetation is part of a system with other moving parts.\n\nA study in the Netherlands likewise examined where seedlings established and tested conditions associated with their establishment. Its findings underscore that dune initiation depends on context, rather than following a single visual recipe [3]. These studies concern distinct coasts and research questions. Together, they make a useful case for careful observation: look for patterns, but resist turning them into a rule that travels unchanged from one beach to another."
+    ],
+    [
+      "Try a two-person dune sketch",
+      "Choose a public overlook or marked boardwalk where you can see a patch of dune without leaving the route. You do not need a species guide, measuring equipment or an app. A notebook and pencil are enough. First, take in a small, clearly bounded view. On the page, draw a loose outline of the visible area rather than trying to reproduce it accurately.\n\nMark a few places where plants are growing, then note the small mounds, hollows and bare patches around them. Use simple symbols—a dot for vegetation, a short line for exposed sand, a curve for a visible rise. Add the date and the general conditions you notice, such as whether the sand looks exposed or the grasses appear to move in the wind. Avoid estimates that imply precision you do not have. This is a record of what you can see from one place, at one moment."
+    ],
+    [
+      "Compare what each person notices",
+      "If you are with someone, have one person describe the pattern they see while the other listens and adds a separate set of marks. Then switch roles. One person may notice that plants cluster near a low rise; the other may see similar plants in flatter or more exposed areas. Keep both observations on the page rather than arguing for a single interpretation.\n\nNext, compare the two sketches. Where did you agree? Which details did one of you notice first? Did either sketch leave out bare areas or patches of vegetation? This simple comparison can reveal how quickly a landscape becomes a story in the observer’s mind. The purpose is not to reach a scientific conclusion from a boardwalk. It is to distinguish the visible evidence—“grass here, bare sand there”—from an explanation that would need more information."
+    ],
+    [
+      "What the sketch cannot tell you",
+      "A snapshot cannot show how much sand has moved, whether a plant is newly established, or what the same patch looked like after a storm or a season of growth. It cannot identify the species with confidence or tell you whether a dune is gaining or losing ground. Even a pattern that seems clear may have several causes, and the studies behind this feature used methods and study sites that are not interchangeable with a casual visit.\n\nSo keep the language of your notes precise. “Several grass clumps sit beside small rises” records an observation. “The grass created the rises” proposes a cause. That might be a useful question for further study, but the view alone does not establish it. If you return later, you can compare sketches and ask whether the visible arrangement changed. Even then, changes in weather, season, viewpoint and sand supply may complicate the comparison."
+    ],
+    [
+      "Stay on the route, leave the plants alone",
+      "A marked boardwalk is not merely a convenient place to stand; it helps keep visitors from trampling vegetation and disturbing the surface they came to observe. Follow posted access rules, use designated overlooks, and do not step onto the dune to get a closer look or make a better sketch. Keep children and pets on the permitted route, and leave plants, sand and drift material where they are.\n\nYou can still make a thoughtful record from a limited view. Choose a consistent patch, note the viewpoint, and draw only what is visible. If the view is partly blocked, mark that rather than filling in what you cannot see. An honest sketch includes uncertainty. The same restraint applies to labels: unless you know a plant, call it vegetation or grass rather than assigning a species name."
+    ],
+    [
+      "Leave with a question, not a verdict",
+      "Before you go, look once more at your page. Choose one detail that is now easier to notice than it was at first: a mound beside a plant, a bare gap within a vegetated patch, or a change in the surface from one part of the view to another. Ask your companion what caught their attention and whether their sketch tells a different story. There is no need to make the two records match.\n\nThe useful result is a more attentive way of seeing a dynamic landscape. Plants and sand can shape one another, but the balance varies from place to place and over time. From the boardwalk, you can observe the small-scale patterns and stay curious about their causes. That is enough for one visit—and a good reason to look again without mistaking a glimpse for a diagnosis."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "The onset of coastal foredune formation at variable levels of ecological complexity",
+      "authors": "Bianca R. Charbonneau, Julie C. Zinnert, John Wnek, Amy Williams, Eric McGivney, Kailey Matthews, Alexander Sabo, and Stephanie M. Dohner",
+      "publication": "Frontiers in Ecology and Evolution, January 14, 2026",
+      "url": "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2025.1691144/full",
+      "researchSourceId": "S54"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Sand supply and dune grass species density affect foredune shape along the US Central Atlantic Coast",
+      "authors": "Katya R. Jay, Sally D. Hacker, Paige A. Hovenga, Laura J. Moore, and Peter Ruggiero",
+      "publication": "Ecosphere, October 3, 2022",
+      "url": "https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.4256",
+      "researchSourceId": "S33"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Narrowing down dune establishment drivers on the beach",
+      "authors": "Jan-Markus Homberger, Sasja van Rosmalen, Michel Riksen, and Juul Limpens",
+      "publication": "Biogeosciences, March 7, 2025",
+      "url": "https://bg.copernicus.org/articles/22/1301/2025/",
+      "researchSourceId": "S55"
+    }
+  ],
+  "id": "a-dune-is-built-in-small-patches-20261122",
+  "date": "2026-11-22",
+  "editionDate": "2026-11-22",
+  "url": "article.html?id=a-dune-is-built-in-small-patches-20261122",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/a-dune-is-built-in-small-patches-20261122.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Dune Is Built in Small Patches. From a boardwalk, follow the quiet exchange between coastal plants and moving sand—and learn why one visit can show a pattern, but not deliver a verdict.\nPeople: a woman and a man who are partners, with grounded attainable appearances. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: a woman and a man who are partners, with grounded attainable appearances together, in a specific visual scene about “A Dune Is Built in Small Patches”: A woman and man in ordinary outdoor clothes pause together on a public dune boardwalk or viewing platform, one holding a shared sketchbook as they look toward patches of grass and small sand mounds. Keep the marked route visible and the landscape central; no technical gear, staged restoration work, or footprints in protected vegetation.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | A woman with Parkinson’s and a friend review a simple strength-training plan at home, with a sturdy chair and light weights nearby. | Two friends browse contemporary garments together, looking closely at a jacket’s cut and fabric on a clothing rack.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

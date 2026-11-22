@@ -1,0 +1,79 @@
+{
+  "category": "Living",
+  "title": "The Poison Number Belongs in Both Phones",
+  "subtitle": "A ten-minute plan can make it easier to reach expert help—and avoid guessing—if someone may have been exposed to a harmful substance.",
+  "imageAlt": "Two women partners sit together at a kitchen table, each holding a phone as they save a poison-help contact and check a shared note.",
+  "imageConcept": "Two women partners with visibly distinct builds and features sit side by side at a lived-in kitchen table, each using her own phone while one checks a short written plan. The scene feels calm and practical, with no children, medicines or hazardous products in view.",
+  "body": [
+    [
+      "Preparedness is about the next call",
+      "A possible poisoning can leave people unsure what matters first: the substance, the amount, the timing, or whether symptoms are serious enough to act. In that uncertainty, it is easy to search the web, try a home remedy or wait to see what happens. A better plan is simpler: know how to reach an expert, and agree that you will ask for guidance rather than guess.\n\nIn the United States, Poison Help connects callers to the poison center serving their area. The CDC lists the number as 1-800-222-1222 and identifies PoisonHelp.org as an online option [1]. The CDC says PoisonHelp.org’s interactive tool asks users questions about their exposure, and that poison centers help with poisoning emergencies [1].\n\nThis is a readiness plan, not treatment advice. It is useful for partners, housemates, friends, relatives or anyone who might be the first to notice an exposure."
+    ],
+    [
+      "Why make it a two-person plan",
+      "The practical aim is not to predict every accident or turn the home into a catalogue of possible hazards. It is to make the next step findable when someone is worried and attention is divided. If one person is handling the situation, the other can locate the number, open the online tool or help keep the relevant package nearby. A simple division of effort may be more useful than expecting one person to remember everything.\n\nAccidental exposure can happen in different ways, including swallowing something or contact with skin or eyes; chemical emergencies may also involve breathing something in. The AAP describes different types and methods of poisoning as requiring different, immediate treatment, which is one reason not to assume that the same response fits every case [2]. A poison-control professional can ask about the specific substance and circumstances and give case-specific direction.\n\nThe plan should work for the people who share responsibility, whatever their relationship or household looks like. No one has to be a parent, a designated caregiver or the “calm one” to take part."
+    ],
+    [
+      "Save the contact while things are calm",
+      "Set aside about ten unhurried minutes. Each person should save 1-800-222-1222 in their own phone under a clear name such as “Poison Help.” Then check that the contact is saved and that either person can find it without scrolling through old messages. Saving it in both phones matters: the person who notices an exposure may not be the person who usually makes calls, and one phone may be out of reach or out of battery.\n\nNext, open PoisonHelp.org and bookmark it on both devices. The CDC lists the website as an online option alongside the hotline [1]. Do not rely on a search result you would have to locate under pressure when the official address can be saved in advance. If either person has accessibility needs, check that the contact and website are usable in the way they normally communicate, and decide on another route if they are not.\n\nFinally, test the handoff: each person puts their phone away, then finds the saved contact and bookmark again. The purpose is not a quiz. It is to catch a small setup problem now rather than during a stressful moment."
+    ],
+    [
+      "Agree on the rule: get guidance, don’t improvise",
+      "Write one shared sentence somewhere both people can find it: “If we suspect an exposure, we’ll contact Poison Help for instructions.” That agreement is the heart of the plan. It replaces a vague expectation to “be careful” with a clear next move—and makes it less likely that one person will feel they must decide alone whether a substance is dangerous.\n\nAvoid using a remembered remedy as a substitute for expert advice. MedlinePlus cautions against inducing vomiting and against waiting for symptoms when poisoning is suspected [3]. That does not mean every exposure calls for the same action; it means that uncertainty belongs with a qualified source, not with guesswork. If an expert gives instructions, follow those instructions rather than adding a second, unverified step.\n\nIf there is an emergency sign—such as someone being unconscious, not breathing or having a seizure—call 911. The American Academy of Pediatrics gives those examples as reasons to call emergency services [2]. Do not delay an emergency call to finish the household plan or look something up."
+    ],
+    [
+      "Make the call easier to make",
+      "In a real incident, start with the saved number or official online help option and describe what is known. If the product or substance has a container or label, keep it nearby if doing so is safe; MedlinePlus advises taking the container to the hospital if possible [3]. A label can help identify what is involved, but it does not replace advice from Poison Help.\n\nIf two people are present, one can contact Poison Help while the other stays with the affected person, gathers the package or label, and listens for any information that needs to be repeated. If you are alone, make the call yourself and follow the instructions you receive. Do not assume that an exposure is harmless because a person feels fine at that moment: MedlinePlus specifically cautions against waiting for symptoms [3].\n\nThe advice may be to take a particular next step or seek emergency evaluation. Poison Help experts can provide further instructions; MedlinePlus says a person may need to go to the emergency room after first aid [3]."
+    ],
+    [
+      "Keep the plan light and current",
+      "A useful plan fits on a small card or in a shared, easy-to-find note. Include the Poison Help number, the PoisonHelp.org bookmark reminder, and the emergency instruction to call 911 for severe signs such as unconsciousness, not breathing or seizures [2]. Keep the note somewhere both people can access, without putting private medical details in a place others can see.\n\nReview the contact if you change phones or discover that the saved information is hard to find. You do not need to schedule elaborate drills or rehearse frightening scenarios. A quick check when you update other important contacts is enough to confirm that both phones still have the number and the official site is still bookmarked. The point is readiness, not anxiety: once the route is clear, you can put the plan away and get on with ordinary life."
+    ],
+    [
+      "Try the phone handoff, not a mock emergency",
+      "At your next calm moment, sit together with both phones and a blank note. Each person independently finds the saved number and opens the bookmark; then decide where the note will live so either of you can reach it. Take a minute to agree that a suspected exposure means contacting Poison Help rather than trying a remedy or waiting for symptoms. You can also name who would call 911 if someone were unconscious, not breathing or having a seizure. Finish by putting the phones back where they normally live. The plan should be easy to use in real life, not just easy to demonstrate at the table."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "National Chemical and Radiological Surveillance Program",
+      "authors": "National Center for Environmental Health",
+      "publication": "CDC, May 15, 2024; updated August 21, 2026",
+      "url": "https://www.cdc.gov/chemical-radiological-surveillance/php/about/",
+      "researchSourceId": "S61"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Poison Prevention & Treatment Tips for Parents",
+      "authors": "American Academy of Pediatrics",
+      "publication": "HealthyChildren.org, April 3, 2026",
+      "url": "https://www.healthychildren.org/english/safety-prevention/all-around/Pages/Poison-Prevention.aspx",
+      "researchSourceId": "S22"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Poisoning first aid",
+      "authors": "Jesse Borke, MD, CPE, FAAEM, FACEP (updated by); David C. Dugdale, MD, Brenda Conaway, and the A.D.A.M. Editorial Team (reviewers)",
+      "publication": "MedlinePlus Medical Encyclopedia, January 8, 2025",
+      "url": "https://www.medlineplus.gov/ency/article/007579.htm",
+      "researchSourceId": "S37"
+    }
+  ],
+  "id": "the-poison-number-belongs-in-both-phones-20261122",
+  "date": "2026-11-22",
+  "editionDate": "2026-11-22",
+  "url": "article.html?id=the-poison-number-belongs-in-both-phones-20261122",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-poison-number-belongs-in-both-phones-20261122.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Poison Number Belongs in Both Phones. A ten-minute plan can make it easier to reach expert help—and avoid guessing—if someone may have been exposed to a harmful substance.\nPeople: two women partners with distinct builds and features. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: Two women partners with visibly distinct builds and features sit side by side at a lived-in kitchen table, each using her own phone while one checks a short written plan. The scene feels calm and practical, with no children, medicines or hazardous products in view.\nAvoid repeating these recent WILDWIRE image scenes: A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | A woman with Parkinson’s and a friend review a simple strength-training plan at home, with a sturdy chair and light weights nearby. | Two friends browse contemporary garments together, looking closely at a jacket’s cut and fabric on a clothing rack. | Two friends stand together on a marked dune boardwalk, comparing a small sketchbook to the grasses and low sand mounds visible beyond the railing. | Two friends pause at a museum entrance to read an admission sign and check details on a phone before going inside.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

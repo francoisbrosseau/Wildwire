@@ -1,0 +1,80 @@
+{
+  "category": "Living",
+  "title": "The Breaker Map Is a Handoff, Not a Guess",
+  "subtitle": "Daily Read | A calm, two-person review can make a household circuit directory more useful—without turning a label check into electrical work.",
+  "imageAlt": "Two friends compare a home’s breaker directory with a handwritten list at the open panel door, leaving uncertain entries marked with question marks.",
+  "imageConcept": "A warm, lived-in hallway where two friends stand beside a closed electrical panel door, one holding a notebook while the other reads the directory; the panel cover remains closed and the mood is practical, collaborative and unhurried.",
+  "body": [
+    [
+      "A small map with a real job",
+      "The breaker directory is easy to ignore until someone needs to understand which part of the home a label refers to. A clear list can help household members communicate about the electrical system and locate a circuit when that information is needed. The useful task is not to make every line look polished; it is to make the record more truthful and easier for the next person to use.\n\nTreat the directory as a handoff between people who may know different things about the home: partners, roommates, family members, a landlord, or a future electrician. One person may recognize a room name while another remembers a past renovation. Neither memory should silently become a fact. The goal is to record what is clear, flag what is not, and keep an honest gap visible until someone qualified can resolve it."
+    ],
+    [
+      "Agree on the boundary first",
+      "Set aside ten calm minutes, a pen and a notebook or phone note. The check is limited to the panel’s normal exterior door and its directory. Do not remove the service-panel cover, reach inside, or touch internal components. The U.S. Consumer Product Safety Commission warns that opening the panel interior can expose live wires [2]. This is documentation, not a repair session.\n\nBefore you begin, agree that either person can stop the check. If the area is wet, there is standing water, visible damage, sparks, frayed wiring or a burning odor, do not investigate or approach the panel. CDC identifies frayed wiring, sparks, and a burning odor as electrical hazards, and says not to enter standing water to reach a main switch; when electrical equipment is wet or in or near water, it advises calling an electrician to turn off the power [3]. If you rent, follow the property’s maintenance process rather than making changes yourself."
+    ],
+    [
+      "Make the first pass together",
+      "Ask one person to read each directory entry aloud while the other records it exactly as written. Include the breaker number or position if it is shown, the existing label, and a simple status: clear, unclear, or not confirmed. Do not replace an awkward label with a confident-sounding guess. “Possibly hall lights—uncertain” tells the next person more than “hall lights” if nobody has established that connection.\n\nThen add only what you both know without testing: for example, that a label names a room that no longer exists, or that a recent renovation may have changed the layout. Keep observations separate from interpretations. If you disagree, record the disagreement or mark the entry for follow-up. A shared list is most useful when it preserves the limits of what its authors know."
+    ],
+    [
+      "Give each person a clear role",
+      "A simple division of labor reduces the chance that one person’s assumptions become the household record. The reader can focus on the printed directory; the recorder can ask, “Do we know that, or are we inferring it?” Then switch roles halfway through. This is a small but meaningful way to check the list from two perspectives.\n\nThis Old House describes a two-person method for identifying circuits and recommends recording results and using specific labels [1]. For this review, borrow the value of shared documentation, not the idea that every uncertain line must be tested on the spot. Don’t switch breakers as part of this exercise. Appliances, alarms, medical equipment and other household needs can make power interruptions consequential, and an unclear circuit is a reasonable reason to seek professional help. The record can say “needs electrician verification” and still be useful."
+    ],
+    [
+      "Write for the person who arrives later",
+      "A good handoff is specific, legible and dated. On your separate note, record the home or unit, the date of the review, who participated, and the wording of each unclear entry. If you know a label is outdated, preserve the original wording and add a note rather than silently erasing its history. If you cannot read a label, write “illegible” instead of supplying a likely answer.\n\nKeep the note somewhere household members can find it, but don’t put private access information in a public-facing spot. If you rent, share the relevant uncertainty with the landlord or property manager and keep a copy of the message. If an electrician is involved, give them the list and ask them to confirm or update the directory as part of appropriate work. The distinction matters: your review documents questions; it does not establish which circuit controls a fixture."
+    ],
+    [
+      "Know when the list is finished",
+      "A useful review may end with several unanswered lines. That is not failure; it is a clear result. Stop when the directory is legible enough to transcribe, when you have noted the entries that need attention, or whenever either person feels unsure about continuing. Do not use a household check to diagnose buzzing, heat, repeated breaker trips, damaged wiring or other electrical problems. Those are reasons to contact a qualified electrician, not clues to pursue behind the panel door.\n\nIf the circuit directory is already clear, the shared check can still confirm that both people know where its current copy is kept and who should be contacted if it needs professional attention. This Old House says a labeled panel can help people quickly identify circuits during power outages or repairs [1]. That benefit depends on a label being dependable—not merely neat."
+    ],
+    [
+      "Leave the directory with honest blanks",
+      "Before putting the notebook away, read the uncertain entries back to each other. Choose one next step for each: leave it marked, send a maintenance request, or ask an electrician to verify it. Write down who will take that step and where the record will live. If no action is needed today, say so plainly. An honest question mark is safer and more useful than a label that gives the next person false confidence. The handoff is complete when someone else can tell what you observed, what remains unknown, and who will decide what happens next."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "How To Label a Circuit Breaker",
+      "authors": "Heath Eastman",
+      "publication": "This Old House, May 26, 2026",
+      "url": "https://www.thisoldhouse.com/electrical/how-to-label-a-circuit-breaker",
+      "researchSourceId": "S37"
+    },
+    {
+      "sourceId": "S2",
+      "title": "May Is National Electrical Safety Month: Good News for Homeowners - Aluminum Wiring Fix Still Available",
+      "authors": "U.S. Consumer Product Safety Commission",
+      "publication": "U.S. Consumer Product Safety Commission, May 1, 2003",
+      "url": "https://www.cpsc.gov/Newsroom/News-Releases/2003/May-Is-National-Electrical-Safety-Month-Good-News-for-Homeowners-Aluminum-Wiring-Fix-Still-Available",
+      "researchSourceId": "S14"
+    },
+    {
+      "sourceId": "S3",
+      "title": "What to Do to Protect Yourself From Electrical Hazards",
+      "authors": "Centers for Disease Control and Prevention",
+      "publication": "Centers for Disease Control and Prevention, May 15, 2024",
+      "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-from-electrical-hazards.html",
+      "researchSourceId": "S89"
+    }
+  ],
+  "id": "the-breaker-map-is-a-handoff-not-a-guess-20261122",
+  "date": "2026-11-22",
+  "editionDate": "2026-11-22",
+  "url": "article.html?id=the-breaker-map-is-a-handoff-not-a-guess-20261122",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-breaker-map-is-a-handoff-not-a-guess-20261122.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Breaker Map Is a Handoff, Not a Guess. Daily Read | A calm, two-person review can make a household circuit directory more useful—without turning a label check into electrical work.\nPeople: two adult friends of different genders. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: A warm, lived-in hallway where two friends stand beside a closed electrical panel door, one holding a notebook while the other reads the directory; the panel cover remains closed and the mood is practical, collaborative and unhurried.\nAvoid repeating these recent WILDWIRE image scenes: Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | A woman with Parkinson’s and a friend review a simple strength-training plan at home, with a sturdy chair and light weights nearby. | Two friends browse contemporary garments together, looking closely at a jacket’s cut and fabric on a clothing rack. | Two friends stand together on a marked dune boardwalk, comparing a small sketchbook to the grasses and low sand mounds visible beyond the railing. | Two friends pause at a museum entrance to read an admission sign and check details on a phone before going inside. | Two women partners sit together at a kitchen table, each holding a phone as they save a poison-help contact and check a shared note. | Two friends sit at a kitchen table, comparing a credit report with a folder of account records and a notebook. | Two friends pause at a permitted riverside overlook, comparing a park map with the broad, low ground beside the river.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
