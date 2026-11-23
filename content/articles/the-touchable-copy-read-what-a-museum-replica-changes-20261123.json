@@ -1,0 +1,79 @@
+{
+  "category": "Culture",
+  "title": "The Touchable Copy: Read What a Museum Replica Changes",
+  "subtitle": "A replica is more than an object visitors can handle. Its scale, surface and selected details shape the story it tells—and offer a useful way to look together.",
+  "imageAlt": "Two friends study a museum replica beside a display case, one pointing to a raised detail while the other reads the exhibit label.",
+  "imageConcept": "A warm, candid museum scene: two adult friends beside a glass display case, comparing a touchable replica on a sturdy stand with the original object and its label. One gestures toward a raised detail; the other follows along. The replica is clearly marked for touching, and the original remains behind glass.",
+  "body": [
+    [
+      "A copy with a point of view",
+      "A museum replica can look like an invitation to reach out. But it is also an interpretation: someone has decided which features to preserve, which to emphasize, and how to make an object work for touch. Those choices can change how a visitor understands the original.\n\nThat makes a touchable copy worth more than a quick pass of the hand. It can open a conversation about shape, material, scale and what a museum thinks is important. The invitation is specific, though: touch only objects the museum clearly identifies as touchable. A collection object behind glass, or one without an explicit invitation, is not part of the exercise."
+    ],
+    [
+      "Access is an option, not a test",
+      "Touchable replicas can offer a meaningful way to explore an object, particularly for blind and low-vision visitors. They are not, by themselves, a complete access plan. A replica may not communicate every feature, and touch may not be the format a visitor wants or can use. Audio description, braille, large print, staff support and other options can all matter too.\n\nA project at the Museum of the American Revolution paired tactile elements with audio description and worked with disability advocacy partners. Blind and low-vision users tested tactile graphics, and the museum revised them in response. The important lesson is not that one format solves access; it is that testing and complementary formats help make interpretation more useful [2]. Visitors should be free to choose whether to handle a replica, listen, read, ask questions or move on."
+    ],
+    [
+      "What designers decide to keep",
+      "A replica has to make choices visible—or at least worth asking about. Is the whole outline recognizable? Are small features enlarged so fingers can distinguish them? Has a surface been made smoother, rougher or more durable? Does the copy preserve the original’s color, or use contrast to make forms easier to see? Even a faithful-looking model cannot carry every quality of the object it represents.\n\nResearch described by the University of Sydney shows how those decisions can contribute to interpretation. In work developed with blind and low-vision advisers, examples included a frogfish model whose form and texture were adapted for handling and a tactile interpretation of a canopic jar. The point was not fabrication alone: the models were part of telling a story about the objects [1]. For a visitor, that invites a useful question: what does this version help me notice, and what does it leave for another format or explanation?"
+    ],
+    [
+      "Scale can help—or get in the way",
+      "Size is one of the most consequential choices. A miniature can make a large object manageable, but a reduction may compress important detail. Enlarging a small object may make its structure easier to explore, while making it harder to grasp the proportions that matter in the original. There is no universal rule that bigger or smaller is better; the result depends on the object, the detail and the visitor.\n\n That distinction matters: an experiment can raise design questions without answering how a particular visitor will experience a museum."
+    ],
+    [
+      "A replica can change who gets to handle",
+      "Sometimes the practical reason for a replica is that the original cannot be handled. Leeds City Museum’s 2024 pilot produced 3D-printed copies of 13 objects selected because the originals were too fragile or too large for handling sessions. The museum also used the replicas with general-public groups [3]. A copy can widen the chance to explore an object without putting the original at risk.\n\nThat does not make the replica equivalent to the original. It may differ in material, weight, temperature, finish or degree of wear. Those differences can be interpretively valuable: a printed copy may let someone trace a shape, but it does not reproduce the feel of aged stone or the balance of a particular artifact. A clear label can help visitors understand why a replica exists and which differences are intentional, practical or unavoidable."
+    ],
+    [
+      "Try a two-person comparison",
+      "At a museum that explicitly invites visitors to touch a replica, try a short comparison with a friend. First, read the label together. Look for what it identifies: the original’s name, the reason for the replica, how it was made, or features the museum wants visitors to notice. If any of that is missing, you can still compare what is available without guessing at the object’s history.\n\nThen take turns choosing one detail to describe. It might be a curve, an opening, a raised edge or a change in texture. One person can read the label or describe what they see; the other can explore the replica if they wish. Swap roles only if both want to. Ask: what seems to have been preserved? Is anything unusually prominent? Does the copy feel simpler, larger or more regular than the original appears? Keep observations separate from conclusions: “the ridge is easy to trace” is something you can notice; “the ridge mattered most to the maker” needs evidence."
+    ],
+    [
+      "Keep the interpretation open",
+      "A replica is most useful when it adds a route into an exhibition rather than standing in for every other route. The physical setup, wording, height, space around the replica and available explanation can all shape whether the invitation works.\n\nFor visitors, curiosity is a better guide than a test of whether a copy is “accurate.” You do not have to identify the object by touch, and nobody needs to close their eyes or imitate another person’s experience. Instead, treat the replica as one carefully made piece of interpretation. Ask what it reveals, what it changes and what additional information would help. Those questions make room for different ways of looking—and for a conversation that does not need a single right answer."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Research to provide universal museum access for the blind",
+      "authors": "The University of Sydney",
+      "publication": "University of Sydney, News & Opinion, September 6, 2023",
+      "url": "https://www.sydney.edu.au/news-opinion/news/2023/09/06/research-to-provide-universal-museum-access-for-the-blind.html",
+      "researchSourceId": "S7"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Making History Museums Accessible to the Blind and Low-Vision Community",
+      "authors": "Meg Bowersox and Jenn Tham",
+      "publication": "Exhibition, Fall 2025, Vol. 44, No. 2; republished by the American Alliance of Museums, November 24, 2025",
+      "url": "https://www.aam-us.org/2025/11/24/making-history-museums-accessible-to-the-blind-and-low-vision-community/",
+      "researchSourceId": "S14"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Increasing accessibility for visually impaired visitors at Leeds City Museum",
+      "authors": "University of Leeds",
+      "publication": "University of Leeds, Digital Education — HELIX Case Studies, February 6, 2026",
+      "url": "https://digitaleducation.leeds.ac.uk/2026/02/06/increasing-accessibility-for-visually-impaired-visitors-at-leeds-city-museum/",
+      "researchSourceId": "S55"
+    }
+  ],
+  "id": "the-touchable-copy-read-what-a-museum-replica-changes-20261123",
+  "date": "2026-11-23",
+  "editionDate": "2026-11-23",
+  "url": "article.html?id=the-touchable-copy-read-what-a-museum-replica-changes-20261123",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-touchable-copy-read-what-a-museum-replica-changes-20261123.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Touchable Copy: Read What a Museum Replica Changes. A replica is more than an object visitors can handle. Its scale, surface and selected details shape the story it tells—and offer a useful way to look together.\nPeople: a couple with visibly different ages and life experience. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: thoughtful companions paying attention, discussing or questioning something cultural.\nScene concept: A warm, candid museum scene: two adult friends beside a glass display case, comparing a touchable replica on a sturdy stand with the original object and its label. One gestures toward a raised detail; the other follows along. The replica is clearly marked for touching, and the original remains behind glass.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends sit at a kitchen table, helping a woman with COPD make a list of everyday tasks she wants to discuss with her pulmonary-rehabilitation team. | A couple at a bright bathroom counter, each washing their own makeup brushes beside separate towels and a clean sponge. | Two friends sit at a kitchen table at night, comparing a colorful bird-migration radar map on a laptop with a handwritten note.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

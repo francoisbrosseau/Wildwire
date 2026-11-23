@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "The Deposit Is Available. Is the Check Good? Keep Two Clocks Separate",
+  "subtitle": "A bank may let you use check funds before it knows whether the check will ultimately be paid. Here’s how to understand the timing—and avoid a costly fake-check trap.",
+  "imageAlt": "Two friends sit at a kitchen table reviewing a bank deposit notice beside a check and a notebook.",
+  "imageConcept": "A natural, close view of two friends at a bright kitchen table: one holds a bank deposit receipt while the other checks dates in a notebook, with a phone nearby but no legible personal account details.",
+  "body": [
+    [
+      "The number in your balance is not the whole story",
+      "A check deposit can start two separate clocks. One tracks when your bank lets you withdraw or spend the funds. The other tracks whether the check is ultimately paid by the bank it was drawn on. The first clock may run out before the second. That means a deposit can appear in your account, or become available to use, and still later be returned as unpaid. If that happens, your bank may reverse the credit and take the money back from your account. [3]\n\nThis distinction matters in ordinary situations—such as depositing a check from a buyer—as well as in scams. A convincing-looking check, a posted deposit, or a bank app showing available funds does not by itself prove that the check is genuine. Treat “available” as a timing status, not a guarantee of payment."
+    ],
+    [
+      "What the usual U.S. timeline means",
+      "Federal rules generally require a bank to make the first $275 of certain check deposits available by the next business day; the remaining funds from an ordinary check deposit are generally available by the second business day. The exact schedule can depend on the kind of check, the account, and exceptions allowed under the rules. The current large-deposit threshold is $6,725: a bank may apply an exception when your total check deposits exceed that amount in one day. Other exceptions can involve a new account or a pattern of repeated overdrafts. [1]\n\nThese are general rules, not a promise that every deposit follows the same timetable. Your account agreement and any notice from your bank are essential. Read the notice rather than assuming a familiar deposit will be treated like the last one."
+    ],
+    [
+      "Business days, cutoffs and deposit locations",
+      "“Next business day” does not mean 24 hours after you hand over a check. The deposit’s timing can depend on when you make it, the bank’s cutoff time, weekends and holidays, and where you deposit it. A check handed to a teller before the cutoff may be treated differently from one put into an ATM after the cutoff. Deposits at another institution’s ATM can also follow different timing rules from deposits at your own bank’s ATM. Federal Reserve examples show how those details affect the availability date. [2]\n\nFor a practical estimate, write down four things: the date and approximate time of deposit, the method and location, whether a weekend or bank holiday intervenes, and the availability date your bank gives you. If the date is unclear, ask the bank to explain which business day it is counting from. That small check is more reliable than counting calendar days yourself."
+    ],
+    [
+      "A quick way to read your own deposit",
+      "At a calm moment, open your account’s funds-availability disclosure or find it in the account agreement. Search the bank’s site for “funds availability” if you need to locate it. Then compare the disclosure with the deposit receipt and any hold notice. Record the deposit date, the stated availability date, and whether the notice describes a hold or exception. If the app shows a current balance and a separate available balance, don’t treat those labels as proof that the check has been finally paid.\n\nIf the dates conflict or the notice is hard to understand, contact the bank using the number on your card or the official website—not a number in an unexpected text or email. Ask what part of the deposit is available, when the rest is expected to be available, and whether a hold has been placed. Keep the response with the receipt. The goal is to understand your account’s schedule, not to diagnose whether a check is authentic by looking at it."
+    ],
+    [
+      "The warning sign is often the request that follows",
+      "Fake-check scams frequently pair a check with a reason you must act quickly or send money onward. Someone may overpay for an item and ask you to return the extra; offer a job that involves depositing a check and buying supplies; or tell you to pay a fee, another person, or a supposed delivery service. You deposit the check, see funds become available, and send money before the bank discovers the check is fake. The loss can then land on you: the bank may remove the deposit while the money you sent is difficult or impossible to recover. [3]\n\nThe safest response to a request to forward part of a check’s proceeds is not to do it. Don’t use that money to buy gift cards, send a wire or payment-app transfer, or pay someone who insists the funds must be moved immediately. Pressure, secrecy, and elaborate explanations do not make a check safer. A legitimate transaction should not depend on you returning an overpayment before the check’s status is resolved."
+    ],
+    [
+      "What to do if a check seems suspicious",
+      "Pause before spending the funds or sending any portion elsewhere. Contact your bank through an independently verified number and explain how you received the check and what the sender wants you to do. Ask whether the check has been returned or whether the bank has other information about its status. Keep in mind that an early availability date is not the same as a guarantee that the check cannot later be returned; the FTC warns that fake checks can take weeks to be identified. [3]\n\nSave the check, deposit receipt, messages, emails, shipping information and payment records. Don’t follow instructions to contact a “bank representative” using a number provided by the sender. If you already sent money, contact your bank or payment provider immediately and ask whether the transfer can be stopped or recalled. Report suspected fake-check scams to the Federal Trade Commission. Reporting cannot promise your money back, but it gives authorities information about the scheme."
+    ],
+    [
+      "Keep the decision practical, not alarmed",
+      "Most check deposits do not require a forensic investigation. For everyday planning, the bank’s stated availability schedule can help you know when you may access funds under its rules. For a transaction involving a stranger, an unexpected check, an overpayment, or a request to send money back, the risk question is different: could you afford to repay the deposit if the check is returned? If the answer is no, don’t treat temporary access as money you can safely pass along.\n\nA short habit can keep the two clocks distinct: note when you deposited the check, confirm the bank’s stated availability date, read any hold notice, and never return or forward part of an unexpected check at someone else’s direction. If the situation feels rushed, slow it down and verify through your bank. The point isn’t to distrust every check; it’s to avoid confusing a bank’s timetable with a promise that the payment is final."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "I deposited a check. When will my funds be available / released from the hold?",
+      "authors": "Office of the Comptroller of the Currency",
+      "publication": "HelpWithMyBank.gov (last reviewed June 2025)",
+      "url": "https://www.helpwithmybank.gov/help-topics/bank-accounts/funds-availability/funds-availability-check.html",
+      "researchSourceId": "S34"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Federal Reserve Board - Applying Funds Availability Rules",
+      "authors": "Board of Governors of the Federal Reserve System",
+      "publication": "Federal Reserve Board (last updated December 12, 2025)",
+      "url": "https://www.federalreserve.gov/supervisionreg/applying-funds-availability-rules.htm",
+      "researchSourceId": "S39"
+    },
+    {
+      "sourceId": "S3",
+      "title": "How To Spot, Avoid, and Report Fake Check Scams | Consumer Advice",
+      "authors": "Federal Trade Commission",
+      "publication": "Consumer Advice (published June 5, 2025)",
+      "url": "https://consumer.ftc.gov/articles/how-spot-avoid-and-report-fake-check-scams?os=fuzzscan2ODtr",
+      "researchSourceId": "S24"
+    }
+  ],
+  "id": "the-deposit-is-available-is-the-check-good-keep-two-clocks-separ-20261123",
+  "date": "2026-11-23",
+  "editionDate": "2026-11-23",
+  "url": "article.html?id=the-deposit-is-available-is-the-check-good-keep-two-clocks-separ-20261123",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-deposit-is-available-is-the-check-good-keep-two-clocks-separ-20261123.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Deposit Is Available. Is the Check Good? Keep Two Clocks Separate. A bank may let you use check funds before it knows whether the check will ultimately be paid. Here’s how to understand the timing—and avoid a costly fake-check trap.\nPeople: an adult couple with one older family member. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: A natural, close view of two friends at a bright kitchen table: one holds a bank deposit receipt while the other checks dates in a notebook, with a phone nearby but no legible personal account details.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends sit at a kitchen table, helping a woman with COPD make a list of everyday tasks she wants to discuss with her pulmonary-rehabilitation team. | A couple at a bright bathroom counter, each washing their own makeup brushes beside separate towels and a clean sponge. | Two friends sit at a kitchen table at night, comparing a colorful bird-migration radar map on a laptop with a handwritten note. | Two friends study a museum replica beside a display case, one pointing to a raised detail while the other reads the exhibit label. | Two women partners at a kitchen table checking a medicine package and a printed disposal note together.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 3,
+    "issues": []
+  }
+}

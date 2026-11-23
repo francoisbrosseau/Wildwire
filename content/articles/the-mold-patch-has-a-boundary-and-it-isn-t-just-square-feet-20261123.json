@@ -1,0 +1,80 @@
+{
+  "category": "Living",
+  "title": "The Mold Patch Has a Boundary—and It Isn’t Just Square Feet",
+  "subtitle": "Additional Daily Read: A calm, shared way to decide whether a visible patch is a small cleanup—or a reason to stop and get help.",
+  "imageAlt": "Two housemates sit at a table with a simple room sketch and notebook, looking toward a small discolored patch on a wall.",
+  "imageConcept": "A natural, lived-in home scene: two friends or housemates calmly note the location of a small wall patch on a rough room sketch before deciding what to do. Keep the patch visible but not sensational; the emphasis is on shared judgment, not scrubbing or fear.",
+  "body": [
+    [
+      "The patch is a prompt, not a verdict",
+      "A dark spot on a wall can make a household feel suddenly urgent: scrub it, test it, call someone, or move out? A better first move is to pause. The visible patch is one piece of information, not a complete account of how far growth extends, what caused it, or whether cleanup is appropriate for the people in the home. The U.S. Environmental Protection Agency says a small moldy area—less than about 10 square feet—can often be handled by a homeowner, but it also identifies circumstances that call for professional advice. That figure is a useful reference point, not a safety guarantee or a diagnosis [1]. Treat the first conversation as a decision check, not a cleanup assignment. You do not have to settle every question at once. You do need to avoid disturbing a patch before you understand the setting around it."
+    ],
+    [
+      "Map what is visible, without disturbing it",
+      "Start with a simple record. From a comfortable distance, note the room, the surface, and the rough dimensions of the visible area. A phone photo can help you compare later, as long as taking it does not require touching or scraping the material. Describe the surface plainly—painted drywall, tile, wood, fabric, or something else—and note whether the patch is isolated or appears in more than one place. Record what you already know about moisture: a recent spill, condensation, a roof or plumbing leak, or a damp area that has persisted. Do not peel back wallpaper, cut into a wall, or brush the spot to see what happens; those actions can turn an observation into disturbance without answering the larger question. This map is not a mold test or a substitute for inspection. It gives the household a shared starting point and helps make a call to a landlord, insurer, remediation professional, or other adviser more specific."
+    ],
+    [
+      "Use the size threshold as one factor",
+      "EPA’s “less than about 10 square feet” guidance is often reduced to a simple rule: under that amount means do it yourself; over it means hire help. The actual guidance is more conditional. The area is one consideration alongside the cause of the moisture, the materials involved, possible hidden growth, and the circumstances of the home. A small-looking patch does not automatically qualify for routine cleanup if it followed substantial water damage, involves sewage or other contaminated water, or may be connected to a heating, ventilation, or air-conditioning system. Larger areas also warrant professional advice [1]. When estimating, think in terms of the affected area as a whole, not just the darkest part of the stain. If the edges are unclear or you suspect growth behind or inside a surface, do not treat a quick measurement as proof that the job is small. The useful question is not only “How many square feet?” but “What else would make this a complicated cleanup?”"
+    ],
+    [
+      "Let the water story change the plan",
+      "Mold is tied to moisture, so finding and addressing the source matters as much as the visible mark. If water is still entering, a pipe is leaking, or a room remains damp, wiping the surface cannot resolve the underlying condition. EPA advises correcting the moisture problem, and its guidance flags substantial water damage and contaminated water as reasons to seek professional input rather than assuming a basic household cleanup will do [1]. A patch after a minor, understood leak is a different situation from one discovered after flooding, a prolonged leak, or water of uncertain origin. If the source is ongoing or unclear, prioritize getting the leak assessed and stopping further wetting where it is safe to do so. If the damage followed a disaster or involved sewage, avoid treating ordinary small-patch advice as a disaster-cleanup plan. Local public-health guidance and qualified professionals can help determine what applies to the specific building and water event."
+    ],
+    [
+      "Make the people part of the decision",
+      "Before anyone volunteers to clean, consider who would be exposed. CDC says people with allergies, immune suppression, or underlying lung disease should not take part in mold cleanup; it also advises people with asthma, COPD, or immune compromise not to stay in a moldy home or be present during cleanup [2]. That matters even when a patch looks modest. A household should not make the most vulnerable person responsible for investigating or cleaning it, and no one should have to disclose more health information than they want in order to set a boundary. Ask who would be doing the work and who would be nearby; if someone falls into a group CDC identifies, choose another plan and seek appropriate guidance. CDC’s cleanup recommendations also include protective equipment and warn never to mix bleach with ammonia or other cleansers [2]. Do not combine products or improvise a chemical solution. If a cleanup is appropriate, follow reliable, task-specific directions rather than relying on a household guess."
+    ],
+    [
+      "Skip the test-kit detour",
+      "A home test kit can feel like a way to turn uncertainty into a number. CDC does not recommend mold testing in homes, explaining that there are no established standards for acceptable quantities of different mold types in a home. Its practical advice is to address visible or smelled mold and fix the moisture problem [3]. A test result may not tell you where moisture is coming from, whether growth is hidden, or whether cleanup is safe for a particular person. If you can see or smell a concern, the next step is to assess the condition and the water source—not to buy certainty in a kit. When the visible evidence is limited but the odor or moisture persists, document that and seek an inspection or professional advice."
+    ],
+    [
+      "Leave the table with a decision, not a verdict",
+      "For a first pass, set aside ten unhurried minutes with whoever shares responsibility for the home. Write down the visible area, the surface, what is known about moisture, and any complicating conditions: substantial water damage, sewage or contaminated water, a possible HVAC connection, hidden growth, or a household member who should not take part in cleanup. Then choose one next action together: monitor and address a known moisture source, ask a landlord or property manager to assess it, consult a qualified professional, or look up relevant local guidance. Keep the photo and notes somewhere both people can find them, and record who will follow up and when. If key facts remain uncertain, mark them as uncertain rather than filling in the gaps with a guess. The goal is not to make the patch seem harmless or alarming; it is to make the next step proportionate to what you actually know."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "A Brief Guide to Mold, Moisture and Your Home",
+      "authors": "U.S. Environmental Protection Agency",
+      "publication": "U.S. Environmental Protection Agency; last updated February 18, 2026",
+      "url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+      "researchSourceId": "S46"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Mold Clean Up Guidelines and Recommendations",
+      "authors": "Centers for Disease Control and Prevention",
+      "publication": "Centers for Disease Control and Prevention; February 16, 2024",
+      "url": "https://www.cdc.gov/mold-health/about/clean-up.html",
+      "researchSourceId": "S19"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Mold",
+      "authors": "Centers for Disease Control and Prevention",
+      "publication": "Centers for Disease Control and Prevention; September 26, 2024",
+      "url": "https://www.cdc.gov/mold-health/about/index.html?CDC_AAref_Val=https://www.cdc.gov/mold/control_mold.htm",
+      "researchSourceId": "S47"
+    }
+  ],
+  "id": "the-mold-patch-has-a-boundary-and-it-isn-t-just-square-feet-20261123",
+  "date": "2026-11-23",
+  "editionDate": "2026-11-23",
+  "url": "article.html?id=the-mold-patch-has-a-boundary-and-it-isn-t-just-square-feet-20261123",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/the-mold-patch-has-a-boundary-and-it-isn-t-just-square-feet-20261123.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Mold Patch Has a Boundary—and It Isn’t Just Square Feet. Additional Daily Read: A calm, shared way to decide whether a visible patch is a small cleanup—or a reason to stop and get help.\nPeople: two adult siblings or close friends collaborating. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: A natural, lived-in home scene: two friends or housemates calmly note the location of a small wall patch on a rough room sketch before deciding what to do. Keep the patch visible but not sensational; the emphasis is on shared judgment, not scrubbing or fear.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends sit at a kitchen table, helping a woman with COPD make a list of everyday tasks she wants to discuss with her pulmonary-rehabilitation team. | A couple at a bright bathroom counter, each washing their own makeup brushes beside separate towels and a clean sponge. | Two friends sit at a kitchen table at night, comparing a colorful bird-migration radar map on a laptop with a handwritten note. | Two friends study a museum replica beside a display case, one pointing to a raised detail while the other reads the exhibit label. | Two women partners at a kitchen table checking a medicine package and a printed disposal note together. | Two friends sit at a kitchen table reviewing a bank deposit notice beside a check and a notebook. | Two friends sit at a kitchen table, one reading a first-aid sequence while the other starts a timer. | Two friends checking how dark jeans sit beside a cream bag and pale sneakers before heading out.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

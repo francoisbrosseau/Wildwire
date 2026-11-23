@@ -1,0 +1,79 @@
+{
+  "category": "Explore",
+  "title": "The Radar Bloom Above Your County",
+  "subtitle": "A shared way to follow nocturnal bird migration—and read the map without mistaking movement for a species list.",
+  "imageAlt": "Two friends sit at a kitchen table at night, comparing a colorful bird-migration radar map on a laptop with a handwritten note.",
+  "imageConcept": "A warm, late-evening kitchen scene: two friends lean toward a laptop showing a broad, softly colored migration map, while one writes the timestamp and a question in a small notebook. Keep the screen suggestive rather than legible, with no identifiable bird species or invented data.",
+  "body": [
+    [
+      "A moving sky, rendered in color",
+      "At night, birds can pass overhead in numbers that are difficult to sense from the ground. Weather radar offers another way to notice that movement: on a migration map, broad areas of color can suggest where nocturnal migration is occurring and how its intensity changes over time. It is an absorbing kind of looking, part landscape and part data literacy.\n\nTry it with a partner, friend or family member. The aim is not to identify every bird, predict a spectacular morning or compete over who reads the map best. It is to look at one place together, say what the display appears to show, and keep one uncertainty in view. Radar can make a vast movement visible. It does not make every detail knowable."
+    ],
+    [
+      "Start by separating forecast from observation",
+      "Before opening a map, note what kind of information you are looking at. A forecast estimates likely migration using conditions such as weather and patterns found in earlier observations; it is not a live count of birds passing above a particular street. A continental forecasting system developed from 23 years of spring observations to model relationships between atmospheric conditions and migration intensity. That makes a forecast useful for anticipating broad patterns, not a species-by-species report [1].\n\nA near-real-time map is a different kind of evidence: it presents an estimate based on radar data as migration is happening or has recently happened. It, too, has limits. Keep the labels separate in your notes—“forecast,” “map estimate,” and, if you go outside, “what we observed.” A forecast does not become an observation simply because the night unfolds as expected."
+    ],
+    [
+      "A short map-reading session",
+      "Choose a date during a migration season and open a live migration display such as BirdCast’s Live Migration Maps. Start with your county or the nearest place the map lets you examine. Give yourselves about ten minutes; there is no need to turn the evening into a technical project.\n\nFirst, check the timestamp and the map legend. Then locate your area and look at the broad pattern: are stronger colors concentrated nearby, spread across a wider region, or changing as you move across the map? If the display provides a time sequence, compare two moments rather than trying to interpret every frame. Describe direction only if the map gives you a clear basis for doing so; a colorful patch alone is not an arrow.\n\nWrite down three things: the timestamp, one plain-language description of the pattern, and one question the display cannot answer for you. For instance: “The map shows a broad area of stronger activity north of us at this time. We do not know which species it represents.” The exact colors and patterns change; the useful habit is to describe what is visible without adding details that are not."
+    ],
+    [
+      "Read the picture with its gaps",
+      "Weather radar was built to observe precipitation, so interpreting biological movement from radar is a specialized task. A study comparing acoustic recordings with citizen-science observations and weather-radar data found that acoustic records’ usefulness as a proxy for migration dynamics depended on season and species; an estimated seasonal average of about 50% of nocturnally migrating passerines went undetected [2]. That work shows how radar can support sophisticated analysis, not that every radar image automatically identifies every bird [2].\n\nCoverage and display conditions matter, too. A map may have gaps, and terrain can affect what radar sees. A missing or quiet-looking area is not proof that no birds are moving there. When you encounter a blank, ask whether the display explains it before drawing a conclusion. If it does not, leave the gap as a gap in your note.\n\nThe same restraint applies to species. A radar map may show broad movement or intensity; it cannot, by itself, turn that movement into a reliable list of species. That distinction is not a flaw in your reading. It is the boundary that makes your reading trustworthy."
+    ],
+    [
+      "Why a busy night may not mean a busy morning",
+      "It is tempting to treat a strong migration display as a promise: surely there will be birds to see at dawn. But birds moving through the air and birds present on the ground are different things. \n\nThere is another reason not to treat a single local listen as a translation of the map. Research comparing radar estimates with nocturnal flight-call monitoring found that the two measures were positively related across a season in the study area, but their relationship varied from night to night [3]. Radar and sound can complement one another; they are not interchangeable readings of the same thing.\n\nIf you listen or look the next morning, keep that experience in a separate note. Record the place and time, and write what you actually heard or saw. A quiet morning does not disprove the map’s estimate of overnight movement, and a bird in a nearby tree does not establish what the radar detected."
+    ],
+    [
+      "Make the comparison together",
+      "The shared part of this activity is not just looking at the same screen. It is making room for different interpretations without forcing agreement. One person might describe the pattern as regional; the other might notice that the strongest colors are far from home. Both can be useful observations if they are tied to the display and timestamp.\n\nTry a simple note with four prompts: What kind of map is this? What time does it show? What pattern do we notice? What remains unknown? Keep the language modest: “appears stronger,” “extends toward,” or “we can’t tell from this map.” If you revisit the display, add a new timestamp rather than overwriting the first note. You will then have a small record of changing estimates, not a claim that the map has settled the question.\n\nThis approach is especially useful when one person knows more about birds or weather than the other. Expertise can sharpen the questions, but it should not erase uncertainty. The map is an invitation to look carefully together, not an exam."
+    ],
+    [
+      "Close on the uncertainty",
+      "At the end of the session, choose one question to carry forward: whether the pattern changed later in the night, whether local terrain affects the view, or what a separate morning observation might add. Leave it as a question until you have evidence that addresses it. If you go outside, choose a safe, comfortable place and keep the observation distinct from the radar note.\n\nThen save the map timestamp, your one-sentence description and the uncertainty you chose. That small record is enough. It lets you return to the display with a clearer eye, and it keeps wonder intact without asking a colored map to say more than it can."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "A continental system for forecasting bird migration",
+      "authors": "Benjamin M. Van Doren and Kyle G. Horton",
+      "publication": "Science, September 14, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30213913/",
+      "researchSourceId": "S96"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Evaluating the potential of bioacoustics in avian migration research by citizen science and weather radar observations",
+      "authors": "Nadja Weisshaupt, Juha Saari, and Jarmo Koistinen",
+      "publication": "PLOS ONE, March 8, 2024",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10923479/",
+      "researchSourceId": "S123"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Evaluation of methods to estimate nocturnal bird migration activity: A comparison of radar and nocturnal flight call monitoring in the American West",
+      "authors": "Dylan M. Osterhaus, Benjamin M. Van Doren, Kyle G. Horton, Fitsum Abadi, Timothy F. Wright, and Martha J. Desmond",
+      "publication": "Ornithological Applications, November 2, 2024 (advance access; volume 127, 2025)",
+      "url": "https://watermark02.silverchair.com/duae062.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA18wggNbBgkqhkiG9w0BBwagggNMMIIDSAIBADCCA0EGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMtcfwLYnUxP5sEOgAAgEQgIIDEh-MwT5dCXeI5fhITjvA13zGeJijb1RcwlP1JwFvcx4ADtRfgmxlxoRWIWCb9V3qrPcpPzU7QOyLqnPwBZhkis1P0FVL--MjZKKomAZzKfgLfggwgLia8fBACZUF-SIWxgz3geNpYdJsLCWPx8xi9KsQrWvfIPDZdDiZ7m5jbrA2Fe1A-c5qJawDJk4GG55IjXwnd6QW9Z-HXo1-_S3u3q5OU4I4GO_iFNOGVJnNd8OwJVukmYeWp9lq07lmHy9LRBcIxrhhbIUHab4uDwkTX4trS11jvoIDt8gH6-88QJmqSf4Ujg9Xt2r5z3j6H74xicqfQbWoLDB8e9RIoOHQ-qGL5-HiDjXucb_GMuPzKkAXTXYN0LyGfkvp9plaW0bE_rU7FRmN-qaEIfNCyuWSp5WdoRotS_bUysSjuz40Wzt6aeBkIIlOYMpXsF9ThyOqidaHsGJ06TFANklMw9JHhpj5Bqxl-qrKRk2XmfYsFECjoeRGJ20xvxqy4FnDI6Zo9BviUwfWRUsJMqDBtoYU3Zsd5YWald7iMP_GFkgFiym9IYurSIvATrJfvSDz_GiIh48iL9wjN3o5YF3xSkGLendma7ODfQAvDT3OnsCeOf3yx6ed9eFidJY3Fy6vwA5swjaG-AEWmXDUGahrN54LPYfprL4eUH4blTeOLq6w0PqSY-LOpfEqozr-dbd_DQOLeUc4syP7kOzG_AiElts9VC5QDR09JYKP2EE1C6e8eU_NW95G6mmJb-WA8jxgHH2W9FxcJBbOk7Gt-7FM8AWOdQ-d0dCJakmqxJ0C1NQuyqO-PceQQNn5oSFHLXb8S_JvklAavdpkgKx6agx3fn8M-3YHA1qTfXCoyHXYsnpWFc_kNUrx5JV2Y7W8ayiHj8gmMC3ooyPiY3blBnX5pm7gJtP7ZBOKvQOEZRDbXQr-q__pZFGqdI1BZEq4mx1i05lv1ONu9sajuhL6fsXc9f5YibvSfUw1cW15NXgddzWhFiChNmEpF52s9wKP0Hte_WdXFagCVDn3sDYyLYerRWgNsDIYyQ",
+      "researchSourceId": "S26"
+    }
+  ],
+  "id": "the-radar-bloom-above-your-county-20261123",
+  "date": "2026-11-23",
+  "editionDate": "2026-11-23",
+  "url": "article.html?id=the-radar-bloom-above-your-county-20261123",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-radar-bloom-above-your-county-20261123.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Radar Bloom Above Your County. A shared way to follow nocturnal bird migration—and read the map without mistaking movement for a species list.\nPeople: a woman and a man who are partners, with grounded attainable appearances. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: curious companions discovering a place together, with a real sense of location.\nScene concept: A warm, late-evening kitchen scene: two friends lean toward a laptop showing a broad, softly colored migration map, while one writes the timestamp and a question in a small notebook. Keep the screen suggestive rather than legible, with no identifiable bird species or invented data.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends sit at a kitchen table, helping a woman with COPD make a list of everyday tasks she wants to discuss with her pulmonary-rehabilitation team. | A couple at a bright bathroom counter, each washing their own makeup brushes beside separate towels and a clean sponge.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
