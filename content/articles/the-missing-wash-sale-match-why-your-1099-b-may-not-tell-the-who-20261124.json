@@ -1,0 +1,83 @@
+{
+  "category": "Finance",
+  "title": "The Missing Wash-Sale Match: Why Your 1099-B May Not Tell the Whole Story",
+  "subtitle": "A brokerage tax form can flag some loss sales—but the federal wash-sale rule can reach across dates, accounts and even an IRA. Here’s how to understand the gap and organize a careful review.",
+  "imageAlt": "Two friends at a kitchen table compare a brokerage tax form with a handwritten calendar and a laptop showing separate account tabs.",
+  "imageConcept": "Two friends sit side by side at a bright kitchen table, marking a 61-day calendar around a fictional stock sale while a laptop displays separate taxable and retirement account tabs; a 1099-B and notebook are visible, with no legible personal financial details.",
+  "body": [
+    [
+      "A tax form is a starting point, not a full audit",
+      "A Form 1099-B is often the first place an investor looks when reviewing a sale at a loss. If it lists a wash-sale adjustment, that is useful information. But an empty wash-sale box does not necessarily mean the loss is deductible. Broker reporting is narrower than the federal tax rule, which can involve replacement purchases made outside the account that generated the form. That distinction matters when someone has multiple accounts, makes regular investments, or has an IRA or Roth IRA. The form reports what the broker is required to report under specific conditions; it does not necessarily assemble every transaction relevant to the taxpayer’s return. Think of it as one piece of the record, not a verdict on the tax treatment. [1][2]"
+    ],
+    [
+      "The window surrounds the sale date",
+      "For U.S. federal tax purposes, a wash sale generally involves selling stock or securities at a loss and acquiring substantially identical stock or securities during the 30 days before or after the sale. The rule can also apply to certain contracts or options to acquire them, and to purchases by a spouse or a corporation the taxpayer controls. “Substantially identical” is not a simple synonym for “similar”: the IRS says the answer depends on the facts and circumstances. So two funds that track related markets are not automatically identical, nor is a different ticker by itself proof that they are not. The practical point is to review the full period around the loss sale and flag possible replacement transactions for careful evaluation, rather than assuming the sale date alone settles the question. [1]"
+    ],
+    [
+      "A loss may be deferred—or treated differently",
+      "When a replacement investment is bought in a taxable account, the disallowed loss is generally added to the basis of the replacement shares. That usually defers recognition of the loss rather than erasing it: the adjusted basis can affect the gain or loss when those replacement shares are later sold. An IRA or Roth IRA purchase has a significant different consequence. If it triggers the rule, the loss is disallowed and the IRA’s basis is not increased by the loss. In other words, the usual taxable-account basis adjustment does not carry over to the IRA. This is one reason a household’s account map matters. The same loss sale can have a different practical tax result depending on where the replacement shares were acquired. [1][2]"
+    ],
+    [
+      "Why your broker may not show the match",
+      "The IRS says broker reporting of a wash-sale loss generally applies when the sold security is covered, the replacement purchase has the same CUSIP, and both transactions occur in the same account. If a purchase happens in another brokerage account, a spouse’s account, or an IRA, the 1099-B may not show the full picture—even though the tax rule may still apply. A mismatch in CUSIP can also mean the broker does not report it as a wash sale. That reporting limit is not a declaration that the investments are or are not substantially identical under the broader rule. The form’s silence therefore cannot substitute for looking across relevant accounts and dates. Keep the distinction clear: broker reporting is a data point; the taxpayer’s return must reflect the applicable tax rules. [2]"
+    ],
+    [
+      "Try a fictional trade log before reviewing real records",
+      "A simple exercise can make the timing easier to see without making a buy-or-sell decision. On paper, write “loss sale” in the center of a calendar, then mark the 30 days before and after it. Add fictional entries for a purchase in the same taxable account, another taxable account, an IRA and a spouse’s account. Circle the transactions that need closer review; do not label them definitively “wash sales” just because they fall in the window. This makes two things visible: the relevant period is wider than the sale date, and account location can matter to what a broker reports. For real records, collect trade confirmations and statements across accounts before deciding whether a question remains. The log is an organizing tool, not a tax conclusion."
+    ],
+    [
+      "Reconcile the records instead of trusting one box",
+      "For an actual return, compare the 1099-B with your own transaction history and any relevant account statements. Note the sale date, security, quantity, loss, and any purchases or other acquisition events during the surrounding 61-day period. Check whether a transaction took place in a taxable account or an IRA, and whether a spouse’s account could be relevant. Then compare those records with the broker’s wash-sale entries. Avoid counting a loss adjustment twice: a broker-reported adjustment may already be reflected in the form data used to prepare the return. If the records point to a possible wash sale that the broker did not report, the missing entry is a reason to investigate—not to ignore the transaction or automatically make an adjustment without checking the applicable instructions."
+    ],
+    [
+      "Where the return records an adjustment",
+      "The IRS instructions for Form 8949 direct taxpayers reporting a nondeductible wash-sale loss to use code “W” and enter the disallowed loss as a positive adjustment. In practical terms, the adjustment offsets the loss that would otherwise flow through the sale reporting. This is a reporting step, not a method for deciding whether a particular pair of investments is substantially identical. The instructions for Schedule D also explain that a loss can be disallowed even when the 1099-B does not report it, and describe the same-account, same-CUSIP limits on broker reporting. Read the current-year instructions that apply to the return being filed; forms and instructions can change. If the records involve an IRA, multiple accounts, uncertain investment comparisons or a material amount, a tax professional can help interpret the facts. [2][3]"
+    ],
+    [
+      "A calmer checklist for tax season",
+      "The most useful takeaway is not to distrust a 1099-B, but to understand what it can and cannot establish. Start with the form, then check the surrounding dates and the accounts that could hold replacement investments. Separate taxable accounts from IRAs, note any spouse or controlled-corporation transactions that may matter, and keep the source records together. Mark ambiguous comparisons as questions rather than forcing a quick answer: the IRS’s facts-and-circumstances standard leaves room for details that a ticker symbol or account summary cannot resolve. These are U.S. federal income-tax rules; state treatment may differ. This article is educational, not individualized tax, legal or investment advice. When uncertainty remains, the organized record—not a guess based on a blank box—gives a tax preparer a better place to start."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Publication 550 (2025), Investment Income and Expenses | Internal Revenue Service",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service",
+      "url": "https://www.irs.gov/publications/p550",
+      "researchSourceId": "S2"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Instructions for Schedule D (Form 1040) (2025) | Internal Revenue Service",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service",
+      "url": "https://www.irs.gov/instructions/i1040sd",
+      "researchSourceId": "S23"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Instructions for Form 8949 (2025) | Internal Revenue Service",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service",
+      "url": "https://www.irs.gov/instructions/i8949",
+      "researchSourceId": "S21"
+    }
+  ],
+  "id": "the-missing-wash-sale-match-why-your-1099-b-may-not-tell-the-who-20261124",
+  "date": "2026-11-24",
+  "editionDate": "2026-11-24",
+  "url": "article.html?id=the-missing-wash-sale-match-why-your-1099-b-may-not-tell-the-who-20261124",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-missing-wash-sale-match-why-your-1099-b-may-not-tell-the-who-20261124.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Missing Wash-Sale Match: Why Your 1099-B May Not Tell the Whole Story. A brokerage tax form can flag some loss sales—but the federal wash-sale rule can reach across dates, accounts and even an IRA. Here’s how to understand the gap and organize a careful review.\nPeople: two women friends with distinct personal style. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: Two friends sit side by side at a bright kitchen table, marking a 61-day calendar around a fictional stock sale while a laptop displays separate taxable and retirement account tabs; a 1099-B and notebook are visible, with no legible personal financial details.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends talk with an exercise professional beside a chair and resistance bands in a bright community gym. | An adult considering an ear piercing talks through placement with a professional piercer while a partner and older family member offer support. | Two friends stand on a neighborhood footpath in daylight, one sketching the Moon beside a distant roofline while the other looks toward the open sky. | Two friends watch a costumed interpreter demonstrate a historical task at an outdoor living-history event, with visitors and a period-style building behind them. | Two adult siblings sit at a kitchen table, one writing down observations after a head injury while the other rests nearby.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

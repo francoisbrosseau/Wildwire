@@ -1,0 +1,80 @@
+{
+  "category": "Culture",
+  "title": "Who Does This Clue Expect You to Know?",
+  "subtitle": "Daily Read — A crossword can be a small map of what a puzzle assumes is familiar. Try reading one together without turning it into a test.",
+  "imageAlt": "Two partners lean over a crossword at a café table; one points to a clue while the other holds a pencil, both looking curious rather than competitive.",
+  "imageConcept": "A relaxed, close view of two partners sharing an ordinary crossword at a café or kitchen table. One points to a clue; the other holds the pencil. Their expressions suggest conversation and curiosity, not a contest or an expert teaching a novice.",
+  "body": [
+    [
+      "A clue is a tiny doorway",
+      "A crossword clue often looks like a simple request: supply a name, phrase or fact that fits the squares. But to solve it quickly, you need more than vocabulary. You need some sense of which names, places, songs, shows, sports, histories and turns of phrase the puzzle expects to be in circulation. That makes a crossword a surprisingly compact object to read together—not just for its answers, but for the assumptions tucked into them.\n\nThe useful question is not whether a puzzle is “for” one kind of person. It is more precise: What kind of familiarity does this particular clue reward? It might depend on a region, a generation, a language, a field of work or a corner of popular culture. Noticing that can start a lively conversation without asking either solver to represent a whole community."
+    ],
+    [
+      "The same answer can point somewhere else",
+      "A clue’s frame can shift with geography. Axios Raleigh reported that ENO had appeared in the New York Times crossword 285 times since 1993, usually referring to musician Brian Eno. In the Raleigh-Durham area, the Eno River offers another familiar association [1]. The letters do not change; the cultural landscape around them does.\n\nThat example is not evidence that one answer is inherently more correct or that every local solver will think of the river first. It shows how a clue can feel obvious from one vantage point and less so from another. The same may happen with a regional food, a local institution or a name that circulates widely in one generation’s media and barely at all in another’s. Crossings—the letters supplied by intersecting answers—can help, but they do not erase the difference between recognizing a reference and having to work it out."
+    ],
+    [
+      "“Common knowledge” has a point of view",
+      "Crosswords are made by people making choices: which words to include, how to clue them and what knowledge to treat as sufficiently shared. Reporting on the field has examined how constructors and editors debate that idea of “common knowledge” and who gets to set its boundaries [3]. A reference may be widely known in some circles and unfamiliar in others; a clue that treats one audience’s familiarity as universal can make that gap feel like a solver’s shortcoming.\n\nThe New Yorker’s examination describes how American crossword references can be unfamiliar to solvers outside the United States. Constructor Mangesh Ghogre, for instance, recounted struggling with U.S.-specific references, including cowboy phrases about fences and pigs; he said he had never seen a pig and “We don’t have fences” [2]. The point is not that every clue must teach its audience or that a puzzle can include every possible reference. It is that selection and framing matter. A clue can be technically solvable and still invite a fair question about whose experience it presents as the default."
+    ],
+    [
+      "A conversation, not a cultural exam",
+      "That is why this works best as a shared read rather than a quiz. If one person recognizes a clue and the other does not, the difference does not establish who is more informed, more cultured or more observant. It may simply reveal different routes through the world: what each person has watched, heard, studied, worked with, been taught or encountered by chance.\n\nThe clues themselves are also partial. One answer cannot tell you what an entire culture knows, and a solver should not be asked to stand in for a group because they recognize a reference associated with it. Treat the puzzle as a prompt, not a survey. You can ask what a clue assumes, and whether its wording seems specific, playful, dated, revealing or just practical for the grid. You do not need to settle the question to have a worthwhile exchange."
+    ],
+    [
+      "Let the crossings join the conversation",
+      "The grid offers a useful second angle. Suppose a reference is unfamiliar, but crossing letters narrow the possibilities. That experience—being guided toward an answer by partial information—is different from knowing the reference right away. Both are legitimate ways to solve. Ask which crossing helped, whether the clue’s wording made the answer clearer, and what information remained missing even after the answer emerged.\n\n A puzzle’s mix may create moments of recognition, educated guessing and discovery. The crossings make a shared activity possible, but they can also make the puzzle’s construction visible: sometimes the letters offer a bridge; sometimes they simply get a solver to the answer."
+    ],
+    [
+      "Try a ten-minute shared solve",
+      "Pick a crossword you can access in print or digitally, and agree on a short window—about ten minutes is enough. You do not need to finish the grid. Read clues aloud, take turns suggesting answers and let either person pass on a clue. If you are solving on paper, use pencil; in an app, avoid turning hints or answer checks into a scorecard. The point is to notice, not to prove who can get farther.\n\nEach person can choose one clue they knew quickly and one that felt unfamiliar. For each, ask: What did I recognize? What background might the clue expect? Is the reference local, generational, linguistic, musical, historical or something else? Did the crossings help, or did they only make the answer possible? If the clue is ambiguous, look at the wording and the intersecting entries together. Keep the answer open where the evidence is thin; curiosity does not require a verdict."
+    ],
+    [
+      "Leave room for the answer to be “I don’t know”",
+      "A good conversation may end with a story about a place, a song or a term one person knows and the other does not. It may also end with a shrug: the clue was obscure, the wording was confusing, or neither of you has enough context to tell what it assumes. Those are useful outcomes, too. The exercise is not to grade the puzzle—or each other—but to notice how familiarity gets made to look effortless.\n\nWhen the ten minutes are up, share one thing you learned about the clue and one thing you still wonder about. If a reference merits more attention, look it up together from a source that can explain it in context; do not make the person who recognized it responsible for teaching an entire subject. Then put the puzzle away unfinished if you like. A few squares can be enough to reveal that “everyone knows” is rarely as universal as it sounds."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "The crossword's favorite Eno hits different here",
+      "authors": "Mary Helen Moore",
+      "publication": "Axios Raleigh",
+      "url": "https://www.axios.com/local/raleigh/2026/09/14/brian-eno-nyt-crossword-river-north-carolina",
+      "researchSourceId": "S43"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Can Crosswords Be More Inclusive? | The New Yorker",
+      "authors": "Natan Last",
+      "publication": "The New Yorker",
+      "url": "https://www.newyorker.com/magazine/2023/12/25/can-crosswords-be-more-inclusive",
+      "researchSourceId": "S62"
+    },
+    {
+      "sourceId": "S3",
+      "title": "For crossword constructors, an inclusivity debate: What’s ‘common knowledge’ and who decides?",
+      "authors": "Hau Chu",
+      "publication": "The Washington Post",
+      "url": "https://www.washingtonpost.com/lifestyle/crossword-puzzle-diversity/2021/03/10/884828e0-753c-11eb-9537-496158cc5fd9_story.html",
+      "researchSourceId": "S54"
+    }
+  ],
+  "id": "who-does-this-clue-expect-you-to-know-20261124",
+  "date": "2026-11-24",
+  "editionDate": "2026-11-24",
+  "url": "article.html?id=who-does-this-clue-expect-you-to-know-20261124",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/who-does-this-clue-expect-you-to-know-20261124.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Who Does This Clue Expect You to Know?. Daily Read — A crossword can be a small map of what a puzzle assumes is familiar. Try reading one together without turning it into a test.\nPeople: a woman and a man who are partners, with grounded attainable appearances. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: thoughtful companions paying attention, discussing or questioning something cultural.\nScene concept: A relaxed, close view of two partners sharing an ordinary crossword at a café or kitchen table. One points to a clue; the other holds the pencil. Their expressions suggest conversation and curiosity, not a contest or an expert teaching a novice.\nAvoid repeating these recent WILDWIRE image scenes: Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends talk with an exercise professional beside a chair and resistance bands in a bright community gym. | An adult considering an ear piercing talks through placement with a professional piercer while a partner and older family member offer support. | Two friends stand on a neighborhood footpath in daylight, one sketching the Moon beside a distant roofline while the other looks toward the open sky. | Two friends watch a costumed interpreter demonstrate a historical task at an outdoor living-history event, with visitors and a period-style building behind them. | Two adult siblings sit at a kitchen table, one writing down observations after a head injury while the other rests nearby. | Two friends at a kitchen table compare a brokerage tax form with a handwritten calendar and a laptop showing separate account tabs. | A grandparent, parent and child inspect a child’s jacket together at a bright hallway coat rack. | Two friends at a kitchen table compare a packaged food label with a recall notice open on a phone.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

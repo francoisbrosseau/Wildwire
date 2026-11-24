@@ -1,0 +1,80 @@
+{
+  "category": "Living",
+  "title": "A Brand Name Isn’t a Recall Match",
+  "subtitle": "Daily Read — A calm, two-person check can help you tell whether a specific package is included in an official food recall.",
+  "imageAlt": "Two friends at a kitchen table compare a packaged food label with a recall notice open on a phone.",
+  "imageConcept": "A warm, everyday kitchen scene: two friends sit side by side at a table, one holding an unopened food package while the other reads an official recall notice on a phone; the original label is clearly visible, with no alarmed expressions or staged emergency.",
+  "body": [
+    [
+      "A recall is a matching exercise",
+      "A recall notice can make a familiar product name feel suddenly alarming. But seeing a brand or food category mentioned does not automatically mean every item with that name is affected. Notices describe particular products and may identify them by details such as product name, package size, date codes, lot codes or other identifying information. The useful question is not simply “Do we have this brand?” It is “Does the package we have match the details in this notice?” USDA’s Food Safety and Inspection Service advises comparing the product with the recall announcement and checking the identifying details it provides [1].\n\nThat distinction matters in a real kitchen, where packages may be bought at different times, come in different sizes or carry different codes. A careful comparison helps avoid both unnecessary alarm and the mistaken assumption that a similar-looking package is definitely included. It is a way to check one specific notice—not a guarantee that food is safe in every other respect."
+    ],
+    [
+      "Start with the right official notice",
+      "FoodSafety.gov lists real-time notices of recalls and public health alerts from USDA and FDA [2]. If you are checking a notice shared in a message or social post, use it as a prompt to locate the official notice itself. Read the notice, not just a headline or a cropped image: the full text may spell out which products, dates or distribution details are covered and what consumers should do.\n\nA useful first pass is to confirm the agency, the product name and the date of the notice. Then check whether it has been updated. FoodSafety.gov lists real-time notices, so check the current official page rather than relying on an older screenshot [2]. If you cannot find a notice on the agency site, or the information you have is incomplete, avoid guessing from a brand name alone. Continue with the relevant agency’s current recall page or contact the agency using its official contact information."
+    ],
+    [
+      "Put the package and notice side by side",
+      "For a simple check, ask someone to read the official notice while another person holds the package and reads its label. This division of roles can make small print easier to compare and reduces the chance that one person scans past a detail. Start with the exact product name and brand, then compare any size, flavor, variety or package description listed in the notice. Move on to the specific identifiers the notice gives: these might include a best-by or expiration date, a lot or batch code, a UPC, an item number or a production date. USDA specifically recommends checking the product name, dates and lot codes when determining whether a product is part of a recall [1].\n\nDo not assume that every field will appear on every package or that every recall uses the same identifiers. Follow the details in the notice. If it names an establishment number for meat or poultry, look for that number on the label; if it specifies a lot code, compare the code itself rather than relying on the product’s general appearance. Read carefully, including letters and numbers that are easy to confuse. If the package is unavailable or a code is unreadable, you may not have enough information to confirm a match."
+    ],
+    [
+      "Keep the label with food you transfer",
+      "The original packaging is often the easiest place to find the details a recall notice asks you to check. The problem is that household routines can separate food from its identifying information: a large package gets divided into smaller portions, dry goods move into jars, or a frozen item is wrapped for storage. CDC advises keeping the original label or recording product information when food is moved to another container. The details it highlights include product and lot codes and, for meat or poultry, the USDA plant number [3].\n\nYou do not need a complicated tracking system. When you divide a product, keep the label with the portions or write down the identifying information before discarding the package. A quick photo can also preserve small print, as long as it clearly shows the relevant details and is saved somewhere you can find it. This is especially useful for items that are stored away from their original packaging. It is not a substitute for checking official notices; it simply gives you better information if you need to make a comparison later."
+    ],
+    [
+      "If the details match—or you can’t tell",
+      "If the package matches an active recall notice, do not open or consume it. Follow the instructions in that specific notice for returning or disposing of the product [2]. Keep the package or label available if the notice asks for information from it, and make sure anyone else who might use the food knows it has been set aside. Avoid relying on smell, appearance or a small taste to decide whether a recalled item is safe; those observations do not establish whether a package is included in a recall.\n\nIf the details do not match the notice, that answers only the question posed by that notice. It is not a general safety certificate for the product or a reason to ignore a different alert. If the label is missing, the code is unclear or the notice does not give enough information to make a confident comparison, do not invent certainty. Recheck the official notice for updates and use the contact details provided by the responsible agency to ask what to do. If someone becomes ill after eating food they suspect may be involved in an outbreak, CDC advises contacting a health care provider and reporting the illness to the local or state health department [3]."
+    ],
+    [
+      "Practice before you need to search",
+      "A useful way to learn where your household’s product information lives is to practice with an ordinary, unopened package—not because you suspect it is unsafe, but because reading a label can take a little patience. Set the package beside a phone or computer. Choose an official recall page, open a notice for a product that is clearly different, and find the kinds of identifying details the notice uses. The point is to learn how to locate the product description, codes and instructions, not to declare your own food safe based on an unrelated notice.\n\nTake turns: one person reads the notice aloud, and the other finds the corresponding fields on the package. If the product is one you might transfer into another container, decide how you would preserve its identifying information. Write down what is difficult to locate, such as a code printed along a seam, so you know where to look next time. You can stop after a few minutes; this is a small household skill, not a pantry inspection."
+    ],
+    [
+      "Leave the label with its future question",
+      "Choose one unopened item you already have at home and spend a few minutes finding its product name, size and any visible date or lot information. With a friend or housemate, look at an official recall notice for a different product and practise locating the details that notice asks consumers to compare. Then decide together what would happen if you divided the item: keep the original label, take a clear photo, or write the identifiers on a note stored with the food. The aim is not to predict a recall or create a new chore. It is to make sure that, if a question arises later, the package can answer more than just what it looks like."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Is my product part of a recall?",
+      "authors": "USDA Food Safety and Inspection Service",
+      "publication": "USDA Food Safety and Inspection Service; last updated September 3, 2025.",
+      "url": "https://ask.fsis.usda.gov/article/Is-my-product-part-of-a-recall?utm_source=openai",
+      "researchSourceId": "S71"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Recalls and Outbreaks | FoodSafety.gov",
+      "authors": "FoodSafety.gov",
+      "publication": "FoodSafety.gov; last reviewed July 17, 2025.",
+      "url": "https://www.foodsafety.gov/recalls-and-outbreaks?os=app",
+      "researchSourceId": "S20"
+    },
+    {
+      "sourceId": "S3",
+      "title": "What to Do if You Think You Have Food Poisoning | Foodborne Outbreaks | CDC",
+      "authors": "National Center for Emerging and Zoonotic Infectious Diseases (NCEZID)",
+      "publication": "Centers for Disease Control and Prevention; November 25, 2025.",
+      "url": "https://www.cdc.gov/foodborne-outbreaks/what-to-do/index.html",
+      "researchSourceId": "S66"
+    }
+  ],
+  "id": "a-brand-name-isn-t-a-recall-match-20261124",
+  "date": "2026-11-24",
+  "editionDate": "2026-11-24",
+  "url": "article.html?id=a-brand-name-isn-t-a-recall-match-20261124",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "dailyRead": true,
+  "image": "images/generated/a-brand-name-isn-t-a-recall-match-20261124.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Brand Name Isn’t a Recall Match. Daily Read — A calm, two-person check can help you tell whether a specific package is included in an official food recall.\nPeople: a couple of different ethnic backgrounds sharing a thoughtful moment. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: A warm, everyday kitchen scene: two friends sit side by side at a table, one holding an unopened food package while the other reads an official recall notice on a phone; the original label is clearly visible, with no alarmed expressions or staged emergency.\nAvoid repeating these recent WILDWIRE image scenes: Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends talk with an exercise professional beside a chair and resistance bands in a bright community gym. | An adult considering an ear piercing talks through placement with a professional piercer while a partner and older family member offer support. | Two friends stand on a neighborhood footpath in daylight, one sketching the Moon beside a distant roofline while the other looks toward the open sky. | Two friends watch a costumed interpreter demonstrate a historical task at an outdoor living-history event, with visitors and a period-style building behind them. | Two adult siblings sit at a kitchen table, one writing down observations after a head injury while the other rests nearby. | Two friends at a kitchen table compare a brokerage tax form with a handwritten calendar and a laptop showing separate account tabs. | A grandparent, parent and child inspect a child’s jacket together at a bright hallway coat rack.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

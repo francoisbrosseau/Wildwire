@@ -1,0 +1,79 @@
+{
+  "category": "Culture",
+  "title": "A Reenactment Is a Performance, Not a Time Machine",
+  "subtitle": "Costumes and staged scenes can make history tangible. They also make choices about evidence, perspective and whose lives enter the frame.",
+  "imageAlt": "Two friends watch a costumed interpreter demonstrate a historical task at an outdoor living-history event, with visitors and a period-style building behind them.",
+  "imageConcept": "Two friends stand at the edge of a living-history demonstration, listening as a costumed interpreter handles a carefully reproduced object; the scene shows both the appeal of the performance and the present-day audience interpreting it.",
+  "body": [
+    [
+      "The past, presented in the present",
+      "A line of costumed interpreters, the sound of a tool against wood, a demonstration beside an old building: reenactment can make history feel unusually near. It gives visitors something to watch, hear and sometimes question in a place connected to the story. That immediacy is part of its power—and part of the reason to look closely. A staged scene is not a time machine. It is a present-day interpretation, assembled from surviving evidence, research, practical decisions and an idea of what an audience should see. That does not make it false or unworthy. It means a visitor can enjoy the performance while asking what kind of historical claim it makes, how it supports that claim and what it leaves beyond the scene."
+    ],
+    [
+      "First person or third person?",
+      "Start by noticing how the interpreter frames the encounter. In first-person interpretation, a performer speaks as a particular historical person or as someone living in the period. In third person, the interpreter speaks from the present about historical practices, evidence and uncertainty. Neither approach guarantees accuracy by itself. First person can make a character vivid, but a visitor may not know which words, thoughts or events are documented and which are created to carry the scene. Third person can make room for explanation, but it still reflects choices about what to include and emphasize. The National Park Service has distinguished between third-person demonstrations and portrayals of specific historical individuals; its discussion also describes how debates about who could present historic weapons demonstrations prompted changes to living-history guidance [1]. The useful question is not which format is automatically superior. Ask what the format lets the audience learn—and what it may make harder to see."
+    ],
+    [
+      "Ask what the objects can actually tell you",
+      "Clothing, tools, food and buildings often make a presentation persuasive before a word is spoken. Look for how the site connects these details to evidence. Does an interpreter explain how a garment was reconstructed, or identify the source for a tool? Can visitors distinguish a documented object from a modern replica designed for use? The National Park Service describes living history as using period-reproduction clothing and objects to present impressions of past people, events and practices rather than literally recreating the past [1]. Those guidelines describe that park’s standards, not a universal rulebook for every event. Still, they offer a useful model for visitors: curiosity about an object need not become a demand that every seam be proved on the spot. Ask what is known, what was inferred and where the site found its information. A thoughtful answer may include limits rather than certainty."
+    ],
+    [
+      "Treat sensory detail as a question, not proof",
+      "A reconstructed activity can reveal things that are difficult to grasp from a written account alone: how an object fits in the hand, how materials interact, or what a task requires of the body. Scholars Ulla Moilanen and Jenni Sahramaa examine how Viking Age reenactment can contribute to the study of material culture through practical experience, while also cautioning against treating modern sensory experience as direct access to what people in the past felt [2]. That distinction is important. A present-day performer wearing a replica can test how it works under present-day conditions; the experience may suggest questions for research. It cannot establish that a historical person felt the same discomfort, ease or emotion. When a demonstration makes a physical detail memorable, follow it with a second question: what evidence supports the interpretation, and what remains a modern reconstruction?"
+    ],
+    [
+      "Look beyond the most visible character",
+      "A presentation’s frame includes more than its costumes and props. Notice who is given a name, a voice and a role in the story—and who appears only as background, if they appear at all. A site may focus on a military event, a household, a trade or a political figure; each focus creates a different account of the same place and period. Colonial Williamsburg’s changing approach to historical interpretation, and the difficult questions raised by representing slavery, show why expanding a story requires more than adding period detail [3]. The question is not whether every performance can tell everything. It cannot. It is whether the site signals its scope, takes difficult histories seriously and provides ways to learn about lives that a central scene does not include. Look for related exhibits, interpretive signs, programs or reading material that widen the view."
+    ],
+    [
+      "Separate careful work from a claim of total authenticity",
+      "The word “authentic” can flatten several different questions into one. A garment might be based on documented examples; a performance might use a carefully researched script; an object might be made with historically informed techniques. Those are meaningful qualities, but none turns a modern event into the past itself. Reenactors also work within present-day constraints: available materials, safety requirements, budgets, weather and the needs of visitors. A scene can be carefully researched and still involve choices about pacing, emphasis and what an audience can understand in a short encounter. Instead of rating an event as authentic or inauthentic, be more precise. Is the presentation transparent about its evidence? Does it distinguish invention from documentation? Does the interpretation acknowledge what the available sources cannot answer? Specific questions make room for both appreciation and scrutiny."
+    ],
+    [
+      "A visitor’s three-question field guide",
+      "At your next living-history event, try a simple sequence. First, ask what kind of interpretation you are watching: a portrayal of a named individual, a composite character, a demonstration or a narrated scene? Second, ask what supports one concrete detail you noticed—a garment, tool, practice or line of dialogue. Third, ask whose perspective is central and which related experiences are addressed elsewhere. You can ask an interpreter directly, or use posted materials and the site’s website if the moment is busy. Keep your questions open rather than treating the encounter as a test. A good performance can be moving and informative without answering everything. The best way to leave is not with a verdict on whether the past has been perfectly recreated, but with a clearer sense of what the performance helps you imagine, what it can substantiate and what you might want to explore next."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Equality in Living History",
+      "authors": "Dr. Josh Howard",
+      "publication": "U.S. National Park Service; last updated January 22, 2025",
+      "url": "https://www.nps.gov/articles/equality-in-living-history.htm",
+      "researchSourceId": "S2"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Exploring materiality and sensory experience through Viking Age reenactment",
+      "authors": "Ulla Moilanen and Jenni Sahramaa",
+      "publication": "Time and Mind: The Journal of Archaeology, Consciousness and Culture; published online May 20, 2024",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/1751696X.2024.2354831",
+      "researchSourceId": "S4"
+    },
+    {
+      "sourceId": "S3",
+      "title": "What Is Colonial Williamsburg For?",
+      "authors": "Clint Smith",
+      "publication": "The Atlantic; published October 10, 2025; updated December 2, 2025",
+      "url": "https://www.theatlantic.com/magazine/archive/2025/11/colonial-williamsburg-historical-accuracy/684330/?utm_source=apple_news",
+      "researchSourceId": "S28"
+    }
+  ],
+  "id": "a-reenactment-is-a-performance-not-a-time-machine-20261124",
+  "date": "2026-11-24",
+  "editionDate": "2026-11-24",
+  "url": "article.html?id=a-reenactment-is-a-performance-not-a-time-machine-20261124",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/a-reenactment-is-a-performance-not-a-time-machine-20261124.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: A Reenactment Is a Performance, Not a Time Machine. Costumes and staged scenes can make history tangible. They also make choices about evidence, perspective and whose lives enter the frame.\nPeople: two adult friends of different genders. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: thoughtful companions paying attention, discussing or questioning something cultural.\nScene concept: Two friends stand at the edge of a living-history demonstration, listening as a costumed interpreter handles a carefully reproduced object; the scene shows both the appeal of the performance and the present-day audience interpreting it.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends talk with an exercise professional beside a chair and resistance bands in a bright community gym. | An adult considering an ear piercing talks through placement with a professional piercer while a partner and older family member offer support. | Two friends stand on a neighborhood footpath in daylight, one sketching the Moon beside a distant roofline while the other looks toward the open sky.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 5,
+    "issues": []
+  }
+}
