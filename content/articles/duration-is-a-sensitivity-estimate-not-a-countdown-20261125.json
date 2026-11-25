@@ -1,0 +1,79 @@
+{
+  "category": "Finance",
+  "title": "Duration Is a Sensitivity Estimate, Not a Countdown",
+  "subtitle": "A bond fund’s duration can help you picture how interest-rate changes may affect its price. It cannot tell you exactly what will happen—or capture every risk.",
+  "imageAlt": "Two friends at a kitchen table compare a bond fund fact sheet with a notebook, tracing a simple rate-change example together.",
+  "imageConcept": "A warm, natural-light scene of two friends at a kitchen table, one pointing to a duration figure on a printed bond fund fact sheet while the other writes a simple percentage example in a notebook; everyday, collaborative, and not staged as financial advice.",
+  "body": [
+    [
+      "A useful number with a misleading name",
+      "A bond fund fact sheet may list “duration” beside yield, credit quality and average maturity. The figure can look like a time horizon: a fund with a duration of five years might seem to promise that investors get their money back in five years. It does not. Duration is chiefly an estimate of how sensitive a bond’s price may be to changes in interest rates. It is a way to describe exposure, not a maturity date or a guarantee about future returns. That distinction matters when comparing funds, interpreting a falling share price or deciding what a rate forecast might mean. For a fixed-rate bond, market prices generally move in the opposite direction from yields: when yields rise, existing bonds with lower coupons tend to become less attractive, and their prices fall; when yields decline, those existing payments can look more valuable. The SEC explains this inverse relationship and notes that maturity and coupon also affect sensitivity [1]. Duration helps translate that relationship into an approximate scale."
+    ],
+    [
+      "What the five-year example actually says",
+      "Suppose a bond fund reports a duration of five years. As a rough rule, a one-percentage-point increase in relevant interest rates corresponds to an approximately 5% decline in the fund’s price, all else equal. A one-point decrease would suggest an approximate 5% increase. “One percentage point” means, for example, a move from 4% to 5%, not a 1% change in the rate itself. The estimate is not a prediction that the fund will lose or gain exactly that amount. It assumes a simplified rate movement and leaves other influences unchanged. It is also a price-sensitivity estimate, not a forecast of the fund’s total return over a year: income from interest, expenses, and changes in holdings can affect the result. The Municipal Securities Rulemaking Board explains duration as an estimate and cautions that the price-yield relationship is not perfectly linear, particularly for larger rate moves [2]. Treat the calculation as a way to understand scale, not as a promise."
+    ],
+    [
+      "Duration and maturity answer different questions",
+      "Maturity asks when a bond is due to repay principal, assuming the issuer meets its obligation. Duration asks how responsive its price may be to yield changes. A bond can have a maturity of ten years and a duration that is shorter than ten years; the timing and size of its coupon payments influence duration. In general, a longer maturity and smaller coupon can mean greater sensitivity, though the details depend on the bond’s terms and yield. A callable bond adds another wrinkle: its call or redemption feature can affect duration, and expected cash flows may change if the bond is called. Mortgage-backed securities can also behave differently because borrowers may repay loans early or refinance. FINRA stresses that duration is an imperfect measure, especially when a security’s cash flows can change [3]. So “five-year duration” does not mean five years until repayment, and it does not by itself tell you when you might need the money."
+    ],
+    [
+      "Why a fund’s duration can move",
+      "A fund is a portfolio, not one bond with one fixed repayment date. Its manager may buy or sell holdings, bonds may mature, and the interest-rate characteristics of the remaining portfolio can change. A fund’s published average duration is therefore a snapshot, not a permanent setting. Some funds also hold securities whose expected cash flows respond to rates, prepayments or call decisions; their measured sensitivity can shift as market conditions change. The prospectus or fact sheet may specify the date of the reported figure, so check it rather than assuming an older number still describes the portfolio. The fund’s objective and holdings matter too: two funds with similar duration may differ in the kinds of issuers they lend to, the quality of their debt, or the structures of their securities. Duration offers one useful comparison, but only if you know what it is measuring and when it was measured."
+    ],
+    [
+      "The estimate leaves out other kinds of risk",
+      "Interest-rate sensitivity is not the same as overall safety. A short-duration fund can still lose value if borrowers’ credit quality deteriorates, if investors demand a larger premium for taking credit risk, or if market liquidity weakens. A fund holding lower-rated debt may face meaningful default or downgrade risk even when its duration is modest. Call features, inflation, currency exposure and tax treatment may also matter, depending on the portfolio and the investor’s circumstances. FINRA cautions that low duration does not mean low risk; bonds and bond funds also face inflation, call, default and other risks [3]. Nor does a government guarantee on a particular bond mean its market price cannot fall if sold before maturity. Duration cannot answer whether an investment suits a person’s time horizon, need for income or ability to tolerate losses. It is a lens for one question—how prices might respond to changing yields—not a complete risk rating or a buy-or-sell signal."
+    ],
+    [
+      "A fund is not an individual bond held to maturity",
+      "With an individual bond, an investor who holds it until maturity may receive the stated principal then, provided the issuer pays as promised. Before that date, its market value can rise or fall, and selling early can mean realizing a loss. The bond’s coupons and repayment terms are tied to that specific security. A conventional bond fund is different: investors own fund shares, while the portfolio holds many bonds that may be bought, sold or replaced. The fund does not generally promise to return a particular principal amount on a single maturity date. Its share price and distributions reflect the portfolio and market conditions over time. This difference is important when someone hears that a bond “comes due” and assumes a bond fund will do the same. Some funds have target-maturity designs, but their structure and stated terms still deserve a close read; do not infer a repayment promise from the word “duration.” Check the prospectus for what the fund actually holds and seeks to do."
+    ],
+    [
+      "Read the figure, then name its limits",
+      "A practical way to use duration is to make the assumptions visible. Find the current duration in the fund’s official fact sheet or prospectus, note its “as of” date, and check whether it describes effective, modified or another form of duration. Then use the simple estimate: duration multiplied by the yield change, with the sign reversed. If duration is five and yields rise by one percentage point, the rough price estimate is a 5% decline. If yields rise by half a point, the rough estimate is about 2.5%. Before drawing a conclusion, ask what the estimate leaves out: Does it assume a broad, parallel shift in rates? Could calls or prepayments change cash flows? What credit, liquidity or inflation risks are present? Duration can change, and larger yield moves can make the simple linear estimate less accurate because price responses are nonlinear [2]. This exercise is educational, not a recommendation to buy, sell or change an investment. Its value is a clearer question, not a certain answer."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Investor Bulletin: Fixed Income Investments — When Interest Rates Go Up, Prices of Fixed-Rate Bonds Fall",
+      "authors": "SEC Office of Investor Education and Assistance",
+      "publication": "Investor.gov / U.S. Securities and Exchange Commission; June 26, 2013",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-86",
+      "researchSourceId": "S3"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Evaluating a Municipal Bond’s Interest Rate Risk",
+      "authors": "Municipal Securities Rulemaking Board",
+      "publication": "Municipal Securities Rulemaking Board; 2013.1",
+      "url": "https://www.msrb.org/sites/default/files/Evaluating-Interest-Rate-Risk.pdf",
+      "researchSourceId": "S33"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Duration—What an Interest Rate Hike Could Do to Your Bond Portfolio",
+      "authors": "FINRA Staff",
+      "publication": "FINRA Syndication; March 3, 2017",
+      "url": "https://syndication.finra.org/content/duration-what-interest-rate-hike-could-do-your-bond-portfolio",
+      "researchSourceId": "S20"
+    }
+  ],
+  "id": "duration-is-a-sensitivity-estimate-not-a-countdown-20261125",
+  "date": "2026-11-25",
+  "editionDate": "2026-11-25",
+  "url": "article.html?id=duration-is-a-sensitivity-estimate-not-a-countdown-20261125",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/duration-is-a-sensitivity-estimate-not-a-countdown-20261125.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Duration Is a Sensitivity Estimate, Not a Countdown. A bond fund’s duration can help you picture how interest-rate changes may affect its price. It cannot tell you exactly what will happen—or capture every risk.\nPeople: a couple of different ethnic backgrounds sharing a thoughtful moment. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: A warm, natural-light scene of two friends at a kitchen table, one pointing to a duration figure on a printed bond fund fact sheet while the other writes a simple percentage example in a notebook; everyday, collaborative, and not staged as financial advice.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends at a community gym, one preparing to lift while the other adjusts a stationary bike nearby. | Two friends sit at a bright vanity, each reading the label on their own makeup palette without sharing or applying products. | Two friends pause beside a tree, scanning its bark for a camouflaged moth without touching the trunk. | Two friends at a library table compare an open hardback and a photo album, looking closely at their spines and hinges. | Two friends sit at a kitchen table, listening to each other beside a notebook and a glass of water.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

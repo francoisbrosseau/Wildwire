@@ -1,0 +1,79 @@
+{
+  "category": "Living",
+  "title": "The Quit Attempt Has a Support Role: Help Without Taking Over",
+  "subtitle": "A friend or family member can make quitting feel less solitary—without becoming the coach, clinician or monitor. Start by asking what kind of help is wanted.",
+  "imageAlt": "Two friends sit at a kitchen table, listening to each other beside a notebook and a glass of water.",
+  "imageConcept": "A warm, natural kitchen-table scene: two adult friends or family members facing each other in conversation, one listening while the other speaks; a notebook and water glasses sit nearby, with no cigarettes, smoke or medical props in view.",
+  "body": [
+    [
+      "Begin with permission, not a plan",
+      "When someone tells you they want to stop smoking, it can be tempting to respond immediately with advice, reminders or a list of resources. A better first move is smaller: ask whether support would be welcome, and what kind. The person may want help finding a clinician, company during a difficult moment, or simply someone who will listen without turning every conversation into a check on smoking. They may also want privacy or no help right now. Those answers are not a test of how serious they are; readiness and preferences can vary, and they belong to the person making the attempt.\n\nKeep the conversation brief and specific. Ask what would make the next few days easier, rather than designing a complete quit plan on their behalf. If they are unsure, leave the door open and let them return to it. Support works best as an offer the person can shape or decline—not a new responsibility they have to manage."
+    ],
+    [
+      "Make treatment easier to reach",
+      "Encouragement can matter to a relationship, but it is not a substitute for evidence-based quitting support. The CDC says counseling and medication together give people who smoke the best chance of quitting. A health care professional can discuss which options may be appropriate, including medicines, and help account for a person’s health and circumstances. A supporter can offer to help arrange an appointment, write down questions, or go along if invited; the person who smokes remains in charge of those choices. [1]\n\nIn the United States, quitlines offer free, confidential counseling and referrals. They can also provide information and support to family and friends who want to help someone quit. [2] You might offer to find the current quitline information together or sit nearby while the person makes a call. Avoid presenting a resource as an order, or treating one conversation with a professional as a promise that quitting will be easy. The useful role is to make a chosen next step more reachable."
+    ],
+    [
+      "Offer a task with edges",
+      "Vague offers—let me know if you need anything—can leave the person doing the planning. A concrete offer is easier to accept, revise or refuse: help look up a local cessation service, provide a ride to an appointment, or check in on a day and time they choose. Keep the offer bounded. You can agree to one task without signing up to supervise the whole attempt.\n\nAsk what the person wants you to do if they are having a hard moment. They might prefer a change of scene, a short conversation, practical help with an errand, or no intervention unless they ask. Do not assume that a craving calls for advice, or that silence means a request for a reminder. The supporter’s job is to follow the agreement, not to guess at the right response. If the person changes their mind, treat that as useful information and adjust."
+    ],
+    [
+      "Agree on a check-in that feels human",
+      "Regular contact can feel caring to one person and like surveillance to another. Before setting a check-in, ask how often they want to hear from you, which channel feels comfortable, and what kind of question they would welcome. A single agreed message after an appointment may suit someone better than daily updates. Someone else may want company during a particular transition in their day. Let the person set the pace, and do not turn each check-in into a report card.\n\nEncouragement should recognize effort without grading results. You can notice that they made an appointment, considered an option or were willing to talk about what is difficult. Avoid asking for a tally of cigarettes or demanding promises. If a person says they would rather not discuss it, respect that boundary and make clear they can bring it up again. A supportive relationship has room for ordinary conversation, too."
+    ],
+    [
+      "Keep evidence in proportion",
+      "It is important not to promise that family or partner support will make someone quit. A 2018 Cochrane review found no demonstrated improvement in long-term abstinence from interventions designed to enhance partner support. The review also noted that many interventions did not show they had actually increased support. [3] That finding is a reason for careful claims, not a reason to withdraw kindness: it says informal encouragement should not be sold as treatment or as a reliable route to abstinence.\n\nThe cited review examined interventions intended to enhance one-to-one partner support; it does not establish that generic encouragement works for everyone. [3] The practical distinction is clear: be a caring person in the quit attempt, and help connect the person to professional or structured support if they want it. Do not take responsibility for an outcome you cannot control."
+    ],
+    [
+      "If smoking resumes, stay beside the person",
+      "A return to smoking can bring disappointment, embarrassment or a wish to avoid the subject. Resist turning it into a verdict about willpower. Ask whether the person wants to talk about what happened and what, if anything, they want to do next. They may want to revisit professional help, reconsider a plan or take time before deciding. You can offer to help with the next step they choose, while leaving medical questions to a qualified professional.\n\nDo not hide or discard someone’s tobacco products, announce their attempt to other people, or set consequences without their agreement. Those actions can damage trust and take control away from the person. If there are children or other household members, practical conversations about shared spaces and boundaries can still happen respectfully; they do not need to become a public campaign to pressure the smoker. Care can remain steady even when the path changes."
+    ],
+    [
+      "Close with a role they chose",
+      "At your next calm conversation, ask whether the person wants to spend five minutes choosing one kind of support—not building a whole quit plan. Let them name a task, such as finding a clinician, looking up a quitline, or agreeing on one check-in. Write down only what they want remembered, and confirm when or whether you should follow up. If they decline help, accept the answer without withdrawing your warmth. The aim is a clear, manageable role that belongs to the supporter and a next move that stays with the person quitting. Leave the conversation with permission intact."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "How to Quit Smoking | Smoking and Tobacco Use | CDC",
+      "authors": "Centers for Disease Control and Prevention",
+      "publication": "Centers for Disease Control and Prevention (CDC), May 15, 2024",
+      "url": "https://www.cdc.gov/tobacco/about/how-to-quit.html",
+      "researchSourceId": "S4"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Quitlines and Other Cessation Support Resources | Smoking and Tobacco Use | CDC",
+      "authors": "Centers for Disease Control and Prevention",
+      "publication": "Centers for Disease Control and Prevention (CDC), January 31, 2025",
+      "url": "https://www.cdc.gov/tobacco/hcp/patient-care/quitlines-and-other-resources.html",
+      "researchSourceId": "S5"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Enhancing partner support to improve smoking cessation.",
+      "authors": "Babalola Faseru, Kimber P. Richter, Taneisha S. Scheuermann, and Eal Whan Park",
+      "publication": "Cochrane Database of Systematic Reviews, August 13, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30101972/?utm_source=openai",
+      "researchSourceId": "S77"
+    }
+  ],
+  "id": "the-quit-attempt-has-a-support-role-help-without-taking-over-20261125",
+  "date": "2026-11-25",
+  "editionDate": "2026-11-25",
+  "url": "article.html?id=the-quit-attempt-has-a-support-role-help-without-taking-over-20261125",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-quit-attempt-has-a-support-role-help-without-taking-over-20261125.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Quit Attempt Has a Support Role: Help Without Taking Over. A friend or family member can make quitting feel less solitary—without becoming the coach, clinician or monitor. Start by asking what kind of help is wanted.\nPeople: three generations of one family working together. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: A warm, natural kitchen-table scene: two adult friends or family members facing each other in conversation, one listening while the other speaks; a notebook and water glasses sit nearby, with no cigarettes, smoke or medical props in view.\nAvoid repeating these recent WILDWIRE image scenes: A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends at a community gym, one preparing to lift while the other adjusts a stationary bike nearby. | Two friends sit at a bright vanity, each reading the label on their own makeup palette without sharing or applying products. | Two friends pause beside a tree, scanning its bark for a camouflaged moth without touching the trunk. | Two friends at a library table compare an open hardback and a photo album, looking closely at their spines and hinges.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 3,
+    "issues": []
+  }
+}

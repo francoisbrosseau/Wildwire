@@ -1,0 +1,79 @@
+{
+  "category": "Style",
+  "title": "The Palette Is for a Place: Check the Eye-Use Label Before You Style With Color",
+  "subtitle": "A bold shade can look ready for the lids and still be intended for somewhere else. Here’s how to make a quick, useful check before color goes near your eyes.",
+  "imageAlt": "Two friends sit at a bright vanity, each reading the label on their own makeup palette without sharing or applying products.",
+  "imageConcept": "Two friends at a well-lit vanity compare the backs of their own vivid makeup palettes, with a small mirror and clean brushes nearby; neither is applying makeup or passing products to the other.",
+  "body": [
+    [
+      "A shade is not a destination",
+      "A vivid blue, metallic green or fluorescent pink can seem to announce its own styling possibilities. But color alone does not tell you where a cosmetic is intended to be used. A palette may contain shades with different directions or limitations, and a dramatic finish does not make every pigment an eye product. Before planning a look around a shade, check whether the product is specifically intended for the eye area. That small pause is more useful than trying to judge a pigment by its appearance, name or place in the palette. In the United States, color additives must be permitted for their intended cosmetic use; permission for cosmetic use generally does not mean permission for use around the eyes [1]."
+    ],
+    [
+      "Why the eye-area distinction matters",
+      "Cosmetic color additives are not governed by one blanket permission for every location. The FDA’s reference table distinguishes eye-area use from general cosmetic and external use, and the applicable rules can include specific limitations [2]. The FDA advises consumers not to use cosmetics near the eyes unless they are intended for that use [1]. This is a distinction about the product’s permitted purpose, not a claim that a particular shade will or will not irritate a particular person. The practical implication is straightforward: a color’s presence in a cosmetic, or its use elsewhere on the face or body, does not establish that it is appropriate for the eyelids or lash line. Treat the product’s stated use as part of the styling information, alongside finish, texture and how you want to wear it."
+    ],
+    [
+      "Read the product, not just the palette",
+      "Start with the package and its directions. Look for a clear indication that the product is intended for use around the eyes; also check the ingredient declaration and any warnings or restrictions. FDA’s permitted-color table is a quick-reference supplement that separates eye-area use from other cosmetic uses, but the table points to individual regulations for applicable details [2]. A shade name such as “electric,” “neon” or “chrome” is not an eye-use clearance, and a broad phrase like “cosmetic use” does not settle the question. If the relevant information is missing, unclear or difficult to connect to the specific shade, don’t guess based on the color story or the retailer’s styling photographs. Set that shade aside for a use the product actually identifies, or choose a product labeled for the eye area."
+    ],
+    [
+      "When the look is theatrical",
+      "The same distinction applies to novelty and theatrical makeup. The FDA reference table identifies which color additives may be used in different types of cosmetics and directs readers to the applicable regulations for specific permitted uses and restrictions [2]. That matters for festival looks, stage makeup, face paint and other styles built around saturated or unusual pigments. The look may be designed to read as one cohesive palette, while the products inside it have different intended uses. Check each product or shade rather than assuming the whole set is suitable for every part of the face. Brows also deserve a separate check: specialized tinting products can have narrow use conditions and are not interchangeable with ordinary consumer eye makeup. If a product is sold for a limited professional use, follow those limits rather than treating the word “brow” as permission to improvise."
+    ],
+    [
+      "A label check is not a personal safety guarantee",
+      "A product labeled for the eye area is not a promise that every person will tolerate it. Nor can a reader determine legal compliance simply by matching an ingredient name to a table: the relevant rules may depend on the particular color additive and its restrictions [2]. The point of this check is narrower and more practical. It helps you avoid treating a product designed for another area as an eye product, and it helps you spot when you need better information before deciding how to wear something. If you are choosing makeup with a friend, keep the check individual: each person can read their own product’s directions and ingredient list. The American Academy of Ophthalmology recommends cosmetics designed for the eye area and advises against sharing eye makeup [3]. A shared look does not require shared products."
+    ],
+    [
+      "A three-minute check before you apply",
+      "Put the product somewhere well lit and give yourself a moment to read it before starting your makeup. First, identify the exact product and shade; don’t rely on a photograph of the front of a palette. Second, find the directions and any wording that says where the product is intended to be used. Third, review the ingredient declaration and warnings, noting whether the instructions distinguish among shades. Fourth, if the use remains uncertain, leave that shade off the eye area and choose one whose directions are clear. Keep the package or a photo of its information available if you want to check the FDA’s color-additive reference; remember that the table is a starting point, not a personal assessment or a substitute for the linked regulatory details [2]. Finally, use your own eye makeup rather than borrowing a friend’s, even when you are getting ready together [1][3]."
+    ],
+    [
+      "If your eyes object",
+      "Stop using a cosmetic if it causes irritation. FDA advises seeking medical advice if irritation persists [1]. Don’t try to answer a reaction by adding more product, switching to a different shade from the same palette or assuming that a label settles what is happening for you. A label can tell you about intended use and directions; it cannot diagnose a reaction. Keep the product information available in case you need to discuss it with a health professional. The larger style lesson is not to make bold color feel risky or off-limits. It is to separate the creative decision—what look you want—from the practical one—whether this particular product is meant for that part of your face. When both answers are clear, color gets to be the fun part again."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Eye Cosmetic Safety",
+      "authors": "U.S. Food and Drug Administration",
+      "publication": "U.S. Food and Drug Administration; August 1, 2001; updated December 18, 2006",
+      "url": "https://www.fda.gov/cosmetics/cosmetic-products/eye-cosmetic-safety",
+      "researchSourceId": "S36"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Color Additives Permitted for Use in Cosmetics",
+      "authors": "U.S. Food and Drug Administration",
+      "publication": "U.S. Food and Drug Administration; April 30, 2008; updated June 20, 2008 and February 22, 2010",
+      "url": "https://www.fda.gov/cosmetics/cosmetic-ingredient-names/color-additives-permitted-use-cosmetics",
+      "researchSourceId": "S34"
+    },
+    {
+      "sourceId": "S3",
+      "title": "How To Use Cosmetics Safely Around Your Eyes",
+      "authors": "Dan Gudgel",
+      "publication": "American Academy of Ophthalmology; October 27, 2026",
+      "url": "https://www.aao.org/eye-health/glasses-contacts/eye-makeup?utm_source=openai",
+      "researchSourceId": "S100"
+    }
+  ],
+  "id": "the-palette-is-for-a-place-check-the-eye-use-label-before-you-st-20261125",
+  "date": "2026-11-25",
+  "editionDate": "2026-11-25",
+  "url": "article.html?id=the-palette-is-for-a-place-check-the-eye-use-label-before-you-st-20261125",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-palette-is-for-a-place-check-the-eye-use-label-before-you-st-20261125.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Palette Is for a Place: Check the Eye-Use Label Before You Style With Color. A bold shade can look ready for the lids and still be intended for somewhere else. Here’s how to make a quick, useful check before color goes near your eyes.\nPeople: two adult friends of different genders. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: confident, well-dressed friends with runway energy grounded in attainable real life.\nScene concept: Two friends at a well-lit vanity compare the backs of their own vivid makeup palettes, with a small mirror and clean brushes nearby; neither is applying makeup or passing products to the other.\nAvoid repeating these recent WILDWIRE image scenes: Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends at a community gym, one preparing to lift while the other adjusts a stationary bike nearby.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

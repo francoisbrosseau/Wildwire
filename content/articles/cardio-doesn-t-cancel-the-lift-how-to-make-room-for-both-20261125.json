@@ -1,0 +1,83 @@
+{
+  "category": "Strength",
+  "title": "Cardio Doesn’t Cancel the Lift: How to Make Room for Both",
+  "subtitle": "For most healthy adults, endurance and resistance training can share a program. The useful question is how to arrange them around your goals, time and recovery.",
+  "imageAlt": "Two friends at a community gym, one preparing to lift while the other adjusts a stationary bike nearby.",
+  "imageConcept": "A warm, candid community-gym scene: two adult friends share a training space, one setting up for a strength exercise and the other beside a stationary bike, with relaxed expressions and no emphasis on physique or performance.",
+  "body": [
+    [
+      "The rivalry is not the point",
+      "If you want to get stronger and improve your cardiovascular fitness, it is easy to hear that you must choose: lift weights, or do cardio. That warning often comes wrapped in a technical phrase, the “interference effect,” which describes the possibility that endurance work could blunt some adaptations to resistance training. The phrase sounds like a verdict. The research is more qualified. In healthy adults, combining the two forms of training does not appear to erase average gains in maximal strength or muscle size. A recent umbrella review found that concurrent training improved aerobic capacity compared with resistance training alone, while strength-related outcomes were broadly comparable. Its analysis did not establish a universal winning order for the two modes [1]. That is not a promise that every schedule works equally well. It is a reason to start with the goals you actually care about, rather than treating cardio and lifting as incompatible."
+    ],
+    [
+      "What “concurrent” training means",
+      "In research, concurrent training means including both endurance exercise and resistance training in the same overall program. It does not necessarily mean doing both in one workout. A week with a brisk walk on one day and a strength session on another still puts both modes in the program; so does a session that combines them. That distinction matters because findings about same-session training should not automatically be applied to every training week. Reviews also combine studies with different exercises, schedules, participants and levels of training experience. The umbrella review summarized 17 meta-analyses, covering 144 studies and 1,492 healthy participants, but that total does not make the evidence a precise prescription for each individual [1]. Read it as a broad pattern: for many healthy adults, adding cardio need not undermine strength and muscle-size gains. Read the details as a reminder that context still counts."
+    ],
+    [
+      "The narrower concern: explosive strength",
+      "The clearest caution is not that every kind of strength suffers. It concerns explosive-strength gains: the ability to produce force rapidly, which can matter in activities that demand quick, powerful movement. An updated review of 43 studies in healthy adults found no significant compromise in maximal strength or muscle hypertrophy when aerobic work was combined with strength training. It did, however, find that explosive-strength gains were more likely to be attenuated when both modes were performed in the same session than when they were separated by at least three hours [2]. That is a qualified result, not a rule that everyone needs a three-hour gap. The review does not mean a short run will undo a lifting session, nor does it show that separating workouts guarantees a better result. It does suggest that people with a specific explosive-performance goal may have more reason to think carefully about how demanding sessions are placed."
+    ],
+    [
+      "Choose what gets your freshest effort",
+      "When two demanding activities compete for the same limited energy, order can be a practical decision even if research does not name one sequence as best for everyone. If strength is the priority today, begin with the strength work while you are fresher; if a planned endurance effort is the priority, give that first place. This is a planning principle, not a physiological guarantee. It simply makes it less likely that the activity you most want to do well is performed after fatigue from the other. A recent umbrella review found no universal order across its sequence analyses [1]. That leaves room for individual goals, preferences and real-world constraints. A person training for a particular event may make a different choice from someone whose main aim is general fitness or enjoying movement. The order that supports consistency and lets you approach the important work with suitable energy may be more useful than chasing a supposedly perfect sequence."
+    ],
+    [
+      "A workable week does not need to be elaborate",
+      "Start by writing down the activities you want to keep, the days you can realistically make time, and which sessions are especially demanding. Then look for a schedule that allows both modes to happen without making every day feel like a test. If you can separate a hard endurance session and a hard lifting session, doing so may help manage fatigue; if your schedule calls for both in one visit, decide which matters more that day and place it first. You can also make one session less demanding rather than forcing two high-effort blocks together. These are flexible ways to organize a week, not evidence-based guarantees about a particular outcome. The research on concurrent training spans different protocols, and it cannot tell you that one exact calendar will suit every body. A plan that fits your time, experience and capacity is a better starting point than one you cannot sustain."
+    ],
+    [
+      "The average result is not an individual forecast",
+      "Studies describe groups, not a promise about what will happen to each person. A 2024 review of 59 studies and 1,346 healthy adults aged 18 to 50 reported a small attenuation in lower-body strength adaptations in men, but not women; the authors also said there was not enough evidence to draw conclusions about muscle hypertrophy [3]. That finding adds nuance to the broader picture, but it should not be turned into a prediction based on sex alone. Training history, program design, effort and recovery differ, and the research does not identify a single schedule that resolves every possible trade-off. The studies also focus mainly on healthy adults. If you have a health condition, pain, a clinical exercise goal or a history that changes what feels safe, general findings may not answer your particular question. A qualified professional can help tailor decisions to that context."
+    ],
+    [
+      "One combined program can still have uneven results",
+      "Including both modes is not the same as making equal progress in both. The updated review included 43 studies and found no significant compromise in maximal strength or muscle hypertrophy, although explosive-strength gains could be attenuated, especially when both modes were performed in the same session [2]. For a reader, the practical point is to check what the program actually gives time and attention to. If aerobic capacity matters, ask whether the endurance work is substantial and appropriate to that goal; if strength matters, look at whether resistance work is consistently included. The name of a program is less informative than its contents and whether you can follow it."
+    ],
+    [
+      "A simple way to make the decision",
+      "Before combining sessions, ask three questions: What matters most in this workout? How demanding are the two activities? Can I separate them without making the week harder to manage? If one goal is clearly the priority, put that activity first. If both sessions are hard and explosive performance is especially important, consider separating them when your schedule allows; the evidence points to a possible advantage in that narrower situation, not a requirement for everyone [2]. If time is tight, a combined session may be a practical way to keep both kinds of movement in your life. Notice how the arrangement feels and whether you can recover well enough to keep showing up. Change one thing at a time—order, spacing or how demanding one session is—so you can judge the adjustment. Cardio and strength do not need to compete for a winner. A useful plan gives each a place that makes sense for the person doing it."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Maximizing Adaptations in Concurrent Training: An Umbrella Review of Meta-analyses",
+      "authors": "Steffen Held, Lena Wolf, Ludwig Rappelt, Wilhem Bloch, Lars Donath, Florian Micke, Stephan Geisler, and Eduard Isenmann",
+      "publication": "Sports Medicine, published online February 28, 2026; issue June 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41762427/",
+      "researchSourceId": "S39"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Compatibility of Concurrent Aerobic and Strength Training for Skeletal Muscle Size and Function: An Updated Systematic Review and Meta-Analysis",
+      "authors": "Moritz Schumann, Joshua F. Feuerbacher, Marvin Sünkeler, Nils Freitag, Bent R. Rønnestad, Kenji Doma, and Tommy R. Lundberg",
+      "publication": "Sports Medicine, published online November 10, 2021; issue March 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34757594/",
+      "researchSourceId": "S13"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Concurrent Strength and Endurance Training: A Systematic Review and Meta-Analysis on the Impact of Sex and Training Status",
+      "authors": "Raven O. Huiberts, Rob C. I. Wüst, and Stephan van der Zwaard",
+      "publication": "Sports Medicine, published online October 17, 2023; issue February 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37847373/",
+      "researchSourceId": "S43"
+    }
+  ],
+  "id": "cardio-doesn-t-cancel-the-lift-how-to-make-room-for-both-20261125",
+  "date": "2026-11-25",
+  "editionDate": "2026-11-25",
+  "url": "article.html?id=cardio-doesn-t-cancel-the-lift-how-to-make-room-for-both-20261125",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/cardio-doesn-t-cancel-the-lift-how-to-make-room-for-both-20261125.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Cardio Doesn’t Cancel the Lift: How to Make Room for Both. For most healthy adults, endurance and resistance training can share a program. The useful question is how to arrange them around your goals, time and recovery.\nPeople: two men friends with different backgrounds. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: serious, focused partners training with controlled effort; no smiling while lifting.\nScene concept: A warm, candid community-gym scene: two adult friends share a training space, one setting up for a strength exercise and the other beside a stationary bike, with relaxed expressions and no emphasis on physique or performance.\nAvoid repeating these recent WILDWIRE image scenes: Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
