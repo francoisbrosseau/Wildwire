@@ -1,0 +1,79 @@
+{
+  "category": "Style",
+  "title": "The Dark Panel Can Mark the Light: A Two-Person Check Before You Store a Color-Blocked Garment",
+  "subtitle": "When contrasting shades meet in a folded drawer, a quick look at contact, moisture and the care label is a sensible last step—not a reason to panic or improvise a laundry test.",
+  "imageAlt": "Two friends inspect a color-blocked jacket together, noticing where its dark sleeve rests against a pale body panel when folded.",
+  "imageConcept": "Two friends at a bedroom dresser, calmly folding a color-blocked jacket the way it would be stored and checking the care label before placing it in a drawer.",
+  "body": [
+    [
+      "The risk can be hiding in the fold",
+      "A garment can look striking on the body and surprisingly complicated in a drawer. A dark sleeve may sit against a cream-colored front; a saturated waistband may fold onto a pale lining. If dye moves during storage, the result can be a shadow or stain exactly where those sections touched. It is a specific issue, not a reason to treat every color-blocked item as hazardous. The useful question is simply: when this piece is folded or hung for storage, which colors rest against which other colors—and is the garment dry? A two-person check makes that easy to see. One person handles the fold while the other notices the points of contact. There is no need for special equipment, a damp cloth, or a guess about how the dye was made."
+    ],
+    [
+      "Why storage contact matters",
+      "Color transfer is not limited to a wash cycle. The American Association of Textile Chemists and Colorists has a test method specifically addressing dye transfer in storage: it describes transfer between different shades in folded garments, commonly from darker to lighter areas. Moisture can intensify the risk, so a piece that has not fully dried deserves particular attention before it is put away [1]. That does not mean a dark panel will inevitably mark a pale one. It means that contact and moisture are worth noticing together, especially on a garment with contrasting sections. Textile conservation guidance advises storing textiles clean and dry in a cool, dark, dry location with good ventilation [2]. For everyday wardrobes, the practical takeaway stays modest: avoid storing a garment damp, and do not assume that the absence of visible wetness on the outside means every fold is dry."
+    ],
+    [
+      "Let the care label lead",
+      "Before changing how you clean, dry, fold or store a garment, read its care label. The Federal Trade Commission’s care-labeling guidance explains that instructions address the garment as a whole; considering an individual component alone may miss a problem such as one section’s color bleeding onto another [3]. That is useful context for color-blocked clothing: the dark panel, pale panel, lining and trim are parts of one finished item, not separate garments with separate instructions. Follow the label rather than choosing a treatment based on color contrast. If it calls for professional care, or gives specific drying or storage directions, those directions take priority. If the label is missing or unclear and the item is valuable, delicate or difficult to replace, ask a qualified cleaner or textile-care professional before experimenting. This check is not a substitute for their advice."
+    ],
+    [
+      "A practical check for two",
+      "Choose a calm moment before the garment goes into a drawer, closet or storage box. First, find and read the care label together. Next, spread the item on a clean, dry surface and look at its contrasting areas: dark against pale, vivid against neutral, or printed fabric against a lighter lining. Fold it as it would ordinarily be stored, without pressing or rubbing the panels together. Notice where the colors meet and whether any sections are still damp from cleaning, steaming or wear. Then unfold it, let it finish drying as the label directs if needed, and store it only when it is fully dry. Keep the process observational. Do not wet a corner, press a damp white cloth against the fabric, or leave panels clamped together to see what happens; those are improvised tests, not a reliable way to predict what the whole garment will do."
+    ],
+    [
+      "When steaming or recent cleaning is involved",
+      "The AATCC summary says moisture can intensify dye transfer and that the problem is more severe when garments are steamed immediately before storage [1]. Give it the drying time and treatment its care instructions call for, and check concealed folds as well as the surface. If you have just steamed the item, do not fold it immediately and seal it away; let it dry fully first, following the garment’s instructions. The storage test method notes that steaming before storage and plastic-bag storage can affect transfer risk depending on the garment’s condition [1]. That is not a blanket instruction to avoid a particular storage material or to buy a special one. It is a reminder that recent moisture and the way a garment is enclosed can matter. For routine clothing, a clean, dry storage place with some ventilation is a sensible baseline; Canadian Conservation Institute guidance likewise advises storing textiles clean and dry [2]."
+    ],
+    [
+      "What to do if you notice a concern",
+      "If the garment is dry and the label gives clear care instructions, follow them and store it normally, taking care not to leave contrasting sections pressed together if another practical fold is available. That small adjustment is a precaution, not a guarantee against transfer. If the garment is damp, postpone storage and let it dry as directed. If you discover a fresh mark, avoid rubbing it or applying a stain remover on the spot without checking the label: an aggressive response can affect neighboring colors or fabric. For a significant item or an uncertain stain, seek professional advice. In the unusual case of a garment that has become wet through an accident, flood or soaking, routine closet advice may not be enough. That guidance concerns wet-textile recovery, not ordinary garment maintenance, but it reinforces why a wet, visibly bleeding piece should not be folded away as if nothing happened."
+    ],
+    [
+      "Make the last look part of putting it away",
+      "The best wardrobe habits are often small enough to repeat. When a color-blocked piece is ready to leave the chair and return to its place, take a moment to check the label, notice which panels touch in the usual fold and confirm that the fabric is dry. A friend, sibling or housemate can help by holding one side while you fold, then switching roles to inspect the contact points. If everything is dry and the care directions are clear, put it away without turning storage into a science project. If something is uncertain, pause and find guidance appropriate to that garment. The aim is not to prevent every possible change in fabric over time; it is to make one informed, low-effort decision before contrasting colors spend weeks together in a drawer."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "TM163 Test Method for Colorfastness to Storage: Dye Transfer",
+      "authors": "American Association of Textile Chemists and Colorists",
+      "publication": "American Association of Textile Chemists and Colorists",
+      "url": "https://members.aatcc.org/store/tm163/563/",
+      "researchSourceId": "S6"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Basic care – Textiles",
+      "authors": "Canadian Conservation Institute",
+      "publication": "Canadian Conservation Institute, November 14, 2018",
+      "url": "https://www.canada.ca/en/conservation-institute/services/care-objects/textiles-costumes/basic-care-textiles.html",
+      "researchSourceId": "S32"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Clothes Captioning: Complying with the Care Labeling Rule",
+      "authors": "Federal Trade Commission",
+      "publication": "Federal Trade Commission, May 2014",
+      "url": "https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule?trk=article-ssr-frontend-pulse-little-text-block",
+      "researchSourceId": "S5"
+    }
+  ],
+  "id": "the-dark-panel-can-mark-the-light-a-two-person-check-before-you-20261126",
+  "date": "2026-11-26",
+  "editionDate": "2026-11-26",
+  "url": "article.html?id=the-dark-panel-can-mark-the-light-a-two-person-check-before-you-20261126",
+  "read": 5,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-dark-panel-can-mark-the-light-a-two-person-check-before-you-20261126.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Dark Panel Can Mark the Light: A Two-Person Check Before You Store a Color-Blocked Garment. When contrasting shades meet in a folded drawer, a quick look at contact, moisture and the care label is a sensible last step—not a reason to panic or improvise a laundry test.\nPeople: two adult siblings or close friends collaborating. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: confident, well-dressed friends with runway energy grounded in attainable real life.\nScene concept: Two friends at a bedroom dresser, calmly folding a color-blocked jacket the way it would be stored and checking the care label before placing it in a drawer.\nAvoid repeating these recent WILDWIRE image scenes: Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends compare notes beside a pair of dumbbells in a bright community gym, with one demonstrating a supported squat.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

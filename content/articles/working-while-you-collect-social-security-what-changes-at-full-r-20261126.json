@@ -1,0 +1,83 @@
+{
+  "category": "Finance",
+  "title": "Working While You Collect Social Security? What Changes at Full Retirement Age",
+  "subtitle": "The earnings test can hold back checks, but it is not a dollar-for-dollar loss. Here’s how withholding, later benefit adjustments and taxes differ—and what to check before making a plan.",
+  "imageAlt": "A couple at a kitchen table compares a plain calendar with a generic Social Security benefits worksheet.",
+  "imageConcept": "An everyday kitchen-table scene: two partners review a blank calendar and an unmarked benefits worksheet, with a pen and mugs nearby. Keep the documents generic, with no visible account details, luxury cues or staged financial distress.",
+  "body": [
+    [
+      "The check is withheld. Is it gone?",
+      "A Social Security retirement check that gets held back because you are working can feel like money lost. But the retirement earnings test is better understood as a timing rule: some benefits may be withheld while your work earnings are above a set limit, and Social Security later adjusts your benefit to account for months affected by that test. That adjustment is not a cash refund of every withheld dollar, and it is not the same calculation as the reduction that can apply when you claim before full retirement age. Keeping those rules separate makes the decision easier to evaluate. The test is about work earnings, not a cap on all the money you or your household can receive. The figures below are U.S. federal rules for 2027; they are not individualized claiming or tax advice. SSI, disability benefits and work outside the United States involve different rules."
+    ],
+    [
+      "Three calculations that are easy to confuse",
+      "First, claiming retirement benefits before full retirement age generally results in a lower monthly benefit than claiming at full retirement age. That age-based reduction is one calculation. Second, if you work while receiving benefits before full retirement age, the earnings test may cause Social Security to withhold some checks under a separate formula. Third, at full retirement age, Social Security recalculates the benefit to account for months in which benefits were withheld or reduced because of the earnings test [2]. These rules can affect the same person, but one does not erase or replace the others. For example, a person who claimed early and later had benefits withheld for earnings should not assume the withheld amount is simply added back as a lump sum. The future monthly benefit may be adjusted; the early-claiming decision remains a distinct part of the picture."
+    ],
+    [
+      "The 2027 limits, with two examples",
+      "For someone below full retirement age for the entire year, the 2027 annual exempt amount is $25,560. Social Security withholds $1 in benefits for every $2 of earnings above that amount. If qualifying work earnings are $31,560, that is $6,000 over the limit, corresponding to $3,000 in benefits withheld under the test. In the calendar year you reach full retirement age, the higher exempt amount is $67,920, and the test applies only to earnings before the month you reach that age. The withholding rate is $1 for every $3 above that limit. So $73,920 in qualifying earnings before that month would be $6,000 over the limit, corresponding to $2,000 withheld. These are annual limits; SSA’s 2026 guide states that only the annual limit applies beginning in 2027 [2]. Check the applicable year and the month full retirement age begins before estimating [1]."
+    ],
+    [
+      "What counts—and what does not",
+      "The earnings test concerns work earnings. Wages and net earnings from self-employment count; investment earnings, interest, pensions and annuities do not count toward the test, according to Social Security’s guidance [2]. That distinction matters when a household has several income streams. A salary and a pension may both contribute to the household budget, but they do not enter this particular calculation in the same way. The annual limit is not a general income ceiling, and exceeding it does not mean every benefit dollar disappears. If your pay includes a bonus, commission or vacation pay for work completed before retirement, the treatment may depend on the circumstances. Rather than guessing how a payment will be classified, keep a record of what it was for and ask Social Security how it will count. Estimates are most useful when they include the income category, not just a total."
+    ],
+    [
+      "Why the monthly checks can look different from the annual math",
+      "The earnings-test formula describes how much Social Security may withhold across the relevant period; it does not necessarily mean a small deduction from every check. A person may see one or more full monthly payments held back, depending on the benefit amount and the withholding arrangement. The total withheld can therefore arrive in a different pattern from the annual earnings calculation. Later, when the earnings test is accounted for at full retirement age, the result is an adjustment to the monthly benefit, not a dollar-for-dollar repayment of the withheld amount [2]. That is why comparing one month’s deposit with one month’s wages can be misleading. Keep the annual earnings estimate, the expected benefits and any SSA notice together. If actual earnings change during the year, update the estimate and contact Social Security rather than relying on an old projection."
+    ],
+    [
+      "A different route to a higher benefit",
+      "There is another reason a monthly benefit can rise after someone keeps working, and it is separate from the earnings-test adjustment. Social Security bases retirement benefits on a worker’s earnings record. If a later year of work adds earnings high enough to replace a lower-earning year used in the calculation, the benefit may increase. That is not a repayment for withheld checks; it is a change to the underlying earnings record. The distinction is practical: one adjustment concerns months affected by the earnings test, while the other concerns the earnings used to calculate the benefit. When reviewing a statement or asking SSA a question, name which change you mean. Ask whether the estimate reflects earnings-test withholding, a revised earnings record, or both. That helps prevent a projected future benefit from being mistaken for money already set aside to return."
+    ],
+    [
+      "Taxes are a separate question",
+      "Federal taxability is not the retirement earnings test. The earnings test asks whether work earnings exceed the relevant limit and may lead to benefit withholding. Federal income-tax rules ask whether some Social Security benefits are taxable, based on tax rules that consider a broader financial picture. The IRS’s Publication 915 explains the federal treatment of Social Security and equivalent railroad retirement benefits [3]. A person can be below the earnings-test limit and still need to consider taxability; conversely, being above the earnings-test limit does not itself tell you how much tax you owe. Do not use the $25,560 or $67,920 earnings-test figures as tax thresholds. For tax questions, review current IRS guidance or speak with a qualified tax professional who can consider your full situation. Keep any tax estimate separate from the Social Security withholding estimate."
+    ],
+    [
+      "Make a calendar, not a guess",
+      "Before deciding whether to keep working, reduce hours or change when benefits begin, make a one-page estimate. Mark the benefit year and, if relevant, the month you reach full retirement age. Write down expected wages and net self-employment earnings separately from pensions, interest and investment income. Compare work earnings with the correct annual limit, then estimate the withholding formula; treat the result as a planning estimate, not a promise about which checks SSA will hold. Next, list questions for Social Security: how your earnings estimate will be applied, whether any payment needs clarification, and how a later adjustment may affect your monthly benefit. If you are sharing the exercise with a partner, keep Social Security numbers and account details off shared notes. Update the page when income changes, and use official SSA information for the current rules. The point is not to make the decision for you; it is to see which calculation answers which question."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "SSA - POMS: RS 02501.025 - Determining Annual and Monthly Exempt Amounts - 10/29/2026",
+      "authors": "Social Security Administration",
+      "publication": "Social Security Administration Program Operations Manual System, October 29, 2026",
+      "url": "https://secure.ssa.gov/apps10/POMS.NSF/lnx/0302501025",
+      "researchSourceId": "S36"
+    },
+    {
+      "sourceId": "S2",
+      "title": "How Work Affects Your Benefits",
+      "authors": "Social Security Administration",
+      "publication": "Social Security Administration, Publication No. 05-10069, April 2026",
+      "url": "https://www.ssa.gov/pubs/EN-05-10069.pdf?source=content_type%3Areact%7Cfirst_level_url%3Aarticle%7Csection%3Amain_content%7Cbutton%3Abody_link",
+      "researchSourceId": "S39"
+    },
+    {
+      "sourceId": "S3",
+      "title": "Publication 915 (2026), Social Security and Equivalent Railroad Retirement Benefits",
+      "authors": "Internal Revenue Service",
+      "publication": "Internal Revenue Service, Publication 915 (2026), for use in preparing 2026 returns",
+      "url": "https://www.irs.gov/publications/p915",
+      "researchSourceId": "S81"
+    }
+  ],
+  "id": "working-while-you-collect-social-security-what-changes-at-full-r-20261126",
+  "date": "2026-11-26",
+  "editionDate": "2026-11-26",
+  "url": "article.html?id=working-while-you-collect-social-security-what-changes-at-full-r-20261126",
+  "read": 6,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/working-while-you-collect-social-security-what-changes-at-full-r-20261126.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: Working While You Collect Social Security? What Changes at Full Retirement Age. The earnings test can hold back checks, but it is not a dollar-for-dollar loss. Here’s how withholding, later benefit adjustments and taxes differ—and what to check before making a plan.\nPeople: a woman and a man who are partners, with grounded attainable appearances. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: attentive partners or friends discussing everyday money in a realistic setting, no luxury or get-rich imagery.\nScene concept: An everyday kitchen-table scene: two partners review a blank calendar and an unmarked benefits worksheet, with a pen and mugs nearby. Keep the documents generic, with no visible account details, luxury cues or staged financial distress.\nAvoid repeating these recent WILDWIRE image scenes: Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends compare notes beside a pair of dumbbells in a bright community gym, with one demonstrating a supported squat. | Two friends inspect a color-blocked jacket together, noticing where its dark sleeve rests against a pale body panel when folded. | Two friends pause on an established forest trail to sketch a shallow drainage dip, keeping to the tread as water-darkened soil curves away from the path. | Three generations of a family pause on a public sidewalk to observe a neighborhood storefront sign, with one person taking notes and another checking a historical photograph on a phone. | Two adult siblings sit together at a kitchen table as one reviews a patient portal on a laptop and the other follows along on a phone.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}

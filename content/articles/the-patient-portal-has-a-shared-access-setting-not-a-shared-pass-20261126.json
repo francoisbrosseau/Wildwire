@@ -1,0 +1,83 @@
+{
+  "category": "Living",
+  "title": "The Patient Portal Has a Shared-Access Setting—not a Shared Password",
+  "subtitle": "A separate, permission-based login can make care coordination easier while keeping the patient in control of what is shared and who can act.",
+  "imageAlt": "Two adult siblings sit together at a kitchen table as one reviews a patient portal on a laptop and the other follows along on a phone.",
+  "imageConcept": "Two adult siblings at a kitchen table, reviewing a patient portal together on separate devices; the patient is visibly leading the setup while the other person listens and takes notes.",
+  "body": [
+    [
+      "The helpful login is not the patient’s login",
+      "A family member may be the person who remembers when an appointment is scheduled, helps track a test result, or knows where to find a clinic message. But sharing that work does not require sharing one password. Many health systems offer a portal feature commonly called proxy, caregiver, or shared access, through which the invited person signs in using their own credentials. The patient’s account remains theirs, and the portal can identify which person is using the service.\n\nThat distinction matters in everyday use. If a care partner signs in as the patient, a message may appear to have been sent by the patient, even when someone else wrote it. A separate login can make the handoff clearer and help preserve privacy. The exact feature and process vary by health system, so treat the portal’s own instructions—not a familiar brand name or another family’s experience—as the guide. [2]"
+    ],
+    [
+      "Start with the job the patient wants help with",
+      "Before opening settings or filling out a form, ask the patient what they want the other person to help with. The answer might be narrow: checking appointment dates, seeing visit summaries, keeping track of messages, or helping navigate a portal that is difficult to use. It might also be that they do not want access right now. Either answer is valid.\n\nMake the conversation specific enough to guide the setup. “Would it help if I could see your upcoming appointments?” is easier to consider than a broad request to “manage your health information.” The patient should be able to ask questions, limit what they share where the system allows, or change their mind later. If the patient wants help but would rather not discuss sensitive information with a particular person, that boundary deserves respect too.\n\nThis is a coordination choice, not a test of closeness or trust. Care partners can offer help; the person whose health information it is decides what help is welcome, subject to the portal’s rules and any applicable legal arrangements."
+    ],
+    [
+      "Find out how this health system grants access",
+      "Look in the portal’s settings or help section for terms such as “proxy access,” “care partner,” “sharing,” or “authorized representative.” If no clear option appears, contact the clinic or portal support team and ask what process applies. Some systems allow an invitation through the portal; others may require a form, an in-person step, or staff assistance. Do not assume a self-service button exists, or that instructions for one clinic apply to another. [2]\n\nA useful call can be short and precise: “The patient wants to give me my own portal access. What is the process, what information will I be able to see, and how can the patient change or end it?” Ask whether both people need accounts, how identity is verified, and whether the invitation can be completed remotely. If the person receiving access has trouble with online forms, ask what assistance is available without handing over their password.\n\nSome health systems have distinct procedures for different roles or circumstances. That is a reminder to verify the applicable rules with the specific organization, not a template for every portal. [2]"
+    ],
+    [
+      "Read the permission before accepting it",
+      "The phrase “shared access” does not tell you exactly what will be shared. Depending on the portal and the arrangement, an invited person may be able to view appointments, results, visit notes, medication lists, or messages—and may have some ability to take actions. Do not infer that access is limited to scheduling simply because that is the help the patient initially wanted.\n\nBefore accepting an invitation, review the permission description together. Ask what the invited person can see and do, whether the patient can grant different levels of access, and whether certain information or services have separate restrictions. If the explanation is unclear, pause and ask portal support to explain it in ordinary language. Where the system offers choices, select the narrowest option that meets the agreed need.\n\nA health system’s safety guidance treats privacy and secure caregiver access as part of effective clinical communication, not as an obstacle to coordination. The practical point is to make the arrangement understandable to both people: who is signing in, what that person can access, and what the limits are. [3]"
+    ],
+    [
+      "Set it up side by side, then test the handoff",
+      "Once the patient has chosen the arrangement, follow the health system’s official instructions. The patient should lead the steps involving their own account and confirm the invitation; the care partner should create or use their own login if the system requires it. Avoid sending passwords through text or email, writing them into a shared note, or staying signed in on a device other people use. If either person is unsure which account is open, sign out and check before continuing.\n\nThen test the parts of the arrangement that matter. Have the care partner sign in independently and confirm that the invitation worked. Together, locate one agreed item—perhaps the next appointment—and check that each person understands what is visible. If the purpose includes helping with messages, review how the portal shows who sent a message and what actions the care partner is permitted to take. Do not send a test message to a clinician unless the clinic has asked you to do so.\n\nWrite down the portal support contact and the steps for changing access. Keep that note somewhere both people can find it, but do not include passwords or unnecessary health details. A simple record can prevent confusion later: the patient granted access, the named person accepted it, and both know where to ask for help."
+    ],
+    [
+      "Access is not the same as decision-making authority",
+      "Portal access can help someone see or organize information. It does not, by itself, make that person a healthcare decision-maker. Conversely, having legal authority to make decisions does not necessarily create a portal account or automatically provide the access needed to use one. These are separate arrangements, with different purposes and procedures. [2]\n\nThat distinction is especially important when circumstances change. A person may want a relative to help with appointments but not make decisions; someone else may have a formal role and still need to ask the health system how portal access works. Do not use an access invitation as a substitute for discussing or documenting decision-making authority. If that separate question arises, ask the relevant health system or an appropriate professional what process applies rather than guessing from the portal screen.\n\nThe federal data brief reports that caregiver or proxy access to patient portals rose from 24% in 2020 to 51% in 2024. That signals how much more common this kind of coordination has become; it does not mean every patient needs it, or that every portal offers the same options. [1] The useful standard is not maximum access. It is access the patient understands, chooses, and can revisit."
+    ],
+    [
+      "Review the arrangement when the need changes",
+      "Shared access is not necessarily a permanent setting. The patient may want to widen, narrow, or end it as care needs shift, a relationship changes, or a previous task is complete. Agree on a simple way to revisit the arrangement—for example, when the patient changes clinics or when the care partner’s role changes. A review does not need to imply mistrust; it is a chance to confirm that the permission still matches the patient’s wishes.\n\nIf access needs to change, use the portal’s stated procedure or contact support. Ask whether revoking access takes effect immediately and whether the invited person should take any additional steps, such as signing out of a shared device. If a login appears unfamiliar or access is not working as expected, stop using the account and contact the health system through its official support channel. Do not try to solve an access problem by exchanging credentials.\n\nThe patient should also know how to check which people are authorized, where that information appears, and whom to contact if they no longer recognize an entry. If the patient wants the care partner to help with that review, keep the patient in the lead: they can decide what to share while the other person helps navigate."
+    ],
+    [
+      "Leave the permission with the person who chose it",
+      "At a calm moment, set aside ten minutes with the patient’s device and the health system’s official instructions. Ask the patient to name one task they would like help with, then find the portal’s access options together—or call support if the route is unclear. Before anyone accepts an invitation, read back what the other person will be able to see and do. Let the patient decide whether that scope fits. Once access is active, have each person sign in separately and locate the agreed item. Finish by writing down how to change or end access and where to get help. Leave passwords out of the note, and leave the decision open to revisit."
+    ]
+  ],
+  "sources": [
+    {
+      "sourceId": "S1",
+      "title": "Individuals’ Access and Use of Patient Portals and Smartphone Health Apps, 2024",
+      "authors": "Chelsea Richwine",
+      "publication": "Office of the Assistant Secretary for Technology Policy (ASTP), Data Brief No. 77, July 2025",
+      "url": "https://healthit.gov/data/data-briefs/individuals-access-and-use-patient-portals-and-smartphone-health-apps-2024/",
+      "researchSourceId": "S39"
+    },
+    {
+      "sourceId": "S2",
+      "title": "Shared Access Toolkit: Patients & Care Partners | Coalition for Care Partners",
+      "authors": "Jason Fairchild",
+      "publication": "Coalition for Care Partners, April 24, 2024",
+      "url": "https://coalitionforcarepartners.org/shared-access-toolkit-patients-care-partners/",
+      "researchSourceId": "S61"
+    },
+    {
+      "sourceId": "S3",
+      "title": "SAFER Self Assessment | Clinician Communication",
+      "authors": "Trisha Flanagan, Hardeep Singh, Dean F. Sittig, and Daniel R. Murphy",
+      "publication": "Assistant Secretary for Technology Policy (ASTP), August 2024",
+      "url": "https://healthit.gov/wp-content/uploads/2025/06/SAFER-Guide-1.-Clinical-Communication-Final.pdf",
+      "researchSourceId": "S45"
+    }
+  ],
+  "id": "the-patient-portal-has-a-shared-access-setting-not-a-shared-pass-20261126",
+  "date": "2026-11-26",
+  "editionDate": "2026-11-26",
+  "url": "article.html?id=the-patient-portal-has-a-shared-access-setting-not-a-shared-pass-20261126",
+  "read": 7,
+  "author": "WILDWIRE Editorial",
+  "imageCredit": "AI-generated editorial illustration; depicts no real people or documentary event.",
+  "image": "images/generated/the-patient-portal-has-a-shared-access-setting-not-a-shared-pass-20261126.webp",
+  "imagePrompt": "Create a fresh, premium cinematic editorial photograph for WILDWIRE, landscape 3:2, natural textures and realistic attainable people.\nStory: The Patient Portal Has a Shared-Access Setting—not a Shared Password. A separate, permission-based login can make care coordination easier while keeping the patient in control of what is shared and who can act.\nPeople: a couple of different ethnic backgrounds sharing a thoughtful moment. The scene must center a couple, family or friends together; never a lone person. Use new faces and a distinct composition, not seen in earlier WILDWIRE editions.\nDirection: warm, capable people sharing food, home life or an everyday ritual.\nScene concept: Two adult siblings at a kitchen table, reviewing a patient portal together on separate devices; the patient is visibly leading the setup while the other person listens and takes notes.\nAvoid repeating these recent WILDWIRE image scenes: A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two training partners prepare for a focused strength session in a practical neighborhood gym. | Two sharply dressed friends walk with calm runway confidence through an urban street. | Two travel partners study a city map at a vivid street corner, ready to explore. | Two thoughtful friends discuss a painting in a quiet gallery, attentive and curious. | A couple and a family member prepare a simple meal together in a warm, lived-in kitchen. | Two thoughtful friends review household money questions with a notebook and calculator in a modest, lived-in setting. | Two friends compare notes beside a pair of dumbbells in a bright community gym, with one demonstrating a supported squat. | Two friends inspect a color-blocked jacket together, noticing where its dark sleeve rests against a pale body panel when folded. | Two friends pause on an established forest trail to sketch a shallow drainage dip, keeping to the tread as water-darkened soil curves away from the path. | Three generations of a family pause on a public sidewalk to observe a neighborhood storefront sign, with one person taking notes and another checking a historical photograph on a phone.\nNo visible text, logos, watermark, extreme body stereotypes or luxury advertising gloss. Any written content mentioned in the scene concept is thematic context, not a requirement to render legible writing: convey it through the companions, their activity, setting and props. Book pages, labels and credits should be indistinct, with no readable text. This is an AI-generated illustration, not a documentary photograph.",
+  "imageGenerator": "gpt-image-2.5-flare",
+  "imageUsage": "AI-generated editorial illustration; no real people or documentary event.",
+  "imageVisualCheck": {
+    "passed": true,
+    "peopleCount": 2,
+    "issues": []
+  }
+}
