@@ -17,6 +17,7 @@ on:
 
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 
@@ -51,6 +52,13 @@ jobs:
         with:
           path: dist
           name: github-pages-${{ github.run_attempt }}-${{ inputs.revision || github.sha }}
+      - name: Wait for the uploaded artifact metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          PAGES_ARTIFACT: github-pages-${{ github.run_attempt }}-${{ inputs.revision || github.sha }}
+        shell: bash
+        run: bash .github/scripts/wait-pages-artifact.sh
       - name: Deploy the artifact explicitly (bot commits do not trigger branch builds)
         id: deployment
         uses: actions/deploy-pages@v4
