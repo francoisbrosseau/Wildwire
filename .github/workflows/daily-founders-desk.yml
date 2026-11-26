@@ -99,6 +99,7 @@ jobs:
     if: needs.publish.outputs.changed == 'true'
     permissions:
       contents: read
+      actions: read
       pages: write
       id-token: write
     uses: ./.github/workflows/pages.yml

@@ -24,11 +24,11 @@ jobs:
         run: |
           set -euo pipefail
           gh run view "$RUN_ID" --log-failed > failed.log
-          if rg -qi 'insufficient_quota|billing_hard_limit|invalid_api_key|authentication failed|401 Unauthorized|403 Forbidden' failed.log; then
+          if grep -Eqi 'insufficient_quota|billing_hard_limit|invalid_api_key|authentication failed|401 Unauthorized|403 Forbidden' failed.log; then
             echo 'Authentication, permission or quota failure requires intervention.'
             exit 0
           fi
-          if ! rg -qi 'currently overloaded|ETIMEDOUT|ECONNRESET|ECONNREFUSED|EAI_AGAIN|socket hang up|502 Bad Gateway|503 Service Unavailable|504 Gateway|syncing_files|deployment.*timed out|No artifacts named "github-pages-[^"]+" were found for this workflow run|main changed during generation' failed.log; then
+          if ! grep -Eqi 'currently overloaded|ETIMEDOUT|ECONNRESET|ECONNREFUSED|EAI_AGAIN|socket hang up|502 Bad Gateway|503 Service Unavailable|504 Gateway|syncing_files|deployment.*timed out|Pages artifact metadata not visible|No artifacts named "github-pages-[^"]+" were found for this workflow run|main changed during generation' failed.log; then
             echo 'No recognized transient error. Preserve editorial failure for investigation.'
             exit 0
           fi
