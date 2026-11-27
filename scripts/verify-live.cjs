@@ -2,11 +2,6 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { setTimeout: delay } = require('node:timers/promises');
 const root = path.resolve(__dirname, '..');
-const date = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Toronto' }).format(new Date());
-const stories = fs.readdirSync(path.join(root, 'content', 'articles'))
-  .filter(file => file.endsWith('.json'))
-  .map(file => JSON.parse(fs.readFileSync(path.join(root, 'content', 'articles', file), 'utf8')))
-  .filter(article => article.editionDate === date);
 const required = ['Strength', 'Style', 'Explore', 'Culture', 'Living', 'Finance'];
 
 async function get(url) {
@@ -15,7 +10,37 @@ async function get(url) {
   return response;
 }
 
+async function verifyPublicEdition(date, stories, getResponse = get) {
+  const domain = 'https://wildwiremag.com';
+  const request = resource => getResponse(`${domain}${resource}?edition=${Date.now()}`);
+  const [catalogResponse, homeResponse, appResponse] = await Promise.all([
+    request('/js/articles.js'), request('/'), request('/js/app.js'),
+  ]);
+  const [catalog, home, app] = await Promise.all([catalogResponse.text(), homeResponse.text(), appResponse.text()]);
+  const badge = home.match(/THE WILDWIRE JOURNAL · ISSUE \d+ · <time datetime="([^"]+)">([^<]*)<\/time>/);
+  const expectedLabel = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })
+    .format(new Date(`${date}T12:00:00Z`));
+  if (badge?.[1] !== date || badge?.[2].trim() !== expectedLabel) {
+    throw new Error(`Live homepage issue date is ${badge ? `${badge[1]} (${badge[2]})` : 'missing'}; expected ${date} (${expectedLabel}).`);
+  }
+  const loadsCatalog = filename => new RegExp(`<script\\b[^>]*\\bsrc=["'](?:\\./|/)?js/${filename}(?:\\?[^"']*)?["']`, 'i').test(home);
+  const loadsCurrent = loadsCatalog('articles-current\\.js');
+  if ((!loadsCurrent && !loadsCatalog('articles\\.js')) || !app.includes('category-index')) {
+    throw new Error('Live homepage does not load the article catalog and daily edition selector.');
+  }
+  const currentCatalog = loadsCurrent ? await (await request('/js/articles-current.js')).text() : catalog;
+  for (const { id } of stories) {
+    if (!catalog.includes(`"id": "${id}"`)) throw new Error(`Live catalog is missing ${id}`);
+    if (!currentCatalog.includes(`"id": "${id}"`)) throw new Error(`Live homepage catalog is missing ${id}`);
+  }
+}
+
 async function verify() {
+  const date = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Toronto' }).format(new Date());
+  const stories = fs.readdirSync(path.join(root, 'content', 'articles'))
+    .filter(file => file.endsWith('.json'))
+    .map(file => JSON.parse(fs.readFileSync(path.join(root, 'content', 'articles', file), 'utf8')))
+    .filter(article => article.editionDate === date);
   const pillars = stories.filter(article => !article.dailyRead && !article.spiritFeature);
   const spiritFeatures = stories.filter(article => article.spiritFeature === true);
   const dailyReads = stories.filter(article => article.dailyRead === true);
@@ -34,17 +59,8 @@ async function verify() {
   let lastError;
   while (Date.now() < deadline) {
     try {
-      const [catalogResponse, homeResponse, appResponse] = await Promise.all([
-        get(`https://wildwiremag.com/js/articles.js?edition=${Date.now()}`),
-        get(`https://wildwiremag.com/?edition=${Date.now()}`),
-        get(`https://wildwiremag.com/js/app.js?edition=${Date.now()}`),
-      ]);
-      const [catalog, home, app] = await Promise.all([catalogResponse.text(), homeResponse.text(), appResponse.text()]);
-      if ((!home.includes('js/articles-current.js') && !home.includes('js/articles.js')) || !app.includes('category-index')) {
-        throw new Error('Live homepage does not load the article catalog and daily edition selector.');
-      }
+      await verifyPublicEdition(date, stories);
       for (const article of stories) {
-        if (!catalog.includes(`"id": "${article.id}"`)) throw new Error(`Live catalog is missing ${article.id}`);
         if ((await get(`https://wildwiremag.com/${article.image}?edition=${Date.now()}`)).headers.get('content-type')?.startsWith('image/') !== true) {
           throw new Error(`Live image is missing or not served as an image: ${article.image}`);
         }
@@ -63,4 +79,5 @@ async function verify() {
   throw new Error(`Live verification timed out; public deployment state is unconfirmed. Inspect Pages and the live site before rollback. Last result: ${lastError?.message || 'unknown error'}`);
 }
 
-verify().catch(error => { console.error(error.message); process.exitCode = 1; });
+if (require.main === module) verify().catch(error => { console.error(error.message); process.exitCode = 1; });
+module.exports = { verifyPublicEdition };
