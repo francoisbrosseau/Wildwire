@@ -1,9 +1,7 @@
 name: Check the morning WILDWIRE edition
 
 on:
-  schedule:
-    - cron: '50 6,8,10,12 * * *'
-      timezone: America/Toronto
+  # Owner paused WILDWIRE publication on 2026-11-27.
   workflow_dispatch:
 
 permissions:
@@ -17,7 +15,7 @@ concurrency:
 
 jobs:
   verify:
-    if: vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes'
+    if: ${{ false }}
     runs-on: ubuntu-24.04
     timeout-minutes: 12
     steps:
