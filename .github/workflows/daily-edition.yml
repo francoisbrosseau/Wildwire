@@ -1,17 +1,7 @@
 name: WILDWIRE daily edition
 
 on:
-  # Independent recovery clock changes only this marker when today's edition
-  # is missing and no publisher is active. Keep normal pushes API-free.
-  push:
-    branches: [main]
-    paths: ['.github/recover-daily-edition']
-  schedule:
-    - cron: '17 0,2,4,5,11 * * *'
-      timezone: America/Cancun
-    # Daily 08:00 Cancun readiness/recovery checkpoint.
-    - cron: '0 8 * * *'
-      timezone: America/Cancun
+  # Owner paused WILDWIRE publication on 2026-11-27.
   workflow_dispatch:
     inputs:
       dry_run:
@@ -39,11 +29,7 @@ concurrency:
 
 jobs:
   publish:
-    if: >-
-      (github.event_name == 'push' && github.ref_name == github.event.repository.default_branch && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes') ||
-      (github.event_name == 'schedule' && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes') ||
-      (github.event_name == 'workflow_dispatch' && (inputs.dry_run == true ||
-      (inputs.dry_run == false && github.ref_name == github.event.repository.default_branch && vars.WILDWIRE_AUTO_PUBLISH == 'enabled' && vars.WILDWIRE_LIVE_APPROVED == 'yes')))
+    if: ${{ false }}
     runs-on: ubuntu-24.04
     permissions:
       contents: write

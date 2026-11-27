@@ -1,8 +1,8 @@
 name: Recover transient publisher failures
 on:
-  workflow_run:
-    workflows: [WILDWIRE daily edition]
-    types: [completed]
+  # Owner paused WILDWIRE publication on 2026-11-27.
+  workflow_dispatch:
+
 permissions:
   actions: write
   contents: read
@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   recover:
-    if: github.event.workflow_run.conclusion == 'failure' && github.event.workflow_run.head_branch == 'main' && github.event.workflow_run.run_attempt == 1
+    if: ${{ false }}
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:
